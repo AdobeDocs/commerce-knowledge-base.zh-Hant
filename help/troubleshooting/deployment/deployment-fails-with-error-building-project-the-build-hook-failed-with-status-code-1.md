@@ -80,7 +80,7 @@ ht-degree: 0%
 
    使用 [升級至ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) 文章以供參考。
 
-1. 請確定ECE-tools套件存在於 `composer.lock` 檔案，方法是執行下列命令：    <pre><code class="language-bash">grep `<code class="language-yaml">&quot;name&quot;： &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    若已指定，回應會類似於以下範例：    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. 請確定ECE-tools套件存在於 `composer.lock` 檔案，方法是執行下列命令：    <pre><code class="language-bash">grep `<code class="language-yaml">&quot;name&quot;： &quot;magento/ece-tools&quot;</code>` composer.lock</code></pre>    若已指定，回應會類似於以下範例：    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
 
 請參閱 [升級至ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) 文章以供參考。
 
