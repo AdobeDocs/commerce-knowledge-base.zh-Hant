@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 59671ff01a398ad8dc525c8948b5dc5548774cf5
+source-git-commit: 0cb8c7c2e09a5abb97d6c0ba4193826152606546
 workflow-type: tm+mt
-source-wordcount: '10989'
+source-wordcount: '10999'
 ht-degree: 0%
 
 ---
@@ -796,6 +796,7 @@ ht-degree: 0%
          * [ACSD-57337：具有存取限制的管理員使用者可能會看到公司](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57337-admin-user-with-access-restrictions-can-see-companies.md)
          * [ACSD-57394：中按多個排序欄位排序的產品不正確 [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)
          * [ACSD-56546：可設定和套裝產品在店面顯示為無庫存](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56546-configurable-and-bundle-products-display-as-out-of-stock-on-the-storefront.md)
+         * [ACSD-56741：疑難排解自訂MySQL觸發器的資料庫設定錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56741-database-setup-upgrade-error-with-custom-mysql-trigger.md)
          * [ACSD-55566： [!UICONTROL mergeCart] 變異失敗，發生內部伺服器錯誤 [!DNL GraphQL] 回應](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-55566-mergecart-mutation-fails-with-an-internal-server-error-in-graphql-response.md)
          * [ACSD-58008：將結束日期編輯為空白會導致排程更新消失](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-58008-editing-the-end-date-as-empty-causes-the-schedule-update-to-disappear.md)
          * [ACSD-57854： GraphQL回應包含停用的類別，這些類別不應列在類別彙總中](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57854-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
