@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: c4c2ae504a5ecd699ab2fa92c07edb0d0942fd76
+source-git-commit: 2db8eeb5bbe473db895bc092462b77de39af3e6d
 workflow-type: tm+mt
-source-wordcount: '10961'
+source-wordcount: '10975'
 ht-degree: 0%
 
 ---
@@ -791,6 +791,7 @@ ht-degree: 0%
          * [ACSD-56858：B2B公司管理員中的角色許可權差異](/help/support-tools/patches-available-in-qpt-tool/v1-1-47/acsd-56858-role-permissions-display-issue-in-b2b-company-admin-panel.md)
       * v1.1.48 {#v1-1-48}
          * [概觀： [!DNL Quality Patches Tool] (QPT) v1.1.48](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/overview.md)
+         * [ACSD-57315：新交易建立於 [!DNL PayPal Payflow Pro] 每次按一下擷取按鈕時](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57315-new-transaction-created-in-paypal-payflow-pro-each-time-the-fetch-button-is-clicked.md)
          * [ACSD-56635：帳戶共用設為時，會複製匯入的客戶 [!DNL Global]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-56635-imported-customers-are-duplicated-with-the-same-email-address.md)
          * [ACSD-57337：具有存取限制的管理員使用者可能會看到公司](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57337-admin-user-with-access-restrictions-can-see-companies.md)
          * [ACSD-57394：中按多個排序欄位排序的產品不正確 [!DNL GraphQL]](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57394-incorrect-product-sorting-by-multiple-sort-fields-in-graphql.md)
