@@ -1,0 +1,51 @@
+---
+title: Adobe Commerce 2.4.x中的完全相符搜尋無法運作
+description: 本文澄清了在Adobe Commerce 2.4.x中使用相同搜尋字串的商店前端搜尋結果，與Adobe Commerce 2.3.x不同的問題。
+exl-id: 0867558e-1d74-4b83-abf3-651ca7fc32cb
+feature: Products, Search
+role: Developer
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '258'
+ht-degree: 0%
+
+---
+
+# Adobe Commerce 2.4.x中的完全相符搜尋無法運作
+
+本文澄清了在Adobe Commerce 2.4.x中使用相同搜尋字串的商店前端搜尋結果，與Adobe Commerce 2.3.x不同的問題。
+
+## 受影響的產品和版本
+
+- Adobe Commerce （所有部署方法） 2.4.x、2.3.x
+- 即時搜尋
+
+## 問題
+
+<u>先決條件：</u>
+
+您有屬性值產品 `Saga 1` 和 `Saga 16` 在Adobe Commerce 2.3和Adobe Commerce 2.4商店中。
+
+<u>要再現的步驟：</u>
+
+1. 在Adobe Commerce 2.3供電商店正面的商店中，輸入 *佐賀1* 在搜尋欄位中並按一下 **搜尋**.
+1. 請注意，在搜尋結果中，您只會取得具有屬性值的產品 `Saga 1`.
+1. 在Adobe Commerce 2.4供電商店正面的商店中，輸入 *佐賀1* 在搜尋欄位中並按一下 **搜尋**.
+
+<u>實際結果：</u>
+
+2.4中的搜尋結果包含具有屬性值的產品 `Saga 1` 和 `Saga 16`.
+
+<u>預期結果：</u>
+
+2.4中的搜尋結果與2.3類似，僅包含具有屬性值的產品 `Saga 1`.
+
+## 原因
+
+2.3.x中使用的Adobe Commerce原生搜尋功能提供完全相符的搜尋結果。 雖然隨Adobe Commerce 2.4.x發行可供安裝的選用模組即時搜尋實作方式不同，但實際結果為使用模組時的預期行為。
+
+## 相關閱讀
+
+[安裝Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) 在我們的使用手冊中。
+
+[即時搜尋](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) （位於我們的開發人員檔案中）。

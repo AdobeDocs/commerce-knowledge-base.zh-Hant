@@ -1,0 +1,46 @@
+---
+title: Redis服務當機
+description: 本文會介紹如何修正Redis。
+exl-id: 5eb8fb70-0f41-433a-8d3f-c368781a2d1d
+feature: Services
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 0%
+
+---
+
+# Redis服務當機
+
+本文會介紹如何修正Redis。
+
+## 受影響的產品和版本
+
+* 雲端基礎結構上的Adobe Commerce 2.2.x.、2.3.x
+* Adobe Commerce內部部署2.2.x.、2.3x
+* 所有Redis版本
+
+## 問題
+
+由於Redis中的記憶體溢位，網站速度變慢或中斷。
+
+## 原因
+
+記憶體溢位可能會導致Redis服務當機。 在高峰期間，Redis服務所需的記憶體可能會超過目前配置的記憶體。
+
+## 解決方案
+
+若要檢查目前的組態和使用的記憶體，請在CLI中執行下列命令。 它會檢查已使用的記憶體、最大記憶體、已收回金鑰以及Redis啟動時間（以天為單位）：
+
+```
+redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
+```
+
+此 *REDIS\_PORT* 和 *REDIS\_HOST* 變數可從中擷取 `app/etc/env.php`.
+
+如果執行上述查詢的輸出顯示可用記憶體的百分比小於40%， [向Adobe Commerce支援提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 請求增加 `maxmemory` Redis伺服器的設定。 如果收回的索引鍵值不是「0」或Redis啟動時間（以天為單位）等於0 （表示Redis今天已當機），您也應該 [向Adobe Commerce支援提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 要求對此問題進行調查與修正。
+
+## 相關閱讀
+
+若要進一步瞭解Redis記憶體，請參閱 [Redis記憶體最佳化](https://redis.io/topics/memory-optimization).

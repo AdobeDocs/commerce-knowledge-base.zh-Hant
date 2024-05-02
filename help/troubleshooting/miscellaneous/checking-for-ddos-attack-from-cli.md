@@ -1,0 +1,58 @@
+---
+title: 正在檢查來自CLI的DDoS攻擊
+description: 本文會討論如何嘗試從伺服器的命令列介面(CLI)檢查分散式拒絕服務(DDoS)攻擊的問題。
+exl-id: dfdef289-cf51-42d7-b3fb-d4d2d3760951
+feature: Observability
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '664'
+ht-degree: 0%
+
+---
+
+# 正在檢查來自CLI的DDoS攻擊
+
+本文會討論如何嘗試從伺服器的命令列介面(CLI)檢查分散式拒絕服務(DDoS)攻擊的問題。
+
+## 受影響的產品和版本
+
+* Adobe Commerce，所有版本
+* Magento Open Source，所有版本
+
+## 問題
+
+您的網站速度很慢，而且除了CLI之外，您無權存取任何其他分析應用程式工具來檢查是否存在DDoS攻擊。 DDoS攻擊的症狀會因您的網路組態、使用的軟體等而有很大的差異。
+
+不過，建議您使用專門設計來協助識別DDoS攻擊的分析軟體產品。
+
+## 原因
+
+網站速度緩慢的可能原因有很多，包括伺服器效能緩慢、CPU使用率高，或指令碼、程式碼或廉價硬體中的設定錯誤。 有時可能是由於DDoS攻擊所造成。 您必須檢查DDoS攻擊的兩個基本工具是Adobe Commerce記錄檔和CLI。
+
+同樣需要注意的是，使用專門設計來識別DDoS攻擊的軟體對於您的調查非常有用。
+
+## 解決方案步驟
+
+1. 檢查Adobe Commerce記錄檔以檢視是否發生DDoS攻擊以外的其他情況。 如需詳細資訊，請參閱開發人員檔案中的下列文章：
+   * [Adobe Commerce和Magento Open Source記錄檔位置](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
+   * [雲端基礎結構上的Adobe Commerce記錄位置](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
+1. 開始使用CLI來檢查您目前所有的網際網路連線，使用 `netstat` 命令： `netstat -na`. 這會顯示所有使用中建立的伺服器連線。 在這裡，您可能會注意到來自相同IP位址的連線過多。
+1. 若要將已建立的連線結果進一步縮小為僅連線至連線埠80 （您網站的http連線埠）的連線，以便您能夠排序和識別來自一個IP位址或IP位址群組的過多連線，請使用以下命令： `netstat -an | grep :80 | sort`. 您可以對連線埠443上的https重複相同的命令： `netstat -an | grep :443 | sort`. 另一個選項是將原始指令同時延伸至連線埠80和443： `netstat -an | egrep ":80|:443" | sort`.
+1. 若要檢視是否有許多使用中 `SYNC_REC` 在伺服器上發生，請使用命令：     `netstat -n -p|grep SYN_REC | wc -l`     這個值通常小於5，但若是DDoS攻擊，可能會高很多，不過對於某些伺服器，數字可能會高一些，這是正常情況。
+1. 列出傳送的所有IP位址 `SYNC_REC` 狀態，使用命令： `netstat -n -p | grep SYN_REC | sort -u`.
+1. 若要進一步列出所有傳送的唯一IP位址 `SYNC_REC` 狀態，使用命令： `netstat -n -p | grep SYN_REC | awk ‘{print $5}’ | awk -F: ‘{print $1}’`.
+1. 您也可以使用 `netstat` 用於計數和計算每個IP位址與伺服器連線的命令： `netstat -ntu | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -n`.
+1. 若要列出連線到伺服器的UDP或TCP通訊協定連線計數，請使用命令： `netstat -anp |grep ‘tcp|udp’ | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -n`.
+1. 若要檢查已建立的連線（而不僅僅是所有連線）並顯示每個IP位址的連線計數，請使用命令： `netstat -ntu | grep ESTAB | awk ‘{print $5}’ | cut -d: -f1 | sort | uniq -c | sort -nr`.
+1. 若要顯示依連線埠80的IP位址列出的連線計數，請使用命令： `netstat -plan|grep :80|awk {‘print $5’}|cut -d: -f 1|sort|uniq -c|sort -nk 1`.
+
+請務必找人為您找到的資料進行適當的分析，以判斷您是否確實遭受DDoS攻擊。 使用 `netstat` 上述步驟中來自伺服器CLI的指令可協助您分析是否遭受DDoS攻擊，但使用專門設計來協助識別DDoS攻擊的軟體分析產品，以及適當的分析，是您識別DDoS威脅的最佳工具。
+
+如果您發現受到DDoS攻擊，您可以採取的步驟取決於您的網路設定以及DDoS攻擊是如何發生的，但一般建議是連絡您的ISP、為您的伺服器取得新的IP位址，和/或洽詢熟練處理DDoS問題的IT專業人員，以分析您的特定情況並提供建議。
+
+## 開發人員檔案中的相關閱讀：
+
+* [DDoS保護](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
+* [使用CLI命令](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
+* [適用於Commerce的Cloud CLI](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)

@@ -1,0 +1,26 @@
+---
+title: '''概述： [!DNL Quality Patches Tool] (QPT) v1.1.31呎'
+description: 此小節提供中可用修補程式所修正問題的詳細說明。 [!DNL Quality Patches Tool] (QPT) v1.1.31。
+exl-id: 0d93619e-0ae6-4dba-9b76-8aeb026c456d
+feature: Tools and External Services
+role: Admin
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+workflow-type: tm+mt
+source-wordcount: '171'
+ht-degree: 0%
+
+---
+
+# 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.31
+
+此小節提供中可用修補程式所修正問題的詳細說明。 [!DNL Quality Patches Tool] (QPT) v1.1.31。
+
+QPT v1.1.31包含下列修補程式：
+
+1. **ACSD-50817**：最佳化cron工作 `sales_clean_quotes` 透過新增複合索引加快執行速度 `store_id` 和 `updated_at` 引號表格中的欄。
+1. **ACSD-50345**：修正下列問題： [!DNL Google reCAPTCHA v2] 在提交失敗的付款後不會重新載入， [!DNL Google reCAPTCHA v3 Invisible] 無法正常結帳，且無法下訂單；以及 [!UICONTROL PlaceOrder] 事件未觸發。
+1. **ACSD-49392**：修正套件產品的部分退款後，訂單狀態變更為已關閉的問題。
+1. **ACSD-51036**：修正同時REST API呼叫期間的競爭條件導致 [!UICONTROL Items Ordered] 表格。
+1. **ACSD-50858**：修正信用卡付款失敗後，優惠券錯誤地標示為使用的問題。
+
+使用左側的功能表，導覽至特定的修補程式頁面。

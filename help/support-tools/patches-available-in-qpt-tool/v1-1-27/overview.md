@@ -1,0 +1,32 @@
+---
+title: 「概述：品質修補工具(QPT) v1.1.27」
+description: 此小節提供中可用修補程式所修正問題的詳細說明。 [!UICONTROL Quality Patches Tool] (QPT) v1.1.27。
+exl-id: 81fdbf11-a8f2-49c5-b283-fdac0eaaeaa5
+feature: Tools and External Services
+role: Admin
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '265'
+ht-degree: 0%
+
+---
+
+# 概覽：品質修補工具(QPT) v1.1.27
+
+此小節提供中可用修補程式所修正問題的詳細說明。 [!UICONTROL Quality Patches Tool] (QPT) v1.1.27。
+
+QPT v1.1.27包含下列修補程式：
+
+1. ACSD-48362：修正使用可轉讓報價下訂單時，使用預設送貨地址而非新地址的問題。
+1. ACSD-48059：修正的問題 [!UICONTROL Visual Merchandiser] 商家無法儲存&quot;[!UICONTROL Match product by rule]的&quot; [!UICONTROL Categories] 屬性。
+1. ACSD-48216：修正以下問題： [!UICONTROL AUTO_INCREMENT] 的 [!UICONTROL inventory_source_item] 表格於 [!UICONTROL UPDATE] 作業。
+1. ACSD-47908：修正在結帳期間，在運送步驟上選取來源和數量時，出現「預期值小於或等於0」的錯誤。
+1. ACSD-49497：修正訂單在出貨後仍為處理狀態，且套用部分退款的問題。
+1. ACSD-48694：修正錯誤「要求的狀態變更無效」導致客戶無法下訂單的問題。
+1. ACSD-49013：修正使用大量API建立客戶時，電子郵件確認未轉譯為網站地區設定的問題。
+1. ACSD-48164：修正受限管理員無法儲存網站層級值的問題。
+1. ACSD-48404：修正以下問題： [!UICONTROL Remember Category Pagination] = [!UICONTROL Yes] 按下瀏覽器的後退按鈕時發生錯誤。
+1. ACSD-48634：修正測試更新頁面上的JS錯誤，當 [!UICONTROL Google Analytics Content Experiments] 已啟用。
+1. ACSD-49042：修正無法從店面訂購無限延期交貨的產品的問題。
+
+使用左側的功能表，導覽至特定的修補程式頁面。

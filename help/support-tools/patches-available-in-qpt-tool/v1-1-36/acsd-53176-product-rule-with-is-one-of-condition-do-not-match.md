@@ -1,0 +1,71 @@
+---
+title: '''ACSD-53176：具有''is one of''條件的產品規則不符合'''
+description: 套用ACSD-53176修補程式以修正Adobe Commerce問題，該問題導致相關產品規則「為其中一項」條件無法正確用於「相符產品」。
+feature: Marketing Tools
+role: Admin
+exl-id: 91f05f5b-6a5e-4b93-9dfb-88cbeccb6c9e
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 0%
+
+---
+
+# ACSD-53176：產品規則搭配 `is one of` 條件不符
+
+ACSD-53176修補程式修正了相關產品規則的問題 `is one of` 條件無法正確運作於 **要比對的產品**. 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.36。 修補程式ID為ACSD-53176。 請注意，問題已在Adobe Commerce 2.4.7中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.4-p1
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.3.7 - 2.4.5-p4
+
+>[!NOTE]
+>
+>此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+相關的產品規則 `is one of` 條件無法正確運作於 **要比對的產品**.
+
+<u>要再現的步驟</u>：
+
+1. 建立3-4個產品。
+1. 建立新的相關產品規則。
+
+   設定規則以符合兩個或多個產品：
+   * `SKU is one of "S1,S2".`
+
+   設定規則以顯示兩個或多個專案：
+   * `Product SKU is one of constant value "S2,S3".`
+
+1. 開啟店面上的S1產品。
+
+<u>預期結果</u>：
+
+相關產品「S2」和「S3」會顯示在產品頁面「S1」和「S2」上。
+
+<u>實際結果</u>：
+
+相關產品不會顯示在產品頁面上。
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署方法使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+
+## 相關閱讀
+
+若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+
+* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
+* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。

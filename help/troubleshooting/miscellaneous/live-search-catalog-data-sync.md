@@ -1,0 +1,136 @@
+---
+title: 即時搜尋目錄未同步
+description: 本文針對Adobe Commerce問題提供解決方案，解決您在使用Live Search擴充功能時，目錄資料無法正確同步的問題。
+exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
+feature: Catalog Management, Search
+role: Developer
+source-git-commit: a1b049dab989d5d8594d86b64b778e6e277a9f41
+workflow-type: tm+mt
+source-wordcount: '662'
+ht-degree: 0%
+
+---
+
+# 即時搜尋目錄未同步
+
+本文針對Adobe Commerce問題提供解決方案，解決您在使用Live Search擴充功能時，目錄資料無法正確同步的問題。
+
+## 受影響的產品和版本
+
+* Adobe Commerce 2.4.x （已安裝Live Search擴充功能）
+
+## 問題
+
+您的目錄資料未正確同步，或已新增產品，但未顯示在搜尋結果中。
+
+<u>要再現的步驟</u>
+
+1. 依照中的說明，為您的Adobe Commerce執行個體設定並連線即時搜尋 [安裝Live Search >設定API金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) 在我們的使用者檔案中。
+1. 30分鐘後，驗證匯出的目錄資料，如所述 [安裝即時搜尋>驗證匯出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) 在我們的使用者檔案中。
+1. 30分鐘後，依照中所述測試連線 [安裝「即時搜尋」>測試連線](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) 在我們的使用者檔案中。
+
+或
+
+1. 將新產品新增至目錄。
+1. 在執行時間Magento索引器+ cron後的15-20分鐘內，嘗試使用產品名稱或其他可搜尋屬性執行搜尋查詢，以將資料同步到後端服務。
+
+<u>預期結果</u>
+
+* 可驗證匯出的目錄資料
+* 連線成功
+* 新產品會出現在搜尋結果中。
+
+<u>實際結果</u>
+
+無法驗證匯出的目錄，而且/或者因為API金鑰已變更，所以未建立連線。
+
+## 解決方案
+
+您有數個動作可以嘗試並修正目錄同步問題。
+
+### 等待套用變更
+
+設定並連線後，可能要花30分鐘以上的時間建立ES (Elasticsearch)中的索引並傳回搜尋結果。 後續的一次性產品更新預計會在幾分鐘內編列索引。
+
+### 同步特定SKU的產品資料
+
+如果特定SKU的產品資料未正確同步，請執行以下操作：
+
+1. 使用下列SQL查詢，並確認您有您預期在 `feed_data` 欄。 此外，請記下 `modified_at` 時間戳記。
+
+   ```sql
+   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   ```
+
+1. 如果您沒有看到正確的資料，請嘗試使用下列命令重新索引，並在步驟1重新執行SQL查詢以驗證資料：
+
+   ```bash
+   bin/magento indexer:reindex catalog_data_exporter_products
+   ```
+
+1. 如果您還是沒看到正確的資料， [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+
+### 檢查上次產品匯出的時間戳記
+
+1. 如果您在中看到正確的資料 `catalog_data_exporter_products`，使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在 `modified_at` 時間戳記：
+
+   ```sql
+   select * from flag where flag_code = 'products-feed-version';
+   ```
+
+1. 如果時間戳記較舊，您可以等待下一個cron執行，或使用下列命令自行觸發：
+
+   ```bash
+   bin/magento cron:run --group=saas_data_exporter
+   ```
+
+1. 等待 `<>` 時間（增量更新的時間）。 如果您還是沒看到資料， [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+
+### 同步特定屬性代碼
+
+如果特定屬性代碼的產品屬性資料未正確同步，請執行以下操作：
+
+1. 使用下列SQL查詢，並確認您有您預期在 `feed_data` 欄。 此外，請記下 `modified_at` 時間戳記。
+
+   ```sql
+   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   ```
+
+1. 如果您沒有看到正確的資料，請使用下列命令重新索引，然後在步驟1中重新執行SQL查詢以驗證資料。
+
+   ```bash
+   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   ```
+
+1. 如果您還是沒看到正確的資料， [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+
+### 檢查上次產品屬性匯出的時間戳記
+
+如果您在中看到正確的資料 `catalog_data_exporter_product_attributes`：
+
+1. 使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在 `modified_at` 時間戳記。
+
+   ```sql
+   select * from flag where flag_code = 'product-attributes-feed-version';
+   ```
+
+1. 如果時間戳記較舊，您可以等待下一個cron執行，或使用下列命令自行觸發：
+
+   ```bash
+   bin/magento cron:run --group=saas_data_exporter
+   ```
+
+1. 等待15到20分鐘（累加更新的時間）。 如果您還是沒看到資料，請 [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+
+### API設定變更後同步
+
+（已知問題）如果您已變更API設定，而導致資料空間ID變更，並發現目錄變更不再同步，請執行以下命令：
+
+```bash
+bin/magento saas:resync --feed products
+bin/magento saas:resync --feed productattributes
+```
+
+## 相關閱讀
+
+另請參閱 [上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) 在我們的使用者檔案中。

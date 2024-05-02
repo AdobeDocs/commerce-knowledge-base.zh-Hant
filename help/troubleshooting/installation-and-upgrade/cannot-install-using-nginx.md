@@ -1,0 +1,34 @@
+---
+title: 無法使用nginx進行安裝
+description: 本文修正使用nginx網頁伺服器時Adobe Commerce安裝失敗的問題。
+exl-id: 0af90c7e-0733-41c8-b217-9595b133fa95
+feature: Install, Upgrade
+role: Developer
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 0%
+
+---
+
+# 無法使用nginx進行安裝
+
+本文修正使用nginx網頁伺服器時Adobe Commerce安裝失敗的問題。
+
+## 問題
+
+如果您使用nginx網頁伺服器，並嘗試安裝Adobe Commerce軟體，安裝有時會失敗。
+
+## 解決方案
+
+您可以透過以下錯誤確認問題： `var/report` 目錄：
+
+```php
+NOTE: You cannot install Adobe Commerce using the Setup Wizard because the Adobe Commerce setup directory cannot be accessed.
+You can install Adobe Commerce using either the command line or you must restore access to the following directory: /var/www/html/setup
+If you are using the sample nginx configuration, please go to http://ce.mtf03.bcn.magento.com/setup/";i:1;s:641:"#0 /var/www/html/lib/internal/Magento/Framework/App/Http.php(213): Magento\Framework\App\Http->redirectToSetup(Object(Magento\Framework\App\Bootstrap), Object(Exception))
+```
+
+### 因應措施
+
+使用安裝Adobe Commerce軟體 [命令列](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html).

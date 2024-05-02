@@ -1,0 +1,49 @@
+---
+title: robots.txt未更新或顯示預設設定
+description: 文章提供已正確設定'robots.txt'時的解決方案，例如，根據[Adobe Commerce robots.txt的最佳實務](https://support.magento.com/hc/en-us/articles/360048754931)，但'robots.txt'未更新或顯示預設設定。
+exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
+feature: Configuration
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 0%
+
+---
+
+# robots.txt未更新或顯示預設設定
+
+文章提供解決方案，供您設定後 `robots.txt` 正確，例如根據 [Adobe Commerce robots.txt的最佳作法](https://support.magento.com/hc/en-us/articles/360048754931) 但是 `robots.txt` 未更新或顯示預設設定。
+
+## 受影響的產品和版本
+
+* 雲端基礎結構上的Adobe Commerce 2.3.x、2.4.x
+
+## 問題
+
+無法變更預設值 `robots.txt` 設定。
+
+<u>要再現的步驟：</u>
+
+1. 存取「管理員」面板。
+1. 新增內容至 **內容** >設計> **設定** > **編輯的自訂指令`robots.txt`** 檔案，例如文字「hello」並儲存變更。
+1. 造訪 `robots.txt` url。
+
+<u>預期結果：</u>
+`robots.txt` 有已儲存的文字。
+
+<u>實際結果：</u>
+
+`robots.txt` 檔案不會變更。
+
+## 原因
+
+搜尋引擎的索引已關閉。
+
+## 解決方案
+
+依搜尋引擎啟用索引。 另請參閱 [依搜尋引擎設定索引](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) （位於我們的開發人員檔案中）。
+
+## 相關閱讀
+
+* [新增網站地圖和搜尋引擎自動機制](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) （位於我們的開發人員檔案中）。

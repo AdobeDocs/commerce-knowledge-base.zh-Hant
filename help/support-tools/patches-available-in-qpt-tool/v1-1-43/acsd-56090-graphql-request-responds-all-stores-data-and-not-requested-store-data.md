@@ -1,0 +1,91 @@
+---
+title: 'ACSD-56090： GraphQL回應不是存放區專用'
+description: 套用ACSD-56090修補程式以修正GraphQL回應包含所有存放區資料（而非存放區特定資料）的Adobe Commerce問題。
+feature: GraphQL
+role: Admin, Developer
+exl-id: 129491e0-1a77-4ccc-8aba-cd0afdb26176
+source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+workflow-type: tm+mt
+source-wordcount: '377'
+ht-degree: 0%
+
+---
+
+# ACSD-56090： GraphQL回應不是特定於存放區
+
+ACSD-56090修補程式修正GraphQL回應包含所有存放區資料（而非存放區特定資料）的問題。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.43。 修補程式ID為ACSD-56090。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.4-p3
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.4.2 - 2.4.6-p3
+
+>[!NOTE]
+>
+>此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+GraphQL回應包含所有存放區資料，而非存放區特定資料。
+
+<u>要再現的步驟</u>：
+
+1. 登入 **[!UICONTROL Admin panel]** > **[!UICONTROL Catalog]** > **[!UICONTROL Categories]** 和建立兩個根類別。
+1. 每個根類別都應該有一個子類別。
+1. 瀏覽至 **[!UICONTROL Stores]** > **[!UICONTROL All stores]** >有兩個存放區具有各自的根類別。 （每個商店至少應有一個商店檢視）
+1. 前往 **[!UICONTROL Catalog]** > **[!UICONTROL Products]** >使用建立產品
+
+* 指派的所有根及子類別
+* 已指派所有網站。
+
+1. 執行GraphqQL查詢（新增標題 — 儲存= &#39;storename ）：
+
+```
+   query {
+     products(filter: { url_key: { eq: "abc" } }) {
+       items {
+         categories {
+           name
+           id
+           url_path
+           breadcrumbs {
+             category_id
+             category_name
+             category_level
+           }
+         }
+       }
+     }
+   }
+```
+
+1. 執行GraphqQL查詢後檢查回應。
+
+<u>預期結果</u>：
+
+會傳回存放區特定資料
+
+<u>實際結果</u>：
+
+傳回的資料不是儲存區所專屬的。
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署方法使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+
+## 相關閱讀
+
+若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+
+* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
+* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。

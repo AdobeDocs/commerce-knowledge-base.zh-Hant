@@ -1,0 +1,82 @@
+---
+title: 'MDVA-43178：無法在GraphQL中擷取自訂存放區的客戶權杖'
+description: MDVA-43178修補程式修正無法在GraphQL中擷取自訂存放區之客戶權杖的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14時，即可使用此修補程式。 修補程式ID為MDVA-43178。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
+exl-id: b2a8bf96-7534-41d2-b83b-58d8e0b6d076
+feature: GraphQL
+role: Admin
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 0%
+
+---
+
+# MDVA-43178：無法在GraphQL中擷取自訂存放區的客戶權杖
+
+MDVA-43178修補程式修正無法在GraphQL中擷取自訂存放區之客戶權杖的問題。 此修補程式適用於 [品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.14。 修補程式ID為MDVA-43178。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.1
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.4.3-p1 - 2.4.4
+
+>[!NOTE]
+>
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+無法在GraphQL中擷取自訂存放區的客戶權杖。
+
+<u>要再現的步驟</u>：
+
+1. 為預設存放區建立兩個存放區檢視。
+1. 建立新網站、一個商店和一個商店檢視。 將此存放區檢視命名為「test3」。
+1. 為新網站建立客戶。
+1. 產生API管理權杖：
+
+   `http://domain/rest/all/V1/integration/admin/token`
+
+   <pre>
+    <code class="language-graphql">
+    {
+      "username": "login",
+      "password": "password"
+    }
+    </code>
+    </pre>
+
+1. 傳送GraphQL以管理員身分擷取客戶權杖，使用管理員權杖進行授權，並在標頭中標示「store」 = 「test3」：
+
+   <pre>
+    <customer_email>
+      </pre>
+
+<u>預期結果</u>：
+
+已產生客戶Token。
+
+<u>實際結果</u>：
+
+未產生客戶Token。 商家 *提供的客戶電子郵件不存在* 回應。
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署方法使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+
+## 相關閱讀
+
+若要進一步瞭解「品質修補程式」工具，請參閱：
+
+* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
+* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [QPT中可用的修補程式](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) （位於我們的開發人員檔案中）。

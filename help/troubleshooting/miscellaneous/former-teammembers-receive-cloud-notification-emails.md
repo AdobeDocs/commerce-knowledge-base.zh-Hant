@@ -1,0 +1,34 @@
+---
+title: 前團隊成員會收到Adobe Commerce雲端通知電子郵件
+description: 本文為Adobe Commerce提供傳送給前團隊成員的雲端基礎結構通知電子郵件的解決方案。
+exl-id: b2535f66-8aec-4ddf-9a69-60879a0a1939
+feature: Cloud, Communications, Paas
+role: Developer
+source-git-commit: 075f295c5b600fcca9fbecc5aad20b0640d900f9
+workflow-type: tm+mt
+source-wordcount: '227'
+ht-degree: 0%
+
+---
+
+# 前團隊成員會收到Adobe Commerce雲端通知電子郵件
+
+本文提供的解決方案可讓不再與專案關聯的團隊成員繼續接收通知。
+
+## 問題
+
+有關雲端專案/環境的偵測到中斷或重要問題的通知已傳送給您的團隊。 這包括可能不再與您專案相關聯的成員，例如外部/機構開發人員或系統整合商。 您希望這些使用者停止接收通知。
+
+## 解決方案
+
+有兩種方式可透過從專案中移除使用者來停止通知：
+
+* 方法1：使用雲端 [!DNL Project URL]. 請參閱 [管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 雲端基礎結構指南中的Commerce步驟說明。
+* 方法2：使用magento-cloud [!DNL CLI]. 請參閱 [使用管理使用者 [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli) 雲端基礎結構指南中的Commerce步驟說明。
+
+如果這已完成但電子郵件通知仍繼續包含這些使用者，請提交支援票證以請求將其從 *[!UICONTROL Always CC]* 在帳戶上設定。
+
+## 相關閱讀
+
+* [檢視使用者的專案角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user的 — project-role) 雲端基礎結構指南中的Commerce 。
+* [如何在支援通知中加入團隊成員](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html) (位於Commerce KB)。

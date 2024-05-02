@@ -1,0 +1,60 @@
+---
+title: 2.3.4 PayPal問題Hotfix
+description: 本文提供在PayPal Express結帳中選取地區時，針對下訂單期間收到的錯誤進行修正。 此問題是由於Adobe Commerce v2.3.4版本中的變更所造成，且與PayPal Express結帳位址列位的剖析方式有關。
+exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
+feature: Orders, Payments
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '359'
+ht-degree: 0%
+
+---
+
+# 2.3.4 PayPal問題Hotfix
+
+本文提供在PayPal Express結帳中選取地區時，針對下訂單期間收到的錯誤進行修正。 此問題是由於Adobe Commerce v2.3.4版本中的變更所造成，且與PayPal Express結帳位址列位的剖析方式有關。
+
+## 受影響的版本和產品
+
+* 雲端基礎結構上的Adobe Commerce v2.3.4
+* Adobe Commerce內部部署v2.3.4
+
+## 問題
+
+在PayPal Express結帳的訂單放置期間輸入國家/地區時發生錯誤。 對於地址區段中的區域欄位是文字欄位（與下拉式功能表相反）的任何國家/地區，此問題都可重複出現。
+
+<u>要再現的步驟</u> ：
+
+1. 啟用PayPal Express簽出。
+1. 以訪客身份或您登入時，將產品新增至購物車。
+1. 前往結帳。
+1. 選取您的運送地址。 例如， *UK* . 然後，將輸入輸入至 **州/省** 欄位。 例如， *諾丁漢郡*.
+1. 按一下 **下單** 按鈕下單。 您會收到成功的訂單頁面和訂單確認電子郵件。
+
+<u>預期結果：</u>
+
+已成功下訂單。
+
+<u>實際結果：</u>
+
+若按一下訂單按鈕，便會顯示錯誤：
+
+```
+Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a member
+  function getId() on null in httpdocs/vendor/magento/module-paypal/Model/Api/Nvp.php:1527
+```
+
+## 解決方案
+
+對於Adobe Commerce內部部署商家：套用 [hotfix，](https://magento.com/tech-resources/download#download2353) 此頁面可從的「下載」區段取得： [magento.com](https://magento.com) 我的帳戶中的入口網站。
+
+雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱 [Commerce的雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) 在開發人員檔案中，尋找套用最新套件的指示。
+
+## 如何套用修正程式
+
+如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+
+## 相關閱讀
+
+* [發行資訊> Adobe Commerce 2.3.4發行說明>套用Adobe Commerce 2.3.4區域修補程式的PayPal Express簽出問題以解決關鍵PayPal Express簽出問題](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) （位於我們的開發人員檔案中）。

@@ -1,0 +1,75 @@
+---
+title: 「ACSD-52906：解決已登入客戶快取的X-Magento差異Cookie問題」
+description: 套用ACSD-52906修補程式以修正登入客戶的X-Magento差異Cookie設定不正確的Adobe Commerce問題。
+feature: Cache
+role: Admin, Developer
+exl-id: 863e0808-9208-467d-8d56-9dd7a7f4354d
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+workflow-type: tm+mt
+source-wordcount: '395'
+ht-degree: 0%
+
+---
+
+# ACSD-52906：為登入的客戶解決XMagento差異Cookie問題
+
+ACSD-52906修補程式修正了登入客戶的X-Magento差異Cookie設定不正確的問題。 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.36。 修補程式ID為ACSD-52906。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.4-p3
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.3.7 - 2.4.6-p2
+
+>[!NOTE]
+>
+>此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+屬於相同客戶區段的已登入客戶若未正確設定XMagento差異Cookie，會導致部分頁面快取錯誤。
+
+<u>必要條件</u>：
+
+Adobe Commerce Inventory management (MSI)模組已安裝並啟用。
+
+<u>要再現的步驟</u>：
+
+1. 設定 [!DNL Varnish] 或 [!DNL Fastly] 快取。
+1. 建立新的客戶區段並將其指派至 *已註冊* 客戶。
+1. 建立兩個客戶，例如customer1和customer2。
+1. 清除快取。
+1. 以customer1身分登入，並前往首頁。
+1. 在瀏覽器上開啟無痕頁面。
+1. 移至首頁以外的任何頁面。
+1. 以customer2身分登入。
+1. 移至首頁。
+1. 檢查是否已在瀏覽器開發主控台中快取頁面。
+
+<u>預期結果</u>：
+
+頁面會從快取中擷取。
+
+<u>實際結果</u>：
+
+不會快取頁面。
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署方法使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+
+## 相關閱讀
+
+若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+
+* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
+* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。

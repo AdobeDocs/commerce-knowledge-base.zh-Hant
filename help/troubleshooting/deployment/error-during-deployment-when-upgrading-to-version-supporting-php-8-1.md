@@ -1,0 +1,48 @@
+---
+title: 升級至支援PHP 8.1的版本時，在部署期間發生錯誤
+description: 本文提供在升級至支援PHP 8.1的版本時，針對部署期間發生的錯誤提供的解決方案。
+exl-id: bdc4a355-4f2b-49a7-9c5d-63c950f7ca30
+feature: Deploy, Observability
+role: Developer
+source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 0%
+
+---
+
+# 升級至支援PHP 8.1的版本時，在部署期間發生錯誤
+
+本文提供在升級至支援PHP 8.1的版本時，針對部署期間發生的錯誤提供的解決方案。
+
+## 受影響的產品和版本
+
+* 雲端基礎結構上的Adobe Commerce 2.4.4和更新版本
+
+* 擴充功能或技術(Fastly、New Relic等) PHP 8.1版
+
+## 問題
+
+當升級至支援PHP 8.1的版本時，在部署期間會發生下列錯誤。
+
+```PHP
+{{E: Error parsing configuration files:
+
+applications: Uncaught exception: The "json" extension is not supported for php:8.1
+at <script>:109:12
+throw("The \"" + unsupported_extensions[0] + "\" extension is not supported for " + service.type);
+^
+E: Error: Invalid configuration files, aborting build}}
+```
+
+## 原因
+
+PHP 8.1已包含JSON支援，不需要另外安裝擴充功能。
+
+## 解決方案
+
+從移除JSON **執行階段** > **擴充功能** 中的區段 `.magento.app.yaml` 並重新部署。
+
+## 相關閱讀
+
+[PHP應用程式](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) （位於我們的開發人員檔案中）。

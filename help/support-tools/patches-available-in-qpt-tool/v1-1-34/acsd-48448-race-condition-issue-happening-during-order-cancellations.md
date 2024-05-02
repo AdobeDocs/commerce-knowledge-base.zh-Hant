@@ -1,0 +1,88 @@
+---
+title: 'ACSD-48448：訂單取消期間發生競爭條件問題，導致inventory_reservation表格中出現重複專案'
+description: 套用ACSD-48448修補程式來修正Adobe Commerce效能問題，此問題發生在訂單取消期間，導致inventory_reservation表格中出現重複專案。
+feature: Orders, Checkout
+role: Admin
+exl-id: 69d00219-bc9f-4531-9e85-38476c2258ed
+source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+workflow-type: tm+mt
+source-wordcount: '365'
+ht-degree: 0%
+
+---
+
+# ACSD-48448： *[!UICONTROL Race]* 訂單取消期間的狀況問題，導致輸入重複 `inventory_reservation` 表格
+
+ACSD-48448修補程式修正了 *[!UICONTROL Race]* 取消訂單期間發生條件問題，導致中重複輸入專案 `inventory_reservation` 表格。 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.34。 修補程式ID為ACSD-48448。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.2-p2和2.4.6
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.4.2 - 2.4.6-p2
+
+>[!NOTE]
+>
+>此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+*[!UICONTROL Race]* 取消訂單期間發生條件問題，導致中重複輸入專案 `inventory_reservation` 表格。
+
+<u>要再現的步驟</u>：
+
+1. 下訂單。
+1. 檢查 `inventory_reservation` 確定有記錄的表格 `order_placed` 事件。
+1. 執行附加的指令碼以同時取消順序（請記得變更URL和orderID）。
+
+`bash cancel_order.sh`
+
+```
+#!/bin/bash
+baseUrl=" "
+orderId=3
+token=$(curl --location --request POST "${baseUrl}rest/V1/integration/admin/token" \
+ -H 'Content-Type: application/json' \
+ -d '{
+  "username": "admin",
+  "password": "password"
+}')
+echo ${token//\"/}
+curl --location --request POST "${baseUrl}/rest/V1/orders/${orderId}/cancel" \
+ -H "Authorization:Bearer ${token//\"/}" \
+ -H 'Content-Type: application/json' \
+ &
+sleep 0.1;
+curl --location --request POST "${baseUrl}/rest/V1/orders/${orderId}/cancel" \
+ -H "Authorization:Bearer ${token//\"/}" \
+ -H 'Content-Type: application/json' \
+wait
+```
+
+<u>預期結果</u>：
+
+記錄不會重複。
+
+<u>實際結果</u>：
+
+重複記錄會建立於 `inventory_reservation` 表格 `order_canceled`.
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署方法使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+
+## 相關閱讀
+
+若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+
+* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
+* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。

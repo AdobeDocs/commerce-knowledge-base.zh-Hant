@@ -1,0 +1,79 @@
+---
+title: 'MDVA-38447： GraphQL回應中傳回「無法個別顯示」可設定的子產品，且MySQL查詢緩慢'
+description: MDVA-38447 Adobe Commerce修補程式修正了GraphQL回應中傳回「無法個別顯示」可設定子產品的問題，以及使用類別篩選器的GraphQL產品查詢緩慢MySQL查詢。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2時，即可使用此修補程式。 修補程式ID為MDVA-38447。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+exl-id: 302e7458-d9ea-466a-a2ac-d86a8ee3eca3
+feature: B2B, GraphQL, Categories, Configuration, Products, Services
+role: Admin
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 0%
+
+---
+
+# MDVA-38447：GraphQL回應中傳回「無法個別顯示」可設定的子產品，且MySQL查詢緩慢
+
+MDVA-38447 Adobe Commerce修補程式修正了GraphQL回應中傳回「無法個別顯示」可設定子產品的問題，以及使用類別篩選器的GraphQL產品查詢緩慢MySQL查詢。 此修補程式適用於 [品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.2。 修補程式ID為MDVA-38447。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.2
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.4.2 - 2.4.3
+
+>[!NOTE]
+>
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+GraphQL回應中會傳回「無法個別顯示」可設定的子產品，並使用類別篩選降低GraphQL產品查詢的MySQL查詢速度。
+
+<u>必要條件</u>：
+
+必須安裝B2B模組。
+
+<u>要再現的步驟</u>：
+
+1. 建立可設定的產品並將簡單產品設定為 **無法單獨顯示**.
+1. 執行 **完整重新索引**.
+1. 執行 **GraphQL查詢** 例如：
+
+<pre>查詢getFilteredProducts( $filter： ProductAttributeFilterInput！
+  $sort： ProductAttributeSortInput！
+  $search：字串$pageSize： Int！
+  $currentPage： Int！
+) { products（篩選器： $filter排序： $sort搜尋： $search pageSize： $pageSize currentPage： $currentPage ） { total_count page_info { total_pages current_page_size }專案{ name sku } }</pre>
+
+變數：
+
+<pre>{"filter"：{"user_group"：{"eq"："}}，"search"："config-100"，"sort"：{}，"pageSize"：200，"currentPage"：1}
+</pre>
+
+<u>預期結果</u>：
+
+回應時不會傳回可見度設為「個別不可見」的產品。
+
+<u>實際結果</u>：
+
+回應時會傳回可見度設為「個別不可見」的產品。
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署型別使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+
+## 相關閱讀
+
+若要進一步瞭解Adobe Commerce的品質修補程式，請參閱：
+
+* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md).
+* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md).
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [QPT中可用的修補程式](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) 區段。

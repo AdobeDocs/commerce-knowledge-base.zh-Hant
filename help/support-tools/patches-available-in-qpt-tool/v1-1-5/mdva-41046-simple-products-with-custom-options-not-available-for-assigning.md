@@ -1,0 +1,69 @@
+---
+title: 'MDVA-41046：無法指派包含自訂選項的簡單產品'
+description: MDVA-41046修補程式解決具有自訂選項的簡單產品無法指派給可設定/分組產品的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-41046。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+exl-id: 01229a69-c72a-4189-9be5-1761073b74ee
+feature: Products
+role: Developer
+source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+workflow-type: tm+mt
+source-wordcount: '480'
+ht-degree: 0%
+
+---
+
+# MDVA-41046：無法指派包含自訂選項的簡單產品
+
+MDVA-41046修補程式解決具有自訂選項的簡單產品無法指派給可設定/分組產品的問題。 此修補程式適用於 [品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.5。 修補程式ID為MDVA-41046。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+
+## 受影響的產品和版本
+
+**此修補程式是針對Adobe Commerce版本建立的：**
+
+* Adobe Commerce （所有部署方法） 2.4.2
+
+**與Adobe Commerce版本相容：**
+
+* Adobe Commerce （所有部署方法） 2.3.0 - 2.4.3-p1
+
+>[!NOTE]
+>
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+
+## 問題
+
+具有自訂選項的簡單產品無法指派給可設定/分組的產品。
+
+<u>要再現的步驟</u>：
+
+1. 使用可自訂選項建立簡單產品，並設定可設定屬性的值。
+   * 使用 *顏色* 作為可設定的屬性，並選取 *黃色* 做為色彩值。
+1. 儲存簡單產品。
+1. 現在前往建立可設定的產品頁面。
+1. 前往「建立設定」精靈，並確認選取 *黃色* 作為屬性顏色。
+1. 如果不儲存可設定的產品，請從「選取」下拉式清單中選取「選擇不同的產品」選項。
+1. 這會開啟依顏色屬性黃色篩選的產品格線。 現在選取先前使用可自訂選項建立的簡單產品。
+1. 儲存可設定的產品。
+
+<u>預期結果</u>：
+
+在步驟6中，具有自訂選項的簡單產品可用於指派（顯示在格線中）。
+
+<u>實際結果</u>：
+
+設定區段是空的。
+
+## 套用修補程式
+
+若要套用個別修補程式，請根據您的部署方法使用下列連結：
+
+* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
+* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+
+## 相關閱讀
+
+若要進一步瞭解「品質修補程式」工具，請參閱：
+
+* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
+* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+
+如需QPT中其他修補程式的詳細資訊，請參閱 [QPT中可用的修補程式](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) 區段。
