@@ -3,9 +3,9 @@ title: 「雲端上的備份（快照）：常見問題集」
 description: 本文介紹在雲端基礎結構上使用Adobe Commerce的快照來備份環境的要點。
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 9491279d147eac9ed36ad236c227b08e7c6e0211
+source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 ## 還原環境快照
 
-若要還原現有的快照（在支援的環境中：整合、測試、入門計畫上的生產或專業計畫上的整合），請遵循中的步驟 [備份管理：還原手動備份](/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) 雲端基礎結構指南中的Commerce 。
+若要還原現有的快照（在支援的環境中：整合、測試、入門計畫上的生產或專業計畫上的整合），請遵循中的步驟 [備份管理：還原手動備份](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup) 雲端基礎結構指南中的Commerce 。
 
 ## 資料庫(DB)備份
 
