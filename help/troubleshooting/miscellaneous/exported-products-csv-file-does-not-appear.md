@@ -4,9 +4,9 @@ description: 本文修正您在Commerce管理員中嘗試將產品匯出至.csv�
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: 465eb89cf5c5169b0b459ab7e6bdcbd418781093
+source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,10 @@ Adobe Commerce應用程式元件2.3.2版中的匯出功能已知問題。
 >[!NOTE]
 >
 >如果您找不到 `.magento.env.yaml` 檔案時，如果您認為該檔案已刪除，則必須建立新的 `.magento.env.yaml`. 一開始可能是空的，您可以視需要在其中新增資訊。 請參考下列文章： [設定用於部署的環境變數](/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) 和 [環境變數](/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html) （位於我們的開發人員檔案中）。
+
+>[!TIP]
+>
+>[YAML檔案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) 區分大小寫，且不允許使用索引標籤。 請留意在.magento.env.yaml檔案中使用一致的縮排，否則您的設定可能無法如預期運作。 檔案和範例檔案中的範例使用雙空格縮排。 使用ece-tools validate指令檢查您的設定。
 
 >[!NOTE]
 >
