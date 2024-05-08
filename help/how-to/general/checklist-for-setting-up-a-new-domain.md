@@ -3,9 +3,9 @@ title: 設定新檢查清單 [!DNL domain]
 description: 這是一份檢查清單，說明如何設定新的 [!DNL domain] 在Adobe Commerce中關於雲端基礎結構。
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: cc3dc1e3f9c8f98370ce5db125b402d4c1dfbd6f
+source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -33,8 +33,13 @@ ht-degree: 0%
 >[!NOTE]
 >
 >您可以新增 [!DNL domain] 至 [!DNL Fastly] 請自行更新 [!DNL Admin] 在 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** 原樣 [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) 在我們的使用手冊中。
+>
+>如果您無法新增網域，可能是由於下列其中一個原因：
+>
+>1. 您正在將網域移轉至雲端環境，這已在您自己的環境中設定 [!DNL Fastly] 服務。 在這種情況下，請提交請求並請求委派網域。
+>1. 您正在將網域從Starter移轉至Pro。 在這種情況下，請提交進一步協助請求。
 
-* **[!DNL Starter]**： [!DNL Custom domains] 不受支援。
+* **[!DNL Starter]**： [!DNL Custom domains] 不支援在中繼環境中使用。
 
 ### 步驟3 - [!DNL Production environment]：您是否使用 [!DNL Pro] 或 [!DNL Starter]？
 
@@ -43,6 +48,12 @@ ht-degree: 0%
 >[!NOTE]
 >
 >您可以新增 [!DNL domain] 至 [!DNL Fastly] 請自行更新 [!DNL Admin] 在 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains) 在我們的使用手冊中。
+>
+>
+>如果您無法新增網域，可能是由於下列其中一個原因：
+>
+>1. 您正在將網域從內部部署移轉至雲端環境，這已在您自己的環境中設定 [!DNL Fastly] 服務。 在這種情況下，請提交請求並請求委派網域。
+>1. 您正在將網域從Starter移轉至Pro。 在這種情況下，請提交進一步協助請求。
 
 * **[!DNL Starter]**：新增 [!DNL domain] 至您的專案 **[!DNL Domains]** 標籤，然後 **提交請求** 以提供 **[!DNL ACME Challenge Key]** 針對 [!DNL SSL certificate].
 
