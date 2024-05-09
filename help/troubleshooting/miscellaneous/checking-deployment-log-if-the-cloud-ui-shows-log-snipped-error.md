@@ -1,19 +1,19 @@
 ---
 title: 如果Cloud UI有「記錄片段」錯誤，則檢查部署記錄
-description: 本文針對雲端基礎結構使用者介面上的Adobe Commerce在嘗試檢視部署記錄檔時顯示*記錄檔片段因為太長*錯誤訊息的問題，提供解決方案。
+description: 本文針對下列問題提供解決方案：嘗試在雲端專案UI上檢視部署記錄檔時，雲端基礎結構上的Adobe Commerce會顯示*記錄檔片段因為太長*錯誤訊息。
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 71bec5b99063d771982f6dcab111b9e5a4aaec69
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
 
-# 如果Cloud UI有「記錄片段」錯誤，則檢查部署記錄
+# 如果雲端UI有，則檢查部署記錄 *記錄已剪取* 錯誤
 
-本文針對雲端基礎結構使用者介面上的Adobe Commerce顯示的問題，提供解決方案 *記錄已剪取，因為太長* 嘗試檢視部署記錄檔時出現錯誤訊息。
+本文提供雲端基礎結構UI上Adobe Commerce顯示的問題 *記錄已剪取，因為太長* 嘗試在雲端專案UI上檢視部署記錄檔時出現錯誤訊息。 (不適用於 [Adobe Commerce Cloud Console](https://console.adobecommerce.com/).)
 
 ## 受影響的產品
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-嘗試檢視部署記錄檔時，雲端基礎結構UI上的Adobe Commerce會顯示下列錯誤訊息： *記錄已剪取，因為太長*.
+嘗試在雲端專案UI上檢視部署記錄時，雲端基礎結構上的Adobe Commerce UI會顯示下列錯誤訊息： *記錄已剪取，因為太長*.
 
 ## 要再現的步驟
 
