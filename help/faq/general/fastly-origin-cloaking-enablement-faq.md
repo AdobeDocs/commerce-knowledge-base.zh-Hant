@@ -2,9 +2,9 @@
 title: '"[!DNL Fastly] 來源遮罩啟用常見問題集」'
 description: 此常見問題集探討以下常見問題 [!DNL Fastly] Adobe Commerce中的來源遮罩啟用（已於2021年完全實施）。
 exl-id: d608abe7-7d64-44ce-bea1-34b201c29113
-source-git-commit: 348a1f6e455aff9ad7c562ea20c95f27c9ee0b86
+source-git-commit: 1021a1ab81481f92e850bd49330f1742fe9a21f2
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 我是否需要為專案請求來源遮罩啟用？
 
-不適用。 此功能應已在所有雲端專案上實施，且自2021年以來已布建的任何專案都會預設啟用此功能。 不過，您可以透過以下方式要求停用專案的原始遮罩 [提交支援要求](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket).
+不適用。 此功能應已在所有雲端專案上實施，且自2021年以來已布建的任何專案都會預設啟用此功能。
 
 ## 來源遮罩是否會變更傳出IP位址？
 
@@ -37,8 +37,22 @@ ht-degree: 0%
 
 [!DNL Fastly] 不會快取API呼叫，因此使用者端應該會順利完成變更。 來源遮罩只會封鎖直接前往來源的請求，例如：
 
+* 生產
+
 ```php
 mywebsite.com.c.abcdefghijkl.ent.magento.cloud
+```
+
+* 分段
+
+```php
+mcstaging2.mywebsite.com.c.abcdefghijkl.dev.ent.magento.cloud
+```
+
+* 分段X
+
+```php
+mcstagingX.mywebsite.com.c.abcdefghijkl.X.dev.ent.magento.cloud
 ```
 
 在此範例中，使用者端如果將URL變更為，仍可點選API ``mywebsite.com``：
