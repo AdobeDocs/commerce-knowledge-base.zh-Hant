@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 76be98e46941bc6a7857aba8e95c8415ce3fc978
+source-git-commit: 5e20e9d150eb8a527e530a19abd8b364f55a5aa6
 workflow-type: tm+mt
-source-wordcount: '11017'
+source-wordcount: '11013'
 ht-degree: 0%
 
 ---
@@ -1035,7 +1035,6 @@ ht-degree: 0%
       * [Github代號問題和撰寫器金鑰程式](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
       * [Adobe Commerce 2.4.1問題：無法在Chrome中變更Amazon帳戶](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
       * [ECE-Tools和修補程式更新錯誤Adobe Commerce雲端基礎結構2.2.x.、2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
-      * [疑難排解Quick Checkout問題](/help/troubleshooting/miscellaneous/quick-checkout-issues.md)
       * [PWA Studio：Webpack在開始編譯前擱置](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [安裝最新修補程式以修正Adobe Commerce Redis問題](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [解決不合法的位移錯誤](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
