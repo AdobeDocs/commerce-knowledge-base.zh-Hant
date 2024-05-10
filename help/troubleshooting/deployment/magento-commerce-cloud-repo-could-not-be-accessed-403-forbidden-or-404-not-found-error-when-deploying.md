@@ -4,9 +4,9 @@ description: 「本文討論如何解決雲端基礎結構上的Adobe Commerce�
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 0%
 採取以下步驟以解決授權金鑰的問題（請參閱以下章節，以瞭解每個步驟的詳細資訊）：
 
 1. 取得有效的授權金鑰（如果您非常確定您的金鑰有效，請略過此步驟）。
-1. 在中新增索引鍵值 `env:COMPOSER_AUTH` 變數（或確定有正確的值），並檢查索引鍵在變數和 `auth.json` 檔案的根目錄。
+1. 在中新增索引鍵值 `env:COMPOSER_AUTH` 變數（或確定有正確的值），並檢查索引鍵在專案層級和環境層級的變數中是否指定一致，以及 `auth.json` 檔案（如果存在的話）的根目錄。
 1. 更新或刪除 `auth.json`，以便在未指定授權金鑰值或具有其他值時，於單一位置設定金鑰。
 
 ### 1.取得有效的授權金鑰
