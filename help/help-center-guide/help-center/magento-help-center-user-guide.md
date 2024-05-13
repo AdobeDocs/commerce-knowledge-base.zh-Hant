@@ -3,9 +3,9 @@ title: Adobe Commerce說明中心使用手冊
 description: 瞭解如何將支援票證提交至Adobe Commerce說明中心、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: a2e68f63a53013b6f0b8bfa12838fafe2bb6e6c7
+source-git-commit: 4e8833d100b776ca3c66a96274cde2d68eb0fd10
 workflow-type: tm+mt
-source-wordcount: '3924'
+source-wordcount: '3993'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 * [追蹤您的票證](#track-tickets)
 * [Adobe Commerce P1熱線（需要登入）](#P1-hotline)
-* [Adobe Commerce共用責任運作模型（需要登入）](#shared-responsibility-operational-model)
-* [說明支援票證欄位](#ticket-fields-explained)
-* [票證狀態：如何處理您的請求](#ticket-status)
-* [您票證中的交談](#conversation-in-ticket)
-* [解析您的票證](#resolve-ticket)
+* [Adobe Systems商務責任共擔運營模式（需要登入）](#shared-responsibility-operational-model)
+* [支援票證欄位說明](#ticket-fields-explained)
+* [工單狀態：如何處理您的請求](#ticket-status)
+* [票證中的對話](#conversation-in-ticket)
+* [解決您的票證](#resolve-ticket)
 * [開啟後續追蹤票證](#follow-up)
 
 **[共用存取：授予許可權給其他使用者，讓其他使用者可以存取您的帳戶](#shared-access)**
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ## Adobe Commerce說明中心是什麼？ {#what-is}
 
-此 [Adobe Commerce說明中心](https://support.magento.com/hc/en-us) 是Adobe Commerce的支援入口網站，合格客戶可在此提交和管理支援票證。 您也可以在此處檢閱疑難排解文章。
+[Adobe Systems商務說明中心](https://support.magento.com/hc/en-us)是 Adobe Systems Commerce 的支持門戶，符合條件的客戶可以在其中提交和管理支持票證。您也可以在此處檢閱疑難排解文章。
 
 ## 支援票證 {#support-tickets}
 
@@ -129,17 +129,17 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 
 標示紅色星號( **\*** )，為必要欄位，且必須填寫。 如果您將任何這些欄位留空，您將無法提交您的票證。
 
-另請參閱 [票證欄位說明](#ticket-fields-explained) 詳細資訊請參閱下文。
+有關更多詳細資訊，請參閱 [下面解釋](#ticket-fields-explained) 的票證欄位。
 
-### Adobe Commerce說明中心起始頁面上未顯示「提交票證」連結 {#no-submit-link}
+### 「提交工單」連結不會显示在商務說明中心Adobe Systems開始 頁面 {#no-submit-link}
 
 #### 問題
 
-您存取Adobe Commerce說明中心並想要提交支援請求，但 **提交票證** 連結未顯示在說明中心起始頁上。
+您訪問Adobe Systems商務說明中心並希望提交支持請求，但提交 **工單** 連結不會顯示在說明中心開始 頁面上。
 
 #### 原因
 
-原因可能是下列其中一項：
+原因可能是以下原因之一：
 
 * 您尚未登入說明中心。
 * 如果第一次使用共用存取，您尚未執行必要的步驟，以確保Adobe Commerce說明中心已透過Magento.com的SSO呼叫正確設定。
@@ -232,9 +232,13 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 1. 在 **切換帳戶** 從右上角的下拉式欄位中，選取共用存取帳戶。
 1. 按一下 **支援** 標籤。 這麼做將可確保Adobe Commerce說明中心已透過Magento.com對Adobe Commerce說明中心的SSO呼叫正確設定。
 
-### 追蹤您的票證 {#track-tickets}
+如果您已經這樣做了，請點擊帳戶](https://account.magento.com/grantor/manage/shared/)上的標籤，檢查[[!UICONTROL Shared with me]您是否被授予&#x200B;*了來自多個商家*&#x200B;的共享訪問許可權：
+* 如果只列出了一個 [!UICONTROL Share Name] 商家，即您僅獲得一個商家的授權， *則不會看到 [!UICONTROL Organization] 下拉清單*。
+* 如果有多個 [!UICONTROL Share Names]，商家的支持權利可能已過期，因為他們的許可證之前因付款問題而被吊銷。
 
-您的票證就是您符合以下條件的票證：
+### 追蹤您的門票 {#track-tickets}
+
+您的門票是您：
 
 * 已親自提交
 * 已透過CC (carbon copy)新增為監看員
@@ -257,7 +261,7 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 
 #### 搜尋票證
 
-若要尋找票證，請在 **搜尋票證** 欄位並按 *輸入* 在鍵盤上。 選取 [狀態](#ticket-status) 以進行其他篩選。
+要查找門票，請在Search票字段輸入&#x200B;**您的搜尋查詢，然後按&#x200B;*鍵盤上的 Enter*** 鍵。選取 [狀態](#ticket-status) 以進行其他篩選。
 
 ![hc_search-tickets.png](assets/hc_search-tickets.png)
 
@@ -331,16 +335,16 @@ URL必須以「https://」開頭。 其格式通常為：商家名稱+&quot;.mco
 * Magento Order Management
 * Adobe Commerce報告：不包括 [進階報告](https://experienceleague.adobe.com/docs/commerce-admin/config/general/advanced-reporting.html)
 * Adobe Commerce [付款服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/overview.html)
-* Adobe Commerce服務： [頻道管理員](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html) 僅限
+* Adobe Systems 商務服務： [僅限通路管理員](https://experienceleague.adobe.com/docs/commerce-channels/channel-manager/guide-overview.html)
 
-#### 實作型別
+#### 實施類型
 
-此欄位僅會在您選取後顯示 **[!UICONTROL Product]** = *Adobe Commerce*
+此欄位只會在您選取 **[!UICONTROL Product]** = *Adobe Systems商務*
 
-請指定您的部署方法：
+請指定您的部署方法..
 
-* 雲端：只有在您位於雲端基礎結構上的Adobe Commerce上時，才選擇此選項
-* 內部部署： *所有自行託管的執行個體以及 [AWS] 雲端託管* (雲端上的Adobe Commerce除外)
+* 雲：僅當您使用雲基礎架構上的Adobe Systems商務時，才選擇此選項
+* 本地： *所有自託管實例以及 [基於 AWS] 雲端 的託管* （不包括 Adobe Systems Commerce on Cloud）
 
 #### 雲端專案URL
 
