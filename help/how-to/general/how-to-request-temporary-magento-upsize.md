@@ -3,9 +3,9 @@ title: 如何請求雲端基礎結構上的臨時Adobe Commerce升級
 description: 如果您的組織正在規劃您預期會有高流量的線上活動，或您突然發現您的網站正在進行高流量活動，您可以提出[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以請求雲端基礎結構存放區中Adobe Commerce的臨時額外雲端容量。
 exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 feature: Cloud, Iaas
-source-git-commit: a445bae7f013b29cb83fc96eb26dcbfd186a4de7
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策P
 
 ## 檢視您的升級記錄
 
-您可以在中檢視要求調整大小的歷程記錄 [專案入口網站（入門UI）](/docs/commerce-cloud-service/start/onboarding.html#cloud-project-portal-(onboarding-ui))，下 **專案** > **服務** > **CPU使用量追蹤**.
+您可以向您的網站請求資訊，以檢視請求調整大小的歷程記錄。 **CSM （客戶成功經理）**.
 下列資訊適用於每個調整大小請求：
 
 * **調整開始日期的大小**：更新請求的日期。

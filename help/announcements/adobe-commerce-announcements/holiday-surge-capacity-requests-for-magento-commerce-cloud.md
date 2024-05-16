@@ -4,9 +4,9 @@ description: 在旺季假日的銷售季節（大約是11月中旬至1月中旬�
 exl-id: 9d6910bf-30bc-4117-bf7f-a0316f9506b5
 feature: Cloud, Paas
 role: Admin
-source-git-commit: dfd3f788f42677b631ffb5b3153a1c79c2cc1ca3
+source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **檢視您的升級記錄**
 
-您可以在中檢視要求調整大小的歷程記錄 [專案入口網站（入門UI）](https://devdocs.magento.com/cloud/onboarding/onboarding-tasks.html)，下 **專案** > **服務** > **CPU使用量追蹤**.
+您可以向您的網站請求資訊，以檢視請求調整大小的歷程記錄。 **CSM （客戶成功經理）**.
 下列資訊適用於每個調整大小請求：
 
 * **調整開始日期的大小**：更新請求的日期。
