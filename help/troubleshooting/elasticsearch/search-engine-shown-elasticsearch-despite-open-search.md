@@ -3,9 +3,9 @@ title: 『[!DNL Elasticsearch] 顯示為搜尋引擎，儘管 [!DNL OpenSearch] 
 description: 本文提供此問題的解決方案，其中 [!DNL Elasticsearch] 即使安裝或升級至，仍會顯示為雲端上Adobe Commerce的搜尋引擎 [!DNL OpenSearch].
 exl-id: cdd8a35d-da6f-46d3-b732-65626487c9bb
 feature: Install
-source-git-commit: 1a36e74807e6d32b0810416b6fb61aeca6f9be94
+source-git-commit: 1f053f76ae56edc06bfe82e55210244c8ec4b8eb
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 
 Adobe Commerce採用硬式編碼，以指定 [!DNL Elasticsearch7] 做為搜尋引擎。
 
+請勿與安裝的服務版本混淆。 應用程式只會辨識 [!DNL Elasticsearch7] 做為搜尋引擎，但不是 [!DNL OpenSearch]，即使它使用基礎 [!DNL OpenSearch] 作為後端引擎的服務。
+
 ## 解決方案
 
 驗證是否 [!DNL OpenSearch] 已安裝，請執行以下命令：
@@ -42,6 +44,29 @@ Adobe Commerce採用硬式編碼，以指定 [!DNL Elasticsearch7] 做為搜尋�
 **方法1**：
 
 * 在伺服器上執行下列命令： `curl 127.0.0.1:9200`. 應該會傳回 [!DNL OpenSearch] 及其版本。
+
+範例：
+
+```
+$ curl 127.0.0.1:9200
+{
+  "name" : $clusterName,
+  "cluster_name" : "opensearch_stg",
+  "cluster_uuid" : $clusterUuid,
+  "version" : {
+    "distribution" : "opensearch",
+    "number" : "1.2.4",
+    "build_type" : "deb",
+    "build_hash" : "44ccdbaed5fe5a8b02d99a611857a671b6dd909d",
+    "build_date" : "2022-11-08T09:23:45.993372Z",
+    "build_snapshot" : false,
+    "lucene_version" : "8.10.1",
+    "minimum_wire_compatibility_version" : "6.8.0",
+    "minimum_index_compatibility_version" : "6.0.0-beta1"
+  },
+  "tagline" : "The OpenSearch Project: https://opensearch.org/"
+}
+```
 
 **方法2**：
 
