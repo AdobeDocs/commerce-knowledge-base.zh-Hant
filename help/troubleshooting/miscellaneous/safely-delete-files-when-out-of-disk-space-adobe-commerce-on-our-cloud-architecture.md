@@ -4,9 +4,9 @@ description: 本文提供解決方案，協助您因磁碟空間不足而需要�
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 6af353bb379ee88248342a7cb514dd9d36d47a92
+source-git-commit: 86515936f72bbd0a5778cb81f665993ed91e4707
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce：2.3.0-2.3.7、2.4.0-2.4.2-p1
+* 雲端基礎結構上的Adobe Commerce 2.4.2 - 2.4.7
 * 這專屬於專用的Pro叢集。 入門和整合環境是單一節點，沒有 `/data/exports` 目錄。
 
 ## 磁碟空間不足的跡象
