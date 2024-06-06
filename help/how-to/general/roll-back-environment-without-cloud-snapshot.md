@@ -3,7 +3,7 @@ title: 復原沒有雲端快照的環境
 description: 本文說明兩種解決方案，可復原環境，而不會在雲端基礎結構上的Adobe Commerce上擁有環境的快照。
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: f3c976bd44dbc47bd5cc8076f1679d56910cfaf3
+source-git-commit: 5347e8714ef1374440f5d246100a0221e4b189fc
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 0%
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 我們需要停用「組態管理」，以免在部署期間自動套用先前的組態設定。
 
-若要停用「組態管理」，請確定 `/app/etc/` 目錄不包含 `config.php` (適用於Adobe Commerce 2.2.x)或 `config.local.php` (適用於Adobe Commerce 2.1.x)檔案。
+若要停用「組態管理」，請確定 `/app/etc/` 目錄不包含 `config.php` (適用於Adobe Commerce 2.4.x)或 `config.local.php` (適用於Adobe Commerce 2.1.x)檔案。
 
 若要移除組態檔，請遵循下列步驟：
 
 1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
 1. 移除設定檔：
-   * 若為Adobe Commerce 2.2：
+   * 若為Adobe Commerce 2.4：
 
    ```php
     rm app/etc/config.php
