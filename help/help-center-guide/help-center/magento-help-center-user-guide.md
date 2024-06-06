@@ -3,9 +3,9 @@ title: Adobe Commerce說明中心使用手冊
 description: 瞭解如何將支援票證提交至Adobe Commerce說明中心、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 86810427e8f902dc184b377257c8e86dd28f38f6
+source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
 workflow-type: tm+mt
-source-wordcount: '3992'
+source-wordcount: '3986'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,16 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 1. 填寫欄位。
 1. 按一下 **提交**.
 
-您 **必須登入** 使用您的Magento帳戶前往說明中心以提交支援票證。 在您登入之前， [此 **提交票證** 按鈕將不會顯示](#no-submit-link).
+您 *必須具有* https://account.adobe.com和https://account.magento.com的帳戶，然後使用您的Adobe Commerce帳戶登入說明中心以提交支援票證。 在您登入之前， [此 **提交票證** 按鈕將不會顯示](#no-submit-link).
+
+>[!NOTE]
+>
+>如果您已在https://account.magento.com擁有帳戶，但無法登入，則可能尚未在https://account.adobe.com註冊帳戶（自2022年8月起必須註冊）。
+>
+>若要解決此問題：
+>1. 在https://account.adobe.com使用您MAG ID上的相同電子郵件地址建立帳戶。
+>1. 請前往https://account.magento.com將您的Adobe ID與MAG ID連結。
+
 
 #### Magento帳戶頁面 {#submit-ticket-magento-account-page}
 
@@ -182,7 +191,7 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 
 >[!NOTE]
 >
->如果您能夠提交票證，但存取雲端專案時發生問題，請勿傳送電子郵件。 請透過一般管道提交此問題的票證。
+>如果您在存取雲端專案時遇到問題，請透過一般管道提交此問題的票證。 如果您能提交票證，請勿傳送電子郵件。
 
 ### Magento帳戶頁面上的「請驗證您的電子郵件地址」錯誤 {#verify-email-address}
 
@@ -192,13 +201,8 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 
 解決方案是驗證您的電子郵件地址：
 
-1. 按一下 **驗證電子郵件** 按鈕(在 [編輯帳戶資訊](https://account.magento.com/customer/account/edit/) 與下方頁面類似的頁面。
-
-   ![Validate_Email_Solution](assets/Validate_Email_Solution.png){width="800"}
-
-1. 按一下 **驗證電子郵件** 按鈕會將電子郵件傳送至為此Magento帳戶註冊的電子郵件地址，其中包含驗證電子郵件地址的連結。
-1. 按一下電子郵件驗證連結以驗證您的電子郵件並解決此問題。
-1. 如果您沒有收到包含電子郵件驗證連結的電子郵件，請寄電子郵件給 [說明中心登入問題](mailto:grp-magento-helpcenterloginissues@adobe.com) 並指示您無法驗證您的電子郵件地址。
+1. 登入https://account.adobe.com ，並視需要要求密碼。
+1. 驗證您的Adobe帳戶。
 
 >[!NOTE]
 >
