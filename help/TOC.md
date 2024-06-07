@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 45ab0d3a858239dc8a35ed81c3b0d2f7cda5c85b
+source-git-commit: ee1ba9c0bb07c260058f53696c88ced737899361
 workflow-type: tm+mt
-source-wordcount: '11031'
+source-wordcount: '11032'
 ht-degree: 0%
 
 ---
@@ -821,6 +821,7 @@ ht-degree: 0%
       * [Adobe支援客戶資料存取和隱私權](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [UPS API已過時](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
       * [2024年發行排程](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
+      * [測試](/help/announcements/adobe-commerce-announcements/test.md)
    * 說明中心新聞 {#news}
       * [Adobe Commerce支援知識庫開始接受貢獻](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * 疑難排除 {#troubleshooting}
