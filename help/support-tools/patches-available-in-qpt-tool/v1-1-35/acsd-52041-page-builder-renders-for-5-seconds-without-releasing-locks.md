@@ -1,19 +1,19 @@
 ---
 title: 「ACSD-52041：頁面產生器轉譯不會解除鎖定」
-description: 套用ACSD-52041修補程式來修正Adobe Commerce問題，此問題導致頁面產生器呈現5秒鐘，且未釋放鎖定。
+description: 套用ACSD-52041修補程式來修正Adobe Commerce問題，此問題導致頁面產生器呈現五秒鐘，且未釋放鎖定。
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
 # ACSD-52041：頁面產生器演算不會解除鎖定
 
-ACSD-52041修補程式修正頁面產生器呈現5秒且未釋放鎖定的問題。 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.35。 修補程式ID為ACSD-52041。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-52041修補程式修正了頁面產生器呈現五秒鐘，且未釋放鎖定的問題。 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.48。 修補程式ID為ACSD-52041-v2。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
@@ -23,7 +23,7 @@ ACSD-52041修補程式修正頁面產生器呈現5秒且未釋放鎖定的問題
 
 **與Adobe Commerce版本相容：**
 
-* Adobe Commerce （所有部署方法） 2.4.4 - 2.4.6-p1
+* Adobe Commerce （所有部署方法） 2.4.4 - 2.4.4-p8、2.4.5 - 2.4.5-p7、2.4.6 - 2.4.6-p6
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ ACSD-52041修補程式修正頁面產生器呈現5秒且未釋放鎖定的問題
 
 ## 問題
 
-頁面產生器會呈現5秒鐘，不會釋放鎖定。
+頁面產生器會呈現五秒鐘，不會釋放鎖定。
 
 <u>要再現的步驟</u>：
 
