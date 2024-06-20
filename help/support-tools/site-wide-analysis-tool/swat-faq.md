@@ -4,9 +4,9 @@ description: 瞭解 [!DNL Site-Wide Analysis Tool]，主動式自助服務工具
 exl-id: 7c843d55-9e2c-4b18-8859-0ebad0ae28cf
 feature: Best Practices, Saas, Support, Tools and External Services
 role: Admin
-source-git-commit: 4e327654279095f6523a7cbec77bd2dca57b2034
+source-git-commit: 580ad148cd4346868cd9892a1ae9a4d85f73edce
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -58,3 +58,7 @@ ht-degree: 0%
 ## 如何傳送報表？
 
 [!DNL Site-Wide Analysis Tool] 報表會透過Adobe Commerce支援票證系統每月或每季自動傳送。 [!DNL Site-Wide Analysis Tool] 報告也可以手動產生，從 [!DNL Site-Wide Analysis Tool] 儀表板並儲存到您的案頭。 這些 [!DNL Site-Wide Analysis Tool] 然後可將報表以附件的形式以電子郵件傳送。
+
+>[!NOTE]
+>
+>套用建議後，手動產生報表不會更新建議 — 可能需要幾天的時間才能從移除 [!DNL Site-Wide Analysis Tool Dashboard].
