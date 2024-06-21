@@ -4,9 +4,9 @@ description: 如果您是雲端基礎結構Adobe Commerce Pro計畫架構客戶�
 exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 feature: Integration
 role: Admin
-source-git-commit: 43be85de953909253900d60488f76a20bac91793
+source-git-commit: fb26b71316e04de31fa6a895b87230bed5c1ca6a
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 0%
 # 整合環境增強功能要求 — Pro與Starter
 
 如果您是雲端基礎結構Adobe Commerce Pro計畫架構客戶，目前使用標準規模的整合環境，或您是雲端基礎結構Adobe Commerce入門計畫架構客戶，目前使用標準規模的中繼環境，而且想要更多電力，您可以請求升級至增強型整合環境，此環境可提供約四倍的效能。 本文將Pro客戶的指示與Starter客戶的指示分開。
+
+>[!NOTE]
+>
+> 升級至增強式整合可能無法解決所有效能問題，因為它將取決於安裝的全部資源需求，包括協力廠商整合或自訂。
+>
+> 您也必須確保在整合環境中遵循最佳實務以獲得最佳效能，即使這並非最終解決方案。 請參閱下列檔案以取得指引： [Pro架構](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment) 和 [入門架構](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment) 雲端基礎結構指南中的Commerce 。
 
 ## Pro
 
