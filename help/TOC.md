@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 449e37e140e7df13be8d59a61a33c6298cb65f53
+source-git-commit: 366e27875cd3a764d99d62997336c11adafcb623
 workflow-type: tm+mt
-source-wordcount: '11040'
+source-wordcount: '11052'
 ht-degree: 0%
 
 ---
@@ -1085,7 +1085,7 @@ ht-degree: 0%
       * [Cron因設定錯誤或遺失而停止 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [無法刪除檔案。 警告！ unlink：沒有這樣的檔案或目錄錯誤* [!DNL Admin]](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)
       * [[!DNL Admin] 登入無法運作 — 超過允許的工作階段大小上限](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
-      * [為現有的雲端入門專案設定Adobe Commerce智慧連線](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
+      * [為現有的雲端入門專案設定Adobe Commerce Intelligence連線](/help/troubleshooting/miscellaneous/configure-mbi-connection-for-cloud-starter-projects.md)
       * [[!DNL Google Tag Manager] 被「即時搜尋」Widget破壞](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
       * [由協力廠商安全性掃描找到的漏洞應移至 [!DNL HackerOne]](/help/troubleshooting/miscellaneous/third-party-test-reports-are-handled-by-hackerone.md)
       * [從2.4.2升級到2.4.5-p3後，收到數千個搜尋結果](/help/troubleshooting/miscellaneous/getting-thousands-of-search-results-after-upgrading-to-2-4-5-p3.md)
@@ -1113,6 +1113,7 @@ ht-degree: 0%
       * [部署失敗：「快取」名稱空間錯誤中未定義命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中有正確的存取金鑰時部署失敗](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知問題 {#known-issues-patches-attached}
+      * [Adobe Commerce有可用的安全性更新 —  [!DNL APSB24-40] 已修訂以包含隔離的修補程式 [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
       * [[!DNL UPS] 送貨方法整合移轉來源 [!DNL SOAP] 至 [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Ground Advantage送貨方法支援AC-9182的Hotfix](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - CVE-2022-35698的2.4.5安全性Hotfix](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
@@ -1238,7 +1239,7 @@ ht-degree: 0%
    * [MBI：建立和編輯進階計算欄](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [檢查雲端基礎結構上Adobe Commerce的磁碟空間限制](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [雲端基礎結構上Adobe Commerce的SSL (TLS)憑證](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [無法存取最新測試版](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [無法存取最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [切換應用程式模式](/help/how-to/general/switch-the-magento-mode.md)
    * [如何在雲端基礎結構上登入Adobe Commerce提供的Fastly帳戶](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [顯示Adobe Commerce錯誤報告編號而非Fastly 503錯誤](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
