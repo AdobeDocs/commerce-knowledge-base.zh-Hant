@@ -2,9 +2,9 @@
 title: 『[!DNL Admin] 登入無法運作 — 超過允許的工作階段大小上限'
 description: 解決您嘗試登入的問題 [!DNL Admin] 面板和表單會重新整理，因此您無法登入。
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 相關閱讀
 
-* [工作階段大小](/docs/commerce-admin/systems/security/security-session-management.html?lang=en#admin-sessions) 管理系統指南中的。
-* [操作模式](/docs/commerce-operations/configuration-guide/cli/set-mode.html) 在設定指南中。
-* [安全連線](/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) 雲端基礎結構指南中的Commerce 。
+* [工作階段大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions) 管理系統指南中的。
+* [操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode) 在設定指南中。
+* [安全連線](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) 雲端基礎結構指南中的Commerce 。

@@ -4,9 +4,9 @@ description: 本文提供部署失敗並出現下列錯誤「無法下載https:/
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 54ef4e95cf0e3f5822ff5e5c566129fab331f784
+source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,11 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 
 雲端基礎結構上的Adobe Commerce 2.4.x
 
-## 問題  
+## 問題
 
 <u>要再現的步驟</u>：
 
-嘗試部署。 
+嘗試部署。
 
 <u>預期結果</u>：
 
@@ -40,7 +40,7 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 >
 >此為錯誤範例。 您可能會收到錯誤訊息，指出有不同的檔案(視您部署的Adobe Commerce版本而定)。
 
-您未成功部署。 您會看到類似以下的錯誤 *無法下載「https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip」檔案（HTTP/1.1 404找不到）* 在 [部署記錄](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+您未成功部署。 您會看到類似以下的錯誤 *無法下載「https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip」檔案（HTTP/1.1 404找不到）* 在 [部署記錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 
 ### 原因
@@ -54,7 +54,7 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 
 更新 `env:COMPOSER_AUTH` 變數，並確保已使用可存取程式碼的金鑰加以設定。
 
-如需相關步驟，請參閱 [變數層級](/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) 雲端基礎結構指南中的Commerce 。
+如需相關步驟，請參閱 [變數層級](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) 雲端基礎結構指南中的Commerce 。
 
 ## 相關閱讀
 
