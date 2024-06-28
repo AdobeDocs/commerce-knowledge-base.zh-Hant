@@ -3,7 +3,7 @@ title: 修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程�
 description: 「本文為近期不相容的Adobe Commerce商家提供修正 [!DNL Google Maps] 3.54+.'的版本
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 575fce2f678321ff184779895d43be90828c2ce4
+source-git-commit: 98581cc9c251976339406f80764715096321126b
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -23,13 +23,13 @@ ht-degree: 0%
 
 開啟 *2024年6月14日* [!DNL Google Maps] 版本 *3.53* 已達生命週期結束並由 [!DNL Google].
 
-[如需詳細資訊，請參閱([!DNL Google Maps Platform: Maps JavaScript API])] (https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions)。
+如需詳細資訊，請參閱 [[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions).
 
 Adobe Commerce與任何近期版本不相容 [!DNL  Google Maps] 3.54+版本。
 
 不相容性是由舊版所造成 `prototype.js script`，透過載入 `lib/web/legacy-build.min.js` 覆寫原生Array.from函式，這會導致直接與 [!DNL  Google Maps] API。
 
-[請參閱([!DNL Google Maps: JS Best Practices])] (https://developers.google.com/maps/documentation/javascript/best-practices)。
+請參閱 [[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices).
 
 <u>要再現的步驟</u> ：
 
