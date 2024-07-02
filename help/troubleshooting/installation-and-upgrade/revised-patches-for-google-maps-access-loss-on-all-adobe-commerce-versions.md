@@ -3,7 +3,7 @@ title: 修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程�
 description: 「本文為近期不相容的Adobe Commerce商家提供修正 [!DNL Google Maps] 3.54+.'的版本
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 98581cc9c251976339406f80764715096321126b
+source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -47,7 +47,7 @@ Adobe Commerce與任何近期版本不相容 [!DNL  Google Maps] 3.54+版本。
 
 ## 解決方案
 
-* 任何2.4.4、2.4.5、2.4.6或2.2.7修補程式版本上的所有商戶都應將相應的修補程式套用至其版本。
+* 任何2.4.4、2.4.5、2.4.6或2.4.7修補程式版本上的所有商戶都應將相應的修補程式套用至其版本。
 
 ## 修補
 
