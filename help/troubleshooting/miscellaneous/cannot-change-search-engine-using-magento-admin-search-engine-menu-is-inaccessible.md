@@ -4,9 +4,9 @@ description: 本文提供在Adobe Commerce搜尋引擎欄位未顯示或「使�
 exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 feature: Admin Workspace, Search, Variables
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: e9f009cf4e072dcd9784693c10a4c16746af3cc5
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,12 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> [Adobe Commerce 2.4.0中將移除MySQL目錄搜尋引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 您必須先安裝並設定Elasticsearch主機，才能安裝2.4.0版。請參閱 [安裝及設定Elasticsearch](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch.html).
+> [Adobe Commerce 2.4.0中將移除MySQL目錄搜尋引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md). 您必須先安裝並設定Elasticsearch主機，才能安裝2.4.0版。
+> 
+> 請參閱：
+> [安裝及設定Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch).
+> [安裝及設定Opensearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/opensearch)
+> [安裝和設定即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)
 
 本文提供使用Adobe Commerce管理員變更Commerce搜尋引擎的解決方案，如果 **搜尋引擎** 欄位未顯示或 **使用系統值** 核取方塊呈現灰色而無法存取。
 
@@ -23,16 +28,16 @@ ht-degree: 0%
 
 * [受影響的版本](#affected-versions)
 * [使用Commerce管理員變更搜尋引擎（步驟）](#change-search-engine-using-magento-admin-steps)
-* [Adobe Commerce內部部署的問題)](#magento-commerce-on-premise)
+* [Adobe Commerce內部部署問題](#magento-commerce-on-premise)
 * [雲端基礎結構上的Adobe Commerce](#magento-commerce-cloud)
 
 ## 受影響的版本
 
-* Adobe Commerce內部部署：2.X.X
+* Adobe Commerce內部部署： 2.4.X
 * 雲端基礎結構上的Adobe Commerce：
-   * 版本： 2.X.X
+   * 版本： 2.4.X
    * 入門與Pro計畫架構
-* MySQL，Elasticsearch：所有支援的版本
+* MySQL、Elasticsearch、Opensearch、即時搜尋：所有支援的版本
 
 ## 使用管理員變更搜尋引擎（步驟）
 
@@ -117,17 +122,39 @@ array (
 
 若要變更測試和生產環境中使用的搜尋引擎，請變更 `SEARCH_CONFIGURATION` 中的環境變數 `.magento.env.yaml` 將變更推送至整合和測試/生產環境，讓變更生效。
 
-如果您從MySQL切換為Elasticsearch，則結果會產生SEARCH\_CONFIGURATION變數 `.magento.env.yaml` 檔案可能如下所示：
+如果您要切換至Elasticsearch7，則結果會產生SEARCH\_CONFIGURATION變數 `.magento.env.yaml` 檔案可能如下所示：
 
 ```yaml
 stage:
   deploy:
    SEARCH_CONFIGURATION:
-     engine: elasticsearch
+     engine: elasticsearch7
      elasticsearch_server_hostname: hostname
-     elasticsearch_server_port: '123456'
+     elasticsearch_server_port: '12345'
      elasticsearch_index_prefix: magento
      elasticsearch_server_timeout: '15'
+```
+
+如果您要切換至 [Opensearch （在2.4.6和更新版本中）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/search-engine-shown-elasticsearch-despite-open-search) 結果中的SEARCH\_CONFIGURATION變數 `.magento.env.yaml` 檔案可能如下所示：
+
+```yaml
+stage:
+  deploy:
+   SEARCH_CONFIGURATION:
+     engine: opensearch
+     elasticsearch_server_hostname: hostname
+     elasticsearch_server_port: '12345'
+     elasticsearch_index_prefix: magento
+     elasticsearch_server_timeout: '15'
+```
+
+如果您是 [切換到即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch)，即產生的SEARCH\_CONFIGURATION變數 `.magento.env.yaml` 檔案可能如下所示：
+
+```yaml
+stage:
+  deploy:
+   SEARCH_CONFIGURATION:
+     engine: livesearch
 ```
 
 ### 相關檔案
@@ -142,3 +169,4 @@ stage:
 * [建置和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html) (的相關檔案 `.magento.env.yaml` 組態檔)
 * [部署變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) ([SEARCH\_CONFIGURATION段落](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#search_configuration))
 * [服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/services-yaml.html) (的相關檔案 `.magento/services.yaml` 組態檔)
+* [即時搜尋](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/overview)
