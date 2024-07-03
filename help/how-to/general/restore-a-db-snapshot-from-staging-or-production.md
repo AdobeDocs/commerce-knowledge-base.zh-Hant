@@ -2,9 +2,9 @@
 title: 從中繼或生產還原資料庫快照
 description: Adobe Commerce本文會說明如何在雲端基礎結構上，從中繼或生產環境還原DB快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: b9e72ff8d541ad01788e5198e03abcb46a1bd11f
+source-git-commit: ad0ec2e6dc1d3e1023ad4ecda595b5c942716407
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -124,16 +124,22 @@ ht-degree: 0%
 
 1. 輸入下列指令以匯入 [!DNL snapshot]：
 
-   (適用於 [!DNL Production])
+   (用於從匯入資料庫備份 [!DNL Production])
 
    ```sql
    zcat <cluster ID>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
-   (適用於 [!DNL Staging])
+   (用於從匯入資料庫備份 [!DNL Staging])
 
    ```sql
    zcat <cluster ID_stg>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
+   ```
+
+   （用於從任何其他環境匯入資料庫備份）
+
+   ```sql
+   zcat <database-backup-name>.sql.gz | sed -e 's/DEFINER[ ]*=[ ]*[^*]*\*/\*/' | mysql -h 127.0.0.1 -p -u <db-user> <db-name>
    ```
 
 ## 相關閱讀
