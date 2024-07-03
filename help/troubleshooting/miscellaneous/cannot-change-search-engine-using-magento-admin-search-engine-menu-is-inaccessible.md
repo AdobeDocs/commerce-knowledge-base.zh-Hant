@@ -4,9 +4,9 @@ description: 本文提供在Adobe Commerce搜尋引擎欄位未顯示或「使�
 exl-id: 5b0f728c-6a8d-446d-9553-5abc3d01e516
 feature: Admin Workspace, Search, Variables
 role: Developer
-source-git-commit: e9f009cf4e072dcd9784693c10a4c16746af3cc5
+source-git-commit: 0ea7bbef7fec556f9a90151be9cf1077f5cfac45
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,14 @@ ht-degree: 0%
 
 ## 使用管理員變更搜尋引擎（步驟）
 
-1. 以管理員身分登入管理員。
-1. 在左側「管理員」側邊欄中，按一下 **商店**. 然後，在 **設定**，選擇 **設定**.
-1. 在左側的面板中，在 **目錄，** 選擇 **目錄**.
-1. 展開 **目錄搜尋** 區段。    ![catalog_menu.png](assets/catalog_menu.png)
-1. 前往 **搜尋引擎** 欄位並移除選取專案 **使用系統值** 核取方塊。
-1. 按一下 **搜尋引擎** 功能表，並選取其中一個可用選項。    ![search_engine_menu.png](assets/search_engine_menu.png)
-1. 按一下 **儲存設定** 在頁面的右上角。
+1. 登入 **[!UICONTROL Admin]** 作為管理員。
+1. 在左側 **[!UICONTROL Admin]** 側欄，按一下 **[!UICONTROL Stores]**.
+1. 在 **[!UICONTROL Settings]**，選擇 **[!UICONTROL Configuration]**.
+1. 導覽至下方左側的面板 **[!UICONTROL Catalog]，** 並選擇 **[!UICONTROL Catalog]**.
+1. 展開 **[!UICONTROL Catalog Search]** 區段。    ![catalog_menu.png](assets/catalog_menu.png)
+1. 前往 **[!UICONTROL Search Engine]** 欄位並移除選取專案 **[!UICONTROL Use system value]** 核取方塊。
+1. 按一下 **[!UICONTROL Search Engine]** 功能表並選取其中一個可用選項，如下所示。    ![search_engine_menu.png](assets/search_engine_menu.png)
+1. 按一下 **[!UICONTROL Save Config]** 在頁面的右上角。
 
 ## Adobe Commerce內部部署問題
 
@@ -65,10 +66,11 @@ ht-degree: 0%
 
 ### 解決方案：將存放區檢視設定為預設設定
 
-1. 以管理員身分登入管理員。
-1. 在左側「管理員」側邊欄中，按一下 **商店**. 然後，在 **設定**，選擇 **設定**.
-1. 在左上角，按一下 **存放區檢視** 選擇器並選擇 *預設設定*.
-1. 按一下 **確定** 在確認對話方塊中，核准存放區檢視變更。
+1. 登入 **[!UICONTROL Admin]** 作為管理員。
+1. 在左側 **[!UICONTROL Admin]** 側欄，按一下 **[!UICONTROL Stores]**.
+1. 瀏覽至 **[!UICONTROL Settings]** 並選擇 **[!UICONTROL Configuration]**.
+1. 在左上角，按一下 **[!UICONTROL Store View]** 選擇器並選擇 **[!UICONTROL *預設設定&#x200B;*]**.
+1. 按一下 **[!UICONTROL OK]** 在確認對話方塊中，核准存放區檢視變更。
 
 ![change_store_view.png](assets/change_store_view.png)
 
