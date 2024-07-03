@@ -2,9 +2,10 @@
 title: 針對雲端上的Adobe Commerce將MariaDB 10.4升級至10.5
 description: MariaDB 10.4於2024年6月18日終止支援。 本文說明如何將MariaDB從10.4升級至10.5，以繼續在雲端基礎結構上使用Adobe Commerce。
 feature: Best Practices, Cloud
-source-git-commit: 401a36722b3336b47dd76bb12ace34f0bf55b8e6
+exl-id: 065840b8-28c1-4686-95fc-df3e73152845
+source-git-commit: 11f2fae3264a61413c5da1b93ef4980151a1df1e
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -39,6 +40,10 @@ MariaDB 10.4於終止支援 [2024年6月18日](https://endoflife.date/mariadb). 
    1. 讓支援人員知道您已透過支援票證完成備份。 若要取得檢視和追蹤票證的步驟，請參閱 [Adobe Commerce說明中心使用手冊：追蹤您的票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#track-tickets) 在我們的支援知識庫中。
    1. Adobe Commerce支援團隊接著開始MariaDB升級程式。 如果已執行上述所有步驟，而且資料庫為平均大小，則程式大約需要一小時。 較大的資料庫需要較長的時間。 升級完成後，系統會透過票證通知您。
 1. 停用維護模式。 請參閱 [啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode) （位於我們的開發人員檔案中）。
+
+>[!NOTE]
+>
+>建議您在每個升級步驟之前和之後建立DB備份，以消除任何資料遺失的可能性。 如果在版本升級期間的任何時候出現問題，這可讓您復原到之前的步驟。
 
 ## 相關閱讀
 
