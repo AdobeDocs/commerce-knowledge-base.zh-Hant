@@ -4,9 +4,9 @@ description: 本文提供部署失敗並出現下列錯誤「無法下載https:/
 feature: Deploy
 role: Admin
 exl-id: a18f4213-7381-4001-a5a0-3f8db4525469
-source-git-commit: 7804e7094fb05d1cce9747c8f96c3cfe6bc6171e
+source-git-commit: 9f9dc8374bb681398ed1c295ac15679553cfc74e
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,7 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 >
 >此為錯誤範例。 您可能會收到錯誤訊息，指出有不同的檔案(視您部署的Adobe Commerce版本而定)。
 
-您未成功部署。 您會看到類似以下的錯誤 *無法下載「https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip」檔案（HTTP/1.1 404找不到）* 在 [部署記錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
-
+您未成功部署。 您會看到類似以下的錯誤 *無法下載「https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip」檔案（HTTP/1.1 404找不到）* 在 [部署記錄](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
 
 ### 原因
 
@@ -59,4 +58,4 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 ## 相關閱讀
 
 * [無法存取雲端存放庫上的Adobe Commerce：部署時出現403禁止或404找不到](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)
-* [部署錯誤：下載時發生錯誤7 ...連線埠443：連線被拒](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce)
+* [部署錯誤：下載時發生錯誤7 ...連線埠443：連線被拒](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
