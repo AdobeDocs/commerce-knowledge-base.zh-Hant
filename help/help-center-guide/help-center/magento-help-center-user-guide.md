@@ -3,7 +3,7 @@ title: Adobe Commerce說明中心使用手冊
 description: 瞭解如何將支援票證提交至Adobe Commerce說明中心、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
+source-git-commit: 3e773131f6f44436fc533f74474efbe8597abb5f
 workflow-type: tm+mt
 source-wordcount: '4988'
 ht-degree: 0%
@@ -112,7 +112,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 若要使用Adobe Experience League起始頁面提交新的支援案例，請遵循下列步驟：
 
->
+>[!NOTE]
 >
 >1. 如果您屬於多個組織，則需要從下拉式選單中選取適當的組織。
 >1. 若要提交案例，您必須有權獲得支援。 若未包含，頁面頂端會顯示橫條，告知您您並非組織中的支援授權使用者。
@@ -276,6 +276,7 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 >如果您已在https://account.magento.com擁有帳戶，但無法登入，則可能尚未在https://account.adobe.com註冊帳戶（自2022年8月起必須註冊）。
 >
 >若要解決此問題：
+>
 >1. 在https://account.adobe.com使用您MAG ID上的相同電子郵件地址建立帳戶。
 >1. 請前往https://account.magento.com將您的Adobe ID與MAG ID連結。
 
