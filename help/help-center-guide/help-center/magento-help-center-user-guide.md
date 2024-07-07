@@ -3,24 +3,43 @@ title: Adobe Commerce說明中心使用手冊
 description: 瞭解如何將支援票證提交至Adobe Commerce說明中心、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 751a315303be3d6435f4064cdd3fb28a0c811155
+source-git-commit: bdef7c26141356727a225c0ea0a1f9a064d213db
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4988'
 ht-degree: 0%
 
 ---
 
 # Adobe Commerce說明中心使用手冊
 
-在本指南中，瞭解如何將支援票證提交至 [Adobe Commerce說明中心](https://support.magento.com/hc/en-us) 並提供對Magento帳戶的共用存取權。
+在本指南中，瞭解如何將支援票證提交至 [Adobe Commerce說明中心](https://support.magento.com/hc/en-us) 並提供對Adobe Commerce帳戶的共用存取權。
 
 >[!NOTE]
 >
->Adobe Commerce說明中心的知識庫部分已移轉至Adobe Experience League入口網站。 建立支援票證時，會向您建議相關知識庫文章，以及Adobe Experience League中的其他相關Adobe Commerce檔案。
+>Adobe Commerce支援正從Adobe Commerce說明中心移至Experience League。 如果系統通知您您擁有存取權，請使用所說明的Experience League案例表單流程 [此處](#what-is-experience-support). 如果您尚未收到通知，請繼續使用 [Adobe Commerce說明中心案例流程](#what-is-adobe-commerce-help-center).
 
-**重大更新：** 2022年10月14日
+>[!NOTE]
+>
+>Adobe Commerce說明中心的知識庫部分已移轉至Adobe Experience League入口網站。 建立支援票證時，會向您建議相關知識庫文章，以及Adobe Experience League的其他相關Adobe Commerce檔案。
 
-**[什麼是ADOBE COMMERCE說明中心？](#what-is)**
+**重大更新：** 2024年7月8日
+
+**[什麼是EXPERIENCE LEAGUE支援？](#what-is-experience-support)**
+
+**[支援案例](#support-cases)**
+
+* [登入Experience League支援](#sign-in-experience-support)
+* [提交支援案例](#submit-case)
+
+   * [Adobe Experience League起始頁面](#experience-league-start-page)
+   * [Adobe Commerce帳戶頁面](#submit-case-adobe-commerce-account-page)
+   * [*請確認您的電子郵件地址*](#verify-email-address-error)
+
+* [追蹤您的支援案例](#track-support-cases)
+* [您案例中的註解](#comments-in-your-case)
+* [關閉您的案例](#close-case)
+
+**[什麼是ADOBE COMMERCE說明中心？](#what-is-adobe-commerce-help-center)**
 
 **[支援票證](#support-tickets)**
 
@@ -59,7 +78,160 @@ ht-degree: 0%
 
 **[Magento U現在是ADOBE數位學習服務的一部分](#magento-u)**
 
-## Adobe Commerce說明中心是什麼？ {#what-is}
+>[!NOTE]
+>
+>除非您收到通知，否則請繼續使用 [Adobe Commerce說明中心案例流程](#what-is-adobe-commerce-help-center). 如果系統通知您您您屬於具有存取權的同類群組，請依照所說明的Experience League案例表單流程操作 [以下](#what-is-experience-league-support).
+
+## 什麼是EXPERIENCE LEAGUE支援？ {#what-is-experience-support}
+
+Experience League支援是Adobe的支援入口網站，符合資格的Adobe Commerce客戶可以在這裡提交和管理支援票證。 您也可以在此處檢閱疑難排解文章。
+
+## 支援案例 {#support-cases}
+
+Adobe Experience League支援案例管理可透過案例與支援人員合作，解決在合約規定的所有Adobe Commerce產品使用Adobe產品(包括Adobe Commerce)時遇到的特定問題。
+
+## 登入EXPERIENCE LEAGUE支援 {#sign-in-experience-support}
+
+登入可讓您提交、更新及回應代理程式有關支援票證的問題。
+
+若要登入Adobe Experience League支援，請依照下列步驟操作：
+
+1. 瀏覽至 [experienceleague.adobe.com](https://experienceleague.adobe.com/).
+1. 使用您的Adobe登入憑證登入。
+
+![登入experience-league](assets/experience_league_sign_in.png)
+
+### 提交支援案例 {#support-case}
+
+成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面提交支援案例。
+
+* 如果您是帳戶擁有者，請遵循下列步驟。
+* 如果您是「共用存取」使用者，則必須先切換帳戶。 另請參閱 [存取共用帳戶（切換帳戶）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)，然後您可以繼續下列步驟。
+
+#### Adobe Experience League起始頁面 {#experience-league-start-page}
+
+若要使用Adobe Experience League起始頁面提交新的支援案例，請遵循下列步驟：
+
+>
+>
+>1. 如果您屬於多個組織，則需要從下拉式選單中選取適當的組織。
+>1. 若要提交案例，您必須有權獲得支援。 若未包含，頁面頂端會顯示橫條，告知您您並非組織中的支援授權使用者。
+
+1. 按一下 **支援** 在標題中。 它會開啟支援的首頁。
+
+   ![open-support-page](assets/click_support.png)
+
+1. 若要開始支援擷取流程，請按一下 **[!UICONTROL Open Ticket]** ，或按一下 **[!UICONTROL Get Started]** 在 *[!UICONTROL Open a support ticket]* 卡片。
+
+   ![open-support-case](assets/open_support_case.png)
+
+1. 從下拉式選單中選取產品，並提供案例標題和說明。
+
+   ![select_product](assets/support_case_product.png)
+
+1. Adobe Experience League會提供建議文章和最佳實務，協助您解決案例。 如果您仍需要直接支援，在提交案例前，您需要提供一些其他資訊。
+
+   ![direct_support_required](assets/direct_support.png)
+
+1. 填妥所有必要資訊後，按一下 **[!UICONTROL Submit case]**.
+
+您必須同時在https://account.adobe.com和https://account.magento.com擁有帳戶才能登入Experience League以提交支援案例。 您必須先登入才能提交支援案例。
+
+>[!NOTE]
+>
+>如果您已在https://account.magento.com擁有帳戶，但無法登入，則可能尚未在https://account.adobe.com註冊帳戶（自2022年8月起必須註冊）。
+>
+>若要解決此問題：
+>1. 在https://account.adobe.com使用您MAG ID上的相同電子郵件地址建立帳戶。
+>1. 請前往https://account.magento.com將您的Adobe ID與MAG ID連結。
+
+#### Adobe Commerce帳戶頁面 {#submit-case-adobe-commerce-account-page}
+
+若要使用Adobe Commerce帳戶頁面提交新的支援票證，請執行以下步驟：
+
+1. 登入您的Adobe Commerce帳戶。 另請參閱 [詳細指示](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-create.html?lang=en#create-a-commerce-account) 在我們的使用手冊中。
+1. 按一下 **支援** 標籤。
+
+   ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
+
+1. Adobe Experience League支援頁面會為您載入。
+1. 選取 **[!UICONTROL Open Ticket]** 從左側功能表。
+1. 填寫欄位。
+1. 按一下 **提交**.
+
+#### *請驗證您的電子郵件地址* Adobe Commerce帳戶頁面上的錯誤 {#verify-email-address-error}
+
+如果您收到「請驗證您的電子郵件地址」錯誤(類似於 [Adobe Commerce帳戶](https://account.magento.com/) 頁面。
+
+![Verify_Email_Address_Error](assets/Verify_Email_Address_Error.png)
+
+
+### 追蹤您的支援案例 {#track-support-case}
+
+您的支援案例是您：
+
+* 已親自提交。
+* 已透過CC (Carbon Copy)新增為監看員。
+
+#### 檢視您的案例
+
+您可以按一下以檢視您的案例 **[!UICONTROL My Cases]** 在左側功能表中。
+
+![檢視支援案例](assets/view_support_cases.png)
+
+#### 搜尋案例
+
+若要尋找案例，請在 *[!UICONTROL Search]* 欄位並按 *進入* 在鍵盤上。
+
+![搜尋案例](assets/search_cases.png)
+
+#### 升級您的案例
+
+如果您認為某個案例需要進一步關注，而我們的初始回應時間已過，您可以升級該案例。 若要這麼做，
+
+1. 按一下 **[!UICONTROL Escalate to management]** 在右下方 *[!UICONTROL Case Detail]* 面板。
+
+   ![提升至管理層](assets/escalate_to_management.png)
+
+1. 按一下後，即會出現快顯表單。 填寫表單，然後按一下 **[!UICONTROL Escalate]**.
+
+   ![確認提升](assets/confirm_escalation.png)
+
+   *升級原因可能包括*：代理程式通訊技能、代理程式技術知識、等待回撥/更新、問題緊迫性變更、解決未達到預期或解決時間。
+
+#### 在支援案例新增觀察者
+
+您可以新增觀察者來支援組織成員提交的案例。 提交新案例或更新現有案例時，觀察者會收到電子郵件通知。
+
+1. 若要將監看員新增至現有案例，請開啟案例，然後按一下畫面右側「案例詳細資料」面板中「監看員」旁的鉛筆圖示。
+
+   ![新增觀察者](assets/add_watchers.png)
+
+1. 按一下鉛筆之後，您就可以從清單中新增或移除觀察者。
+
+   ![更新觀察者](assets/update_watchers.png)
+
+### 您案例中的註解 {#comments-in-your-case}
+
+您案例中的註解包含您或Adobe Commerce支援團隊所撰寫的所有註解。 註解會以最新（頂端）到最早（底部）的順序顯示。
+若要新增註解，請執行下列步驟：
+
+1. 捲動至票證底部。
+1. 將您的意見寫入 **[!UICONTROL Comments]** 欄位並按一下 **[!UICONTROL Add comments]**.
+
+![add-comments](assets/add_comments.png)
+
+### 關閉您的案例 {#close-case}
+
+若要關閉您的案例，請按一下 **[!UICONTROL Close case]** 在右下方 *[!UICONTROL Case Detail]* 面板。
+
+![close-case](assets/close_case.png)
+
+>[!NOTE]
+>
+>繼續使用Adobe Commerce說明中心表單流程 [以下](#what-is-adobe-commerce-help-center) 用於票證提交和管理，除非您收到通知，告知您您您屬於可存取所述的Experience League案例表單流程的同類群組 [此處](#what-is-experience-league-support).
+
+## Adobe Commerce說明中心是什麼？ {#what-is-adobe-commerce-help-center}
 
 此 [Adobe Commerce說明中心](https://support.magento.com/hc/en-us) 是Adobe Commerce的支援入口網站，合格客戶可在此提交和管理支援票證。 您也可以在此處檢閱疑難排解文章。
 
@@ -152,7 +324,7 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 
 * 您尚未登入說明中心。
 * 如果第一次使用共用存取，您尚未執行必要的步驟，以確保Adobe Commerce說明中心已透過Magento.com的SSO呼叫正確設定。
-* 您的帳戶無權獲得Adobe Commerce支援(例如，您不是付費Commerce客戶或您是開放原始碼客戶)。
+* 您的帳戶無權獲得Adobe Commerce支援(例如，您不是付費Commerce客戶或您是開放Source客戶)。
 
 #### 解決方案
 
@@ -291,7 +463,7 @@ Adobe Commerce票證系統可讓您使用支援票證，針對所有Adobe Commer
 
 ### Adobe Commerce分擔責任運作模式 {#shared-responsibility-operational-model}
 
-**需要登入** 以存取 [Adobe Commerce分擔責任運作模式](https://support.magento.com/hc/en-us/articles/4407700678669) 本文章旨在釐清Adobe Commerce的營運責任，僅針對我們的專業基礎建設服務。
+請參閱以下文章： [Adobe Commerce分擔責任運作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/security-and-compliance/shared-responsibility#operational-responsibilities-summary)，旨在釐清我們專業基礎建設產品的營運責任。
 
 ### 說明支援票證欄位 {#ticket-fields-explained}
 
@@ -393,7 +565,7 @@ URL必須以「https://」開頭。 其格式通常為：商家名稱+&quot;.mco
 
 選取受影響的訂單範圍。
 
-此為下拉式清單，僅適用於「訂單管理系統」產品。
+這是下拉式清單，僅適用於Order Management產品。
 
 #### 組織
 
@@ -446,15 +618,15 @@ URL必須以「https://」開頭。 其格式通常為：商家名稱+&quot;.mco
 
 #### 主旨
 
-包含問題的簡短概觀(例如， *所有頁面均顯示錯誤404* )。
+包含問題的簡短概觀(例如， *所有頁面均顯示錯誤404*)。
 
-**建議的文章：** 當您輸入搜尋詞時，可能會顯示與您問題有關的AdobeCommerce檔案文章清單。 按一下清單中的文章以開啟它。
+**建議的文章：** 當您輸入搜尋詞時，可能會顯示與您問題相關的Adobe Commerce檔案文章清單。 按一下清單中的文章以開啟它。
 
 ![hc_subject-suggested-articles.png](assets/hc_subject-suggested-articles.png)
 
 *建議：* 請仔細考慮建議的文章，其中可能包含您希望Adobe Commerce支援團隊提供的解決方案。
 
-#### 版本(僅限內部部署的Adobe Commerce、雲端基礎結構上的Adobe Commerce和送貨)
+#### 版本(Adobe Commerce內部部署，僅限雲端基礎結構和Shipping上的Adobe Commerce)
 
 請選取您請求協助的Adobe Commerce版本。 頂端會列出所有支援的Adobe Commerce版本。 不支援的版本會以括弧列在底部。 如果您正在移轉，請選取最新版本以確保系統支援您。
 
@@ -498,6 +670,7 @@ Adobe Commerce支援已針對您的問題提供解決方案，而您也同意其
    ![hc_add-to-conversation.png](assets/hc_add-to-conversation.png)
 
 1. 若要新增個人到您的評論，請在以下欄位中指定電子郵件： **CC** 評論欄位的欄位。
+
    >[!NOTE]
    >
    >CC：中的使用者必須在https://account.magento.com擁有現有帳戶。 如果沒有，他們必須先在https://account.adobe.com建立帳戶，然後使用該帳戶登入https://account.magento.com。
@@ -518,29 +691,29 @@ Adobe Commerce支援已針對您的問題提供解決方案，而您也同意其
 
 ## 共用存取：授予許可權給其他使用者，讓其他使用者可以存取您的帳戶 {#shared-access}
 
-您可以授予其他Magento帳戶持有人對您帳戶的有限存取權。 尤其是，使用 **共用存取** 功能，您可以為受信任的員工和服務供應商提供使用您的「說明中心」帳戶的許可權，以便他們可以使用您的支援票證。
+您可以授予其他Adobe Commerce帳戶持有人對您帳戶的有限存取權。 尤其是，使用 **共用存取** 功能，您可以為受信任的員工和服務供應商提供使用您的「說明中心」帳戶的許可權，以便他們可以使用您的支援票證。
 
-您可以使用位於的Magento帳戶頁面來提供及管理共用存取權 [https://account.magento.com](https://account.magento.com/).
+您可以使用位於的Adobe Commerce帳戶頁面來提供及管理共用存取權 [https://account.magento.com](https://account.magento.com/).
 
 ### 誰可以提供共用存取權 {#who-can-provide-shared-access}
 
-只有具有相應許可權的帳戶擁有者（主要帳戶持有者）才能為其他使用者提供共用存取權。
+只有具有相應許可權的帳戶擁有者（主要帳戶擁有者）才能為其他使用者提供共用存取權。
 
-管理使用者及其存取權是客戶的責任，尤其是在共用存取觀點中。 因此，Adobe Commerce支援團隊無法代表客戶提供對Magento帳戶的共用存取權。 建議客戶透過 [Magento帳戶頁面](https://account.magento.com/).
+管理使用者及其存取權是客戶的責任，尤其是在共用存取觀點中。 因此，Adobe Commerce支援團隊無法代表客戶提供Adobe Commerce帳戶的共用存取權。 建議客戶透過 [Adobe Commerce帳戶頁面](https://account.magento.com/).
 
 已提供共用存取許可權的使用者無法將此存取許可權轉移或授予其他使用者。
 
 ### 提供共用存取權 {#provide-shared-access}
 
-請參閱 [共用您的帳戶](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) Adobe Commerce區段，以取得設定共用帳戶的詳細步驟。
+請參閱 [共用Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share) Adobe Commerce快速入門手冊的區段，以取得設定共用帳戶的詳細步驟。
 
-為新使用者提供共用存取權後，相關資訊可在以下欄位取得： **共用存取** > **管理許可權** ，位於您的「Magento帳戶」頁面。
+為新使用者提供共用存取權後，相關資訊可在以下欄位取得： **共用存取** > **管理許可權** ，位於您的Adobe Commerce帳戶頁面上。
 
-![magento-account-shared-manage-permissions](assets/magento-account-shared-manage-permissions.png){width="800"}
+![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
 ### 撤銷（刪除）共用存取權 {#revoke-shared-access}
 
-1. 請在登入您的Magento帳戶 [https://account.magento.com](https://account.magento.com/).
+1. 請在登入您的Adobe Commerce帳戶 [https://account.magento.com](https://account.magento.com/).
 1. 在左側面板的「共用存取」下方，選擇 **管理許可權。**
 1. 尋找要撤銷其共用存取許可權的使用者，然後按一下 ![移除圖示](assets/remove_icon.png){width="25"} 在使用者列中(**動作** 欄)。
 1. 按一下 **刪除使用者** 以撤銷存取權，或上方角落的X以取消撤銷。
@@ -549,7 +722,7 @@ Adobe Commerce支援已針對您的問題提供解決方案，而您也同意其
 
    您也可以使用撤銷共用存取權 **編輯** 功能表：
 
-1. 請在登入您的Magento帳戶 [https://account.magento.com](https://account.magento.com/).
+1. 請在登入您的Adobe Commerce帳戶 [https://account.magento.com](https://account.magento.com/).
 1. 在左側面板的「共用存取」下方，選擇 **管理許可權。**
 1. 尋找要撤銷其共用存取許可權的使用者，然後按一下 **編輯** 在使用者列中(**動作** 欄)。
 1. 按一下 **刪除此使用者** ，位於頁面底部。
@@ -573,7 +746,7 @@ Adobe Commerce支援已針對您的問題提供解決方案，而您也同意其
 
 不過，一旦您撤銷了這些共用存取許可權使用者的許可權，他們便無法再擁有該存取權。
 
-1. 請在登入您的Magento帳戶 [https://account.magento.com](https://account.magento.com/).
+1. 請在登入您的Adobe Commerce帳戶 [https://account.magento.com](https://account.magento.com/).
 1. 在左側的面板中，在 *[!UICONTROL Shared Access]*，選擇 **[!UICONTROL Manage Permissions]**.
 1. 尋找要撤銷其共用存取許可權的使用者，然後按一下 **[!UICONTROL Edit]** 在使用者列中(*[!UICONTROL Actions]* 欄)。
 1. 取消勾選下的所有資源 *[!UICONTROL Grant Account Permissions]*.
@@ -586,10 +759,10 @@ Adobe Commerce支援已針對您的問題提供解決方案，而您也同意其
 
 若要使用為您提供的共用存取權，請遵循下列步驟：
 
-1. 請在登入您的Magento帳戶 [https://account.magento.com](https://account.magento.com/).
+1. 請在登入您的Adobe Commerce帳戶 [https://account.magento.com](https://account.magento.com/).
 1. 按一下 **切換帳戶** 功能表並選取帳戶。
 
-   ![magento-account-shared-switch](assets/magento-account-shared-switch.png){width="800"}
+   ![magento-account-shared-switch](assets/magento_account_shared_switch.png){width="800"}
 
 若要瞭解您目前使用的帳戶（您自己的原生帳戶或共用存取權），請參閱 **切換帳戶** 功能表：顯示作用中的帳戶。
 
@@ -605,4 +778,3 @@ Adobe Commerce支援已針對您的問題提供解決方案，而您也同意其
 
 MagentoU已與 [Adobe數位學習服務(ADLS)](https://learning.adobe.com/).
 
-MagentoU Zendesk將逐步淘汰。
