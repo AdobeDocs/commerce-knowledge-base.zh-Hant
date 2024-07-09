@@ -3,9 +3,9 @@ title: 雲端基礎結構沙箱要求的合作夥伴Adobe Commerce
 description: 本常見問題集文章包含雲端基礎結構沙箱請求中Adobe Commerce實用資源的連結。
 exl-id: 3ec1cbc0-1a71-4753-8fc5-51c5f1928f12
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -29,4 +29,4 @@ ht-degree: 0%
 ## 解決方案合作夥伴或技術合作夥伴應在哪裡/如何提交支援請求？ {#wherehow-do-solution-partners-or-tech-partners-submit-a-support-request}
 
 * 解決方案合作夥伴可以傳送電子郵件至提交沙箱相關問題的票證 [SPPHelp@adobe.com](mailto:SPPHelp@adobe.com) 並將轉寄給合作夥伴技術支援團隊。
-* 技術合作夥伴可在 [Commerce Marketplace說明中心](https://marketplacesupport.magento.com/hc/en-us/requests) 頁面。
+* 技術合作夥伴可以 [聯絡市集支援](mailto:commercemarketplacesupport@adobe.com).

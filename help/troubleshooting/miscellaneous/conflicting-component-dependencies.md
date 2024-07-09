@@ -4,9 +4,9 @@ description: 本文提供衝突元件相依性的解決方案。 嘗試使用Web
 exl-id: 782049c4-b6e1-4ead-a00f-80d2aa8475c9
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8f0f7412e75e07a22e66236b88c095c698dbf23e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ We have detected conflicts with the following packages:
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
 1. 請洽詢擴充功能的開發人員，以便他們協助您。 您可以在Commerce Marketplace上您所購買擴充功能的頁面上，找到他們的聯絡資訊。 尋找 **聯絡賣家** 按鈕顯示在右側面板上。 所有Commerce開發人員在Marketplace上發佈擴充功能時，都必須提供使用者和安裝指南。 兩者皆可在登陸頁面的右側找到。
-1. 如果您沒有在合理的時間內收到賣方的回應，請 [告知Commerce Marketplace](https://marketplacesupport.magento.com/hc/en-us) 以便我們提醒他們客戶支援承諾。
+1. 如果您沒有在合理的時間內收到賣方的回應，請 [聯絡市集支援](mailto:commercemarketplacesupport@adobe.com) 以便我們提醒他們客戶支援承諾。
 
 ## Magento Open Source {#opensource}
 
-在以下位置請求協助： [我們的主要論壇](https://community.magento.com/) 或 [聯絡Adobe Commerce合作夥伴](https://magento.com/find-a-partner) 協助解決開放原始碼問題。
+在以下位置請求協助： [我們的主要論壇](https://community.magento.com/) 或 [聯絡Adobe Commerce合作夥伴](https://magento.com/find-a-partner) 會協助您解決Open Source問題。
