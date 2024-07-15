@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 受限的管理員存取權造成效能問題
 
-當效能受到使用的負面影響時，本文提供解決方案 [具有受網站限制的角色範圍的管理員角色](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources) 在我們的使用手冊中。
+本文提供解決方案，適用於使用使用使用手冊中受網站](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html#step-2assign-resources)限制角色範圍的[管理員角色，而效能受到負面影響的情況。
 
 ## 受影響的產品和版本
 
@@ -30,10 +30,10 @@ Adobe Commerce 2.2.10和2.3.3已修正此問題。
 
 以下是可避免問題的選項：
 
-* 將Adobe Commerce應用程式版本升級至2.2.10或2.3.3。 (如需指示，請參閱 [在雲端基礎結構版本上升級Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html) （位於我們的開發人員檔案中）。
+* 將Adobe Commerce應用程式版本升級至2.2.10或2.3.3。 (如需指示，請參閱我們的開發人員檔案中的[在雲端基礎結構版本](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade.html)上升級Adobe Commerce)。
 * 儘可能避免依網站限制管理員使用者角色範圍。
-* [提交Magento支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以要求修補程式（若有）。
+* [提交Magento支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以請求修補程式（如果可用）。
 
 ## 相關閱讀
 
-* [使用者角色](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html) 在我們的使用手冊中。
+* 使用手冊中的[使用者角色](https://docs.magento.com/m2/ee/user_guide/system/permissions-user-roles.html)。

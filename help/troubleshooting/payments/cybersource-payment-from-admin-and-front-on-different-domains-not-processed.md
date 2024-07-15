@@ -17,17 +17,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。使用 [正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html) 從marketplace取得。
+>核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。請改用marketplace的[正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html)。
 
 ## 問題
 
-先前實施的Cybersource整合僅允許處理來自一個網域的付款。 因此，如果您的Adobe Commerce店面與Commerce管理員位於不同的網域，則嘗試在管理員中使用網路來源下達訂單時，會出現下列錯誤： 」 *X-Frame-Options拒絕載入： https://%your\_domain%/cybersource/SilentOrder/TokenResponse/不允許跨來源框架。* ..」
+先前實施的Cybersource整合僅允許處理來自一個網域的付款。 因此，如果您的Adobe Commerce店面與Commerce管理員位於不同的網域，當您嘗試在管理員中使用網路來源下訂單時，會出現下列錯誤： &quot; *Load denied by X-Frame-Options： https://%your\_domain%/cybersource/SilentOrder/TokenResponse/不允許跨來源框架。* ...&quot;
 
 <u>要再現的步驟</u>：
 
 1. 在不同的子網域上設定管理員。
-1. 設定Cybersource以供商店使用 **商店** >設定> **設定** > **銷售** > **付款方法** > **網路來源**.
-1. 前往 **銷售** > **訂購**.
+1. 設定&#x200B;**商店** >設定> **設定** > **銷售** > **付款方式** > **網路來源**&#x200B;下之商店的網路來源。
+1. 移至&#x200B;**銷售** > **訂單**。
 1. 建立新訂單。
 1. 建立新客戶。
 1. 輸入客戶明細。
@@ -35,13 +35,13 @@ ht-degree: 0%
 1. 選取Cybersource作為付款方式。
 1. 提交訂單。
 
-<u>預期結果</u>：下單時沒有發生問題。
+<u>預期結果</u>：下單沒有問題。
 
-<u>實際結果</u>：訂單頁面會顯示載入圖示，但從未下訂單。 錯誤會顯示在主控台中。
+<u>實際結果</u>：「訂單」頁面會顯示載入圖示，但從未下訂單。 錯誤會顯示在主控台中。
 
 ## 解決方案
 
-附加的修補程式改善了與Cybersource的整合。 套用修補程式後，您需要與網路來源建立另一個設定檔，以便在「管理員」中處理付款，並在「Commerce管理員」下的「網路來源」設定中新增所需認證 **商店** >設定> **設定** > **銷售** > **付款方法** > **網路來源**.
+附加的修補程式改善了與Cybersource的整合。 套用修補程式後，您需要建立另一個設定檔，讓電腦來源在管理員中處理付款，並在Commerce管理員的&#x200B;**商店** >設定> **設定** > **銷售** > **付款方式** > **電腦來源**&#x200B;下電腦來源設定中新增必要的認證。
 
 >[!NOTE]
 >
@@ -69,6 +69,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

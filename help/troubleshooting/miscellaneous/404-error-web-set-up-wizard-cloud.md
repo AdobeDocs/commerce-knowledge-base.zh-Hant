@@ -43,9 +43,9 @@ ht-degree: 0%
 
 此功能在雲端基礎結構的Adobe Commerce上停用。
 
-另請參閱 [安裝、管理和升級擴充功能](https://devdocs.magento.com/cloud/howtos/install-components.html) 開發人員檔案中，瞭解如何在雲端基礎結構上執行更新或安裝Adobe Commerce的外部模組。
-另請參閱 [快速入門安裝](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) 開發人員檔案中，瞭解如何針對Adobe Commerce內部部署執行更新或安裝外部模組的相關資訊。
+請參閱我們的開發人員檔案中的[安裝、管理和升級擴充功能](https://devdocs.magento.com/cloud/howtos/install-components.html)，瞭解如何在雲端基礎結構上執行更新或安裝Adobe Commerce的外部模組。
+請參閱開發人員檔案中的[快速入門安裝](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)，取得如何執行更新或安裝Adobe Commerce內部部署外部模組的資訊。
 
 ## 相關閱讀
 
-* 另請參閱 [安裝擴充功能](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension) （位於我們的開發人員檔案中）。
+* 請參閱我們的開發人員檔案中的[安裝擴充功能](https://devdocs.magento.com/cloud/howtos/install-components.html#install-an-extension)。

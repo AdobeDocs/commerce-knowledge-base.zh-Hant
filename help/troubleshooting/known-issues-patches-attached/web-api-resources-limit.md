@@ -51,13 +51,13 @@ Web API無法處理陣列中包含超過20個專案的訊息（例如，庫存�
 
 ### 如何套用修補程式
 
-將下載的檔案解壓縮 `.zip` 檔案並套用修補程式，如所述 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+解壓縮下載的`.zip`檔案，並套用修補程式，如[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 >[!WARNING]
 >
->如果您懷疑您的存放區遭受DoS攻擊，Adobe建議將預設輸入限制降低至較低的值，以限制可要求的資源數量。  您可以使用以程式設計方式自訂預設限制 [類別建構函式引數](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)
->如開發人員檔案所述： [API安全性>速率限制>引數輸入上限](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting).
+>如果您懷疑您的存放區遭受DoS攻擊，Adobe建議將預設輸入限制降低至較低的值，以限制可要求的資源數量。  您可以使用[類別建構函式引數](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/di-xml-file.html)以程式設計方式自訂預設限制
+>如我們的開發人員檔案所述： [API安全性>速率限制>最大引數輸入](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting)。
 
 ## 相關閱讀
 
-[API安全性>速率限制](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting) （位於我們的開發人員檔案中）。
+在開發人員檔案中[API安全性>速率限制](https://devdocs.magento.com/guides/v2.4/get-started/api-security.html#rate-limiting)。

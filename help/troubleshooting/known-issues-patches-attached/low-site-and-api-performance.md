@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 網站和API效能低
 
-本文針對由於寫入時間較長而導致網站和API效能偏低的相關雲端基礎結構2.2.1已知的Adobe Commerce問題，提供修補程式 `debug.log`.
+本文提供雲端基礎結構2.2.1上已知的Adobe Commerce問題的修補程式，該問題與寫入`debug.log`所需的長時間導致低網站和API效能有關。
 
 ## 問題
 
-網站效能緩慢。 API作業執行速度緩慢，例如使用更新產品 `PUT` 方法。 當您進一步瞭解使用New Relic的作業時，大部分的記憶體和CPU都是透過寫入來消耗 `/var/log/debug.log`.
+網站效能緩慢。 API作業執行速度緩慢，例如使用`PUT`方法更新產品。 當您更仔細地檢視使用New Relic的作業時，大部分的記憶體和CPU會透過寫入`/var/log/debug.log`來消耗。
 
 ## 解決方案
 
@@ -42,6 +42,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。
 
 ## 附加的檔案

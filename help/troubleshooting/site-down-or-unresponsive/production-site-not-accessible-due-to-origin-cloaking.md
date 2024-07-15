@@ -21,18 +21,18 @@ ht-degree: 0%
 
 ## 問題
 
-https：/&#x200B;/mydomain.com.c.&lt;projectid>無法再存取.magento.cloud/。
+https：&#x200B;//mydomain.com.c.&lt;projectid>.magento.cloud/無法再存取。
 
 <u>要再現的步驟：</u>
 
 1. 登入您的專案。
-1. 按一下 **存取專案** 以取得URL和SSH的清單。
+1. 按一下&#x200B;**存取專案**&#x200B;以取得URL和SSH的清單。
 
 <u>實際結果：</u>
 
 頁面因下列錯誤而無法載入：
 
-*NET：：ERR\_CERT\_INVALID*  *TLS警示，錯誤的憑證(554)：*
+*NET：：ERR\_CERT\_INVALID* *TLS警示，錯誤的憑證(554)：*
 
 <u>預期結果：</u>
 
@@ -47,8 +47,8 @@ https：/&#x200B;/mydomain.com.c.&lt;projectid>無法再存取.magento.cloud/。
 ## 解決方案
 
 * 如果您的雲端網站為上線狀態，請切換至https://mydomain.com/。
-* 如果您有使用中的網站（非雲端），請使用https://mydomain.com/網域設定子網域 `mcprod.mydomain.com` 並更新您的 **基礎URL** 至 *https://mcprod.mydomain.com* 而非 [將DNS指向Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings).
+* 如果您有使用中的網站（非雲端），請使用https://mydomain.com/網域，設定子網域`mcprod.mydomain.com`並更新您的&#x200B;**基礎URL**&#x200B;至&#x200B;*https://mcprod.mydomain.com*，然後[將DNS指向Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#update-dns-configuration-with-development-settings)。
 
 ## 相關閱讀
 
-[Fastly Origin遮罩啟用常見問題集](/help/faq/general/fastly-origin-cloaking-enablement-faq.md) 在我們的支援知識庫中。
+[我們的支援知識庫中的Fastly來源遮罩啟用常見問題集](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)。

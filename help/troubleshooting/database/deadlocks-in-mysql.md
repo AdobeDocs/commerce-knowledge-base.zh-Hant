@@ -24,7 +24,7 @@ ht-degree: 0%
 
 當兩個或多個交易相互保留並請求鎖定時，就會在MySQL中出現死結。 出現死結並不一定表示發生問題，但通常是其他已發生的MySQL或Adobe Commerce問題的徵兆。
 
-應用程式、部署或MySQL記錄檔通常會提及 *&quot;deadlock&quot;* 錯誤或錯誤 *「嘗試取得鎖定時發現死結；請嘗試重新啟動交易。」*
+應用程式、部署或MySQL記錄檔經常會提及&#x200B;*「死結」*&#x200B;錯誤，或嘗試取得鎖定時發現錯誤&#x200B;*「死結」；請嘗試重新啟動交易。*
 
 ## 原因
 
@@ -36,16 +36,16 @@ ht-degree: 0%
 
 1. 檢查您的應用程式、部署或MySQL記錄檔是否有死結錯誤：
    * [Adobe Commerce和Magento Open Source記錄檔位置](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/enable-logging.html)
-   * [雲端基礎結構上的Adobe Commerce記錄位置](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
-1. 檢查您的MySQL處理作業清單，以找出使用命令執行的處理作業 `mysql -e 'show full processlist';`
-1. 如果是在雲端基礎結構上的Adobe Commerce上，請檢查MySQL從屬檔案是否已啟用。 請參閱本文： [部署變數(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection).
-1. 根據所涉及的錯誤，解決方案可能會顯示自身，或者，如果您需要開啟 [支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+   * 雲端基礎結構記錄位置上的[Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+1. 檢查您的MySQL處理序清單，以使用命令`mysql -e 'show full processlist';`執行處理序
+1. 如果是在雲端基礎結構上的Adobe Commerce上，請檢查MySQL從屬檔案是否已啟用。 請參閱本文： [部署變數(MYSQL\_USE\_SLAVE\_CONNECTION)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#mysql_use_slave_connection)。
+1. 根據涉及的錯誤，解決方案可能會自行出現，或者您可能需要在需要開啟[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)時包含有用的記錄資訊。
 
 ## 相關閱讀
 
 * [如何最小化並處理死結](https://dev.mysql.com/doc/refman/5.7/en/innodb-deadlocks-handling.html)
-* [索引器最佳化 — 切換索引器表格](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
-* [大量作業 — 沖銷訊息](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
+* [索引器最佳化 — 正在切換索引器資料表](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)
+* [大量作業 — 使用郵件](https://developer.adobe.com/commerce/php/development/components/message-queues/bulk-operations/)
 
 >[!NOTE]
 >

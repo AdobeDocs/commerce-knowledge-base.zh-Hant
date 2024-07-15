@@ -29,7 +29,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 使用匯入檔案 [匯入功能](https://docs.magento.com/m2/ee/user_guide/system/data-import.html).
+1. 使用[匯入功能](https://docs.magento.com/m2/ee/user_guide/system/data-import.html)匯入檔案。
 1. 開啟套件組合產品頁面。
 
 <u>預期結果</u>：
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 為中的每一個選項明確宣告位置 `position` 的引數 `bundle_values` 欄。 如需詳細指示，請參閱 [編輯產品資料](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data) 在我們的使用手冊中。
+1. 針對.csv檔案中`bundle_values`欄的`position`引數中的每個選項，明確宣告位置。 如需詳細指示，請參閱使用手冊中的[編輯產品資料](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html#method-2-edit-the-product-data)。
 1. 重複匯入操作。
 
-如需匯入的一般資訊，請參閱 [匯入套件組合產品](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html) 在我們的使用手冊中。
+如需匯入的一般資訊，請參閱使用手冊中的[匯入組合產品](https://docs.magento.com/m2/ee/user_guide/system/data-transfer-bundle-products.html)。

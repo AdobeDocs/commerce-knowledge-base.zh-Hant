@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 如果上線網站使用相同的網域，請在生產上進行Fastly測試
 
-如果您的生產網域中有一個已上線網站在執行(`example.com`)，而您需要在雲端基礎結構啟用Fastly CDN的生產環境上在Adobe Commerce上測試新存放區，我們建議使用子網域(例如 `prod.example.com`)，之前已將其新增到Fastly，用於任何啟動前測試活動。 本文會討論詳細資訊，並提供相關Adobe Commerce檔案資源的實用連結。
+如果您的生產網域(`example.com`)上有一個上線網站在執行，而且您需要在雲端基礎結構啟用Fastly CDN的生產環境中測試Adobe Commerce上的新存放區，我們建議使用子網域（例如`prod.example.com`），而之前已將其新增到Fastly中，以用於任何啟動前測試活動。 本文會討論詳細資訊，並提供相關Adobe Commerce檔案資源的實用連結。
 
 ## 問題
 
-您目前使用 `example.com` 生產網域已上線並運作。 不過，您需要測試新商店、在雲端基礎結構上使用Adobe Commerce建置並部署至生產環境，同時啟用Fastly全頁快取服務。
+您目前使用`example.com`生產網域的存放區已上線且運作中。 不過，您需要測試新商店、在雲端基礎結構上使用Adobe Commerce建置並部署至生產環境，同時啟用Fastly全頁快取服務。
 
-問題是雲端基礎結構專案上Adobe Commerce的生產環境使用相同的即時網域(`example.com`)，且您無法將新網站切換至此網域，同時讓目前的即時商店在同一個網域上運作。
+問題是雲端基礎結構專案上Adobe Commerce的生產環境使用相同的即時網域(`example.com`)，而且您無法將新網站切換至此網域，同時讓目前的即時商店在相同的網域上執行。
 
 ### 為何要在生產環境中使用Fastly進行測試？
 
@@ -28,19 +28,19 @@ ht-degree: 0%
 
 ## 解決方案：使用生產子網域
 
-使用第一層子網域(`prod.example.com`)中，用於生產環境中雲端基礎結構存放區上的新Adobe Commerce，同時讓目前的即時網站保持在基本網域(`example.com`)。
+在生產環境的雲端基礎結構存放區中，針對您的新Adobe Commerce使用第一層子網域(`prod.example.com`)，同時將目前的即時網站保留在基本網域(`example.com`)上。
 
 在雲端基礎結構專案上規劃Adobe Commerce時，您可以指定這樣的生產子網域，並要求雲端基礎結構團隊將子網域指向Fastly服務。
 
 請依照下列步驟，在雲端基礎結構專案上處理Adobe Commerce中的子網域：
 
-* [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 請求將子網域新增到Fastly服務/Nginx設定(適用於雲端基礎結構上的Adobe Commerce Pro計畫架構)。
+* [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求將子網域新增到Fastly服務/Nginx設定(適用於雲端基礎結構上的Adobe Commerce Pro計畫架構)。
 * 在您的一側設定對應的DNS設定。
 
 執行子網域設定的步驟後，您也必須採取這些步驟來驗證SSL憑證的生產網域：
 
 * 上傳DNS TXT記錄以進行生產網域的SSL驗證。
-* [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 請求驗證SSL憑證的生產網域。
+* [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求驗證SSL憑證的生產網域。
 
 使用子網域可讓您日後對商店執行「軟啟動」，因為此啟動只需要更新對應的DNS設定。
 
@@ -48,11 +48,11 @@ ht-degree: 0%
 
 在我們的支援知識庫中：
 
-* [在中繼和生產環境中設定Fastly DNS設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [為雲端入門計畫設定Fastly](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* [在雲端基礎結構上的Adobe Commerce上啟動的潛在封鎖程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [在測試和生產環境中設定Fastly DNS設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
+* [在雲端上設定Fastly以開始計畫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
+* 在雲端基礎結構的Adobe Commerce上啟動[可能的封鎖程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 在我們的開發人員檔案中：
 
-* [Fastly概述](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [Fastly總覽](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
 * [上線檢查清單： Fastly的DNS設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)

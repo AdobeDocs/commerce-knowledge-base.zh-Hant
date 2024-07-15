@@ -20,15 +20,15 @@ Adobe Commerce （所有部署方法） 2.3.x、2.4.x。
 
 從管理員建立「已清除」傾印：
 
-1. 在Commerce Admin中，前往 **系統** > **支援** > **資料收集器**.
-1. 按一下 **新增備份**.
-1. 幾分鐘後，按一下 **重新整理狀態** （可能需要更長的時間，每5分鐘重複一次，直到完成）。
-1. 重新定位產生的傾印檔案(從 `/var/support` 到Adobe Commerce根目錄的目錄。
+1. 在Commerce Admin中，移至&#x200B;**系統** > **支援** > **資料收集器**。
+1. 按一下&#x200B;**新增備份**。
+1. 幾分鐘後，按一下&#x200B;**重新整理狀態** （可能需要更長的時間，每5分鐘重複一次直到完成）。
+1. 將產生的傾印檔案從`/var/support`目錄重新定位到Adobe Commerce根目錄。
 
 然後，您可以提供到傾印檔案（您的存放區地址和顯示的檔案名稱）的直接下載連結給支援。
 
-如果您無法從管理員建立傾印，請考慮使用CLI命令，如所述 [執行支援公用程式](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html) （位於我們的開發人員檔案中）。
+如果您無法從管理員建立傾印，請考慮使用CLI命令，如開發人員檔案中的[執行支援公用程式](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-spt-util.html)所述。
 
 ## 相關閱讀
 
-* [在雲端基礎結構上為Adobe Commerce建立完整資料庫備份](/help/how-to/general/create-database-dump-on-cloud.md) 在我們的支援知識庫中。
+* [在我們的支援知識庫中，為Adobe Commerce在雲端基礎結構上建立完整的資料庫備份](/help/how-to/general/create-database-dump-on-cloud.md)。

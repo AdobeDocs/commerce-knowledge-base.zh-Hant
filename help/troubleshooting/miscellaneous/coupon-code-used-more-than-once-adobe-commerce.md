@@ -33,7 +33,7 @@ Adobe Commerce （所有部署方法） 2.4.3和更高版本
 
 <u>預期結果</u>：
 
-抵用券只能使用一次。 系統會顯示訊息： *優惠券代碼&quot;COUPON_NAME&quot;無效*.
+抵用券只能使用一次。 顯示訊息： *優惠券代碼「COUPON_NAME」無效*。
 
 <u>實際結果</u>：
 
@@ -42,11 +42,11 @@ Adobe Commerce （所有部署方法） 2.4.3和更高版本
 
 ## 原因
 
-商家沒有 `sales.rule.update.coupon.usage` 消費者設定並執行而導致不當行為。
+商戶未設定並執行導致不當行為的`sales.rule.update.coupon.usage`消費者。
 
 ## 解決方案
 
-新增 `sales.rule.update.coupon.usage` 消費者移至 `app/etc/env.php` 檔案。
+將`sales.rule.update.coupon.usage`取用者新增至`app/etc/env.php`檔案。
 
 ```php
 ...
@@ -62,8 +62,8 @@ Adobe Commerce （所有部署方法） 2.4.3和更高版本
 ...
 ```
 
-如需詳細步驟，請參閱 [管理訊息佇列>設定](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration) （位於我們的開發人員檔案中）。
+如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration)。
 
 ## 相關閱讀
 
-[訊息佇列總覽](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html) （位於我們的開發人員檔案中）。
+在開發人員檔案中[訊息佇列總覽](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html)。

@@ -18,11 +18,11 @@ ht-degree: 0%
 * [資料差異診斷檢查清單](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [使用匯出功能來精確找出資料差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-我們也建議您確認無誤 [復寫方法](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html) 和 [重新檢查](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html) 已針對差異中涉及的表格和欄設定。 請注意，您需要管理員許可權才能存取復寫方法並重新檢查資訊。
+我們也建議您確定已針對發生差異的資料表和資料行設定正確的[復寫方法](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-replication-methods.html)和[重新檢查](https://docs.magento.com/mbi/data-analyst/data-warehouse-mgr/cfg-data-rechecks.html)。 請注意，您需要管理員許可權才能存取復寫方法並重新檢查資訊。
 
 ## 我仍需要協助！
 
-如果報告仍然不準確，請不要擔心 — 我們的支援團隊樂意為您提供協助！ [聯絡我們](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) ，並提供下列資訊：
+如果報告仍然不準確，請不要擔心 — 我們的支援團隊樂意為您提供協助！ [與我們](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)聯絡並提供下列資訊：
 
 * 您看到差異的報告名稱為何？
 * 報表中的哪些值不正確？

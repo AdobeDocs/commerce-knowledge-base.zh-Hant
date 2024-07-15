@@ -18,4 +18,4 @@ ht-degree: 0%
 * 查明可能中斷問題的一般步驟
 * 如何確定問題到底是中斷、小規模中斷還是暫時性障礙
 
-若要下載文章，請按一下 [Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)
+若要下載文章，請按一下[Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf](assets/Outages_how_to_identify_and_measure_effect_Adobe_Commerce.pdf)

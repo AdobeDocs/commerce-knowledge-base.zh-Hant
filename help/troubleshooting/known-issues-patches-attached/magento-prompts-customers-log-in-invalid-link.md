@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 問題
 
-Adobe Commerce會顯示以下訊息，提示客戶登入： *「此帳戶未確認。 按一下這裡以重新傳送確認電子郵件」*. 此 **按一下這裡** 連結應會開啟傳送確認連結頁面，但為非作用中。
+Adobe Commerce會顯示以下訊息以提示客戶登入： *&quot;此帳戶未確認。 按一下這裡以重新傳送確認電子郵件&quot;*。 **按一下這裡**&#x200B;連結應該會開啟[傳送確認連結]頁面，但處於非使用中狀態。
 
 ## 解決方案
 
-Adobe Commerce技術資源中提供此問題的修補程式： [重新傳送Adobe Commerce 2.3.5的帳戶確認電子郵件連結問題修補程式](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368). Adobe Commerce 2.3.6將提供永久修正，並排定於2020年第4季發行。
+Adobe Commerce技術資源中有此問題的修補程式： [重新傳送帳戶確認電子郵件連結問題Adobe Commerce 2.3.5](https://magento.com/tech-resources/download?_ga=2.193540264.409362045.1590506265-807369446.1578680711#download2368)修補程式。 Adobe Commerce 2.3.6將提供永久修正，並排定於2020年第4季發行。
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得如何套用Composer修補程式的指示。
+如需如何套用撰寫器修補程式的指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 相關閱讀
 

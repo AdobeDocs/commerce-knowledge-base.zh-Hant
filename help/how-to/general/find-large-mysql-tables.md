@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 尋找大型MySQL表格
 
-若要識別大型資料表，請依照以下說明連線至資料庫： [連線到資料庫](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database) 並執行下列指令，其中 `project_id` 是您的Cloud專案ID：
+若要識別大型資料表，請依照[連線至資料庫](https://devdocs.magento.com/cloud/project/project-conf-files_services-mysql.html#connect-to-the-database)文章中的說明連線至資料庫，然後執行下列命令，其中`project_id`是您的Cloud專案ID：
 
 ```sql
 SELECT TABLE_NAME AS `Table`,

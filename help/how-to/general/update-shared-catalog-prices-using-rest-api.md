@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 使用REST API更新共用目錄價格
 
-若要透過API在共用目錄中新增或更新價格，我們建議使用 `TierPriceStorageInterface` 服務，請參閱 [管理層級價格](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) 開發人員檔案中的REST API參考。 針對共用型錄價格，我們使用「層級價格」與「客戶群組」。
+若要使用API新增或更新共用目錄中的價格，我們建議使用開發人員檔案之[管理層級價格](http://devdocs.magento.com/guides/v2.2/rest/modules/catalog-pricing.html#manage-tier-prices) REST API參考資料中所述的`TierPriceStorageInterface`服務。 針對共用型錄價格，我們使用「層級價格」與「客戶群組」。

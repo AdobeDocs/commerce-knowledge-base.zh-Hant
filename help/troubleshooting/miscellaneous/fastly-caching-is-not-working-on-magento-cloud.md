@@ -34,24 +34,24 @@ ht-degree: 0%
 
 ### 使用dig命令進行測試
 
-首先，使用dig命令檢查URL的標頭。 在終端機應用程式中，輸入dig `<url>` 以驗證Fastly服務是否顯示在標題中。 如需其他深入測試，請參閱Fastly的 [變更DNS前的測試](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains).
+首先，使用dig命令檢查URL的標頭。 在終端機應用程式中，輸入dig `<url>`以驗證Fastly服務是否顯示在標題中。 如需更多深入測試，請參閱Fastly的[在變更DNS](https://docs.fastly.com/guides/basic-configuration/testing-setup-before-changing-domains)前的測試。
 
 例如：
 
 * 即時網站： `dig http[s]://<your domain>`
-* 分段： `dig http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud`
+* 正在暫存： `dig http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud`
 * 生產： `dig http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud`
 
 ### 使用curl命令測試
 
 接下來，使用curl命令來驗證XMagento標籤是否存在以及其他標頭資訊。 「測試」和「生產」的命令格式不同。
 
-如需這些命令的詳細資訊，請在插入時略過Fastly `-H "host:URL"`，取代為連線位置的來源（OneDrive試算表中的CNAME資訊）， `-k` 忽略SSL，並且 `-v` 提供詳細回應。 如果標題正確顯示，請檢查即時網站並再次驗證標題。
+如需這些命令的詳細資訊，當您插入`-H "host:URL"`時略過Fastly，將來源取代為連線位置（來自您的OneDrive試算表的CNAME資訊），`-k`會忽略SSL，而`-v`會提供詳細回應。 如果標題正確顯示，請檢查即時網站並再次驗證標題。
 
 * 如果在直接繞過Fastly點選原始伺服器時發生標題問題，則您的程式碼、擴充功能或基礎結構可能會有問題。
 * 如果您沒有遇到直接點選原始伺服器的錯誤，但標題缺少透過Fastly點選即時網域，則您可能會有Fastly錯誤。
 
-首先，檢查您的 **即時網站** 以驗證回應標頭。 命令會通過Fastly擴充功能以接收回應。 如果您沒有收到正確的標頭，則應該直接測試原始伺服器。 此命令會傳回 `Fastly-Magento-VCL-Uploaded` 和 `X-Cache` 標頭。
+首先，檢查您的&#x200B;**即時網站**&#x200B;以驗證回應標頭。 命令會通過Fastly擴充功能以接收回應。 如果您沒有收到正確的標頭，則應該直接測試原始伺服器。 此命令傳回`Fastly-Magento-VCL-Uploaded`和`X-Cache`標頭的值。
 
 1. 在終端機中，輸入以下命令以測試您的即時網站URL：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
    curl http://<live URL> -vo /dev/null -HFastly-Debug:1 [--resolve]
    ```
 
-   使用 `--resolve` 只有當您的即時URL未使用DNS設定，而且您沒有設定靜態路由時，才會發生這種情況。 例如：
+   只有當您的即時URL未以DNS設定，而且您沒有靜態路由設定時，才使用`--resolve`。 例如：
 
    ```
    curl http://www.mymagento.biz -vo /dev/null -HFastly-Debug:1
@@ -71,19 +71,19 @@ ht-degree: 0%
    < Fastly-Magento-VCL-Uploaded: yes    < X-Cache: HIT, MISS
    ```
 
-待測試 **分段** ：
+若要測試&#x200B;**暫存**：
 
 ```
 curl http[s]://staging.<your domain>.c.<instanceid>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-待測試 **生產負載平衡器** ：
+若要測試&#x200B;**生產負載平衡器**：
 
 ```
 curl http[s]://<your domain>.c.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
 ```
 
-待測試 **生產來源節點** ：
+若要測試&#x200B;**生產原始節點**：
 
 ```
 curl http[s]://<your domain>.{1|2|3}.<project ID>.ent.magento.cloud -H "host: <url>" -k -vo /dev/null -HFastly-Debug:1
@@ -163,20 +163,20 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 1. 按一下「Fastly設定」。 確保已輸入Fastly服務ID和Fastly API權杖（您的Fastly認證）。 確認您為測試環境和生產環境輸入的認證正確無誤。 按一下「測試認證」以取得協助。
 1. 編輯您的composer.json，並確保Fasty模組包含在版本中。 此檔案已列出所有模組及其版本。
 
-   * 在「必要」區段中，您應該有「fastly/magento2」： `<version number>`
+   * 在「需要」區段中，您應該有「fastly/magento2」： `<version number>`
    * 在「存放庫」區段中，您應該有：
 
    ```
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 如果您使用「組態管理」，則應該要有組態檔。 編輯app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)檔案，並確定設定 `'Fastly_Cdn' => 1` 是正確的。 設定不應為 `'Fastly_Cdn' => 0` （表示已停用）。如果您已啟用Fastly，請刪除設定檔並執行bin/magento magento-cloud：scd-dump命令以進行更新。 如需此檔案的逐步說明，請參閱 [管理系統特定設定的範例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration) 在設定指南中。
+1. 如果您使用「組態管理」，則應該要有組態檔。 編輯app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)檔案，並確定設定`'Fastly_Cdn' => 1`正確無誤。 設定不應為`'Fastly_Cdn' => 0` （表示已停用）。如果您啟用Fastly，請刪除設定檔並執行bin/magento magento-cloud：scd-dump命令以進行更新。 如需逐步瞭解此檔案，請參閱組態指南中的[管理系統特定設定的範例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)。
 
-如果未安裝模組，您必須將安裝在 [整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 分支並部署到中繼和生產環境。 另請參閱 [設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 以取得雲端基礎結構指南中的Commerce指示。
+如果未安裝模組，您必須安裝在[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)分支中，並部署至中繼和生產環境。 請參閱[設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)以取得雲端基礎結構指南中Commerce的指示。
 
 ### Fastly-Magento-VCL-Uploaded不存在
 
-在安裝與設定期間，您應該已上傳Fastly VCL。 這些是Fastly模組提供的基本VCL片段，不是您建立的自訂VCL片段。 如需指示，請參閱 [上傳Fastly VCL片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly) 雲端基礎結構指南中的Commerce 。
+在安裝與設定期間，您應該已上傳Fastly VCL。 這些是Fastly模組提供的基本VCL片段，不是您建立的自訂VCL片段。 如需相關指示，請參閱Commerce on Cloud Infrastructure指南中的[上傳Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)。
 
 ### X-Cache包含MISS
 
@@ -190,9 +190,9 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 
 如果問題仍然存在，其他擴充功能可能會重設這些標題。 在測試中重複以下程式以停用擴充功能，找出導致問題的擴充功能。 找出導致問題的擴充功能後，您需要在「生產」中停用擴充功能。
 
-1. 若要停用擴充功能，請依照中提供的步驟操作。 [管理擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions) 雲端基礎結構指南上的Commerce的區段。
-1. 停用擴充功能後，請前往 **[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**.
-1. 按一下 **[!UICONTROL Flush Magento Cache]**.
+1. 若要停用擴充功能，請依照雲端基礎結構指南上Commerce的[管理擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions)區段中提供的步驟操作。
+1. 停用擴充功能後，請移至&#x200B;**[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**。
+1. 按一下&#x200B;**[!UICONTROL Flush Magento Cache]**。
 1. 現在一次啟用一個擴充功能，以儲存設定並排清快取。
 1. 請嘗試curl命令並驗證回應標頭。
 1. 重複步驟4和5以啟用和測試curl指令。 當Fastly標題不再顯示時，您發現擴充功能造成Fastly問題。
@@ -203,4 +203,4 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 
 * [關於Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
 * [設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [自訂Fastly VCL片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Adobe Commerce已準備好遵循GDPR
 
-此 [官方首頁](https://business.adobe.com/privacy/general-data-protection-regulation.html) 所有Adobe Commerce GDPR資源。
+所有Adobe Commerce GDPR資源的[官方首頁](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
 
 ## Adobe Commerce官方宣告
 

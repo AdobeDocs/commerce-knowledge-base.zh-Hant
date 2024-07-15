@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Adobe Commerce是高度客製化的，我們的客戶可以擴充Luma主題、建立其協助工具模組，並造訪我們的Commerce Marketplace以尋找符合其協助工具要求的擴充功能。
 
-我們有許多客戶使用 [W3C協助工具標準](https://www.w3.org/WAI/standards-guidelines/) 並運用 [Adobe Commerce的Adobe協助工具符合性報表](https://www.adobe.com/accessibility/compliance/adobe-commerce-2021-acr.html).
+我們許多客戶都使用[W3C協助工具標準](https://www.w3.org/WAI/standards-guidelines/)，並使用Adobe Commerce的[Adobe協助工具合規性報告](https://www.adobe.com/accessibility/compliance/adobe-commerce-2021-acr.html)。
 
 使用業界標準的開發人員工具，您可以與重要的協助工具合作夥伴合作，或根據特定客戶需求或/和Commerce Marketplace合規性報告，實作Adobe的擴充功能。
 
-解決方案可在以下網址找到： [Commerce Marketplace](https://marketplace.magento.com/).
+可以在[Commerce Marketplace](https://marketplace.magento.com/)中找到解決方案。
 
 ## 相關閱讀
 

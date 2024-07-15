@@ -1,6 +1,6 @@
 ---
-title: 執行'setup':static-content:deploy' deployed_version.txt問題
-description: 本文修正執行'setup'時'deployed_version.txt'無法寫入的錯誤:static-content:手動deploy'命令。
+title: 執行'setup:static-content:deploy' deployed_version.txt問題
+description: 本文針對'deployed_version.txt'無法寫入的錯誤，提供手動執行'setup:static-content:deploy'命令時的修正。
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# 執行 `setup:static-content:deploy` deployed_version.txt問題
+# 執行`setup:static-content:deploy` deployed_version.txt問題
 
-本文提供下列專案的修正： `deployed_version.txt` 不可寫入錯誤 `setup:static-content:deploy` 手動執行命令。
+本文提供手動執行`setup:static-content:deploy`命令時，`deployed_version.txt`無法寫入的錯誤修正。
 
 ## 問題
 
-如果您遵循雲端基礎結構建議上的Adobe Commerce即可使用 [設定管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) （並將靜態資產產生移至建置階段，以減少部署期間的網站停機時間），您可能在執行 `setup:static-content:deploy` 手動命令：
+如果您遵循雲端基礎結構上的Adobe Commerce建議來使用[設定管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) （並將靜態資產產生移動至建置階段，以減少部署期間的網站停機時間），當您手動執行`setup:static-content:deploy`命令時，可能會遇到以下錯誤：
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy
@@ -36,7 +36,7 @@ The path "deployed_version.txt:///app/{{cloud-project-id}}_stg/pub/static/app/{{
 
 ## 解決方案
 
-如果您仍要執行靜態內容部署，請移除 `pub/static` 目錄並執行 `setup:static-content:deploy` 再次執行命令：
+如果您仍要執行靜態內容部署，請移除`pub/static`目錄中的symlink，然後再次執行`setup:static-content:deploy`命令：
 
 ```
 find pub/static/ -maxdepth 1 -type l -delete

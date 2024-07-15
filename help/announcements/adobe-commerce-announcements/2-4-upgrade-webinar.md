@@ -25,6 +25,6 @@ ht-degree: 0%
 
 美國中部標準時間2022年1月26日星期三，上午10:00 — 上午11:30
 
-[按一下這裡報名](https://register.gotowebinar.com/register/6951278956217776911)
+[在此註冊](https://register.gotowebinar.com/register/6951278956217776911)
 
 即使您無法加入，我們建議您先註冊，之後再接收錄製。

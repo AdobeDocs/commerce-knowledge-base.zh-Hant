@@ -17,4 +17,4 @@ Adobe Commerce的觀察專案是New Relic Nerdlet，可檢視Adobe Commerce網�
 
 Adobe Commerce的「觀察摘要」標籤可快速檢視網站所遇到的一些問題，協助您自動解決或找出網站問題的潛在根本原因。 其他標籤提供有關元件服務、資料庫、基礎架構和流程狀態的更深入層級資訊。
 
-若要檢視如何在雲端基礎結構上使用Adobe Commerce的觀察的完整指南，請前往 [Adobe Commerce的觀察結果](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html) Experience League中的指南。
+若要檢視如何在雲端基礎結構上使用Adobe Commerce的觀察的完整指南，請移至Experience League中的[Adobe Commerce的觀察](https://experienceleague.adobe.com/docs/commerce-operations/tools/observation-for-adobe-commerce/intro.html)指南。

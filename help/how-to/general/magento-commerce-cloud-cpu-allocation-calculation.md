@@ -21,4 +21,4 @@ ht-degree: 0%
 
 ## 附加的檔案
 
-按一下 [附加的.pdf](assets/CPU_Allocation.pdf) 檔案以下載文章。
+按一下[附加的.pdf](assets/CPU_Allocation.pdf)檔案以下載文章。

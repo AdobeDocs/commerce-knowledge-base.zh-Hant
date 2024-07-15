@@ -25,7 +25,7 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-登入Commerce管理面板，然後按一下 **報表** > *系統分析* > **全網站分析工具**.
+登入Commerce管理面板，然後按一下&#x200B;**報表** > *系統深入分析* > **全網站分析工具**。
 
 <u>預期結果：</u>
 
@@ -33,12 +33,12 @@ ht-degree: 0%
 
 <u>實際結果：</u>
 
-您會看到： *錯誤403。*
+您看到： *錯誤403。*
 
 
 ## 解決方案
 
-若要確定全網站分析工具具有應用程式的適當存取權，請在CLI中執行以下命令。 取代 `<store URL>` 搭配您的商店URL：
+若要確定全網站分析工具具有應用程式的適當存取權，請在CLI中執行以下命令。 將`<store URL>`取代為您的商店URL：
 
 ```cURL
 curl -sIL -X GET <store URL>/swat/key/index | grep HTTP
@@ -57,25 +57,25 @@ HTTP/2 403
 
 ### 更正200回應代碼和JSON輸出
 
-如果回應是正確的200程式碼和JSON輸出， [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 升級全網站分析工具存取權的問題。
+如果回應是正確的200程式碼和JSON輸出，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以升級具有全網站分析工具存取權的問題。
 
 
 ### 500 （嚴重錯誤）回應代碼
 
 如果回應代碼為500 （嚴重錯誤），請安裝MDVA-38526修補程式。 根據您想要的修正程式型別，使用下列其中一個連結來下載修正程式：
 
-* 雲端基礎結構上的Adobe Commerce修補程式： [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch.zip)
-* 雲端基礎結構上的Adobe Commerce撰寫器修補程式： [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
+* 雲端基礎結構修補程式上的Adobe Commerce： [MDVA-38526_EE_2.4.1-p1_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_v3.patch.zip)
+* 雲端基礎結構撰寫器修補程式上的Adobe Commerce： [MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip](assets/MDVA-38526_EE_2.4.1-p1_COMPOSER_v3.patch.zip)
 
 此修補程式適用於雲端基礎結構版本2.4.1及更新版本的Adobe Commerce。
 
 ### 回應不是JSON
 
-如果回應輸出不是JSON，原因可能是PWA/Headless實施。 如果您使用Headless實作，請更新UPPER設定以略過Adobe Commerce Origin請求。 若要這麼做，請在「Adobe Commerce管理員」中的 **商店** > **設定** > **一般** > **Web** > **向上PWA設定** > **前方名稱允許清單**，新增 *swat*.
+如果回應輸出不是JSON，原因可能是PWA/Headless實施。 如果您使用Headless實作，請更新UPPER設定以略過Adobe Commerce Origin請求。 若要這麼做，請在Adobe Commerce Admin的&#x200B;**商店** > **設定** > **一般** > **網頁** > **上層PWA設定** > **前端名稱允許清單**&#x200B;下，新增&#x200B;*swat*。
 
-![Upper_configuration](assets/upward_pwa.png)
+![向上組態](assets/upward_pwa.png)
 
-如果您還是無法存取全網站分析工具，請在下次登入Commerce管理面板時導覽至 **報表** > *系統分析* > **全網站分析工具**， [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+如果您還是無法存取全網站分析工具，當您下次登入Commerce管理面板，並瀏覽至&#x200B;**報表** > *系統分析* > **全網站分析工具**，[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ## 相關閱讀
 

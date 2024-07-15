@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 增加雲端整合環境的磁碟空間
 
-請參閱 [管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space) 位於我們的Commerce on Cloud Infrastructure指南中。
+請參閱我們的Commerce on Cloud Infrastructure指南中的[管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)。

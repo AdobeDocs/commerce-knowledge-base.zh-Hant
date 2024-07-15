@@ -14,4 +14,4 @@ ht-degree: 0%
 
 # Adobe Commerce中的Apache log4j2漏洞
 
-請參閱 [Adobe Commerce中的Apache Log4j2漏洞](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) 有關Apache log4j程式庫漏洞的最新Adobe Commerce通訊的DevBlog文章。
+請參閱Adobe Commerce](https://community.magento.com/t5/Magento-DevBlog/Apache-Log4j2-Vulnerability-in-Adobe-Commerce/ba-p/488683) DevBlog中的[Apache Log4j2弱點文章，瞭解與Apache Log4j程式庫弱點相關的最新Adobe Commerce通訊。

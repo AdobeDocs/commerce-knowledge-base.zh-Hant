@@ -1,22 +1,23 @@
 ---
-title: '''ACSD-56635：帳戶共用設為時，匯入的客戶會重複 [!DNL Global]『'
-description: 套用ACSD-56635修補程式，修正在帳戶共用設為的情況下使用匯入時，匯入的客戶會以相同的電子郵件地址重複的Adobe Commerce問題 [!DNL Global].
+title: 'ACSD-56635：帳戶共用設為 [!DNL Global]時，匯入的客戶會重複'
+description: 套用ACSD-56635修補程式以修正當匯入使用且帳戶共用設為 [!DNL Global]時，匯入的客戶使用相同電子郵件地址重複的Adobe Commerce問題。
 feature: Customers, Attributes
 role: Admin, Developer
-source-git-commit: 86d752c9c2791ef19960876afafe24fefe5d29ed
+exl-id: abd542a1-6764-4385-97a6-b46015363b42
+source-git-commit: 880fc679afc853b514fddda56e570fe1a279a3d9
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# ACSD-56635：帳戶共用設為，匯入的客戶會以相同的電子郵件地址重複 [!DNL Global]
+# ACSD-56635：帳戶共用設為[!DNL Global]時，匯入的客戶會以相同的電子郵件地址重複
 
-ACSD-56635修補程式修正使用匯入作業，且帳戶共用設為「 」時，匯入的客戶會以相同的電子郵件地址重複的問題 [!DNL Global]. 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.48。 修補程式ID為ACSD-56635。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-56635修補程式修正使用匯入且帳戶共用設為[!DNL Global]時，匯入的客戶使用相同電子郵件地址重複的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.48時，即可使用此修補程式。 修補程式ID為ACSD-56635。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.6-p3
 
@@ -26,26 +27,26 @@ ACSD-56635修補程式修正使用匯入作業，且帳戶共用設為「 」時
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-當帳戶共用設定為時，匯入的客戶會以相同的電子郵件地址重複 [!DNL Global].
+帳戶共用設為[!DNL Global]時，匯入的客戶會以相同的電子郵件地址重複。
 
 <u>要再現的步驟</u>：
 
-1. 在Adobe Commerce （2.4 — 開發b2b）底下 **[!UICONTROL Admin]**，存取 **[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Account Sharing Options]**.
-1. 設定 *[!UICONTROL Share Customer Accounts]* 將設為 *[!DNL Global]*.
+1. 在Adobe Commerce (2.4-develop b2b) **[!UICONTROL Admin]**&#x200B;底下，存取&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** > **[!UICONTROL Customer Configuration]** > **[!UICONTROL Account Sharing Options]**。
+1. 將&#x200B;*[!UICONTROL Share Customer Accounts]*&#x200B;設定設為&#x200B;*[!DNL Global]*。
 1. 建立多個網站和商店：
 
    * ws1 > s11， s12 > sw111， sw122
    * ws2 > s21， s22 > sw211， sw212
 
-1. 在下建立新客戶 *主要網站* 來自管理員，電子郵件地址為 <adb@yormail.com>.
-1. 在 **[!UICONTROL Admin]**，導覽至 **[!UICONTROL System]** > **[!UICONTROL Import]**.
-1. 選取 **[!UICONTROL Customer Entity Type]** 作為 *[!UICONTROL Customers Main File]*.
-1. 使用與相同的電子郵件地址 <adb@yormail.com> 位於不同的網站，例如ws1。 請參閱下方提供的範例CSV檔案customer.csv 。
-1. 完成匯入，檢視下建立的新使用者 *ws1* 具有相同電子郵件地址的網站。
+1. 在管理員的&#x200B;*主要網站*&#x200B;下建立新客戶，電子郵件地址用作<adb@yormail.com>。
+1. 在&#x200B;**[!UICONTROL Admin]**&#x200B;底下，瀏覽至&#x200B;**[!UICONTROL System]** > **[!UICONTROL Import]**。
+1. 選取&#x200B;**[!UICONTROL Customer Entity Type]**&#x200B;作為&#x200B;*[!UICONTROL Customers Main File]*。
+1. 在不同網站上使用與<adb@yormail.com>相同的電子郵件地址，例如ws1。 請參閱下方提供的範例CSV檔案customer.csv 。
+1. 完成匯入後，即可檢視在&#x200B;*ws1*&#x200B;網站下建立的具有相同電子郵件地址的新使用者。
 
 customer.csv內容：
 
@@ -66,14 +67,14 @@ adb@yopmail.com,ws1,sv111,,09/01/24 12:49,Default Store View,0,,newjon,,1,newDoe
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

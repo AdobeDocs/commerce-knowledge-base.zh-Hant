@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 雲端上的Adobe Commerce出現變數/匯出資料夾許可權問題
 
-針對伺服器上的檔案許可權問題，導致您無法匯出產品資料的問題，本文提供解決方案。 `var/export/email` 資料夾。 症狀包括使用者介面中無法使用產品和目錄匯出，但在使用SSH時可見。
+此文章針對伺服器在`var/export/email`資料夾中有檔案許可權問題，導致您無法匯出產品資料的問題，提供解決方案。 症狀包括使用者介面中無法使用產品和目錄匯出，但在使用SSH時可見。
 
 ## 受影響的產品和版本
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 問題
 
-您無法匯出 `var/export/email` 或 `var/export/archive` 資料夾。
-由於下列專案的許可權，此部署失敗： `var/export/email` 或 `var/export/email/archive` 因為封存資料夾是在電子郵件底下建立的，而且如果我只是進行匯出/電子郵件，有時還是會發生問題)，除了新增專案以說明子資料夾以外 `var/export/email/archive`.
+您無法匯出`var/export/email`或`var/export/archive`資料夾中的檔案。
+由於`var/export/email`或`var/export/email/archive`的許可權，部署失敗，因為該封存資料夾是在電子郵件底下建立的，如果我只是執行匯出/電子郵件，有時仍會有問題)，除了新增專案到子資料夾`var/export/email/archive`的帳戶以外。
 
 <u>要再現的步驟</u>：
 
-在Admin中，前往 **系統** > *資料傳輸* > **匯出**.
-選取要儲存的CSV檔案 `var/export/` 資料夾。
+在管理員中，移至&#x200B;**系統** > *資料傳輸* > **匯出**。
+選取要儲存在`var/export/`資料夾中的CSV檔案。
 
 <u>預期結果</u>：
 
@@ -35,15 +35,15 @@ CSV檔案是可見的，並且可以匯出。
 
 <u>實際結果</u>：
 
-CSV檔案不可見。 您也會看到許可權遭拒訊息： *RecursiveDirectoryIterator：：__construct(/app/project id>/var/export/email)：無法開啟dir：許可權遭拒*
+CSV檔案不可見。 您也會看到許可權被拒絕的訊息： *RecursiveDirectoryIterator：：__construct(/app/project id>/var/export/email)：無法開啟目錄：許可權被拒絕*
 
 所有匯出型態都會收到相同的訊息：進階定價、客戶財務、客戶主要檔案與客戶地址。
 
 ## 原因
 
-這是由內部建立的資料夾所造成 `/var` 具有不完美許可權： `d-wxrwsr-T`. T粘性位元表示使用者只能刪除他們擁有的檔案，但缺少可執行檔表示他們無法在目錄中建立檔案。
+這是因為`/var`中建立的資料夾具有不完整的許可權所造成： `d-wxrwsr-T`。 T粘性位元表示使用者只能刪除他們擁有的檔案，但缺少可執行檔表示他們無法在目錄中建立檔案。
 
-當系統建立名為的資料夾時，通常會注意到這一點 `export`，會儲存名為的資料夾 `email`，會儲存名為的資料夾 `archive`.
+當系統建立名為`export`的資料夾，該資料夾儲存名為`email`的資料夾，該資料夾儲存名為`archive`的資料夾時，經常會注意到這個問題。
 
 若要檢查目錄是否有這些設定錯誤的許可權，請在CLI/終端機中執行以下命令：
 
@@ -67,4 +67,4 @@ chmod 777 -R var/export/
 
 ## 相關閱讀
 
-* [匯出](https://docs.magento.com/user-guide/system/data-export.html) 在我們的使用手冊中。
+* 使用手冊中的[匯出](https://docs.magento.com/user-guide/system/data-export.html)。

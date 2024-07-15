@@ -25,11 +25,11 @@ W:    refused
 
 ## 受影響的版本
 
-雲端基礎結構上的Adobe Commerce， [所有支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+雲端基礎結構上的Adobe Commerce，[所有支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 問題
 
-部署失敗並出現 **curl錯誤7** 訊息。
+部署失敗，出現&#x200B;**curl錯誤7**&#x200B;訊息。
 
 <u>要再現的步驟</u>：
 
@@ -41,7 +41,7 @@ W:    refused
 
 <u>實際行為</u>：
 
-部署失敗，並出現以下錯誤： *下載時發生CURL錯誤7...連線埠443：連線遭拒* 會顯示在部署記錄檔中。
+部署失敗，且發生下列錯誤：下載時發生&#x200B;*curl錯誤7 ...連線埠443：連線遭拒*&#x200B;出現在部署記錄檔中。
 
 ## 原因
 
@@ -55,10 +55,10 @@ W:    refused
 magento-cloud project:clear-build-cache -p <project ID>
 ```
 
-若要檢視專案中的超級使用者身分，請參閱 [檢視使用者的專案角色](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role) 雲端基礎結構指南中的Commerce 。
+若要檢查專案上的使用者是否為超級使用者，請參閱《雲端基礎結構上的Commerce指南》中的[檢視使用者的專案角色](/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=en#view-a-user’s-project-role)。
 
 ## 建議閱讀
 
-* [Adobe Commerce部署疑難排解員](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html).
-* [無法存取雲端存放庫上的Adobe Commerce：部署時出現403禁止或404找不到](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html).
-* [部署失敗並顯示「建置專案時發生錯誤：建置掛接失敗，狀態碼為1」](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html).
+* [Adobe Commerce部署疑難排解員](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)。
+* 無法存取雲端存放庫上的[Adobe Commerce：部署](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)時發生403 Forbidden或404 Not Found錯誤。
+* [部署失敗並出現「建置專案時發生錯誤：建置掛接失敗，狀態碼為1」](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html)。

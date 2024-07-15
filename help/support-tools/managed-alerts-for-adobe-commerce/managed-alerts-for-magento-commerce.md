@@ -14,11 +14,11 @@ ht-degree: 0%
 # Adobe Commerce的管理警報
 
 
-我們設定了重要的儀表板和警報，協助您瞭解網站何時達到關鍵儲存和Apdex等級（使用者對應用程式和服務回應時間的滿意度）。 這可協助您在注意到回應時間緩慢或中斷之前採取行動。 您將能夠使用下列文章來疑難排解警示。 在使用警示之前，請先設定通知通道。 請參閱 [New Relic設定通知通道](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels) （位於我們的開發人員檔案中）。
+我們設定了重要的儀表板和警報，協助您瞭解網站何時達到關鍵儲存和Apdex等級（使用者對應用程式和服務回應時間的滿意度）。 這可協助您在注意到回應時間緩慢或中斷之前採取行動。 您將能夠使用下列文章來疑難排解警示。 在使用警示之前，請先設定通知通道。 請參閱我們的開發人員檔案中的[New Relic設定通知通道](https://devdocs.magento.com/cloud/project/new-relic.html#configure-notification-channels)。
 
 >[!NOTE]
 >
->如果Adobe Commerce警示原則的託管警示無法使用，可能是因為此帳戶是新建立的或New Relic最近已設定。 每個星期二都會執行一個程式，將警示原則新增至這些帳戶。 下次程式執行後的第二天，您應該可以使用警示原則。 如果原則仍然遺失， [提交Adobe Commerce支援請求](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) 並包含您的專案ID。
+>如果Adobe Commerce警示原則的託管警示無法使用，可能是因為此帳戶是新建立的或New Relic最近已設定。 每個星期二都會執行一個程式，將警示原則新增至這些帳戶。 下次程式執行後的第二天，您應該可以使用警示原則。 如果原則仍然遺失，[請提交Adobe Commerce支援請求](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket)並包含您的專案ID。
 
 請參閱下表中的知識庫文章連結，提供這些警示的疑難排解步驟：
 

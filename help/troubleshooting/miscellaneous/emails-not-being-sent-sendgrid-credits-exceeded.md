@@ -25,7 +25,7 @@ SendGrid點數是指可傳送的允許電子郵件數量。 每個月從整合�
 
 ## 如何檢查是否已超過您的積分：
 
-雲端基礎結構上的Adobe Commerce Pro計畫架構：檢查 `/var/log/mail.log`  — 您可能會看到如下的訊息：
+雲端基礎結構上的Adobe Commerce Pro計畫架構：檢查`/var/log/mail.log` — 您可能會看到如下的訊息：
 
 `May 28 21:13:00 <i-node> postfix/error[21335]: BC7941A2BBF: to=<to@email.com>, relay=none, delay=4642, delays=4642/0.56/0/0.03, dsn=4.0.0, status=deferred (delivery temporarily suspended: SASL authentication failed; server smtp.sendgrid.net[ip address] said: 451 Authentication failed: Maximum credits exceeded).`
 
@@ -35,9 +35,9 @@ SendGrid點數是指可傳送的允許電子郵件數量。 每個月從整合�
 
 ## 解決方案
 
-* 如果您在生產環境中看到此訊息， [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 並提供上述訊息，要求增加學分。
-* 如果您沒有看到此訊息，或您正使用Adobe Commerce的雲端基礎結構入門計畫架構，還有 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 並提及 `mail.log` 檔案未指出已超過積分。
+* 如果您在生產環境中看到此訊息，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)並提供上述訊息並要求增加積分。
+* 如果您沒有看到此訊息，或您位於Adobe Commerce的雲端基礎結構入門計畫架構，也請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)並提及`mail.log`檔案未指出已超過積分。
 
 ## 相關閱讀
 
-* [傳送格線](https://devdocs.magento.com/cloud/project/sendgrid.html) （位於我們的開發人員檔案中）。
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) （在開發人員檔案中）。

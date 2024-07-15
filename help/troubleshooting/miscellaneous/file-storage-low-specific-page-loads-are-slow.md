@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 問題
 
-磁碟儲存量低和頁面載入速度慢可能是大型豐富影像使用大量儲存空間所造成 `pub/media/catalog/products` 以及中繼和生產之間的磁碟空間共用（除非布建專用的中繼環境）。
+磁碟儲存量低和頁面載入速度慢可能是大型豐富影像使用`pub/media/catalog/products`中的大量儲存空間，以及中繼和生產之間的磁碟空間共用所造成（除非布建專用的中繼環境）。
 
 ## 原因
 
@@ -33,8 +33,8 @@ ht-degree: 0%
 
 上傳影像之前，請先最佳化並壓縮影像，以平衡效能與檢視品質。 這有助於增加空間並減少頁面載入時間。 PNG提供較小的影像大小，適合具有較大範圍的純色區域。 JPEG會針對其他專案提供較小的大小。 使用最高的壓縮率（不會明顯降低）。 這通常是60-80%。
 
-使用 [Fastly影像最佳化](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html) 產生儲存效率更高的影像。
+使用[Fastly影像最佳化](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization.html)產生儲存效率更高的影像。
 
 ## 相關閱讀
 
-若要瞭解如何管理您的磁碟空間(如果您使用雲端基礎結構上的Adobe Commerce)，請參閱 [在Adobe Commerce中管理磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html) 雲端基礎結構指南中的Commerce 。
+若要瞭解如何管理磁碟空間(如果您位於雲端基礎結構上的Adobe Commerce)，請參閱「雲端基礎結構上的Adobe Commerce」指南中的[在Commerce中管理磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html)。

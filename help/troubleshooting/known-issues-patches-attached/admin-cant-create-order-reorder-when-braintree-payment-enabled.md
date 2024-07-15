@@ -25,10 +25,10 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 已使用核心Braintree整合(**商店** > **設定** > **銷售** > **付款方法** > **Braintree**)。
+1. 已使用核心Braintree整合(**商店** > **組態** > **銷售** > **付款方式** > **Braintree**)。
 1. 使用Luma店面下訂單。
-1. 前往管理UI > **銷售**.
-1. 嘗試為客戶建立新訂單，或前往先前下單的訂單並按一下 **重新排序**.
+1. 移至[管理UI] > **銷售**。
+1. 嘗試為客戶建立新訂單，或前往先前下單的訂單，然後按一下&#x200B;**重新訂購**。
 
 <u>預期結果</u>：
 
@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->此外，適用於Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce 1.0.18版的雲端修補程式中納入修正。請參閱 [Commerce的雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html) 在開發人員檔案中，尋找套用最新套件的指示。
+>此外，適用於Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce 1.0.18版的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html)，以尋找套用最新套件的說明。
 
 ### 相容的Adobe Commerce版本：
 
@@ -74,4 +74,4 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。

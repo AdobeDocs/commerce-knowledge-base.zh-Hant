@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 「類別無法儲存在程式碼目錄中」錯誤
 
-本文說明如何修正指定相依性的方式導致類別無法即時自動產生，且您收到 *「類別無法儲存在產生的/程式碼目錄中」* 錯誤訊息。
+本文說明如何修正您指定的相依性方式無法即時自動產生類別，以及您收到&#x200B;*「類別無法儲存在產生的/程式碼目錄中」*&#x200B;錯誤訊息的問題。
 
 ## 受影響的產品和版本
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 在您的本機環境中，撰寫與自動產生的類別相依的自訂類別。
 1. 執行觸發自訂類別的案例，並檢視其是否正常運作。
 1. 認可並將變更推送至整合環境。 這將觸發部署流程。 部署成功。
-1. 在 [整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)，執行觸發自訂類別的案例。
+1. 在[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)中，執行觸發自訂類別的案例。
 
 <u>預期結果</u>
 
@@ -34,15 +34,15 @@ ht-degree: 0%
 
 <u>實際結果</u>
 
-失敗並出現錯誤訊息，指出您的類別無法儲存在 `generated/code` 目錄。
+失敗，錯誤訊息指出您的類別無法儲存在`generated/code`目錄中。
 
 ## 原因
 
-問題的原因是您有相依性的類別不會在部署期間產生，而且無法在稍後觸發類別時即時產生，因為 `generated/code` 部署完成後，目錄無法寫入。
+問題的原因是您有相依性的類別不會在部署期間產生，而且無法在稍後觸發類別時即時產生，因為部署完成之後，`generated/code`目錄就無法寫入。
 
 發生此情形有兩個主要原因：
 
-* 案例1：與自動產生的類別具有相依性的類別位於進入點(例如 `index.php` )，部署期間不會掃描相依性。
+* 案例1：在自動產生的類別上具有相依性的類別位於入口點（例如`index.php`）中，部署期間不會掃描該入口點中的相依性。
 * 案例2：直接指定自動產生類別的相依性（與宣告相依性的建構函式的建議用法比較）。
 
 ## 解決方案
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 <u>範例</u>
 
-中的原始程式碼，例如， `index2.php` ：
+中的原始程式碼，例如`index2.php` ：
 
 ```php
 <?php
@@ -85,7 +85,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
 
 您必須執行下列步驟：
 
-1. 將類別定義移至 `app/code/YourVendor/YourModule`：
+1. 將類別定義移至`app/code/YourVendor/YourModule`：
 
    ```php
       <?php
@@ -103,7 +103,7 @@ $someObject = $bootstrap->getObjectManager()->create(SomeClass::class);
        }
    ```
 
-1. 編輯進入點 `my_api/index.php` 因此看起來像這樣：
+1. 編輯進入點`my_api/index.php`，使其看起來像這樣：
 
    ```php
      <?php
@@ -170,4 +170,4 @@ class YourClass
 
 ## 相關閱讀
 
-* [程式碼產生](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html) （位於我們的開發人員檔案中）。
+* 在開發人員檔案中[程式碼產生](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/code-generation.html)。

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0：「將選取專案新增至我的購物車」無法運作
 
-本文提供在管理客戶的購物車時，Commerce管理員中按鈕斷裂已知問題的因應措施。 嘗試將選取的產品新增至客戶的購物車時， **新增選取專案至我的購物車** 位於區段底部的按鈕無法運作。 此問題發生在任何包含兩個的Admin面板頁面上 **新增選取專案至我的購物車** 按鈕。 Adobe Commerce 2.4.1將提供永久修正。
+本文提供在管理客戶的購物車時，Commerce管理員中按鈕斷裂已知問題的因應措施。 嘗試將選取的產品新增至客戶的購物車時，位於區段底部的&#x200B;**將選取專案新增至我的購物車**&#x200B;按鈕無法運作。 此問題發生在任何包含兩個&#x200B;**將選取專案新增至我的購物車**&#x200B;按鈕的管理面板頁面上。 Adobe Commerce 2.4.1將提供永久修正。
 
 ## 受影響的產品和版本
 
@@ -23,9 +23,9 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>
 
-1. 導覽至任何包含兩個的管理面板頁面 **新增選取專案至我的購物車** 按鈕。
+1. 瀏覽至任何包含兩個&#x200B;**新增選取專案至我的購物車**&#x200B;按鈕的管理面板頁面。
 1. 選取要新增至我的購物車的專案。
-1. 按一下 **新增選取專案至我的購物車** 按鈕位於區段底部。
+1. 按一下位於區段底部的&#x200B;**將選取專案新增至我的購物車**&#x200B;按鈕。
 
 <u>預期結果</u>
 
@@ -37,11 +37,11 @@ Adobe Commerce不會將您的選取專案新增至我的購物車。
 
 ## 解決方案
 
-此 **新增選取專案至我的購物車** 位於頁面頂端的按鈕仍在運作。 Adobe Commerce版本2.4.1預計會修正此問題，該版本預計於第41季發行。
+位於頁面頂端的&#x200B;**將選取專案新增至我的購物車**&#x200B;按鈕仍在運作。 Adobe Commerce版本2.4.1預計會修正此問題，該版本預計於第41季發行。
 
 ## 相關閱讀
 
-* [MerchDocs管理購物車](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html) 在我們的使用手冊中。
-* [Adobe Commerce 2.4.0已知問題：店面顯示原始訊息資料](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md) 在我們的支援知識庫中。
-* [Adobe Commerce 2.4.0已知問題：匯出稅率無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md) 在我們的支援知識庫中。
-* [Adobe Commerce 2.4.0已知問題：Braintree付款方法未出現在多地址結帳中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md) 在我們的支援知識庫中。
+* [MerchDocs&#39;管理使用手冊中的購物車](https://docs.magento.com/user-guide/sales/shopping-assisted-cart-manage.html)。
+* [Adobe Commerce 2.4.0已知問題：原始訊息資料顯示在我們的支援知識庫中的店面](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)。
+* [Adobe Commerce 2.4.0已知問題：我們的支援知識庫中的「匯出稅率」無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)。
+* [Adobe Commerce 2.4.0已知問題：我們的支援知識庫中的「多個地址」結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中未顯示Braintree付款方式。

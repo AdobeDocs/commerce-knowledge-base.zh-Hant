@@ -28,7 +28,8 @@ Adobe Commerce 2.4.5預計於2022年8月發行，其中將包含使用6.2版結�
 
 ## 修補
 
-修補程式ID為AC-3022，可在品質修補程式工具1.1.16版中取得。請參閱 [品質修補工具(QPT) >使用狀況](https://devdocs.magento.com/quality-patches/usage.html) 開發人員檔案中的文章，以取得如何使用QPT和安裝修補程式的資訊。
+修補程式ID為AC-3022，可在品質修補程式工具1.1.16版中取得。
+請參閱開發人員檔案中的[品質修補工具(QPT) >使用方式](https://devdocs.magento.com/quality-patches/usage.html)文章，瞭解如何使用QPT及安裝修補程式的資訊。
 
 此修補程式適用於下列Adobe Commerce版本：
 
@@ -37,5 +38,5 @@ Adobe Commerce 2.4.5預計於2022年8月發行，其中將包含使用6.2版結�
 
 ## 相關閱讀
 
-* [貨運業者> DHL](https://docs.magento.com/user-guide/shipping/dhl.html) 在我們的使用手冊中
-* [傳遞方法](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html) 在我們的使用手冊中
+* 使用手冊中的[運送公司> DHL](https://docs.magento.com/user-guide/shipping/dhl.html)
+* 使用手冊中的[傳遞方法](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html)

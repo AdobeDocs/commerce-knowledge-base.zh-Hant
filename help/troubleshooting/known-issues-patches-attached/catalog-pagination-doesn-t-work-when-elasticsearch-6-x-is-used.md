@@ -34,7 +34,7 @@ ht-degree: 0%
 
 1. 安裝Adobe Commerce。
 1. 啟用Elasticseach 6作為目錄搜尋引擎。
-1. 將超過管理員所設定1頁限制的多種產品新增至類別。 **注意**：12是Adobe Commerce 2.3.3中每頁顯示的預設產品數。
+1. 將超過管理員所設定1頁限制的多種產品新增至類別。 **注意**： 12是Adobe Commerce 2.3.3中每頁顯示的預設產品數。
 1. 在店面開啟類別（搜尋結果或類別頁面），然後前往第2頁。
 
 <u>預期結果</u>：
@@ -43,13 +43,13 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-**&quot;***找不到符合選取範圍的產品***&quot;** 訊息會顯示在第二頁。
+**「***找不到符合選取專案的產品***」**&#x200B;訊息顯示在第二頁。
 
 ## 解決方案
 
 若要修正此問題，請套用本文附加的修補程式。 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱或按一下以下連結：
 
-[在Elasticsearch 6.x修補程式下載目錄分頁問題](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip)  — 此修補程式與所有受影響的版本和版本相容。
+[在Elasticsearch6.x修補程式上下載目錄分頁問題](assets/Catalog_pagination_issue_on_Elasticsearch_6_composer-2019-10-11-08-07-41.patch.zip) — 此修補程式與所有受影響的版本相容。
 
 >[!WARNING]
 >
@@ -57,6 +57,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

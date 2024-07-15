@@ -24,27 +24,27 @@ ht-degree: 0%
 
 先決條件：
 
-啟用 **頂點位址清除**. 如需相關步驟，請參閱 [設定店面位址清除](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html) 在我們的使用手冊中。
+啟用&#x200B;**頂點位址清除**。 如需相關步驟，請參閱使用手冊中的[設定店面位址清理](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html)。
 
 <u>要再現的步驟：</u>
 
 1. 建立帳戶並登入。
-1. 按一下「 」，將專案新增至購物車 **加入購物車**. 按一下購物車圖示，然後按一下 **繼續結帳**.
-1. 輸入有效的地址 **送貨地址** 欄位。
-1. 核取下方的選項之一 **送貨方法**. 然後按一下 **下一個**.
-1. 如果地址驗證建議不同的地址資訊，請按一下 **更新地址** 並按一下 **下一個**.
-1. 取消核取 **我的帳單和送貨地址相同** 核取方塊。
+1. 按一下&#x200B;**[加入購物車]**，將專案加入購物車。 按一下「購物車」圖示，然後按一下「**繼續結帳**」。
+1. 在&#x200B;**送貨地址**&#x200B;欄位中輸入有效的地址。
+1. 檢查&#x200B;**送貨方法**&#x200B;下的其中一個選項。 然後按一下&#x200B;**下一步**。
+1. 如果位址驗證建議不同的位址資訊，請按一下&#x200B;**更新位址**，然後按一下&#x200B;**下一步**。
+1. 取消勾選「**我的帳單和運送地址相同**」核取方塊。
 
-<u>第一個案例：</u>
+<u>第一個情境：</u>
 
-請遵循 [超過六個步驟](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) 然後：
+請依照上述六個步驟](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的[進行，然後：
 
 1. 輸入新的有效帳單地址。
-1. 按一下 **更新** 按鈕。 它會顯示如下的訊息/建議： *地址無效。* 接著會提供地址建議，例如： *郵遞區號：XXXXX- XXXX Street ：XXX City street XXX*
-1. 按一下 **更新** 按鈕(請勿按一下 **更新地址** Vertex address suggestion)的按鈕。
-1. 按一下 **編輯** 已更新帳單地址的按鈕。
+1. 按一下&#x200B;**更新**&#x200B;按鈕。 它會顯示類似下列的訊息/建議： *地址無效。*&#x200B;這將會接著提供地址建議，例如： *郵遞區號： XXXXX- XXXX Street ： XXX City Street XXX*
+1. 按一下&#x200B;**更新**&#x200B;按鈕（請勿按頂點位址建議的&#x200B;**更新位址**&#x200B;按鈕）。
+1. 按一下已更新帳單地址的&#x200B;**編輯**&#x200B;按鈕。
 1. 從地址下拉式清單中選取地址。
-1. 按一下 **更新** 按鈕。
+1. 按一下&#x200B;**更新**&#x200B;按鈕。
 
 <u>預期結果：</u>
 
@@ -52,16 +52,16 @@ ht-degree: 0%
 
 <u>實際結果：</u>
 
-驗證訊息/建議 *「找不到有效的地址郵遞區號：XXXXX-XXXX Street ： XXX City street XXX」* 訊息為 **NOT** 已移除。 如果您在表單中輸入的地址無效，也會發生相同的問題。
+驗證訊息/建議&#x200B;*「我們找不到有效的地址郵遞區號： XXXXX-XXXX Street ： XXX City street XXX」*&#x200B;訊息為&#x200B;**未移除**。 如果您在表單中輸入的地址無效，也會發生相同的問題。
 
-<u>第二個案例：</u>
+<u>第二個情境：</u>
 
-請遵循 [超過六個步驟](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth) 然後：
+請依照上述六個步驟](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的[進行，然後：
 
 1. 使用有效地址填寫地址表單。
-1. 按一下 **更新** 按鈕。 它會顯示如下的訊息/建議： *地址無效。* 接著會提供地址建議，例如： *郵遞區號：XXXXX-XXXX Street ：XXX City street XXX*.
-1. 按一下 **更新** 按鈕(請勿按一下 **更新地址** 按鈕的頂點位址建議)。
-1. 檢查 ***我的帳單和送貨地址相同*** 下拉式清單。
+1. 按一下&#x200B;**更新**&#x200B;按鈕。 它會顯示類似下列的訊息/建議： *地址無效。*&#x200B;這將會接著提供地址建議，例如： *郵遞區號： XXXXX-XXXX Street ： XXX City Street XXX*。
+1. 按一下&#x200B;**更新**&#x200B;按鈕（請勿按頂點地址建議的&#x200B;**更新地址**&#x200B;按鈕）。
+1. 檢查&#x200B;***我的帳單和運送地址相同***&#x200B;下拉式清單。
 
 <u>預期結果：</u>
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 <u>實際結果：</u>
 
-驗證訊息/建議 *「找不到有效的地址郵遞區號：XXXXX-XXXX Street XXX City street XXX」* 訊息為 **NOT** 已移除。 如果您在表單中輸入的地址無效，也會發生相同的問題。
+驗證訊息/建議&#x200B;*「我們找不到有效的地址郵遞區號： XXXXX-XXXX Street XXX City street XXX」*&#x200B;訊息為&#x200B;**未移除**。 如果您在表單中輸入的地址無效，也會發生相同的問題。
 
 ## 我們的支援知識庫中的相關閱讀：
 

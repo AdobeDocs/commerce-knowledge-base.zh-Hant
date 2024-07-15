@@ -24,7 +24,7 @@ ht-degree: 0%
 
 當購物者使用Amazon Pay結帳、登入、進入付款步驟，並嘗試從付款Widget變更其付款信用卡時，會顯示錯誤訊息。 如果購物者忽略錯誤並繼續結帳，則無法完成結帳。
 
-為了解決此問題並移除錯誤，我們已建立 [修補](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip).
+為了解決此問題並移除錯誤，我們已建立[修補程式](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip)。
 
 <u>要再現的步驟</u>：
 
@@ -33,13 +33,13 @@ ht-degree: 0%
 1. 選取送貨方式並繼續進行付款步驟。
 1. 嘗試將信用卡變更為其他信用卡。
 
-<u>預期結果</u>：選取其他信用卡作為付款方式時未發生錯誤。
+<u>預期結果</u>：選取其他信用卡作為付款方式，且未發生錯誤。
 
-<u>實際結果</u>：錯誤訊息隨即出現： *「請連絡此商家以取得完成訂單的協助。」*
+<u>實際結果</u>：出現錯誤訊息： *「請連絡此商家以取得完成訂單的協助。」*
 
 ## 解決方案
 
-[套用修補程式](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip) 底下。
+[套用下方的修補程式](assets/BUNDLE-2554_EE_2.3.5-p1.composer.patch.zip)。
 
 ## 修補
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。
 
 ## 附加的檔案

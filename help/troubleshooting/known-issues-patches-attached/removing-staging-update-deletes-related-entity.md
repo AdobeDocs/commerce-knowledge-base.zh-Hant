@@ -26,10 +26,10 @@ ht-degree: 0%
 <u>要再現的步驟（使用類別）</u>：
 
 1. 登入Commerce管理員。
-1. 在下建立新的子類別 **目錄** > **類別**.
+1. 在&#x200B;**目錄** > **類別**&#x200B;下建立新的子類別。
 1. 使用開始和結束時間建立新的測試更新。
 1. 等到套用更新為止；也就是開始時間。
-1. 使用刪除更新 **檢視/編輯** 連結。
+1. 使用&#x200B;**檢視/編輯**&#x200B;連結刪除更新。
 
 <u>預期結果</u>：
 
@@ -80,6 +80,6 @@ MDVA-23505\_EE\_2.2.5\_COMPOSER\_v1.patch修補程式也與下列Adobe Commerce�
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

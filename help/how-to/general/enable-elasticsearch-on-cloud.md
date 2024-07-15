@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 在雲端啟用Elasticsearch
 
-請參閱 [設定Elasticsearch服務](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility) 開發人員檔案中的文章，以取得在雲端基礎結構上設定Adobe CommerceElasticsearch的相關資訊。
+請參閱開發人員檔案中的[設定Elasticsearch服務](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_services-elastic.html#elasticsearch-software-compatibility)文章，取得有關在雲端基礎結構上設定Adobe CommerceElasticsearch的資訊。

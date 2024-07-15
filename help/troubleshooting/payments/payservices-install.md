@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* [付款服務](https://marketplace.magento.com/magento-payment-services.html) 現在與Adobe Commerce版本2.4.0至2.4.4相容。
+* [Payment Services](https://marketplace.magento.com/magento-payment-services.html)現在與Adobe Commerce 2.4.0至2.4.4版相容。
 
 ## 問題 — 不正確的撰寫器金鑰
 
@@ -25,14 +25,14 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 嘗試 [安裝付款服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
+1. 嘗試[安裝付款服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)。
 1. 請參閱下列錯誤：
 
-   *找不到相符版本的套件magento/payment-services。 檢查套件拼字、版本限制，以及套件是否以符合您最低穩定性（穩定）的穩定性可用。*
+   *找不到相符的套件magento/payment-services版本。 檢查封裝拼字、版本限制，以及封裝是否以符合您最小穩定性（穩定）的穩定性可用。*
 
 <u>預期結果</u>：
 
-您可以依照這些步驟 [安裝指示](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) 在我們的開發人員檔案中，以成功安裝付款服務。
+您可以依照開發人員檔案中的這些[安裝指示](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)，順利安裝付款服務。
 
 <u>實際結果</u>：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 解決方案
 
-確認 [您的撰寫器金鑰已連結至MagentoID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys) 在付款服務註冊期間使用。
+確認您的[撰寫器金鑰已連結到付款服務註冊期間使用的MagentoID](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#incorrect-composer-keys)。
 
 ## 問題 — 在多個執行個體中使用相同的資料空間
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 * Adobe Commerce — 一個生產資料空間；兩個測試資料空間
 * Magento Open Source — 一個生產資料空間；無測試資料空間
 
-遵循中的指示 [Commerce API金鑰和私密金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials) 以順利設定您的付款服務擴充功能。
+請依照[Commerce API金鑰和私密金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/connect.html#obtain-api-credentials)中的指示操作，成功設定您的付款服務擴充功能。
 
 ## 問題 — PHP的記憶體不足
 
@@ -67,14 +67,14 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 嘗試 [安裝付款服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html).
+1. 嘗試[安裝付款服務](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)。
 1. 請參閱下列錯誤或類似錯誤：
 
-   *嚴重錯誤： phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php第52行允許的記憶體大小已耗盡2146435072個位元組（嘗試配置4096個位元組）*
+   *嚴重錯誤：在phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php第52*&#x200B;行中允許的記憶體大小已耗盡2146435072個位元組（嘗試配置4096個位元組）
 
 <u>預期結果</u>：
 
-您可以依照這些步驟 [安裝指示](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html) 在我們的開發人員檔案中，以成功安裝付款服務。
+您可以依照開發人員檔案中的這些[安裝指示](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html)，順利安裝付款服務。
 
 <u>實際結果</u>：
 
@@ -86,4 +86,4 @@ ht-degree: 0%
 
 ### 解決方案
 
-[增加PHP的記憶體限制](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php) 中的環境 `php.ini`.
+[在`php.ini`中增加環境上PHP](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/install.html#not-enough-memory-for-php)的記憶體限制。

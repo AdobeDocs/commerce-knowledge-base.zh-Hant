@@ -12,13 +12,13 @@ ht-degree: 0%
 # Adobe Commerce 知識庫 {#kb}
 
 * [Commerce說明中心首頁](overview.md)
-* 支援工具 {#support-tools}
+* 支援工具{#support-tools}
    * [概觀](/help/support-tools/overview.md)
-   * 全網站分析工具 {#site-wide-analysis-tool}
+   * 全網站分析工具{#site-wide-analysis-tool}
       * [依Adobe區分的全網站分析工具：概觀](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
-   * Adobe Commerce的觀察結果 {#observation}
+   * Adobe Commerce {#observation}的觀察結果
       * [Adobe Commerce的觀察概述](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
-   * 在Adobe Commerce上管理警報 {#managed-alerts}
+   * 在Adobe Commerce {#managed-alerts}上管理警報
       * [Adobe Commerce上的受管理警報：Redis記憶體嚴重警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Adobe Commerce的管理警報：磁碟警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
       * [Adobe Commerce的管理警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce.md)
@@ -31,7 +31,7 @@ ht-degree: 0%
       * [在Adobe Commerce上管理警報：MariaDB警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Adobe Commerce的管理警報：Apdex警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
       * [Adobe Commerce的管理警報：CPU警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
-   * QPT工具中可用的修補程式 {#patches}
+   * QPT工具{#patches}中可用的修補程式
       * [MDVA-24201：型錄價格規則無法運作](/help/support-tools/patches-available-in-qpt-tool/mdva-24201-magento-patch-catalog-price-rules-don-t-work.md)
       * [MDVA-33281修補程式：清查不一致性問題](/help/support-tools/patches-available-in-qpt-tool/mdva-33281-magento-patch-inventory-inconsistency-issues.md)
       * [MDVA-42950：影片不會在產品頁面上播放](/help/support-tools/patches-available-in-qpt-tool/mdva-42950-videos-dont-play-on-the-product-page.md)
@@ -311,9 +311,9 @@ ht-degree: 0%
       * [MDVA-38308：將Vimeo影片新增至停用的產品時發生錯誤](/help/support-tools/patches-available-in-qpt-tool/mdva-38308-error-after-adding-vimeo-videos-to-disabled-products.md)
       * [MDVA-34189：視覺化銷售器執行長MySQL查詢](/help/support-tools/patches-available-in-qpt-tool/mdva-34189-visual-merchandiser-runs-long-mysql-queries.md)
       * [MDVA-34886：使用「權重」屬性時沒有搜尋結果](/help/support-tools/patches-available-in-qpt-tool/mdva-34886-magento-patch-no-search-results-when-weight-attribute-used.md)
-* 公告 {#announcements}
+* 公告{#announcements}
    * [公告概述](/help/announcements/overview.md)
-   * Adobe Commerce公告 {#commerce-announcements}
+   * Adobe Commerce宣告{#commerce-announcements}
       * [整合環境增強功能要求 — Pro與Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [針對雲端基礎結構上的Adobe Commerce提出假期突增容量要求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Adobe Commerce的升級相容性工具1.1.0](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
@@ -327,23 +327,23 @@ ht-degree: 0%
       * [2.4 Adobe Commerce於2022年1月26日升級工作坊](/help/announcements/adobe-commerce-announcements/2-4-upgrade-webinar.md)
       * [Adobe Commerce 2.4.0中將移除MySQL目錄搜尋引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe支援客戶資料存取和隱私權](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
-   * 說明中心新聞 {#news}
+   * 說明中心新聞{#news}
       * [MBI檔案已移動](/help/announcements/help-center-news/mbi-documentation-got-moved.md)
       * [每兩週Adobe Commerce支援知識庫電子報：新文章和更新](/help/announcements/help-center-news/bi-weekly-adobe-commerce-support-kb-newsletter-what-new-and-what-updated.md)
       * [Adobe Commerce支援知識庫開始接受貢獻](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
-* 最佳實務 {#best-practices}
+* 最佳實務{#best-practices}
    * [概觀](/help/best-practices/overview.md)
-   * 設定 {#configuration}
+   * 設定{#configuration}
       * [Adobe Commerce中OPcache記憶體大小的最佳作法](/help/best-practices/configuration/best-practice-for-opcache-memory-size-in-magento-commerce.md)
       * [Realpath快取大小最佳實務](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [在Adobe Commerce中最佳化CSS和JS檔案](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
-   * 資料庫 {#database}
-      * [Adobe Commerce 2.3.5升級：壓縮至動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+   * 資料庫{#database}
+      * [Adobe Commerce 2.3.5升級：壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
       * [觸發器使用的最佳實務](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [Adobe Commerce中雲端基礎結構最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [雲端基礎結構上Adobe Commerce中最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
       * [MySQL從屬連線雲端基礎結構上的Adobe Commerce最佳實務](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
       * [雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
-   * 一般 {#general}
+   * 一般{#general}
       * [私人內容區塊中的_isScopePrivate會減慢Adobe Commerce效能](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [雲端基礎結構上Adobe Commerce的疑難排解最佳做法](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
       * [Adobe安全性通知服務](/help/best-practices/general/adobe-security-notification-service.md)
@@ -362,7 +362,7 @@ ht-degree: 0%
       * [Adobe Commerce中的最大銷售規則最佳實務](/help/best-practices/general/max-sales-rules-best-practice-in-magento.md)
    * Redis {#redis}
       * [延伸的Redis快取實作Adobe Commerce 2.3.5+](/help/best-practices/redis/extended-redis-cache-implementation-magento-commerce-2.3.5.md)
-   * 效能 {#performance}
+   * 效能{#performance}
       * [最佳實務Adobe Commerce產品屬性](/help/best-practices/performance/best-practice-magento-product-attributes.md)
       * [Adobe Commerce中的最大優惠券數量](/help/best-practices/performance/maximum-number-of-coupons-in-magento.md)
       * [最佳實務Adobe Commerce類別數量限制](/help/best-practices/performance/best-practice-magento-number-of-categories-limits.md)
@@ -370,16 +370,16 @@ ht-degree: 0%
       * [雲端基礎結構上Adobe Commerce中影像的最佳實務](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce最佳實務：在管理員中執行關鍵動作](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce最佳實務：若未使用，請停用報表](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [索引器「依排程更新」可最佳化Adobe Commerce效能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [索引子「依排程更新」可最佳化Adobe Commerce效能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
       * [Adobe Commerce產品變數最佳實務](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce訂購績效最佳實務](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce最佳實務：啟用非同步訂單處理](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)
       * [Adobe Commerce中呈現封鎖資源的最佳實務](/help/best-practices/performance/best-practices-for-render-blocking-resources-in-magento.md)
       * [Adobe Commerce購物車產品數目相關最佳實務](/help/best-practices/performance/best-practice-for-number-of-products-in-cart-in-magento.md)
       * [Adobe Commerce產品屬性選項的最佳作法](/help/best-practices/performance/best-practices-for-magento-product-attribute-options.md)
-* 疑難排除 {#troubleshooting}
+* 疑難排解{#troubleshooting}
    * [概觀](/help/troubleshooting/overview.md)
-   * 一般疑難排解 {#general}
+   * 一般疑難排解{#general}
       * [疑難排解Adobe Commerce中的產品Recommendations模組](/help/troubleshooting/general/troubleshoot-product-recommendations-module-in-magento-commerce.md)
       * [當雲端基礎結構上的Adobe Commerce中的磁碟空間用完時，安全地刪除檔案](/help/troubleshooting/general/safely-delete-files-when-out-of-disk-space-adobe-commerce-on-our-cloud-architecture.md)
       * [robots.txt未更新或顯示預設設定](/help/troubleshooting/general/robots-txt-not-updated-or-displaying-default-settings.md)
@@ -614,12 +614,12 @@ ht-degree: 0%
       * [清除Commerce管理員中的快取時發生錯誤](/help/troubleshooting/general/error-purging-cache-in-admin.md)
       * [Adobe Commerce上超過SendGrid點數時未傳送電子郵件](/help/troubleshooting/general/emails-not-being-sent-sendgrid-credits-exceeded.md)
       * [Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面](/help/troubleshooting/general/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
-   * 已知問題 {#known-issues}
+   * 已知問題{#known-issues}
       * [從迷你購物車中多次點選結帳時出現清空購物車問題](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
       * [2.3.4 PayPal問題Hotfix](/help/troubleshooting/known-issues-patches-attached/2-3-4-paypal-issue-hotfix.md)
       * [Adobe Commerce 2.4.4：無法建立部分發票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [新訂單將傳送至封存](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [將Authorize.Net直接張貼從MD5更新至SHA-512](/help/troubleshooting/known-issues-patches-attached/update-authorize.net-direct-post-from-md5-to-sha-512.md)
+      * [將Authorize.Net直接Post從MD5更新至SHA-512](/help/troubleshooting/known-issues-patches-attached/update-authorize.net-direct-post-from-md5-to-sha-512.md)
       * [進階報告cron工作錯誤Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
       * [從資料庫移除失敗的登入嘗試](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md)
       * [更新進階報告，以便在其自己的cron群組上執行](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)
@@ -669,10 +669,10 @@ ht-degree: 0%
       * [Adobe Commerce會提示客戶登入無效的連結](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
       * [Adobe Commerce 2.4.0中建立配送標籤已知問題](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)
       * [B2B：公司無法存取店面中的設定檔頁面](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
-* 說明中心指南 {#help-center-guide}
+* 說明中心指南{#help-center-guide}
    * [Adobe Commerce說明中心使用手冊](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
    * [Adobe Commerce支援票證生命週期原則更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
-* 操作說明 {#how-to}
+* 操作說明{#how-to}
    * [概觀](/help/how-to/overview.md)
    * [MBI Essentials：更新付款方式或取消訂閱](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [MBI訓練影片： SQLReport Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
@@ -731,7 +731,7 @@ ht-degree: 0%
    * [MBI：建立和編輯進階計算欄](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
    * [檢查雲端基礎結構上Adobe Commerce的磁碟空間限制](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)
    * [雲端基礎結構上Adobe Commerce的SSL (TLS)憑證](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
-   * [無法存取最新測試版](/help/how-to/general/cannot-access-the-latest-beta-version.md)
+   * [無法存取最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [切換應用程式模式](/help/how-to/general/switch-the-magento-mode.md)
    * [如何在雲端基礎結構上登入Adobe Commerce提供的Fastly帳戶](/help/how-to/general/accessing-the-fastly-account-provided-with-adobe-commerce-for-cloud.md)
    * [顯示Adobe Commerce錯誤報告編號而非Fastly 503錯誤](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
@@ -742,7 +742,7 @@ ht-degree: 0%
    * [雲端基礎結構上Adobe Commerce的第三方測試秘訣](/help/how-to/general/share-access-third-party.md)
    * [存取Adobe Commerce客戶支援指南](/help/how-to/general/access-the-magento-commerce-customer-support-guide.md)
    * [如何訂閱Adobe Commerce狀態更新](/help/how-to/general/how-to-subscribe-to-adobe-magento-status-updates.md)
-* 常見問題集 {#faq}
+* 常見問題集{#faq}
    * [概觀](/help/faq/overview.md)
    * [由Fastly提供支援的Web應用程式防火牆(WAF)：常見問題集](/help/faq/general/web-application-firewall-waf-powered-by-fastly-the-faq.md)
    * [核心Adobe Commerce付款整合的折舊](/help/faq/general/depreciation-of-core-magento-payment-integrations.md)
@@ -769,7 +769,7 @@ ht-degree: 0%
    * [Adobe Commerce軟體終止支援常見問題集](/help/faq/general/adobe-commerce-eos-policy-faq.md)
    * [我是否需要Fastly才能使用Headless Adobe Commerce網站？](/help/faq/general/do-i-need-fastly-for-a-headless-magento-site.md)
    * [雲端基礎結構上的Adobe Commerce：共用中繼移轉至專用基礎結構](/help/faq/general/magento-commerce-cloud-shared-staging-migration-to-dedicated-infrastructure.md)
-* 新檔案 {#new-files}
+* 新檔案{#new-files}
    * [說明中心首頁](/help/overview.md)
    * [在我們的雲端專業架構上，將資料庫auto_increment_增量變數設為&quot;3&quot; Adobe Commerce](/help/faq/general/database-auto_increment_-increment-variable-set-to-3-magento-cloud-pro.md)
    * [舊版歐盟地區的整合環境移轉](/help/announcements/adobe-commerce-announcements/integration-environments-migration-to-new-regions-for-eu-and-us.md)

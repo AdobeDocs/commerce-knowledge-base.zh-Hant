@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-46856：在更新層級價格時提升效能'
-description: 套用ACSD-46856修補程式，以透過System &gt；組態與gt；匯入&gt；進階訂價來更新層級價格時提升效能。
+description: 套用ACSD-46856修補程式，以在透過System &amp；Configuration &amp；gt；匯入&amp；gt；進階定價更新層級價格時提升效能。
 exl-id: c08560ef-94fa-4be4-9c59-d4b1b5e4186f
 feature: Orders
 role: Admin
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-46856：透過「系統>組態>匯入>進階訂價」更新層級價格緩慢
 
-ACSD-46856修補程式可透過以下方式更新層級價格，進而提升效能： **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**. 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.21。 修補程式ID為ACSD-46856。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
+ACSD-46856修補程式可改善透過&#x200B;**[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**&#x200B;更新層級價格時的效能。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21時，即可使用此修補程式。 修補程式ID為ACSD-46856。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.3-p1
 
@@ -27,15 +27,15 @@ ACSD-46856修補程式可透過以下方式更新層級價格，進而提升效�
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-透過更新層級價格 **[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]** 是緩慢的。
+透過&#x200B;**[!UICONTROL System]** > **[!UICONTROL Configuration]** > **[!UICONTROL Import]** > **[!UICONTROL Advanced Pricing]**&#x200B;更新層級價格緩慢。
 
 <u>要再現的步驟</u>：
 
-* 透過匯入大量產品（例如：10k+或200k+） **系統** > **設定** > **匯入** > **進階定價**.
+* 透過&#x200B;**系統** > **組態** > **匯入** > **進階定價**&#x200B;匯入大量產品（例如：10k+或200k+）。
 
 <u>預期結果</u>：
 
@@ -49,14 +49,14 @@ ACSD-46856修補程式可透過以下方式更新層級價格，進而提升效�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

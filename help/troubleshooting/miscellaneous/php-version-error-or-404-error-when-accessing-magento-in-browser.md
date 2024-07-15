@@ -29,7 +29,7 @@ ht-degree: 0%
 
 請嘗試下列步驟：
 
-* 將PHP升級至7.3版。如需詳細資訊，請參閱 [Adobe Commerce 2.3技術棧疊需求](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html#php) （位於我們的開發人員檔案中）。
+* 將PHP升級至7.3版。如需詳細資訊，請參閱我們的開發人員檔案中的[Adobe Commerce 2.3技術棧疊需求](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html#php)。
 * 重新啟動Apache，因為它使用的PHP版本可能與檔案系統上的版本不同。 若要重新啟動Apache，請使用以下命令：
    * Ubuntu： `service apache2 restart`
    * CentOS： `service httpd restart`
@@ -42,5 +42,5 @@ ht-degree: 0%
 
 請嘗試下列步驟：
 
-* 確定 [Apache伺服器重寫](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html) 已啟用。 如果Apache伺服器重寫設定不正確，則無法從正確的位置提供靜態檔案。
-* 您在安裝期間輸入的基底URL可能有問題。 將基礎URL指定為下列專案的值： `--base-url=` 從命令列安裝Adobe Commerce時，或當做的 **您的商店地址** 欄位。 基礎URL *必須* 從配置開始(例如 `http://` )並以斜線(/)結尾。 請使用有效值再次執行安裝程式，然後嘗試存取Adobe Commerce。
+* 請確定已啟用[Apache伺服器重寫](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/apache.html)。 如果Apache伺服器重寫設定不正確，則無法從正確的位置提供靜態檔案。
+* 您在安裝期間輸入的基底URL可能有問題。 當您從命令列安裝Adobe Commerce時，將基底URL指定為`--base-url=`的值，或指定為Web安裝程式「Web設定」頁面上&#x200B;**您的商店地址**&#x200B;欄位的值。 基底URL *必須*&#x200B;以配置（例如`http://`）開頭，並以尾隨斜線(/)結尾。 請使用有效值再次執行安裝程式，然後嘗試存取Adobe Commerce。

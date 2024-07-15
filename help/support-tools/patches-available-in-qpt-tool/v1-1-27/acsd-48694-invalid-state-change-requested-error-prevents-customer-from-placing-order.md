@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-48694： *要求的狀態變更無效* 錯誤導致客戶無法下訂單
+# ACSD-48694： *要求的狀態變更無效*&#x200B;錯誤導致客戶無法下訂單
 
-ACSD-48694修補程式修正了錯誤的問題 *要求的狀態變更無效* 防止客戶下訂單。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.27。 修補程式ID為ACSD-48694。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-48694修補程式修正錯誤&#x200B;*要求的無效狀態變更*&#x200B;導致客戶無法下單的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27時，即可使用此修補程式。 修補程式ID為ACSD-48694。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.4
 
@@ -27,17 +27,17 @@ ACSD-48694修補程式修正了錯誤的問題 *要求的狀態變更無效* 防
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-錯誤 *要求的狀態變更無效* 防止客戶下訂單。
+錯誤&#x200B;*要求的狀態變更無效*&#x200B;導致客戶無法下訂單。
 
 <u>要再現的步驟</u>：
 
-1. 在此期間新增輕微延遲 `/estimate-shipping-methods` 透過包含 `sleep()` 在 `app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()` 函式，因此 `/estimate-shipping-methods` 要求於以下日期後完成： `/shipping-information` 結帳期間，從運送步驟移至付款步驟時。
-1. 設定要使用的工作階段 [!DNL Redis] 使用 *disable_locking： 1* 設定。
-1. 開啟 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]** 並啟用 *[!UICONTROL Persistent Shopping Cart]*.
+1. 在`/estimate-shipping-methods`要求期間加入一點延遲，方法是在`app/code/Magento/Quote/Model/GuestCart/GuestShippingMethodManagement.php::estimateByExtendedAddress()`加入`sleep()`函式，這樣在結帳期間從送貨步驟到付款步驟期間，`/estimate-shipping-methods`要求會在`/shipping-information`之後完成。
+1. 將工作階段設定為使用[!DNL Redis]搭配&#x200B;*disable_locking： 1*&#x200B;設定。
+1. 開啟&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Customers]**&#x200B;並啟用&#x200B;*[!UICONTROL Persistent Shopping Cart]*。
 1. 以客戶身分登入，並將產品新增至購物車。
 1. 讓客戶工作階段過期。 永久性Cookie和購物車仍持續存在。
 1. 現在前往結帳，新增運送地址並導覽至付款區段。
@@ -49,24 +49,24 @@ ACSD-48694修補程式修正了錯誤的問題 *要求的狀態變更無效* 防
 <u>預期結果</u>：
 
 * 沒有錯誤。
-* 已成功下訂單，且 *感謝您* 頁面隨即顯示。
+* 已成功下訂單，並顯示&#x200B;*感謝您*&#x200B;頁面。
 
 <u>實際結果</u>：
 
-錯誤 *要求的狀態變更無效* 會顯示，但會下訂單。
+顯示錯誤&#x200B;*要求的狀態變更*&#x200B;無效，但已下訂單。
 
 ## 套用修補程式
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

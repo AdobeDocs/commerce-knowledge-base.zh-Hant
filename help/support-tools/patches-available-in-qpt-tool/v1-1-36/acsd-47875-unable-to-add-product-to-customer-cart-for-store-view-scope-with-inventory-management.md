@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-47875：無法透過庫存管理將產品新增到購物車以商店檢視範圍
 
-ACSD-47875修補程式修正無法從Admin針對具有庫存管理的特定商店檢視範圍將產品新增到客戶購物車的問題。 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.36。 修補程式ID為ACSD-47875。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-47875修補程式修正無法從Admin針對具有庫存管理的特定商店檢視範圍將產品新增到客戶購物車的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.36時，即可使用此修補程式。 修補程式ID為ACSD-47875。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.4-p1
 
@@ -27,30 +27,30 @@ ACSD-47875修補程式修正無法從Admin針對具有庫存管理的特定商�
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-管理員使用者無法使用將產品新增到客戶購物車 **[!UICONTROL Manage Shopping Cart]** 已安裝MSI之特定存放區檢視範圍的Admin功能。
+管理員使用者無法針對已安裝MSI的特定商店檢視範圍，使用管理員中的&#x200B;**[!UICONTROL Manage Shopping Cart]**&#x200B;功能將產品新增到客戶購物車。
 
 <u>必要條件</u>：
 
-[!DNL Adobe Commerce Inventory Management (MSI)] 已安裝並啟用模組。
+[!DNL Adobe Commerce Inventory Management (MSI)]模組已安裝且已啟用。
 
 <u>要再現的步驟</u>：
 
 1. 建立網站、商店和商店檢視。
-1. 建立其他來源，而不是 *預設*.
+1. 建立&#x200B;*預設*&#x200B;以外的其他來源。
 1. 建立新庫存，並將其指派給新網站和新來源。
 1. 為新網站建立新客戶。
 1. 僅將產品指派給新網站；從預設網站取消指派。
 
-   * 指派新來源並設定數量 *高於0* 新來源和 *0* 作為預設來源。
+   * 指派新的來源，並將數量&#x200B;*設為0*&#x200B;以上，並將預設來源設為&#x200B;*0*。
 
-1. 前往 **[!UICONTROL Customer Edit]** 頁面。 按一下 **[!UICONTROL Manage Shopping Cart]**.
+1. 移至Admin中的&#x200B;**[!UICONTROL Customer Edit]**&#x200B;頁面。 按一下&#x200B;**[!UICONTROL Manage Shopping Cart]**。
 1. 將存放區檢視範圍變更為新的存放區檢視。
-1. 前往 **[!UICONTROL Products]** 區段和搜尋產品。
-1. 選取產品並按一下 **[!UICONTROL Add selections to my cart]**.
+1. 前往&#x200B;**[!UICONTROL Products]**&#x200B;區段並搜尋產品。
+1. 選取產品並按一下&#x200B;**[!UICONTROL Add selections to my cart]**。
 
 <u>預期結果</u>：
 
@@ -65,14 +65,14 @@ ACSD-47875修補程式修正無法從Admin針對具有庫存管理的特定商�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

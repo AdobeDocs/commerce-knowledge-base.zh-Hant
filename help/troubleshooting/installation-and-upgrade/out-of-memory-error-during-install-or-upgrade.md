@@ -40,15 +40,15 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 解決方案 {#solution}
 
-我們建議您 [將2GB的記憶體配置給PHP](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) 請到我們的開發人員檔案中，確認您的安裝或升級成功。
+我們建議您[在開發人員檔案中](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)配置2GB的記憶體給PHP，以確保您的安裝或升級成功。
 
-如果您已經這樣做，請在您的電腦上建立交換檔案。 Linux機器使用 *交換空間* 如果它需要更多記憶體資源，而且RAM已滿。 交換空間用於記憶體中的非使用中頁面。
+如果您已經這樣做，請在您的電腦上建立交換檔案。 如果Linux電腦需要更多記憶體資源且RAM已滿，它就會使用&#x200B;*交換空間*。 交換空間用於記憶體中的非使用中頁面。
 
-以下只是建議；可能有其他選項可供使用。 繼續之前，請先洽詢網路管理員或其他知識豐富的資源。 您必須執行指令，以使用者身分建立交換檔案 `root` 許可權。
+以下只是建議；可能有其他選項可供使用。 繼續之前，請先洽詢網路管理員或其他知識豐富的資源。 您必須執行命令，以具有`root`許可權的使用者身分建立交換檔案。
 
 ### 在Ubuntu上交換檔案 {#swap-file-on-ubuntu}
 
-使用 `fallocate` 命令，如下列參考中所述：
+使用下列參考中所述的`fallocate`命令：
 
 * [如何在Ubuntu 14.04 (Digitalocean)上新增交換功能](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-ubuntu-14-04)
 * [如何在Ubuntu 16.04 (Digitalocean)上新增交換空間](https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu-16-04)
@@ -56,8 +56,8 @@ proc_open(): fork failed - Cannot allocate memory
 
 ### 在CentOS上交換檔案 {#swap-file-on-centos}
 
-使用 `mkswap` 命令，如下列參考中所述：
+使用下列參考中所述的`mkswap`命令：
 
-* [如何在CentOS 6上新增交換(Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
-* [如何在CentOS 7上新增交換(Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
+* [如何在CentOS 6 (Digitalocean)上新增交換功能](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
+* [如何在CentOS 7 (Digitalocean)上新增交換功能](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
 * [交換空間（RedHat客戶入口網站）](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)

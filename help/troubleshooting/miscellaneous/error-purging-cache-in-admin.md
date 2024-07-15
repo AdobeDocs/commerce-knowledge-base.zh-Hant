@@ -14,7 +14,7 @@ ht-degree: 0%
 # 清除Commerce管理員中的快取時發生錯誤
 
 本文說明如何在Commerce管理員中清除快取時，識別發生錯誤訊息的原因。 當您嘗試透過「管理員」清除快取時，您會收到下列訊息：
-*無法刪除/app/project-id/pub/media/catalog/product/cache/directory/filename」檔案。 警告！unlink(/app/project id/pub/media/catalog/product/cache/directory/filename)：沒有這樣的檔案或目錄*
+無法刪除*/app/project-id/pub/media/catalog/product/cache/directory/filename&quot;檔案。 警告！unlink(/app/project id/pub/media/catalog/product/cache/directory/filename)：沒有這樣的檔案或目錄*
 
 ## 受影響的產品和版本
 
@@ -26,7 +26,7 @@ Adobe Commerce （所有部署方法） 2.3.0-2.3.7、2.4.0-2.4.2-p1
 
 <u>要再現的步驟：</u>
 
-1. 在Admin中，前往 **系統** > **工具** > **快取管理**.
+1. 在管理員中，移至&#x200B;**系統** > **工具** > **快取管理**。
 1. 選取任一清除快取選項。
 
 <u>預期結果：</u>
@@ -56,8 +56,8 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 ```
 
 作業完成時，曾嘗試清除檔案。 這並非錯誤；而是預期有時會發生的訊息並行問題。 沒有需要疑難排解的問題。
-不過，如果輸出顯示檔案仍在快取中，您需要 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+但是，如果輸出顯示檔案仍在快取中，您需要[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ## 相關閱讀
 
-* [快取管理](https://docs.magento.com/user-guide/system/cache-management.html) （位於我們的開發人員檔案中）。
+* 在開發人員檔案中[快取管理](https://docs.magento.com/user-guide/system/cache-management.html)。

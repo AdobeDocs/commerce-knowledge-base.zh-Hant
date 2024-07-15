@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio：Webpack在開始編譯前擱置
 
-本文會討論當javascript使用時，針對建議使用的解決方案 [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack) 在Progressive Web App Studio (PWA Studio)中開始編譯之前會維持很長時間。
+本文討論當Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在開始在Progressive Web App Studio (PWA Studio)中編譯之前掛起很長一段時間時的建議解決方案。
 
 ## 受影響的產品和版本
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 問題
 
-[檢查pwa-buildpack的最新版本](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)，以及
+[檢查pwa-buildpack的最新版本為](https://github.com/magento/pwa-studio/tree/master/packages/pwa-buildpack)，以及
 
 ```yaml
 pwa-buildpack
 ```
 
-版本編號將位於 `package.json` 檔案名稱清單。 如果您有舊版本的
+版本號碼將會在`package.json`檔案名稱清單旁邊。 如果您有舊版本的
 
 ```yaml
 pwa-buildpack
@@ -88,12 +88,12 @@ openssl version
 
 版本應為1.0或以上（若是OSX High Sierra，則為LibreSSL 2）。
 
-您可以安裝較高版本的OpenSSL，使用 [Homebrew](https://brew.sh/) 在OSX上， [巧克力](https://chocolatey.org/) 在Windows上，或您的Linux散發套件管理員。
+您可以在OSX上安裝[Homebrew](https://brew.sh/)的OpenSSL較高版本，在Windows上安裝[Chocolatey](https://chocolatey.org/)，或安裝您的Linux散發套件管理員。
 
 ## 相關閱讀
 
 * [Javascript Webpack：概念](https://webpack.js.org/concepts/)
 * [Venia店面設定](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA Buildpack](https://magento.github.io/pwa-studio/pwa-buildpack/)
+* [PWA組建套件](https://magento.github.io/pwa-studio/pwa-buildpack/)
 * [buildpack命令列介面](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [工具和程式庫：buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [工具和程式庫： buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)

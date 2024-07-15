@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 在Cloud 2.4.4上切換為Adobe Commerce的OpenSearch
 
-雲端基礎結構2.4.4上的Adobe Commerce不支援7.10之後的Elasticsearch版本。 **您必須先升級至Adobe Commerce 2.4.4，然後立即從Elasticsearch切換至OpenSearch 1.2.x。** Adobe將提供更接近Adobe Commerce 2.4.4 GA版本的詳細說明。
+雲端基礎結構2.4.4上的Adobe Commerce不支援7.10之後的Elasticsearch版本。**您必須先升級至Adobe Commerce 2.4.4，然後立即從Elasticsearch切換至OpenSearch 1.2.x。** Adobe將提供更接近Adobe Commerce 2.4.4 GA版本的詳細說明。
 
 >[!NOTE]
 >
@@ -25,13 +25,13 @@ Adobe Commerce內部部署已在2022年3月的所有修補程式版本（2.4.4�
 
 ## 什麼是OpenSearch？
 
-OpenSearch是Elasticsearch和Kibana的復本。 由AWS而不是Elastic.co負責維護。 若要進一步瞭解，請檢閱GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch).
+OpenSearch是Elasticsearch和Kibana的復本。 由AWS而不是Elastic.co負責維護。 若要深入瞭解，請檢閱GitHub [opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch)。
 
 **跨版本的相容性：**
 
 **雲端基礎結構上的Adobe Commerce是否支援Elasticsearch7.10？**
 
-**是**  — 從2022年1月中旬開始，雲端基礎結構上的Adobe Commerce版本2.4.3-p1、2.4.3-p2和2.3.7-p3支援Elasticsearch7.10。
+**是** — 從2022年1月中旬開始，雲端基礎結構版本2.4.3-p1、2.4.3-p2和2.3.7-p3支援Elasticsearch7.10上的Adobe Commerce。
 
 若為內部部署Adobe Commerce，建議使用最新的7.16.x版本來減少Log4j的影響。
 
@@ -47,10 +47,10 @@ OpenSearch是Elasticsearch和Kibana的復本。 由AWS而不是Elastic.co負責�
 
 如果他們所在的Adobe Commerce核心版本支援Elasticsearch7.10 — 他們可以使用它。
 
-檢閱 [系統需求](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html) 在我們的開發人員檔案中取得版本相容性。
+檢閱開發人員檔案中的[系統需求](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html)，瞭解版本相容性。
 
 >[!NOTE]
 >
 >建議您儘快規劃升級至Adobe Commerce 2.4.4，因為Elasticsearch7.10將於2022年5月終止服務。
 
-Adobe合作夥伴可以註冊我們的測試版計畫 [此處](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html) 以存取我們最新的Beta4程式碼，這些程式碼已針對Elasticsearch7.16.1和OpenSearch 1.1進行測試。
+Adobe合作夥伴可在[這裡](https://experienceleague.adobe.com/docs/commerce-operations/release/beta-program.html)註冊我們的測試版計畫，以存取我們最新的Beta4程式碼，此程式碼已針對Elasticsearch7.16.1和OpenSearch 1.1進行測試。

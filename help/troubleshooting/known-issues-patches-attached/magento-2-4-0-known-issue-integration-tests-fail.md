@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0已知問題：整合測試失敗
 
-本文針對Adobe Commerce 2.4.0問題提供修補程式，該問題導致整合測試失敗，因為 `Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()` 與用於2.4.0的PHPUnit 9不相容。
+本文針對Adobe Commerce 2.4.0問題提供修補程式，該問題導致整合測試失敗，因為`Dotdigitalgroup\Email\Test\Integration\Model\Sync\Importer\ImporterFailedTest::setUp()`的宣告與用於2.4.0的PHPUnit 9不相容。
 
 ## 受影響的產品和版本
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <u>實際結果</u>
 
-*PHP嚴重錯誤： Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest：：setup()的宣告必須與PHPUnit\\Framework\\TestCase：：setup()：void in /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php第36行*
+*PHP嚴重錯誤： Dotdigitalgroup\\Email\\Test\\Integration\\Model\\Sync\\Importer\\ImporterFailedTest：：setup()的宣告必須與PHPUnit\\Framework\\TestCase：：setup()： /var/www/vendor/dotmailer/dotmailer-magento2-extension/Test/Integration/Model/Sync/Importer/ImporterFailedTest.php第36*&#x200B;行中的void相容
 
 ## 解決方案
 
@@ -53,6 +53,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。
 
 ## 附加的檔案

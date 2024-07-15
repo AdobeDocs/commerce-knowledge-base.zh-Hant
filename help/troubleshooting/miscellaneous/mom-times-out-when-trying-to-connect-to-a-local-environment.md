@@ -23,7 +23,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->免責宣告： Adobe Commerce不建議或認可任何建立通道的特定工具。 前述只是建議。 如需詳細資訊，請參閱 [Ngrok檔案](https://ngrok.com/docs).
+>免責宣告： Adobe Commerce不建議或認可任何建立通道的特定工具。 前述只是建議。 如需詳細資訊，請參閱[ngrok檔案](https://ngrok.com/docs)。
 
 ## 問題
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在本機環境中安裝Adobe Commerce。
 1. 設定ngrock以建立通道來公開您的本機伺服器。
-1. 試用 [連線到OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/).
+1. 嘗試[連線到OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)。
 
 <u>預期結果</u>
 
@@ -53,4 +53,4 @@ MCOM嘗試回撥至群組URL時似乎逾時。
 ./ngrok http 80 -region eu
 ```
 
-預設區域為US。 另請參閱 [所有可能的值](https://ngrok.com/docs#config_region).
+預設區域為US。 檢視[所有可能的值](https://ngrok.com/docs#config_region)。

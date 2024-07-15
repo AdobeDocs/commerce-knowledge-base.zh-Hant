@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 原因
 
-依預設，只有特定型別的產品屬性才能用於分層導覽。 它們是「是/否」、「下拉式清單」、「倍數選取」和「價格」。 這就是為什麼在「Commerce管理員」中，您不能將任何其他型別的屬性設為 **用於分層導覽** = *可篩選* 或 **用於搜尋結果階層導覽** = *是*. 但從技術角度而言，直接變更 `is_filterable` 和 `is_filterable_in_search` 資料庫中的值。 如果發生此情況，而且任何其他屬性型別（例如日期、文字等）已設定為用於分層導覽，則Elasticsearch5會擲回例外狀況。
+依預設，只有特定型別的產品屬性才能用於分層導覽。 它們是「是/否」、「下拉式清單」、「倍數選取」和「價格」。 這就是為什麼在Commerce Admin中，您不能將任何其他型別的屬性設定為&#x200B;**用於分層導覽** = *可篩選*&#x200B;或&#x200B;**用於搜尋結果分層導覽** = *是*。 但是，直接變更資料庫中的`is_filterable`和`is_filterable_in_search`值，在技術上有可能繞過此限制。 如果發生此情況，而且任何其他屬性型別（例如日期、文字等）已設定為用於分層導覽，則Elasticsearch5會擲回例外狀況。
 
 若要確保這點，您需要找出是否有任何其他屬性設定為要用於「階層導覽」，而不是「下拉式清單」、「多重選取」和「價格」。 執行以下查詢來搜尋這些屬性：
 
@@ -53,10 +53,10 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 
 ## 解決方案
 
-若要修正問題，您必須設定 `is_filterable` （也就是用於分層導覽）和 `filterable_in_search` （也就是用於搜尋結果的分層導覽）到「0」（未使用）。 若要這麼做，請執行下列步驟：
+若要修正此問題，您需要將`is_filterable` （即用於分層導覽）和`filterable_in_search` （即用於搜尋結果分層導覽）設定為「0」（未使用）。 若要這麼做，請執行下列步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫，以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    UPDATE catalog_eav_attribute AS cea
@@ -79,6 +79,6 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
    bin/magento cache:clean
    ```
 
-或在「Commerce管理員」中的 **系統** > **工具** > **快取管理**.
+或在Commerce管理員中的&#x200B;**系統** > **工具** > **快取管理**&#x200B;下。
 
 現在您應該能夠執行目錄搜尋而不會發生問題。

@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 設定Fastly以用於雲端上的入門計畫
 
-請參閱 [設定Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html) （位於我們的開發人員檔案中）。
+請參閱我們的開發人員檔案中的[設定Fastly](https://devdocs.magento.com/guides/v2.3/cloud/cdn/configure-fastly.html)。

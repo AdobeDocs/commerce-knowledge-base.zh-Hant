@@ -31,5 +31,5 @@ Adobe Commerce 2.3.1已修正問題。
 
 ## 相關閱讀
 
-* [使用VertexAddress Cleansing取消選取「我的帳單和送貨地址相同」時，不允許使用不同的地址](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) 在我們的支援知識庫中。
-* [Adobe Commerce 2.4.1頂點位址驗證訊息張貼位址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md) 在我們的支援知識庫中。
+* [使用VertexAddress Cleansing](/help/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.md) （在我們的支援知識庫中）取消選取「我的帳單和送貨地址相同」時，不允許使用不同的地址。
+* 在我們的支援知識庫中，[Adobe Commerce 2.4.1頂點位址驗證訊息張貼位址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)。

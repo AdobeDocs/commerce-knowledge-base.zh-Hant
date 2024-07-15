@@ -41,8 +41,8 @@ ht-degree: 0%
 ## 儘管處於維護模式，網站還是可見的解決方案
 
 1. SSH連線至您的環境。
-1. 執行 `php bin/magento cache:clean` 命令。
+1. 執行`php bin/magento cache:clean`命令。
 
 ## 相關閱讀
 
-[啟用或停用維護模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html) （位於我們的開發人員檔案中）。
+在開發人員檔案中[啟用或停用維護模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html)。

@@ -12,13 +12,13 @@ ht-degree: 0%
 
 # 變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店
 
-本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 在特定Adobe Commerce商店中使用 `ALTER TABLE` SQL陳述式。
+本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用`ALTER TABLE` SQL陳述式的特定Adobe Commerce存放區。
 
 ## 受影響的版本
 
 * Adobe Commerce內部部署：2.x.x
 * 雲端基礎結構上的Adobe Commerce： 2.x.x
-* MySQL：任何 [支援的版本](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL：任何[支援的版本](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
 
 ## 您何時需要變更增量ID （案例）
 
@@ -29,12 +29,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在PayPal的「付款接收偏好設定」中，允許每個商業發票識別碼進行多項付款，以修正PayPal的付款閘道問題。 另請參閱 [PayPal閘道已拒絕請求 — 重複發票問題](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md) 在我們的支援知識庫中。
+>您也可以在PayPal的「付款接收偏好設定」中，允許每個商業發票識別碼進行多項付款，以修正PayPal的付款閘道問題。 請參閱我們的支援知識庫中的[PayPal閘道拒絕要求 — 重複發票問題](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)。
 
 ## 必備條件步驟
 
 1. 尋找應變更新增量ID的存放區和實體。
-1. [連線](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) 至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要 [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html).
+1. [連線](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 使用下列查詢來檢查實體序清單目前的auto\_increment值：
 
 ```sql
@@ -43,17 +43,17 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 範例
 
-如果您要檢查搭配以下專案的商店訂單自動增加： *ID=1*，表格名稱將是：
+如果您檢查的是&#x200B;*ID=1*&#x200B;之商店訂單的自動遞增，資料表名稱將是：
 
 ```sql
 'sequence_order_1'
 ```
 
-如果 `auto_increment` 欄為 *1234*，即下個透過以下方式在商店下單的訂單： *ID=1* 將具有 *ID \#100001234*.
+如果`auto_increment`資料行的值為&#x200B;*1234*，則下個在&#x200B;*ID=1*&#x200B;的商店下單的訂單將會有&#x200B;*ID \#100001234*。
 
 ### 相關檔案
 
-* [設定遠端MySQL資料庫連線](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html) （位於我們的開發人員檔案中）。
+* [在開發人員檔案中設定遠端MySQL資料庫連線](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)。
 
 ## 更新實體以變更增量ID
 
@@ -75,16 +75,16 @@ ALTER TABLE sequence_{entity_type}_{store_id} AUTO_INCREMENT = {new_increment_va
 ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 ```
 
-下個在商店的訂單，透過 *ID=1* 將具有 *ID \#100002000*.
+下一個在&#x200B;*ID=1*&#x200B;的商店下單的訂單將具有&#x200B;*ID \#100002000*。
 
 ## 生產環境（雲端）的其他建議步驟
 
-執行之前 `ALTER TABLE` 在雲端基礎結構上的Adobe Commerce生產環境中進行查詢，我們強烈建議您執行下列步驟：
+在雲端基礎結構上的Adobe Commerce的生產環境上執行`ALTER TABLE`查詢之前，我們強烈建議您執行下列步驟：
 
 * 在中繼環境中測試變更增量ID的整個程式
-* [建立](/help/how-to/general/create-database-dump-on-cloud.md) DB備份可在故障時還原您的生產DB
+* [建立](/help/how-to/general/create-database-dump-on-cloud.md)資料庫備份，以便在失敗時還原您的生產資料庫
 
 ## 相關檔案
 
-* [在雲端上建立資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md) 在我們的支援知識庫中。
-* [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) （位於我們的開發人員檔案中）。
+* [在我們的支援知識庫中建立雲端上的資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)。
+* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。

@@ -1,6 +1,6 @@
 ---
-title: '''Magento-cloud'' [!DNL CLI] 不顯示使用中的環境'
-description: 本文說明「Magento-cloud」的已知Adobe Commerce問題 [!DNL CLI] （命令列工具）不會顯示使用中的環境。
+title: '''Magento — 雲端'' [!DNL CLI] 未顯示使用中的環境'
+description: 本文說明'Magento-cloud' [!DNL CLI]  （命令列工具）未顯示作用中環境的一個已知Adobe Commerce問題。
 feature: Cloud, Integration, Configuration
 role: Developer
 exl-id: 3c1b5de2-8888-4531-9dc1-cd478e3c96fc
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# 此 `Magento-cloud` [!DNL CLI] 不顯示使用中的環境
+# `Magento-cloud` [!DNL CLI]未顯示使用中的環境
 
 ## 問題
 
-有幾個使用中的環境，您正嘗試透過執行 `Magento-cloud` [!DNL CLI] （命令列工具）指令。 (例如： `ssh`， `db:size`， `db:sql`、等)
+有幾個使用中的環境，您正嘗試透過執行`Magento-cloud` [!DNL CLI] （命令列工具）命令來與環境互動。 （例如： `ssh`、`db:size`、`db:sql`等）
 但是，選擇所需環境的提示不會列出此環境。 （例如：整合環境）
 
 ```
@@ -34,7 +34,7 @@ Default: master
 
 ## 解決方案
 
-您必須使用手動指定環境 `e|-environment` 標幟。
+您必須使用`e|-environment`標幟手動指定環境。
 
 1. 尋找使用中環境的清單，並記下環境名稱：
 

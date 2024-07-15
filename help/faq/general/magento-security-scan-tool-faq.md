@@ -40,14 +40,14 @@ ht-degree: 0%
 
 ## 安全性掃描工具如何運作？ {#how-does-the-magento-security-scan-tool-work}
 
-安全性掃描工具是網頁式的，可從商家的Adobe Commerce線上帳戶([account.magento.com](https://account.magento.com/))。 安全性掃描會透過HTTP和HTTPS運作。 它會檢查已知的安全性問題，並識別遺失的Adobe Commerce修補程式和更新。
+安全性掃描工具是網頁式的，可從商家的Adobe Commerce線上帳戶([account.magento.com](https://account.magento.com/))存取。 安全性掃描會透過HTTP和HTTPS運作。 它會檢查已知的安全性問題，並識別遺失的Adobe Commerce修補程式和更新。
 
 ## 我要如何註冊使用安全性掃描工具？ {#how-do-i-sign-up-to-use-the-magento-security-scan-tool}
 
-商家可以註冊使用安全性掃描工具，從其Adobe Commerce帳戶掃描其網站商店([account.magento.com](https://account.magento.com))。 按照連結註冊安全性掃描工具 [此處](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686).
+商家可以註冊使用安全性掃描工具，從其Adobe Commerce帳戶([account.magento.com](https://account.magento.com))掃描其網站商店。 請依照連結註冊[這裡](https://account.magento.com/scanner/dashboard/?_ga=2.83981338.267715797.1615821601-2099431409.1611073686)的安全性掃描工具。
 
 ## 如果在掃描報告中遇到誤判，該怎麼辦？ {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
 我們建議商戶調查所有失敗的掃描，並採取適當步驟來解決此類問題。 調查後，如果商家發現掃描結果顯示為誤判，我們會要求商家通知Adobe採取適當的行動。
 
-若要提交誤判報告，請輸入具有Adobe Commerce商家支援的票證，以便我們能夠評估誤判、進行必要變更和/或提供建議，以避免日後看到這類通知。 商戶也可以透過寄送電子郵件給我們，回報誤報 [securityscan@magento.com](mailto:securityscan@magento.com).
+若要提交誤判報告，請輸入具有Adobe Commerce商家支援的票證，以便我們能夠評估誤判、進行必要變更和/或提供建議，以避免日後看到這類通知。 商戶也可以寄電子郵件至[securityscan@magento.com](mailto:securityscan@magento.com)，回報誤報。

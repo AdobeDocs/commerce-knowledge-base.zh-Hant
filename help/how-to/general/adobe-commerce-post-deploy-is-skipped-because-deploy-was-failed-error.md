@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce *已略過部署後，因為部署失敗*錯誤
-description: 「本文會說明如何調查部署錯誤：*已略過部署後，因為部署失敗*」
+description: 「本文說明如何調查部署錯誤：*已略過Post-deploy，因為部署失敗*」
 exl-id: cd0a3015-b7b9-442e-8ac1-89447ef12cd7
 feature: Deploy
 source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
@@ -10,9 +10,9 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce *已略過後部署，因為部署失敗* 錯誤
+# 已略過Adobe Commerce *後續部署，因為部署失敗*&#x200B;錯誤
 
-本文說明如何調查部署錯誤： *已略過後部署，因為部署失敗* 會在部署至不同環境（例如升級）期間發生。
+本文說明如何調查部署錯誤： *已略過Post-deploy，因為部署失敗*，此錯誤發生在部署到不同環境（例如升級）期間。
 
 ## 受影響的產品和版本
 
@@ -46,4 +46,4 @@ ht-degree: 0%
     W:
 ```
 
-若要取得判斷實際原因的錯誤追蹤，請SSH連線至伺服器並檢查記錄檔 `var/log/install_upgrade.log`.
+若要取得判斷實際原因的錯誤追蹤，請SSH至伺服器並檢查記錄檔`var/log/install_upgrade.log`。

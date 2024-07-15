@@ -20,8 +20,8 @@ ht-degree: 0%
 
 ## 如何在雲端基礎結構上套用Adobe Commerce的撰寫器修補程式 {#cloud}
 
-1. 如果您沒有名為 `m2-hotfixes` 請在專案根目錄中建立一個。
-1. 複製 `%patch_name%.composer.patch` 檔案到 `m2-hotfixes` 目錄。
+1. 如果您的專案根目錄中沒有`m2-hotfixes`目錄，請建立目錄。
+1. 將`%patch_name%.composer.patch`檔案複製到`m2-hotfixes`目錄。
 1. 新增、認可及推送您的程式碼變更：
 
    ```git
@@ -36,7 +36,7 @@ ht-degree: 0%
    git push origin
    ```
 
-如需將修補程式套用至雲端專案的其他資訊，請參閱 [套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+如需將修補程式套用至雲端專案的其他資訊，請參閱我們的開發人員檔案中的[套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ### 如何套用Adobe Commerce內部部署和Magento Open Source的撰寫器修補程式 {#commerce}
 
@@ -47,6 +47,6 @@ ht-degree: 0%
    patch -p1 < %patch_name%.composer.patch
    ```
 
-   (如果上述命令無法運作，請嘗試使用 `-p2` 而非 `-p1` )
+   （如果上述命令無法運作，請嘗試使用`-p2`而非`-p1` ）
 
-1. 若要反映變更，請重新整理「管理員」下方的快取 **系統** > **快取管理**.
+1. 若要反映變更，請在&#x200B;**系統** > **快取管理**&#x200B;下重新整理管理員中的快取。

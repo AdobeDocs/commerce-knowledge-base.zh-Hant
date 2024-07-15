@@ -1,6 +1,6 @@
 ---
-title: 『[!DNL B2B] 在Adobe Commerce 2.4.6-p1 on-premises上安裝1.4.0失敗
-description: 本文提供Adobe Commerce 2.4.6-p1內部部署問題的因應措施，其中 [!DNL B2B] 版本1.4.0安裝失敗。
+title: '''[!DNL B2B] 1.4.0在Adobe Commerce 2.4.6-p1 on-premises''安裝失敗'
+description: 本文提供 [!DNL B2B] 版本1.4.0安裝失敗的Adobe Commerce 2.4.6-p1內部部署問題的因應措施。
 feature: Install, Upgrade, B2B
 role: Developer
 exl-id: 4a557c13-7ec2-4cfe-b86e-bb0d1a441658
@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL B2B] 在Adobe Commerce 2.4.6-p1內部部署上安裝1.4.0失敗
+# 在Adobe Commerce 2.4.6-p1內部部署上安裝[!DNL B2B] 1.4.0失敗
 
-本文提供Adobe Commerce 2.4.6-p1內部部署問題的因應措施，其中 [!DNL B2B] 版本1.4.0安裝失敗。
+本文提供[!DNL B2B]版本1.4.0安裝失敗的Adobe Commerce 2.4.6-p1內部部署問題的因應措施。
 
 ## 受影響的產品和版本
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL B2B] 1.4.0版已成功安裝在上 **Adobe Commerce Cloud 2.4.6-p1**.
+>[!DNL B2B] 1.4.0版已成功安裝在&#x200B;**Adobe Commerce Cloud 2.4.6-p1**&#x200B;上。
 
 ## 問題
 
@@ -34,7 +34,7 @@ ht-degree: 0%
    m2install.sh -s composer --ee -v 2.4.6-p1
    ```
 
-1. 嘗試安裝 [!DNL B2B] 1.4.0版。
+1. 嘗試安裝[!DNL B2B] 1.4.0版。
 
    ```terminal
    composer require magento/extension-b2b:1.4.0
@@ -61,9 +61,9 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 ## 因應措施
 
-已成功安裝或升級至 [!DNL B2B] Adobe Commerce 2.4.6-p1上的1.4.0版，新增 [!DNL B2B] 安全性套件與 [穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links).
+藉由為具有[穩定性標籤](https://getcomposer.org/doc/04-schema.md#package-links)的[!DNL B2B]安全性套件新增手動相依性，在Adobe Commerce 2.4.6-p1上成功安裝或升級至[!DNL B2B]版本1.4.0。
 
-1. 從Adobe Commerce安裝目錄，更新 `composer.json` 具有必要的相依性：
+1. 從Adobe Commerce安裝目錄，使用必要的相依性更新`composer.json`：
 
    ```terminal
    composer require magento/module-re-captcha-company=1.0.3-beta1@beta magento/security-package-b2b=1.0.4-beta1@beta
@@ -92,7 +92,7 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
    No security vulnerability advisories found
    ```
 
-1. 更新 `composer.json` 以新增 [!DNL B2B] 1.4.0版。
+1. 更新`composer.json`以新增[!DNL B2B] 1.4.0版。
 
    ```terminal
    composer require magento/extension-b2b=1.4.0
@@ -114,5 +114,5 @@ Installation failed, reverting ./composer.json and ./composer.lock to their orig
 
 1. 完成安裝或升級程式。
 
-   * [安裝 [!DNL B2B] 在雲端基礎結構上](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
+   * 在雲端基礎結構上[安裝 [!DNL B2B] ](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/b2b-module.html)
    * [安裝內部部署](https://experienceleague.adobe.com/docs/commerce-admin/b2b/install.html)

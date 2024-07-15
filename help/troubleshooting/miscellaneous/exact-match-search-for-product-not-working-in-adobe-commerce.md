@@ -22,23 +22,23 @@ ht-degree: 0%
 
 ## 問題
 
-<u>先決條件：</u>
+<u>必要條件：</u>
 
-您有屬性值產品 `Saga 1` 和 `Saga 16` 在Adobe Commerce 2.3和Adobe Commerce 2.4商店中。
+在Adobe Commerce 2.3和Adobe Commerce 2.4存放區中，都有屬性值分別為`Saga 1`和`Saga 16`的產品。
 
 <u>要再現的步驟：</u>
 
-1. 在Adobe Commerce 2.3供電商店正面的商店中，輸入 *佐賀1* 在搜尋欄位中並按一下 **搜尋**.
-1. 請注意，在搜尋結果中，您只會取得具有屬性值的產品 `Saga 1`.
-1. 在Adobe Commerce 2.4供電商店正面的商店中，輸入 *佐賀1* 在搜尋欄位中並按一下 **搜尋**.
+1. 在Adobe Commerce 2.3供電商店前面的商店中，在搜尋欄位中輸入&#x200B;*Saga 1*，然後按一下&#x200B;**搜尋**。
+1. 請注意，在搜尋結果中，您只會取得屬性值為`Saga 1`的產品。
+1. 在Adobe Commerce 2.4供電商店前面，在搜尋欄位中輸入&#x200B;*Saga 1*，然後按一下&#x200B;**搜尋**。
 
 <u>實際結果：</u>
 
-2.4中的搜尋結果包含具有屬性值的產品 `Saga 1` 和 `Saga 16`.
+2.4中的搜尋結果包含具有屬性值`Saga 1`和`Saga 16`的產品。
 
 <u>預期結果：</u>
 
-2.4中的搜尋結果與2.3類似，僅包含具有屬性值的產品 `Saga 1`.
+2.4中的搜尋結果與2.3類似，而且僅包含屬性值`Saga 1`的產品。
 
 ## 原因
 
@@ -46,6 +46,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-[安裝Live Search](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html) 在我們的使用手冊中。
+在我們的使用手冊中[安裝即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)。
 
-[即時搜尋](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search) （位於我們的開發人員檔案中）。
+在開發人員檔案中[即時搜尋](https://devdocs.magento.com/live-search/overview.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=Live%20Search)。

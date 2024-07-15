@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-雲端基礎結構上的Adobe Commerce， [所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+雲端基礎結構上的Adobe Commerce，[所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 問題
 
@@ -41,11 +41,11 @@ Adobe Commerce會在憑證到期後30天更新任何憑證。
 
 當商家選擇使用自己的自訂SSL憑證時，必須在憑證到期前30天以上更新，以確保其不會被內部Adobe Commerce SSL憑證取代。
 
-如果您的自訂SSL已由內部SSL取代，但您想要以更新的自訂SSL憑證取代，請 [提交支援要求](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 以及您上傳新憑證檔案的位置。 請包括新SSL的開始日期。 取得此資訊後，我們就可以繼續安裝新的SSL憑證了。
+若您的自訂SSL已由我們的內部SSL取代，而您想要以更新的自訂SSL憑證取代自訂SSL，請[提交支援要求](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，並提供您上傳新憑證檔案的位置。 請包括新SSL的開始日期。 取得此資訊後，我們就可以繼續安裝新的SSL憑證了。
 
 ## 相關閱讀
 
-* [Magento Commerce Cloud的SSL (TLS)憑證：常見問題集](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) 在我們的支援知識庫中。
-* [命令列工具參考： magento-cloud certificate：add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd) （位於我們的開發人員檔案中）。
-* [啟動檢查清單](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)（位於我們的開發人員檔案中）。
-* [存取全網站分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool) 在我們的使用手冊中。
+* Magento Commerce Cloud的[SSL (TLS)憑證：我們的支援知識庫中的常見問題集](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
+* [命令列工具參考：我們的開發人員檔案中的magento-cloud certificate：add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd)。
+* 在開發人員檔案中[啟動檢查清單](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)。
+* 使用手冊中的[存取全網站分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool)。

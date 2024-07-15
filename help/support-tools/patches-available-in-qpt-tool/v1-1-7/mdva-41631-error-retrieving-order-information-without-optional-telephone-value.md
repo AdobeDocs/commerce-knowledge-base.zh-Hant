@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-41631：擷取不含可選「電話」值的訂單資訊時發生錯誤
 
-MDVA-41631修補程式修正使用者透過GraphQL擷取訂單資訊（不含選擇性「電話」值）時發生錯誤。 此修補程式適用於 [品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.7。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+MDVA-41631修補程式修正使用者透過GraphQL擷取訂單資訊（不含選擇性「電話」值）時發生錯誤。 安裝[品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.7時，即可使用此修補程式。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 Adobe Commerce （所有部署方法） 2.4.2-p1
 
@@ -27,7 +27,7 @@ Adobe Commerce （所有部署方法） 2.4.1 - 2.4.3-p1
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -35,10 +35,10 @@ Adobe Commerce （所有部署方法） 2.4.1 - 2.4.3-p1
 
 <u>要再現的步驟</u>：
 
-1. 前往 **儲存** > **設定** > **客戶** > **客戶組態** > **名稱和地址選項** > **顯示電話** 並將電話號碼設定為選用。
+1. 移至&#x200B;**商店** > **設定** > **客戶** > **客戶設定** > **名稱和地址選項** > **顯示電話**&#x200B;並將電話號碼設定為選用。
 1. 使用GraphQL API作為登入客戶下訂單。
-   * 設定帳單和運送地址時不要設定電話號碼。 請依照中提供的指示操作 [GraphQL簽出教學課程](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-customer.html) （位於我們的開發人員檔案中）。
-1. 使用GraphQL擷取訂單 [customerOrders查詢](https://devdocs.magento.com/guides/v2.4/graphql/queries/customer-orders.html).
+   * 設定帳單和運送地址時不要設定電話號碼。 請依照開發人員檔案中的[GraphQL結帳教學課程](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-customer.html)指示操作。
+1. 使用GraphQL [customerOrders查詢](https://devdocs.magento.com/guides/v2.4/graphql/queries/customer-orders.html)擷取訂單。
 
 <pre>
 <code class="language-graphql">
@@ -86,20 +86,20 @@ country_code
 
 <u>實際結果</u>：
 
-使用者收到以下錯誤： *&quot;message&quot;： &quot;Internal server error&quot;，*
+使用者收到下列錯誤： *&quot;message&quot;： &quot;Internal server error&quot;，*
 
 ## 套用修補程式
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 相關閱讀
 
 若要進一步瞭解「品質修補程式」工具，請參閱：
 
-* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [品質修補程式工具已發行：我們支援知識庫中的自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的品質修補程式工具](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查是否有修補程式可用於您的Adobe Commerce問題。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [QPT中可用的修補程式](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) （位於我們的開發人員檔案中）。
+如需QPT中其他修補程式的詳細資訊，請參閱我們的開發人員檔案中的[QPT中提供的](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)修補程式。

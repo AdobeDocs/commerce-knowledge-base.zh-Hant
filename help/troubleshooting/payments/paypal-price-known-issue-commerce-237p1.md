@@ -29,12 +29,12 @@ ht-degree: 0%
 
 1. 在商店前面，新增任何產品至購物車（產品A，價格$50）。
 1. 按一下購物車連結以開啟購物車。
-1. 按一下 **PayPal簽出** 按鈕。
+1. 按一下&#x200B;**PayPal結帳**&#x200B;按鈕。
 1. 使用您的PayPal憑證登入PayPal並提交付款。
 1. 完成商店側的訂單下達。
 1. 返回目錄並將其他產品（產品B，價格$100）新增到購物車。
 1. 按一下購物車連結以開啟購物車。
-1. 按一下 **PayPal簽出** 按鈕。
+1. 按一下&#x200B;**PayPal結帳**&#x200B;按鈕。
 
 <u>實際結果：</u>
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ## 修補
 
-使用以下連結下載包含修補程式的.zip檔案： [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip).
+使用以下連結下載包含修補程式的.zip檔案： [MC42674-composer.patch.zip](assets/MC42674-composer.patch.zip)。
 
 ### 相容的Adobe Commerce版本
 
@@ -60,4 +60,4 @@ ht-degree: 0%
 ## 如何套用修補程式
 
 1. 將下載的.zip檔案解壓縮。
-1. 另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得進一步指示。
+1. 如需進一步指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。

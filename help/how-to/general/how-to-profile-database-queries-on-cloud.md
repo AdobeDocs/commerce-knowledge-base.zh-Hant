@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 如何在Adobe Commerce中設定雲端基礎結構上的資料庫查詢
 
-請參閱 [設定檔資料庫查詢](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html) （位於我們的開發人員檔案中）。
+請參閱我們的開發人員檔案中的[設定檔資料庫查詢](https://devdocs.magento.com/guides/v2.3/cloud/project/profile-database-queries.html)。

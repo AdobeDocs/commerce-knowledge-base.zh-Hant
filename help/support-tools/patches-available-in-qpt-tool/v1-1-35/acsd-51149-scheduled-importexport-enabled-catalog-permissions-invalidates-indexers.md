@@ -1,6 +1,6 @@
 ---
-title: '''ACSD-51149：已排程 [!UICONTROL ImportExport] 已啟用 [!UICONTROL Catalog Permissions] 讓索引子失效'
-description: 套用ACSD-51149修補程式來修正排程的Adobe Commerce效能問題 [!UICONTROL ImportExport] 已啟用 [!UICONTROL Catalog Permissions] 讓索引子失效。
+title: 'ACSD-51149：已排程[!UICONTROL ImportExport]且已啟用[!UICONTROL Catalog Permissions]，讓索引子失效'
+description: 套用ACSD-51149修補程式以修正已排程[!UICONTROL ImportExport]且已啟用[!UICONTROL Catalog Permissions]的索引器失效的Adobe Commerce效能問題。
 feature: Cache, Data Import/Export
 role: Admin
 exl-id: 3a26f4be-8e52-407d-bb25-2841458f3aa5
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-51149：已排程 [!UICONTROL ImportExport] 已啟用 [!UICONTROL Catalog Permissions] 讓索引子失效
+# ACSD-51149：已啟用[!UICONTROL Catalog Permissions]且已排程[!UICONTROL ImportExport]讓索引子失效
 
-ACSD-51149修補程式修正已排程的 [!UICONTROL ImportExport] 已啟用 [!UICONTROL Catalog Permissions] 讓索引子失效。 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.35。 修補程式ID為ACSD-51149。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-51149修補程式修正了排程的[!UICONTROL ImportExport]已啟用[!UICONTROL Catalog Permissions]而使索引子失效的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.35時，即可使用此修補程式。 修補程式ID為ACSD-51149。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.5
 
@@ -27,45 +27,45 @@ ACSD-51149修補程式修正已排程的 [!UICONTROL ImportExport] 已啟用 [!U
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-已排程 [!UICONTROL ImportExport] 已啟用 [!UICONTROL Catalog Permissions] 讓索引子失效。
+已排程[!UICONTROL ImportExport]且已啟用[!UICONTROL Catalog Permissions]，讓索引子失效。
 
 <u>要再現的步驟</u>：
 
-1. 啟用 *[!UICONTROL Catalog Permissions]*.
-1. 將所有索引子設定為 *[!UICONTROL Update by Schedule]*.
+1. 啟用&#x200B;*[!UICONTROL Catalog Permissions]*。
+1. 將所有索引子設定為&#x200B;*[!UICONTROL Update by Schedule]*。
 1. 建立簡單的產品。
-1. 透過匯出此產品 **[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]**.
-1. 下載匯出的CSV，並將其放入 `<AC root folder>/var/import`.
+1. 透過&#x200B;**[!UICONTROL System]** > **[!UICONTROL Data Transfer]** > **[!UICONTROL Export]**&#x200B;匯出此產品。
+1. 下載匯出的CSV，並將其放到`<AC root folder>/var/import`中。
 1. 使用下載的CSV建立排程產品匯入。
 1. 執行完整重新索引。
-1. 檢查索引器的狀態。 所有索引子都應在 *[!UICONTROL Ready]* 狀態。
+1. 檢查索引器的狀態。 所有索引子都應該處於&#x200B;*[!UICONTROL Ready]*&#x200B;狀態。
 1. 從網格執行已建立的排程匯入。
 1. 重新檢查索引器的狀態。
 
 <u>預期結果</u>：
 
-所有索引子都在 *[!UICONTROL Ready]* 狀態。
+所有索引子都處於&#x200B;*[!UICONTROL Ready]*&#x200B;狀態。
 
 <u>實際結果</u>：
 
-有些索引子位於 *[!UICONTROL Reindex Required]* 狀態。
+部分索引子處於&#x200B;*[!UICONTROL Reindex Required]*&#x200B;狀態。
 
 ## 套用修補程式
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

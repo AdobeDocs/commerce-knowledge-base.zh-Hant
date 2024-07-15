@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 僅提供第一次購買時的折扣（無折價券）
 
-請參閱 [首次購買折扣](https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html) 使用手冊中的文章。
+請參閱使用手冊中的[首次購買折扣](https://docs.magento.com/m2/ee/user_guide/marketing/price-rule-discount-first-purchase.html)文章。

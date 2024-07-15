@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 從2.4.4升級至2.4.4-p1後，套件已降級
 
-本文提供2.4.4版本的商家執行 `composer update` 命令，然後以下列出的套件（模組）會降級到與2.4.4版不相容，且只應該與2.4.5版及更高版本搭配使用的舊版。
+本文提供當商家在2.4.4版執行`composer update`命令，然後以下列出的套件（模組）降級到與2.4.4版不相容的舊版，並且只應該與2.4.5版及更高版本一起使用時，此問題的Hotfix。
 
 ## 受影響的產品和版本
 
@@ -82,7 +82,7 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 <u>要再現的步驟</u>：
 
-當2.4.4商家執行 `composer update` 命令，然後在上面列出的相同套件（模組） **案例1** 升級至僅與2.4.5版相容且不應與2.4.4版搭配使用的較新版本。
+當2.4.4商家執行`composer update`命令時，上述&#x200B;**案例1**&#x200B;中列出的相同套件（模組）會升級至只與2.4.5版相容的較新版本，且不應與2.4.4版搭配使用。
 
 <u>預期結果</u>：
 
@@ -94,7 +94,7 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 ## 解決方法1：修補程式
 
-此修補程式已附加至本文。 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱或按一下以下連結： [下載ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
+此修補程式已附加至本文。 若要下載，請向下捲動至文章結尾並按一下檔案名稱，或按一下下列連結： [下載ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)
 
 ## 相容的Adobe Commerce和Magento Open Source版本：
 
@@ -110,27 +110,27 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 ## 如何套用修正程式
 
-使用附加的bash指令碼 [ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip) 作為此問題的因應措施。
+使用附加的bash指令碼[ACPLTSRV-2017-fix.sh.zip](assets/ACPLTSRV-2017-fix.sh.zip)作為此問題的因應措施。
 
-**使用指令碼的確切說明：**
+**如何使用此指令碼的確切說明：**
 
 ### 在雲端基礎結構上的Adobe Commerce上：
 
-1. 下載bash指令碼檔案 `ACPLTSRV-2017-fix.sh` 至雲端程式碼基底的本機結帳。
-1. 執行bash指令碼檔案 `ACPLTSRV-2017-fix.sh` 以在本機修改撰寫器檔案。
+1. 將bash指令碼檔案`ACPLTSRV-2017-fix.sh`下載到雲端程式碼基底的本機簽出。
+1. 執行bash指令碼檔案`ACPLTSRV-2017-fix.sh`以在本機修改撰寫器檔案。
 1. 新增修改的撰寫器檔案並將其提交到您的Git存放庫。
 
 ### 在Adobe Commerce或Magento Open Source內部部署上：
 
-1. 置入bash指令碼 `ACPLTSRV-2017-fix.sh` 在 `root` Adobe Commerce/Magento Open Source 2.4.4安裝的資料夾(與 `composer.json`)。
-1. 使用執行bash指令碼 `apply` 將受影響的套件（模組）鎖定至其2.4.4版本的引數：
+1. 將bash指令碼`ACPLTSRV-2017-fix.sh`放置在您的Adobe Commerce/Magento Open Source 2.4.4安裝的`root`資料夾（與`composer.json`相同的資料夾）中。
+1. 執行含有`apply`引數的bash指令碼，將受影響的套件（模組）鎖定至其2.4.4版本：
 
    ```bash
    sh ACPLTSRV-2017-fix.sh apply
    ```
 
 1. 更新執行撰寫器以安裝鎖定的套件（模組）。
-1. 在您準備好升級至2.4.5或2.4.4-p1後，請使用 `rollback` 引數：
+1. 準備好升級至2.4.5或2.4.4-p1後，請使用`rollback`引數執行指令碼：
 
    ```bash
    sh ACPLTSRV-2017-fix.sh rollback
@@ -141,4 +141,4 @@ Removing magento/module-admin-adobe-ims (100.4.0)
 
 ## 因應措施2
 
-此問題的第二個因應措施是不要執行 `composer update` 命令，不含任何引數。
+此問題的第二個因應措施是不要執行不含任何引數的`composer update`命令。

@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 問題
 
-在「管理員」中，如果您選取要刪除的客戶或使用者端記錄，請篩選網格，然後選取 **刪除** 動作，則會刪除所有記錄。
+在Admin中，如果您選取要刪除的客戶或使用者端記錄、篩選網格，然後選取&#x200B;**刪除**&#x200B;動作，則會刪除所有記錄。
 
 <u>要再現的步驟</u>：
 
-1. 瀏覽至 **目錄** > **產品** 在Admin中。
+1. 瀏覽至Admin中的&#x200B;**目錄** > **產品**。
 1. 選取一或多個產品。
 1. 從「動作」下拉式功能表中選取「刪除」 。
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。

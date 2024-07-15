@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 在雲端基礎結構環境的Adobe Commerce上使用CLI檢查磁碟空間
 
-請參閱 [管理磁碟空間](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html) 開發人員檔案中的文章。
+請參閱我們的開發人員檔案中的[管理磁碟空間](https://devdocs.magento.com/guides/v2.3/cloud/project/manage-disk-space.html)一文。

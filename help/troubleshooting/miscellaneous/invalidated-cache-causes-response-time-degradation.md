@@ -41,23 +41,23 @@ Adobe Commerce中有兩種型別的快取：
 
 ### 檢查您是否擁有失效的快取
 
-有關失效的快取型別的資訊，請參閱 `<install_directory>/var/log/debug.log` 檔案。
+您可以在`<install_directory>/var/log/debug.log`檔案中找到有關失效快取型別的資訊。
 
 若要這麼做：
 
-1. 開啟 `<install_directory>/var/log/debug.log`
-1. 搜尋&quot; *cache\_invalid* 「訊息。
+1. 開啟`<install_directory>/var/log/debug.log`
+1. 搜尋「*cache\_invalidate*」訊息。
 1. 然後檢查指定的標籤。 它指出已清除的快取。 如果您看到未指定特定實體ID的標籤，例如：
-   * `cat_p`  — 代表目錄產品快取。
-   * `cat_c`  — 目錄類別快取。
-   * `FPC`  — 全頁快取。
-   * `CONFIG`  — 設定快取。
+   * `cat_p` — 代表目錄產品快取。
+   * `cat_c` — 目錄類別快取。
+   * `FPC` — 整頁快取。
+   * `CONFIG` — 設定快取。
 
-   即使其中一個已清除，也會減慢網站的回應速度。 例如，如果標籤包含實體ID， `category_product_1258`，這會指出特定產品或類別的快取，以此類推。 排清特定產品或類別的快取不會導致回應時間大幅減少。
+   即使其中一個已清除，也會減慢網站的回應速度。 如果標籤包含實體ID （例如`category_product_1258`），這會表示特定產品或類別等的快取。 排清特定產品或類別的快取不會導致回應時間大幅減少。
 
-以下是 `debug.log` 包含有關以下專案的記錄： `cat_p` 和 `category_product_15044` 快取已清除：
+以下是包含已清除`cat_p`與`category_product_15044`快取之相關記錄的`debug.log`範例：
 
-![debug.log內容範例](assets/debug_log_sample.png)
+![debug.log內容的範例](assets/debug_log_sample.png)
 
 通常，快取會因為下列原因而失效：
 
@@ -67,4 +67,4 @@ Adobe Commerce中有兩種型別的快取：
 ## 建議
 
 1. 避免從Commerce CLI排清快取。
-1. 設定索引子至 **依排程更新** 而非 **儲存模式時更新** 因為後者會觸發完整重新索引。 如需參考資訊，請參閱 [管理索引子>設定索引子](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers) （位於我們的開發人員檔案中）。
+1. 將索引器設定為&#x200B;**依排程**&#x200B;更新，而非&#x200B;**儲存模式更新**，因為後者會觸發完整重新索引。 如需參考，請參閱我們的開發人員檔案中的[管理索引子>設定索引子](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)。

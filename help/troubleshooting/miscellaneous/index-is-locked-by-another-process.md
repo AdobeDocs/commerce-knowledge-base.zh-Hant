@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-在CLI中完整重新索引期間，Adobe Commerce會提供錯誤訊息： *&#39;索引被另一個重新索引程式鎖定。 正在跳過。&#39;* 換言之，當程式或索引型別鎖定時，您無法重新索引該特定鎖定的索引型別。 重新索引將一律跳過該索引型別。
+在您的CLI中完整重新索引期間，Adobe Commerce會提供錯誤訊息： *&#39;Index被另一個重新索引程式鎖定。 正在跳過。&#39;*&#x200B;換句話說，當處理程式或索引型別鎖定時，您就無法重新索引該特定鎖定的索引型別。 重新索引將一律跳過該索引型別。
 
 ## 原因
 
@@ -82,7 +82,7 @@ bin/magento indexer:reset catalogsearch_fulltext;
 在我們的開發人員檔案中：
 
 * [索引概述](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [索引子最佳作法](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
+* [索引子最佳實務](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
 * [設定並執行Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
 * [管理索引子](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
-* [索引器最佳化](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)
+* [索引子最佳化](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)

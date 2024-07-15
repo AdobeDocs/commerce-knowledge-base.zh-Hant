@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # ECE-Tools和修補程式更新錯誤Adobe Commerce雲端基礎結構2.2.x.、2.3.x
 
-本文針對您看到錯誤訊息，包括「*無法開啟資料流：*「或」*沒有這樣的檔案或目錄*&quot;當嘗試將更新部署到ECE-Tools、修補程式或其他變更時。
+本文提供解決方案，解決您在嘗試部署更新至ECE-Tools、修補程式或其他變更時，看到錯誤訊息，包括&#x200B;*無法開啟資料流：*」或&#x200B;*沒有這類檔案或目錄*。
 
 ## 受影響的產品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-嘗試將更新部署到ECE-Tools、修補程式或其他變更時發生的錯誤包括：雲端主控台和中的PHP錯誤 `var/log/cloud.log`
+嘗試將更新部署到ECE-Tools、修補程式或其他變更時發生錯誤，包括：雲端主控台和`var/log/cloud.log`中的PHP錯誤
 
 ```
 W: PHP Warning: require(<path to file>): failed to open stream: No such file or directory in <path to file> on line 70
@@ -65,11 +65,11 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 原因
 
-您的設定錯誤 `composer.json` 檔案。
+`composer.json`檔案的設定錯誤。
 
 ## 解決方案
 
-如果您的中缺少設定 `composer.json` 檔案，有些目錄將不會從Adobe Commerce程式碼庫複製。 無法套用套件和更新/修補程式，因為找不到檔案。
+如果`composer.json`檔案中缺少設定，部分目錄將不會從Adobe Commerce程式碼基底複製。 無法套用套件和更新/修補程式，因為找不到檔案。
 
 請變更您的額外區段以符合下方提供的內容，然後再次嘗試部署。
 
@@ -82,4 +82,4 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 相關閱讀
 
-* [升級與修補程式](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools) （位於我們的開發人員檔案中）。
+* 在我們的開發人員檔案中[升級和修補程式](https://devdocs.magento.com/guides/v2.3/cloud/project/project-upgrade-parent.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=update%20ece%20tools)。

@@ -17,11 +17,11 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-Adobe Commerce （所有部署方法）全部 [支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+Adobe Commerce （所有部署方法）所有[支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 問題
 
-當您前往 [https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/) 或 [https://accounts.magento.cloud/user](https://accounts.magento.cloud/user) 您可能會注意到現在有統一的登入表單，您無法再像之前一樣輸入您的認證。
+當您前往[https://account.magento.com/customer/account/login/](https://account.magento.com/customer/account/login/)或[https://accounts.magento.cloud/user](https://accounts.magento.cloud/user)時，您可能會注意到現在已有統一的登入表單，您無法再像之前一樣輸入您的認證。
 
 <u>要再現的步驟</u>：
 
@@ -51,7 +51,7 @@ Adobe Commerce （所有部署方法）全部 [支援的版本](https://www.adob
 - 現有的Adobe公司/個人帳戶。
 - 如果您沒有Adobe帳戶，請以相同的電子郵件地址建立一個帳戶。
 
-如需相關步驟，請參閱 [Commerce Identity管理員](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html) 在Adobe Experience League中。
+如需相關步驟，請參閱Adobe Experience League中的[Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)。
 
 ## 相關閱讀
 

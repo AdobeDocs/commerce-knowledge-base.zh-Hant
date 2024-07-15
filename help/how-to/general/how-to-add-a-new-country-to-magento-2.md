@@ -14,7 +14,7 @@ ht-degree: 0%
 
 本文說明如何新增Adobe Commerce和Zend地區設定資料庫中不存在的國家/地區。 這需要程式碼和資料庫變更，這些變更根據您適用的合約條款構成「客戶自訂」。 請注意，本文包含的範例資料係依「現況」提供，不含任何保固。 Adobe或任何關聯實體均無義務維護、更正、更新、變更、修改或以其他方式支援這些材料。 我們在這裡將說明達成此目標所需完成作業的基本原則。
 
-在此範例中，我們會建立新的Adobe Commerce模組，其資料修補程式會套用於Adobe Commerce安裝或升級流程，並新增抽象國家/地區（國家/地區代碼為XX）至Adobe Commerce。 此 [Adobe Commerce目錄](https://developer.adobe.com/commerce/php/module-reference/module-directory/) 建立初始國家/地區清單，然後使用設定修補程式將地區附加至該清單。 本文說明如何建立新模組，以將新國家/地區附加至清單。 您可以檢閱現有Adobe Commerce目錄模組的程式碼以作參考。 這是因為下列範例模組會繼續進行建立國家和地區清單的目錄模組工作，並重複使用Adobe Commerce目錄模組安裝修補程式的部分程式碼。
+在此範例中，我們會建立新的Adobe Commerce模組，其資料修補程式會套用於Adobe Commerce安裝或升級流程，並新增抽象國家/地區（國家/地區代碼為XX）至Adobe Commerce。 [Adobe Commerce目錄](https://developer.adobe.com/commerce/php/module-reference/module-directory/)會建立初始國家/地區清單，然後使用安裝修補程式將地區附加至該清單。 本文說明如何建立新模組，以將新國家/地區附加至清單。 您可以檢閱現有Adobe Commerce目錄模組的程式碼以作參考。 這是因為下列範例模組會繼續進行建立國家和地區清單的目錄模組工作，並重複使用Adobe Commerce目錄模組安裝修補程式的部分程式碼。
 
 ## 建議檔案
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 在嘗試建立新模組之前，請參閱開發人員檔案中的下列主題：
 
 * [PHP開發人員指南](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [模組概覽](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
+* [模組總覽](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
 * [建立新模組](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
 * [模組組態檔](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
 
@@ -35,20 +35,34 @@ ht-degree: 0%
 
 在此範例中，我們將建立名為\&#39;ExtraCountries\&#39;的新模組，其目錄結構如下：
 
-(若要進一步瞭解模組結構，請參閱 [模組概覽](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html) （位於我們的開發人員檔案中）。
+（如需模組結構的詳細資訊，請參閱我們的開發人員檔案中的[模組概觀](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)）。
 
 <pre><ExtraCountries>
  |
  <etc>
- | | | config.xml | di.xml | module.xml |
+ | |
+ | config.xml
+ | di.xml
+ | module.xml
+ |
  <Plugin>
- | | | <Framework>
- | | |   <Locale>
- | | | TranslatedListsPlugin.php |
+ | |
+ | <Framework>
+ |   |
+ |   <Locale>
+ |     |
+ |     TranslatedListsPlugin.php
+ |
  <Setup>
- | | | <Patch>
- | | |   <Data>
- | | | AddDataForAbstractCountry.php | composer.json registration.php</pre>
+ | |
+ | <Patch>
+ |   |
+ |   <Data>
+ |     |
+ |     AddDataForAbstractCountry.php
+ |
+ composer.json
+ registration.php</pre>
 
 >[!NOTE]
 >
@@ -58,10 +72,10 @@ ht-degree: 0%
 
 新的模組組態定義於此XML檔案中。 可以編輯以下設定和標籤，以調整新的國家/地區預設設定。
 
-* `allow`  — 若要依預設將新新增的國家/地區新增至「允許國家/地區」清單，請將新的國家/地區代碼附加至 `allow` 標籤內容。 國家代碼以逗號分隔。 請注意，此標籤會覆寫以下專案的資料： `Directory` 模組設定檔 *(Directory/etc/config.xml)* `allow` 標籤，這就是為什麼我們會在這裡重複所有程式碼，再加上新的程式碼。
-* `optional_zip_countries`  — 如果新加入國家/地區的郵遞區號應為選用，請將國家/地區代碼附加至 `optional_zip_countries` 標籤之間。 國家代碼以逗號分隔。 請注意，此標籤會覆寫以下專案的資料： `Directory` 模組設定檔 *(Directory/etc/config.xml)* `optional_zip_countries` 標籤，這就是為什麼我們會在這裡重複所有程式碼，再加上新的程式碼。
-* `eu_countries`  — 如果新加入的國家預設必須是歐盟國家清單的一部分，請將國家/地區代碼附加到 `eu_countries` 標籤之間。 國家代碼以逗號分隔。 請注意，此標籤會覆寫以下專案的資料： `Store` 模組設定檔 *(\_Store/etc/config.xml\_)* `eu_countries` 標籤，這就是為什麼我們會在這裡重複所有程式碼，再加上新的程式碼。
-* `config.xml` 檔案範例
+* `allow` — 若要依預設將新新增的國家/地區新增至「允許國家/地區」清單，請將新的國家/地區代碼附加至`allow`標籤內容的結尾。 國家代碼以逗號分隔。 請注意，此標籤會覆寫`Directory`模組組態檔&#x200B;*(Directory/etc/config.xml)* `allow`標籤中的資料，因此我們會重複此處的所有程式碼，並加入新的程式碼。
+* `optional_zip_countries` — 如果新新增國家/地區的郵遞區號應為選擇性，請將國家/地區代碼附加至`optional_zip_countries`標籤內容的結尾。 國家代碼以逗號分隔。 請注意，此標籤會覆寫`Directory`模組組態檔&#x200B;*(Directory/etc/config.xml)* `optional_zip_countries`標籤中的資料，因此我們會重複此處的所有程式碼，並加入新的程式碼。
+* `eu_countries` — 如果新加入的國家預設必須是歐盟國家清單的一部分，請將國家代碼附加到`eu_countries`標籤內容的末尾。 國家代碼以逗號分隔。 請注意，此標籤會覆寫`Store`模組組態檔&#x200B;*(\_Store/etc/config.xml\_)* `eu_countries`標籤中的資料，因此我們會在此重複所有程式碼並加入新程式碼。
+* `config.xml`檔案範例
 
 ```xml
 <?xml version="1.0"?>
@@ -83,17 +97,17 @@ ht-degree: 0%
 </config>
 ```
 
-如需模組組態檔的詳細資訊，請參閱 [PHP Developer Guide > Define Configurations files](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html) （位於我們的開發人員檔案中）。
+如需模組組態檔的詳細資訊，請參閱我們的開發人員檔案中的[PHP開發人員指南>定義組態檔](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html)。
 
-請注意，這些變更是選用的，只會影響新國家/地區在「允許國家/地區」、「郵遞區號為選用的」和「歐盟國家/地區」清單中的預設所屬國家/地區。 如果模組結構略過此檔案，仍會新增一個國家/地區，但必須手動設定於 **管理員** > **商店** > *設定* > **設定** > **一般** > **國家/地區選項** 設定頁面。
+請注意，這些變更是選用的，只會影響新國家/地區在「允許國家/地區」、「郵遞區號為選用的」和「歐盟國家/地區」清單中的預設所屬國家/地區。 如果從模組結構略過此檔案，仍會新增新的國家，但必須在&#x200B;**管理員** > **商店** > *設定* > **設定** > **一般** > **國家選項**&#x200B;設定頁面中手動設定。
 
 ### ExtraCountries/etc/di.xml
 
-此 `di.xml` 檔案配置物件管理員要插入的相依性。 另請參閱 <a>PHP Developer Guide > The di.xml</a> 如需的詳細資訊，請參閱我們的開發人員檔案 `di.xml`.
+`di.xml`檔案會設定物件管理員要插入的相依性。 如需有關`di.xml`的詳細資訊，請參閱我們的開發人員檔案中的<a>PHP開發人員指南> di.xml</a>。
 
-在我們的範例中，我們必須註冊 `_TranslatedListsPlugin_` 如果「Zend地區設定程式庫」本地化資料中沒有代碼，這會將新引進的「國家/地區代碼」轉換成完整的「國家/地區名稱」。
+在我們的範例中，如果Zend地區設定程式庫本地化資料中沒有代碼，我們必須註冊`_TranslatedListsPlugin_`，以便將新引進的「國家/地區代碼」轉換成完整的「國家/地區名稱」。
 
-`di.xml` 範例
+`di.xml`範例
 
 ```xml
 <?xml version="1.0"?>
@@ -109,9 +123,9 @@ ht-degree: 0%
 
 在模組註冊檔案中，我們必須指定「Adobe Commerce目錄」模組的相依性，以確保「額外國家/地區」模組會在目錄模組之後註冊及執行。
 
-另請參閱 [管理模組相依性](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies) 如需模組相依性的詳細資訊，請參閱我們的開發人員檔案。
+如需模組相依性的詳細資訊，請參閱開發人員檔案中的[管理模組相依性](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies)。
 
-`module.xml` 範例
+`module.xml`範例
 
 ```xml
 <?xml version="1.0"?>
@@ -126,7 +140,7 @@ ht-degree: 0%
 
 ### ExtraCountries/Plugin/Framework/Locale/TranslatedListsPlugin.php
 
-在 `aroundGetCountryTranslation()` 外掛程式方法我們必須將國家/地區代碼轉譯為完整的國家/地區名稱。 對於在「Zend地區設定資料庫」中沒有與新國家/地區代碼相關聯之完整名稱的國家/地區，這是必要的步驟。
+在`aroundGetCountryTranslation()`外掛程式方法中，我們必須將國家/地區代碼轉譯為完整的國家/地區名稱。 對於在「Zend地區設定資料庫」中沒有與新國家/地區代碼相關聯之完整名稱的國家/地區，這是必要的步驟。
 
 ```php
 <?php
@@ -171,9 +185,9 @@ class TranslatedListsPlugin
 
 此資料修補程式會在Adobe Commerce安裝/升級過程中執行，並將新增國家/地區記錄至資料庫。
 
-另請參閱 [開發資料和結構描述修補程式](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html) （請參閱我們的開發人員檔案，以取得資料修補程式的詳細資訊）。
+請參閱我們的開發人員檔案中的[開發資料和結構描述修補程式](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html)，以取得資料修補程式的詳細資訊。
 
-在以下範例中，您可以看到 `$data` 方法的陣列 `apply()` 包含新國家/地區的國家/地區識別碼、ISO2和ISO3代碼，而且此資料正在插入資料庫中。
+在下列範例中，您可以看到方法`apply()`的`$data`陣列包含新國家/地區的國家/地區識別碼、ISO2和ISO3代碼，而且此資料正在插入資料庫中。
 
 ```php
 <?php
@@ -252,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-這是registration.php檔案的範例。 若要進一步瞭解模組註冊，請參閱 [PHP開發人員指南>註冊您的元件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html) （位於我們的開發人員檔案中）。
+這是registration.php檔案的範例。 若要瞭解模組註冊的詳細資訊，請參閱我們的開發人員檔案中的[PHP開發人員指南>註冊您的元件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html)。
 
 ```php
 <?php
@@ -265,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 這是composer.json檔案的範例。
 
-若要進一步瞭解composer.json，請參閱 [PHP開發人員指南> The composer.json檔案](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html) （位於我們的開發人員檔案中）。
+若要進一步瞭解composer.json，請參閱我們的開發人員檔案中的[PHP開發人員指南> The composer.json檔案](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html)。
 
 ```json
 {
@@ -296,8 +310,8 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 ## 模組安裝
 
-若要瞭解如何安裝模組，請參閱 [模組位置](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations) （位於我們的開發人員檔案中）。
+若要瞭解如何安裝模組，請參閱開發人員檔案中的[模組位置](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations)。
 
-將模組目錄放置到正確位置後，請執行 `bin/magento setup:upgrade` 以套用資料修補程式並註冊翻譯外掛程式。
+將模組目錄放置到正確位置後，請執行`bin/magento setup:upgrade`以套用資料修補程式並註冊轉譯外掛程式。
 
 您可能需要清除瀏覽器快取，新變更才能運作。

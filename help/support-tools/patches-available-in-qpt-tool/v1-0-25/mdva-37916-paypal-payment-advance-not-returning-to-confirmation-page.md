@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-37916：進階PayPal付款未返回確認頁面
 
-Adobe Commerce的MDVA-37916品質修補程式修正PayPal Payments Advanced付款後未返回確認頁面的問題。 此修補程式適用於 [品質修補工具(QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 已安裝1.0.25。 修補程式ID為MDVA-37916。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+Adobe Commerce的MDVA-37916品質修補程式修正PayPal Payments Advanced付款後未返回確認頁面的問題。 安裝[品質修補工具(QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.25時，即可使用此修補程式。 修補程式ID為MDVA-37916。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 雲端基礎結構上的Adobe Commerce 2.3.6-p1
 
 **與Adobe Commerce版本相容：**
@@ -25,7 +25,7 @@ Adobe Commerce的MDVA-37916品質修補程式修正PayPal Payments Advanced付�
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -34,13 +34,13 @@ Adobe Commerce的MDVA-37916品質修補程式修正PayPal Payments Advanced付�
 <u>要再現的步驟</u>： [熒幕廣播](https://assets.adobe.com/public/025d479b-5796-4772-6f3d-adc86306a799)
 
 1. 將產品新增至購物車，並導覽至結帳頁面的付款步驟。
-1. 選取 **信用卡（Payflow進階）** 付款選項。
-1. 按一下 **繼續** 以使用付款表單顯示iframe。
+1. 選取&#x200B;**信用卡（Payflow進階）**&#x200B;付款選項。
+1. 按一下[繼續]****&#x200B;以使用付款表單開啟iframe。
 1. 使用沙箱信用卡詳細資料填寫付款表單。
    * 卡號：4444 3333 2222 1111或4111 111 111 1111
    * 到期日： 12/23
    * CSC： 123
-1. 按一下 **立即付款**.
+1. 按一下&#x200B;**立即付款**。
 
 <u>預期結果</u>：
 
@@ -56,7 +56,7 @@ Adobe Commerce的MDVA-37916品質修補程式修正PayPal Payments Advanced付�
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
 * Adobe Commerce內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html)
+* 雲端基礎結構上的Adobe Commerce： [升級和修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html)
 
 ## 相關閱讀
 
@@ -65,4 +65,4 @@ Adobe Commerce的MDVA-37916品質修補程式修正PayPal Payments Advanced付�
 * [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
 * [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 
-如需QPT工具中其他可用修補程式的詳細資訊，請參閱 [QPT工具中可用的修補程式](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) 區段建立支援知識庫。
+如需QPT工具中其他修補程式的詳細資訊，請參閱我們的支援知識庫中的[QPT工具](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-)中可用的「修補程式」區段。

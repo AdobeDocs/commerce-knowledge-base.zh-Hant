@@ -1,6 +1,6 @@
 ---
 title: 頂層導覽面板未載入店面
-description: 本文提供Varnish Edge Side Include (ESI)問題的設定解決方案，其中如果使用Varnish進行快取，則某些頁面的內容（通常是頂端導覽面板）不會顯示在店面上。
+description: 本文提供配置解決方案，解決Edge Side Include (ESI)問題，其中如果使用Varnish進行快取，則店面不會顯示某些頁面的內容（通常是頂端導覽面板）。
 exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
 feature: Categories, Site Navigation, Storefront, Variables
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 頂層導覽面板未載入店面
 
-本文提供Varnish Edge Side Include (ESI)問題的設定解決方案，其中如果使用Varnish進行快取，則某些頁面的內容（通常是頂端導覽面板）不會顯示在店面上。
+本文提供配置解決方案，解決Edge Side Include (ESI)問題，其中如果使用Varnish進行快取，則店面不會顯示某些頁面的內容（通常是頂端導覽面板）。
 
 ## 受影響的產品和版本
 
@@ -51,18 +51,18 @@ ht-degree: 0%
 
 若要解決問題，您需要執行額外的Varnish設定，並重新啟動Varnish。
 
-1. 作為使用者，具有 `root` 許可權，在文字編輯器中開啟您的「消失」設定檔。 請參閱 [修改Varnish系統設定](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) 開發人員檔案中，取得此檔案可能位於不同作業系統哪個位置的資訊。
-1. 在 `DAEMON_OPTS variable`，新增 `-p feature=+esi_ignore_https`， `-p  feature=+esi_ignore_other_elements`， `-p  feature=+esi_disable_xml_check`. 如下所示：
+1. 以具有`root`許可權的使用者身分，在文字編輯器中開啟您的「消失」設定檔。 請參閱開發人員檔案中的[修改Varnish系統組態](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl)，以取得不同作業系統之檔案可能所在位置的資訊。
+1. 在`DAEMON_OPTS variable`中，新增`-p feature=+esi_ignore_https`、`-p  feature=+esi_ignore_other_elements`、`-p  feature=+esi_disable_xml_check`。 如下所示：
 
    ```bash
    DAEMON_OPTS="-a :6081 \    -p feature=+esi_ignore_other_elements \    -p feature=+esi_disable_xml_check \    -p feature=+esi_ignore_https \    -T localhost:6082 \    -f /etc/varnish/default.vcl \    -S /etc/varnish/secret \    -s malloc,256m"
    ```
 
 1. 儲存變更並退出文字編輯器。
-1. 在VCL組態檔案中，增加下列引數的值以增加回應標頭： `http_resp_hdr_len`， `http_resp_size`， `workspace_backend`. 請確定最後兩個具有類似的值。
-1. 當您變更此專案時，您需要執行 `service varnish restart` 以使變更生效。
+1. 在VCL組態檔中，增加下列引數的值以增加回應標頭： `http_resp_hdr_len`、`http_resp_size`、`workspace_backend`。 請確定最後兩個具有類似的值。
+1. 當您變更此專案時，必須執行`service varnish restart`才能讓變更生效。
 
 ## 相關閱讀
 
-* [設定Varnish與您的網頁伺服器](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl) （位於我們的開發人員檔案中）。
+* 在開發人員檔案中[設定Varnish與您的網頁伺服器](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl)。
 * [塗漆檔案](https://varnish-cache.org/docs/5.1/reference/index.html)

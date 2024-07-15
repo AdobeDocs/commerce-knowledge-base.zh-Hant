@@ -27,8 +27,8 @@ ht-degree: 0%
 
 ## 原因
 
-歐盟修訂了名為「支付服務指示(PSD)」的規範，並更新其版本 [PSD2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&amp;from=EN). 這是歐盟(EU)的指令，旨在規範整個歐盟和歐洲經濟區(EEA)的支付服務與支付服務提供者。 PSD2需要強大的客戶驗證(SCA)，以提高付款資料安全性和驗證。 如果您的支付解決方案不符合指示要求，可能導致客戶無法完成支付。 如需詳細資訊，請參閱 [相關的Adobe Commerce DevBlog文章](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460).
+歐盟修訂了名為「付款服務指示(PSD)」的規範，更新版本為[PSD2](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32015L2366&amp;from=EN)。 這是歐盟(EU)的指令，旨在規範整個歐盟和歐洲經濟區(EEA)的支付服務與支付服務提供者。 PSD2需要強大的客戶驗證(SCA)，以提高付款資料安全性和驗證。 如果您的支付解決方案不符合指示要求，可能導致客戶無法完成支付。 如需詳細資訊，請參閱[相關的Adobe Commerce DevBlog文章](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460)。
 
 ## 解決方案
 
-請遵循以下網站的建議： [DevBlog的Adobe Commerce付款提供者Recommendations區段](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations).
+遵循DevBlog](https://community.magento.com/t5/Magento-DevBlog/3D-Secure-2-0-changes/ba-p/136460#recommendations)的[Adobe Commerce付款提供者Recommendations區段中的建議。

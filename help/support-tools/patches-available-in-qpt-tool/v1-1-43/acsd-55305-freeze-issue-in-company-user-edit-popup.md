@@ -1,6 +1,6 @@
 ---
-title: '''ACSD-55305：在編輯公司使用者期間快顯視窗凍結 [!UICONTROL My Account]『'
-description: 套用ACSD-55305修補程式以修正Adobe Commerce問題，其中 [!UICONTROL Edit Company User] 上的快顯視窗 [!UICONTROL My Account] &gt； [!UICONTROL Company Structure] 在熒幕上使用載入器時，頁面會凍結。
+title: 'ACSD-55305：在[!UICONTROL My Account]中編輯公司使用者期間快顯視窗凍結'
+description: 套用ACSD-55305修補程式以修正Adobe Commerce問題，[!UICONTROL My Account] &amp；gt； [!UICONTROL Company Structure]頁面上的[!UICONTROL Edit Company User]快顯視窗會在熒幕上載入程式下凍結。
 feature: Companies, B2B
 role: Admin, Developer
 exl-id: be2bfe08-d05e-485d-84c3-2ff14e1a8654
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-55305：在編輯公司使用者期間快顯視窗凍結 [!UICONTROL My Account]
+# ACSD-55305：在[!UICONTROL My Account]中編輯公司使用者期間快顯視窗凍結
 
-ACSD-55305修補程式修正以下問題：  [!UICONTROL Edit Company User] 上的快顯視窗 [!UICONTROL My Account]> [!UICONTROL Company Structure] 在熒幕上使用載入器時，頁面會凍結。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.43。 修補程式ID為ACSD-55305。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-55305修補程式修正[!UICONTROL My Account]> [!UICONTROL Company Structure]頁面上的[!UICONTROL Edit Company User]快顯視窗因熒幕上的載入器而凍結的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.43時，即可使用此修補程式。 修補程式ID為ACSD-55305。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.6-p2
 
@@ -27,11 +27,11 @@ ACSD-55305修補程式修正以下問題：  [!UICONTROL Edit Company User] 上�
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-嘗試使用時發生錯誤 *[!UICONTROL Edit Company User]* 上的快顯視窗 *[!UICONTROL My Account]* > *[!UICONTROL Company Structure]* 頁面時，其會在熒幕上顯示載入器時凍結。
+嘗試使用&#x200B;*[!UICONTROL My Account]* > *[!UICONTROL Company Structure]*&#x200B;頁面上的&#x200B;*[!UICONTROL Edit Company User]*&#x200B;快顯視窗時發生錯誤，因為熒幕上顯示的載入器會使其凍結。
 
 <u>要再現的步驟</u>：
 
@@ -39,9 +39,9 @@ ACSD-55305修補程式修正以下問題：  [!UICONTROL Edit Company User] 上�
 1. 為客戶建立多選屬性。
 1. 將值指派給公司管理員新建立的屬性。
 1. 以公司管理員身分登入。
-1. 前往 [!UICONTROL account dashboard] 並導覽至 **[!UICONTROL Company Structure]**.
+1. 前往[!UICONTROL account dashboard]並導覽至&#x200B;**[!UICONTROL Company Structure]**。
 1. 選取使用者。
-1. 按一下 **[!UICONTROL Edit Selected]**.
+1. 按一下&#x200B;**[!UICONTROL Edit Selected]**。
 
 <u>預期結果</u>：
 
@@ -55,14 +55,14 @@ ACSD-55305修補程式修正以下問題：  [!UICONTROL Edit Company User] 上�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

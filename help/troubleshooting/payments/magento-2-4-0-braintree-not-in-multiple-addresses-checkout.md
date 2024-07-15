@@ -15,7 +15,7 @@ ht-degree: 0%
 
 針對Adobe Commerce 2.4.0的已知問題，本文提供因應措施，其中處理「多個地址」結帳時未包含Braintree付款方法。 請注意，問題已在Adobe Commerce 2.4.1中修正。
 
-注意： Adobe Commerce建議使用 [Commerce MarketplaceBraintree延伸模組](https://marketplace.magento.com/paypal-module-braintree.html) （適用於版本2.3及更新版本），以維持PSD合規性。 擴充功能不提供多位址簽出功能。
+注意： Adobe Commerce建議針對2.3版和更新版本使用[Commerce MarketplaceBraintree延伸模組](https://marketplace.magento.com/paypal-module-braintree.html)，以保持PSD相容性。 擴充功能不提供多位址簽出功能。
 
 ## 受影響的產品和版本
 
@@ -34,10 +34,10 @@ ht-degree: 0%
 1. 以客戶身分登入。
 1. 新增產品至購物車。
 1. 開啟購物車。
-1. 按下 **檢視和編輯購物車**.
-1. 按下 **使用多個地址簽出**.
-1. 按下 **前往送貨資訊**.
-1. 按下 **繼續檢視帳單資訊**.
+1. 按&#x200B;**檢視並編輯購物車**。
+1. 按下&#x200B;**使用多個地址**&#x200B;簽出。
+1. 按&#x200B;**前往送貨資訊**。
+1. 按&#x200B;**繼續記帳資訊**。
 
 <u>預期結果</u>：
 

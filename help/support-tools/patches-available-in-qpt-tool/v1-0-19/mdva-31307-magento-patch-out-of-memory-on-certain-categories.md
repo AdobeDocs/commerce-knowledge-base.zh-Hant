@@ -13,21 +13,21 @@ ht-degree: 0%
 
 # MDVA-31307：某些類別的記憶體不足
 
-MDVA-31307修補程式修正以下問題： `Magento\_Csp/Model/BlockCache` 耗用大量記憶體並產生大量快取字串，導致某些頁面因大量動態白名單指令碼和樣式而發生問題。 提供的修補程式會最佳化此程式。 此修補程式適用於 [品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.0.19。 修補程式ID為MDVA-31307。 請注意，問題已在Adobe Commerce 2.4.2中修正。
+MDVA-31307修補程式修正了`Magento\_Csp/Model/BlockCache`耗用大量記憶體並產生大量快取字串的問題，這會導致某些頁面出現問題，其中有許多動態列入白名單的指令碼和樣式。 提供的修補程式會最佳化此程式。 安裝[品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.19時，即可使用此修補程式。 修補程式ID為MDVA-31307。 請注意，問題已在Adobe Commerce 2.4.2中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：** 雲端基礎結構上的Adobe Commerce 2.4.0
+**在雲端基礎結構2.4.0上為Adobe Commerce版本** Adobe Commerce建立修補程式
 
-**與Adobe Commerce版本相容：** Adobe Commerce內部部署和Adobe Commerce on cloud infrastructure 2.4.0 - 2.4.1-p1
+**與Adobe Commerce版本相容：**&#x200B;內部部署的Adobe Commerce和雲端基礎結構上的Adobe Commerce 2.4.0 - 2.4.1-p1
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-修正的問題 *記憶體不足* 由於快取區塊的動態CSP白名單發生問題，導致某些類別發生錯誤。
+修正由於快取區塊的動態CSP白名單發生問題，導致某些類別發生&#x200B;*記憶體不足*&#x200B;錯誤的問題。
 
 <u>要再現的步驟：</u>
 
@@ -36,8 +36,8 @@ MDVA-31307修補程式修正以下問題： `Magento\_Csp/Model/BlockCache` 耗�
 
 <u>實際結果：</u>
 
-*[日期和時間] PHP嚴重錯誤：未知的行0中允許的記憶體大小已用盡1073741824個位元組(嘗試配置90112個位元組)
-[日期和時間] PHP嚴重錯誤： /app/中允許的記憶體大小已用盡1073741824個位元組(嘗試配置33554440個位元組)`<project-id>`/vendor/magento/module-csp/Model/Collector/DynamicCollector.php第31行*
+*[日期與時間] PHP嚴重錯誤：在未知的行0中，已耗用允許的記憶體大小1073741824位元組(嘗試配置90112位元組)
+[日期和時間] PHP嚴重錯誤： /app/`<project-id>`/vendor/magento/module-csp/Model/Collector/DynamicCollector.php第31*&#x200B;行中允許的記憶體大小已耗盡1073741824個位元組(嘗試配置33554440個位元組)
 
 <u>預期結果：</u>
 
@@ -47,14 +47,14 @@ MDVA-31307修補程式修正以下問題： `Magento\_Csp/Model/BlockCache` 耗�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 相關閱讀
 
 若要進一步瞭解「品質修補程式」工具，請參閱：
 
-* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [品質修補程式工具已發行：我們支援知識庫中的自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的品質修補程式工具](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查是否有修補程式可用於您的Adobe Commerce問題。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [QPT中可用的修補程式](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-) 區段。
+如需QPT中其他修補程式的詳細資訊，請參閱QPT](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-MQP-tool-)中可用的[修補程式區段。

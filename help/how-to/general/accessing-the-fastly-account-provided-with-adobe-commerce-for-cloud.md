@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ## 如何檢視您的Fastly認證
 
-請參閱 [取得Fastly認證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds) 區段。
+請參閱我們的開發人員檔案中的[取得Fastly認證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#cloud-fastly-creds)區段。
 
 ## 如何測試Fastly認證
 
-請參閱 [測試Fastly認證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials) 區段。
+請參閱我們的開發人員檔案中的[測試Fastly認證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)區段。
 
 ## 相關閱讀
 
-[變更雲端上Fastly的帳戶擁有者（透過API權杖存取認證）](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md) 在我們的支援知識庫中。
+在我們的支援知識庫中[變更Fastly on Cloud](/help/how-to/general/change-account-owner-access-credentials-via-api-tokens-for-fastly-on-cloud.md)的帳戶擁有者（透過API權杖存取認證）。

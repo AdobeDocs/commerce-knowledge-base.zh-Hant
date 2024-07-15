@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文提供Adobe Commerce在雲端基礎結構問題上的疑難排解指示，其中嘗試存取新建立的整合環境會將您導向到父環境。
 
-若要修正此問題，您必須修正資料庫中的base\_url值，並確定 `UPDATE_URLS` 變數值設為 `true`. 如需詳細資訊，請參閱以下章節。
+若要修正此問題，您必須修正資料庫中的base\_url值，並確定`UPDATE_URLS`變數值設為`true`。 如需詳細資訊，請參閱以下章節。
 
 受影響的版本和版本：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-若要修正問題，您必須修正 `base_url` 值（安全和不安全），並設定 `UPDATE_URL` 中的變數 `.magento.env.yaml` 檔案。
+若要修正此問題，您必須修正自訂環境資料庫中的`base_url`值（安全和不安全），並在`.magento.env.yaml`檔案中設定`UPDATE_URL`變數。
 
 ### 更正資料庫中的base\_url值
 
@@ -59,7 +59,7 @@ update core_config_data set value = %your_new_environment_secure_url% where path
 
 #### 使用Adobe Commerce CLI （2.2.X版提供）更正資料庫
 
-1. 登入為，或切換至 [Adobe Commerce檔案系統擁有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html).
+1. 以或切換至[Adobe Commerce檔案系統擁有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/web-server/apache.html)的身份登入。
 1. 執行以下命令：
 
 ```bash
@@ -67,9 +67,9 @@ php <your_magento_install_dir>/bin/magento config:set web/unsecure/base_url http
 php <your_magento_install_dir>/bin/magento config:set web/secure/base_url https://example.com
 ```
 
-### 設定 `UPDATE_URLS` 變數
+### 設定`UPDATE_URLS`變數
 
-在本機程式碼基底中，於 `.magento.env.yaml` 檔案集：
+在您的本機程式碼基底中，在`.magento.env.yaml`檔案集中：
 
 ```
  stage:

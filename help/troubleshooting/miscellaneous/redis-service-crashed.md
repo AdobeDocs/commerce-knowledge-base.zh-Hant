@@ -37,10 +37,10 @@ ht-degree: 0%
 redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_peak|maxmemory|evicted_keys|uptime_in_days)"
 ```
 
-此 *REDIS\_PORT* 和 *REDIS\_HOST* 變數可從中擷取 `app/etc/env.php`.
+可從`app/etc/env.php`擷取&#x200B;*REDIS\_PORT*&#x200B;和&#x200B;*REDIS\_HOST*&#x200B;變數。
 
-如果執行上述查詢的輸出顯示可用記憶體的百分比小於40%， [向Adobe Commerce支援提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 請求增加 `maxmemory` Redis伺服器的設定。 如果收回的索引鍵值不是「0」或Redis啟動時間（以天為單位）等於0 （表示Redis今天已當機），您也應該 [向Adobe Commerce支援提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 要求對此問題進行調查與修正。
+如果執行上述查詢的輸出顯示可用記憶體的百分比小於40%，請[將票證提交給Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求增加Redis伺服器中的`maxmemory`設定。 如果收回的金鑰值不是「0」或Redis啟動時間（以天為單位）等於0 （表示Redis今天已當機），您也應[提交票證給Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)要求此問題的調查和修正。
 
 ## 相關閱讀
 
-若要進一步瞭解Redis記憶體，請參閱 [Redis記憶體最佳化](https://redis.io/topics/memory-optimization).
+若要深入瞭解Redis記憶體，請參閱[Redis記憶體最佳化](https://redis.io/topics/memory-optimization)。

@@ -13,5 +13,5 @@ ht-degree: 0%
 
 請參閱開發人員檔案中的下列文章：
 
-* Adobe Commerce 2.3： [設定作業模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html)
-* Adobe Commerce 2.4： [設定作業模式](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)
+* Adobe Commerce 2.3： [設定操作模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html)
+* Adobe Commerce 2.4： [設定操作模式](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-mode.html)

@@ -22,24 +22,24 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。使用 [正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html) 從marketplace取得。
+>核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。請改用marketplace的[正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html)。
 
 ## 問題
 
-<u>必要條件</u>：在「Commerce管理員」中，啟用並設定PayPal和Cybersource付款方法，並為您的商店啟用多送貨服務。
+<u>必要條件</u>：在Commerce管理員中，啟用並設定PayPal和Cybersource付款方法，並為您的商店啟用多重送貨服務。
 
 <u>要再現的步驟</u>：
 
 1. 在店面，新增多項產品至購物車。
 1. 前往購物車頁面。
-1. 按一下 **使用多個地址簽出**.
+1. 按一下&#x200B;**使用多個地址簽出**。
 1. 登入或建立帳戶。
 1. 在「送貨地點多重地址」頁面上的地址之間分割產品。
-1. 按一下 **前往送貨資訊**.
+1. 按一下&#x200B;**前往送貨資訊**。
 1. 選取每次出貨的出貨方式。
-1. 按一下 **繼續檢視帳單資訊**.
+1. 按一下&#x200B;**繼續記帳資訊**。
 
-<u>預期結果</u>：PayPal和Cybersource可作為付款選項使用。
+<u>預期結果</u>： PayPal和Cybersource可作為付款選項使用。
 
 <u>實際結果</u>：只有Cybersource會顯示為可用的付款選項。
 

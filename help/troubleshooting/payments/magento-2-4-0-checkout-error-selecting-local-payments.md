@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文探討結帳期間Adobe Commerce中已知問題的解決方案，也就是在為某些國家/地區選取本機付款方式時出現錯誤訊息。 這發生在以下國家：比利時、義大利、荷蘭、波蘭和西班牙。
 
-錯誤訊息「*目前沒有可用的付款方法。 請更新您的帳單地址。*「 」會出現，但本機付款方法仍會出現，而且可正常運作。 Adobe Commerce 2.4.1將提供永久修正。
+錯誤訊息&#39;&#39;*目前沒有可用的付款方法。 請更新您的帳單地址。「*」將會出現，但本機付款方法仍會出現，而且可正常運作。 Adobe Commerce 2.4.1將提供永久修正。
 
 ## 受影響的產品和版本
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * 已安裝Adobe Commerce 2.4.0。
 * 建立一個產品和一個類別。
-* 設定 [Braintree付款方法](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html).
+* 設定[Braintree付款方式](https://devdocs.magento.com/guides/v2.4/graphql/payment-methods/braintree.html)。
 
 <u>要再現的步驟</u>：
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-錯誤訊息「*目前沒有可用的付款方法。 請更新您的帳單地址。*「 」會出現，但本機付款方法仍會顯示並正常運作。
+錯誤訊息&#39;&#39;*目前沒有可用的付款方法。 請更新您的帳單地址。「*」已顯示，但本機付款方法仍會顯示且正常運作。
 
 ## 解決方案
 

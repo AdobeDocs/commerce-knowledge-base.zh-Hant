@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0已知問題 — 匯出稅率無法運作
 
-本文針對Adobe Commerce 2.4.0的已知問題提供解決方案，其中 **匯出稅率** 按鈕無法運作。
+本文針對Adobe Commerce 2.4.0的已知問題，提供&#x200B;**匯出稅率**&#x200B;按鈕無法運作的解決方案。
 
 ## 受影響的產品和版本
 
@@ -24,15 +24,15 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-1. 前往Commerce管理面板> **商店** > **稅捐規則**.
-1. 按一下 **新增稅捐規則** 按鈕。
-1. 按一下 **匯出稅率** 按鈕。
+1. 前往Commerce管理面板> **商店** > **稅務規則**。
+1. 按一下&#x200B;**新增稅捐規則**&#x200B;按鈕。
+1. 按一下&#x200B;**匯出稅率**&#x200B;按鈕的文字。
 
    ![magento_export_tax_rates.png](assets/mceclip0.png)
 
 <u>預期結果</u>：
 
-A `tax_rates.csv` 包含稅率的檔案下載。
+包含稅率的`tax_rates.csv`檔案下載。
 
 <u>實際結果</u>：
 
@@ -42,7 +42,7 @@ A `tax_rates.csv` 包含稅率的檔案下載。
 
 因應措施：
 
-按一下 **匯出稅率** 按鈕以匯出 `tax_rates.csv` 檔案。
+按一下&#x200B;**匯出稅率**&#x200B;按鈕左下角以匯出`tax_rates.csv`檔案。
 
 ![magento_export_tax_rates.png](assets/mceclip1.png)
 
@@ -52,8 +52,8 @@ A `tax_rates.csv` 包含稅率的檔案下載。
 
 在我們的支援知識庫中：
 
-* [Adobe Commerce 2.4.0已知問題：Braintree付款方法未出現在多地址結帳中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md).
-* [Adobe Commerce 2.4.0中建立配送標籤已知問題](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md).
-* [Adobe Commerce 2.4.0已知問題 — 在客戶的活動上重新整理無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md).
-* [Adobe Commerce 2.4.0已知問題：店面顯示原始訊息資料](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md).
-* [Adobe Commerce 2.4.0已知問題：「將選取專案新增至我的購物車」按鈕無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md).
+* [Adobe Commerce 2.4.0已知問題：Braintree付款方式未出現在多地址結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中。
+* [Adobe Commerce 2.4.0](/help/troubleshooting/known-issues-patches-attached/shipping-labels-creation-known-issue-in-magento-2-4-0.md)中的送貨標籤建立已知問題。
+* [Adobe Commerce 2.4.0已知問題 — 重新整理客戶活動無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)。
+* [Adobe Commerce 2.4.0已知問題：店面顯示原始訊息資料](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)。
+* [Adobe Commerce 2.4.0已知問題：「將選取專案新增至我的購物車」按鈕無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)。

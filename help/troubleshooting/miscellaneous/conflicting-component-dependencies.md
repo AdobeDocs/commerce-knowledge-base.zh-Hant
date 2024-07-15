@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 衝突的元件相依性
 
-本文提供衝突元件相依性的解決方案。 嘗試使用網頁設定精靈設定或更新Adobe Commerce時，您會看到 *「我們發現衝突的元件相依性」* 撰寫器錯誤訊息。
+本文提供衝突元件相依性的解決方案。 嘗試使用Web安裝精靈來安裝或更新Adobe Commerce時，您會看到&#x200B;*「我們發現衝突的元件相依性」* Composer錯誤訊息。
 
 ## 受影響的產品和版本
 
@@ -51,21 +51,21 @@ We have detected conflicts with the following packages:
 如果您在雲端基礎結構上升級Adobe Commerce，請嘗試下列步驟來解決衝突的元件相依性：
 
 * 檢查用於升級的金鑰。 金鑰是否從正確的電子郵件帳戶產生？
-* 檢查許可權並確保其符合Magento升級要求。 檢閱 [Magento升級概述>更新與升級檢查清單>檔案系統許可權](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms) （位於我們的開發人員檔案中）。
+* 檢查許可權並確保其符合Magento升級要求。 檢閱開發人員檔案中的[Magento升級概觀>更新及升級檢查清單>檔案系統許可權](https://devdocs.magento.com/guides/v2.3/comp-mgr/prereq/prereq_compman-checklist.html#perms)。
 
 ## 與第三方模組不相容： {#incompatibility-third-party-modules}
 
 相衝突的元件相依性也可能是由第三方模組所造成，這些模組相依於您所安裝的舊版Commerce元件。 請嘗試下列步驟：
 
-1. 在前面 [範例](#issue)，已安裝的magento/sample-data 0.74.0-beta版15套件無法升級至1.0.0-beta版。 不過，0.74.0-beta15可以升級至0.74.0-beta16 （或其他）。 編輯 `composer.json` 以進行上述任何變更。 通常，您專案所要求的版本將在 `require` 或 `require-dev` JSON檔案中物件的屬性。 視提供的封裝版本選項而定，它們可能會指定特定版本或限制。 如需有關如何使用撰寫器的一般指引，如果您在我們的雲端基礎結構，您可以參閱 [適用於Adobe Commerce的Cloud >技術和需求>撰寫器](https://devdocs.magento.com/cloud/reference/cloud-composer.html#files) （位於我們的開發人員檔案中）。 如果您在Adobe Commerce內部部署，請參閱 [Adobe Commerce >安裝指南>使用撰寫器安裝Adobe Commerce](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html) .
-1. 現在嘗試進行整備檢查。 檢閱 [Adobe Commerce升級概觀>執行模組管理員>步驟1整備檢查](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html) （位於我們的開發人員檔案中）。
-1. 如果整備檢查失敗，且出現另一個「元件」相依性檢查失敗訊息，則根據您是否使用，按一下下列連結 [Adobe Commerce](#magento-commerce-magento-commerce-cloud) 或 [Magento Open Source](#opensource) 以取得進一步的疑難排解步驟。
+1. 在前面的[example](#issue)中，安裝的套件magento/sample-data版本0.74.0-beta15無法升級至1.0.0-beta。 不過，0.74.0-beta15可以升級至0.74.0-beta16 （或其他）。 編輯`composer.json`以進行這些變更。 通常，您專案要求的版本將會在該JSON檔案中物件的`require`或`require-dev`屬性中定義。 視提供的封裝版本選項而定，它們可能會指定特定版本或限制。 如需如何使用撰寫器的一般指引，如果您在我們的雲端基礎建設上，請參考開發人員檔案中的[Cloud for Adobe Commerce >技術和需求>撰寫器](https://devdocs.magento.com/cloud/reference/cloud-composer.html#files)。 如果您位於Adobe Commerce內部部署，請參閱[Adobe Commerce >安裝指南>使用撰寫器安裝Adobe Commerce](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html) 。
+1. 現在嘗試進行整備檢查。 檢閱開發人員檔案中的[Adobe Commerce升級概觀>執行模組管理員>步驟1整備檢查](https://devdocs.magento.com/guides/v2.3/comp-mgr/module-man/compman-readiness.html)。
+1. 如果整備檢查因另一個元件相依性檢查失敗訊息而失敗，則根據您是使用[Adobe Commerce](#magento-commerce-magento-commerce-cloud)還是[Magento Open Source](#opensource)，按一下下列連結以取得進一步的疑難排解步驟。
 
 ## Adobe Commerce {#magento-commerce-magento-commerce-cloud}
 
-1. 請洽詢擴充功能的開發人員，以便他們協助您。 您可以在Commerce Marketplace上您所購買擴充功能的頁面上，找到他們的聯絡資訊。 尋找 **聯絡賣家** 按鈕顯示在右側面板上。 所有Commerce開發人員在Marketplace上發佈擴充功能時，都必須提供使用者和安裝指南。 兩者皆可在登陸頁面的右側找到。
-1. 如果您沒有在合理的時間內收到賣方的回應，請 [聯絡市集支援](mailto:commercemarketplacesupport@adobe.com) 以便我們提醒他們客戶支援承諾。
+1. 請洽詢擴充功能的開發人員，以便他們協助您。 您可以在Commerce Marketplace上您所購買擴充功能的頁面上，找到他們的聯絡資訊。 尋找右側面板上顯示的&#x200B;**聯絡賣家**&#x200B;按鈕。 所有Commerce開發人員在Marketplace上發佈擴充功能時，都必須提供使用者和安裝指南。 兩者皆可在登陸頁面的右側找到。
+1. 如果您沒有在合理的時間內收到賣家的回應，請[連絡市集支援](mailto:commercemarketplacesupport@adobe.com)，以便我們提醒他們客戶支援承諾。
 
 ## Magento Open Source {#opensource}
 
-在以下位置請求協助： [我們的主要論壇](https://community.magento.com/) 或 [聯絡Adobe Commerce合作夥伴](https://magento.com/find-a-partner) 會協助您解決Open Source問題。
+請透過[我們的主要論壇](https://community.magento.com/)或[聯絡協助Source開啟問題的其他Adobe Commerce合作夥伴](https://magento.com/find-a-partner)。

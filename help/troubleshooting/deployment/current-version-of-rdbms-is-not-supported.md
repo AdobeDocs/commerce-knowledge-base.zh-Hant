@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 部署時出現「不支援目前版本的RDBMS」錯誤
 
-本文提供部署失敗且在部署記錄中有以下錯誤時的解決方案： *目前版本的RDBMS不受支援*.
+本文提供部署失敗且部署記錄中有下列錯誤時的解決方案： *不支援RDBMS的目前版本*。
 
 ## 受影響的產品和版本
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-部署失敗並出現錯誤訊息： *目前版本的RDBMS不受支援*.
+部署失敗，錯誤訊息： *不支援RDBMS的目前版本*。
 
 ## 原因
 
@@ -45,12 +45,12 @@ ht-degree: 0%
 您必須先將MariaDB服務升級為相容的版本，才能升級應用程式。
 
 
-如需雲端基礎結構上Adobe Commerce的整合分支Pro計畫架構（以及入門架構中的所有分支），請遵循 [設定服務](https://devdocs.magento.com/cloud/project/services.html) （位於我們的開發人員檔案中）。
+如需雲端基礎結構Pro計畫架構上Adobe Commerce的整合分支（以及入門架構中的所有分支），請遵循開發人員檔案中的[設定服務](https://devdocs.magento.com/cloud/project/services.html)。
 
-如需在雲端基礎結構Pro計畫架構上進行Adobe Commerce的測試和生產，請 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 請求在您部署Adobe Commerce版本升級之前升級服務。
+針對雲端基礎結構Pro計畫架構上Adobe Commerce的測試和生產，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以便在您部署Adobe Commerce版本升級之前請求升級服務。
 
 
 ## 相關閱讀
 
-* [建置和部署的最佳實務](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices) （位於我們的開發人員檔案中）。
-* [Adobe Commerce 2.3.5升級：壓縮至動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html) 我們的支援知識庫。
+* 在開發人員檔案中[組建和部署的最佳實務](https://devdocs.magento.com/cloud/reference/discover-deploy.html#best-practices)。
+* [Adobe Commerce 2.3.5升級：在我們的支援知識庫中壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)。

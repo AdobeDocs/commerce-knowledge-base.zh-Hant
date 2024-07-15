@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 安裝最新修補程式以修正Adobe Commerce Redis問題
 
-本文提供Redis相關最新修補程式的資訊，提供於 [雲端基礎結構上的Adobe Commerce修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) 封裝。
+本文提供雲端基礎結構修補程式](https://devdocs.magento.com/cloud/project/project-patch.html)套件上[Adobe Commerce中可用的最新Redis相關修補程式的資訊。
 
 ## 受影響的產品和版本
 
@@ -25,7 +25,7 @@ Redis的額外CPU和記憶體耗用量可能會降低Adobe Commerce效能，進�
 
 ## 解決方案
 
-在雲端基礎結構修補程式套件上套用Adobe Commerce提供的最新修補程式。 如需詳細指示，請參閱 [套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+在雲端基礎結構修補程式套件上套用Adobe Commerce提供的最新修補程式。 如需詳細指示，請參閱我們的開發人員檔案中的[套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 Adobe Commerce在雲端基礎結構修補程式套件上提供的最新Redis修補程式，有助於進行以下工作：
 

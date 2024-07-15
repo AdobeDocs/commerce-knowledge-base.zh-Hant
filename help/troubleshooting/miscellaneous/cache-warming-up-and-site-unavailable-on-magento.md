@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce，全部 [支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* 雲端基礎結構上的Adobe Commerce，所有[支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)。
 
 ## 問題
 
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 解決方案
 
-限制快取預熱期間同時連線的數量。 這需要新增 `WARM_UP_CONCURRENCY` 部署後變數，指定快取預熱指令碼可同時傳送的預熱要求數目。 設定此選項有助於管理Adobe Commerce雲端基礎結構的負載。 如需相關步驟，請參閱 [部署後變數> WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency) （位於我們的開發人員檔案中）。
+限制快取預熱期間同時連線的數量。 這需要新增`WARM_UP_CONCURRENCY`部署後變數，以指定快取熱身指令碼可同時傳送的熱身要求數目。 設定此選項有助於管理Adobe Commerce雲端基礎結構的負載。 如需相關步驟，請參閱我們的開發人員檔案中的[Post-deploy變數> WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency)。
 
 ## 相關閱讀
 
-[全頁快取](https://docs.magento.com/user-guide/system/cache-full-page.html) 在我們的使用手冊中
+使用手冊中的[全頁快取](https://docs.magento.com/user-guide/system/cache-full-page.html)

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# Adobe Commerce cloud：重新索引終止 `Killed` message
+# Adobe Commerce雲端：重新索引已終止，並出現`Killed`訊息
 
 ## 受影響的產品和版本
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 問題
 
-您正嘗試在整合分支（或起始架構專案的測試環境）上執行重新索引，而此程式正由 `Killed` 訊息。
+您正嘗試在整合分支（或入門架構專案的測試階段）上執行重新索引，而處理程式正在以`Killed`訊息終止。
 
 ## 原因
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 1. 減少產品數量（以及客戶群組和商店 — 如果適用）。
 1. 僅限一或兩名同時使用者使用。
 1. 停用cron工作，並視需要手動執行。
-1. 如果先前未曾執行此動作，請要求升級至增強型整合環境 — 請注意，一旦執行升級，您將受限制的環境數量限制。 請參閱 [整合環境增強功能要求 — Pro與Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) 詳細資訊請參閱我們的支援知識庫中的文章。
+1. 如果先前未曾執行此動作，請要求升級至增強型整合環境 — 請注意，一旦執行升級，您將受限制的環境數量限制。 請參閱我們的支援知識庫中的[整合環境增強功能要求 — Pro與Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)文章，以取得詳細資料。
 
 ## 相關閱讀：
 
 在我們的開發人員檔案中：
 
-* [Pro架構>整合環境](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
+* [專業架構>整合環境](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#cloud-arch-int)
 * [入門架構>測試環境](https://devdocs.magento.com/cloud/architecture/starter-architecture.html#cloud-arch-stage)

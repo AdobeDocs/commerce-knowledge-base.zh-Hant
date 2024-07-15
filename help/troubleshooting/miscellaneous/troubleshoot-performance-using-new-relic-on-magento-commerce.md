@@ -30,22 +30,22 @@ ht-degree: 0%
 <tr>
 <td>
 <p>Apdex分數低：</p>
-<p>您的New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex分數</a> 測量使用者對您網頁應用程式與服務之回應時間的滿意度。</p>
+<p>您的New Relic <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measuring-user-satisfaction">Apdex分數</a>可測量使用者對您網頁應用程式與服務回應時間的滿意度。</p>
 </td>
 <td>
-<p>您登入 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概觀。 在「概述」頁面的右側，您會看到Apdex分數圖表。 Apdex分數為0.5或以下是值得關注的問題，值得調查：網路交易時間（伺服器要求）：</p>
+<p>您登入<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概觀。 在「概述」頁面的右側，您會看到Apdex分數圖表。 Apdex分數為0.5或以下是值得關注的問題，值得調查：網路交易時間（伺服器要求）：</p>
 <ol>
 <ol>
-<li>登入 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; （選取應用程式） &gt;概觀。 請確定主要圖表下拉式篩選器上的篩選條件已設為網頁交易時間。 在「交易」表格下方，尋找「應用程式伺服器時間」。 確認您是否有任何長期執行或可疑的交易。</li>
-<li>請前往監視&gt;交易來個別調查這些事件，並確定為Web設定篩選條件且最耗時<em>.</em>
+<li>登入<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; （選取應用程式） &gt;概觀。 請確定主要圖表下拉式篩選器上的篩選條件已設為網頁交易時間。 在「交易」表格下方，尋找「應用程式伺服器時間」。 確認您是否有任何長期執行或可疑的交易。</li>
+<li>請移至[監視] &gt; [交易]個別調查這些專案，並確定設定Web和最耗時<em>的篩選器。</em>
 </li>
 <li>然後搜尋使用資源的協力廠商模組：付款提供者、ERP等。</li>
 <li>在APM的「監督」段落中：<ol>
 <li>按一下「交易」。</li>
 <li>向下捲動，按一下顯示所有交易表格。</li>
-<li>您可以依下列條件排序交易： <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">各種引數</a> 並跳到引起懷疑的地方。</li>
+<li>您可以依<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">各種引數</a>來排序交易，並跳至引起懷疑的引數。</li>
 <li>複查那些具有低Apdex分數、異常高計數或高Avg時間或Dissat %的交易。</li>
-<li>按一下每個個別的交易。 如果您無法解決問題， <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支援票證。</a>
+<li>按一下每個個別的交易。 如果無法解決問題，<a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">請提交支援票證。</a>
 </li>
 <li>如果您需要進一步調查，請考慮檢查非Web交易。</li>
 </ol>
@@ -55,12 +55,12 @@ ht-degree: 0%
 <p>非Web交易時間（作業和背景工作）：</p>
 <ol>
 <ol>
-<li>登入 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; （選取應用程式） &gt;概觀。 請務必在主圖表下拉式篩選器上選取非網路交易時間。 按一下「交易」表格中的個別交易。 尋找長期執行或可疑的交易。 這包括後端作業、cron作業或匯入/匯出作業，包括協力廠商。</li>
+<li>登入<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt; （選取應用程式） &gt;概觀。 請務必在主圖表下拉式篩選器上選取非網路交易時間。 按一下「交易」表格中的個別交易。 尋找長期執行或可疑的交易。 這包括後端作業、cron作業或匯入/匯出作業，包括協力廠商。</li>
 </ol>
 </ol>
 </td>
 <td>
-<p>若要進一步瞭解New Relic Apdex分數，請參閱 <a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM附錄&gt;測量使用者滿意度</a>. 您也可以參照 <a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce的管理警報：Apdex警告警報</a> 在我們的支援知識庫中。</p>
+<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
 </td>
 </tr>
 <tr>
@@ -70,12 +70,12 @@ ht-degree: 0%
 </td>
 <td>
 <ol>
-<li>登入 <a href="https://login.newrelic.com/login">New Relic</a> &gt;基礎架構&gt;程式。</li>
+<li>登入<a href="https://login.newrelic.com/login">New Relic</a> &gt;基礎結構&gt;程式。</li>
 <li>請檢閱CPU圖表，檢視是否有任何持續或耗用時間超過100% CPU時間的處理序，並與執行個體的處理器計數進行比較。 請注意資源使用率的高峰。 不建議您終止處理序，除非它是卡住的cron。</li>
 </ol>
 </td>
 <td>
-<p>若要進一步瞭解效能測量結果，特別是CPU百分比、I/O位元組以及個別或處理序群組的記憶體使用狀況，請參閱 <a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic檔案&gt;基礎架構UI頁面&gt;基礎架構主機頁面&gt;流程標籤</a>.</p>
+<p>若要進一步瞭解效能測量結果，特別是CPU百分比、I/O位元組以及個別或處理序群組的記憶體使用量，請參閱<a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic檔案&gt;基礎架構UI頁面&gt;基礎架構主機頁面&gt;處理序索引標籤</a>。</p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ ht-degree: 0%
 <td>
 <p>與先前的平均I/O作業相比，尋找不尋常的尖峰：</p>
 <ol>
-<li>登入 <a href="https://login.newrelic.com/login">New Relic</a> &gt;基礎架構&gt;程式。</li>
+<li>登入<a href="https://login.newrelic.com/login">New Relic</a> &gt;基礎結構&gt;程式。</li>
 <li>檢閱每秒I/O讀取位元組圖表。</li>
 <li>紀錄尖峰的時間。</li>
 <li>按一下APM。</li>
@@ -103,7 +103,7 @@ ht-degree: 0%
 <td>
 <p>調查中斷可能需要幾個步驟，包括檢查Web和非Web交易、資料庫和第三方交易。 Web交易：</p>
 <ol>
-<li>登入 <a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概觀。 確定下拉式圖表篩選器上的篩選器已設為網頁交易時間。</li>
+<li>登入<a href="https://login.newrelic.com/login">New Relic</a> &gt; APM &gt;概觀。 確定下拉式圖表篩選器上的篩選器已設為網頁交易時間。</li>
 <li>手動縮小時間範圍。</li>
 <li>按一下「交易」。 請確定篩選器已設定為網頁且最耗時。 調查執行時間最長的交易。</li>
 <li>如果您需要進一步調查，請考慮檢查非Web交易。</li>
@@ -121,7 +121,7 @@ ht-degree: 0%
 <li>依最耗時的專案排序。</li>
 <li>檢閱熱門查詢。
 
-注意： <code>更新</code> 或 <code>插入</code>查詢是最耗用CPU的查詢。</li>
+附註： <code>更新</code> 或<code>插入</code>查詢是最耗用CPU的查詢。</li>
 <li>從「排序依據」選擇器切換至「傳輸量」，並尋找導致資料庫傳輸量下拉式清單的處理程式。</li>
 <li>如果您需要進一步調查，請考慮檢查協力廠商服務。</li>
 </ol>
@@ -133,7 +133,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>若要進一步瞭解如何調查特定的效能問題，請參閱 <a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#tx_functions">New Relic檔案&gt; APM UI頁面&gt;交易頁面&gt;使用向下鑽研函式</a>.</p>
+<p>若要瞭解有關調查特定效能問題的詳細資訊，請參閱<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#tx_functions">New Relic檔案&gt; APM UI頁面&gt;交易頁面&gt;使用向下鑽研函式</a>。</p>
 </td>
 </tr>
 </tbody>

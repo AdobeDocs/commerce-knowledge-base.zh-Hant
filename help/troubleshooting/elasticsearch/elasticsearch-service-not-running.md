@@ -19,7 +19,7 @@ ht-degree: 0%
 
    * v2.2.3+支援ES 5.x
    * v2.2.8+和v2.3.1+支援ES 6.x
-   * 不建議使用ES v2.x和v5.x，因為 [生命週期結束](https://www.elastic.co/support/eol). 不過，如果您有Adobe Commerce v2.3.1且想要使用ES 2.x或ES 5.x，則必須 [變更Elasticsearchphp使用者端](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html).
+   * 不建議使用ES v2.x和v5.x，因為[生命週期結束](https://www.elastic.co/support/eol)。 不過，如果您有Adobe Commerce v2.3.1，並且想要使用ES 2.x或ES 5.x，您必須[變更Elasticsearchphp Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)。
 
 * Magento Open Source v2.3.0+支援ES 5.x和6.x （但建議使用6.x）。
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 <code>{"0":"{\"error\":{\"root_cause\":[{\"type\":\"illegal_argument_exception\",\"reason\":\"Fielddata is disabled on text fields by default. Set fielddata=true on [%attribute_code%]] in order to load fielddata in memory by uninverting the inverted index. Note that this can however use significant memory.\"}]</code>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html">已設定Elasticsearch5，但搜尋頁面未載入「Fielddata已停用……」錯誤</a> 在我們的支援知識庫中。
+已設定<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled...-error.html">Elasticsearch5，但搜尋頁面沒有載入我們的支援知識庫中的「Fielddata已停用……」錯誤</a>。
 </td>
 </tr>
 <tr>
@@ -45,13 +45,13 @@ ht-degree: 0%
 <code>Elasticsearch\Common\Exceptions\NoNodesAvailableException: Noticed exception 'Elasticsearch\Common\Exceptions\NoNodesAvailableException' with message 'No alive nodes found in your cluster' in /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/ConnectionPool/StaticNoPingConnectionPool.php:51</code>
 </td>
 <td>
-未刪除Elasticsuite索引。  另請參閱 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite追蹤索引導致Elasticsearch發生問題</a> 在我們的支援知識庫中。
+未刪除Elasticsuite索引。  請參閱我們的支援知識庫中的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite追蹤索引導致Elasticsearch</a>發生問題。
  </td>
 </tr>
 <tr>
 <td>PHP錯誤</td>
 <td>
-<i>叢集中找不到作用中的節點」，「1」：「#0 /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
+<i>在您的叢集中找不到連線的節點"，"1"："#0 /app/&lt;projectid&gt;/vendor/elasticsearch/elasticsearch/src/Elasticsearch/Transport.php</i>
 </td>
 <td rowspan="4">
 <ul>
@@ -59,26 +59,27 @@ ht-degree: 0%
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">解決Linux與Unix系統硬碟問題的8個秘訣，例如磁碟已滿或無法寫入磁碟</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault： df表示磁碟已滿，但並未滿</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com：追蹤Linux上磁碟空間的去向？</a></li>
-<li>記錄檔的定期封存不足。 另請參閱 <a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">設定日誌封存</a> （位於我們的開發人員檔案中）。</li>
-<li>檔案系統目錄未最佳化。 另請參閱 <a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">檔案最佳化</a> （位於我們的開發人員檔案中）。</li>
+<li>記錄檔的定期封存不足。 請參閱我們的開發人員檔案中的<a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">設定記錄封存</a>。</li>
+<li>檔案系統目錄未最佳化。 請參閱我們的開發人員檔案中的<a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">檔案最佳化</a>。</li>
 <li>如果上述檔案中的解決方案無法解決問題，請考慮聯絡您的Adobe客戶團隊以請求額外的儲存空間。</li>
 </ul>
 </li>
-<li>如果您的磁碟尚未用完儲存空間，但您仍會在左欄收到錯誤訊息， <a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支援票證</a>.</li>
+<li>如果您的磁碟尚未用完儲存空間，但仍在左欄收到錯誤訊息，請<a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">提交支援票證</a>。</li>
 </ul>
 <ul>
-<li>另請參閱 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite追蹤索引導致Elasticsearch發生問題</a> 在我們的支援知識庫中。
+<li>請參閱我們的支援知識庫中的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.html">ElasticSuite追蹤索引導致Elasticsearch</a>發生問題。
 </li>
 </ul>
 </td>
 </tr>
 <tr>
 <td><code>Curl</code> 錯誤</td>
-<td>執行 <code>curl</code> 檢查Elasticsearch健康狀況的命令：<code>curl -m1 localhost:9200/_cluster/health?pretty</code>(或<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>（適用於入門帳戶）會產生此錯誤： <i>錯誤： curl： (7)無法連線到localhost連線埠9200：連線被拒</i> </td>
+<td>執行<code>curl</code>命令以檢查Elasticsearch健康狀態： <code>curl -m1 localhost:9200/_cluster/health?pretty</code>（或<code>curl -m1 elasticsearch.internal:9200/_cluster/health?pretty</code>起始帳戶）會產生此錯誤： <i>錯誤： curl： (7)無法連線到localhost連線埠9200：連線被拒</i> </td>
 </tr>
 <tr>
 <td>命令列錯誤</td>
-<td>執行中 <code>$ bin/magento indexer:reindex catalogsearch_fulltext</code> 產生此錯誤 <i>目錄搜尋索引子處理序未知錯誤：在您的叢集中找不到作用中的節點</i>
+<td>執行<code>$ bin/magento indexer:reindex catalogsearch_fulltext</code>會產生此錯誤<i>目錄搜尋索引子處理序未知錯誤：
+        在您的叢集</i>中找不到連線節點
 </td>
 </tr>
 <tr>

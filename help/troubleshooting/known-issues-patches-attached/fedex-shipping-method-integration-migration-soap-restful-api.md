@@ -1,7 +1,7 @@
 ---
-title: 『[!DNL FedEx] 配送方法整合從SOAP移轉至RESTful API`
+title: '[!DNL FedEx]送貨方法整合從SOAP移轉至RESTful API'
 promoted: true
-description: 套用修補程式以處理 [!DNL FedEx] 適用於Adobe Commerce 2.4.4-p4 - 2.4.6-pX的配送方法整合從SOAP移轉至RESTful API。
+description: 套用修補程式以處理 [!DNL FedEx] 傳送方法整合從SOAP移轉至Adobe Commerce 2.4.4-p4 - 2.4.6-pX的RESTful API。
 feature: Shipping/Delivery
 role: Developer
 exl-id: 7e11a171-6924-41d0-a5c7-7b794d0da84c
@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL FedEx] 配送方法整合從SOAP移轉至RESTful API
+# [!DNL FedEx]配送方法整合從SOAP移轉至RESTful API
 
-本文提供修補程式，可解決 [!DNL FedEx] 適用於Adobe Commerce 2.4.4-p4 - 2.4.6-pX的配送方法整合從SOAP移轉至RESTful API。
+本文提供修補程式，用於解決從SOAP移轉至Adobe Commerce 2.4.4-p4 - 2.4.6-pX的RESTful API的[!DNL FedEx]送貨方法整合問題。
 
-[!DNL FedEx Web Services] 追蹤、地址驗證和驗證郵遞區號Web服務定義語言(WSDLS)將於2024年5月15日淘汰。 以SOAP為基礎 [!DNL FedEx Web Services] 處於開發封閉狀態，已取代為 [!DNL FedEx] RESTFUL API。 若要進一步瞭解，請參閱 [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+[!DNL FedEx Web Services]追蹤、地址驗證和驗證郵遞區號Web服務定義語言(WSDLS)將於2024年5月15日淘汰。 以SOAP為基礎的[!DNL FedEx Web Services]處於開發內含專案，已由[!DNL FedEx] RESTFUL API取代。 若要進一步瞭解，請參閱[[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html)。
 
-此變更會影響我們目前的 [!DNL FedEx] Adobe Commerce中的送貨方法整合實作，以及需要我們修正目前實作，並從已棄用的SOAP API遷移至最新版 [!DNL FedEx] RESTFUL API。
+此變更會影響我們目前在Adobe Commerce中的[!DNL FedEx]送貨方法整合實作，而且需要我們修正目前的實作，並從已棄用的SOAP API移轉至最新的[!DNL FedEx] RESTFUL API。
 
-自2024年5月15日起，Adobe Commerce客戶將無法使用我們目前的 [!DNL FedEx] 配送方法整合，Adobe因此發行此Hotfix，讓Adobe Commerce 2.4.4+客戶使用最新版 [!DNL FedEx] RESTFUL API，而不是已過時的SOAP API。
+自2024年5月15日起，Adobe Commerce客戶將無法使用我們目前的[!DNL FedEx]送貨方法整合，因此Adobe將發行此Hotfix，讓Adobe Commerce 2.4.4+客戶使用最新的[!DNL FedEx] RESTFUL API，而非已過時的SOAP API。
 
 
 ## 受影響的產品和版本
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 原因
 
-此 [!DNL FedEx] 已棄用以SOAP為基礎的API，並改用RESTfulAPI。 請參閱 [[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html).
+[!DNL FedEx]已棄用其SOAP型API，並改用RESTful型API。 請參閱[[!DNL FedEx Web Services]](https://www.fedex.com/en-us/developer/web-services.html)。
 
 ## 解決方案
 
@@ -64,22 +64,22 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-解壓縮檔案並參閱 [如何套用Adobe提供的撰寫器修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html) 在我們的支援知識庫中取得指示。
+解壓縮檔案，並參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的撰寫器修補程式，以取得指示。
 
 ## 如何判斷是否已套用修補程式
 
-考慮到無法輕鬆檢查問題是否已修補，您可能想要檢查是否已成功套用修補程式。 這會使用(範例： *AC-9363*)作為要檢查的修補程式。
+考慮到無法輕鬆檢查問題是否已修補，您可能想要檢查是否已成功套用修補程式。 這會使用（範例： *AC-9363*）作為要檢查的修補程式。
 
-<u>您可以透過下列步驟完成此操作</u>：
+<u>您可以執行下列步驟</u>：
 
-1. [安裝 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html).
+1. [安裝 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
 1. 執行命令：
 
    ```bash
    vendor/bin/magento-patches -n status |grep "9363|Status"
    ```
 
-1. 您應該會看到類似此的輸出，其中AC-9363傳回 *已套用* 狀態：
+1. 您應該會看到類似以下的輸出，其中AC-9363傳回&#x200B;*已套用*&#x200B;狀態：
 
    ```bash
    ║ Id            │ Title                                                        │ Category        │ Origin                 │ Status      │ Details                                          ║ ║ N/A           │ ../m2-hotfixes/AC-9363_USPS_Ground_Advantage_shipping_method_COMPOSER_patch.patch      │ Other           │ Local                  │ Applied     │ Patch type: Custom                                

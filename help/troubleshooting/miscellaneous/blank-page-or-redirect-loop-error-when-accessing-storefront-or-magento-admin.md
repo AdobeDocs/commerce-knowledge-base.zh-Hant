@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <u>實際結果</u>
 
-頁面為空白或顯示 *「此網頁有重新導向回圈」* 錯誤訊息。
+頁面空白或顯示&#x200B;*「此網頁有重新導向回圈」*&#x200B;錯誤訊息。
 
 ## 原因
 
@@ -45,15 +45,16 @@ ht-degree: 0%
 
 要確定這是問題的原因，請執行以下步驟：
 
-1. 檢查 `web/secure/enable_upgrade_insecure` ， `web/secure/use_in_adminhtml` （如果您的Admin中出現空白/回圈重新導向問題）或 `web/secure/use_in_frontend` （如果您在商店前端有空白/回圈重新導向問題） `'core_config_data'` 資料庫表格。
-   * 如果 `web/secure/enable_upgrade_insecure` 設為「1」，然後設定Adobe Commerce以新增回應標題 `Content-Security-Policy: upgrade-insecure-requests`，因此指示瀏覽器使用HTTPS，將所有透過HTTP的查詢重新導向至HTTPS （適用於管理員和店面）。
-   * 如果 `web/secure/use_in_adminhtml` 設為「1」，Adobe Commerce會針對管理員頁面的所有HTTP請求傳回HTTPS重新導向。
-   * 如果 `web/secure/use_in_frontend` 設為「1」，Adobe Commerce會針對商店首頁的所有HTTP請求傳回HTTPS重新導向。
-1. 檢查 `web/secure/base_url` 和 `web/unsecure/base_url` 中的值 `'core_config_data'` 表格。 如果兩者開頭都是    `http`，則您需要修正「安全」值。
+1. 檢查`'core_config_data'` DB表格中的`web/secure/enable_upgrade_insecure` 、 `web/secure/use_in_adminhtml` （如果您在Admin中有空白/回圈重新導向問題）或`web/secure/use_in_frontend` （如果您在商店前端有空白/回圈重新導向問題）值。
+   * 如果`web/secure/enable_upgrade_insecure`設為「1」，則Adobe Commerce會設定為新增回應標頭`Content-Security-Policy: upgrade-insecure-requests`，進而指示瀏覽器使用HTTPS，重新導向所有透過HTTP的查詢
+至HTTPS，適用於管理員和店面。
+   * 如果`web/secure/use_in_adminhtml`設為「1」，Adobe Commerce會針對管理員頁面的所有HTTP請求傳回HTTPS重新導向。
+   * 如果`web/secure/use_in_frontend`設為「1」，Adobe Commerce會針對商店首頁的所有HTTP要求傳回HTTPS重新導向。
+1. 檢查`'core_config_data'`資料表中的`web/secure/base_url`和`web/unsecure/base_url`值。 如果兩者開頭都是    `http`，則您需要修正「安全」值。
 
 修正問題：
 
-1. 設定以開頭的值 `https` 的 `web/secure/base_url.`
+1. 為`web/secure/base_url.`設定以`https`開頭的值
 1. 若要套用變更，請執行以下命令來清除設定快取：
 
    ```bash

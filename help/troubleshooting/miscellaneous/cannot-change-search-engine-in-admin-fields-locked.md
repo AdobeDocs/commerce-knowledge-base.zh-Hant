@@ -9,13 +9,13 @@ ht-degree: 0%
 
 ---
 
-# 無法變更中的搜尋引擎 `app/etc/env.php`
+# 無法變更`app/etc/env.php`中的搜尋引擎
 
-本文提供您嘗試從移除搜尋引擎設定的問題解決方案。 `app/etc/env.php` 檔案，但在重新部署後，設定將恢復為先前的設定或將變更為 [!DNL OpenSearch] 依預設。
+本文提供您嘗試從`app/etc/env.php`檔案移除搜尋引擎組態，但在重新部署後，組態會回覆成先前的設定，或是依預設變更為[!DNL OpenSearch]的問題的解決方案。
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce， [所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 雲端基礎結構上的Adobe Commerce，[所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 問題
 
@@ -23,11 +23,11 @@ ht-degree: 0%
 
 ## 原因
 
-搜尋引擎設定已鎖定於 `app/etc/env.php` 或搜尋引擎明確定義於 `.magento.env.yaml` 檔案。
+搜尋引擎組態已鎖定在`app/etc/env.php`檔案中，或搜尋引擎已明確定義在`.magento.env.yaml`檔案中。
 
 ## 解決方案
 
-1. 檢查 `.magento.env.yaml` 在部署階段下的檔案，並檢視 `SEARCH_CONFIGURATION` 變數已設定。 範例：
+1. 檢查部署階段下的`.magento.env.yaml`檔案，並檢視`SEARCH_CONFIGURATION`變數是否已設定。 範例：
 
    ```yaml
    SEARCH_CONFIGURATION:
@@ -36,10 +36,10 @@ ht-degree: 0%
    <VARIABLE X>
    ```
 
-1. 是  `SEARCH_CONFIGURATION` 出現變數嗎？ 如果不存在，則會將搜尋引擎設定鎖定到 [!DNL OpenSearch] 依預設。 若要變更設定，您必須將變數新增至 `.magento.env.yaml` 具有適當搜尋引擎值的檔案。 如果 `SEARCH_CONFIGURATION` 變數存在，而您想要修改引擎，請在中取代引擎的現有值 `.magento.env.yaml`. 可能/已知值： [!DNL opensearch]， [!DNL livesearch]， [!DNL elasticsuite]， [!DNL amasty_elastic]、和 [!DNL amasty_elastic_opensearch].
+1. `SEARCH_CONFIGURATION`變數是否存在？ 如果不存在，搜尋引擎設定預設會鎖定為[!DNL OpenSearch]。 若要變更組態，您必須使用搜尋引擎的適當值，將變數新增至`.magento.env.yaml`檔案。 如果`SEARCH_CONFIGURATION`變數存在，而且您想要修改引擎，請在`.magento.env.yaml`中取代引擎的現有值。 可能/已知的值： [!DNL opensearch]、[!DNL livesearch]、[!DNL elasticsuite]、[!DNL amasty_elastic]和[!DNL amasty_elastic_opensearch]。
 1. 重新部署執行個體。
 1. 管理員中的搜尋引擎欄位將維持鎖定狀態，但應該會以您指定的值更新。
 
 ## 相關閱讀
 
-* [Commerce管理員中的鎖定欄位](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) 雲端基礎結構指南中的Commerce 。
+* 雲端基礎結構指南上的Commerce管理員中的[鎖定欄位](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) Commerce。

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 更新Adobe Commerce軟體時，Git Pull Origin開發失敗
 
-本文提供在執行時無法更新Adobe Commerce軟體的修正 `git pull origin develop`.
+本文提供執行`git pull origin develop`時無法更新Adobe Commerce軟體的修正。
 
 ## 詳細資料
 
@@ -44,7 +44,7 @@ git status
 
 #### 您刻意修改檔案
 
-以一般方式手動解決衝突。 如果您不確定要做什麼，請參閱 [GitHub說明](https://help.github.com/).
+以一般方式手動解決衝突。 如果您不確定要做什麼，請參閱[GitHub說明](https://help.github.com/)。
 
 #### 您沒有刻意修改任何檔案
 
@@ -71,6 +71,6 @@ git status
 
   >[!NOTE]
   >
-  >Adobe不建議或認可任何特定的GitHub組態設定。 前述只是建議。 如需詳細資訊，請參閱 [GitHub說明](https://help.github.com/).
+  >Adobe不建議或認可任何特定的GitHub組態設定。 前述只是建議。 如需詳細資訊，請參閱[GitHub說明](https://help.github.com/)。
 
   繼續進行Adobe Commerce更新的後續步驟。

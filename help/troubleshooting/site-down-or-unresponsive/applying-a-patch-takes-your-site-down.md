@@ -48,15 +48,15 @@ ht-degree: 0%
    patch -p1 -R %patch_name%.composer.patch
    ```
 
-   (如果上述命令無法運作，請嘗試使用 `-p2` 而非 `-p1`)
+   （如果上述命令無法運作，請嘗試使用`-p2`而非`-p1`）
 
-1. 若要反映變更，請重新整理「管理員」下方的快取 **系統** > **快取管理**.
+1. 若要反映變更，請在&#x200B;**系統** > **快取管理**&#x200B;下重新整理管理員中的快取。
 
 ### 雲端基礎結構上的Adobe Commerce，所有版本
 
 針對雲端基礎結構上的Adobe Commerce，所有版本
 
-1. 移除 `%patch_name%.composer.patch` 來自的檔案 `m2-hotfixes` 目錄。
+1. 從`m2-hotfixes`目錄中移除`%patch_name%.composer.patch`檔案。
 1. 認可並推送您的程式碼變更：
 
    ```
@@ -65,4 +65,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+* [如何在我們的支援知識庫中套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。

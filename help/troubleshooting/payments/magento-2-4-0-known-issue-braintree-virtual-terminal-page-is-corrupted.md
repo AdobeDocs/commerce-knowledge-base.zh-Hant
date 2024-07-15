@@ -26,29 +26,29 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-在Commerce Admin中，前往 **銷售** > **Braintree虛擬終端機** .** **
+在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機**。** **
 
 <u>預期結果：</u>
 
-此 **Braintree虛擬終端機** 頁面會使用正確的UI載入。
+**Braintree虛擬終端機**&#x200B;頁面會以適當的UI載入。
 
 <u>實際結果：</u>
 
-UI **Braintree虛擬終端機** 頁面已損壞。
+**Braintree虛擬終端機**&#x200B;頁面的UI已損毀。
 
 ### 案例2：已設定Braintree付款方式
 
 <u>要再現的步驟：</u>
 
-在Commerce Admin中，前往 **銷售** > **Braintree虛擬終端機** .** **
+在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機**。** **
 
 <u>預期結果：</u>
 
-此 **Braintree虛擬終端機** 頁面會載入正確的UI，且會顯示警告，通知Braintree尚未設定。
+**Braintree虛擬終端機**&#x200B;頁面載入正確的UI，並顯示警告，通知Braintree尚未設定。
 
 <u>實際結果：</u>
 
-UI **Braintree虛擬終端機** 頁面已損壞，不顯示警告。
+**Braintree虛擬終端機**&#x200B;頁面的UI已損毀，且未顯示警告。
 
 ## 解決方案
 
@@ -69,6 +69,6 @@ UI **Braintree虛擬終端機** 頁面已損壞，不顯示警告。
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

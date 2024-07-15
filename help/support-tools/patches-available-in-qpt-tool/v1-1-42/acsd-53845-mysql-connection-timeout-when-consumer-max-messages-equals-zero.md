@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-53845：取用者時的MySQL連線逾時問題 `max_messages = 0`
+# ACSD-53845：消費者`max_messages = 0`時的MySQL連線逾時問題
 
-ACSD-53845修補程式修正消費者使用MySQL連線逾時的問題 `max_messages = 0`. 此修補程式適用於 [!DNL Quality Patches Tool (QPT)] 已安裝1.1.42。 修補程式ID為ACSD-53845。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-53845修補程式修正消費者`max_messages = 0`時MySQL連線逾時的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.42時，即可使用此修補程式。 修補程式ID為ACSD-53845。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.6
 
@@ -27,18 +27,18 @@ ACSD-53845修補程式修正消費者使用MySQL連線逾時的問題 `max_messa
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-消費者時MySQL連線逾時 `max_messages = 0`.
+消費者`max_messages = 0`時MySQL連線逾時。
 
 不過，啟動交易時，將會還原與資料庫的連線。
 
 <u>要再現的步驟</u>：
 
-1. 傳送大量更新產品的請求，使用 `async/bulk/V1/products` REST API端點。
-1. 在中檢查狀態 `magento_operation` 表格。
+1. 傳送要求以使用`async/bulk/V1/products` REST API端點大量更新產品。
+1. 檢查`magento_operation`資料表中的狀態。
 
 <u>預期結果</u>：
 
@@ -52,20 +52,20 @@ ACSD-53845修補程式修正消費者使用MySQL連線逾時的問題 `max_messa
    report.CRITICAL: Message has been rejected: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away [] []
    ```
 
-1. *狀態* 此作業會保留 *4* 在 `magento_operation` 表格。
+1. 此作業的&#x200B;*狀態*&#x200B;在`magento_operation`資料表中仍為&#x200B;*4*。
 
 ## 套用修補程式
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

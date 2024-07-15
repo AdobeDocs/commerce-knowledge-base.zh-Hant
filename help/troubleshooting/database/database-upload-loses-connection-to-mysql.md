@@ -35,16 +35,16 @@ ERROR 2013 (HY000): Lost connection to MySQL server at 'reading initial communic
 
 ## 解決方案
 
-檢查磁碟空間是否不足。 若要這麼做，請執行 `netcat` CLI中針對資料庫連線埠3306的命令；如果磁碟已滿，則會出現磁碟已滿訊息：
+檢查磁碟空間是否不足。 若要這麼做，請針對資料庫連線埠3306在CLI中執行`netcat`命令；如果磁碟已滿，則會出現磁碟已滿訊息：
 
 ```
 web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-您需要為中的資料庫配置更多空間 `services.yaml` 如果您有未使用的空間，請進行部署。 如需相關步驟，請參閱 [服務磁碟空間](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space).
+您必須在`services.yaml`中配置更多空間給資料庫，而且如果您有未使用的空間，則需部署。 如需相關步驟，請參閱[服務磁碟空間](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space)。
 
-注意：在Pro架構計畫上，您可以執行下列指令來檢查分割區上配置的空間： `df -h`
+注意：在Pro架構計畫上，您可以執行下列命令來檢查磁碟分割上配置的空間： `df -h`
 
 預期輸出與以下輸出類似。 在此範例中，已使用10GB的25GB配置，而未使用15GB的MySQL空間。
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## 相關閱讀
 
-[管理磁碟空間](https://devdocs.magento.com/cloud/project/manage-disk-space.html) 在我們的開發人員檔案中
+在開發人員檔案中[管理磁碟空間](https://devdocs.magento.com/cloud/project/manage-disk-space.html)

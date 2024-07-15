@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # MDVA-30599：customer_is_guest設定不正確
 
-MDVA-30599修補程式修正使用API建立的訪客報價錯誤地標示為已登入客戶的報價的問題。 此修補程式適用於 [品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.0.6。 Adobe Commerce 2.4.2已修正問題。
+MDVA-30599修補程式修正使用API建立的訪客報價錯誤地標示為已登入客戶的報價的問題。 安裝[品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.0.6時，即可使用此修補程式。 Adobe Commerce 2.4.2已修正問題。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 雲端基礎結構上的Adobe Commerce 2.3.5-p2
 
@@ -27,7 +27,7 @@ Adobe Commerce （所有部署方法） 2.3.4 - 2.4.0
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -36,8 +36,8 @@ Adobe Commerce （所有部署方法） 2.3.4 - 2.4.0
 <u>要再現的步驟</u>：
 
 1. 在Adobe Commerce店面，以訪客使用者身分將產品新增到購物車。
-1. 在您的Adobe Commerce DB中，找到與 `quote_id_mask`.
-1. 傳送API要求至 `quoteGuestCartRepositoryV1` 來賓購物車的購物車存放庫介面。 這可透過Swagger或cURL要求完成。
+1. 在您的Adobe Commerce DB中，找到對應的`quote_id_mask`。
+1. 傳送API要求給來賓購物車的`quoteGuestCartRepositoryV1`購物車存放庫介面。 這可透過Swagger或cURL要求完成。
 
 ```curl
 curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all/V1/guest-carts/ToOwPtSBxkorkCLq6ztwupPd99y8zhky" -H "accept: application/json"
@@ -45,22 +45,22 @@ curl -X GET "http://web2-73.sparta.corp.magento.com/dev/support/ee24dev/rest/all
 
 <u>預期結果</u>：
 
-您收到的回應 `"customer_is_guest": true`
+回應時，您收到`"customer_is_guest": true`
 
 <u>實際結果</u>：
 
-您收到的回應 `"customer_is_guest": false`
+回應時，您收到`"customer_is_guest": false`
 
 ## 套用修補程式
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 安裝修補程式後所需的其他步驟
 
-此修補程式將對所有新客用車有效。 如果您需要修復現有的客用推車，請設定 `quote.customer_is_guest = 1` 針對下列記錄： `quote.customer_id` 為空。 您可以執行類似下列的查詢：
+此修補程式將對所有新客用車有效。 如果您需要修正現有的客用購物車，請為`quote.customer_id`為NULL的那些記錄設定`quote.customer_is_guest = 1`。 您可以執行類似下列的查詢：
 
 ```sql
 UPDATE quote SET customer_is_guest = 1 WHERE customer_id IS NULL;
@@ -74,7 +74,7 @@ UPDATE quote SET customer_is_guest = 1 WHERE customer_id IS NULL;
 
 若要進一步瞭解「品質修補程式」工具，請參閱：
 
-* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [品質修補程式工具已發行：我們支援知識庫中的自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的品質修補程式工具](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查是否有修補程式可用於您的Adobe Commerce問題。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [QPT中可用的修補程式](https://devdocs.magento.com/quality-patches/tool.html#patch-grid) （位於我們的開發人員檔案中）。
+如需QPT中其他修補程式的詳細資訊，請參閱我們的開發人員檔案中的[QPT中提供的](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)修補程式。

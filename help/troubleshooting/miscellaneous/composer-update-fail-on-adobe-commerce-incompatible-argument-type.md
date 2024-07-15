@@ -43,7 +43,7 @@ ht-degree: 0%
 
 在新的symfony/console 4.2.29版（預計於2021年8月）發行後，問題將自動解決。
 
-**如何在Adobe Commerce內部部署修正：**
+**如何在Adobe Commerce內部部署上修正：**
 
 Adobe Commerce內部部署2.4.x
 
@@ -57,10 +57,10 @@ Adobe Commerce內部部署2.4.x
 
 **如何在雲端基礎結構上修正Adobe Commerce：**
 
-執行上述命令或升級至最新的ECE工具版本(ece-tools：2002.1.7)，將於7月29日（星期四）提供。 如需相關步驟，請參閱 [適用於Adobe Commerce的Cloud >更新ece-tools版本](https://devdocs.magento.com/cloud/project/ece-tools-update.html) （位於我們的開發人員檔案中）。
+執行上述命令或升級至最新的ECE工具版本(ece-tools：2002.1.7)，將於7月29日（星期四）提供。 如需相關步驟，請參閱開發人員檔案中的[Cloud for Adobe Commerce >更新ece-tools版本](https://devdocs.magento.com/cloud/project/ece-tools-update.html)。
 
 完整修正將在Adobe Commerce （所有部署方法） 2.4.4中發佈。
 
 ## 相關閱讀
 
-* Github： [2021-07-27 Composer更新不相容的引數型別：必要型別： int。 實際型別：字串](https://github.com/magento/magento2/issues/33595)
+* Github： [2021-07-27 Composer更新不相容的引數型別：必要的型別： int。 實際型別：字串](https://github.com/magento/magento2/issues/33595)

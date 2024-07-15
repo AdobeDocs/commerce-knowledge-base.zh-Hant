@@ -21,22 +21,22 @@ ht-degree: 0%
 
 ## 問題
 
-組態檔 `config.php` 和/或 `env.php` 已錯誤變更或遺失。
+組態檔`config.php`及/或`env.php`變更錯誤或遺失。
 
 ## 解決方案
 
 部署程式會為每個組態檔建立一個備份檔案：
 
-* `app/etc/config.php.bak`  — 包含系統專屬設定，若不存在，系統會在建置期間自動產生
-* `app/etc/env.php.bak`  — 包含敏感的設定資料
+* `app/etc/config.php.bak` — 包含系統特定的設定，若不存在，則會在建置期間自動產生
+* `app/etc/env.php.bak` — 包含敏感的設定資料
 
-您可以使用ECE-tools還原它們 `backup:restore` 命令。
+您可以使用ECE-tools `backup:restore`命令將它們還原。
 
 BAK檔案是部署程式的產物。 如果您在部署後手動變更組態檔，您的變更不會反映在現有的BAK檔案中。
 
 若要還原組態檔：
 
-1. 使用登入您的遠端存放庫 [SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh).
+1. 使用[SSH](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)登入您的遠端存放庫。
 1. 列出可用的備份檔案。
 
    ```
@@ -62,7 +62,7 @@ BAK檔案是部署程式的產物。 如果您在部署後手動變更組態檔�
    app/etc/config.php file exists! If you want to rewrite existed files use --force
    ```
 
-1. 使用 `--force` 覆寫所有檔案的選項。
+1. 使用`--force`選項覆寫所有檔案。
 
    ```
    ./vendor/bin/ece-tools backup:restore --force

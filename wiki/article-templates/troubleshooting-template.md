@@ -14,7 +14,7 @@ ht-degree: 0%
 標題應簡短說明問題，建議使用最多70個字元。<br/>
 （例如：「安裝或升級期間發生記憶體不足錯誤」。）
 
-另請參閱 [參與>中繼資料](../../CONTRIBUTING.md#metadata) 以取得中繼資料的其他資訊。
+如需中繼資料的其他資訊，請參閱[參與>中繼資料](../../CONTRIBUTING.md#metadata)。
 
 介紹段落或兩個段落：問題的簡短概觀。 前140個字元對於SEO用途很重要。
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 * Adobe Commerce內部部署x.x.x
 * 雲端基礎結構上的Adobe Commerce x.x.x
 
-(*或者，如果雲端或內部部署的相同版本受到影響，您可以說：*)
+（*如果雲端或內部部署的相同版本受到影響，您可以說：*）
 
 Adobe Commerce （所有部署方法） x.x.x
 
@@ -67,7 +67,7 @@ Adobe Commerce會那麼做。
 
 ## 相關閱讀
 
-* [文章主題](https://docs.magento.com/user-guide/) 在我們的使用手冊中。
-* [文章主題](https://devdocs.magento.com) （位於我們的開發人員檔案中）。 您也可以說要區分雲端與內部部署使用者之開發人員檔案中的指示： 」[文章主題](https://devdocs.magento.com) (位於雲端基礎結構上的Adobe Commerce開發人員檔案中)。」 vs &quot;[文章主題](https://devdocs.magento.com) (位於我們內部部署的Adobe Commerce開發人員檔案中)。」
-* [文章主題](https://support.magento.com/hc/en-us) 在我們的支援知識庫中。
+* 使用手冊中的[文章主題](https://docs.magento.com/user-guide/)。
+* [開發人員檔案中的文章主題](https://devdocs.magento.com)。 您也可以說要區分雲端與內部部署使用者之devdocs中的指示：「[文章主題](https://devdocs.magento.com)(在雲端基礎結構上Adobe Commerce的開發人員檔案中)」。 vs &quot;[文章主題](https://devdocs.magento.com) (在我們Adobe Commerce內部部署的開發人員檔案中)。&quot;
+* 我們的支援知識庫中的[文章主題](https://support.magento.com/hc/en-us)。
 * 任何相關的資源（部落格、論壇、StackOverflow等）

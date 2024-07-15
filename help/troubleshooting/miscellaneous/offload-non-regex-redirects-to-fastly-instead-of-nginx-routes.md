@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce （所有版本） `Master/Production/Staging` 環境利用Fastly
+* 雲端基礎結構上的Adobe Commerce （所有版本） `Master/Production/Staging`環境利用Fastly
 
 ## 問題
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 原因
 
-此 `routes.yaml` 中的檔案 `.magento/routes.yaml` directory會定義雲端基礎結構上Adobe Commerce的路由。
+`.magento/routes.yaml`目錄中的`routes.yaml`檔案定義雲端基礎結構上Adobe Commerce的路由。
 
-如果您的 `routes.yaml` 檔案大於或等於32KB，您應該將非Regex重新導向/重寫解除安裝至Fastly。
+如果`routes.yaml`檔案的大小為32KB或更大，您應該將非Regex重新導向/重寫解除安裝至Fastly。
 
 此Nginx層無法處理大量非Regex重新導向/重新寫入，否則會導致效能問題。
 
@@ -37,13 +37,13 @@ ht-degree: 0%
 
 以下步驟將詳細說明如何在Fastly上而不是Nginx上放置重新導向。
 
-1. 建立邊緣字典。
+1. 建立Edge字典。
 
-   首先，您可以使用 [Adobe Commerce中的VCL程式碼片段](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html) 以定義邊緣字典。 這將包含重新導向。
+   首先，您可以使用Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[VCL片段來定義邊緣字典。 這將包含重新導向。
 
    對此有一些警告：
 
-   * Fastly無法在字典專案上執行regex。 只有完全相符的專案。 如需這些限制的詳細資訊，請參閱 [Fastly有關邊緣字典限制的檔案](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations).
+   * Fastly無法在字典專案上執行regex。 只有完全相符的專案。 如需這些限制的詳細資訊，請參閱[Fastly的邊緣字典限制檔案](https://docs.fastly.com/guides/edge-dictionaries/about-edge-dictionaries#limitations-and-considerations)。
    * Fastly在單一字典中的限製為1000個專案。 Fastly可以擴大此限制，但這引出第三個警告。
    * 每當您更新專案並將更新的VCL部署到所有節點時，幾何載入時間會隨著擴充字典而增加 — 也就是說，2000專案的字典實際載入速度會比1000專案的字典慢3倍到4倍。 但只有在部署VCL （更新字典或變更VCL函式程式碼）時，才會發生這個問題。
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
    進行URL查詢時，會進行比較以在找到相符專案時套用自訂錯誤代碼。
 
-   使用其他VCL程式碼片段，將類似下列的內容新增至 `vcl_recv`：
+   使用其他VCL程式碼片段將類似下列的專案新增至`vcl_recv`：
 
    ```
         declare local var.redir-path STRING;
@@ -74,9 +74,9 @@ ht-degree: 0%
 
 1. 管理重新導向。
 
-   當找到相符專案時，會採取為該專案定義的動作 `obj.status`，在此例中為301永久移動重新導向。
+   找到相符專案時，會採取為該`obj.status`定義的動作，在此案例中為301永久移動重新導向。
 
-   在中使用最終程式碼片段 `vcl_error` 若要將301錯誤碼傳回使用者端：
+   在`vcl_error`中使用最終程式碼片段，將301個錯誤碼傳送回使用者端：
 
    ```
      if (obj.status == 912) {
@@ -87,7 +87,7 @@ ht-degree: 0%
           }
    ```
 
-   透過此區塊，我們正在檢查是否從傳入錯誤碼 `vcl_recv` 符合，如果符合，我們會將此位置設定為傳入的錯誤訊息，然後將狀態代碼變更為301，並將訊息變更為「已永久移動」。 此時，回應應該已準備好返回使用者端。
+   透過此區塊，我們正在檢查從`vcl_recv`傳入的錯誤碼是否相符，若相符，我們會將位置設定為傳入的錯誤訊息，然後將狀態碼變更為301，並將訊息變更為「已永久移動」。 此時，回應應該已準備好返回使用者端。
 
 ### 中繼服務
 
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Fastly VCL參照](https://docs.fastly.com/vcl/)
-* [設定路由](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html) （位於我們的開發人員檔案中）。
-* [設定Fastly](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) （位於我們的開發人員檔案中）。
-* [VCL規則運算式速查表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet) （位於我們的開發人員檔案中）。
+* [Fastly VCL參考](https://docs.fastly.com/vcl/)
+* [在開發人員檔案中設定路由](/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)。
+* 在開發人員檔案中[設定Fastly](/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+* 開發人員檔案中的[VCL規則運算式速查表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)。

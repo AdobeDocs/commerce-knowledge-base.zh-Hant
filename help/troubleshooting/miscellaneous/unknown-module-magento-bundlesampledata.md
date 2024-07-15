@@ -27,9 +27,9 @@ ht-degree: 0%
 
 請逐一嘗試下列各項，然後再次嘗試安裝。
 
-1. 執行Web安裝精靈。 模組列於  **進階模組設定**. 若要停用 **Magento\_BundleSampleData** 模組，清除 **Magento\_BundleSampleData** 核取方塊，如下圖所示。
+1. 執行Web安裝精靈。 模組列在&#x200B;**進階模組組態**&#x200B;中。 若要停用&#x200B;**Magento\_BundleSampleData**&#x200B;模組，請清除&#x200B;**Magento\_BundleSampleData**&#x200B;核取方塊，如下圖所示。
 
    ![tshoot_bundlesampledata.png](assets/tshoot_bundlesampledata.png)
 
 1. 清除網頁瀏覽器中的所有瀏覽器歷史記錄和資料。
-1. 如果您有Chrome，請清除與網站相關的所有瀏覽器資料。  前往 **設定** > **進階選項** > **隱私權** > **內容設定** > **所有Cookie和網站資料**. 在「網站」欄中，按一下Adobe Commerce伺服器的位址，然後按一下 **全部移除**.
+1. 如果您有Chrome，請清除與網站相關的所有瀏覽器資料。  移至&#x200B;**設定** > **進階選項** > **隱私權** > **內容設定** > **所有Cookie和網站資料**。 在[網站]欄中，按一下Adobe Commerce伺服器的位址，然後按一下[全部移除]****。

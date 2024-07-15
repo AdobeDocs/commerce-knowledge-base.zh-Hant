@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 支援票證連絡人原因說明
 
-本文列出支援票證 **連絡原因** 欄位選項和每個選項的詳細說明。
+本文列出支援票證&#x200B;**連絡人原因**&#x200B;欄位選項，以及每個選項的詳細說明。
 
 ## 連絡原因
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
 ## Adobe Commerce應用程式原因
 
-以下為下列情況下顯示的選項 **Adobe Commerce應用程式** 已選取作為 **連絡原因**：
+如果選取&#x200B;**Adobe Commerce應用程式**&#x200B;做為&#x200B;**連絡人原因**，則會顯示下列選項：
 
 <table class="tg">
 <thead>
@@ -95,7 +95,7 @@ ht-degree: 0%
 
 ## Adobe Commerce Cloud基礎架構原因
 
-以下為下列情況下顯示的選項 **Adobe Commerce Cloud基礎結構** 已選取作為 **連絡原因**：
+如果選取&#x200B;**Adobe Commerce Cloud基礎結構**&#x200B;做為&#x200B;**連絡人原因**，則會顯示下列選項：
 
 <table class="tg">
 <thead>
@@ -150,4 +150,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-請參閱 [說明說明說明中心指南>支援票證欄位](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets) 以檢視其他票證錄取表單欄位的詳細資訊。
+請參閱[說明中心指南>支援票證欄位說明](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-tickets)，檢視其他票證輸入表單欄位的詳細資料。

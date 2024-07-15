@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-匯入 [資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md) 從生產環境到中繼/整合環境，對於需要使用商家憑證的付款整合，儲存的信用卡號碼顯示錯誤及/或付款失敗。
+將[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)從生產環境匯入到中繼/整合環境後，對於需要使用商家憑證的付款整合，儲存的信用卡號碼顯示錯誤，和/或付款失敗。
 
 ## 原因
 
@@ -33,9 +33,9 @@ ht-degree: 0%
 
 若要複製加密金鑰：
 
-1. SSH至您的專案（資料庫傾印的來源），如所述 [SSH連線至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html) （位於我們的開發人員檔案中）。
-1. 開啟 `app/etc/env.php` 在文字編輯器中。
-1. 複製值 `key` 的 `crypt`.
+1. SSH至您的專案，此專案是資料庫傾印的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)所述。
+1. 在文字編輯器中開啟`app/etc/env.php`。
+1. 複製`crypt`的`key`值。
 
 ```php
 return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
@@ -43,13 +43,13 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 
 若要設定目標專案的索引鍵值：
 
-1. 開啟 [雲端主控台](https://console.adobecommerce.com) 並找出您的專案。
-1. 設定 [CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) （在開發人員檔案中）變數，如所述 [設定您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html) （位於我們的開發人員檔案中）。 這將會觸發部署程式，並 `CRYPT_KEY` 將被覆寫於 `app/etc/env.php` 檔案進行部署。
+1. 開啟[雲端主控台](https://console.adobecommerce.com)並找出您的專案。
+1. 設定[CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) （在開發人員檔案中）變數的值，如開發人員檔案中的[設定您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)所述。 這將觸發部署程式，而且每次部署時`app/etc/env.php`檔案中的`CRYPT_KEY`都會被覆寫。
 
-或者，您可以手動覆寫中的加密金鑰 `app/etc/env.php` 檔案：
+您可以選擇手動覆寫`app/etc/env.php`檔案中的加密金鑰：
 
 1. SSH連線至目的地環境。
-1. 開啟 `app/etc/env.php` 在文字編輯器中。
-1. 將複製的資料貼上為 `key` 值 `crypt`.
-1. 儲存已編輯的 `env.php`.
-1. 執行以清除目標環境上的快取 `bin/magento cache:clean` 或在「Commerce管理員」中的 **系統** > **工具** > **快取管理**.
+1. 在文字編輯器中開啟`app/etc/env.php`。
+1. 將複製的資料貼上為`crypt`的`key`值。
+1. 儲存已編輯的`env.php`。
+1. 執行`bin/magento cache:clean`或在&#x200B;**系統** > **工具** > **快取管理**&#x200B;下的Commerce管理員中，清除目的地環境上的快取。

@@ -25,9 +25,9 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>
 
-1. 依照中的說明，為您的Adobe Commerce執行個體設定並連線即時搜尋 [安裝Live Search >設定API金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys) 在我們的使用者檔案中。
-1. 30分鐘後，驗證匯出的目錄資料，如所述 [安裝即時搜尋>驗證匯出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export) 在我們的使用者檔案中。
-1. 30分鐘後，依照中所述測試連線 [安裝「即時搜尋」>測試連線](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection) 在我們的使用者檔案中。
+1. 依照使用者檔案之[安裝Live Search >設定API金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)中的說明，設定並連線您Adobe Commerce執行個體的Live Search。
+1. 30分鐘後，依照使用者檔案中的[安裝即時搜尋>驗證匯出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)說明驗證匯出的目錄資料。
+1. 30分鐘後，依照使用者檔案中的[安裝即時搜尋>測試連線](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)所述測試連線。
 
 或
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 如果特定SKU的產品資料未正確同步，請執行以下操作：
 
-1. 使用下列SQL查詢，並確認您有您預期在 `feed_data` 欄。 此外，請記下 `modified_at` 時間戳記。
+1. 使用下列SQL查詢，並確認您在`feed_data`資料行中有預期的資料。 另外，記下`modified_at`時間戳記。
 
    ```sql
    select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
@@ -68,11 +68,11 @@ ht-degree: 0%
    bin/magento indexer:reindex catalog_data_exporter_products
    ```
 
-1. 如果您還是沒看到正確的資料， [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 如果您還是沒有看到正確的資料，請[建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 檢查上次產品匯出的時間戳記
 
-1. 如果您在中看到正確的資料 `catalog_data_exporter_products`，使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在 `modified_at` 時間戳記：
+1. 如果您在`catalog_data_exporter_products`中看到正確的資料，請使用下列SQL查詢來檢查上次匯出的時間戳記。 它應該在`modified_at`時間戳記之後：
 
    ```sql
    select * from flag where flag_code = 'products-feed-version';
@@ -84,13 +84,13 @@ ht-degree: 0%
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 等待 `<>` 時間（增量更新的時間）。 如果您還是沒看到資料， [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 等待`<>`時間（增量更新的時間）。 如果您還是看不到資料，請[建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 同步特定屬性代碼
 
 如果特定屬性代碼的產品屬性資料未正確同步，請執行以下操作：
 
-1. 使用下列SQL查詢，並確認您有您預期在 `feed_data` 欄。 此外，請記下 `modified_at` 時間戳記。
+1. 使用下列SQL查詢，並確認您在`feed_data`資料行中有預期的資料。 另外，記下`modified_at`時間戳記。
 
    ```sql
    select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
@@ -102,13 +102,13 @@ ht-degree: 0%
    bin/magento indexer:reindex catalog_data_exporter_product_attributes
    ```
 
-1. 如果您還是沒看到正確的資料， [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 如果您還是沒有看到正確的資料，請[建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 檢查上次產品屬性匯出的時間戳記
 
-如果您在中看到正確的資料 `catalog_data_exporter_product_attributes`：
+如果您在`catalog_data_exporter_product_attributes`中看到正確的資料：
 
-1. 使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在 `modified_at` 時間戳記。
+1. 使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在`modified_at`時間戳記之後。
 
    ```sql
    select * from flag where flag_code = 'product-attributes-feed-version';
@@ -120,7 +120,7 @@ ht-degree: 0%
    bin/magento cron:run --group=saas_data_exporter
    ```
 
-1. 等待15到20分鐘（累加更新的時間）。 如果您還是沒看到資料，請 [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+1. 等待15到20分鐘（累加更新的時間）。 如果您還是看不到資料，請[建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### API設定變更後同步
 
@@ -133,4 +133,4 @@ bin/magento saas:resync --feed productattributes
 
 ## 相關閱讀
 
-另請參閱 [上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html) 在我們的使用者檔案中。
+請參閱我們的使用者檔案中的[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。

@@ -26,16 +26,16 @@ ht-degree: 0%
 
 <u>必要條件</u>：
 
-1. 在「Commerce管理員」中的底下 **商店** > **設定** > **銷售** > **簽出**，設定 **允許訪客簽出** = *否*.
-1. 透過Braintree啟用PayPal，如 [Braintree](https://docs.magento.com/user-guide/payment/braintree.html?) 在我們的使用手冊中。
+1. 在Commerce Admin中，在&#x200B;**商店** > **設定** > **銷售** > **簽出**&#x200B;下，設定&#x200B;**允許來賓簽出** = *否*。
+1. 如使用手冊的[Braintree](https://docs.magento.com/user-guide/payment/braintree.html?)中所述，透過Braintree啟用PayPal。
 
 <u>要再現的步驟</u>：
 
 1. 以訪客身分將產品新增到購物車。
-1. 選取 **迷你購物車** 並按一下 **使用PayPal付款**.
+1. 選取&#x200B;**迷你購物車**&#x200B;並按一下&#x200B;**使用PayPal付款**。
 1. 完成Paypal結帳，然後您就會進入「訂單稽核」頁面。
-1. 選取 **送貨方法**.
-1. 按一下 **下單**.
+1. 選取&#x200B;**送貨方法**。
+1. 按一下&#x200B;**下訂單**。
 
 <u>預期結果</u>：
 
@@ -59,6 +59,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Adobe Commerce購物車產品數目相關最佳實務](https://support.magento.com/hc/en-us/articles/360048550332) 在我們的支援知識庫中。
-* [訂單處理教學課程：步驟1。 將專案新增至購物車](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html) 在我們的開發人員檔案中
-* [GraphQL結帳教學課程：步驟1。 將產品新增至購物車](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html) 在我們的開發人員檔案中
+* [在我們支援知識庫中，有關Adobe Commerce購物車中產品數目的最佳實務](https://support.magento.com/hc/en-us/articles/360048550332)。
+* [訂購處理教學課程：步驟1。 在開發人員檔案中新增專案至購物車](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
+* [GraphQL結帳教學課程：步驟1。 在開發人員檔案中新增產品至購物車](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)

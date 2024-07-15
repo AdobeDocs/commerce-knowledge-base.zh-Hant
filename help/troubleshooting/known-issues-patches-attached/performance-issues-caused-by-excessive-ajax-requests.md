@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 問題
 
-Adobe Commerce可能傳送多餘的 [Ajax要求](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md) 從店面到伺服器，以取得橫幅資訊和客戶資訊。 這些Ajax請求會影響效能，尤其是在高負載（高流量和高流量）的情況下。 因此，如果未使用「橫幅」功能，建議您完全刪除 [停用Adobe Commerce橫幅模組輸出](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md) 並套用修補程式，以改善客戶資訊的擷取。
+Adobe Commerce可能從店面傳送備援[Ajax要求](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)至伺服器，以取得橫幅資訊和客戶資訊。 這些Ajax請求會影響效能，尤其是在高負載（高流量和高流量）的情況下。 因此，如果未使用橫幅功能，建議您完全[停用Adobe Commerce橫幅模組輸出](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md)並套用修補程式，以改善客戶資訊的擷取。
 
 ## 修補
 
@@ -32,10 +32,10 @@ Adobe Commerce可能傳送多餘的 [Ajax要求](/help/troubleshooting/miscellan
 * 雲端基礎結構上的Adobe Commerce 2.2.9
 * Adobe Commerce內部部署2.2.9
 
-如果您有其他版本的Adobe Commerce，請考慮更新至最新的2.3.x版本。 如果目前無法使用此選項，請 [聯絡Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 並要求您版本的修補程式。
+如果您有其他版本的Adobe Commerce，請考慮更新至最新的2.3.x版本。 如果目前無法使用此選項，請[連絡Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求您版本的修補程式。
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

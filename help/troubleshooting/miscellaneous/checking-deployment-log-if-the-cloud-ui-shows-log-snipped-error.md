@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 如果雲端UI有，則檢查部署記錄 *記錄已剪取* 錯誤
+# 正在檢查Cloud UI是否有&#x200B;*記錄檔片段*&#x200B;錯誤
 
-本文提供雲端基礎結構UI上Adobe Commerce顯示的問題 *記錄已剪取，因為太長* 嘗試在雲端專案UI上檢視部署記錄檔時出現錯誤訊息。 (不適用於 [Adobe Commerce Cloud Console](https://console.adobecommerce.com/).)
+本文針對雲端基礎結構UI上的Adobe Commerce顯示&#x200B;*記錄檔片段的問題，提供解決方案，因為嘗試在雲端專案UI上檢視部署記錄檔時，記錄檔片段太長*&#x200B;錯誤訊息。 (不適用於[Adobe Commerce Cloud主控台](https://console.adobecommerce.com/)。)
 
 ## 受影響的產品
 
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 問題
 
-嘗試在雲端專案UI上檢視部署記錄時，雲端基礎結構上的Adobe Commerce UI會顯示下列錯誤訊息： *記錄已剪取，因為太長*.
+嘗試在雲端專案UI上檢視部署記錄檔時，雲端基礎結構UI上的Adobe Commerce會顯示下列錯誤訊息： *記錄檔片段因為太長*。
 
 ## 要再現的步驟
 
-1. 前往專案URL，然後按一下 **狀態** 有問題的部署的。
-1. 如果記錄太長而無法顯示在UI中，則會顯示錯誤訊息： *記錄已剪取，因為太長*.
+1. 前往專案URL，然後按一下相關部署的&#x200B;**狀態**。
+1. 如果記錄檔太長，無法在UI中顯示，則會顯示錯誤訊息： *記錄檔片段太長*。
 
 ## 原因
 
-請注意，UI中顯示的記錄不應被視為真實來源，尤其是如果您在部署列為「成功」狀態後發現網站未回應或無法正常運作。 您也應該使用伺服器上的記錄進行驗證。 請參閱 [檢視和管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) （位於我們的開發人員檔案中）。
+請注意，UI中顯示的記錄不應被視為真實來源，尤其是如果您在部署列為「成功」狀態後發現網站未回應或無法正常運作。 您也應該使用伺服器上的記錄進行驗證。 請參閱我們的開發人員檔案中的[檢視及管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)。
 
 ## 解決方案
 
-1. 確定您擁有 [Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html) 已安裝在您的本機環境中。
+1. 請確定您已在本機環境中安裝[Magento雲端CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html)。
 1. 執行以下命令：
 
    ```bash
@@ -66,5 +66,5 @@ ht-degree: 0%
 
 ## 開發人員檔案中的相關閱讀：
 
-* [雲端基礎結構上的Adobe Commerce >建置和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
-* [雲端基礎結構上的Adobe Commerce >檢視和管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)
+* 雲端基礎結構上的[Adobe Commerce >建置和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)
+* 雲端基礎結構上的[Adobe Commerce >檢視及管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)

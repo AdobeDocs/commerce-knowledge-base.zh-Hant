@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 部署失敗並顯示「建置專案時發生錯誤：建置掛接失敗，狀態碼為1」
 
-本文會討論Adobe Commerce雲端基礎結構問題的原因和解決方案，其中部署流程的建置階段失敗，錯誤訊息摘要為： *「建置專案時發生錯誤：建置掛接失敗，狀態碼為1」*.
+本文會討論Adobe Commerce雲端基礎結構問題的原因和解決方案，該問題指部署流程的建置階段失敗，且錯誤訊息摘要為： *「建置專案時發生錯誤：建置連結失敗，狀態碼為1」*。
 
 ## 受影響的產品和版本
 
@@ -32,11 +32,11 @@ ht-degree: 0%
 <u>實際結果</u>：
 
 1. 建置階段會失敗，且整個部署流程會卡住。
-1. 在部署錯誤記錄檔中，錯誤訊息的結尾是： *「建置專案時發生錯誤：建置掛接失敗，狀態碼為1。 已中止的建置」。*
+1. 在部署錯誤記錄中，錯誤訊息結尾為： *&quot;建置專案時發生錯誤：建置掛接失敗，狀態碼為1。 已中止的組建&quot;。*
 
 ## 原因
 
-環境建置失敗的原因有很多。 通常，在部署記錄中，您會看到一則長錯誤訊息，其中第一部分將更具體說明原因，而結論將為 *「建置專案時發生錯誤：建置掛接失敗，狀態碼為1。 已中止的建置」。*
+環境建置失敗的原因有很多。 通常，在部署記錄中，您會看到長錯誤訊息，其中第一部分將更具體說明原因，結論為&#x200B;*「建置專案時發生錯誤：建置掛接失敗，狀態碼為1。 已中止的組建&quot;。*
 
 進一步瞭解第一個問題特定部分，將有助於您識別問題。 以下是最常見的部分，下一節會提供解決方案：
 
@@ -47,9 +47,9 @@ ht-degree: 0%
 
 ## 解決方案
 
-* 檢查以確保有足夠的儲存空間。 有關如何檢查可用空間的資訊，請參閱 [使用CLI檢查雲端環境的磁碟空間](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md) 文章。 您可以考慮清除記錄目錄和/或增加磁碟空間。
+* 檢查以確保有足夠的儲存空間。 有關如何檢查可用空間的資訊，請參閱[使用CLI檢查雲端環境上的磁碟空間](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)文章。 您可以考慮清除記錄目錄和/或增加磁碟空間。
 * 請確定ECE-Tools已正確設定。
-* 檢查問題是否由修補程式造成。 解決衝突或連絡人 [Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket). 如需詳細資訊，請參閱下文。
+* 檢查問題是否由修補程式造成。 解決衝突或聯絡[Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 如需詳細資訊，請參閱下文。
 * 檢查問題是否起因於自訂擴充功能。 解決衝突或聯絡擴充功能開發人員以取得解決方案。
 
 以下段落提供一些更多詳細資訊。
@@ -63,11 +63,11 @@ ht-degree: 0%
 * `var/debug/`
 * `var`
 
-如果您使用Adobe Commerce雲端基礎結構入門計畫架構，如需有關如何增加磁碟空間的詳細資訊，請參閱 [增加雲端整合環境的磁碟空間](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md). 相同的指示可用於在雲端基礎結構上增加Adobe Commerce的空間Pro規劃架構整合環境。 對於Pro Production/Staging，您需要將票證歸檔至 [Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，並要求增加磁碟空間。 但受到Platform監視。 但是，通常您不必在Pro架構的測試/生產上處理這個問題，因為Adobe Commerce會監視這些引數，並警示您和/或根據合約採取動作。
+如需如何在雲端基礎結構入門計畫架構上的Adobe Commerce上增加磁碟空間的詳細資訊，請參閱[增加雲端整合環境的磁碟空間](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)。 相同的指示可用於在雲端基礎結構上增加Adobe Commerce的空間Pro規劃架構整合環境。 若為Pro Production/Staging，您必須向[Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)提交票證，並要求增加磁碟空間。 但受到Platform監視。 但是，通常您不必在Pro架構的測試/生產上處理這個問題，因為Adobe Commerce會監視這些引數，並警示您和/或根據合約採取動作。
 
 ### 請確定ECE-tools設定正確
 
-1. 確定已在中正確定義組建鉤點 `magento.app.yaml` 檔案。 如果您使用Adobe Commerce 2.2.X，建置勾點應依下列方式定義：
+1. 請確定已在`magento.app.yaml`檔案中正確定義組建掛接。 如果您使用Adobe Commerce 2.2.X，建置勾點應依下列方式定義：
 
    ```yaml
    # We run build hooks before your application has been packaged.
@@ -78,11 +78,11 @@ ht-degree: 0%
        php ./vendor/bin/ece-tools deploy
    ```
 
-   使用 [升級至ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) 文章以供參考。
+   使用[升級至ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html)文章作為參考。
 
-1. 請確定ECE-tools套件存在於 `composer.lock` 檔案，方法是執行下列命令：    <pre><code class="language-bash">grep `<code class="language-yaml">&quot;name&quot;： &quot;magento/ece-tools&quot;</code>` composer.lock</code></pre>    若已指定，回應會類似於以下範例：    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
+1. 執行下列命令，確定`composer.lock`檔案中有ECE-tools套件：    <pre><code class="language-bash">grep &#39;<code class="language-yaml">&quot;name&quot;： &quot;magento/ece-tools&quot;</code>&#39; composer.lock</code></pre>    若已指定，回應會類似於以下範例：    ```bash    "name": "magento/ece-tools",    "version": "2002.0.20",    ```
 
-請參閱 [升級至ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html) 文章以供參考。
+請參閱[升級至ece-tools](https://devdocs.magento.com/guides/v2.3/cloud/project/ece-tools-upgrade-project.html)文章以供參考。
 
 ### 此修補程式是否造成問題？
 
@@ -103,7 +103,7 @@ W: build
 E: Error building project: The build hook failed with status code 1. Aborted build.
 ```
 
-這些錯誤訊息表示您嘗試套用的修補程式是針對其他Adobe Commerce版本建立的，或與您的自訂專案或先前套用的修補程式衝突。 嘗試解決衝突或連絡 [Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+這些錯誤訊息表示您嘗試套用的修補程式是針對其他Adobe Commerce版本建立的，或與您的自訂專案或先前套用的修補程式衝突。 請嘗試解決衝突或聯絡[Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 擴充功能是否造成問題？
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Composer install命令覆寫.gitignore檔案、Adobe Commerce
 
-本文提供被追蹤時適用的解決方案 `.gitignore` 雲端基礎結構2.4.2-p1和2.3.7上的Adobe Commerce上的撰寫器會覆寫檔案。
+本文提供雲端基礎結構2.4.2-p1和2.3.7上的Adobe Commerce上的撰寫器覆寫追蹤`.gitignore`檔案時的解決方案。
 
 ## 受影響的產品和版本
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-`.gitignore` 執行composer install命令時會覆寫檔案。
+執行composer install命令時正在覆寫`.gitignore`檔案。
 
 <u>要再現的步驟</u>：
 
@@ -39,7 +39,7 @@ ht-degree: 0%
    1. `echo "/this/line/should/stay" >> .gitignore`
    1. `git init`
    1. `git add * && git add .*`
-   1. `git commit -m "Init"` #已提交至存放庫的檔案
+   1. `git commit -m "Init"` #個已提交至存放庫的檔案
    1. `rm -rf vendor/*`
    1. `composer install`
    1. `git diff`
@@ -58,15 +58,15 @@ ht-degree: 0%
 
 <u>預期結果</u>：
 
-`.gitignore` Composer不會覆寫。
+撰寫器不會覆寫`.gitignore`。
 
 <u>實際結果</u>：
 
-`.gitignore` 被每次執行composer安裝覆寫。
+每次composer安裝執行都會覆寫`.gitignore`。
 
 ## 解決方案
 
-保持自訂 `.gitignore file` 您需要忽略它在 `magento-deploy-ignore` 區段。
+若要保留您的自訂`.gitignore file`，您需要在`magento-deploy-ignore`區段中忽略它。
 
 ```git
 {
@@ -84,4 +84,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [撰寫器會覆寫追蹤的.gitignore檔案！](https://github.com/magento/magento2/issues/32888) 在Magento2 GitHub中。
+* [追蹤的.gitignore檔案已由撰寫器覆寫！Magento2 GitHub中的](https://github.com/magento/magento2/issues/32888)。

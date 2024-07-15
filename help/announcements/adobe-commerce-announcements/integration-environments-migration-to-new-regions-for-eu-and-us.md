@@ -1,6 +1,6 @@
 ---
 title: 舊版歐盟地區的整合環境移轉
-description: 「為了向您提供最新的基礎結構基礎，我們將移轉屬於舊版『歐盟』地區之所有客戶的整合環境至新的歐盟地區。 其他區域&ndash； EU-3、EU-5、EU-6 &ndash；將維持不變。  『
+description: 「為了向您提供最新的基礎結構基礎，我們將移轉屬於舊版『歐盟』地區之所有客戶的整合環境至新的歐盟地區。 其他地區&amp；ndash； EU-3、EU-5、EU-6 &amp；ndash；將維持不變。  『
 exl-id: 71c0d241-7ba8-48c3-acf1-2b28be5c80e7
 feature: Integration
 role: Admin

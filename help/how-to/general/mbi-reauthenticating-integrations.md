@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 資料庫與SaaS整合
 
-如需資料庫和SaaS整合的清單，請參閱 [使用整合連線外部資料](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html) （位於我們的開發人員檔案中）。 （開啟頁面時，請使用左側的目錄進行導覽）。
+如需資料庫與SaaS整合的清單，請參閱我們的開發人員檔案中的[使用整合連線外部資料](https://docs.magento.com/mbi/data-analyst/importing-data/integrations/integrations.html)。 （開啟頁面時，請使用左側的目錄進行導覽）。
 
 ## 發生連線問題？
 
@@ -29,10 +29,10 @@ ht-degree: 0%
 * 對您的管理帳戶進行的變更
 * 或MBI內部問題
 
-所有整合的狀態都會顯示在整合頁面上( **管理資料>整合** )：
+所有整合的狀態都在整合頁面上（ **管理資料>整合** ）：
 
 ![Integrations_page.png](assets/Integrations_page.png)
 
 若要重新驗證，您可能需要重新輸入帳戶認證。 在某些情況下，您可能需要為問題整合產生新的API金鑰。 按一下問題整合的名稱，開始重新授權程式。
 
-如果問題仍然存在，請 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+如果問題仍然存在，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。

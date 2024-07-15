@@ -21,10 +21,10 @@ ht-degree: 0%
 
 `PHP Fatal error: Maximum function nesting level of '100' reached, aborting! in <path>/ClassLoader.php`
 
-強烈建議您不要使用 `xdebug` 在生產環境中！
+強烈建議您不要在生產環境中使用`xdebug`！
 
 ## 解決方案
 
-有一個已知問題 `xdebug` 安裝後可能會影響Adobe Commerce安裝或存取店面或Commerce Admin的許可權。
+`xdebug`有已知問題，可能會影響Adobe Commerce安裝或安裝後對店面或Commerce管理員的存取。
 
-如需詳細資訊，請參閱 [xdebug的已知問題](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md) 在我們的支援知識庫中。
+如需詳細資訊，請參閱我們的支援知識庫中的[xdebug](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)已知問題。

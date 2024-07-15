@@ -28,7 +28,7 @@ ht-degree: 0%
 Magento_Wishlist
 ```
 
-從Adobe Commerce （所有部署方法）/Magento Open Source 2.3.4-p1版升級 **至2.3.4-p2版** 或從Adobe Commerce （所有部署方法）/Magento Open Source 2.3.5版 **至2.3.5版 — p1** 將修正錯誤。
+從Adobe Commerce （所有部署方法）/Maginto Open Source 2.3.4-p1 **版升級至2.3.4-p2**&#x200B;版，或從Adobe Commerce （所有部署方法）/Maginto Open Source 2.3.5 **版升級至2.3.5-p1**&#x200B;版將修正錯誤。
 
 <u>要再現的步驟</u>：
 
@@ -50,15 +50,15 @@ Unable to apply data patch Magento\Wishlist\Setup\Patch\Data\CleanUpData for mod
 
 ## 解決方案
 
-* 如果您要升級至Adobe Commerce （所有部署方法）/Magento Open Source 2.3.5版， **升級至2.3.5-p1版**. Adobe Commerce （所有部署方法）/Magento Open Source 2.3.5-p1版取代2.3.5。
-* 如果您要升級至Adobe Commerce （所有部署方法）/Magento Open Source版本2.3.4-p1， **升級至2.3.4-p2版**. Adobe Commerce （所有部署方法）/Magento Open Source 2.3.4-p2版取代2.3.4-p1版。
+* 如果您要升級至Adobe Commerce （所有部署方法）/Magento Open Source 2.3.5版，**請升級至2.3.5-p1**&#x200B;版。 Adobe Commerce （所有部署方法）/Magento Open Source 2.3.5-p1版取代2.3.5。
+* 如果您要升級至Adobe Commerce （所有部署方法）/Magento Open Source版本2.3.4-p1，**請升級至2.3.4-p2**&#x200B;版。 Adobe Commerce （所有部署方法）/Magento Open Source 2.3.4-p2版取代2.3.4-p1版。
 
 ## 相關閱讀
 
 在我們的開發人員檔案中：
 
-* [雲端基礎結構上的Adobe Commerce指南](https://devdocs.magento.com/cloud/bk-cloud.html)
-* [雲端基礎結構上的Adobe Commerce — 升級Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)
+* 雲端基礎結構指南上的[Adobe Commerce](https://devdocs.magento.com/cloud/bk-cloud.html)
+* 雲端基礎結構上的[Adobe Commerce — 升級Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)
 * [Adobe Commerce內部部署和Magento Open Source — 升級Adobe Commerce應用程式和模組](https://devdocs.magento.com/guides/v2.3/comp-mgr/bk-compman-upgrade-guide.html)
-* [希望清單專案設定頁面](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
+* [願望清單專案設定頁面](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/layouts/product-layouts.html#wishlist-item-configure-page)
 * [提供進階報告的模組](https://devdocs.magento.com/guides/v2.3/advanced-reporting/modules.html)

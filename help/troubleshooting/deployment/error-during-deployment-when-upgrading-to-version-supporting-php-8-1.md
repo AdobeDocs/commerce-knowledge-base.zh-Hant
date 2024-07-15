@@ -41,8 +41,8 @@ PHP 8.1已包含JSON支援，不需要另外安裝擴充功能。
 
 ## 解決方案
 
-從移除JSON **執行階段** > **擴充功能** 中的區段 `.magento.app.yaml` 並重新部署。
+從`.magento.app.yaml`中的&#x200B;**執行階段** > **擴充功能**&#x200B;區段中移除JSON並重新部署。
 
 ## 相關閱讀
 
-[PHP應用程式](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) （位於我們的開發人員檔案中）。
+[PHP應用程式](https://devdocs.magento.com/cloud/project/magento-app-php-application.html) （在開發人員檔案中）。

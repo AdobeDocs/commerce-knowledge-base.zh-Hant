@@ -1,6 +1,6 @@
 ---
-title: 無法存取 [!DNL New Relic] 在Adobe Commerce雲端專案上
-description: 本文提供當您無法存取時的解決方案 [!DNL New Relic] 儘管已在Adobe Commerce上新增至雲端專案。
+title: 無法在Adobe Commerce雲端專案上存取 [!DNL New Relic]
+description: 本文提供解決方案，讓您即使在Adobe Commerce上將 [!DNL New Relic] 新增至雲端專案，仍無法存取。
 exl-id: bafe2dd9-8a16-4249-b814-7e421e25e828
 feature: Cloud, Observability, Paas
 role: Developer
@@ -11,26 +11,26 @@ ht-degree: 0%
 
 ---
 
-# 無法存取 [!DNL New Relic] 在Adobe Commerce Cloud專案上
+# 無法存取Adobe Commerce Cloud專案上的[!DNL New Relic]
 
-本文提供當您無法存取時的解決方案 [!DNL New Relic] 已新增至Adobe Commerce雲端專案。
+本文提供解決方案，讓您即使加入Adobe Commerce雲端專案，仍無法存取[!DNL New Relic]。
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce全部 [支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
+* 雲端基礎結構上的Adobe Commerce所有[支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 ## 問題
 
-儘管已新增至雲端專案，您仍無法存取 [!DNL New Relic] 該專案的帳戶。
+儘管已新增至雲端專案，您仍無法存取該專案的[!DNL New Relic]帳戶。
 
 ## 原因
 
-新增到雲端專案不會自動授予您 [!DNL New Relic] 存取。
+新增至雲端專案不會自動授與您[!DNL New Relic]存取權。
 
 ## 解決方案
 
-請聯絡New Relic帳戶擁有者，要求他們將您新增至他們的帳戶 [!DNL New Relic].
+請連絡New Relic帳戶擁有者，要求他們將您新增至[!DNL New Relic]中的帳戶。
 
 ## 相關閱讀
 
-[管理 [!DNL New Relic] 帳戶](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account) （位於我們的開發人員檔案中）。
+在開發人員檔案中[管理 [!DNL New Relic] 帳戶](https://devdocs.magento.com/cloud/project/new-relic.html#manage-new-relic-account)。

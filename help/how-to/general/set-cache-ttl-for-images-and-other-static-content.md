@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 設定影像和其他靜態內容的快取TTL
 
-請參閱 [設定靜態檔案的快取](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html) 在我們的使用手冊中。
+請參閱使用手冊中的[設定靜態檔案的快取](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/set-cache.html)。

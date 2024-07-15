@@ -1,6 +1,6 @@
 ---
-title: 『[!UICONTROL salesRule] 從版本&lt； 2.4.5升級時出現標籤問題
-description: 套用修補程式以處理**[!UICONTROL salesRule]**正從Adobe Commerce版本&lt； 2.4.5升級時發生的問題。
+title: 從版本&amp；lt； 2.4.5升級時，'[!UICONTROL salesRule]標籤出現問題
+description: 套用修補程式以處理從Adobe Commerce版本&amp；lt； 2.4.5升級時的**[!UICONTROL salesRule]**問題。
 exl-id: e1bd6d44-576e-4d91-bab5-32c41e3b8300
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
@@ -9,9 +9,9 @@ ht-degree: 0%
 
 ---
 
-# **[!UICONTROL salesRule]** 從版本&lt; 2.4.5升級時出現標籤問題
+# 從版本&lt; 2.4.5升級時，**[!UICONTROL salesRule]**&#x200B;個標籤出現問題
 
-此 **[!UICONTROL salesRule]** Adobe Commerce中引進了標籤暫存功能 [2.4.5](/docs/commerce-operations/release/notes/adobe-commerce/2-4-5.html). 當您從Adobe Commerce &lt; 2.4.5升級到任何版本>= 2.4.5時，此變更可能會導致問題。升級之後，可能會 **[!UICONTROL salesRule]** 標籤不相符。 若要解決此問題，請在升級到較新的Adobe Commerce版本後立即套用修補程式。
+Adobe Commerce [2.4.5](/docs/commerce-operations/release/notes/adobe-commerce/2-4-5.html)已匯入&#x200B;**[!UICONTROL salesRule]**&#x200B;標籤暫存功能。 當您從Adobe Commerce &lt; 2.4.5升級到任何版本>= 2.4.5時，此變更可能會導致問題。升級之後，**[!UICONTROL salesRule]**&#x200B;標籤可能會不相符。 若要解決此問題，請在升級到較新的Adobe Commerce版本後立即套用修補程式。
 
 ## 受影響的產品和版本
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-1. 請依照中的步驟操作 [執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html) Commerce指南中的。
-1. 在之前套用附加的修補程式 **[!UICONTROL Update metadata]** 階段。
-(您也可以在完成下列作業後套用修正程式： **[!UICONTROL Update metadata]** 階段，但接著您需要執行 `bin/magento setup:upgrade` 再來一次)。
-1. 繼續進行中的其餘步驟 [執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
+1. 請依照Commerce指南中[執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)中的步驟操作。
+1. 在&#x200B;**[!UICONTROL Update metadata]**階段之前套用附加的修補程式。
+（您也可以在完成**[!UICONTROL Update metadata]**&#x200B;階段後套用修補程式，但您需要再次執行`bin/magento setup:upgrade`）。
+1. 在[執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)中繼續其餘步驟。

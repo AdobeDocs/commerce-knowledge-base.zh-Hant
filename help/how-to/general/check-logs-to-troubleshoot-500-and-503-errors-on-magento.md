@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 檢查記錄以疑難排解Adobe Commerce上的500和503錯誤
 
-本文說明如何檢查 `access.log` 和相關記錄，用於疑難排解503和500錯誤，這些錯誤可能是由流量或伺服器資源不足引起的。 檢視 `access.log` 和相關記錄檔可提供雲端基礎結構上Adobe Commerce相關問題可能原因的資訊。
+本文說明如何檢查`access.log`和相關記錄以疑難排解503和500錯誤（可能是由流量或伺服器資源不足所造成）。 檢視`access.log`和相關記錄檔可提供雲端基礎結構上Adobe Commerce相關問題的可能原因資訊。
 
 <!--
 Bob - not in TOC
@@ -20,17 +20,17 @@ Bob - not in TOC
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce，全部 [支援的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html).
+* 雲端基礎結構上的Adobe Commerce，所有[支援的版本](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/lifecycle-policy.html)。
 
-若要檢視這些伺服器錯誤的記錄，請檢查 `access.log` 在網頁伺服器上，例如 `<ip address>` `<timestamp>` `<request uri>` `<response code>` `<referer url>`
+若要檢視這些伺服器錯誤的記錄，請檢查網頁伺服器上的`access.log`，例如`<ip address>` `<timestamp>` `<request uri>` `<response code>` `<referer url>`
 
 若要檢查相關記錄：
 
-1. 如果是在當天(適用於雲端基礎結構上的Adobe Commerce Pro計畫架構)，請在CLI中執行以下命令。 或直到過去的某個時間點(適用於雲端基礎結構上的Adobe Commerce入門計畫架構)，因為記錄涵蓋範圍的持續時間有限，且無法提供記錄輪換： `grep -r "\" [50[0-9]" /path/to/access.log` 如果過去發生錯誤，請在CLI中執行以下命令（僅限Pro架構）： `zgrep "\" 50[0-9]" /path/to/access.log.<rotation ID>.gz`
-1. 然後檢視 `exception.log` 和 `error.log` 或同等專案 [輪換的記錄](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#log-rotation) （當記錄達到某個檔案大小時自動旋轉和壓縮的記錄）用於相同時間戳記以找出潛在錯誤，並檢視可能已發生什麼導致該錯誤。 附註：若要檢查 `exception.log` 和 `error.log` 在CLI中執行上述命令，但取代 `access.log` 替換為 `exception.log` 或 `error.log`.
+1. 如果是在當天(適用於雲端基礎結構上的Adobe Commerce Pro計畫架構)，請在CLI中執行以下命令。 或直到過去某個時間點(適用於雲端基礎結構上的Adobe Commerce入門計畫架構)，因為記錄檔涵蓋範圍的持續時間有限，且記錄檔輪換無法使用： `grep -r "\" [50[0-9]" /path/to/access.log`如果過去發生錯誤，請在CLI中執行以下命令（僅限Pro架構）： `zgrep "\" 50[0-9]" /path/to/access.log.<rotation ID>.gz`
+1. 然後檢查`exception.log`和`error.log`或同等的[輪換記錄檔](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/configuration.html#log-rotation) （當記錄檔達到特定檔案大小時自動輪換和壓縮的記錄檔），以找出可能的錯誤，並檢視可能發生的導致錯誤的原因。 注意：若要檢查`exception.log`和`error.log`，請在CLI中執行上述命令，但將`access.log`取代為`exception.log`或`error.log`。
 
 ## 相關閱讀
 
-* 另請參閱 [檢視和管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html) 在 *雲端基礎結構上的Adobe Commerce指南*.
-* 另請參閱 [疑難排解503錯誤](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md) 在我們的支援知識庫中。
-* 另請參閱 [Magento網站問題疑難排解員](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md) 在我們的支援知識庫中。
+* 請參閱&#x200B;*雲端基礎結構上的Adobe Commerce指南*&#x200B;中的[檢視及管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)。
+* 請參閱我們的支援知識庫中的[疑難排解503錯誤](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)。
+* 請參閱我們的支援知識庫中的[Magento網站故障排解員](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)。

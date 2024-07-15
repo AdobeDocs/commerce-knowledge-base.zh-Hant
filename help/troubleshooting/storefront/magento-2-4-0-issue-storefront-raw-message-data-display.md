@@ -24,14 +24,14 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-1. 前往 **建立新帳戶** 頁面。
+1. 前往店面上的&#x200B;**建立新帳戶**&#x200B;頁面。
 1. 使用註冊的電子郵件建立新帳戶。 系統會顯示下列訊息：
 
 `There+is+already+an+account+with+this+email+address.+If+you+are+sure+that+it+is+your+email+address,+click+here+to+get+your+password+and+access+your+account.`
 
 ## 原因
 
-此問題是由與set\\read Cookie相關的PHP 7.4.2問題所導致。 另請參閱 [PHP錯誤\#79174 setcookie()將空格編碼為\`+\`，但$\_COOKIE不再將其解碼](https://bugs.php.net/bug.php?id=79174).
+此問題是由與set\\read Cookie相關的PHP 7.4.2問題所導致。 請參閱[PHP錯誤\#79174 setcookie()將空間編碼為\&#39;+\&#39;，但$\_COOKIE不再將其解碼](https://bugs.php.net/bug.php?id=79174)。
 
 ## 解決方案
 

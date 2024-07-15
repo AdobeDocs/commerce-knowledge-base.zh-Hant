@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 執行時出現「未設定區碼」錯誤 `setup:upgrade`
+# 執行`setup:upgrade`時發生「未設定區碼」錯誤
 
-Adobe Commerce本文針對雲端基礎結構2.2.3中與取得 *「未設定區碼」* 執行以下命令時發生錯誤：
+本文提供雲端基礎結構2.2.3上已知Adobe Commerce問題的修補程式，此問題與執行下列命令時取得&#x200B;*「未設定區碼」*&#x200B;錯誤有關：
 
 ```bash
 setup:upgrade
@@ -31,7 +31,7 @@ setup:upgrade
 bin/magento setup:upgrade
 ```
 
-命令，您會收到下列錯誤訊息： *「模組&#39;Magento\_AdvancedSalesRule&#39;：正在安裝資料……未設定區碼：必須先設定區碼，才能啟動工作階段」* 而命令執行則會中斷。 出現此問題是因為在實際設定區域組態之前即已要求該區域組態。 此修補程式可擷取錯誤，而不會中斷升級程式。
+命令，您會收到下列錯誤訊息： *&quot;模組&#39;Magento\_AdvancedSalesRule&#39;：正在安裝資料……未設定區碼：必須先設定區碼，才能啟動工作階段&quot;*，而且命令執行已中斷。 出現此問題是因為在實際設定區域組態之前即已要求該區域組態。 此修補程式可擷取錯誤，而不會中斷升級程式。
 
 ## 修補
 
@@ -51,6 +51,6 @@ bin/magento setup:upgrade
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

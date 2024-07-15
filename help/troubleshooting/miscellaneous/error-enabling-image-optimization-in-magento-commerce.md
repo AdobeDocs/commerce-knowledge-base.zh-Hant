@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-在「Fastly設定」頁面的「Fastly IO程式碼片段」旁邊，您會看到「目前」狀態： \_disabled \_下方有下列訊息：請聯絡您的銷售代表或傳送電子郵件至 `support@fastly.com` 以請求為您的Fastly服務啟用影像最佳化。
+在Fastly設定頁面，在Fastly IO程式碼片段旁邊，您會看到「目前」狀態： \_disabled \_下方有下列訊息：請聯絡您的銷售代表或傳送電子郵件至`support@fastly.com`，以要求啟用您的Fastly服務的影像最佳化。
 
 ## 原因
 
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 解決方案
 
-建立 [支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 並要求影像最佳化。
+建立[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)並要求影像最佳化。

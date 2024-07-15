@@ -53,5 +53,5 @@ npx @magento/pwa-buildpack create-env-file packages/venia-concept
 
 ## 相關閱讀
 
-* [Adobe Commerce檔案PWA Studio](https://magento.github.io/pwa-studio/)
+* Adobe Commerce檔案的[PWA Studio](https://magento.github.io/pwa-studio/)
 * [Venia Storefront （概念）](https://magento.github.io/pwa-studio/venia-pwa-concept/)

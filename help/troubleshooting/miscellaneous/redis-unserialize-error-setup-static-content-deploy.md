@@ -1,6 +1,6 @@
 ---
-title: Redis未序列化錯誤'setup:static-content:部署'
-description: 本文修正執行「magento設定」時Redis未序列化錯誤:static-content:部署」。
+title: Redis取消序列化錯誤'setup:static-content:deploy'
+description: 本文修正執行'magento setup:static-content:deploy'時Redis未序列化錯誤。
 exl-id: 4bc88933-3bf9-4742-b864-b82d3c1b07a9
 feature: Cache, Deploy, Page Content, SCD, Services, Variables
 role: Developer
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# Redis未序列化錯誤 `setup:static-content:deploy`
+# Redis未序列化錯誤`setup:static-content:deploy`
 
-本文提供執行時Redis非序列化錯誤的修正 `magento setup:static-content:deploy`.
+本文提供執行`magento setup:static-content:deploy`時Redis非序列化錯誤的修正。
 
-執行中 `magento setup:static-content:deploy` 導致Redis錯誤：
+執行`magento setup:static-content:deploy`導致Redis錯誤：
 
 ```
 [Exception]
@@ -25,13 +25,13 @@ Notice: unserialize(): Error at offset 0 of 1 bytes in
 
 問題是由平行干擾Redis連線上的程式所造成。
 
-若要解決，請執行 `setup:static-content:deploy` 在單執行緒模式中，設定下列環境變數：
+若要解決，請設定下列環境變數，以單一執行緒模式執行`setup:static-content:deploy`：
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-或者，執行 `setup:static-content:deploy` 命令後面接著 `-j 1` (或 `--jobs=1` )引數。
+或者，執行`setup:static-content:deploy`命令，後接`-j 1` （或`--jobs=1` ）引數。
 
 請注意，停用多執行緒會減慢部署靜態資產的程式。
 
@@ -43,7 +43,7 @@ STATIC_CONTENT_THREADS =1
 
 ## 問題
 
-執行 `setup:static-content:deploy` 命令導致Redis錯誤：
+執行`setup:static-content:deploy`命令導致Redis錯誤：
 
 ```php
 )
@@ -79,17 +79,17 @@ Command php ./bin/magento setup:static-content:deploy --jobs=3  en_US  returned 
 
 此問題是由平行干擾Redis連線上的程式所造成。
 
-此處，呈現中的程式 `App/Config/Type/System.php` 預期回應 `system_defaultweb`，但收到的回應 `system_cache_exists` 這是由不同的程式所造成。 請參閱下列檔案中的詳細說明： [傑森·伍茲的文章](https://github.com/magento/magento2/issues/9287#issuecomment-302362283).
+在這裡，`App/Config/Type/System.php`中的處理程式預期`system_defaultweb`的回應，但收到其他處理程式對`system_cache_exists`所做的回應。 檢視[Jason Woods貼文](https://github.com/magento/magento2/issues/9287#issuecomment-302362283)中的詳細說明。
 
 ## 解決方案
 
-停用平行化並執行 `setup:static-content:deploy` 在單執行緒模式中，設定下列環境變數：
+透過設定下列環境變數，停用平行處理並以單一執行緒模式執行`setup:static-content:deploy`：
 
 ```
 STATIC_CONTENT_THREADS =1
 ```
 
-您也可以執行 `setup:static-content:deploy` 命令後面接著 `-j 1` (或 `--jobs=1`)引數。
+您也可以執行`setup:static-content:deploy`命令，後接`-j 1` （或`--jobs=1`）引數。
 
 >[!NOTE]
 >

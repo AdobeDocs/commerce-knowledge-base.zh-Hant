@@ -53,17 +53,17 @@ PayPal無法處理付款並完成訂單。
 
 變更您的PayPal設定檔，以允許每個發票ID進行多項付款。 您必須透過PayPal進行這些變更。
 
-1. 請在登入您的帳戶 [https://www.paypal.com](https://www.paypal.com/).
-1. 按一下 **個人資料** > **設定檔與設定** （右上角）。
-1. 前往 **我的銷售工具**.
-1. 瀏覽至 **獲得報酬並管理我的風險** > **封鎖付款** 並按一下 **更新**.
-1. **銷售偏好設定**，按一下 **付款收貨喜好設定**.
-1. 在 **封鎖意外付款**，選擇 **否，允許每個商業發票ID有多個付款**.    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
-1. 捲動至底部並按一下 **儲存**.
+1. 在[https://www.paypal.com](https://www.paypal.com/)登入您的帳戶。
+1. 按一下&#x200B;**設定檔** > **設定檔與設定** （右上角）。
+1. 移至&#x200B;**我的銷售工具**。
+1. 瀏覽至&#x200B;**取得付款並管理我的風險** > **封鎖付款**，然後按一下&#x200B;**更新**。
+1. **銷售偏好設定**，按一下&#x200B;**付款接收偏好設定**。
+1. 在&#x200B;**封鎖意外付款**&#x200B;底下，選擇&#x200B;**否，允許每個發票識別碼有多個付款**。    ![paypal_allow_multiple_payments_per_invoice_id.png](assets/paypal_allow_multiple_payments_per_invoice_id.png)
+1. 捲動至底部，然後按一下&#x200B;**儲存**。
 
 ## 更多資訊
 
-* [封鎖意外付款](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments) 在PayPal開發人員檔案上。
+* 在PayPal開發人員檔案上[封鎖意外付款](https://developer.paypal.com/docs/admin/setup-account/#block-accidental-payments)。
 * 使用手冊中的PayPal付款：
    * [PayPal Express簽出](/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)
    * [其他PayPal解決方案](/docs/commerce-admin/stores-sales/payments/paypal/paypal.html)

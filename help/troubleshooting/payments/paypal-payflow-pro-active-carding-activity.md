@@ -55,11 +55,11 @@ Adobe Commerce （所有部署方法）和Magento Open Source2.1.x、2.2.x、2.3
 
 #### 安裝Google reCAPTCHA並簽出表單更新
 
-此 `magento/module-paypal-recaptcha` 套件包含與Google reCAPTCHA和Payflow Pro付款表單更新的整合。 即使您已安裝並設定reCAPTCHA模組，我們建議您安裝此套件。
+`magento/module-paypal-recaptcha`套件包含與Google reCAPTCHA和Payflow Pro付款表單更新的整合。 即使您已安裝並設定reCAPTCHA模組，我們建議您安裝此套件。
 
 執行以下命令進行安裝。
 
-**針對Adobe Commerce內部部署：**
+針對Adobe Commerce內部部署：****
 
 ```bash
 composer require magento/module-paypal-recaptcha
@@ -68,7 +68,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**雲端基礎結構上的Adobe Commerce：**
+雲端基礎結構上的Adobe Commerce的&#x200B;**：**
 
 1. 執行以下命令：
 
@@ -86,11 +86,11 @@ bin/magento cache:clean
 
 #### 安裝驗證碼的簽出表單更新
 
-此 `magento/module-paypal-captcha` 套件包含與原生Adobe Commerce驗證碼模組的整合。
+`magento/module-paypal-captcha`套件包含與原生Adobe Commerce驗證碼模組的整合。
 
 執行以下命令進行安裝：
 
-**針對Adobe Commerce內部部署：**
+針對Adobe Commerce內部部署：****
 
 ```bash
 composer require magento/module-paypal-captcha
@@ -99,7 +99,7 @@ bin/magento setup:upgrade
 bin/magento cache:clean
 ```
 
-**雲端基礎結構上的Adobe Commerce：**
+雲端基礎結構上的Adobe Commerce的&#x200B;**：**
 
 1. 執行以下命令：
 
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 安裝套件後，請依照以下檔案所述設定Google reCAPTCHA （建議）或驗證碼：
 
-* [Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html) 在我們的使用手冊中。
-* [驗證碼](https://docs.magento.com/user-guide/stores/security-captcha.html) 在我們的使用手冊中。
+* 使用手冊中的[Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html)。
+* 使用手冊中的[驗證碼](https://docs.magento.com/user-guide/stores/security-captcha.html)。
 
 新的結帳表單選項為：
 
@@ -129,11 +129,11 @@ bin/magento cache:clean
 
 ## PayPal支援和連絡人
 
-請聯絡PayPal Payflow商家支援，瞭解更多有關防欺詐服務的資訊。 您可以要求PayPal支援團隊啟用 [基本防欺詐服務](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/) 篩選條件可提供對付款的最嚴密控制，因此您可以自動拒絕可能導致詐騙交易的付款，並接受通常不會造成問題的付款。 請注意，一旦您開啟PayPal詐騙防護服務篩選器，交易可能需要最多2小時才能結算。
+請聯絡PayPal Payflow商家支援，瞭解更多有關防欺詐服務的資訊。 您可以要求PayPal支援團隊啟用[基本詐騙防護服務](https://developer.paypal.com/api/nvp-soap/payflow/fraud-protection/)篩選器，以提供對付款最嚴密的控制功能，以便自動拒絕可能導致詐騙交易的付款，並接受通常不會造成問題的付款。 請注意，一旦您開啟PayPal詐騙防護服務篩選器，交易可能需要最多2小時才能結算。
 
 >[!NOTE]
 >
->如需詳細資訊，請參閱PayPal的知識庫 [「Adobe已就我的Payflow Pro整合與我聯絡。 我需要做什麼？」](https://www.paypal.com/us/smarthelp/article/ts2242).
+>如需詳細資訊，請參閱PayPal的KB [&quot;Adobe已就我的Payflow Pro整合與我聯絡。 我需要做什麼？&quot;](https://www.paypal.com/us/smarthelp/article/ts2242).
 
 **PayPal Payflow商家支援詳細資料**
 

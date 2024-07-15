@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 問題
 
-GraphQL類別和 `categoryList` 查詢會忽略類別許可權，而隱藏共用目錄中的類別。 Adobe Commerce 2.4.3上的所有商戶都會發生這種情況，且B2B共用目錄功能已開啟。
+GraphQL類別和`categoryList`查詢忽略類別許可權，無法隱藏共用目錄中的類別。 Adobe Commerce 2.4.3上的所有商戶都會發生這種情況，且B2B共用目錄功能已開啟。
 
 <u>要再現的步驟</u>：
 
@@ -34,8 +34,8 @@ GraphQL類別和 `categoryList` 查詢會忽略類別許可權，而隱藏共用
 1. 為每個類別指派一些產品。
 1. 將CAT1指派給自訂目錄，從自訂私人目錄中取消指派CAT2。 這會從共用目錄中取消指派CAT2的所有產品。
 1. 儲存自訂目錄。
-1. 將CAT2的類別許可權設定為 *拒絕* 瀏覽類別並將客戶群組設定為上述私人目錄。
-1. 執行 `categoryList query` 或「類別」查詢，作為步驟三的公司使用者。
+1. 將CAT2的類別許可權設定為&#x200B;*拒絕*&#x200B;瀏覽類別，並將客戶群組設定為上述私人目錄。
+1. 以步驟3中的公司使用者身分執行`categoryList query`或類別查詢。
 
 <u>預期結果</u>：
 
@@ -51,8 +51,8 @@ GraphQL類別和 `categoryList` 查詢會忽略類別許可權，而隱藏共用
 
 ## 解決方案
 
-此問題將在2.4.4版本的範圍內修正，商家應： [提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 以取得自訂修補程式（若客戶需要2.4.4版之前的解決方案）。
+此問題將在2.4.4版的範圍內修正，如果商家需要2.4.4版之前的解決方案，他們應[提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以取得自訂修補程式。
 
 ## 相關閱讀
 
-* [最佳實務Adobe Commerce類別數量限制](https://support.magento.com/hc/en-us/articles/360048176832) 在我們的支援知識庫中。
+* [最佳實務Adobe Commerce支援知識庫中的類別數量限制](https://support.magento.com/hc/en-us/articles/360048176832)。

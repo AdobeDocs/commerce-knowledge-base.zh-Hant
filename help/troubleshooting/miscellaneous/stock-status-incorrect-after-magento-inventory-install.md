@@ -27,10 +27,10 @@ ht-degree: 0%
 
 ## 原因
 
-第一次安裝/升級時，所有的產品都會指定給預設來源，將所有數量與該來源相關聯。 「預設來源」會指派給「預設庫存」，並與「預設」網站相關聯。
+第一次安裝/升級時，所有的產品都會指定給預設來源，將所有數量與該來源相關聯。 預設Source會指派給預設庫存，並關聯預設網站。
 
 ## 解決方案
 
 如果您有多個網站，您需要將這些網站新增為預設庫存或其他自訂庫存的Sales Channel。
 
-請參閱 [Wiki/使用手冊的「庫存」區段](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html) 詳細資訊，請參閱我們的使用指南。
+請參閱使用手冊中Wiki/使用手冊的[Stock區段](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html)，瞭解如何操作的詳細資訊。

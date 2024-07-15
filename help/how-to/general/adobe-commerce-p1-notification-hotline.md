@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ## P1事件定義
 
-如中的定義 [Adobe Commerce支援服務條款與條件](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)：「P1事件是服務內的災難性生產事件，會嚴重影響客戶網站，造成網站停止運作或接受訂單，或是客戶網站完全停止運作或無法運作，或是導致生產資料遺失，且不存在因應措施。 P1事件必須回報於Adobe的免費P1電話號碼，以加快解決速度。 Adobe將持續努力，並適當向上呈報給高級管理層，以便在商業上合理時立即解決P1事件。」
+如[Adobe Commerce支援服務條款與條件](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)所定義： 「P1事件是服務內的災難性生產事件，會嚴重影響客戶網站，造成網站停止運作或接受訂單，或客戶網站完全停止運作或無法運作，或導致生產資料遺失且不存在因應措施。 P1事件必須回報於Adobe的免費P1電話號碼，以加快解決速度。 Adobe將持續努力，並適當向上呈報給高級管理層，以便在商業上合理時立即解決P1事件。」
 
 ## P1通知熱線電話原則
 
 * P1通知熱線可用於報告P1層級問題。 （請參閱上一節中的P1事件定義）。
-* [提交支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket) ，然後再撥打Adobe Commerce P1通知熱線。
+* 在呼叫Adobe Commerce P1通知熱線前，請先提交支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)。[
 * 調查、疑難排解和通訊將僅在支援票證內進行。
 * 在呼叫之前，直接將您可能擁有的所有其他問題相關資訊新增到票證。
 * 打電話時，請確定有票證號碼。

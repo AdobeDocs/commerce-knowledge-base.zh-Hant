@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 問題
 
-在已安裝B2B擴充功能的Adobe Commerce 2.2.1中，註冊客戶在店面建立的訂單不會顯示在Commerce管理員客戶帳戶的訂單清單中。 在偵錯記錄檔中(`./var/log/debug.log`)，則會記錄下列錯誤：
+在已安裝B2B擴充功能的Adobe Commerce 2.2.1中，註冊客戶在店面建立的訂單不會顯示在Commerce管理員客戶帳戶的訂單清單中。 在偵錯記錄檔(`./var/log/debug.log`)中，記錄下列錯誤：
 
 `report.CRITICAL: You cannot define a correlation name ‘company_order’ more than once`
 
@@ -30,9 +30,9 @@ ht-degree: 0%
 1. 導覽至店面並建立客戶帳戶。
 1. 新增產品至購物車、完成結帳並提交訂單。
 1. 登入管理員。
-1. 瀏覽至 **客戶，** 然後選擇 **所有客戶**.
-1. 對於新建立的客戶，按一下 **編輯**.
-1. 按一下 **訂購** 在左側的面板中。
+1. 瀏覽至&#x200B;**客戶，**&#x200B;然後選擇&#x200B;**所有客戶**。
+1. 對於新建立的客戶，請按一下[編輯]。****
+1. 按一下左側面板中的&#x200B;**訂單**。
 
 <u>預期結果</u>：
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

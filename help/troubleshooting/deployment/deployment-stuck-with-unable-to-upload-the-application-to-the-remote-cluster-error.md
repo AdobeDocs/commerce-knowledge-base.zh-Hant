@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 部署卡住，並出現「無法將應用程式上傳到遠端叢集」錯誤
 
-本文提供Adobe Commerce問題的解決方案，其中部署受阻，且在部署記錄檔中可找到下列錯誤訊息： *「錯誤：無法將應用程式上傳至遠端叢集」*.
+本文針對Adobe Commerce問題提供解決方案，該問題導致部署卡住，且在部署記錄檔中可找到下列錯誤訊息： *「錯誤：無法上傳應用程式至遠端叢集」*。
 
 ## 受影響的產品和版本
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-部署卡住，並且在雲端UI的部署錯誤記錄中，會顯示以下錯誤訊息： *「錯誤：無法上傳應用程式至遠端叢集」在部署失敗後於部署記錄中找到，網站可能會顯示錯誤「503第一個位元組逾時」*.
+部署卡住，在雲端UI的部署錯誤記錄中，會顯示下列錯誤訊息： *&quot;錯誤：部署失敗後，無法將應用程式上傳到部署記錄中的遠端叢集&quot;，網站可能會顯示錯誤「503第一個位元組逾時」*。
 
 ## 原因
 
@@ -48,4 +48,4 @@ ht-degree: 0%
 * `var/debug/`
 * `var`
 
-如果您使用Adobe Commerce雲端基礎結構入門計畫架構，如需有關如何增加磁碟空間的詳細資訊，請參閱 [增加雲端整合環境的磁碟空間](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md) 在我們的支援知識庫中。 相同的指示可用於在雲端基礎結構上增加Adobe Commerce的空間Pro規劃架構整合環境。 若為Pro生產/測試，您需要 [向Adobe Commerce支援提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket) 並要求增加磁碟空間。 但是，通常您不必在Pro計畫的測試/生產上處理這個問題，因為Adobe Commerce會監視這些引數，並警示您，及/或根據合約採取動作。
+如需如何在雲端基礎結構上使用Adobe Commerce時增加磁碟空間的詳細資訊，請參閱我們的支援知識庫中的[增加雲端整合環境的磁碟空間](/help/how-to/general/increase-disk-space-for-integration-environment-on-cloud.md)。 相同的指示可用於在雲端基礎結構上增加Adobe Commerce的空間Pro規劃架構整合環境。 若為Pro Production/Staging，您需要[向Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket-Submit-a-support-ticket)提出票證並請求增加磁碟空間。 但是，通常您不必在Pro計畫的測試/生產上處理這個問題，因為Adobe Commerce會監視這些引數，並警示您，及/或根據合約採取動作。

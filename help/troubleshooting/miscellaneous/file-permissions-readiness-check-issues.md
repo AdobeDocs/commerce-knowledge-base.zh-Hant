@@ -19,12 +19,12 @@ ht-degree: 0%
 
 您解決此問題的方式取決於您是設定一位使用者還是兩位使用者：
 
-* *一位使用者* 這表示您是以同時執行網頁伺服器的相同使用者身分登入Adobe Commerce伺服器。 這類設定在共用託管環境中很常見。
-* *兩個使用者* 表示您通常 *無法* 以網頁伺服器使用者身分登入或切換至該使用者。 您通常會以單一使用者身分登入，並以其他使用者身分執行網頁伺服器。 這是一般私人託管或您擁有自己的伺服器的情況。
+* *一位使用者*&#x200B;表示您是以同時執行網頁伺服器的相同使用者登入Adobe Commerce伺服器。 這類設定在共用託管環境中很常見。
+* *兩個使用者*&#x200B;表示您通常&#x200B;*無法*&#x200B;以網頁伺服器使用者的身分登入或切換至該使用者。 您通常會以單一使用者身分登入，並以其他使用者身分執行網頁伺服器。 這是一般私人託管或您擁有自己的伺服器的情況。
 
 ## 單一使用者解析度
 
-如果您有命令列存取權，請假設您在中安裝了Adobe Commerce，請輸入以下命令 `/var/www/html/magento2`：
+如果您有命令列存取權，假設已在`/var/www/html/magento2`中安裝Adobe Commerce，請輸入下列命令：
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+w {} + && chmod u+x bin/magento
@@ -34,13 +34,13 @@ $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -typ
 
 ## 雙使用者解析度
 
-若要選擇在一行中輸入所有命令，請輸入以下內容(假設Adobe Commerce已安裝在中) `/var/www/html/magento2` 而且網頁伺服器群組名稱為 `apache`：
+若要選擇在一行中輸入所有命令，請輸入以下假設Adobe Commerce已安裝在`/var/www/html/magento2`中，且Web伺服器群組名稱為`apache`：
 
 ```bash
 $ cd /var/www/html/magento2 && find var vendor pub/static pub/media app/etc -type f -exec chmod g+w {} + && find var vendor pub/static pub/media app/etc -type d -exec chmod g+ws {} + && chown -R :apache . && chmod u+x bin/magento
 ```
 
-如果檔案系統許可權設定不正確，且Adobe Commerce檔案系統擁有者無法變更，您可以輸入命令，作為使用者，使用 `root` 許可權：
+如果檔案系統許可權設定不正確，且無法由Adobe Commerce檔案系統擁有者變更，您可以以`root`許可權的使用者身分輸入命令：
 
 ```bash
 $ cd /var/www/html/magento2 && sudo find var vendor

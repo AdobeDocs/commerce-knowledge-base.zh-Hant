@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>要再現的步驟</u>
 
-(先決條件：確認存放區不在 [維護模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show))。
+（先決條件：確定存放區不是[維護模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)）。
 
 在網頁瀏覽器中導覽至您的Commerce管理員或店面。
 
@@ -33,17 +33,17 @@ Adobe Commerce 2.3.x
 
 <u>實際結果</u>
 
-您收到HTTP 503 （服務無法使用）錯誤。 Apache `error.log` 包含下列訊息：
+您收到HTTP 503 （服務無法使用）錯誤。 Apache `error.log`包含下列訊息：
 
-*無效的命令&#39;Order&#39;，可能拼寫錯誤或是由未包含在伺服器設定中的模組定義。*
+*無效的命令&#39;Order&#39;，可能拼字錯誤或是由未包含在伺服器組態中的模組所定義。*
 
 ## 原因 {#details}
 
-Apache 2.4相容性模組 `mod_access_compat` 會導致Adobe Commerce URL重寫無法正常運作。
+Apache 2.4相容性模組`mod_access_compat`已停用，導致Adobe Commerce URL重寫無法正常運作。
 
 ## 解決方案 {#suggested-solution}
 
-啟用 `mod_access_compat` Apache模組並重新啟動Apache，方式為以具有「root」許可權的使用者身分執行以下命令：
+以具有&#39;root&#39;許可權的使用者身分執行以下命令，以啟用`mod_access_compat` Apache模組並重新啟動Apache：
 
 ```bash
 a2enmod access_compat
@@ -78,7 +78,7 @@ apache2
 
 ## 相關閱讀 {#additional-resources}
 
-* [有關mod\_access\_compat的Apache檔案](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)
-* [有關mod\_authz\_host的Apache檔案](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)
-* [Apache Definitive指南中的Order、Allow、Deny](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)
+* [有關mod\_access\_compat](https://httpd.apache.org/docs/current/mod/mod_access_compat.html)的Apache檔案
+* [有關mod\_authz\_host](https://httpd.apache.org/docs/current/mod/mod_authz_host.html)的Apache檔案
+* [從Apache Definitive Guide](https://docstore.mik.ua/orelly/linux/apache/ch05_06.htm)訂購、允許、拒絕
 * [askubuntu.com](https://askubuntu.com/questions/335228/changes-in-apache-config-between-12-04-2-and-12-04-3-lts)

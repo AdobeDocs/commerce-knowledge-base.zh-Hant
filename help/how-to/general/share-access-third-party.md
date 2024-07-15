@@ -27,11 +27,11 @@ ht-degree: 0%
 
 * 提供您的協力廠商雲端環境的存取權。 相關文章：
 
-   * [Adobe Commerce說明中心使用手冊>共用存取權：授予許可權給其他使用者，讓其他使用者存取您的帳戶](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) 在我們的支援知識庫中。
-   * [共用您的Commerce帳戶](https://docs.magento.com/user-guide/magento/magento-account-share.html) 在我們的使用手冊中。
+   * [Adobe Commerce說明中心使用手冊>共用存取權：授予其他使用者存取您帳戶的許可權](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) （在我們的支援知識庫中）。
+   * 在我們的使用手冊中[共用您的Commerce帳戶](https://docs.magento.com/user-guide/magento/magento-account-share.html)。
 
-* 建立資料庫傾印（或給予第三方廠商執行此作業的存取權）。 這可以使用CLI或在Commerce Admin中完成。 此DB傾印會模糊化客戶資料，因此他們只得到程式碼和產品SKU等，沒有專有/客戶資料。 如需參考，請使用 [共用您的Commerce帳戶] (/help/how-to/general/create-database-dump-on-cloud.md)在我們的支援知識庫中。
-* 測試完成後，請務必撤銷對雲端環境的共用存取權，如所述 [Adobe Commerce說明中心使用手冊>撤銷（刪除共用存取權）](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access) 在我們的支援知識庫中。
+* 建立資料庫傾印（或給予第三方廠商執行此作業的存取權）。 這可以使用CLI或在Commerce Admin中完成。 此DB傾印會模糊化客戶資料，因此他們只得到程式碼和產品SKU等，沒有專有/客戶資料。 若需參考資訊，請在我們的支援知識庫中使用[共用您的Commerce帳戶] (/help/how-to/general/create-database-dump-on-cloud.md)。
+* 測試完成後，請務必撤銷雲端環境的共用存取權，如支援知識庫中的[Adobe Commerce說明中心使用手冊>撤銷（刪除共用存取權）](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access)所述。
 
 ## 測試最佳實務
 
@@ -39,4 +39,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [在Adobe Commerce中使用協力廠商擴充功能的最佳作法](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento) 在我們的支援知識庫中。
+* [在我們的支援知識庫中，在Adobe Commerce中使用協力廠商擴充功能的最佳作法](https://support.magento.com/hc/en-us/articles/360042361152-Best-Practices-for-using-third-party-extensions-in-Magento)。

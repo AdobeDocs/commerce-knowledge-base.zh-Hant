@@ -17,37 +17,37 @@ ht-degree: 0%
 
 ## 範例
 
-*&#39;PHP嚴重錯誤：超過60秒的最大執行時間....&#39;*
+*&#39;PHP嚴重錯誤：在....&#39;*&#x200B;中超過60秒的最大執行時間
 
 ## 解決方案
 
-您可以設定自訂，更新最大執行時間 `max_execution_time` 中的值 `php.ini` 檔案與重新部署。
+您可以在`php.ini`檔案中設定自訂`max_execution_time`值，然後重新部署，以更新最長執行時間。
 
 例如：
 
 `max_execution_time = 120`
 
-請參閱 [自訂php.ini設定](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) 文章。
+請參閱[自訂php.ini設定](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)文章。
 
 ## 範例
 
-*&#39;PHP嚴重錯誤：允許的記憶體大小已耗盡792723456個位元組&#39;* （這只是位元組大小的範例。）
+*&#39;PHP嚴重錯誤：已耗用792723456個位元組的允許記憶體大小&#39;* （這只是位元組大小的範例）。
 
 ## 解決方案
 
-自訂您的 `php.ini` 設定。 請參閱此 [自訂php.ini設定](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html) 文章。
+自訂您的`php.ini`設定。 請參閱此[自訂php.ini設定](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)文章。
 
 ## 範例
 
-*「PHP警告：未知：無法開啟資料流：沒有這樣的檔案或目錄」*
+*&#39;PHP警告：未知：無法開啟資料流：沒有這樣的檔案或目錄&#39;*
 
 ## 解決方案
 
-請確定您並未移除 `php.ini` 檔案。 在Windows上，行尾以歸位（ASCII 0x0d或\r）和新行(\n)的組合結束，也稱為CR/LF。
+請確定您未移除`php.ini`檔案中的Windows樣式結尾。 在Windows上，行尾以歸位（ASCII 0x0d或\r）和新行(\n)的組合結束，也稱為CR/LF。
 
 ## 範例
 
-*&#39;PHP嚴重錯誤：未攔截到的PDOException： SQLSTATE\[HY000\] \[1040\]中有太多連線&#39;*
+*&#39;PHP嚴重錯誤：未攔截到的PDOException： SQLSTATE\[HY000\] \[1040\] &#39;*&#x200B;中有太多連線
 
 ## 解決方案
 
@@ -55,11 +55,11 @@ MySQL環境的磁碟空間已用完。 為MySQL環境提供更多磁碟空間。
 
 ## 範例
 
-*&#39;PHP嚴重錯誤：未攔截到的TypeError：傳回Magento的值&#39;*
+*&#39;PHP嚴重錯誤：未擷取的TypeError：傳回Magento&#39;*&#x200B;的值
 
 ## 解決方案
 
-檢查 `<root>/tmp` 目錄，因為它可能已滿。 如果空間已滿，請在目錄中提供更多空間。 這可能只是將檔案移動到另一個目錄或刪除它們。
+檢查`<root>/tmp`目錄，因為它可能已滿。 如果空間已滿，請在目錄中提供更多空間。 這可能只是將檔案移動到另一個目錄或刪除它們。
 
 ## 相關閱讀
 

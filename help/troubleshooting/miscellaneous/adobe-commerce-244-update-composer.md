@@ -29,8 +29,8 @@ ht-degree: 0%
 
 先決條件：已安裝Adobe Commerce 2.4.3或更舊版本。
 
-1. 依照中的說明開始升級 [執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html).
-1. 執行 `composer update` 用來升級Adobe Commerce應用程式的命令。
+1. 開始升級，如[執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)中所述。
+1. 執行`composer update`命令以升級Adobe Commerce應用程式。
 
 <u>預期結果</u>：
 
@@ -58,13 +58,13 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 ## 原因
 
-2022年7月後，Composer變更 [`allow-plugins` 選項](https://getcomposer.org/doc/06-config.md#allow-plugins) 至 `{}` 除非允許，否則將不會再載入外掛程式。
+2022年7月後，Composer將[`allow-plugins`選項](https://getcomposer.org/doc/06-config.md#allow-plugins)的預設值變更為`{}`，除非允許，否則將不會再載入外掛程式。
 
 ## 解決方案
 
-將下列專案新增至 `composer.json` 檔案，視您安裝Adobe Commerce的方式而定：
+根據您安裝Adobe Commerce的方式，將下列專案新增至您的`composer.json`檔案：
 
-* 如果專案已建立 [使用 `composer create-project` 命令](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)：
+* 如果已使用`composer create-project`命令](https://devdocs.magento.com/guides/v2.4/install-gde/composer.html#get-the-metapackage)建立專案[：
 
   ```json
   "config": {
@@ -76,7 +76,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
   }
   ```
 
-* 如果專案是以其他方式建立的，而且沒有 `"dealerdirect/phpcodesniffer-installer"` 在 `"require-dev"` 區段：
+* 如果專案是以其他方式建立的，且`"require-dev"`區段中沒有`"dealerdirect/phpcodesniffer-installer"`：
 
   ```json
   "config": {
@@ -87,4 +87,4 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
   }
   ```
 
-更新後 `composer.json` 檔案，執行 `composer update` 命令並重新啟動升級程式。
+更新`composer.json`檔案之後，請執行`composer update`命令並重新啟動升級程式。

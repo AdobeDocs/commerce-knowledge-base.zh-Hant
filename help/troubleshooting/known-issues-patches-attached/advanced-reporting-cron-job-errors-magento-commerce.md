@@ -21,27 +21,27 @@ Adobe Commerce （所有部署選項） 2.3.x
 
 ## 問題
 
-客戶嘗試存取進階報告時收到404錯誤，且關聯的記錄中有錯誤 `analytics_collect_data job` .
+客戶嘗試存取進階報告時收到404錯誤，且與`analytics_collect_data job`關聯的記錄中有錯誤。
 
 ## 相容的Magento版本：
 
 修補程式與下列Adobe Commerce版本相容（但可能無法解決問題）：
 
-* [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip)：Adobe Commerce （所有部署選項） 2.3.1-2.3.4-p2
-* [MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)：Adobe Commerce （所有部署選項） 2.3.0
-* [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip)：Adobe Commerce （所有部署選項） 2.3.0
+* [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip)： Adobe Commerce （所有部署選項） 2.3.1-2.3.4-p2
+* [MDVA-18980\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)： Adobe Commerce （所有部署選項） 2.3.0
+* [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip)： Adobe Commerce （所有部署選項） 2.3.0
 
 ## **解決方案**
 
 若要修正此問題，請套用本文附加的相關修補程式。 若要下載，請按一下下列連結：
 
-* 下載 [MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip)
-* 下載 [MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip)
-* 下載 [MDVA-18980\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)
+* 下載[MDVA-19391\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip)
+* 下載[MDVA-15136\_EE\_2.2.6\_COMPOSER\_v1.patch](assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip)
+* 下載[MDVA-18980\_EE\_2.3.1\_COMPOSER\_v1.patch](assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip)
 
 若要檢查要使用的修正程式：
 
-<ol><li>使用下列命令檢閱記錄檔：<code>grep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz</code>
+<ol><li>使用下列命令檢閱記錄檔： <code>grep analytics_collect_data var/log/support_report.log var/log/support_report.log.1.gz</code>
 </li><li>根據您看到的錯誤，使用下表中的資訊選取修正程式。<table style="width: 826px;">
 <tbody>
 <tr>
@@ -52,21 +52,26 @@ Adobe Commerce （所有部署選項） 2.3.x
 </tr>
 <tr>
 <td>
-<pre>report.CRITICAL：執行cron作業時發生錯誤{"exception"："[object] (RuntimeException(code： 0)：在/srv/public_html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php：327執行cron作業時發生錯誤，TypeError(code： 0)： substr_count()預期引數1為字串，在/srv/public_html/vendor/magento/module-page-builder-analytics/Model/ContentTypeUsageReportProvider.php：106)"}指定為空[]</pre>或<pre>report.ERROR： Cron作業analytics_collect_data有錯誤： substr_count()預期引數1為字串，但指定null。 統計資料： {"sum"：0，"count"：1，"realmem"：0，"emalloc"：0，"realmem_start"：224919552，"emalloc_start"：216398384}
+<pre>report.CRITICAL：執行cron作業{"exception"："[object] (RuntimeException(code：
+  0)：在/srv/public_html/vendor/magento/module-cron/Observer/ProcessCronQueueObserver.php：327執行cron作業時發生錯誤，
+  TypeError（代碼： 0）： substr_count()預期引數1為字串，但指定null
+  在/srv/public_html/vendor/magento/module-page-builder-analytics/Model/ContentTypeUsageReportProvider.php：106)"}
+  []</pre>或<pre>report.ERROR： Cron作業analytics_collect_data有錯誤： substr_count()預期
+  引數1為字串，指定為null。 統計資料： {"sum"：0，"count"：1，"realmem"：0，"emalloc"：0，"realmem_start"：224919552，"emalloc_start"：216398384}
   [] []</pre>
 <p> </p>
 </td>
-<td>套用<a href="assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch">MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip</a>，請清除快取並等待24小時，讓工作再次執行，然後再試一次。</td>
+<td>套用<a href="assets/MDVA-19391_EE_2.3.1_COMPOSER_v1.patch">MDVA-19391_EE_2.3.1_COMPOSER_v1.patch.zip</a>，清除快取並等待24小時讓工作再次執行，然後再試一次。</td>
 </tr>
 <tr>
 <td>
 <p><em>無法開啟檔案/tmp/analytics/tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/../tmp/.../tmp/.../</em></p>
 </td>
-<td>套用<a href="assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch">MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip</a>，請清除快取並等待24小時，讓工作再次執行，然後再試一次。</td>
+<td>套用<a href="assets/MDVA-15136_EE_2.2.6_COMPOSER_v1.patch">MDVA-15136_EE_2.2.6_COMPOSER_v1.patch.zip</a>，清除快取並等待24小時讓工作再次執行，然後再試一次。</td>
 </tr>
 <tr>
 <td><em>密碼無效</em></td>
-<td>套用<a href="assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch">MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip</a>，請清除快取並等待24小時，讓工作再次執行，然後再試一次。</td>
+<td>套用<a href="assets/MDVA-18980_EE_2.2.6_COMPOSER_v1.patch">MDVA-18980_EE_2.2.6_COMPOSER_v1.patch.zip</a>，清除快取並等待24小時讓工作再次執行，然後再試一次。</td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +79,7 @@ Adobe Commerce （所有部署選項） 2.3.x
 
 ## 如何套用修補程式
 
-解壓縮檔案並遵循中的指示 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md).
+解壓縮檔案並遵循[中的指示如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 相關閱讀
 

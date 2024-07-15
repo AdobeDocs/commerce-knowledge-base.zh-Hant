@@ -26,8 +26,8 @@ ht-degree: 0%
 <u>要再現的步驟</u>：
 
 1. 將任何產品新增到店面的購物車、進行結帳，然後下訂單。
-1. 在Commerce管理員中，導覽至 **銷售** > **作業** > **訂購**. 檢視格線中的顯示順序。
-1. 瀏覽至 **銷售** > **封存** > **訂購**. 檢視格線中的新順序。
+1. 在Commerce管理員中，瀏覽至&#x200B;**銷售** > **作業** > **訂單**。 檢視格線中的顯示順序。
+1. 導覽至&#x200B;**銷售** > **封存** > **訂單**。 檢視格線中的新順序。
 
 <u>預期結果</u>：
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 使用手冊中的實用連結
 

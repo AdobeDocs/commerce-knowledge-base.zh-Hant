@@ -37,10 +37,10 @@ ht-degree: 0%
    ```
 
    * 如果未傳回任何結果，則表示尚未設定寄件者地址。
-   * 如果它傳回結果，請繼續前往 **步驟2**.
+   * 如果它傳回結果，請繼續進行&#x200B;**步驟2**。
 
 1. 如果電子郵件出現在您的「垃圾訊息」資料夾中，請按一下電子郵件中的連結。 如果連結已經過期，請再次嘗試登入以重複此程式。
-1. 取得存取許可權後，請前往 **商店** > **設定** > **一般** > **儲存電子郵件地址** 並設定電子郵件地址。
+1. 取得存取權後，請移至&#x200B;**商店** > **設定** > **一般** > **商店電子郵件地址**&#x200B;並設定電子郵件地址。
 
 ### 步驟2：若/在電子郵件地址已正確設定後，請透過SSH連線至環境並執行此命令：
 
@@ -48,8 +48,8 @@ ht-degree: 0%
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-檢查您的「垃圾訊息」資料夾中是否有電子郵件。 如果電子郵件出現在這裡， [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login) 以要求在SendGrid中為網域加上白色標籤。
+檢查您的「垃圾訊息」資料夾中是否有電子郵件。 如果電子郵件出現於該處，[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login)以要求在SendGrid中將網域標示為白色。
 
 ## 相關閱讀
 
-* [傳送格線](https://devdocs.magento.com/cloud/project/sendgrid.html) （位於我們的開發人員檔案中）。
+* [SendGrid](https://devdocs.magento.com/cloud/project/sendgrid.html) （在開發人員檔案中）。

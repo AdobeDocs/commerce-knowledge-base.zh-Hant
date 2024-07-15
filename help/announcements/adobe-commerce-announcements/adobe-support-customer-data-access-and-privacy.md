@@ -21,12 +21,12 @@ Adobe技術支援可能需要存取您的Adobe Commerce相關資料才能提供�
 
 若要授權存取：
 
-1. [登入](https://account.magento.com/customer/account/login) 以支援身分，並取得主要使用者的資格。
-1. 在 **[!UICONTROL My Account]** 頁面> **[!UICONTROL Account Settings]**，確定您已完成您的 [帳戶設定檔](https://account.magento.com/customer/account/edit) 並按一下 **[!UICONTROL Save]**.
-1. 在 **[!UICONTROL My Account]** 頁面> **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]**. 您將看到同意表單，以授予Adobe技術支援人員存取您資料的許可權。
-1. 檢閱隱私權設定的相關資訊後，選擇是否勾選 **我授權在以下期間記憶體取我的資料：**.
+1. [以授權主要使用者的支援身分登入](https://account.magento.com/customer/account/login)。
+1. 在&#x200B;**[!UICONTROL My Account]**&#x200B;頁面> **[!UICONTROL Account Settings]**&#x200B;上，確定您已完成[帳戶設定檔](https://account.magento.com/customer/account/edit)，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 在&#x200B;**[!UICONTROL My Account]**&#x200B;頁面> **[!UICONTROL Account Settings]** > **[!UICONTROL Privacy Settings]**。 您將看到同意表單，以授予Adobe技術支援人員存取您資料的許可權。
+1. 檢閱隱私權設定的相關資訊後，請選擇是否勾選&#x200B;**我授權在以下期間存取我的資料的核取方塊：**。
 1. 在持續時間下拉式清單中，選取您希望Adobe技術支援人員存取您的客戶資料的時間段。 您可以選取7天、30天、一年或無限期。
-1. 按一下 **[!UICONTROL Save]**. 這會更新下方頁面底部的開始和結束日期 **您已同意下列期間** （熒幕擷圖）。 取得同意後，授權的主要使用者將在畫面底部看到撤回同意的選項。
+1. 按一下&#x200B;**[!UICONTROL Save]**。 這會更新頁面底部&#x200B;**下方的開始和結束日期。您已同意下列持續時間** （熒幕擷取畫面）。 取得同意後，授權的主要使用者將在畫面底部看到撤回同意的選項。
    ![magento-account-privacy-settings.png](assets/magento-account-privacy-settings.png)
 
-您可以按一下 **撤回同意** 隨時撤回您對Adobe支援人員存取您資料的同意。
+您可以隨時按一下&#x200B;**撤回同意**&#x200B;以撤回您對Adobe支援人員存取您資料的同意。

@@ -9,13 +9,13 @@ ht-degree: 0%
 
 ---
 
-# ACSD-51739：請求時發生錯誤 `structure_id` 在 `CompanyTeam` GraphQL要求
+# ACSD-51739：在`CompanyTeam` GraphQL要求中要求`structure_id`時發生錯誤
 
-ACSD-51739修補程式修正了以下情況下傳回錯誤的問題： `structure_id` 在中請求 `CompanyTeam` GraphQL要求。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.34。 修補程式ID為ACSD-51739。 請注意，問題已在Adobe Commerce 2.4.7中修正。
+ACSD-51739修補程式修正在`CompanyTeam` GraphQL請求中請求`structure_id`時傳回錯誤的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.34時，即可使用此修補程式。 修補程式ID為ACSD-51739。 請注意，問題已在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.6
 
@@ -25,20 +25,20 @@ ACSD-51739修補程式修正了以下情況下傳回錯誤的問題： `structur
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-當下列情況時，會傳回錯誤 `structure_id` 在中請求 `CompanyTeam` GraphQL要求。
+在`CompanyTeam` GraphQL要求中要求`structure_id`時傳回錯誤。
 
 <u>要再現的步驟</u>
 
-1. 前往 **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**，並設定 *[!UICONTROL Enable Company]* 至 *是*.
+1. 移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL B2B Features]**，並將&#x200B;*[!UICONTROL Enable Company]*&#x200B;設定為&#x200B;*是*。
 1. 建立公司以及公司管理員使用者。
-1. 建立新客戶(*customer1*)，並將公司（以上所建立）指派給此客戶。
+1. 建立新客戶(*customer1*)，並將公司（以上建立的）指派給此客戶。
 1. 在前，以公司管理員使用者身分登入。
-1. 建立公司團隊並指派 *customer1* 使用拖放功能加入專案團隊。
-1. 執行以下公司GraphQl查詢，包括 `CompanyTeam` 替換為 `structure_id`：
+1. 建立公司團隊，並使用拖放將&#x200B;*customer1*&#x200B;指派給團隊。
+1. 執行以下公司GraphQl查詢，包括具有`structure_id`的`CompanyTeam`：
 
    ```GraphQL
    query{
@@ -77,8 +77,8 @@ ACSD-51739修補程式修正了以下情況下傳回錯誤的問題： `structur
 
 <u>實際結果</u>：
 
-* 回應包含 *內部伺服器錯誤*.
-* `var/log/exception.log` 包含：
+* 回應包含&#x200B;*內部伺服器錯誤*。
+* `var/log/exception.log`包含：
 
   ```
   report.ERROR: Cannot return null for non-nullable field "CompanyTeam.structure_id"
@@ -88,14 +88,14 @@ ACSD-51739修補程式修正了以下情況下傳回錯誤的問題： `structur
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 問題
 
-2019年向Adobe Commerce回報了錯誤，允許將失敗的登入嘗試登入Adobe Commerce 2.3.x和2.2.x中的資料庫。為回應此問題，Adobe Commerce在Adobe Commerce 2.3.3和2.2.10 （2019年10月發行）中納入了修正。 雖然該錯誤的修正已停止記錄失敗的登入嘗試，但在更新到這些目前版本之前收集的資訊可能仍然存在。 此最新修正會清除先前記錄的登入嘗試資訊（如果有的話）。   CVE-2019-8118的說明和追蹤，請參閱 [常見弱點與暴露](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8118).
+2019年向Adobe Commerce回報了錯誤，允許將失敗的登入嘗試登入Adobe Commerce 2.3.x和2.2.x中的資料庫。為回應此問題，Adobe Commerce在Adobe Commerce 2.3.3和2.2.10 （2019年10月發行）中納入了修正。 雖然該錯誤的修正已停止記錄失敗的登入嘗試，但在更新到這些目前版本之前收集的資訊可能仍然存在。 此最新修正會清除先前記錄的登入嘗試資訊（如果有的話）。   CVE-2019-8118已在[常見漏洞和暴露](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-8118)中說明和追蹤。
 
 ## 解決方案
 
@@ -36,25 +36,25 @@ ht-degree: 0%
 
 對於這些版本，您必須套用修補程式並執行附加的資料庫清理指令碼，以結束持續記錄並消除記錄。
 
-1. 執行Composer修補程式以停止記錄。 此修補程式已附加至文章。 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱，或按一下以下連結 [CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip). 如需如何套用修補程式的說明，請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+1. 執行Composer修補程式以停止記錄。 此修補程式已附加至文章。 若要下載，請向下捲動至文章結尾並按一下檔案名稱，或按一下下列連結[CLEANUP\_PATCH\_COMPOSER\_2.3.2.patch](assets/CLEANUP_PATCH_COMPOSER_2.3.2.patch.zip)。 如需如何套用修補程式的說明，請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
-1. 現在執行指令碼以清除先前存在的失敗登入嘗試的資料庫。 此指令碼已附加至文章。 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱，或按一下以下連結 [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
+1. 現在執行指令碼以清除先前存在的失敗登入嘗試的資料庫。 此指令碼已附加至文章。 若要下載，請向下捲動至文章結尾並按一下檔案名稱，或按一下下列連結[DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip)。
 
-請參閱 [**如何執行指令碼**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) 區段以取得指示。
+如需指示，請參閱&#x200B;[**如何執行指令碼**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script)&#x200B;區段。
 
-**Adobe Commerce和Magento Open Source 2.3.3及更高版本/2.2.10及更高版本**<br>
-僅針對這些版本，執行以下指令碼以清除舊記錄（先前透過2019年10月發佈的修正已結束這些版本的記錄）。 此指令碼已附加至文章。 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱，或按一下以下連結 [DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip).
+**Adobe Commerce和Magento Open Source版本2.3.3及更高版本/2.2.10及更高版本**<br>
+僅針對這些版本，執行以下指令碼以清除舊記錄（先前透過2019年10月發佈的修正已結束這些版本的記錄）。 此指令碼已附加至文章。 若要下載，請向下捲動至文章結尾並按一下檔案名稱，或按一下下列連結[DB\_CLEANUP\_SCRIPT\_v2.php](assets/DB_CLEANUP_SCRIPT_v2.php.zip)。
 
-請參閱 [**如何執行指令碼**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script) 一節，以取得指示。
+請參閱我們的支援知識庫中的&#x200B;[**如何執行指令碼**](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md#run_script)&#x200B;一節，以取得指示。
 
 **如何執行指令碼**
 
 請依照下列指示執行指令碼：
 
-1. Put `DB_CLEANUP_SCRIPT_v2.php` 在Adobe Commerce或Magento Open Source安裝的根目錄中（與包含下列專案的應用程式相同的目錄中） `app/bootstrap.php`)。
-1. 在終端機中執行此命令： `php DB_CLEANUP_SCRIPT_v2.php` 而且會開始資料庫清理程式。
+1. 將`DB_CLEANUP_SCRIPT_v2.php`放在Adobe Commerce或Magento Open Source安裝的根目錄中（與包含`app/bootstrap.php`的應用程式位於同一個目錄中）。
+1. 在終端機中執行此命令： `php DB_CLEANUP_SCRIPT_v2.php`，它將開始資料庫清理程式。
 
-如果您在執行指令碼時遇到任何問題，請 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 或寄電子郵件給我們： [security@magento.com](mailto:security@magento.com).
+如果您在執行指令碼時遇到任何問題，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，或傳送電子郵件至[security@magento.com](mailto:security@magento.com)。
 
 **附加的檔案**
 

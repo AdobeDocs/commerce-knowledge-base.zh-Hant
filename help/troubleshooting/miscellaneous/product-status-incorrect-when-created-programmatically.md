@@ -26,12 +26,12 @@ ht-degree: 0%
 
 ## 原因
 
-由於Adobe Commerce執行個體管理員角色設定的ACL限制，問題可能會出現。 若是啟動的應用程式，將不會有具有適當ACL設定的初始化管理工作階段。 這會導致中的驗證失敗 `Magento_AdminGws` 模組，負責此類動作的許可權檢查。
+由於Adobe Commerce執行個體管理員角色設定的ACL限制，問題可能會出現。 若是啟動的應用程式，將不會有具有適當ACL設定的初始化管理工作階段。 這會導致`Magento_AdminGws`模組中的驗證失敗，而模組負責檢查此類動作的許可權。
 
 ## 不正確產品狀態的解決方案
 
-設定動態ID偏好設定 `Magento\Framework\Authorization\PolicyInterface`，如 [ObjectManager>程式化產品更新](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates) 我們開發人員檔案中的主題。
+設定`Magento\Framework\Authorization\PolicyInterface`的動態DI偏好設定，如開發人員檔案中的[ObjectManager>程式設計產品更新](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/object-manager.html#programmatic-product-updates)主題所述。
 
 ## 相關閱讀
 
-* [Github：無法變更使用productRepository所建立之產品的產品狀態](https://github.com/magento/magento2/issues/5664)
+* [Github：無法變更使用productRepository](https://github.com/magento/magento2/issues/5664)建立的產品狀態

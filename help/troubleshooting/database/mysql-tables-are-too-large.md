@@ -28,10 +28,10 @@ MySQL表格大小不會直接影響網站效能。 但是，如果表格很大�
 
 請考慮下列選項，以避免效能降低：
 
-* 建立CRON作業，以便清理大型資料表。 另請參閱 [尋找大型MySQL表格](/help/how-to/general/find-large-mysql-tables.md) 在我們的支援知識庫中，提供如何識別大型表格的建議。
+* 建立CRON作業，以便清理大型資料表。 請參閱我們的支援知識庫中的[尋找大型MySQL資料表](/help/how-to/general/find-large-mysql-tables.md)，以取得如何識別大型資料表的建議。
 * 對於大於1 GB的表格，請使用針對記錄寫入最佳化的MySQL引擎。 例如，封存引擎。
 * 更新功能以避免將記錄檔儲存在DB中。
 
 ## 相關閱讀
 
-[變更記錄表過大，導致實體更新延遲](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md) 在我們的支援知識庫中。
+[超大的變更記錄檔表格造成我們的支援知識庫中的實體更新延遲](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)。

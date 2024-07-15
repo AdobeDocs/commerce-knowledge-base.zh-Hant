@@ -34,7 +34,8 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 <td>網站</td>
 </tr>
 <tr>
-<td rowspan="2">雲端基礎結構上的Adobe Commerce內部部署和Adobe Commerce</td>
+<td rowspan="2">Adobe Commerce內部部署和
+雲端基礎結構上的Adobe Commerce</td>
 <td>
 <p>開發人員（技術）檔案：</p>
 <p><a href="https://developer.adobe.com/commerce/docs/">https://developer.adobe.com/commerce/docs/</a></p>
@@ -101,5 +102,5 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 ## 部落格和通訊
 
 * Adobe信任中心（安全性更新和修補程式）： [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
-* Adobe Commerce社群開發人員部落格（操作說明、最佳作法及社群提供的技術新聞）： [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
+* Adobe Commerce社群開發人員部落格（社群提供的做法、最佳實務和技術新聞）： [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
 * Adobe Commerce部落格（高階電子商務）：[https://business.adobe.com/blog/](https://business.adobe.com/blog/)

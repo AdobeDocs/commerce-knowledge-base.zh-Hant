@@ -24,8 +24,8 @@ ht-degree: 0%
 
 ## 以下是cron問題的症狀：
 
-* 您的更新或升級絕不會執行；會保留在 `pending` 州別。
-* 有關以下專案的錯誤訊息： [PHP](https://glossary.magento.com/php) 設定 `$HTTP_RAW_POST_DATA` 即使已正確設定，仍會顯示。
+* 您的更新或升級永遠不會執行；它保持在`pending`狀態。
+* 即使已正確設定[PHP](https://glossary.magento.com/php)設定`$HTTP_RAW_POST_DATA`，仍會顯示錯誤訊息。
 * cron整備檢查失敗。 可能的錯誤包括不可寫入的路徑以及未設定的cron。 範例如下：
 
   ![upgr-tshoot-no-cron2.png](assets/upgr-tshoot-no-cron2.png)
@@ -38,7 +38,7 @@ ht-degree: 0%
 
   ![compman-cron-not-running.png](assets/compman-cron-not-running.png)
 
-若要檢視錯誤，您可能需要按一下 **系統訊息** 視窗頂端的，如下所示：
+若要檢視錯誤，您可能需要按一下視窗頂端的&#x200B;**系統訊息**，如下所示：
 
 ![compman_sys-messages.png](assets/compman_sys-messages.png)
 
@@ -48,9 +48,9 @@ ht-degree: 0%
 
 若要確認您的crontab是否已設定，請執行下列步驟：
 
-1. 登入您的Magento伺服器，或切換至 [Magento檔案系統擁有者](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html).
-1. 檢視下列檔案是否存在：    `bash    ls -al <magento_root>/var/.setup_cronjob_status`. 如果檔案存在，則cron過去已順利執行。 如果檔案 *不會* 存在，表示您尚未安裝Magento或cron未執行。 無論是上述哪一種情況，請繼續進行下一個步驟。
-1. 取得有關cron的更多詳細資料。 作為使用者，具有 `root` 許可權，請輸入以下命令：    `bash    crontab -u <Magento file system owner name> -l`. 例如，在CentOS上 `bash    crontab -u magento_user -l`.  如果尚未為使用者設定crontab，則會顯示以下訊息：    `terminal    no crontab for magento_user`. 您的crontab會告訴您下列內容：
+1. 以[Magento檔案系統擁有者](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)身分登入或切換至您的Magento伺服器。
+1. 檢視下列檔案是否存在：    `bash    ls -al <magento_root>/var/.setup_cronjob_status`。 如果檔案存在，則cron過去已順利執行。 如果檔案&#x200B;*不存在*，表示您尚未安裝Magento或沒有執行cron。 無論是上述哪一種情況，請繼續進行下一個步驟。
+1. 取得有關cron的更多詳細資料。 以具有`root`許可權的使用者身分，輸入下列命令：    `bash    crontab -u <Magento file system owner name> -l`。 例如，在CentOS `bash    crontab -u magento_user -l`上。  如果尚未為使用者設定crontab，則會顯示以下訊息：    `terminal    no crontab for magento_user`。 您的crontab會告訴您下列內容：
 
    * 您正在使用的PHP二進位檔（在某些情況下，您有多個）
    * 您正在執行哪些Magentocron指令碼（尤其是這些指令碼的路徑）
@@ -62,18 +62,18 @@ ht-degree: 0%
 
 ### 未設定crontab的解決方案 {#solution-crontab-not-set-up}
 
-若要確認您的cron工作已正確設定，請參閱 [設定cron工作](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
+若要確認您的cron工作已正確設定，請參閱[設定cron工作](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron)。
 
 ### 從不正確的PHP二進位檔案執行cron的解決方案 {#solution-cron-running-from-incorrect-php-binary}
 
 如果您的cron作業使用與Web伺服器外掛程式不同的PHP二進位檔，則可能會顯示PHP設定錯誤。 若要解決此問題，請為PHP命令列和PHP Web伺服器外掛程式設定相同的PHP設定。
 
-如需有關PHP設定的詳細資訊，請參閱 [必要的PHP設定](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html) （位於我們的開發人員檔案中）。
+如需有關PHP設定的詳細資訊，請參閱我們的開發人員檔案中的[必要的PHP設定](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)。
 
 ### cron執行時發生錯誤的解決方案 {#solution-cron-running-with-errors}
 
-嘗試手動執行每個命令，因為命令可能會顯示有用的錯誤訊息。 另請參閱 [設定cron工作](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron).
+嘗試手動執行每個命令，因為命令可能會顯示有用的錯誤訊息。 請參閱[設定cron工作](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron)。
 
 >[!NOTE]
 >
->您必須至少執行cron *兩次* 要執行的工作；第一次將工作排入佇列，第二次執行工作。
+>您必須執行cron至少&#x200B;*兩次*，才能執行工作；第一次將工作排入佇列，第二次執行工作。

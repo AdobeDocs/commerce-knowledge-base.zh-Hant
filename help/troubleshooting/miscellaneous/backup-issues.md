@@ -35,26 +35,26 @@ Backup functionality is currently disabled. Please use other means for backups.
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-如需備份的其他資訊，請參閱 [備份並復原檔案系統、媒體及資料庫。](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+如需備份的其他資訊，請參閱[備份並復原檔案系統、媒體及資料庫。](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
 
 ## 磁碟空間不足 {#insufficient-disk-space-trouble-backup-space-}
 
 如果備份因磁碟空間不足而失敗，您通常應該將一些檔案移至其他儲存裝置或磁碟機來釋放磁碟空間。 不過，可能有其他方法可解決問題。 如需秘訣，請參閱下列資源之一：
 
-* [解決Linux與Unix系統硬碟問題的8個秘訣，例如磁碟已滿或無法寫入磁碟](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk)
-* [serverfault： df表示磁碟已滿，但並未滿](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)
-* [unix.stackexchange.com：追蹤Linux上磁碟空間的去向？](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
+* [8解決Linux與Unix系統硬碟問題的秘訣，例如磁碟已滿或無法寫入磁碟](https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk)
+* [serverfault： df指出磁碟已滿，但並非](https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not)
+* [unix.stackexchange.com：追蹤Linux上的磁碟空間位置？](https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux)
 
 ## 作業系統錯誤 {#operating-system-error-trouble-backup-os-}
 
 很遺憾，由於您可能會遇到的各種錯誤，我們無法建議任何特定內容。 不過，我們可以建議您：
 
 * 請連絡您的系統管理員。
-* 搜尋公開論壇，例如 [棧疊交換](https://unix.stackexchange.com) 或 [棧疊溢位](https://stackoverflow.com)
-* 開啟 [GitHub問題](https://github.com/magento/magento2/issues) 我們會盡力協助。
+* 搜尋[棧疊Exchange](https://unix.stackexchange.com)或[棧疊溢位](https://stackoverflow.com)之類的公開論壇
+* 開啟[GitHub問題](https://github.com/magento/magento2/issues)，我們會嘗試提供協助。
 
 ## 備份失敗 {#backup-fails-trouble-backup-all-}
 
-如果備份失敗或所有備份測試都失敗，則可以 [Adobe Commerce檔案系統擁有者](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html) 沒有足夠的Adobe Commerce檔案系統許可權和擁有權。 例如，另一個使用者可能擁有這些檔案，或者這些檔案可能是唯讀的。
+如果備份失敗或所有備份測試都失敗，[Adobe Commerce檔案系統擁有者](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html)可能沒有足夠的許可權和擁有該Adobe Commerce檔案系統。 例如，另一個使用者可能擁有這些檔案，或者這些檔案可能是唯讀的。
 
-請特別留意檔案系統許可權和擁有權 `<magento_root>/var` 目錄和子目錄。 如需詳細資訊，請參閱 [設定檔案系統許可權和擁有權](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html).
+請特別注意`<magento_root>/var`目錄和子目錄的檔案系統許可權和擁有權。 如需詳細資訊，請參閱[設定檔案系統許可權和擁有權](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html)。

@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 無法儲存 _送貨_ 作為URL索引鍵
+# 無法將&#x200B;_shipping_&#x200B;儲存為URL索引鍵
 
-本文提供當您無法將Shipping儲存為URL索引鍵(_例如， /shipping_)時，退出連結才可退出連結頁面。 當您嘗試儲存URL金鑰時，您會收到一個錯誤，指出URL金鑰是重複的URL。
+本文提供當您無法將shipping儲存為產品或CMS頁面的URL索引鍵（_例如， /shipping_）時，此問題的因應措施。 當您嘗試儲存URL金鑰時，您會收到一個錯誤，指出URL金鑰是重複的URL。
 
 ## 受影響的產品和版本
 
@@ -21,15 +21,15 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 問題
 
-您無法儲存含有辭彙的CMS頁面 _送貨_ URL索引鍵中。
+您無法在URL索引鍵中儲存字詞為&#x200B;_shipping_&#x200B;的CMS頁面。
 
 <u>要再現的步驟</u>：
 
-建立 **[!UICONTROL CMS page]** URL鍵為 _送貨_.
+以URL金鑰建立&#x200B;**[!UICONTROL CMS page]**，做為&#x200B;_送貨_。
 
 <u>預期結果</u>：
 
-頁面儲存方式 _送貨_ 做為URL索引鍵。
+頁面以&#x200B;_shipping_&#x200B;儲存為URL金鑰。
 
 <u>實際結果</u>：
 
@@ -38,7 +38,7 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 原因
 
-送貨是中定義的保留字 `vendor/magento/module-shipping/etc/frontend/routes.xml`.
+送貨是在`vendor/magento/module-shipping/etc/frontend/routes.xml`中定義的保留字。
 
 ```xml
 <router id="standard">
@@ -50,24 +50,24 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 解決方案
 
-您無法使用術語 _送貨_ 在您的URL金鑰中 — 不過您可以使用術語 _送貨_ 與其他字母或數字組合(_例如，shipping1和shipping2_)。
+您無法在您的URL金鑰中使用字詞&#x200B;_shipping_，但您可以將字詞&#x200B;_shipping_&#x200B;與其他字母或數字（_例如，shipping1和shipping2_）結合使用。
 
-雖然術語不一定要是 _送貨_+&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;>  — 只要長度不超過，一詞可以是任何字串 *255* 個字元。
+雖然字詞不一定要是&#x200B;_送貨_+&lt;其他數字或字母> — 只要長度不超過&#x200B;*255*&#x200B;個字元，字詞可以是任何字串。
 
 ## 執行下列步驟：
 
 1. 登入Adobe Commerce管理員。
-1. 前往 **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
-1. 按一下 **[!UICONTROL Add URL Rewrite]**.
-1. 選取 **[!UICONTROL Custom]** 在 **[!UICONTROL Create URL Rewrite]** 下拉式清單。
-   1. 輸入 [!UICONTROL Request Path] 作為 **_送貨_**.
-   1. 在 **[!UICONTROL Target Path]**，輸入新的URL索引鍵(_例如，「shipping1」_)。
-   1. 選取 **[!UICONTROL No]** 在 **[!UICONTROL Redirect]** 下拉式清單。
+1. 前往&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**。
+1. 按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
+1. 在&#x200B;**[!UICONTROL Create URL Rewrite]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL Custom]**。
+   1. 輸入[!UICONTROL Request Path]作為&#x200B;**_送貨_**。
+   1. 在&#x200B;**[!UICONTROL Target Path]**&#x200B;中，輸入新的URL索引鍵（_例如，&quot;shipping1&quot;_）。
+   1. 在&#x200B;**[!UICONTROL Redirect]**&#x200B;下拉式清單中選取&#x200B;**[!UICONTROL No]**。
 
 
-      (**注意**：請求路徑是使用者在瀏覽器中輸入的內容，而目標路徑是使用者應重新導向到的位置。)
+      （**注意**：請求路徑是使用者在瀏覽器中輸入的內容，而目標路徑是它應該重新導向到的位置。）
 
-此外，請避免使用這些標示為 *保留* 造成相同例外狀況出現的關鍵字。 使用下列任一關鍵字做為URL索引鍵值將會造成相同的錯誤。
+此外，請避免使用這些標示為&#x200B;*reserved*&#x200B;關鍵字的關鍵字，造成出現相同的例外狀況。 使用下列任一關鍵字做為URL索引鍵值將會造成相同的錯誤。
 
 
 ```
@@ -122,5 +122,5 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 相關閱讀
 
-* [URL重新寫入](https://docs.magento.com/user-guide/marketing/url-rewrite.html) （位於我們的銷售與促銷使用手冊中）。
-* [SEO最佳作法](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) 在我們的銷售與促銷使用手冊中……
+* 在我們的銷售與促銷使用手冊中，[URL重寫了](https://docs.magento.com/user-guide/marketing/url-rewrite.html)。
+* 我們的銷售與促銷使用手冊中的[SEO最佳作法](https://docs.magento.com/user-guide/marketing/seo-best-practices.html)..

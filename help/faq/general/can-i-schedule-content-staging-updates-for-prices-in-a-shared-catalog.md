@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # 我可以針對共用目錄中的價格排程內容測試更新嗎？
 
-Adobe Commerce不提供排程價格更新的功能([內容分段](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))中，一或多個產品的資訊。
+Adobe Commerce不提供為共用目錄中的一或多個產品排程價格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))的功能。
 
-也就是說，您不能直接從 **設定訂價與結構** Commerce管理面板的功能表(沒有 **排程新更新** 按鈕)。
+這表示您無法直接從Commerce管理面板的&#x200B;**設定定價與結構**&#x200B;功能表排程此價格更新（此功能表中沒有&#x200B;**排程新更新**&#x200B;按鈕）。
 
 不過，您仍可使用其他方法，並針對下列專案排程價格更新：
 
@@ -23,12 +23,12 @@ Adobe Commerce不提供排程價格更新的功能([內容分段](https://experi
 
 ## 客戶群組的排程價格更新
 
-1. 開始 [排程新產品更新](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html).
-1. 向下捲動至 **價格** 欄位並按一下 **進階定價**.
+1. 開始[排程新產品更新](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html)。
+1. 向下捲動至&#x200B;**價格**&#x200B;欄位，然後按一下&#x200B;**進階價格**。
 
    ![advanced_pricing.png](assets/advanced_pricing.png){width="600"}
 
-1. 在 **客戶群組價格區段**，選取所需的「客戶群組」並設定更新後的價格。
+1. 在&#x200B;**客戶群組價格區段**&#x200B;中，選取所需的客戶群組並設定更新的價格。
 
    ![customer_group_price.png](assets/customer_group_price.png){width="700"}
 
@@ -40,9 +40,9 @@ Adobe Commerce不提供排程價格更新的功能([內容分段](https://experi
 
 **相關檔案**
 
-* [排程更新（內容分段）](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html) 在我們的使用手冊中。
-* [進階定價](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html) 在我們的使用手冊中。
+* [正在排程我們的使用手冊中的更新（內容暫存）](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging-scheduled-update.html)。
+* 使用手冊中的[進階價格](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html)。
 
 ## 基準價格的排程價格更新
 
-請參閱相關文章： [基礎價格變更對共用型錄價格有何影響？](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md) 在我們的支援知識庫中。
+請參閱相關文章： [基本價格變更如何影響共用目錄價格？我們的支援知識庫中的](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)。

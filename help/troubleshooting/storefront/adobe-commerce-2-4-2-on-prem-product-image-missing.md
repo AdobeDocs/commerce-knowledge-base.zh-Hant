@@ -21,10 +21,10 @@ ht-degree: 0%
 
 ## 問題
 
-產品影像會儲存在 `s3` 貯體，但未同步回 `pub/media` 目錄。 只有同時使用兩者時，才會發生此問題：
+產品影像已儲存在`s3`儲存貯體，但未同步回`pub/media`目錄。 只有同時使用兩者時，才會發生此問題：
 
 * 啟用網站的Nginx可調整影像大小
-* AWS `s3` 作為媒體儲存空間
+* AWS `s3`作為媒體儲存空間
 
 <u>必要條件</u>：
 
@@ -32,10 +32,10 @@ Adobe Commerce已與Nginx一併安裝。
 
 <u>要再現的步驟</u>：
 
-1. 設定Adobe Commerce以使用AWS `s3` 作為媒體儲存空間。
-1. 使用設定Nginx `nginx.conf.sample` Adobe Commerce安裝目錄中提供的設定檔及Nginx虛擬主機。 另請參閱 [設定Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu) （位於我們的開發人員檔案中）。
+1. 設定Adobe Commerce以使用AWS `s3`作為媒體儲存空間。
+1. 使用Adobe Commerce安裝目錄中提供的`nginx.conf.sample`設定檔和Nginx虛擬主機來設定Nginx。 請參閱我們的開發人員檔案中的[設定Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)。
 1. 使用單一產品影像建立簡單產品。
-1. Nginx在中調整影像大小的組態尚未註解 `nginx.conf.sample` 與以下內容類似：
+1. Nginx在`nginx.conf.sample`中調整影像大小的組態未加註解，類似於：
 
 ```conf
 load_module /etc/nginx/modules/ngx_http_image_filter_module.so;

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-跨環境部署程式碼時，組建和部署指令碼會驗證 `master/production/staging` 會部署分支以使Google Analytics保持啟用。 將主要開發（或子）分支部署到開發人員環境（整合）時，部署指令碼會停用Google Analytics。
+跨環境部署程式碼時，組建和部署指令碼會驗證`master/production/staging`分支是否已部署，以啟用Google Analytics。 將主要開發（或子）分支部署到開發人員環境（整合）時，部署指令碼會停用Google Analytics。
 
 ## 原因
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-如果您想要一律啟用Google Analytics，請設定部署變數 `ENABLE_GOOGLE_ANALYTICS = true`，如所述 [部署變數](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics) （位於我們的開發人員檔案中）。
+如果您想要一律啟用Google Analytics，請設定部署變數`ENABLE_GOOGLE_ANALYTICS = true`，如開發人員檔案中的[部署變數](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics)所述。
 
 >[!NOTE]
 >

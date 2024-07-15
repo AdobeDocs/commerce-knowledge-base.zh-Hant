@@ -29,17 +29,17 @@ ht-degree: 0%
 
 若要重新排列雲端分支：
 
-1. 您必須擁有 [[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 角色。
-1. 安裝magento-cloud [!DNL CLI] （如果您尚未這麼做）。
+1. 您必須擁有[[!DNL Super User]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)角色。
+1. 安裝magento-cloud [!DNL CLI] （如果尚未安裝）。
 1. 為需要移動的分支執行以下命令：
    `magento-cloud environment:info -e <branch to move> parent <target parent>`
 
-附註：建立新分支時，您可以指定父分支。 如需相關步驟，請參閱 [入門者建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted) （位於我們的開發人員檔案中）。
+附註：建立新分支時，您可以指定父分支。 如需相關步驟，請參閱開發人員檔案中的[建立分支](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)快速入門。
 
-您可以使用建立新的環境分支 `branch <environment-name> <parent-environment-ID>` magento-cloud環境命令。
+您可以使用`branch <environment-name> <parent-environment-ID>` magento-cloud environment命令建立新的環境分支。
 
 建立及啟用新環境分支可能需要一些額外的時間。
 
 ## 相關閱讀
 
-[使用管理分支 [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html) （位於我們的開發人員檔案中）。
+在我們的開發人員檔案中[使用 [!DNL CLI]](https://devdocs.magento.com/cloud/env/environments-start.html)管理分支。

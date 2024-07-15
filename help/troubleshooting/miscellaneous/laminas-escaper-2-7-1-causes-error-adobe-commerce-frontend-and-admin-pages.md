@@ -33,7 +33,7 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-更新為laminas/laminas-escaper：2.7.1後，產品編輯（或產品管理）頁面上會顯示錯誤訊息： *TypeError： rawurlencode()預期引數1為字串，int在/var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php：246中指定*
+更新至laminas/laminas-escaper：2.7.1後，產品編輯（或產品管理）頁面上會顯示錯誤訊息： *TypeError： rawurlencode()預期引數1為字串，int在/var/www/magento/vendor/laminas/laminas-escaper/src/Escaper.php：246*中提供
 此錯誤會發生在前端和管理頁面，導致頁面內容扭曲。
 
 ## 原因
@@ -42,8 +42,8 @@ laminas/laminas-escaper 2.7.1開始使用Escaper類別的嚴格型別驗證。
 
 ## 解決方案
 
-執行 `composer require laminas/laminas-escaper:2.7.0` 每個專案的根目錄中。
+在每個專案的根目錄中執行`composer require laminas/laminas-escaper:2.7.0`。
 
 ## 相關閱讀
 
-laminas檔案： [層疊 — 逸出](https://docs.laminas.dev/laminas-escaper/)
+laminas檔案： [laminas-escaper](https://docs.laminas.dev/laminas-escaper/)

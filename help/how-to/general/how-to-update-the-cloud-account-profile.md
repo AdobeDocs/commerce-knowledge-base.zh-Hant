@@ -25,18 +25,20 @@ ht-degree: 0%
 
 若要修改這些欄位，請執行下列步驟：
 
-1. 存取您的帳戶： [Adobe帳戶登入](https://accounts.magento.cloud).
-1. 按一下 **[!UICONTROL Account Settings]** 標籤。
-1. 選取 *建立新密碼* 核取方塊。
-1. 進行必要的變更，然後按一下 *儲存*.
+1. 在[Adobe帳戶登入](https://accounts.magento.cloud)存取您的帳戶。
+1. 按一下「**[!UICONTROL Account Settings]**」標籤。
+1. 選取&#x200B;*建立新密碼*&#x200B;核取方塊。
+1. 進行必要的變更，然後按一下&#x200B;*儲存*。
 
 **注意**： *您的密碼將不會變更。*
 
 ## 哪些專案無法修改？
 
-1. **[!UICONTROL Password]**：若要變更密碼，請造訪 [Adobe密碼重設](https://account.adobe.com/)，因為此設定檔已連結至您在該處的帳戶/電子郵件地址。
+1. **[!UICONTROL Password]**：
+若要變更您的密碼，請造訪[Adobe密碼重設](https://account.adobe.com/)，因為此設定檔已連結至您的帳戶/電子郵件地址。
 
-1. **[!UICONTROL Email Address]**：此欄位的修改取決於您的個別情況。
+1. **[!UICONTROL Email Address]**：
+修改此欄位取決於您的個別情況。
 
 如果您需要將您目前帳戶的所有權轉移給新的所有者或其他電子郵件地址，您將需要更新與該帳戶關聯的主要使用者電子郵件。
 

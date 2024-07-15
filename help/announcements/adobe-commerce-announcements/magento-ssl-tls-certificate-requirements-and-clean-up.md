@@ -15,5 +15,5 @@ ht-degree: 0%
 
 如需為雲端基礎結構上的Adobe Commerce提供的SSL/TLS憑證的最相關資訊，請參閱以下文章：
 
-* [雲端基礎結構上Adobe Commerce的SSL (TLS)憑證](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md) 在我們的支援知識庫中
-* [布建SSL/TLS憑證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates) 在我們的開發人員檔案中
+* 在我們的支援知識庫中，在雲端基礎結構上為Adobe Commerce提供[SSL (TLS)憑證](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)
+* 在開發人員檔案中[布建SSL/TLS憑證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)

@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 解決方案 {#solution}
 
-清除Adobe Commerce下的所有目錄和檔案 `var` 子目錄並重新安裝Adobe Commerce軟體。
+清除Adobe Commerce的`var`子目錄下的所有目錄和檔案，然後再次安裝Adobe Commerce軟體。
 
-作為 [Adobe Commerce檔案系統擁有者](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) 或作為使用者，具有 `root` 許可權，請輸入下列命令：
+以[Adobe Commerce檔案系統擁有者](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)或具有`root`許可權的使用者身分，輸入下列命令：
 
 ```bash
 $ cd <your Magento install directory>/var

@@ -25,10 +25,10 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 在Commerce管理員底下啟用和設定Google Analytics功能 **商店** > **設定** > **設定** > **銷售** > **GOOGLE API** > **Google Analytics**.
-1. 按一下 **儲存設定**.
+1. 在Commerce管理員的&#x200B;**商店** > **設定** > **設定** > **銷售** > **Google API** > **Google Analytics**&#x200B;下啟用並設定Google Analytics功能。
+1. 按一下&#x200B;**儲存設定**。
 1. 在店面下訂單。
-1. 前往 **Google Analytics控制面板** > **轉換** > **概觀**.
+1. 移至&#x200B;**Google Analytics儀表板** > **轉換** > **總覽**。
 1. 將日期範圍設定為目前日期。
 
 <u>預期結果</u>：
@@ -62,6 +62,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

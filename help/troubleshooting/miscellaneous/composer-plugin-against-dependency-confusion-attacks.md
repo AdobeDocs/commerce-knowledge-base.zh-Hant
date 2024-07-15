@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-透過中定義的至少一個直接或間接相依性偵測到使用中相依性混淆攻擊的潛在案例。 `composer.json` 由composer外掛程式執行 `magento/composer-dependency-version-audit-plugin` 在安裝/更新撰寫器期間。
+在撰寫器安裝/更新期間，撰寫器外掛程式`magento/composer-dependency-version-audit-plugin`至少透過`composer.json`中定義的一個直接或間接相依性偵測到使用中相依性混淆攻擊的潛在案例。
 
 <u>要再現的步驟</u>：
 
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ### 擴充功能開發人員的期望
 
-* 如果外掛程式的套件來自公開存放庫，則無法確切判斷該套件是否已受損。 外掛程式將偵測packagist.org公開版本的套件版本何時高於私人存放庫所提供的版本，例如 [repo.magento.com](https://repo.magento.com). 我們強烈建議擴充功能開發人員避免這類情況，也不要將較新的版本公開發佈，而非透過提供的版本 [repo.magento.com](https://repo.magento.com).
+* 如果外掛程式的套件來自公開存放庫，則無法確切判斷該套件是否已受損。 外掛程式會偵測位於packagist.org的套件公用版本何時具有高於私人存放庫（例如[repo.magento.com](https://repo.magento.com)）可用版本的版本。 我們強烈建議擴充功能開發人員避免此類情況，請勿公開發佈比[repo.magento.com](https://repo.magento.com)提供的版本還新的版本。
 * Adobe Commerce瞭解市集檢閱程式可能會延遲擴充功能的發行可用性，但程式旨在保護商家的安全，並幫助擴充功能開發人員發現他們可能遺漏的意外錯誤。

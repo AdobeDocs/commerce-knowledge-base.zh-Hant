@@ -28,13 +28,13 @@ ht-degree: 0%
 <tr>
 <td>
 <p><u>在New Relic中看不到專案。</u></p>
-<p>您登入 <em>New Relic</em> 但看不到您應有權檢視/存取的專案。</p>
+<p>您登入<em>New Relic</em>，但看不到您應有權檢視/存取的專案。</p>
 </td>
 <td>
 <p>在這些情況下，管理員使用者需要將您新增至專案。</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">存取New Relic服務</a> 在我們的支援知識庫中。</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">存取我們的支援知識庫中的New Relic服務</a>。</p>
 </td>
 </tr>
 <tr>
@@ -43,7 +43,7 @@ ht-degree: 0%
 <tr>
 <td>
 <p><u>安裝後遺失資料。</u></p>
-<p>使用 <a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic診斷公用程式</a> 以找出原因。 如果這樣沒有幫助，請檢視代理程式專用的解決方案。 右側欄會提供包含這些解決方案的文章連結。</p>
+<p>使用<a href="https://docs.newrelic.com/docs/agents/manage-apm-agents/troubleshooting/new-relic-diagnostics">New Relic診斷公用程式</a>嘗試找出原因。 如果這樣沒有幫助，請檢視代理程式專用的解決方案。 右側欄會提供包含這些解決方案的文章連結。</p>
 </td>
 <td>
 <p>遺失資料可能有不同的原因。 您可能需要：</p>
@@ -66,7 +66,7 @@ ht-degree: 0%
 </tr>
 <tr>
 <td>
-<p><u>交易時間戳記不一致。</u> 您可能很難使用New Relic UI找到較長的交易（超過5分鐘）。 您也可以在預期的時間範圍之外找到顯示的交易。</p>
+<p><u>交易時間戳記不一致。</u>使用New Relic UI時，您可能會費力尋找較長的交易（超過5分鐘）。 您也可以在預期的時間範圍之外找到顯示的交易。</p>
 </td>
 <td>
 <p>New Relic UI會顯示交易結束時間，而非交易開始時間。</p>
@@ -77,13 +77,13 @@ ht-degree: 0%
 </tr>
 <tr>
 <td>
-<p><u>NerdGraph GraphQL <code>curl</code> 使用特殊字元的查詢，例如 <code>|</code> 和 <code>%</code> 無法運作</u>.</p>
+<p>使用<code>|</code>和<code>%</code>等特殊字元的<u>NerdGraph GraphQL <code>curl</code>查詢無法運作</u>。</p>
 </td>
 <td>
-<p>NerdGraph中的New Relic「複製至curl」功能目前不提供處理特殊字元的方式，例如 <code>|</code> 和 <code>%</code>.</p>
+<p>NerdGraph中的New Relic「複製到curl」功能目前不提供處理特殊字元（例如<code>|</code>和<code>%</code>）的方式。</p>
 </td>
 <td>
-<p>使用不同的API程式庫來解決特殊字元的問題。 例如，Python上Graphql API的GraphQLClient程式庫，或由Java語言呼叫執行的Apache.commons。 檢閱使用者端資料庫 <a href="https://graphql.org/code/">GraphQL</a>.</p>
+<p>使用不同的API程式庫來解決特殊字元的問題。 例如，Python上Graphql API的GraphQLClient程式庫，或由Java語言呼叫執行的Apache.commons。 檢閱<a href="https://graphql.org/code/">GraphQL</a>上的使用者端資料庫。</p>
 </td>
 </tr>
 <tr>
@@ -94,7 +94,7 @@ ht-degree: 0%
 <p>將New Relic網域新增至允許清單或解除安裝造成問題的瀏覽器擴充功能，以解決遺漏的圖表。</p>
 </td>
 <td>
-<p><a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render">New Relic檔案&gt;圖表遺失或不呈現</a> </p>
+<p><a href="https://docs.newrelic.com/docs/apm/new-relic-apm/troubleshooting/charts-missing-or-do-not-render">New Relic檔案&gt;圖表遺失或不轉譯</a> </p>
 </td>
 </tr>
 <tr>

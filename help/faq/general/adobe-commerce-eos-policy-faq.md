@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 我可以在哪裡找到所有Adobe Commerce版本的軟體支援日期？
 
-您可在以下網址找到Adobe Commerce軟體生命週期原則及軟體支援日期： [Adobe Commerce軟體生命週期原則](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf). 我們也會在網站上發佈終止支援(EOS)日期 [開發人員檔案頁面](https://devdocs.magento.com/release/released-versions.html).
+您可以在[Adobe Commerce軟體生命週期原則](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce軟體生命週期原則與軟體支援日期。 我們也會在[開發人員檔案頁面](https://devdocs.magento.com/release/released-versions.html)上發佈終止支援(EOS)日期。
 
 ### Adobe終止支援某個Adobe Commerce軟體版本代表什麼意思？
 
@@ -38,10 +38,10 @@ ht-degree: 0%
 **提供安全的購物體驗：**
 
 * 您需要花費資源評估並僱用協力廠商來提供安全性支援、修正和更新。
-* 不再支援Adobe Commerce軟體的某個版本後，該版本即不再支援 [符合PCI標準](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security). 發生此情況時，您可能會遭到罰款、信用卡處理能力被移除，或受到其他處罰。
+* 一旦不再支援Adobe Commerce軟體的某個版本，該版本就不再符合[PCI規範](https://www.pcisecuritystandards.org/pci_security/maintaining_payment_security)。 發生此情況時，您可能會遭到罰款、信用卡處理能力被移除，或受到其他處罰。
 * 由於大多數的利用漏洞會鎖定與最新安全性更新不符的安裝，因此我們一律建議商戶保持其軟體為最新狀態，並在有安全性更新可用時立即安裝。 商戶必須自行決定如何透過適當的保障與安全控制措施來維護其線上商店的安全，以保護其網站和客戶的個人資料。 其中一種最佳方式是安裝最新的修補程式、修正程式和軟體更新，並持續監控您的網站和Admin Console是否有異常活動。
 
-**有效率地營運**
+**有效率地運作**
 
 * 由於舊版的Adobe Commerce軟體不受支援，因此可用的開發人員和合作夥伴數量會日益減少，當他們調整營運方向，以採用更新的技術時，還能為過時的版本提供支援。 一般而言，其結果是軟體維護人才的數量與品質會降低，而軟體的維護成本會增加。
 * 對於不支援的Adobe Commerce軟體，周邊技術和相依性也可能會達到其生命週期的終點（例如PHP、MYSQL、REDIS、SOLR）。 因此，管理和維護安全且合規的網站變得越來越困難。
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 您的Commerce平台是貴公司的重要商務系統，及時瞭解最新資訊是商務的重要持續投資。 數位店面的最新技術和安全性更新在許多層面上都很重要，可協助促進創新和成長。
 
-移至最新版Adobe Commerce軟體可能需要時間和資源才能順利執行。 您最好在支援結束日期之前儘早進行規劃，以確保您有適當的時間和資源在預算內如期實現您的策略目標。 為協助您進行下一次升級，Adobe已發佈 [2.4升級指南](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf) 其中包括要遵循的最佳實務和技術步驟，以及執行升級時要使用的工具和資源。
+移至最新版Adobe Commerce軟體可能需要時間和資源才能順利執行。 您最好在支援結束日期之前儘早進行規劃，以確保您有適當的時間和資源在預算內如期實現您的策略目標。 為了協助您進行下一次升級，Adobe已發佈[2.4升級指南](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)，其中包含要遵循的最佳實務和技術步驟，以及執行升級時要使用的工具和資源。
 
-另一個重要的考量是儘早預留開發人員和合作夥伴資源。 合作夥伴的時間和資源經常在支援結束日期之前預定，導致協助移轉專案的資源大幅減少。 建議您至少每年討論一次三年滾動計畫，並確定下一年的計畫和預算。 使用 [Adobe的發行行事曆](https://devdocs.magento.com/release/) 以追蹤發行日期。
+另一個重要的考量是儘早預留開發人員和合作夥伴資源。 合作夥伴的時間和資源經常在支援結束日期之前預定，導致協助移轉專案的資源大幅減少。 建議您至少每年討論一次三年滾動計畫，並確定下一年的計畫和預算。 使用[Adobe的發行行事曆](https://devdocs.magento.com/release/)追蹤發行日期。
 
 ### Adobe Commerce支援終止時，我可以使用協力廠商服務提供者提供軟體支援嗎？
 
@@ -102,7 +102,7 @@ Adobe Commerce授權到期後，您必須停止使用Adobe Commerce軟體，並�
 
 ### 對於在支援日期結束前開啟的支援票證，是否有警報提醒商家即將結束支援？
 
-否，沒有提醒警報通知支援票證使用者支援日期即將結束。 票證開啟者應負責瞭解其所在Adobe Commerce版本的支援結束日期，該日期可在我們的網站中找到 [Adobe Commerce軟體生命週期原則](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+否，沒有提醒警報通知支援票證使用者支援日期即將結束。 票證開啟者有責任知道其所在的Adobe Commerce版本的支援結束日期，這些日期可在我們的[Adobe Commerce軟體生命週期原則](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)中找到。
 
 ### 如果軟體版本的支援票證在該版本的支援結束日期之後開啟，是否仍可繼續處理以解決問題？
 

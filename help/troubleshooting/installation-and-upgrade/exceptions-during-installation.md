@@ -43,7 +43,7 @@ Object(Magento\Indexer\Model\Resource\Indexer\State\Collection), 'indexer_config
 
 ## 解決方案
 
-清除 `<magento_root>/generated/code` 和其他目錄下 `var` 和 `generated` 如下所示：
+清除`var`與`generated`下的`<magento_root>/generated/code`與其他目錄，如下所示：
 
 ```bash
 rm -rf <magento_root>/generated/code/* <magento_root>/generated/metadata/* <magento_root>/var/cache/*

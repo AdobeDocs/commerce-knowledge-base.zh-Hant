@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 使用以下專案下訂單： **傳送訂單確認** 方塊已核取。
+1. 在勾選&#x200B;**傳送訂單確認**&#x200B;方塊的情況下下訂單。
 1. 檢查電子郵件。
 
 <u>預期結果</u>：
@@ -59,6 +59,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

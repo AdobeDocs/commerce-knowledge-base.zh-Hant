@@ -23,12 +23,12 @@ ht-degree: 0%
 
 <u>必要條件</u>：
 
-雲端授權與聯絡人A (電子郵件地址： *<u>first@e.mail</u>*)
+雲端授權與連絡人A相關聯(電子郵件地址： *<u>first@e.mail</u>*)
 
 <u>要再現的步驟</u>：
 
 1. 聯絡A在其帳戶中建立的Adobe Commerce存取金鑰（金鑰X）並將其安裝在雲端。
-1. 連絡人B (電子郵件地址： *<u>second@e.mail</u>*)使用自己的帳戶購買擴充功能，並建立安裝擴充功能的存取金鑰（金鑰Y）。
+1. 連絡人B (電子郵件地址： *<u>second@e.mail</u>*)使用其帳戶購買擴充功能，並建立安裝擴充功能的存取金鑰（金鑰Y）。
 1. 連絡人A離開了公司，授權（所有權）也轉移到了連絡人B。
 1. 系統整合商嘗試使用索引鍵X在雲端環境中安裝擴充功能。
 
@@ -50,18 +50,18 @@ ht-degree: 0%
 
 ### 如何停用存取金鑰
 
-如果您無權存取 [Commerce Marketplace](https://marketplace.magento.com/) 與舊金鑰關聯的帳戶， [聯絡Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 以停用金鑰。
+如果您沒有與舊金鑰相關聯的[Commerce Marketplace](https://marketplace.magento.com/)帳戶的存取權，[請聯絡Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以停用金鑰。
 
 如果您擁有與舊金鑰相關聯的Marketplace帳戶的存取權，請採取以下步驟來停用金鑰：
 
-1. 登入 [Commerce Marketplace](https://marketplace.magento.com/) 使用來自舊帳戶的認證。
-1. 按一下頁面右上角的帳戶名稱，然後選取「 」 **我的設定檔**.
-1. 按一下 **存取金鑰** 在Marketplace標籤中。
+1. 使用舊帳號的認證登入[Commerce Marketplace](https://marketplace.magento.com/)。
+1. 按一下頁面右上角的帳戶名稱，然後選取&#x200B;**我的設定檔**。
+1. 在Marketplace索引標籤中按一下&#x200B;**存取金鑰**。
 
    ![magento_products_access_keys_2.4.1.png](/help/troubleshooting/miscellaneous/assets/magento_products_access_keys_2.4.1.png)
 
-1. 按一下 **停用** 存取金鑰旁。
+1. 按一下存取金鑰旁的&#x200B;**停用**。
 
 ## 相關閱讀
 
-* [取得您的驗證金鑰](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html) （位於我們的開發人員檔案中）。
+* [在開發人員檔案中取得您的驗證金鑰](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html)。

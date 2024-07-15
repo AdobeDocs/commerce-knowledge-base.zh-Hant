@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 部署錯誤： SQLSTATE[HY000]
 
-本文針對SQLSTATE導致部署失敗的問題提供解決方案[HY000] 錯誤。
+本文針對SQLSTATE[HY000]錯誤造成部署失敗的問題提供解決方案。
 
 ## 受影響的產品和版本
 
-* Adobe Commerce， [所有部署方法](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce，[所有部署方法](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 問題
 
@@ -35,4 +35,4 @@ Cron在部署期間執行。
 ## 解決方案
 
 若要解決此問題，請透過開啟命令列並執行以下命令來停止cron執行：
-`./vendor/bin/ece-tools cron:disable`.
+`./vendor/bin/ece-tools cron:disable`。

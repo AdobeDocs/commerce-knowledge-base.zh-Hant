@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 顯示Adobe Commerce錯誤報告編號而非Fastly 503錯誤
 
-Adobe Commerce依預設，Fastly會隱藏 **503服務無法使用** 錯誤。 若要顯示Adobe Commerce錯誤記錄報告編號（以便能夠在記錄中找到它並檢視錯誤詳細資料），請使用以下步驟開啟省略Fastly的網站：
+依預設，Fastly會隱藏&#x200B;**503服務無法使用**&#x200B;錯誤背後的所有Adobe Commerce錯誤。 若要顯示Adobe Commerce錯誤記錄報告編號（以便能夠在記錄中找到它並檢視錯誤詳細資料），請使用以下步驟開啟省略Fastly的網站：
 
 1. 將應用程式的網域和IP位址新增至本機電腦上的主機檔案。
 1. 清除瀏覽器快取和Cookie （或切換到無痕模式）。
@@ -20,12 +20,12 @@ Adobe Commerce依預設，Fastly會隱藏 **503服務無法使用** 錯誤。 �
 
 檢視真實的Adobe Commerce錯誤和錯誤報告編號後，您可以按照以下步驟在錯誤報告檔案中獲取詳情：
 
-1. ssh連線至受影響的環境。 請參閱 [SSH連線至環境](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh) （位於我們的開發人員檔案中）。
-1. 找到 `./var/report/{error_number}` 檔案。
+1. ssh連線至受影響的環境。 在開發人員檔案中，請參閱[SSH至環境](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh)。
+1. 找到`./var/report/{error_number}`檔案。
 
 ## 將應用程式網域和IP位址新增至hosts檔案：詳細步驟
 
-1. 透過執行以檢查存放區的伺服器IP `nslookup` 命令列中的命令：
+1. 在本機電腦的命令列執行`nslookup`命令，檢查存放區的伺服器IP：
    * 專業架構使用者（測試和生產環境）：
 
    ```

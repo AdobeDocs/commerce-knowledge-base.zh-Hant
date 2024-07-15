@@ -23,7 +23,7 @@ ht-degree: 0%
 
 當您透過Commerce Marketplace購買擴充功能時，無法使用核心Adobe CommerceExtension Manager進行安裝。 當您新增存取金鑰並同步至Marketplace時，Extension Manager不會顯示任何擴充功能，
 
-此 **因應措施** 問題是要使用命令列Adobe Commerce安裝，如所示 [一般CLI安裝](https://devdocs.magento.com/extensions/install/) （位於我們的開發人員檔案中）。
+此問題的&#x200B;**因應措施**&#x200B;是使用命令列Adobe Commerce安裝，如開發人員檔案中的[一般CLI安裝](https://devdocs.magento.com/extensions/install/)所示。
 
 <u>要再現的步驟</u>：
 
@@ -37,11 +37,11 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-**Commerce管理員的「Extension Manager」區段上不會出現任何擴充功能，如下圖所示：**
+**Commerce管理員的Extension Manager區段上未出現任何擴充功能，類似於以下影像：**
 
 
 ![KB-607_Image_1.png](assets/KB-607_Image_1.png)
 
 ## 因應措施
 
-使用命令列Adobe Commerce安裝，如所示 [一般CLI安裝](https://devdocs.magento.com/extensions/install/) （位於我們的開發人員檔案中）。
+使用命令列Adobe Commerce安裝，如開發人員檔案中的[一般CLI安裝](https://devdocs.magento.com/extensions/install/)所示。

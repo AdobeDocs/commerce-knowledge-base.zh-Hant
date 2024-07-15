@@ -23,8 +23,8 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 設定安全性掃描工具以檢查您的網站，如所述 [安全性掃描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) 在我們的使用手冊中。
-1. 在「動作」欄中選取 **執行掃描**.
+1. 依照使用手冊中的[安全性掃描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)所述，設定安全性掃描工具以檢查您的網站。
+1. 在[動作]資料欄中，選取&#x200B;**執行掃描**。
 
 <u>預期結果</u>：
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 嘗試開啟您的網站。
 
 * 如果頁面成功載入，您可能需要將安全性掃描工具使用的IP新增到防火牆AllowList。 使用下列IP：連線埠80和443上的52.87.98.44、34.196.167.176、3.218.25.102。
-* 如果網站未載入並傳回 *「處理您的請求時發生錯誤」* 訊息，檢查您的網站是否有錯誤。
+* 如果網站未載入並傳回&#x200B;*「處理您的請求時發生錯誤」*&#x200B;訊息，請檢查您的網站是否有錯誤。
 
 ## 相關閱讀
 
-* [上線並啟動](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan) （位於我們的開發人員檔案中）。
-* [安全性掃描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html) 在我們的使用手冊中。
+* 在我們的開發人員檔案中[上線並啟動](https://devdocs.magento.com/guides/v2.3/cloud/live/live.html?_ga=2.73579601.273749082.1559572284-888339099.1547722854#security-scan)。
+* 使用手冊中的[安全性掃描](https://docs.magento.com/m2/ee/user_guide/magento/security-scan.html)。

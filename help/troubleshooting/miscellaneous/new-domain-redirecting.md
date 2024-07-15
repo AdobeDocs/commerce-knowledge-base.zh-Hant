@@ -25,19 +25,19 @@ ht-degree: 0%
 
 ## 原因
 
-新增新網域後變數未更新或發生錯誤時，就會發生此情況 [!DNL Fastly] 服務已在環境中設定。
+新增網域後未更新變數，或環境中設定了錯誤的[!DNL Fastly]服務時，就會發生這種情況。
 
 ## 解決方案
 
-1. 如果網域在同一環境中重新導向，請確定您已設定 [變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables).
-1. 如果網域正在重新導向到另一個環境，請檢查您是否已設定正確的網域 [!DNL Fastly] 服務，方法是執行下列命令： `bin/magento fastly:conf:get -s`
+1. 如果網域在相同環境中重新導向，請確定您已設定[變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables)。
+1. 如果網域正在重新導向到另一個環境，請執行以下命令，檢查您是否已設定正確的[!DNL Fastly]服務： `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->您可找到 [!DNL Fastly] 透過登入每個環境（測試/生產）並檢查 `/mnt/shared/fastly_tokens.txt` 檔案。 如需詳細資訊，請參閱 [設定 [!DNL Fastly] 服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) 雲端基礎結構指南中的Commerce 。
+>您可以登入每個環境（測試/生產）並檢查`/mnt/shared/fastly_tokens.txt`檔案，以找到[!DNL Fastly] API認證。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[設定 [!DNL Fastly] 服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 如果上述兩個設定都正確，請提交支援票證。
 
 ## 相關閱讀
 
-* [設定新網域的檢查清單](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html) 在我們的支援知識庫中。
+* [在我們支援知識庫中設定新網域](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html)的檢查清單。

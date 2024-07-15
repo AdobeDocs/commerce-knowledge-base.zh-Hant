@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Magento詳細目錄常見問題集](https://github.com/magento/inventory/wiki/MSI-FAQs) 在GitHub中。
+* 在GitHub中[Magento詳細目錄常見問題集](https://github.com/magento/inventory/wiki/MSI-FAQs)。

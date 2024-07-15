@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # robots.txt未更新或顯示預設設定
 
-文章提供解決方案，供您設定後 `robots.txt` 正確，例如根據 [Adobe Commerce robots.txt的最佳作法](https://support.magento.com/hc/en-us/articles/360048754931) 但是 `robots.txt` 未更新或顯示預設設定。
+文章提供您正確設定`robots.txt`時的解決方案，例如根據[Adobe Commerce robots.txt的最佳實務](https://support.magento.com/hc/en-us/articles/360048754931)，但`robots.txt`未更新或顯示預設設定。
 
 ## 受影響的產品和版本
 
@@ -21,20 +21,20 @@ ht-degree: 0%
 
 ## 問題
 
-無法變更預設值 `robots.txt` 設定。
+無法變更預設`robots.txt`設定。
 
 <u>要再現的步驟：</u>
 
 1. 存取「管理員」面板。
-1. 新增內容至 **內容** >設計> **設定** > **編輯的自訂指令`robots.txt`** 檔案，例如文字「hello」並儲存變更。
-1. 造訪 `robots.txt` url。
+1. 新增內容至&#x200B;**內容** >設計> **組態** > **編輯`robots.txt`**&#x200B;檔案的自訂指示（例如「hello」文字）並儲存變更。
+1. 瀏覽`robots.txt` URL。
 
 <u>預期結果：</u>
-`robots.txt` 有已儲存的文字。
+`robots.txt`已儲存文字。
 
 <u>實際結果：</u>
 
-`robots.txt` 檔案不會變更。
+`robots.txt`檔案未變更。
 
 ## 原因
 
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 解決方案
 
-依搜尋引擎啟用索引。 另請參閱 [依搜尋引擎設定索引](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine) （位於我們的開發人員檔案中）。
+依搜尋引擎啟用索引。 請參閱我們的開發人員檔案中的[依搜尋引擎設定索引](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine)。
 
 ## 相關閱讀
 
-* [新增網站地圖和搜尋引擎自動機制](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html) （位於我們的開發人員檔案中）。
+* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)。

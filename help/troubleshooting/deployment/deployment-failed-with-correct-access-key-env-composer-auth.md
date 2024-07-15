@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 在env：COMPOSER_AUTH或auth.json中有正確的存取金鑰時部署失敗
 
-本文提供解決方案，協助您在部署失敗並出現下列錯誤時，解決問題： [部署記錄](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)：
+本文提供解決方案，解決部署失敗的問題，例如[部署記錄檔](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中的錯誤：
 
 ```
 W:   [Composer\Downloader\TransportException]
@@ -40,20 +40,20 @@ W:   The "https://repo.magento.com/archives/magento/module-customer-balance/mage
 >
 >此為錯誤範例。 您可能會收到錯誤訊息，指出有不同的檔案(視您部署的Adobe Commerce版本而定)。
 
-您未成功部署。 您會看到類似以下的錯誤 *無法下載「https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip」檔案（HTTP/1.1 404找不到）* 在 [部署記錄](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log).
+您未成功部署。 您會在[部署記錄檔](/docs/commerce-cloud-service/user-guide/develop/test/log-locations#deploy-log)中看到&#x200B;*無法下載「https://repo.magento.com/archives/magento/module-customer-balance/magento-module-customer-balance-100.4.0.0.zip」檔案（HTTP/1.1 404找不到）*&#x200B;之類的錯誤。
 
 ### 原因
 
 在以下其中一個位置找到的指定撰寫器存取金鑰可能無法存取程式碼：
 
-* 在 `env:COMPOSER_AUTH` 專案層級的變數
-* 在 `auth.json file`，優先於 `env:COMPOSER_AUTH` 變數中。
+* 在專案層級的`env:COMPOSER_AUTH`變數中
+* 在`auth.json file`中，優先於`env:COMPOSER_AUTH`變數。
 
 ### 解決方案
 
-更新 `env:COMPOSER_AUTH` 變數，並確保已使用可存取程式碼的金鑰加以設定。
+更新專案層級的`env:COMPOSER_AUTH`變數，並確定其已設定有存取程式碼的金鑰。
 
-如需相關步驟，請參閱 [變數層級](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels) 雲端基礎結構指南中的Commerce 。
+如需相關步驟，請參閱雲端基礎結構指南中Commerce的[變數層級](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/variable-levels)。
 
 ## 相關閱讀
 

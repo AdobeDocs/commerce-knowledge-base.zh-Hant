@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ### 衝突的相依性 {#trouble-depend-conflict}
 
-訊息 *我們發現衝突的元件相依性* 如果Composer無法判斷要安裝或更新哪些元件，則會顯示。 若要解決元件相依性問題，您應該成為完全瞭解Composer運作方式的技術人員。
+如果Composer無法判斷要安裝或更新哪些元件，便會顯示訊息&#x200B;*我們發現衝突的元件相依性*。 若要解決元件相依性問題，您應該成為完全瞭解Composer運作方式的技術人員。
 
 以下是範例失敗訊息：
 
@@ -40,7 +40,7 @@ We found conflicting component dependencies.
 >
 >您看到的訊息可能會不同。
 
-請參閱 [解決方案的衝突元件相依性](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md) 在我們的支援知識庫中。
+請參閱支援知識庫中解決方案](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)的[衝突的元件相依性。
 
 ## 檔案系統許可權問題 {#trouble-depend-permission}
 
@@ -51,10 +51,10 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-請務必依照本文所述設定檔案系統許可權 [所有權和許可權概觀](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html) （位於我們的開發人員檔案中）。
+請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)一文所述。
 
 ## 「元件相依性檢查」狀態永遠不變 {#trouble-depend-state}
 
-在某些情況下，即使您嘗試修正問題，「元件相依性檢查」的狀態也不會變更。 在這種情況下，您可以刪除或重新命名名為 `<magento_root>/var/.update_cronjob_status` 和 `<magento_root>/var/.setup_cronjob_status` 並嘗試再次執行「元件管理員」。
+在某些情況下，即使您嘗試修正問題，「元件相依性檢查」的狀態也不會變更。 在這種情況下，您可以刪除或重新命名名為`<magento_root>/var/.update_cronjob_status`和`<magento_root>/var/.setup_cronjob_status`的檔案，然後再次嘗試執行元件管理員。
 
 重新命名或移除這些檔案會強制「元件管理員」再次執行檢查。

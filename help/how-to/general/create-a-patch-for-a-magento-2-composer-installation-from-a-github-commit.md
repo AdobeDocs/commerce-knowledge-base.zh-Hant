@@ -12,4 +12,4 @@ ht-degree: 0%
 
 # 從GitHub認可建立Adobe Commerce Composer安裝的修補程式
 
-請參閱 [套用修補程式的「自訂修補程式」區段](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches) （位於我們的開發人員檔案中）。
+請參閱開發人員檔案中「套用修補程式」的[自訂修補程式區段](https://devdocs.magento.com/guides/v2.3/comp-mgr/patching.html#custom-patches)。

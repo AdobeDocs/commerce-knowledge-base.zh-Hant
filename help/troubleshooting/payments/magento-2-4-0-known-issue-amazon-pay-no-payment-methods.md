@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0已知問題： Amazon付費，無付款方式
 
-針對Adobe Commerce 2.4.0的已知問題，本文提供客戶使用時缺少付款方法的解決方案 **返回標準簽出**，在啟用Amazon pay之後。
+本文針對Adobe Commerce 2.4.0的已知問題，提供解決方案，解決客戶在啟用Amazon付款後，使用&#x200B;**返回標準結帳**&#x200B;時缺少付款方法的問題。
 
 ## 受影響的產品和版本
 
@@ -25,7 +25,7 @@ Adobe Commerce內部部署和Adobe Commerce on cloud infrastructure v2.3.5.p1和
 1. 新增任何專案至購物車並繼續結帳。
 1. 登入您的Amazon Pay帳戶。
 1. 選取地址並繼續結帳。
-1. 按一下 **返回標準簽出**.
+1. 按一下&#x200B;**返回標準簽出**。
 1. 繼續結帳。
 
 <u>預期結果：</u>

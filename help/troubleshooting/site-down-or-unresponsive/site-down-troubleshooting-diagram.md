@@ -15,4 +15,4 @@ ht-degree: 0%
 
 此Adobe Commerce網站停機疑難排解圖表可用來識別和解決網站停機原因。
 
-![網站下拉式疑難排解圖表影像](assets/updated_site_down_1.jpeg)
+![網站停止疑難排解圖表影像](assets/updated_site_down_1.jpeg)

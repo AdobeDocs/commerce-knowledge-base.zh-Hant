@@ -11,9 +11,9 @@ ht-degree: 0%
 
 ---
 
-# 無法儲存 *連絡人* 作為URL索引鍵
+# 無法將&#x200B;*連絡人*&#x200B;儲存為URL索引鍵
 
-本文提供當您無法儲存時問題的因應措施 *連絡人* 作為產品或CMS頁面的URL索引鍵（例如&quot;/contact&quot;）
+本文提供當您無法將&#x200B;*連絡人*&#x200B;儲存為產品或CMS頁面的URL索引鍵（例如&quot;/contact&quot;）時，此問題的因應措施。
 
 ## 受影響的產品和版本
 
@@ -21,15 +21,15 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 問題
 
-您無法使用辭彙儲存產品或CMS頁面 *連絡人* 做為URL索引鍵。 當您嘗試儲存URL金鑰時，您會收到一個錯誤，指出URL金鑰是重複的URL。
+您無法使用辭彙&#x200B;*contact*&#x200B;作為URL索引鍵來儲存產品或CMS頁面。 當您嘗試儲存URL金鑰時，您會收到一個錯誤，指出URL金鑰是重複的URL。
 
 <u>要再現的步驟</u>：
 
-建立CMS頁面，使用 *連絡人* 做為URL索引鍵。
+建立以&#x200B;*連絡人*&#x200B;作為URL索引鍵的CMS頁面。
 
 <u>預期結果</u>：
 
-頁面儲存方式 *連絡人* 做為URL索引鍵。
+此頁面已儲存為URL索引鍵，並與&#x200B;*連絡人*&#x200B;連絡。
 
 <u>實際結果</u>：
 
@@ -37,7 +37,7 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 原因
 
-*連絡人* 是中定義的保留字 `vendor/magento/module-contact/view/frontend/layout/contact_index_index.xml`.
+*連絡人*&#x200B;是`vendor/magento/module-contact/view/frontend/layout/contact_index_index.xml`中定義的保留字。
 
 ```xml
 <router id="standard">
@@ -49,19 +49,19 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 解決方案
 
-您無法使用術語 *連絡人* 不過，作為您的URL金鑰，您可以使用這個用語 *連絡人* 與其他字母或數字組合(例如， *連絡人1* 和 *連絡人2*)。 雖然術語不一定要是 *連絡人+\&lt;another number=&quot;&quot; or=&quot;&quot; letter=&quot;&quot;>*，只要長度不超過255個字元，一詞可以是任何字串。
+您無法使用字詞&#x200B;*contact*&#x200B;做為您的URL金鑰，但您可以將字詞&#x200B;*contact*&#x200B;與其他字母或數字（例如&#x200B;*contact1*&#x200B;和&#x200B;*contact2*）結合使用。 雖然字詞不一定要是&#x200B;*contact+\&lt;其他數字或字母\>*，但只要長度不超過255個字元，字詞可以是任何字串。
 
 執行下列步驟：
 
 1. 登入Commerce Admin。
-1. 前往 **[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**.
-1. 按一下 **[!UICONTROL Add URL Rewrite]**.
-1. 選取 *[!UICONTROL Custom]* 於 [!UICONTROL Create URL Rewrite] 下拉式清單。
-   1. 在 [!UICONTROL Request Path]，輸入「contact」。 請注意 [!UICONTROL Request Path] 是使用者在瀏覽器中輸入的內容， [!UICONTROL Target Path] 是應該重新導向到的位置。
-   1. 在 [!UICONTROL Target Path]，輸入新的URL索引鍵（例如「contact1」）。
-   1. 選取 *[!UICONTROL No]* 在 [!UICONTROL Redirect] 下拉式清單。
+1. 前往&#x200B;**[!UICONTROL Marketing]** > **[!UICONTROL SEO & Search]** > **[!UICONTROL URL Rewrites]**。
+1. 按一下&#x200B;**[!UICONTROL Add URL Rewrite]**。
+1. 在[!UICONTROL Create URL Rewrite]下拉式清單中選取&#x200B;*[!UICONTROL Custom]*。
+   1. 在[!UICONTROL Request Path]中，輸入「連絡人」。 請注意，[!UICONTROL Request Path]是使用者在瀏覽器中輸入的內容，而[!UICONTROL Target Path]是它應重新導向到的位置。
+   1. 在[!UICONTROL Target Path]中，輸入新的URL索引鍵（例如，&quot;contact1&quot;）。
+   1. 在[!UICONTROL Redirect]下拉式清單中選取&#x200B;*[!UICONTROL No]*。
 
 ## 相關閱讀
 
-* [URL重新寫入](https://docs.magento.com/user-guide/marketing/url-rewrite.html) 在我們的使用手冊中。
-* [SEO最佳作法](https://docs.magento.com/user-guide/marketing/seo-best-practices.html) 在我們的使用手冊中。
+* 使用手冊中的[URL重寫](https://docs.magento.com/user-guide/marketing/url-rewrite.html)。
+* 使用手冊中的[SEO最佳實務](https://docs.magento.com/user-guide/marketing/seo-best-practices.html)。

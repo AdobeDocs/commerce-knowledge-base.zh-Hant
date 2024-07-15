@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 問題
 
-客戶（公司）可以在網站上成功建立公司帳戶，但取得 *「沒有具有customerId = 」的這類實體」* 和 *「您還沒有公司帳戶」* 錯誤訊息。 他們可能也會取得 *「500內部伺服器錯誤」* 嘗試存取「公司設定檔」頁面時。
+客戶（公司）可以在網站上成功建立公司帳戶，但取得&#x200B;*&quot;沒有customerId = &quot;* and *&quot;您還沒有公司帳戶&quot;*&#x200B;錯誤訊息的此類實體。 他們嘗試存取公司設定檔頁面時，也可能收到&#x200B;*「500內部伺服器錯誤」*。
 
 ## 修補
 
@@ -38,4 +38,4 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。

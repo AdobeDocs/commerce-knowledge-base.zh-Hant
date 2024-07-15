@@ -17,8 +17,8 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* Adobe Commerce內部部署， [所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
-* 雲端基礎結構上的Adobe Commerce， [所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* Adobe Commerce內部部署，[所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 雲端基礎結構上的Adobe Commerce，[所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 問題
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 原因
 
-SameSite Cookie屬性設為 *鬆散* 或未指定(視為設為 *鬆散* )。 具有 `SameSite` = *鬆散* 停用透過將Cookie傳輸到外部URL `POST` 要求。
+SameSite Cookie屬性設定為&#x200B;*Lax*&#x200B;或未指定（會被視為設定為&#x200B;*Lax* ）。 擁有`SameSite` = *Lax*&#x200B;會停用透過`POST`要求將Cookie傳輸至外部URL。
 
 ## 解決方案
 

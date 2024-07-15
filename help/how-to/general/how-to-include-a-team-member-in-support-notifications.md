@@ -17,27 +17,27 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce，全部 [支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf).
+* 雲端基礎結構上的Adobe Commerce，所有[支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)。
 
 ## 原因
 
-* 團隊成員尚未新增至 [!DNL cloud project] 具有必要的許可權。
+* 團隊成員尚未以必要的許可權新增到[!DNL cloud project]。
 * 該團隊成員沒有支援帳戶。
 
 ## 解決方案
 
-1. 前往 **[!DNL Cloud Project URL]** (範例： `https://us-3.magento.cloud/projects/xxxxxx/edit`)。
-1. 確認團隊成員是否已新增至專案，且是 [!DNL Super User].
+1. 移至&#x200B;**[!DNL Cloud Project URL]** （範例： `https://us-3.magento.cloud/projects/xxxxxx/edit`）。
+1. 確認團隊成員是否已新增至專案，且是[!DNL Super User]。
 
-如果他們不需要 [!DNL cloud project] 存取，提交 [向Adobe Commerce支援中心提出支援請求](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket) 自動副本：他們位於所有票證上，並提供其 **[!DNL MAGE ID]** （如果有的話）。
+如果他們不需要[!DNL cloud project]存取權，請在Adobe Commerce支援中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)提交[支援要求，以自動寄送副本給所有票證，並提供他們的&#x200B;**[!DNL MAGE ID]** （如果有的話）。
 
-如果它們尚未新增至專案，您將需要新增為 [!DNL Super User] 和授予 [!DNL Shared Access]：
+如果它們尚未新增至專案，您需要將它們新增為[!DNL Super User]並授予[!DNL Shared Access]：
 
-* [管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 在我們的使用手冊中。
-* [無法將使用者新增至Adobe Commerce雲端專案](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html) (位於我們的Commerce知識庫中)。
-* [Adobe Commerce說明中心使用手冊：共用存取](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access) (位於我們的Commerce知識庫中)。
+* 在我們的使用手冊中[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)。
+* [無法新增使用者至我們的Adobe Commerce知識庫中的Commerce雲端專案](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html)。
+* [Adobe Commerce說明中心使用手冊：共用存取](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access)在我們的Commerce知識庫中。
 
-如果它們已新增至 [!DNL cloud project]，但沒有 [!DNL Super User role]，更新其 [!DNL role] 因此，在 [管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html).
+若他們已新增至[!DNL cloud project]，但沒有[!DNL Super User role]，請在[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)中更新他們的[!DNL role]。
 
 ## 相關閱讀
 

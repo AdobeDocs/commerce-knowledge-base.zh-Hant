@@ -35,15 +35,15 @@ Adobe Commerce的PWA Studio
 yarn buildpack create-custom-origin ./
 ```
 
-產生憑證的處理者為 [裝置憑證](https://github.com/davewasmer/devcert). 這取決於OpenSSL，因此使用以下命令，確定您的系統上有openssl的最新版本：
+正在產生憑證由[devcert](https://github.com/davewasmer/devcert)處理。 這取決於OpenSSL，因此使用以下命令，確定您的系統上有openssl的最新版本：
 
 `openssl version`
 
 版本應為1.0或以上（若是OSX High Sierra，則為LibreSSL 2）。
 
-您可以安裝較高版本的OpenSSL，使用 [Homebrew](https://brew.sh/) 在OSX上， [巧克力](https://chocolatey.org/) 在Windows上，或您的Linux散發套件管理員。
+您可以在OSX上安裝[Homebrew](https://brew.sh/)的OpenSSL較高版本，在Windows上安裝[Chocolatey](https://chocolatey.org/)，或安裝您的Linux散發套件管理員。
 
-如果您執行Linux，請確定 `libnss3-tools` （或同等專案）已安裝在您的系統上。 本節中提供的進一步資訊 [裝置憑證](https://github.com/davewasmer/devcert#skipcertutil) 讀我檔案。
+如果您正在執行Linux，請確定您的系統上已安裝`libnss3-tools` （或同等專案）。 [devcert](https://github.com/davewasmer/devcert#skipcertutil) Readme的這個區段中提供的進一步資訊。
 
 有些使用者建議刪除devcert資料夾以觸發憑證重新產生。
 

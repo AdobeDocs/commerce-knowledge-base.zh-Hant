@@ -52,7 +52,7 @@ ht-degree: 0%
 若要增加管理員工作階段存留期，請執行以下步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫，以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ ht-degree: 0%
 若要檢查Cookie設定值並清除這些值，請執行下列步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如 [phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫，以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");
@@ -89,5 +89,5 @@ ht-degree: 0%
 
 ## 相關文章
 
-* [重新導向回「您的帳戶暫時停用」錯誤的管理員登入表單](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md) 在我們的支援知識庫中。
-* [重新導向回到包含「您目前的工作階段已過期」錯誤的管理員登入表單](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md) 在我們的支援知識庫中。
+* [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您的帳戶已暫時停用」錯誤](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)。
+* [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您目前的工作階段已過期」錯誤](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)。

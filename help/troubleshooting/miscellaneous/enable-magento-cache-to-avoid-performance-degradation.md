@@ -30,24 +30,24 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 首先，檢查Adobe Commerce快取的狀態，看看這是否為問題。 對此， [SSH至您的環境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh) 並執行下列命令：
+1. 首先，檢查Adobe Commerce快取的狀態，看看這是否為問題。 為此，請[SSH至您的環境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)，然後執行下列命令：
 
    ```bash
    php bin/magento cache:status
    ```
 
-   這會顯示每個快取型別的狀態（&quot;0&quot;代表停用，&quot;1&quot;代表啟用）。 或者，您也可以在以下連結中取得此資訊： `app/etc/env.php` 檔案。
+   這會顯示每個快取型別的狀態（&quot;0&quot;代表停用，&quot;1&quot;代表啟用）。 或者，您可以在`app/etc/env.php`檔案中取得此資訊。
 
 1. 調查已停用的快取型別。 除非您收到來自Adobe的替代指引，否則應啟用所有Adobe Commerce快取型別。 協力廠商擴充功能不得要求停用Adobe Commerce快取。
-1. 如果調查確認某些快取型別被錯誤停用，請針對每個快取型別執行以下命令來啟用它們： `php bin/magento cache:enable <your_disabled_cache_type>`
+1. 如果調查確認某些快取型別誤停用，請針對每個快取型別執行以下命令來啟用它們： `php bin/magento cache:enable <your_disabled_cache_type>`
 
-如果有顧慮及/或疑問特定Adobe Commerce快取型別是否可以或應該停用， [聯絡Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 要求建議。
+如果有疑慮和/或疑問，特定Adobe Commerce快取型別是否應該停用，[請聯絡Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以尋求建議。
 
 ## 相關閱讀
 
 開發人員檔案中的Adobe Commerce快取檔案：
 
-* [Adobe Commerce快取概觀](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
+* [Adobe Commerce快取總覽](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
 * [管理快取](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
 
 造成效能問題的其他可能原因和解決方案：

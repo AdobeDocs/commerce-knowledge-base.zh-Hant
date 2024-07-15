@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-45675：產品匯出使用預設商店檢視範圍的類別名稱
 
-ACSD-45675修補程式修正產品匯出使用預設商店檢視範圍的類別名稱的問題。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.20。 修補程式ID為ACSD-45675。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
+ACSD-45675修補程式修正產品匯出使用預設商店檢視範圍的類別名稱的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.20時，即可使用此修補程式。 修補程式ID為ACSD-45675。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.3
 
@@ -27,7 +27,7 @@ ACSD-45675修補程式修正產品匯出使用預設商店檢視範圍的類別�
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -35,39 +35,39 @@ ACSD-45675修補程式修正產品匯出使用預設商店檢視範圍的類別�
 
 <u>要再現的步驟</u>：
 
-1. 建立自訂商店檢視 **[!UICONTROL Thai]** 在主商店內。
-1. 製作 **[!UICONTROL Thai]** 主要網站的預設商店檢視。
-1. 在「 」下建立以下類別結構 **[!UICONTROL Default Category]**：
+1. 在主存放區中建立自訂存放區檢視&#x200B;**[!UICONTROL Thai]**。
+1. 將&#x200B;**[!UICONTROL Thai]**&#x200B;設為主要網站的預設商店檢視。
+1. 在&#x200B;**[!UICONTROL Default Category]**&#x200B;下建立下列類別結構：
 
    *[!UICONTROL Default category/Tea/Black]*
 
-1. 選取類別 **[!UICONTROL Tea]** 並變更 **[!UICONTROL Scope]** 至 **[!UICONTROL Thai]**.
-1. 設定 **[!UICONTROL Category Name]** 作為 **[!UICONTROL ชาดำ]**.
-1. 建立簡單產品 **[!UICONTROL SP001]** 並指派類別 **[!UICONTROL Black]**.
+1. 選取類別&#x200B;**[!UICONTROL Tea]**&#x200B;並將&#x200B;**[!UICONTROL Scope]**&#x200B;變更為&#x200B;**[!UICONTROL Thai]**。
+1. 將&#x200B;**[!UICONTROL Category Name]**&#x200B;設為&#x200B;**[!UICONTROL ชาดำ]**。
+1. 建立簡單產品&#x200B;**[!UICONTROL SP001]**&#x200B;並指派類別&#x200B;**[!UICONTROL Black]**。
 1. 確定cron未執行。
-1. 執行產品匯出。 依SKU篩選並選取 **[!UICONTROL SP001]**.
-1. 檢查 **[!UICONTROL categories]** 欄。
+1. 執行產品匯出。 依SKU篩選並選取&#x200B;**[!UICONTROL SP001]**。
+1. 檢查匯出的CSV中的&#x200B;**[!UICONTROL categories]**&#x200B;欄。
 
 <u>預期結果</u>：
 
-由於匯出期間未選取任何存放區，因此您應會取得如下的類別路徑： *[!UICONTROL Default Category/Tea/Black]*.
+匯出期間未選取任何存放區，因此您應該取得如下的類別路徑： *[!UICONTROL Default Category/Tea/Black]*。
 
 <u>實際結果</u>：
 
-類別路徑包含混合語言： *[!UICONTROL Default Category/ชาดำ/Black]*.
+類別路徑有混合語言： *[!UICONTROL Default Category/ชาดำ/Black]*。
 
 ## 套用修補程式
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tools] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在「品質修補工具」指南中。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+* 品質修補程式工具指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tools] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-有關中可用的其他修補程式的資訊 [!DNL QPT]，請參閱 [中可用的修補程式 [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在「品質修補工具」指南中。
+如需[!DNL QPT]中其他修補程式的詳細資訊，請參閱品質修補程式工具指南中 [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)的[修補程式。

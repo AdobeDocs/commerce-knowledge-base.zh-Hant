@@ -24,10 +24,10 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>
 
-1. 前往 **管理面板** > **內容** > **頁面**，並選取 **編輯** 任何頁面的。
-1. 前往 **內容** 然後按一下 **使用頁面產生器編輯** 按鈕。
-1. 拖曳 **dotdigital form** 封鎖並選取 **編輯**.
-1. 選取其中一個測試表單，然後選取 **內嵌** 模式並儲存表單。
+1. 移至&#x200B;**管理面板** > **內容** > **頁面**，然後選取任何頁面的&#x200B;**編輯**。
+1. 移至&#x200B;**內容**，然後按一下&#x200B;**使用頁面產生器編輯**&#x200B;按鈕。
+1. 拖曳&#x200B;**dotdigital form**&#x200B;區塊並選取&#x200B;**編輯**。
+1. 選取其中一個測試表單，然後選取&#x200B;**內嵌**&#x200B;模式並儲存表單。
 1. 儲存頁面修改。
 
 <u>預期結果：</u>
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [什麼是頁面產生器？](https://devdocs.magento.com/page-builder/docs/) （位於我們的開發人員檔案中）。
-* [頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html) （位於我們的開發人員檔案中）。
-* [頁面產生器](https://docs.magento.com/user-guide/cms/page-builder.html) 在我們的使用手冊中。
-* [頁面產生器 — 元素](https://docs.magento.com/user-guide/cms/page-builder-elements.html) 在我們的使用手冊中。
+* [什麼是頁面產生器？](https://devdocs.magento.com/page-builder/docs/)於我們的開發人員檔案。
+* 在開發人員檔案中[頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)。
+* 使用手冊中的[頁面產生器](https://docs.magento.com/user-guide/cms/page-builder.html)。
+* [頁面產生器 — 使用手冊中的元素](https://docs.magento.com/user-guide/cms/page-builder-elements.html)。

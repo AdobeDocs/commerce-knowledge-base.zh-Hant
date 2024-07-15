@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ### 問題
 
-網站會遇到效能緩慢的問題，因為頁面上的快取區塊必須可快取，但設定為 `cacheable="false"` .
+網站發生效能緩慢情形，因為頁面上的快取區塊必須可快取，但已設定為`cacheable="false"` 。
 
 ### 原因
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 可快取和不可快取是用於指示是否應快取頁面的術語。 依預設，所有頁面都可快取。 不過，如果配置圖中的任何區塊指定為不可快取，則整個頁面都不可快取。
 
-下面的熒幕擷取畫面顯示具有設定的區塊 `cacheable="false”`  建立不可快取頁面的**案**。
+下面的熒幕擷取畫面顯示設定為`cacheable="false”`的區塊，****會建立無法快取的頁面。
 
 ![non_cacheable_kb.png](assets/non_cacheable_kb.png)
 
@@ -46,15 +46,15 @@ ht-degree: 0%
 
 ### 解決方案
 
-檢查上面指定的檔案是否具有設定 `cacheable="false”` . 如果有，請檢查是否需要此設定。
+檢查以上指定的檔案是否具有`cacheable="false”`設定。 如果有，請檢查是否需要此設定。
 
-* 如有需要，請考慮將不可快取的區塊移至 [私人內容機制](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co) 而非。
-* 若不需要，請移除屬性 `cacheable="false”` 並排清版面快取。
+* 如有需要，請考慮改為將不可快取的區塊移至[私人內容機制](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/cache/page-caching/private-content.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=private%20co)。
+* 若不需要，請移除屬性`cacheable="false”`並排清配置快取。
 
 >[!NOTE]
 >
->對於雲端基礎結構上的Adobe Commerce 2.4.1和更新版本，您可以使用 [全網站分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html) 以自動檢查完整頁面快取是否未正確設定。
+>對於雲端基礎結構上的Adobe Commerce 2.4.1和更新版本，您可以使用[全網站分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html)來自動檢查完整頁面快取是否未正確設定。
 
 ### 相關閱讀
 
-[Adobe Commerce快取概觀](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2) （位於我們的開發人員檔案中）。
+在開發人員檔案中[Adobe Commerce快取概觀](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=cacheable%2)。

@@ -17,14 +17,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您的Beta版存取權有任何問題，請參閱 [無法存取最新測試版](/help/how-to/general/cannot-access-the-latest-beta-version.md) 文章。
+>如果您在存取Beta時遇到問題，請參閱[無法存取最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)文章。
 
 ## 問題
 
 本文章涵蓋存取發行前程式碼的下列問題：
 
 * 您找不到發行前版本的程式碼。
-* 無法從下載搶先使用的Adobe Commerce版本 [magento.com](https://account.magento.com/customer/account/login) 使用Composer。
+* 無法使用Composer從[magento.com](https://account.magento.com/customer/account/login)下載搶先存取的Adobe Commerce版本。
 
 ## 原因
 
@@ -40,8 +40,8 @@ ht-degree: 0%
 
 在發行前版本中，發行套件有兩個位置可用：
 
-1. 透過撰寫器開啟 [magento.com](https://repo.magento.com/) 使用帳戶的主要MageID。 如需有關如何使用撰寫器的詳細資訊，請參閱 [使用撰寫器安裝Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html) （位於我們的開發人員檔案中）。
-1. **我的帳戶** > **下載** 於 [account.magento.com](https://account.magento.com/customer/account/login).
+1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)。
+1. 在[account.magento.com](https://account.magento.com/customer/account/login)上，**我的帳戶** > **下載**。
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 ### 您需要使用的影像ID
 
-您必須使用與您的Adobe Commerce或合作夥伴帳戶相關聯的主要MageID。 發行前程式未連結至任何具有共用存取權的連絡人。 提早存取只能透過Composer或 [repo.magento.com](https://repo.magento.com/) 透過與您的Adobe Commerce授權或合作夥伴授權相關聯的MageID。
+您必須使用與您的Adobe Commerce或合作夥伴帳戶相關聯的主要MageID。 發行前程式未連結至任何具有共用存取權的連絡人。 只有透過與您的Adobe Commerce授權或合作夥伴授權相關聯的MageID，才能透過Composer或[repo.magento.com](https://repo.magento.com/)存取早期存取。
 
 #### 如何找出我的MageID是否為主要的ID？
 
@@ -57,22 +57,22 @@ ht-degree: 0%
 
 若要瞭解您的MageID是否為主要映像，請嘗試下列步驟：
 
-1. 登入 [magento.com](https://account.magento.com/customer/account/login) 並前往 **我的產品和服務** 標籤。 如果您在那裡看到Adobe Commerce授權資訊，請檢查：
+1. 登入[magento.com](https://account.magento.com/customer/account/login)並移至&#x200B;**我的產品及服務**&#x200B;標籤。 如果您在那裡看到Adobe Commerce授權資訊，請檢查：
    * 如果您看到Adobe Commerce授權資訊，則您的MageID是主要的。
-   * 如果您沒有看到Adobe Commerce授權資訊，則您的MageID僅具有共用存取權。 若要瞭解主要ID持有者，請前往 **與我共用** 請注意此處指定的SHARENAME。 按一下 **切換帳戶** 並選取您在SHARENAME中記下的值。 在歡迎頁面上，您將會看到主要ID持有者的電子郵件。
-1. 如果由於任何原因您找不到此資訊 [magento.com](https://account.magento.com/customer/account/login)，請聯絡您的Adobe客戶團隊。
-1. 如果以上都不管用，請 [聯絡支援人員](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+   * 如果您沒有看到Adobe Commerce授權資訊，則您的MageID僅具有共用存取權。 若要瞭解主要識別碼持有者，請前往&#x200B;**與我共用**&#x200B;注意此處指定的SHARENAME。 按一下&#x200B;**切換帳戶**，並選取您在SHARENAME中記下的值。 在歡迎頁面上，您將會看到主要ID持有者的電子郵件。
+1. 如果您因任何原因無法在[magento.com](https://account.magento.com/customer/account/login)找到此資訊，請連絡您的Adobe帳戶團隊。
+1. 如果以上都不管用，請[連絡支援人員](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
-**適用於合作夥伴**
+夥伴的&#x200B;****
 
 若要瞭解您的MageID是否為主要映像，請嘗試下列步驟：
 
-1. 登入 [magento.com](https://account.magento.com/customer/account/login) 並前往 **我的產品和服務** 標籤。 在Partners子區段中，檢查您是否看到有效的Partner授權資訊：
+1. 登入[magento.com](https://account.magento.com/customer/account/login)並移至&#x200B;**我的產品及服務**&#x200B;標籤。 在Partners子區段中，檢查您是否看到有效的Partner授權資訊：
    * 如果您看到使用中的合作夥伴授權資訊，則表示您的MageID是主要的。 如果END DATE值是未來的日期，則合作夥伴授權有效。
-   * 如果您沒有看到使用中的合作夥伴授權資訊，則表示您的MageID僅具有共用存取權。 若要瞭解主要ID持有者，請前往 **與我共用** 請注意此處指定的SHARENAME。 按一下 **切換帳戶** 並選取您在SHARENAME中記下的值。 在歡迎頁面上，您將會看到主要ID持有者的電子郵件。
-1. 如果由於任何原因您找不到此資訊 [magento.com](https://account.magento.com/customer/account/login)，請聯絡您的合作夥伴經理。
-1. 如果以上都不管用，請 [聯с絡支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket).
+   * 如果您沒有看到使用中的合作夥伴授權資訊，則表示您的MageID僅具有共用存取權。 若要瞭解主要識別碼持有者，請前往&#x200B;**與我共用**&#x200B;注意此處指定的SHARENAME。 按一下&#x200B;**切換帳戶**，並選取您在SHARENAME中記下的值。 在歡迎頁面上，您將會看到主要ID持有者的電子郵件。
+1. 如果您因任何原因無法在[magento.com](https://account.magento.com/customer/account/login)找到此資訊，請連絡您的合作夥伴經理。
+1. 如果以上都不管用，請[с連絡支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 不是發行前程式的一部分
 
-若要納入搶鮮版存取計畫，貴組織必須有良好聲譽的有效Adobe Commerce或合作夥伴帳戶。 如果您認為您符合此條件且無法存取發行前程式碼，請 [聯絡支援人員](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 使用您的MageID。
+若要納入搶鮮版存取計畫，貴組織必須有良好聲譽的有效Adobe Commerce或合作夥伴帳戶。 如果您認為您符合此條件且無法存取發行前程式碼，請[連絡支援人員](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)並提供您的MageID。

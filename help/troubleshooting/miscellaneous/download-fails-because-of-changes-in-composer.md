@@ -48,9 +48,9 @@ Composer version 1.0-dev (2b14f0a047dd4f3545ec82381f65c36ea93a4c81) 2015-11-25 1
 
 1. 變更您的Composer版本，執行下列任一項作業來讓您下載Adobe Commerce軟體：
 
-   * 使用下列命令降級撰寫器： `composer self-update 1.0.0-alpha11`.
-   * 將Composer升級至2015年11月26日之前的版本： `composer self-update`.
+   * 使用下列命令降級撰寫器： `composer self-update 1.0.0-alpha11`。
+   * 將Composer升級為2015年11月26日之後的版本： `composer self-update`。
 
 1. 刪除您的Adobe Commerce目錄和子目錄。
-1. 請使用以下任一專案再次嘗試下載： `[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)` 或 `[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)`.
-1. 成功下載Adobe Commerce軟體後，請更新Composer： `composer self-update`.
+1. 請使用`[composer create-project](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)`或`[git clone](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/dev_install.html)`再次嘗試下載。
+1. 成功下載Adobe Commerce軟體後，更新撰寫器： `composer self-update`。

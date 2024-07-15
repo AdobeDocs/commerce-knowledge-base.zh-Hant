@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Galera資料庫叢集是資料庫叢集，每個節點有一個MariaDB MySQL資料庫，每個資料庫的唯一ID的自動增加設定為3。
 
-<u>為什麼Pro叢集上使用的遞增ID不一定會以3分隔/遞增？</u>
+<u>為什麼Pro叢集上使用的增量ID不一定會以3分隔/遞增？</u>
 
 由於Galera的運作方式，用於叢集的增量ID並不一定都會分隔/增加3。
 
@@ -25,11 +25,11 @@ Galera資料庫叢集是資料庫叢集，每個節點有一個MariaDB MySQL資�
 
 ![auto_increment](assets/auto_increment_id.png)
 
-例如，如果選取的主節點為節點1，其中 `auto_increment_offset = 1`，則ID將以1為單位遞增。 接著，如果稍後選取新的主要節點，例如，節點3 `auto_increment_offset = 3`，則會以3為單位遞增。
+例如，如果選取的主節點為`auto_increment_offset = 1`的節點1，則識別碼將增加1。 接著，如果稍後選取新的主要節點（例如`auto_increment_offset = 3`的節點3），則會以3為單位遞增。
 
 ## 有用的連結
 
 請參閱我們的開發人員檔案：
 
-* [適用於Adobe Commerce的Cloud > Pro架構>備份與災難回覆](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [適用於Adobe Commerce的雲端>安裝必要條件：資料庫](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [適用於Adobe Commerce的雲端> Pro架構>備份與災難回覆](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
+* [適用於Adobe Commerce的雲端>安裝先決條件：資料庫](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)

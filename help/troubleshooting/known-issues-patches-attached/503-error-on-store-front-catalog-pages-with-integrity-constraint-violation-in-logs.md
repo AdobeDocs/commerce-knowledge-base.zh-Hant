@@ -15,13 +15,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文提供修補程式當作因應措施，但問題已在Adobe Commerce雲端基礎結構v2.3.3版本中永久修正，建議您升級至v2.3.3。請依照中的步驟操作 [升級Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html) （位於我們的開發人員檔案中）。
+>本文提供修補程式當作因應措施，但問題已在Adobe Commerce雲端基礎結構v2.3.3版本中永久修正，建議您升級至v2.3.3。請依照開發人員檔案中[升級Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)中的步驟操作。
 
-針對無法存取存放區前端目錄頁面的雲端基礎結構2.2.0上已知Adobe Commerce問題，提供修補程式，並在記錄檔中顯示類似下列的錯誤訊息： *完整性條件約束違規： 1062索引鍵&#39;PRIMARY&#39;的重複專案&#39;%entry%&#39;，查詢為： INSERT INTO \&#39;search\_tmp\_%number%*.
+本文為雲端基礎結構2.2.0上與儲存區前端目錄頁面無法存取相關的已知Adobe Commerce問題提供修補程式，其錯誤訊息類似於以下在記錄中的訊息： *完整性條件約束違規： 1062索引鍵&#39;PRIMARY&#39;的重複專案&#39;%entry%&#39;，查詢為： INSERT INTO \&#39;search\_tmp\_%number%*。
 
 ## 問題
 
-儲存區前端目錄頁面意外變成無法存取。 錯誤記錄檔的錯誤描述如下： *完整性條件約束違規： 1062索引鍵&#39;PRIMARY&#39;的重複專案&#39;%entry%&#39;，查詢為： INSERT INTO \&#39;search\_tmp\_%number%*.
+儲存區前端目錄頁面意外變成無法存取。 錯誤記錄有類似下列的錯誤描述： *完整性條件約束違規： 1062索引鍵&#39;PRIMARY&#39;的重複專案&#39;%entry%&#39;，查詢為： INSERT INTO \&#39;search\_tmp\_%number%*。
 
 此問題與搜尋有關，而且是因為重新索引後存在過時索引以及新索引所導致。
 
@@ -60,24 +60,24 @@ curl -X DELETE 127.0.0.1:9200/magento2_product_8_v332
 * 雲端基礎結構上的Adobe Commerce 2.2.0 (`MDVA-9590_EE_2.2.0_COMPOSER_v2.patch`)
 * 雲端基礎結構上的Adobe Commerce 2.2.4 (`MDVA-13203_EE_2.2.4_V1_COMPOSER.patch`)
 
-此 `MDVA-9590_EE_2.2.0_COMPOSER_v2` 修補程式也與下列Adobe Commerce版本相容（但可能無法解決問題）：
+`MDVA-9590_EE_2.2.0_COMPOSER_v2`修補程式也與下列Adobe Commerce版本相容（但可能無法解決問題）：
 
 * 雲端基礎結構上的Adobe Commerce 2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 * Adobe Commerce內部部署2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 
-此 `MDVA-13203_EE_2.2.4_V1_COMPOSER` 修補程式也與下列Adobe Commerce版本相容（但可能無法解決問題）：
+`MDVA-13203_EE_2.2.4_V1_COMPOSER`修補程式也與下列Adobe Commerce版本相容（但可能無法解決問題）：
 
 * 雲端基礎結構上的Adobe Commerce 2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 * Adobe Commerce內部部署2.0.X、2.1.X、2.2.X和2.3.0 - 2.3.3
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 有用的連結
 
-* [雲端基礎結構上Adobe Commerce的記錄檔位置入門計畫架構](/help/how-to/general/log-locations-directories-for-starter-plan.md) 在我們的支援知識庫中。
-* [雲端基礎結構上Adobe Commerce的記錄檔位置Pro計畫架構](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md) 在我們的支援知識庫中。
-* [Adobe Commerce的記錄檔位置](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html) （位於我們的開發人員檔案中）。
+* 在雲端基礎結構上為Adobe Commerce的[記錄檔位置我們的支援知識庫中的入門計畫架構](/help/how-to/general/log-locations-directories-for-starter-plan.md)。
+* 在我們的支援知識庫中，為Adobe Commerce在雲端基礎結構Pro規劃架構](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)上的[記錄檔位置。
+* 在開發人員檔案中[Adobe Commerce的記錄檔位置](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)。
 
 ## 附加的檔案

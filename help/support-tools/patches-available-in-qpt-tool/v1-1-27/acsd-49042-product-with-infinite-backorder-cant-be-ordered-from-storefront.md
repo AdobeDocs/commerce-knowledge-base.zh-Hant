@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-49042：無法從店面訂購無限延期交貨的產品
 
-ACSD-49042修補程式修正無法從店面訂購無限延期交貨的產品的問題。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.27。 修補程式ID為ACSD-49042。 請注意，問題已在Adobe Commerce 2.4.5中修正。
+ACSD-49042修補程式修正無法從店面訂購無限延期交貨的產品的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.27時，即可使用此修補程式。 修補程式ID為ACSD-49042。 請注意，問題已在Adobe Commerce 2.4.5中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.4
 
@@ -27,7 +27,7 @@ ACSD-49042修補程式修正無法從店面訂購無限延期交貨的產品的�
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -36,18 +36,18 @@ ACSD-49042修補程式修正無法從店面訂購無限延期交貨的產品的�
 <u>要再現的步驟</u>：
 
 1. 設定下列組態設定：
-   * **[!UICONTROL Display Out of Stock Products]** 設為 *[!UICONTROL Yes]*.
-   * **[!UICONTROL Backorders]** 設為 *[!UICONTROL Allow Qty Below 0]*.
-1. 新增 **[!DNL custom stock]** 和 **[!DNL custom source]**.
-1. 將產品指派至 **[!DNL custom source]** 並確保為其設定了詳細目錄編號(例如： *10*)。
-1. 在產品編輯頁面上，開啟 **[!UICONTROL Advanced Inventory]**. 設定 **[!UICONTROL minimum quantity]** 在購物車中(例如： *160*)。 數量必須高於存貨。
+   * **[!UICONTROL Display Out of Stock Products]**&#x200B;已設定為&#x200B;*[!UICONTROL Yes]*。
+   * **[!UICONTROL Backorders]**&#x200B;已設定為&#x200B;*[!UICONTROL Allow Qty Below 0]*。
+1. 新增新的&#x200B;**[!DNL custom stock]**&#x200B;和&#x200B;**[!DNL custom source]**。
+1. 將產品指派給&#x200B;**[!DNL custom source]**，並確定為其設定了詳細目錄編號（例如： *10*）。
+1. 在產品編輯頁面上，開啟&#x200B;**[!UICONTROL Advanced Inventory]**。 設定購物車中的&#x200B;**[!UICONTROL minimum quantity]** （例如： *160*）。 數量必須高於存貨。
 1. 前往店面購買產品以建立預訂。
-1. 變更 **[!UICONTROL product quantity]** 至 *0*. 關鍵點是要從以下專案儲存產品： **[!DNL Admin panel]** 有預訂時。
-1. 開啟 **[!UICONTROL product page]** 並嘗試將產品加入購物車。
+1. 將&#x200B;**[!UICONTROL product quantity]**&#x200B;變更為&#x200B;*0*。 關鍵點是在有預訂時從&#x200B;**[!DNL Admin panel]**&#x200B;儲存產品。
+1. 開啟店面上的&#x200B;**[!UICONTROL product page]**，並嘗試將產品加入購物車。
 
 <u>預期結果</u>：
 
-因為延期交貨的數量低於，所以可以將產品新增到購物車 *0* 是允許的。
+可以將產品加入購物車，因為允許數量低於&#x200B;*0*&#x200B;的延期交貨。
 
 <u>實際結果</u>：
 
@@ -57,14 +57,14 @@ ACSD-49042修補程式修正無法從店面訂購無限延期交貨的產品的�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

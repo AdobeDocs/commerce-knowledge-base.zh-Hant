@@ -13,26 +13,26 @@ ht-degree: 0%
 
 # 無法匯入相同名稱產品的CSV產品資訊
 
-針對在嘗試匯入時出現錯誤的相關已知Adobe Commerce 2.2.3問題，本文提供相關修補程式 `.csv` 含產品資訊的檔案（如果有相同名稱的產品）。
+針對當嘗試匯入含有產品資訊（如果有相同名稱的產品）的`.csv`檔案時出現錯誤的相關已知Adobe Commerce 2.2.3問題，本文提供修補程式。
 
 ## 問題
 
-當 `.csv` 含有產品資訊的檔案會匯入，而且有些產品具有相同名稱，在「檢查資料」步驟中會出現下列錯誤： *&quot;`URL Key XYZ was already generated for an item with the SKU %sku%"`*. 該問題是在匯入期間重寫產品的URL所導致，即使匯入中沒有產品URL的欄 `.csv` 檔案。
+匯入含有產品資訊的`.csv`檔案時，如果存在名稱相同的產品，您會在「檢查資料」步驟中收到下列錯誤： *&quot;`URL Key XYZ was already generated for an item with the SKU %sku%"`*。 此問題是在匯入期間重寫產品的URL所造成，即使匯入的`.csv`檔案中沒有產品URL的欄。
 
 <u>要再現的步驟</u>：
 
 1. 在Commerce管理員中建立兩個同名的可設定產品。
-1. 建立 `.csv` 檔案來匯入這些產品的資料，例如這些欄： `sku` | `product_type` | `name` | `product_websites` | `store_view_code`
-1. 前往 **系統** > **資料傳輸** > **匯入** 並選取 `.csv` 檔案。
-1. 按一下 **檢查資料**.
+1. 建立`.csv`檔案以匯入這些產品的資料，例如這些資料行： `sku` | `product_type` | `name` | `product_websites` | `store_view_code`
+1. 移至&#x200B;**系統** > **資料傳輸** > **匯入**&#x200B;並選取`.csv`檔案。
+1. 按一下&#x200B;**檢查資料**。
 
 <u>預期結果</u>：
 
-找不到問題；您可以匯入 `.csv` 檔案成功。
+找不到問題；您可以成功匯入`.csv`檔案。
 
 <u>實際結果</u>：
 
-會顯示下列錯誤訊息： *「已針對SKU為%sku%的專案產生URL索引鍵XYZ」*，無法匯入檔案。
+顯示下列錯誤訊息： *「已針對SKU為%sku%&quot;*&#x200B;的專案產生URL索引鍵XYZ，無法匯入檔案。
 
 ## 修補
 
@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。
 
 ## 有用的連結
 

@@ -49,8 +49,8 @@ ht-degree: 0%
 
 [B2B-709-composer.patch](assets/B2B-709-composer.patch.zip)
 
-修補程式也可在以下兩種版本中下載： `.git` 和 `.composer` ，格式於 [Adobe Commerce下載內容](https://magento.com/tech-resources/download) 頁面，下 **修補程式** 在左側欄導覽中。 搜尋XXX修補程式。
+修補程式也可在左側欄導覽中的&#x200B;**修補程式**&#x200B;下，於[Adobe Commerce下載](https://magento.com/tech-resources/download)頁面上的`.git`和`.composer`兩種格式下載。 搜尋XXX修補程式。
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。

@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # ACSD-49179：「訂單」報表顯示不同商店的錯誤金額
 
-ACSD-49179修補程式修正了訂單報錶針對不同商店的不同貨幣顯示錯誤金額的問題。 此修補程式適用於 [[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 已安裝1.1.28。 修補程式ID為ACSD-49179。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
+ACSD-49179修補程式修正了訂單報錶針對不同商店的不同貨幣顯示錯誤金額的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.28時，即可使用此修補程式。 修補程式ID為ACSD-49179。 請注意，此問題已排程在Adobe Commerce 2.4.7中修正。
 
 ## 受影響的產品和版本
 
-**此修補程式是針對Adobe Commerce版本建立的：**
+**已為Adobe Commerce版本建立修補程式：**
 
 * Adobe Commerce （所有部署方法） 2.4.3-p3
 
@@ -27,7 +27,7 @@ ACSD-49179修補程式修正了訂單報錶針對不同商店的不同貨幣顯�
 
 >[!NOTE]
 >
->此修補程式可能適用其他具有新修補程式的版本 [!DNL Quality Patches Tool] 發行版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -35,9 +35,9 @@ ACSD-49179修補程式修正了訂單報錶針對不同商店的不同貨幣顯�
 
 <u>要再現的步驟</u>：
 
-1. 前往 **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]** 並設定 [!UICONTROL Catalog Price Scope] = [!UICONTROL Website].
+1. 前往&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL Catalog]** > **[!UICONTROL Price]**&#x200B;並設定[!UICONTROL Catalog Price Scope] = [!UICONTROL Website]。
 1. 建立其他網站、商店和商店檢視。
-1. 前往 **[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]** 並設定：
+1. 前往「**[!UICONTROL Stores]** > **[!UICONTROL Config]** > **[!UICONTROL General]** > **[!UICONTROL Currency Setup]** > **[!UICONTROL Currency Options]**」並設定：
    * 預設設定：
       * 基礎貨幣： USD
       * 預設顯示幣別：USD
@@ -50,11 +50,11 @@ ACSD-49179修補程式修正了訂單報錶針對不同商店的不同貨幣顯�
       * 基本貨幣：THB （泰銖）
       * 預設顯示幣別：THB （泰銖）
       * 允許的幣別：THB （泰銖）
-1. 前往 **[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]** 並設定THB的空轉換率（將率設定為1.0000）。
+1. 移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Currency]** > **[!UICONTROL Currency Rates]**&#x200B;並設定THB的空轉換率（將率設定為1.0000）。
 1. 建立產品、將其指派給兩個網站，並在先前建立的其他網站中隨此產品下訂單。
-1. 確定順序位於 *處理中* 狀態（對其開立發票）。
-1. 在後端，前往 **[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**.
-1. 按一下 **[!UICONTROL Yellow]** 重新整理統計資料的警告。
+1. 確定訂單處於&#x200B;*處理*&#x200B;狀態（開票）。
+1. 在後端，移至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Sales]** > **[!UICONTROL Orders]**。
+1. 按一下&#x200B;**[!UICONTROL Yellow]**&#x200B;警告以重新整理統計資料。
 1. 在先前建立的其他網站上設定報告範圍，並設定篩選器，如下所示：
    * [!UICONTROL Date Used]： [!UICONTROL Created]
    * [!UICONTROL Period]： [!UICONTROL Day]
@@ -75,14 +75,14 @@ ACSD-49179修補程式修正了訂單報錶針對不同商店的不同貨幣顯�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) 在 [!DNL Quality Patches Tool] 指南。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
+* [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+* 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
 
 ## 相關閱讀
 
-若要深入瞭解 [!DNL Quality Patches Tool]，請參閱：
+若要進一步瞭解[!DNL Quality Patches Tool]，請參閱：
 
-* [[!DNL Quality Patches Tool] 已發行：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [檢查是否有修補程式可用於您的Adobe Commerce問題，使用 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需QPT中其他修補程式的詳細資訊，請參閱 [[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html) 在 [!DNL Quality Patches Tool] 指南。
+如需QPT中其他修補程式的詳細資訊，請參閱[!DNL Quality Patches Tool]指南中的[[!DNL Quality Patches Tool]：搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 問題
 
-如果已為商店啟用Google Analytics，當已安裝uBlock或其他廣告封鎖程式的客戶繼續結帳時， `trackingCode.js` 檔案會封鎖載入作業，且RequireJS會中斷JS執行流程。 這會導致載入結帳頁面時發生問題。
+如果為商店啟用Google Analytics，當已安裝uBlock或其他廣告封鎖程式的客戶繼續結帳時，`trackingCode.js`檔案會遭到封鎖而無法載入，且RequireJS會中斷JS執行流程。 這會導致載入結帳頁面時發生問題。
 
 <u>要再現的步驟</u> ：
 
@@ -26,9 +26,9 @@ ht-degree: 0%
 1. 在「Commerce管理員」中，啟用並設定Google Analytics功能。
 1. 在店面開啟產品頁面。
 1. 將產品新增至購物車。
-1. 按一下 **前往簽出** 連結。
+1. 按一下&#x200B;**前往簽出**&#x200B;連結。
 
-<u>預期結果</u>：載入結帳頁面，而客戶可完成結帳。
+<u>預期結果</u>：已載入結帳頁面，且客戶可完成結帳。
 
 <u>實際結果</u>：未載入簽出頁面；載入進度環永不消失。
 
@@ -53,10 +53,10 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 有用的連結
 
-* [GitHub上討論的問題](https://github.com/magento/magento2/pull/13061)
+* [在GitHub上討論的問題](https://github.com/magento/magento2/pull/13061)
 
 ## 附加的檔案

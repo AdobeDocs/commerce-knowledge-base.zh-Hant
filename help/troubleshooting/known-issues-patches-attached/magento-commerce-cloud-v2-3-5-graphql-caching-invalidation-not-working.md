@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 雲端基礎結構上的Adobe Commerce v2.3.5 GraphQL快取失效無法運作
 
-本文針對GraphQL的問題提供修補程式 `GET` 如果客戶變更產品資訊，則請求會傳回過時的資訊。
+本文針對GraphQL `GET`請求在客戶變更產品資訊時傳回過期資訊的問題提供修補程式。
 
 ## 受影響的產品和版本
 
@@ -33,11 +33,11 @@ Fastly會快取GraphQL請求，並擷取每個後續請求的Fastly快取版本�
 
 <u>預期結果</u>：
 
-此 `X-Cache` 標頭包含 `MISS`.
+`X-Cache`標頭包含`MISS`。
 
 <u>實際結果</u>：
 
-此 `X-Cache` 標頭包含 `HIT`，表示會快取回應。
+`X-Cache`標頭包含`HIT`，這表示已快取回應。
 
 ## 解決方案
 
@@ -73,6 +73,6 @@ Fastly會快取GraphQL請求，並擷取每個後續請求的Fastly快取版本�
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得如何套用Composer修補程式的指示。
+如需如何套用撰寫器修補程式的指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

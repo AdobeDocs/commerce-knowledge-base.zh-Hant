@@ -15,7 +15,7 @@ ht-degree: 0%
 
 本文提供當商家嘗試升級至Adobe Commerce （所有部署方法）或Magento Open Source2.4.3或2.3.7-p1時，他們看到以下錯誤的修正：
 
-*PHP嚴重錯誤：未攔截到的錯誤：呼叫&lt;...>Magento\Framework\Filesystem\Directory\str_contains：74中的未定義函式/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()*
+*PHP嚴重錯誤：未攔截錯誤：呼叫&lt;...>Magento\Framework\Filesystem\Directory\str_contains：74*&#x200B;中的未定義函式/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()
 
 此問題將在2.4.4、2.4.3-p1和2.3.7-p2版本的範圍內修正。
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 問題
 
-此問題是由僅使用PHP 8的新Adobe Commerce 2.4.3和2.3.7-p1版本造成的 `str_contains`. Adobe Commerce 2.4.3和2.3.7-p1僅與PHP 7.4相容，因此無法使用此函式。
+此問題是由使用PHP 8的新Adobe Commerce 2.4.3和2.3.7-p1版本僅功能`str_contains`所造成。 Adobe Commerce 2.4.3和2.3.7-p1僅與PHP 7.4相容，因此無法使用此函式。
 
 <u>要再現的步驟</u> ：
 
@@ -42,7 +42,7 @@ php嚴重錯誤。
 
 ## 解決方案
 
-作為因應措施，您可以在CLI/終端機中執行以下命令： `composer require symfony/polyfill-php80` 從Magento根資料夾或安裝撰寫器修補程式。
+作為因應措施，您可以在CLI/終端機中執行下列命令：從Magento根資料夾執行`composer require symfony/polyfill-php80`或安裝撰寫器修補程式。
 
 為了修正2.4.3的問題，Adobe Commerce （所有部署方法）和Magento Open Source商家應套用修補程式：
 
@@ -54,8 +54,8 @@ php嚴重錯誤。
 
 ## 如何套用修正程式
 
-另請參閱 [如何套用Magento提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 相關閱讀
 
-GitHub [Magento2.4.3 EE #33680中不支援的PHP 8命令](https://github.com/magento/magento2/issues/33680)
+GitHub [Magento2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)中不支援的PHP 8命令

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>
 
-1. 前往 **[!UICONTROL Sales]** > **[!UICONTROL Orders]** 並選取要建立訂單的客戶。
+1. 移至&#x200B;**[!UICONTROL Sales]** > **[!UICONTROL Orders]**&#x200B;並選取要建立訂單的客戶。
 2. 從商店選擇器畫面中選取要下訂單的商店。
 
 <u>預期結果</u>
@@ -44,5 +44,5 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-* 如需在雲端基礎結構上套用Adobe Commerce修補程式的指示，請參閱 [套用修補程式](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html) 雲端基礎結構指南中的Commerce 。
-* 如需內部部署Adobe Commerce修補程式的說明，請參閱 [套用修補程式](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer) (位於我們的Commerce升級指南中)。
+* 如需在雲端基礎結構上套用Adobe Commerce修補程式的指示，請參閱我們的Commerce on Cloud Infrastructure指南中的[套用修補程式](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
+* 如需有關套用Adobe Commerce內部部署修補程式的說明，請參閱我們的Commerce升級指南中的[套用修補程式](/docs/commerce-operations/upgrade-guide/patches/apply.html?lang=en#composer)。

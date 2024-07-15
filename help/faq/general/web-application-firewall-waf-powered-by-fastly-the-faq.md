@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Adobe Commerce的受管理雲端WAF （由Fastly提供技術支援）如何運作？
 
-Web應用程式防火牆(WAF)防止 [惡意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md) 根據一組安全性規則篩選流量，以阻止進入網站和網路。 觸發任何規則的流量會先遭到封鎖，然後才能損害您的網站或網路。
+Web應用程式防火牆(WAF)會根據一組安全性規則篩選流量，以防止[惡意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)進入網站和網路。 觸發任何規則的流量會先遭到封鎖，然後才能損害您的網站或網路。
 
 Adobe Commerce的雲端WAF提供WAF原則及規則集，專為保護Adobe Commerce Web應用程式免受各種攻擊而設計。
 
@@ -50,7 +50,7 @@ WAF會針對單一雲端帳戶下的所有網域進行整體調整。
 
 ## 如何更新WAF規則集？ WAF規則的變更或更新速度，以及如何在生產中全域套用？
 
-作為雲端WAF服務的一部分，Fastly管理來自商業第三方、Fastly研究和開放來源的規則更新。 使用者會視需要或在可從個別來源取得規則變更時，將已發佈的規則更新至原則。 啟用後，符合規則發佈類別的新規則也會插入任何服務的WAF執行個體中。 這有助於確保即時涵蓋新的或不斷演變的利用漏洞。 您可以檢閱資訊 [關於規則更新與維護](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance) 在Fastly檔案網站上。
+作為雲端WAF服務的一部分，Fastly管理來自商業第三方、Fastly研究和開放來源的規則更新。 使用者會視需要或在可從個別來源取得規則變更時，將已發佈的規則更新至原則。 啟用後，符合規則發佈類別的新規則也會插入任何服務的WAF執行個體中。 這有助於確保即時涵蓋新的或不斷演變的利用漏洞。 您可以在Fastly檔案網站上檢閱規則更新與維護的相關資訊[](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance)。
 
 ## Adobe Commerce的雲端WAF與Fastly提供給直接客戶的WAF解決方案有何不同？
 
@@ -84,7 +84,7 @@ Fastly直接銷售的WAF解決方案是付費產品，包含更廣泛的規則�
 </tr>
 <tr>
 <td style="width: 145.5px; vertical-align: top;">JavaScript插入攻擊</td>
-<td style="width: 497.5px;">WAF規則可防止惡意JavaScript程式碼插入使用者端與Web服務的通訊中。 透過WAF篩選常見的利用漏洞模式或分數，以確保原始服務的完整性。</td>
+<td style="width: 497.5px;">WAF規則可防止使用者端透過網頁服務通訊時插入惡意JavaScript程式碼。 透過WAF篩選常見的利用漏洞模式或分數，以確保原始服務的完整性。</td>
 </tr>
 </tbody>
 </table>
@@ -104,11 +104,11 @@ Adobe Commerce的WAF產品包括PCI需求中針對OWASP Top-10威脅的保護、
 
 ## 客戶可以建立和修改IP黑名單以封鎖流量嗎？
 
-可以，客戶可以在雲端基礎結構的Admin UI上，從Adobe Commerce啟用依國家/地區和存取控制清單(ACL)的封鎖。 若您想要封鎖來自特定國家/地區或特定IP或IP範圍的訪客存取，請使用這些功能。 如果您希望封鎖的訪客看到自訂頁面而不是錯誤代碼，您可以在Fastly設定選單中上傳HTML來建立自訂錯誤頁面。 另請參閱 [建立自訂錯誤/維護頁面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html) （位於我們的開發人員檔案中）。
+可以，客戶可以在雲端基礎結構的Admin UI上，從Adobe Commerce啟用依國家/地區和存取控制清單(ACL)的封鎖。 若您想要封鎖來自特定國家/地區或特定IP或IP範圍的訪客存取，請使用這些功能。 如果您希望封鎖的訪客看到自訂頁面而不是錯誤代碼，您可以在Fastly設定選單中上傳HTML來建立自訂錯誤頁面。 請參閱我們的開發人員檔案中的[建立自訂錯誤/維護頁面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 ## 我可以在哪裡檢視WAF服務的運作狀態？
 
-整體WAF服務可用性報告於 [Fastly狀態頁面](https://status.fastly.com/). 未提供個別客戶WAF的可用性報告。
+整體WAF服務可用性會在[Fastly狀態頁面](https://status.fastly.com/)上報告。 未提供個別客戶WAF的可用性報告。
 
 ## Adobe Commerce是否提供WAF服務的事件管理？
 
@@ -118,7 +118,7 @@ Adobe Commerce的WAF產品包括PCI需求中針對OWASP Top-10威脅的保護、
 
 雖然Adobe Commerce沒有安全性作業中心，但我們有安全性作業程式，可讓我們運用適當的資源，即時回應安全性事件。 我們亦提供全年無休的追蹤支援。
 
-您也可以從取得Adobe Commerce相關安全性新聞和更新 [安全中心](https://helpx.adobe.com/security.html).
+您也可以從[安全性中心](https://helpx.adobe.com/security.html)取得與Adobe Commerce相關的安全性新聞與更新。
 
 ## 提供哪些支援？
 
@@ -128,11 +128,11 @@ WAF支援提供下列資源，協助您減輕不想要或惡意請求對服務�
 * 持續進行誤判以處理WAF封鎖合法流量的例項
 * 任何作為WAF版本升級一部分引入的新標準規則的設定
 
-請參閱 [雲端SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf) 其他支援資訊的術語，包括嚴重程度定義、回應時間、管道和可用性。
+請參閱[雲端SLA](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Magento-Support-Services-Terms-and-Conditions.pdf)條款，以取得其他支援資訊，包括嚴重性定義、回應時間、通道和可用性。
 
 ## 如果WAF封鎖合法流量或造成其他問題，我如何取得協助？
 
-[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 在 [Adobe Commerce說明中心](https://support.magento.com). 請包含指出票證與WAF服務相關，並包含封鎖的請求識別碼(ID)。
+在[Adobe Commerce說明中心](https://support.magento.com)提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 [請包含指出票證與WAF服務相關，並包含封鎖的請求識別碼(ID)。
 
 Adobe Commerce支援票證系統可追蹤我們的支援工程師與客戶人員之間的通訊。 此系統提供有時間戳記的通訊記錄，並在票證更新時傳送電子郵件給客戶和Adobe Commerce的工作人員。
 
@@ -160,12 +160,12 @@ Adobe Commerce支援票證系統可追蹤我們的支援工程師與客戶人員
 </tr>
 <tr>
 <td>緊急升級*</td>
-<td>請參閱 <a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1通知熱線</a> 適用於美國和國際號碼的文章。</td>
+<td>請參閱美國和國際號碼的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1通知熱線</a>文章。</td>
 </tr>
 </tbody>
 </table>
 
-*\* Adobe Commerce的免付費支援電話線僅針對「優先等級1」事件。 非優先順序1呼叫將減慢對問題的整體回應*
+*\* Adobe Commerce的免付費支援電話線僅針對「優先等級1」事件保留。 非優先順序1呼叫將會減慢對問題的整體回應*
 
 ## 誤判會如何分級？
 

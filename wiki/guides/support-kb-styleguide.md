@@ -49,16 +49,16 @@ ht-degree: 0%
 
 ## UI元素
 
-* 使用者點按的所有內容都放入 **粗體**. 例如，「按一下 **繼續**.」 選項值和錯誤訊息的格式為 _斜體_.
-* 請儘可能避免在指示中提及UI元素型別。 (按一下 **下一個**. vs按一下 **下一個** 按鈕。)
-* 在命令序列中使用「Choose」和「>」。 (選擇 **編輯** > **偏好設定**. vs按一下編輯 | 偏好設定。)
+* 使用者點按的所有內容都放入&#x200B;**bold**。 例如，「按一下&#x200B;**繼續**」。 選項值和錯誤訊息的格式為&#x200B;_斜體_。
+* 請儘可能避免在指示中提及UI元素型別。 (按一下&#x200B;**下一步**。 vs按一下&#x200B;**下一步**&#x200B;按鈕。)
+* 在命令序列中使用「Choose」和「>」。 (選擇&#x200B;**編輯** > **偏好設定**。 vs按一下編輯 | 偏好設定。)
 * 前置詞：對話方塊、視窗的「在」是、面板、檢視、精靈、清單、資料夾、節點。
 * 前置位置：熒幕、頁面、工具列、功能表列、索引標籤、窗格、功能區的「開啟」。
-* 前置詞：按一下(按一下 **下一個** vs點按 **下一個**)。
+* 前置詞：按一下（按一下&#x200B;**下一步**&#x200B;與按一下&#x200B;**下一步**）。
 
 ## 檔案名稱
 
-檔案名稱和資料夾會格式化為程式碼。 範例： `/var/log` 系統目錄包含所有環境的記錄。
+檔案名稱和資料夾會格式化為程式碼。 範例： `/var/log`系統目錄包含所有環境的記錄。
 
 
 ## 數字
@@ -206,7 +206,7 @@ Adobe Commerce 2.4.0版
 
 </td>
 
-<td colspan="1"> 錯誤訊息：  <i>發生錯誤。</i> </td>
+<td colspan="1"> 錯誤訊息： <i>發生錯誤。</i> </td>
 
 <td colspan="1">
 </td>
@@ -219,9 +219,9 @@ Adobe Commerce 2.4.0版
 
 ## 協助工具
 
-* 所有非文字或圖形元素都具有文字等同或Alt文字。 範例： ![example_image](/url "alt_text_for_this_image").
+* 所有非文字或圖形元素都具有文字等同或Alt文字。 範例： ![example_image](/url "alt_text_for_this_image")。
 
-* 所有連結都會說明連結的目的地。 範例 [連結](/uri "destination_of_the_link").
+* 所有連結都會說明連結的目的地。 範例[連結](/uri "destination_of_the_link")。
 
 
 <!--
@@ -253,14 +253,14 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ### 外部網站連結
 
-使用一般URL （而非goURL）來連結至外部頁面  [Adobe.com](http://Adobe.com).
+使用一般URL而非goURL來連結至[Adobe.com](http://Adobe.com)以外的頁面。
 
 
 ## 逗號
 
 一般而言，請遵循芝加哥風格手冊的開放樣式建議標點符號，僅在必要時使用標點符號以避免誤讀。 例如，如果複合句子中的結合字元前省略逗號，幾乎沒有或完全沒有誤讀的風險，您就可以使用。 在需要澄清時請使用逗號。
 
-* 請一律使用序列逗號（前面的逗號） _和_ 或 _或_ （在包含三個或更多專案的清單中）：x、y和z
+* 一律使用序列逗號（在包含三個或更多專案的清單中，位於&#x200B;_與_&#x200B;或&#x200B;_或_&#x200B;之前的逗號）： x、y和z
 
 * 在引入獨立子句的結合項前放置逗號：「指定位置並輸入檔案清單的名稱」。
 
@@ -276,4 +276,4 @@ Use tables for information that is best presented along two axes (rows and colum
 
 ## 品牌化
 
-* Magento Commerce現在更名為Adobe Commerce。 請參閱 [品牌重設詞語](https://github.com/magento/knowledge-base/wiki) wiki ，以取得如何使用最新品牌語言的詳細資訊。
+* Magento Commerce現在更名為Adobe Commerce。 請參閱[品牌重設條款](https://github.com/magento/knowledge-base/wiki) Wiki以取得有關如何使用最新品牌語言的詳細資訊。

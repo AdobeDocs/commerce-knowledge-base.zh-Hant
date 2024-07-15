@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 更新進階報告，以便在其自己的cron群組上執行
 
-本文針對Adobe Commerce在雲端基礎結構2.3.0上的已知問題提供修補程式，該問題中的進階報告未顯示任何資料。 這是因為進階報告工作 `analytics_collect_data` 未根據排程執行。 本文提供將建立進階報告cron群組的修補程式 `analytics`.
+本文針對Adobe Commerce在雲端基礎結構2.3.0上的已知問題提供修補程式，該問題中的進階報告未顯示任何資料。 這是因為進階報告工作`analytics_collect_data`未依照排程執行。 本文提供的修補程式將建立進階報告cron群組`analytics`。
 
 ## 問題
 
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 ## 修補
 
-此修補程式已附加至本文。 修補程式會移動 `analytics` 將工作任務從預設群組限製為 `analytics`.
+此修補程式已附加至本文。 修補程式會將`analytics` cron工作工作從預設群組移至`analytics`。
 
 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱，或按一下以下連結：
 
 [MDVA-19640\_EE\_2.3.0\_COMPOSER\_v1.patch](assets/MDVA-19640_EE_2.3.0_COMPOSER_v1.patch.zip)
 
-套用修正程式後，請執行下列SQL查詢。 必須執行查詢才能變更中的記錄 `cron_schedule` 表格。
+套用修正程式後，請執行下列SQL查詢。 必須執行查詢才能變更`cron_schedule`資料表中的記錄。
 
 ```
 UPDATE core_config_data
@@ -45,6 +45,6 @@ WHERE `path` LIKE "crontab/default/jobs/analytics%";
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得指示。
+如需指示，請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

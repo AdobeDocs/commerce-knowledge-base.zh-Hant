@@ -1,5 +1,5 @@
 ---
-title: 監控情況說明書 [!DNL Adobe Commerce on cloud pro infrastructure]
+title: 正在監視 [!DNL Adobe Commerce on cloud pro infrastructure]的資料工作表
 description: 本檔案提供Adobe Commerce基礎架構監控和通知的相關資訊。
 exl-id: 01342d8d-2123-4455-b1a5-a08a5805b046
 feature: Cloud
@@ -11,7 +11,7 @@ ht-degree: 0%
 ---
 
 
-# 監控情況說明書 [!DNL Adobe Commerce on cloud pro infrastructure]
+# 正在監視[!DNL Adobe Commerce on cloud pro infrastructure]的資料工作表
 
 本檔案提供Adobe Commerce基礎架構監控和通知的相關資訊。
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Adobe Commerce例項通常包含自訂程式碼和設定。 Adobe不支援自訂程式碼和設定也無法解決問題。 Adobe確實能協助商家疑難排解並找出我們知識庫中的問題，並提供預防和解決這些問題的建議解決方案和最佳實務。 我們鼓勵商家和合作夥伴使用下表來瞭解受監控的專案及負責解決問題的人員。
 
-觸發通知時，Adobe Commerce支援團隊會分類問題。 作為分類的一部分，會分析錯誤記錄和其他資源。 根據分類，其他 [!DNL Zendesk] 系統會為商家或合作夥伴（若為自訂更新）或Adobe的內部團隊建立支援票證，以解決問題。
+觸發通知時，Adobe Commerce支援團隊會分類問題。 作為分類的一部分，會分析錯誤記錄和其他資源。 根據分類，會為商家或合作夥伴（若為自訂更新）或Adobe的內部團隊建立其他[!DNL Zendesk]支援票證以解決問題。
 
 ## Adobe Commerce：預設監視
 
@@ -32,20 +32,20 @@ Adobe Commerce例項通常包含自訂程式碼和設定。 Adobe不支援自訂
 | 網站可用性 | 說明 |
 |------------|------------|
 | **監視目標** | 追蹤網站可用性。 |
-| **檢測日期** | 單一 [!DNL URL] 已選取上限 [!DNL SLA]. |
-| **說明** | 網站可用性是根據測量結果周圍的設定臨界值來決定。 如果檢查在10分鐘內失敗，並且沒有正在進行的部署，則會觸發網站中斷通知。 |
+| **檢測於** | 已為高[!DNL SLA]選取單一[!DNL URL]。 |
+| **描述** | 網站可用性是根據測量結果周圍的設定臨界值來決定。 如果檢查在10分鐘內失敗，並且沒有正在進行的部署，則會觸發網站中斷通知。 |
 | **通知收件者** | 商家/合作夥伴和Adobe。 |
-| **依Adobe的動作** | 如果問題發生在Adobe Commerce基礎架構上，則負責分類及修正。 |
-| **商戶的動作** | 負責修正因商家/合作夥伴引進的變更或自訂程式碼所造成的問題。 如需疑難排解，請參閱： [Site Down疑難排解員](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html). |
+| 按Adobe **執行**&#x200B;動作 | 如果問題發生在Adobe Commerce基礎架構上，則負責分類及修正。 |
+| 商戶的&#x200B;**動作** | 負責修正因商家/合作夥伴引進的變更或自訂程式碼所造成的問題。 如需疑難排解，請參閱： [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html)。 |
 
 ## 磁碟空間監視
 
 | 磁碟空間監視 | 說明 |
 |------------|------------|
 | **監視目標** | 追蹤磁碟空間使用狀況。 |
-| **檢測日期** | [!DNL MySQL] 磁碟和媒體磁碟分割。 |
+| **檢測於** | [!DNL MySQL]磁碟和媒體磁碟分割。 |
 | **量度** | 每分鐘都會在主機上監視可用磁碟空間。 如果僅剩下5%或2GB可用空間，則會引發警告。 在剩餘可用空間設定的嚴重臨界值為2%或1GB。 |
-| **說明** | 系統會根據設定在主機可用磁碟空間周圍的臨界值來傳送通知。 額外的磁碟空間會自動增加一次，以安裝相關的掛載([!DNL MySQL] 或媒體)，以防止網站中斷，並讓商家有時間清除磁碟空間，及/或識別並解決導致磁碟使用量快速增加的任何程式碼或記錄檔。 |
+| **描述** | 系統會根據設定在主機可用磁碟空間周圍的臨界值來傳送通知。 額外的磁碟空間會自動新增一次，以利相關掛載（[!DNL MySQL]或媒體）避免網站中斷，並讓商家有時間清除磁碟空間，及/或識別並解決造成磁碟使用量快速增加的任何程式碼或記錄檔。 |
 | **通知收件者** | 商家/合作夥伴和Adobe。 |
-| **依Adobe的動作** | 自動提高支援票證，並將額外的磁碟空間自動新增到相關的掛載([!DNL MySQL] 或媒體)，以防止網站中斷。 |
-| **商戶的動作** | 若要接收持續警告層級的磁碟空間警示，請參閱： <ul><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟警告警報](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-warning-alert.html)</li><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟嚴重警示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-critical-alert.html) </li></ul> |
+| 按Adobe **執行**&#x200B;動作 | 自動提高支援票證，並將額外的磁碟空間自動新增至相關的掛載（[!DNL MySQL]或媒體），以防止網站中斷。 |
+| 商戶的&#x200B;**動作** | 若要接收持續警告層級的磁碟空間警示，請參閱： <ul><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟警告警示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-warning-alert.html)</li><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟嚴重警示](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-disk-critical-alert.html) </li></ul> |

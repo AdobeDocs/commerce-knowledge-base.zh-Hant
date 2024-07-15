@@ -26,20 +26,20 @@ ht-degree: 0%
 
 1. 使用下列其中一種核心送貨方式下單並完成訂單：FedEx、DHL、UPS及USPS。
 1. 建立並授權此訂單的退貨。
-1. 開啟已授權的 **傳回資訊** 頁面，然後按一下 **建立送貨標籤** 按鈕。
+1. 開啟授權的&#x200B;**退貨資訊**&#x200B;頁面，然後按一下&#x200B;**建立運送標籤**&#x200B;按鈕。
 1. 選取送貨方法、將產品新增至封裝，然後按一下「儲存」。
 
 <u>預期結果：</u>
 
-已成功建立送貨標籤，且您會看到一則訊息： *您已建立送貨標籤。*
+已成功建立送貨標籤，您會看到訊息： *您已建立送貨標籤。*
 
 <u>實際結果：</u>
 
-此 **傳回資訊** 頁面已損壞，而您會在「傳回資訊」頁面上看到錯誤訊息： *此區段的一般資訊變更尚未儲存。 此索引標籤包含無效的資料*.
+**傳回資訊**&#x200B;頁面已損毀，而您在傳回資訊頁面上看到錯誤訊息： *此區段已進行一般資訊變更，但尚未儲存。 此索引標籤包含無效的資料*。
 
 ## 解決方案
 
-套用 [修補](assets/MC-35984-2.4.0-CE-composer.patch.zip) 本文提供。
+套用本文提供的[修補程式](assets/MC-35984-2.4.0-CE-composer.patch.zip)。
 
 ## 修補
 
@@ -47,11 +47,11 @@ ht-degree: 0%
 
 [MC-35984-2.4.0-CE-composer.patch](assets/MC-35984-2.4.0-CE-composer.patch.zip)
 
-修補程式也可在以下兩種版本中下載： `.git` 和 `.composer`，格式於 [Adobe Commerce下載內容](https://magento.com/tech-resources/download) 頁面，下 **修補程式** 在左側欄導覽中。 搜尋MC-35984修補程式。
+修補程式也可在[Adobe Commerce Downloads](https://magento.com/tech-resources/download)頁面的&#x200B;**Patches**&#x200B;左側欄導覽下，以`.git`和`.composer`兩種格式下載。 搜尋MC-35984修補程式。
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識頁面中。
+如需指示，請參閱我們的支援知識頁面中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 我們的支援知識庫中的相關閱讀：
 

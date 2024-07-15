@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-[設定共用型錄的訂價與結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html) 在我們的使用手冊中。
+在我們的使用手冊中[設定共用型錄的定價和結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)。

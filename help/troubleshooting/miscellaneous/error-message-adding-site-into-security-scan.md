@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 將網站新增至安全性掃描時出現錯誤訊息
 
-本文提供使用者無法新增網站至時問題的可能解決方案。 [Commerce安全性掃描](https://account.magento.com/scanner/dashboard/).
+本文提供使用者無法新增網站至[Commerce安全性掃描](https://account.magento.com/scanner/dashboard/)時，問題的可能解決方案。
 
 ## 受影響的產品和版本
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 問題
 
-使用者無法將網站新增到 [Commerce安全性掃描](https://account.magento.com/scanner/dashboard/). 嘗試新增網站時，出現下列錯誤訊息： *無法提交網站以供掃描。*
+使用者無法將網站新增至[Commerce安全性掃描](https://account.magento.com/scanner/dashboard/)。 嘗試新增網站時出現下列錯誤訊息： *無法送出網站進行掃描。*
 
 ## 解決方案
 
@@ -31,10 +31,10 @@ ht-degree: 0%
    * 34.196.167.176
    * 3.218.25.102
 
-1. 確認代碼會區分大小寫。 如果超過30分鐘已經超過 **新增網站** 已按一下連結，程式碼可能已過期。
+1. 確認代碼會區分大小寫。 如果點選&#x200B;**新增網站**&#x200B;連結後超過30分鐘，程式碼可能已過期。
 1. 別忘了清除快取，並確認驗證程式碼顯示在首頁原始碼本文中。 確認程式碼應根據HTML標籤規格插入：HTML註解可插入頁面內文（建議將其放在頁尾區段）；META標籤應僅放置在head區段中。
-1. 按一下之前 **驗證確認代碼**，開啟瀏覽器的開發人員主控台，按一下 **網路** 標籤並檢查來自magento.com的回應。 應該是HTTP 200 （確定），而且回應本文應該包含JSON物件。
-1. 如果回應代碼為HTTP 200，且回應本文為JSON物件且 `verified` 屬性值是 `false`，表示在頁面上找不到代碼。 此 `details` 屬性值應包含說明。 例如，如果存放區使用自我簽署SSL憑證，則可能會發生連線錯誤。
+1. 按一下&#x200B;**驗證確認代碼**&#x200B;之前，請開啟瀏覽器的開發人員主控台，按一下&#x200B;**網路**&#x200B;索引標籤，然後檢查來自magento.com的回應。 應該是HTTP 200 （確定），而且回應本文應該包含JSON物件。
+1. 如果回應代碼為HTTP 200，且回應本文為JSON物件，且`verified`屬性值是`false`，則表示在頁面上找不到代碼。 `details`屬性值應該包含說明。 例如，如果存放區使用自我簽署SSL憑證，則可能會發生連線錯誤。
 
 如果您仍然無法新增網站，請完成以下步驟：
 
@@ -53,4 +53,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [安全性掃描](https://docs.magento.com/user-guide/magento/security-scan.html) 在我們的使用手冊中。
+* 使用手冊中的[安全性掃描](https://docs.magento.com/user-guide/magento/security-scan.html)。

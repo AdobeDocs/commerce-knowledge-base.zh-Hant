@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 由於維護模式保持啟用狀態，網站無法載入
 
-本文提供網站因維護模式保持啟用或未自動停用而未載入時的修正。 您可能會收到錯誤訊息： *服務暫時無法使用伺服器因維護停機或容量問題而暫時無法服務您的要求。*
+本文提供網站因維護模式保持啟用或未自動停用而未載入時的修正。 您可能會收到錯誤訊息： *服務暫時無法使用由於維護停機時間或容量問題，伺服器暫時無法服務您的要求。*
 
 ## 受影響的版本和產品
 
@@ -44,4 +44,4 @@ bin/magento maintenance:disable
 
 ## 相關閱讀
 
-若要瞭解何時使用維護模式，請參閱 [啟用或停用維護模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode) （位於我們的開發人員檔案中）。
+若要瞭解何時使用維護模式，請參閱開發人員檔案中的[啟用或停用維護模式](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=maintenance%20mode)。

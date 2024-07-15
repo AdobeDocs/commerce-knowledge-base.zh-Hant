@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Adobe Commerce 2.4.0：安裝B2B 1.2.0期間發生例外狀況
 
-本文針對期間擲回的例外狀況，修正Adobe Commerce已知問題 `setup:upgrade` 安裝B2B 1.2.0時。
+本文修正安裝B2B 1.2.0時`setup:upgrade`期間擲回例外狀況的Adobe Commerce已知問題。
 
 ## 受影響的產品和版本
 
@@ -39,7 +39,7 @@ B2B 1.2.0安裝。
 
 <u>實際結果</u>
 
-時間 `setup:upgrade` 執行以安裝B2B 1.2.0，此錯誤會出現在 `PurchaseOrder` 模組：
+當`setup:upgrade`執行以安裝B2B 1.2.0時，`PurchaseOrder`模組上會出現此錯誤：
 
 ```php
 Module 'Magento_PurchaseOrder':
@@ -54,7 +54,7 @@ Module 'Magento_PurchaseOrder':
 
 ## 修補
 
-此修補程式已附加至本文，且可在以下兩種版本中下載： `.composer` 和 `.git` 格式（解壓縮檔案後）。
+此修補程式已附加至此文章，並可供以`.composer`和`.git`兩種格式（在您解壓縮檔案後）下載。
 
 若要下載，請向下捲動至文章結尾，然後按一下檔案名稱，或按一下下列其中一個連結：
 
@@ -63,14 +63,14 @@ Module 'Magento_PurchaseOrder':
 
 ## 如何套用修補程式
 
-<u>撰寫器修補程式 </u>
+<u>Composer修補程式</u>
 
-另請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 以取得撰寫器修補程式指示。
+請參閱[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得撰寫器修補程式指示。
 
-<u>Git修補程式 </u>
+<u>Git修補程式</u>
 
-* 另請參閱 [套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) 在開發人員檔案中，找到雲端基礎結構上Adobe Commerce的Git修補程式指示。
-* 另請參閱 [套用修補程式：自訂修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches) (位於Adobe Commerce的Git修補程式說明開發人員檔案中)。
+* 如需雲端基礎結構上Adobe Commerce的Git修補程式指示，請參閱開發人員檔案中的[套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 如需Adobe Commerce的Git修補程式指示，請參閱開發人員檔案中的[套用修補程式：自訂修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)。
 
 ## 相關閱讀
 

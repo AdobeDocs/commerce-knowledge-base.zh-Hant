@@ -23,4 +23,4 @@ ht-degree: 0%
 
 ## 若要選擇退出這些電子郵件：
 
-請依照下列指示操作 [更新Amazon網站上的通知偏好設定](https://sellercentral.amazon.com/gp/help/external/G871).
+請依照這些指示進行[更新Amazon網站](https://sellercentral.amazon.com/gp/help/external/G871)上的通知偏好設定。

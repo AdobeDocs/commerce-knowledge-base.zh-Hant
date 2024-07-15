@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u> ：
 
-**必要條件**：永續性購物車功能已啟用。 檢查它是否在「管理員」中的「 」下啟用 **商店** > **設定** > **客戶** 或 **商店** > **設定** > **銷售，** 取決於您的Adobe Commerce版本。
+**必要條件**：已啟用永久購物車功能。 根據您的Adobe Commerce版本，檢查是否在Admin中的&#x200B;**商店** > **設定** > **客戶**&#x200B;或&#x200B;**商店** > **設定** > **銷售，**&#x200B;下啟用它。
 
 1. 前往店面。
 1. 新增產品至購物車。
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 相容的Adobe Commerce版本
 
-**已建立下列專案的修正程式：**
+**已建立修補程式：**
 
 * Adobe Commerce 2.2.3
 
@@ -61,6 +61,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 附加的檔案

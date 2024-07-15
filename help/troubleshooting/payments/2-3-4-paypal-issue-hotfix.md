@@ -29,8 +29,8 @@ ht-degree: 0%
 1. 啟用PayPal Express簽出。
 1. 以訪客身份或您登入時，將產品新增至購物車。
 1. 前往結帳。
-1. 選取您的運送地址。 例如， *UK* . 然後，將輸入輸入至 **州/省** 欄位。 例如， *諾丁漢郡*.
-1. 按一下 **下單** 按鈕下單。 您會收到成功的訂單頁面和訂單確認電子郵件。
+1. 選取您的運送地址。 例如，*UK* 。 然後在&#x200B;**州/省**&#x200B;欄位中輸入輸入。 例如，*諾丁漢郡*。
+1. 按一下&#x200B;**下單**&#x200B;按鈕進行下單。 您會收到成功的訂單頁面和訂單確認電子郵件。
 
 <u>預期結果：</u>
 
@@ -47,14 +47,14 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 ## 解決方案
 
-對於Adobe Commerce內部部署商家：套用 [hotfix，](https://magento.com/tech-resources/download#download2353) 此頁面可從的「下載」區段取得： [magento.com](https://magento.com) 我的帳戶中的入口網站。
+針對Adobe Commerce內部部署商家：套用[Hotfix，](https://magento.com/tech-resources/download#download2353)，可在「我的帳戶」中[magento.com](https://magento.com)入口網站的「下載」區段取得。
 
-雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱 [Commerce的雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche) 在開發人員檔案中，尋找套用最新套件的指示。
+雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)，以尋找套用最新套件的說明。
 
 ## 如何套用修正程式
 
-如需指示，請參閱 [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
 
 ## 相關閱讀
 
-* [發行資訊> Adobe Commerce 2.3.4發行說明>套用Adobe Commerce 2.3.4區域修補程式的PayPal Express簽出問題以解決關鍵PayPal Express簽出問題](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue) （位於我們的開發人員檔案中）。
+* [發行資訊> Adobe Commerce 2.3.4發行說明>套用Adobe Commerce 2.3.4區域修補程式的PayPal Express結帳問題，以解決我們開發人員檔案中的重大PayPal Express結帳問題](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue)。

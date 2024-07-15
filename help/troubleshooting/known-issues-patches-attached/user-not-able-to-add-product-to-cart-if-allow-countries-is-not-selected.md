@@ -26,9 +26,9 @@ Adobe Commerce 2.4.4與PHP 8.1
 <u>要再現的步驟</u>：
 
 1. 登入Commerce管理員。
-1. 前往 **儲存** > **設定** > **一般** > **國家/地區選項**
-1. 取消選取中的所有選項 **允許國家/地區** 欄位。
-1. 按一下 **儲存設定** 以儲存組態。
+1. 移至&#x200B;**市集** > **組態** > **一般** > **國家選項**
+1. 取消選取&#x200B;**允許國家**&#x200B;欄位中的所有選項。
+1. 按一下&#x200B;**儲存設定**&#x200B;以儲存設定。
 1. 前往店面，嘗試將產品新增到購物車。
 
 <u>預期結果：</u>
@@ -51,7 +51,7 @@ customer-data.js:87 Uncaught Error: [object Object]
 
 ## 原因
 
-Adobe Commerce設定會擷取 `null` 如果多選組態沒有任何選取的專案。 如果在8.1之前的PHP版本中進一步成功處理此設定。但是在PHP 8.1中，由於「[在PHP 8.1中，不要將null傳遞至內部函式的不可為空引數](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)「。
+多選設定沒有任何選取的專案時，Adobe Commerce設定會擷取`null`。 如果在8.1之前的PHP版本中進一步成功處理此設定。然而，在PHP 8.1中，它無法正常運作，因為錯誤是由於「[Deprecate將null傳遞給PHP 8.1](https://wiki.php.net/rfc/deprecate_null_to_scalar_internal_arg)中內部函式的不可為空的引數」所造成。
 
 ## 解決方案
 
@@ -61,8 +61,8 @@ Adobe Commerce設定會擷取 `null` 如果多選組態沒有任何選取的專�
 
 ## 如何套用修補程式
 
-另請參閱 [如何套用Adobe Commerce提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md) 在我們的支援知識庫中取得指示。
+請參閱我們的支援知識庫中的[如何套用Adobe Commerce](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。
 
 ## 有用的連結
 
-[在雲端基礎結構上套用自訂修補程式至Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+[在開發人員檔案中，將自訂修補程式套用至雲端基礎結構上的Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/project/project-patch.html)。

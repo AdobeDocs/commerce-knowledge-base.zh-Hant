@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37478：無法透過REST API建立部分發票
 
-MDVA-37478修補程式修正了無法透過REST API為以付款方式下單的訂單建立部份發票的問題 **分期付款**. 此修補程式適用於 [品質修補工具(QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 已安裝1.0.23。 修補程式ID為MDVA-37478。 請注意，此問題已排程在Adobe Commerce 2.4.3版中修正。
+MDVA-37478修補程式修正了您無法透過REST API為以付款方式&#x200B;**帳戶付款**&#x200B;下的訂單建立部份發票的問題。 安裝[品質修補工具(QPT)](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#mqp) 1.0.23時，即可使用此修補程式。 修補程式ID為MDVA-37478。 請注意，此問題已排程在Adobe Commerce 2.4.3版中修正。
 
 ## 受影響的產品和版本
 
@@ -22,7 +22,7 @@ MDVA-37478修補程式修正了無法透過REST API為以付款方式下單的�
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請更新 `magento/quality-patches` 封裝至最新版本，並檢查 [[!DNL Quality Patches Tool]：搜尋修正程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid). 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -32,13 +32,13 @@ MDVA-37478修補程式修正了無法透過REST API為以付款方式下單的�
 
 <u>要再現的步驟</u>：
 
-1. 啟用 **B2B公司**.
-1. 啟用 **分期付款** 付款方式。
+1. 啟用&#x200B;**B2B公司**。
+1. 啟用&#x200B;**帳戶付款**&#x200B;付款方式。
 1. 建立2個簡單的產品。
 1. 建立公司帳戶。
 1. 新增超過2個已建立產品總價的公司積分。
 1. 使用建立的公司帳戶登入前端。
-1. 將已建立的2項產品新增至購物車，並使用結帳 **分期付款** 付款方式。
+1. 將已建立的2個產品加入購物車，並使用&#x200B;**帳戶付款**&#x200B;付款方式結帳。
 1. 嘗試為透過REST API建立的訂單建立部份商業發票：
 
    ```php
@@ -55,7 +55,7 @@ MDVA-37478修補程式修正了無法透過REST API為以付款方式下單的�
 
 <u>預期結果</u>：
 
-系統會使用下列方式為訂單建立部份商業發票： **分期付款** 付款方式（如預期）。
+部份商業發票是依預期使用&#x200B;**帳戶付款**&#x200B;付款方式開立的訂單所建立。
 
 <u>實際結果</u>：
 
@@ -69,14 +69,14 @@ MDVA-37478修補程式修正了無法透過REST API為以付款方式下單的�
 
 若要套用個別修補程式，請根據您的Adobe Commerce產品使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署： [軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html) （位於我們的開發人員檔案中）。
-* 雲端基礎結構上的Adobe Commerce： [升級與修補程式>套用修補程式](https://devdocs.magento.com/cloud/project/project-patch.html) （位於我們的開發人員檔案中）。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
 
 ## 相關閱讀
 
 若要進一步瞭解「品質修補程式」工具，請參閱：
 
-* [已發行品質修補程式工具：可自助提供品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 在我們的支援知識庫中。
-* [使用Quality Patches Tool檢查是否有修補程式可解決Adobe Commerce問題](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md) 在我們的支援知識庫中。
+* [品質修補程式工具已發行：我們支援知識庫中的自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
+* [使用我們的支援知識庫中的品質修補程式工具](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)，檢查是否有修補程式可用於您的Adobe Commerce問題。
 
-如需QPT工具中其他可用修補程式的詳細資訊，請參閱 [QPT工具中可用的修補程式](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-) 區段。
+如需QPT工具中其他修補程式的詳細資訊，請參閱QPT工具](https://support.magento.com/hc/en-us/sections/360010506631-Patches-available-in-QPT-tool-)中可用的[修補程式區段。

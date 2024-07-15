@@ -11,16 +11,16 @@ ht-degree: 0%
 
 # 找不到修補程式的部署錯誤
 
-本文提供升級執行個體時，如果部署失敗且在部署記錄檔中看到錯誤，問題的解決方案： *找不到後續的修補程式：MDVA-XXXXX、ACSD-XXXXX。 請檢查這些修補程式的「狀態」命令是否適用於目前的Magento版本*.
+本文提供升級執行個體時部署失敗且部署記錄中出現錯誤問題的解決方案： *找不到下一個修補程式： MDVA-XXXXX、ACSD-XXXXX。 請檢查目前Magento版本*&#x200B;是否有這些修補程式的「狀態」命令。
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce， [所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf).
+* 雲端基礎結構上的Adobe Commerce，[所有支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)。
 
 
 ## 問題
 
-升級Adobe Commerce時發生錯誤： *找不到後續的修補程式*.
+升級Adobe Commerce時發生錯誤： *找不到下一個修補程式*。
 
 ## 原因
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 檢查您的 `.magento.env.yaml` 在「品質_PATCH」區段下的檔案，例如，
+1. 檢查QUALITY_PATCH區段底下的`.magento.env.yaml`檔案，例如
 
    ```yaml
    QUALITY_PATCHES:
@@ -36,10 +36,10 @@ ht-degree: 0%
     - ACSD-XXXXX
    ```
 
-1. 在中查詢修補程式ID [品質修補程式發行說明](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html) 檢查每個報表是否能套用至您要升級的新版Adobe Commerce。
-1. 若修補程式不適用於您要升級的新版Adobe Commerce，請從以下位置移除修補程式ID： `.magento.env.yaml` 檔案。
+1. 在[品質修補程式發行說明](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)中查詢修補程式ID，以檢查每個修補程式ID是否可套用至您要升級的新版Adobe Commerce。
+1. 如果修補程式不適用於您要升級的新版Adobe Commerce，請從`.magento.env.yaml`檔案中移除修補程式ID。
 1. 檢閱錯誤所指示的所有修補程式ID後，請推送變更並重新部署。
 
 ## 相關閱讀
 
-* [套用修補程式](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment) 雲端基礎結構指南中的Commerce 。
+* 在雲端基礎結構指南的Commerce中[套用修補程式](/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment)。

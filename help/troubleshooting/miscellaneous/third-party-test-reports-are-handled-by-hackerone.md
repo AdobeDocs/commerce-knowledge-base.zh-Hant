@@ -1,5 +1,5 @@
 ---
-title: 由協力廠商安全性掃描找到的漏洞應移至 [!DNL HackerOne]
+title: 協力廠商安全性掃描找到的漏洞應該移至 [!DNL HackerOne]
 description: 本文提供解決方案，解決協力廠商安全性掃描所發現的弱點。
 feature: Security
 role: Developer, Admin
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# 由協力廠商安全性掃描找到的漏洞應移至 [!DNL HackerOne]
+# 協力廠商安全性掃描找到的漏洞應該移至[!DNL HackerOne]
 
 本文提供解決方案，解決協力廠商安全性掃描所發現的弱點。
 
@@ -25,4 +25,4 @@ ht-degree: 0%
 
 ## 解決方案
 
-由協力廠商安全性掃描發現的漏洞應傳送至 [!DNL HackerOne] 網站。 Adobe Commerce沒有直接的聯絡視窗 [!DNL HackerOne]，因此您應該直接聯絡 [!DNL HackerOne]. Adobe只會處理MST (Magento安全性掃描工具)報告。
+協力廠商安全性掃描找到的漏洞應該傳送到[!DNL HackerOne]網站。 Adobe Commerce在[!DNL HackerOne]沒有直接的聯絡視窗，因此您應該直接聯絡[!DNL HackerOne]。 Adobe只會處理MST (Magento安全性掃描工具)報告。

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* 雲端基礎結構上的Adobe Commerce，全部 [支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
+* 雲端基礎結構上的Adobe Commerce，所有[支援的版本](https://magento.com/sites/default/files/magento-software-lifecycle-policy.pdf)
 
 ## 問題
 
@@ -43,9 +43,9 @@ ht-degree: 0%
 
 ## 解決方案
 
-確定您未啟用存取控制：移至特定分支/環境，然後按一下 **設定** 圖示，並勾選 **HTTP存取控制** 設定 — 在此情況下不能發生快取暖機，而且必須停用存取控制。
+確定您未啟用存取控制：移至特定分支/環境，然後按一下&#x200B;**設定**&#x200B;圖示，並檢查&#x200B;**HTTP存取控制**&#x200B;設定 — 此情境中無法發生快取熱身，必須停用存取控制。
 
 ## 相關閱讀
 
-* [Adobe Commerce使用手冊>全頁快取](https://docs.magento.com/user-guide/system/cache-full-page.html) 在我們的使用手冊中。
-* [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md) 在我們的支援知識庫中。
+* [Adobe Commerce使用手冊>完整頁面快取](https://docs.magento.com/user-guide/system/cache-full-page.html) （在我們的使用手冊中）。
+* 我們的支援知識庫中的[快取準備和網站無法在Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上使用。

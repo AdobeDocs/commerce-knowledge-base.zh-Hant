@@ -28,16 +28,16 @@ ht-degree: 0%
 
 cron作業執行的程式不會執行。 例如，產品更新未套用至小時，或客戶報告未收到電子郵件。
 
-當您開啟 `cron_schedule` 資料庫表格，您會看到下列工作： `missed` 狀態。
+當您開啟`cron_schedule`資料庫表格時，您會看到狀態為`missed`的工作。
 
 ## 原因
 
-之前，在我們的雲端環境中，會使用Jenkins伺服器來執行cron作業。 Jenkins一次只能執行一個作業例項，因此將只有一個例項 `bin/magento cron:run` 一次執行的程式。
+之前，在我們的雲端環境中，會使用Jenkins伺服器來執行cron作業。 Jenkins一次只能執行一個作業的執行個體；因此，一次只能執行一個`bin/magento cron:run`處理序。
 
 ## 解決方案
 
-1. 連絡人 [Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket) 啟用自行管理cron。
-1. 編輯 `.magento.app.yaml` Git分支中Adobe Commerce程式碼的根目錄中的檔案。 新增下列專案：
+1. 聯絡[Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以啟用自行管理cron。
+1. 編輯Git分支中Adobe Commerce程式碼根目錄中的`.magento.app.yaml`檔案。 新增下列專案：
 
    ```yaml
      crons:
@@ -50,11 +50,11 @@ cron作業執行的程式不會執行。 例如，產品更新未套用至小時
 
 >[!NOTE]
 >
->無需轉移有多個Cron設定的舊設定 `cron:run` 出現在新的cron排程中；一般 `cron:run` 如上所述新增的任務便已足夠。 不過，如果您有任何自訂工作，則需要轉移該工作。
+>沒有必要將有多個`cron:run`的舊cron設定傳輸到新cron排程；如上所述新增的常規`cron:run`任務就足夠了。 不過，如果您有任何自訂工作，則需要轉移該工作。
 
 ### 檢查您是否啟用自行管理cron （僅適用於Cloud Pro測試和生產）
 
-若要檢查自行管理的CRON是否已啟用，請執行 `crontab -l` 命令並觀察結果：
+若要檢查自行管理的cron是否已啟用，請執行`crontab -l`命令並觀察結果：
 
 * 如果您能看到類似以下的工作，則會啟用自行管理cron：
 
@@ -63,7 +63,7 @@ cron作業執行的程式不會執行。 例如，產品更新未套用至小時
   SHELL=/etc/platform/username/cron-run    MAILTO=""    # m h dom mon dow job_name    * * * * * cronrun
   ```
 
-* 如果您無法看到工作並取得 *「您無權使用此程式」* 錯誤訊息。
+* 如果您無法看到工作並取得&#x200B;*「您無權使用此程式」*&#x200B;錯誤訊息，則不會啟用自行管理的cron。
 
 >[!NOTE]
 >
@@ -71,4 +71,4 @@ cron作業執行的程式不會執行。 例如，產品更新未套用至小時
 
 ## 相關閱讀
 
-* [設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs) （位於我們的開發人員檔案中）。
+* 在開發人員檔案中[設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)。
