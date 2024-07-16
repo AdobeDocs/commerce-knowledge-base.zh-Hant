@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: c8e688b59f0d66dc32da098c185d81b14c6770bc
+source-git-commit: c75a1ecbf5d89ede71eb3f873c75a5e7d8720a2b
 workflow-type: tm+mt
-source-wordcount: '11064'
+source-wordcount: '11069'
 ht-degree: 0%
 
 ---
@@ -1093,6 +1093,7 @@ ht-degree: 0%
       * [無法變更app/etc/env.php中的搜尋引擎](/help/troubleshooting/miscellaneous/cannot-change-search-engine-in-admin-fields-locked.md)
       * [Magento-cloud CLI未顯示作用中的環境](/help/troubleshooting/miscellaneous/the-magento-cloud-cli-doesnt-show-an-active-environment.md)
       * [Adobe Commerce Cloud的[!DNL SendGrid]檔案限制](/help/troubleshooting/miscellaneous/sendgrid-file-limitation.md)
+      * [整合環境中的效能不佳](/help/troubleshooting/miscellaneous/poor-performance-in-integration-environments.md)
    * 部署{#deployment}
       * [部署失敗：Elasticsearch與Adobe Commerce版本不相容](/help/troubleshooting/deployment/deployment-fails-elasticsearch-and-magento-versions-incompatible.md)
       * [部署失敗：無法套用MDVA-43395修補程式](/help/troubleshooting/deployment/deployment-failed-unable-to-apply-mdva-43395-patch.md)
