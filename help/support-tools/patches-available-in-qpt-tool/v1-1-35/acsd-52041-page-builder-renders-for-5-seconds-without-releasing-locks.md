@@ -4,9 +4,9 @@ description: 套用ACSD-52041修補程式來修正Adobe Commerce問題，此問�
 feature: Page Builder
 role: Admin, Developer
 exl-id: f2a1fd36-2098-46a7-aa42-3a5a0014adc9
-source-git-commit: fc5dc9fcf610cae6f8c0a334b4ef15029c462c66
+source-git-commit: b5c253a5c0651c6027c0795edb2f230bd65f734a
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -23,25 +23,28 @@ ACSD-52041修補程式修正了頁面產生器呈現五秒鐘，且未釋放鎖�
 
 **與Adobe Commerce版本相容：**
 
-* Adobe Commerce （所有部署方法） 2.4.4 - 2.4.4-p8、2.4.5 - 2.4.5-p7、2.4.6 - 2.4.6-p6
+* Adobe Commerce （所有部署方法） 2.4.4 - 2.4.4-p5、2.4.5 - 2.4.5-p4和2.4.6 - 2.4.6-p2。
+
+
 
 >[!NOTE]
 >
 >此修補程式可能適用於發行版本為[!DNL Quality Patches Tool]的其他版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
+
 ## 問題
 
-頁面產生器會呈現五秒鐘，不會釋放鎖定。
+**[!DNL Page Builder]**&#x200B;轉譯&#x200B;*5*&#x200B;秒而不釋放鎖定。
 
 <u>要再現的步驟</u>：
 
-1. 編輯CMS頁面、產品頁面或具有Page Builder的任何專案。
+1. 編輯CMS頁面、產品頁面或任何具有&#x200B;**[!DNL Page Builder]**&#x200B;的內容。
 1. 儲存變更。
 1. 請注意頁面儲存時間。
 
 <u>預期結果</u>
 
-內容已儲存。 在瀏覽器記錄檔中找不到錯誤。
+內容已儲存。 瀏覽器記錄檔中找不到錯誤。
 
 <u>實際結果</u>
 
@@ -50,7 +53,7 @@ ACSD-52041修補程式修正了頁面產生器呈現五秒鐘，且未釋放鎖�
 
 ## 套用修補程式
 
-若要套用個別修補程式，請根據您的部署方法使用下列連結：
+若要套用版本&#x200B;**2.4.4 - 2.4.4-p5、2.4.5 - 2.4.5-p4和2.4.6 - 2.4.6-p2**&#x200B;的個別修補程式，請根據您的部署方法使用下列連結：
 
 * [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](<https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html>)。
 * 雲端基礎結構上的Adobe Commerce：雲端基礎結構上的Commerce指南中的[升級和修補程式>套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html)。
