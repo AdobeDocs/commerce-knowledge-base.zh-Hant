@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: c75a1ecbf5d89ede71eb3f873c75a5e7d8720a2b
+source-git-commit: 202f5edcef114a1d16177b05328803aca81c11e2
 workflow-type: tm+mt
-source-wordcount: '11069'
+source-wordcount: '11064'
 ht-degree: 0%
 
 ---
@@ -1031,7 +1031,6 @@ ht-degree: 0%
       * [雲端網站速度緩慢](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [清除雲端上的Fastly快取時發生錯誤（未成功處理清除請求）](/help/troubleshooting/miscellaneous/error-purging-fastly-cache-on-cloud-the-purge-request-was-not-processed-successfully.md)
       * [自訂SSL憑證到期資訊](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
-      * [Adobe Commerce上的Redis疑難排解員](/help/troubleshooting/miscellaneous/redis-troubleshooter.md)
       * [PWA Studio：執行開發人員模式時出現驗證錯誤](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [使用Adobe Commerce時關閉每小時Amazon電子郵件](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [快取失效導致回應時間降低](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)
