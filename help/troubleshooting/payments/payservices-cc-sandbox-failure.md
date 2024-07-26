@@ -4,7 +4,7 @@ description: 本文說明為何測試信用卡在具有PayPal API的沙箱環境
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 使用來自PayPal的測試Visa信用卡`4111 1111 1111 1111`時，有時候會因為PayPal詐騙政策而失敗，並出現下列錯誤：
 
-```terminal
+```bash
 Error happened when processing the request. Please try again later.
 ```
 

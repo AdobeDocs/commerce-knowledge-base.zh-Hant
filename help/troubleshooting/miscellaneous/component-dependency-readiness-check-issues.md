@@ -4,7 +4,7 @@ description: 本文提供元件相依性衝突的解決方案。
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 以下是範例失敗訊息：
 
-```terminal
+```bash
 We found conflicting component dependencies.
  You are trying to update package(s) magento/module-sample-data to 1.0.0-beta
  We've detected conflicts with the following packages:
@@ -46,7 +46,7 @@ We found conflicting component dependencies.
 
 如果Adobe Commerce檔案系統擁有者沒有寫入Adobe Commerce檔案系統目錄的許可權，系統會顯示類似下列的訊息：
 
-```terminal
+```bash
 file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
