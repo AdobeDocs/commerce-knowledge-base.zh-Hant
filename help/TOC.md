@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
+source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
 workflow-type: tm+mt
-source-wordcount: '11073'
+source-wordcount: '11080'
 ht-degree: 0%
 
 ---
@@ -1054,6 +1054,7 @@ ht-degree: 0%
       * [錯誤：在雲端基礎結構上的Adobe Commerce上準備失敗](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
       * [無法複製MagentoGitHub存放庫](/help/troubleshooting/miscellaneous/cannot-clone-the-magento-github-repository.md)
       * [即時搜尋目錄未同步](/help/troubleshooting/miscellaneous/live-search-catalog-data-sync.md)
+      * [[!DNL Live Search]儀表板和搜尋結果排名不正確](/help/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect.md)
       * [客戶設定檔未出現在Experience Platform中](/help/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported.md)
       * [PWA Studio：瀏覽器無法解析.local.pwadev網站](/help/troubleshooting/miscellaneous/pwa-studio-browser-cannot-resolve-local-pwadev-site.md)
       * [產品Recommendations未顯示在頁面產生器中](/help/troubleshooting/miscellaneous/product-recommendations-do-not-show-in-page-builder.md)
