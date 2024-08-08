@@ -4,9 +4,9 @@ description: 使用此疑難排解工具可解決Adobe Commerce上的進階報�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 84b4ca4c4144381f0b404d2eae6684e7b21755df
+source-git-commit: b3bfc41a67eb9ef0bbb52d1c1c3940b1aa49cf44
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ b.否 — 繼續進行[步驟4](#step-4)。
 
 +++**是否已啟用進階報告？**
 
-檢查&#x200B;**管理員** > **商店** > **設定** > **設定** > **一般** > **進階**。 如需詳細步驟，請檢閱[進階報告：啟用進階報告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)。
+檢查&#x200B;**管理員** > **商店** > **設定** > **設定** > **一般** > **進階報告**。 如需詳細步驟，請檢閱[進階報告：啟用進階報告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)。
 
 a.是 — 繼續進行[步驟5](#step-5)。\
 b.否 — [啟用進階報告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)並儲存，等待24小時讓Adobe Commerce和進階報告同步。 檢查您的資料現在是否載入。 如果問題解決了。 如果未繼續進行[步驟5](#step-5)。
