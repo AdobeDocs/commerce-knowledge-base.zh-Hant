@@ -4,9 +4,9 @@ description: 疑難排解與維護Commerce商店所需瞭解的一切。
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 738a5455267647d294d222d5bb6149254dcb93dd
+source-git-commit: cfbe281941fbdc3e6fe7ee36385dc6732b46da26
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 此知識庫中的資訊是設計成補充[Adobe Commerce開發人員檔案](https://developer.adobe.com/commerce/docs)和[Adobe Commerce商家指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)，以及其他Adobe Commerce出版物。 內容涵蓋疑難排解和最佳作法、發佈公告、回答常見問題，並強調官方檔案（出於任何原因）未提及的特定案例。
 
-## 知識庫中有哪些內容？
+## 此知識庫包含哪些內容？
 
 | 類別 | 說明 |
 | --- | --- |
