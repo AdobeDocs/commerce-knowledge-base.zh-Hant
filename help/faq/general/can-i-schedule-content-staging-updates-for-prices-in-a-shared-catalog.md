@@ -3,9 +3,9 @@ title: 我可以針對共用目錄中的價格排程內容測試更新嗎？
 description: Adobe Commerce不提供針對共用目錄中的一或多個產品排程價格更新([內容分段](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))的功能。
 exl-id: 5482326f-54c2-4efc-8e5e-6d075ee5be55
 feature: Catalog Management, Customer Service
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: c3120f7df24e105b082df6544ab82241d6b6851f
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Adobe Commerce不提供為共用目錄中的一或多個產品排程價格更新([Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html))的功能。
 
-這表示您無法直接從Commerce管理面板的&#x200B;**設定定價與結構**&#x200B;功能表排程此價格更新（此功能表中沒有&#x200B;**排程新更新**&#x200B;按鈕）。
+這表示您無法直接從Commerce管理面板的&#x200B;**設定價格與結構**&#x200B;功能表排程此價格更新（此功能表中沒有&#x200B;**排程新更新**&#x200B;按鈕）。
 
 不過，您仍可使用其他方法，並針對下列專案排程價格更新：
 
