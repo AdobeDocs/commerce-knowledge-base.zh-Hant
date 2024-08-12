@@ -4,9 +4,9 @@ description: 本文會說明如何在支援通知中加入團隊成員。
 feature: Cloud, Support, Admin Workspace
 role: Admin, Developer
 exl-id: 63ea3f60-a509-447c-ac3d-bb2133141c80
-source-git-commit: 1c568d75534bbfe322d9f980b40c5dd64fc5b7a2
+source-git-commit: 771793d45000e65c1bf41137cd984d2977b0a9ff
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ ht-degree: 0%
 
 1. 移至&#x200B;**[!DNL Cloud Project URL]** （範例： `https://us-3.magento.cloud/projects/xxxxxx/edit`）。
 1. 確認團隊成員是否已新增至專案，且是[!DNL Super User]。
-
-如果他們不需要[!DNL cloud project]存取權，請在Adobe Commerce支援中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)提交[支援要求，以自動寄送副本給所有票證，並提供他們的&#x200B;**[!DNL MAGE ID]** （如果有的話）。
 
 如果它們尚未新增至專案，您需要將它們新增為[!DNL Super User]並授予[!DNL Shared Access]：
 
