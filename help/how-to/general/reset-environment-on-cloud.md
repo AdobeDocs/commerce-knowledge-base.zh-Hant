@@ -3,7 +3,7 @@ title: 在雲端基礎結構上重設Adobe Commerce的環境
 description: 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: f2aeb0262ddcb3d7e78028d08b9323db243fc96b
+source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 0%
@@ -158,6 +158,6 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 1. 連線到MySQL DB： `mysql -h database.internal` （對於Pro環境，請參閱： [設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)）。
 1. 卸除`main`資料庫： `drop database main;`
 1. 建立空的`main`資料庫： `create database main;`
-1. 刪除下列組態檔： `config.php`、`config.php`、`.bak,`、`env.php`、`env.php.bak`
+1. 刪除下列組態檔： `config.php`、`config.php.bak`、`env.php`、`env.php.bak`
 
 重設DB後，[進行 [!DNL git] 推送到環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)，並將Adobe Commerce安裝到新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。
