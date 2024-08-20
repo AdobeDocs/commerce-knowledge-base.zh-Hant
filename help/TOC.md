@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 01d815edd76b749df036021d75d4456d9d7b5550
+source-git-commit: ac71666c082f59c8f40df57c31ae15a4ef595a18
 workflow-type: tm+mt
-source-wordcount: '11096'
+source-wordcount: '11100'
 ht-degree: 0%
 
 ---
@@ -801,6 +801,8 @@ ht-degree: 0%
          * [ACSD-58008：將結束日期編輯為空白會導致排程更新消失](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-58008-editing-the-end-date-as-empty-causes-the-schedule-update-to-disappear.md)
          * [ACSD-57854： GraphQL回應包含停用的類別，這些類別不應列在類別彙總中](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57854-graphql-response-contains-disabled-categories-that-should-not-be-listed-in-the-category-aggregations.md)
          * [ACSD-57565：訂單儀表板顯示不正確的訂單資訊](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
+      * v1.1.49 {#v1-1-49}
+         * [概觀： [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
       * [使用品質修補工具檢查Adobe Commerce問題的修補程式](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
    * [公告總覽](/help/announcements/overview.md)
