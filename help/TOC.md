@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: abfd1e3a042f2756c27471b81004a3dcea0914ac
+source-git-commit: 01d815edd76b749df036021d75d4456d9d7b5550
 workflow-type: tm+mt
-source-wordcount: '11090'
+source-wordcount: '11096'
 ht-degree: 0%
 
 ---
@@ -613,7 +613,7 @@ ht-degree: 0%
          * [ACSD-50512：更新可下載產品中繼更新的開始日期時發生錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50512-error-when-updating-the-start-date-for-a-downloadable-product-staging-update.md)
          * [ACSD-50895：如果未設定Google Analytics3 GTM，則不會觸發Google Analytics4 GTM標籤](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-50895-google-analytics-3-gtm-tags-are-not-fired-if-google-analytics-4-gtm-is-not-configured.md)
          * [ACSD-51471：管理員使用者無法儲存套件產品的排程更新](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51471-admin-user-cannot-save-scheduled-update-for-bundled-product.md)
-         * [ACSD-51120：未針對包含CMS區塊的CMS頁面清除GraphQLGET要求快取](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
+         * [ACSD-51120：未針對包含GraphQL區塊的CMS頁面清除CMSGET請求快取](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51120-graphql-get-requests-cache-not-cleared-for-cms-pages.md)
          * [ACSD-51700：在可下載產品編輯頁面上切換商店檢視時發生錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51700-downloadable-product-error-when-switching-storeviews.md)
          * [ACSD-51735：產品庫存為0時，訂單專案狀態未正確設定為[!UICONTROL Ordered]](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51735-order-item-status-incorrectly-set.md)
          * [ACSD-51497：無法依「下拉式清單」型別的自訂屬性排序目錄頁面](/help/support-tools/patches-available-in-qpt-tool/v1-1-33/acsd-51497-cannot-sort-catalog-page-by-custom-attribute-of-dropdown-type.md)
@@ -749,12 +749,12 @@ ht-degree: 0%
          * [ACSD-55305：在[!UICONTROL My Account]中編輯公司使用者期間快顯視窗凍結](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-55305-freeze-issue-in-company-user-edit-popup.md)
          * [ACSD-54972：規範類別URL未更新](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54972-canonical-category-url-doesnt-update.md)
          * [ACSD-53636： [!UICONTROL Product Listing]頁面上未顯示一般價格](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53636-regular-price-is-not-displayed-on-product-listing-page.md)
-         * [ACSD-53925：無法儲存[!UICONTROL Product Carousel]的CMS區塊](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53925-cant-save-cms-block-with-product-carousel-catalog-product-price-dimensions-set-to-website.md)
+         * [ACSD-53925：無法以[!UICONTROL Product Carousel]儲存CMS區塊](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53925-cant-save-cms-block-with-product-carousel-catalog-product-price-dimensions-set-to-website.md)
          * [ACSD-54885：當管理員以客戶身分登入時，在多個地址簽出期間發生例外狀況](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54885-exception-during-multiple-address-checkout.md)
          * [ACSD-53309：可自訂選項和&#39;[!UICONTROL Regular Price]&#39;標籤的稅捐應用模組不完整](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53309-incomplete-tax-application-for-customizable-options.md)
          * [ACSD-53790：可透過Rest API為單一產品建立多個RMA](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-53790-multiple-rmas-for-single-product-can-be-created-via-rest-api.md)
          * [ACSD-54739： [!UICONTROL Related Product Rules]未套用[!UICONTROL Product Stock]狀態](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54739-product-stock-status-not-applied-for-related-product-rules.md)
-         * [ACSD-54983：使用GraphQL的公司使用者UID不適用於非作用中的使用者](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
+         * [ACSD-54983：具有GraphQL的公司使用者UID不適用於非作用中的使用者](/help/support-tools/patches-available-in-qpt-tool/v1-1-43/acsd-54983-company-user-uid-with-graphql-not-available-with-inactive-user.md)
       * v1.1.44 {#v1-1-44}
          * [概觀： [!DNL Quality Patches Tool] (QPT) v1.1.44](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/overview.md)
          * [ACSD-55231：使用快速訂購功能時找不到SKU錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-44/acsd-55231-sku-not-found-in-catalog.md)
@@ -823,6 +823,7 @@ ht-degree: 0%
       * [2024年發行排程](/help/announcements/adobe-commerce-announcements/2024-release-schedule.md)
       * [Adobe Commerce支援將攝取流程移轉至Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * 說明中心新聞{#news}
+      * [停用Adobe Commerce說明中心](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
       * [Adobe Commerce支援知識庫開始接受貢獻](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * 疑難排解{#troubleshooting}
    * [疑難排解概觀](/help/troubleshooting/overview.md)
