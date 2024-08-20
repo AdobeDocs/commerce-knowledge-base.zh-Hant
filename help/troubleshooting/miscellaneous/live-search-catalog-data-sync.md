@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce問題提供解決方案，解決您在�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: a1b049dab989d5d8594d86b64b778e6e277a9f41
+source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
 1. 如果您在`catalog_data_exporter_products`中看到正確的資料，請使用下列SQL查詢來檢查上次匯出的時間戳記。 它應該在`modified_at`時間戳記之後：
 
    ```sql
-   select * from flag where flag_code = 'products-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. 如果時間戳記較舊，您可以等待下一個cron執行，或使用下列命令自行觸發：
@@ -111,7 +111,7 @@ ht-degree: 0%
 1. 使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在`modified_at`時間戳記之後。
 
    ```sql
-   select * from flag where flag_code = 'product-attributes-feed-version';
+   select * from scopes_website_data_exporter;
    ```
 
 1. 如果時間戳記較舊，您可以等待下一個cron執行，或使用下列命令自行觸發：
@@ -133,4 +133,5 @@ bin/magento saas:resync --feed productattributes
 
 ## 相關閱讀
 
-請參閱我們的使用者檔案中的[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。
+* 請參閱我們的使用者檔案中的[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。
+* 請參閱Adobe Commerce SaaS Data Export Guide中的[檢閱記錄檔及疑難排解Adobe Commerce SaaS資料匯出和同步](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)。
