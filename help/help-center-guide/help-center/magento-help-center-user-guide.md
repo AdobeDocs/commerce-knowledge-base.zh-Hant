@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 38e67144f337c8359a5602e49d8a0ee91cd20b53
+source-git-commit: b7b272c2e1cb677829afa64e2c77c0faa207313d
 workflow-type: tm+mt
-source-wordcount: '2117'
+source-wordcount: '2116'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 1. 若要開始支援錄取流程，請確保您已從下拉式清單中選取適當的組織（如果有的話），因為您可能有多個名稱相似的組織，每個組織都有各自的權益。
 
-   ![影像](https://git.corp.adobe.com/storage/user/38345/files/230d6ecd-bce2-4170-b377-3989fa8be615)
+   ![select_applicate_org](assets/select_appropriate_org.png)
 
 1. 按一下左側功能表上的&#x200B;**[!UICONTROL Open Ticket]**，或按一下&#x200B;*[!UICONTROL Open a support ticket]*&#x200B;卡片中的&#x200B;**[!UICONTROL Get Started]**。
 
