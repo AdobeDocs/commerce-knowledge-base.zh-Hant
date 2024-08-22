@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: ac71666c082f59c8f40df57c31ae15a4ef595a18
+source-git-commit: 741b84c9a2a7308ab4fb5b233c99c7d06ec2729a
 workflow-type: tm+mt
-source-wordcount: '11100'
+source-wordcount: '11109'
 ht-degree: 0%
 
 ---
@@ -1119,6 +1119,7 @@ ht-degree: 0%
       * [部署失敗：「快取」名稱空間錯誤中未定義命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中有正確的存取金鑰時部署失敗](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知問題{#known-issues-patches-attached}
+      * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [可用於Adobe Commerce的安全性更新 — [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
       * [疑難排解加密金鑰輪替：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102.md)
       * [Adobe Commerce可用的安全性更新 — [!DNL APSB24-40]已修訂為包含 [!DNL CVE-2024-34102]的隔離修補程式](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102.md)
