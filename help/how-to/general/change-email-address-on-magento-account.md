@@ -3,16 +3,20 @@ title: 當欄位呈現灰色時，如何變更magento.com帳戶上的電子郵�
 description: 本文討論當欄位變灰時，如何變更[Magento.com](https://account.magento.com)帳戶上的電子郵件地址。
 exl-id: cd527203-345c-4318-8ca8-0063109b5f79
 feature: Communications
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 123027ee291b44ad4b234e561b9c3f4156af7c90
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # 當欄位呈現灰色時，如何變更magento.com帳戶上的電子郵件地址？
 
-本文說明當欄位呈現灰色時，如何變更[Magento.com](https://account.magento.com)帳戶上的電子郵件地址。
+本文說明當欄位在下列情況下呈現灰色時，如何變更您[Magento.com](https://account.magento.com)帳戶上的電子郵件地址：
+
+* 您或原始使用者已離開公司。
+* 您的公司已移轉至新的電子郵件網域。
+* 您即將切換至通訊群組清單或全包電子郵件地址。
 
 ## 受影響的產品和版本
 
@@ -30,7 +34,7 @@ ht-degree: 0%
 
 <u>解決方案</u>
 
-1. 請傳送電子郵件至Grp-magento-HelpCenterLoginIssues@adobe.com ，說明下列事項：
+1. [在https://experienceleague.adobe.com/home#support提交支援要求](https://experienceleague.adobe.com/home#support)，說明如下：
 
    * 要更新的現有電子郵件地址
    * 新電子郵件地址
@@ -59,3 +63,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 在Creative Cloud使用手冊中[重設忘記的密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)。
+在Creative Cloud使用手冊中[更新您的帳戶設定檔](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html)。
