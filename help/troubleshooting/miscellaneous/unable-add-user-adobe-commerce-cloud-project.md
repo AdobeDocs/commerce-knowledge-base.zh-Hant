@@ -4,9 +4,9 @@ description: 本文提供無法新增使用者至Adobe Commerce雲端專案時�
 exl-id: 59940916-bf92-4e89-a6f9-bca87c54125c
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: af74d944553c34da2ac8343695bca49f971bc4e5
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 ## 解決方案
 
 1. 要求使用者登入其在https://accounts.magento.cloud的帳戶(他們必須已經在adobe.com的電子郵件地址下註冊了一個帳戶。 在https://account.adobe.com建立/擁有帳戶並不自動錶示使用者將在https://accounts.magento.cloud擁有帳戶)
-注意：如果使用者在2022年8月之前有account.magento.com或accounts.magento.cloud的帳戶，則他們可能沒有在adobe.com上有/的帳戶，除非他們在2022年8月或之後建立它。 如果使用者擁有Adobe帳戶且無法登入，請傳送電子郵件至[Grp-Magento-HelpCenterLoginIssues@adobe.com](mailto:Grp-Magento-HelpCenterLoginIssues@adobe.com)並提供詳細資料。
+注意：如果使用者在2022年8月之前有account.magento.com或accounts.magento.cloud的帳戶，則他們可能沒有在adobe.com上有/的帳戶，除非他們在2022年8月或之後建立它。 如果使用者擁有Adobe帳戶且無法登入，請在https://experienceleague.adobe.com/home#support上[提交支援要求](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)並提供詳細資料（問題原因=使用者管理）。
 1. 使用者應接著前往https://accounts.magento.cloud。
 1. 完成此操作後，您應該能夠將使用者新增到專案。 如需相關步驟，請參閱雲端基礎結構上的Commerce指南中的[新增使用者及管理存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-users-and-manage-access)。
 
