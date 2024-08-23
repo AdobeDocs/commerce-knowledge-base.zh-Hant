@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 741b84c9a2a7308ab4fb5b233c99c7d06ec2729a
+source-git-commit: f4fb30dcef6cc05ce027df4dc793cf99d37f2a1f
 workflow-type: tm+mt
-source-wordcount: '11109'
+source-wordcount: '11118'
 ht-degree: 0%
 
 ---
@@ -803,6 +803,7 @@ ht-degree: 0%
          * [ACSD-57565：訂單儀表板顯示不正確的訂單資訊](/help/support-tools/patches-available-in-qpt-tool/v1-1-48/acsd-57565-the-order-dashboard-displays-incorrect-order-information.md)
       * v1.1.49 {#v1-1-49}
          * [概觀： [!DNL Quality Patches Tool] (QPT) v1.1.49](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/overview.md)
+         * [ACSD-56979：刪除中繼更新後移除的產品影像](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
       * [使用品質修補工具檢查Adobe Commerce問題的修補程式](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
    * [公告總覽](/help/announcements/overview.md)
