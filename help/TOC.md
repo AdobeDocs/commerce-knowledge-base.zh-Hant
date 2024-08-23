@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: f4fb30dcef6cc05ce027df4dc793cf99d37f2a1f
+source-git-commit: 0f5e70462f439c6ed5b63567a21f039529262805
 workflow-type: tm+mt
-source-wordcount: '11118'
+source-wordcount: '11132'
 ht-degree: 0%
 
 ---
@@ -918,6 +918,7 @@ ht-degree: 0%
       * [由於內容暫存問題，所有頁面均出現錯誤404](/help/troubleshooting/site-down-or-unresponsive/error-404-on-all-pages-due-to-content-staging-issue.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他{#miscellaneous}
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [如何檢查停用 [!DNL cron] 的原因](/help/troubleshooting/miscellaneous/how-to-check-why-cron-was-disabled.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
