@@ -3,9 +3,9 @@ title: 'ACSD-56979：刪除中繼更新後移除的產品影像'
 description: 套用ACSD-56979修補程式以修正Adobe Commerce問題，此問題導致刪除中繼更新後會移除產品影像
 feature: Products
 role: Admin, Developer
-source-git-commit: e97850bcaa98b1ccc1522fb6ee0046cd38bf1c93
+source-git-commit: 8e916feab8be9d92d047fae8861a479070d448e8
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ACSD-56979修補程式修正刪除中繼更新後移除產品影像的問題。 
 
 **與Adobe Commerce和Magento Open Source版本相容：**
 
-* Adobe Commerce （所有部署方法） >=2.4.3 &lt;2.4.7
+* Adobe Commerce （所有部署方法） 2.4.3 - 2.4.6-p7
 
 >[!NOTE]
 >
