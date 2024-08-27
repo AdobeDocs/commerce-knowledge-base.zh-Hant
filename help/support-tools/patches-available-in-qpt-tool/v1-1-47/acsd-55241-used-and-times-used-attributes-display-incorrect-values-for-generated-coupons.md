@@ -4,7 +4,7 @@ description: Adobe Commerce套用ACSD-55241修補程式，修正**使用**和**�
 feature: Price Rules
 role: Admin, Developer
 exl-id: cfe0f8af-423a-4e12-a332-053392cbabed
-source-git-commit: 5d0b4743fe49d22c099102490f93dc4065ab4413
+source-git-commit: f830486ab3b00fca92dda897bbf0bfbae41543c1
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 0%
@@ -37,10 +37,10 @@ ACSD-55241修補程式修正了&#x200B;**已使用**&#x200B;及&#x200B;**已使�
 
 1. 從&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Marketing]** > **[!UICONTROL Promotion]**&#x200B;建立&#x200B;**[!UICONTROL Cart Price Rules]**，並新增在下訂單時符合的任何條件（範例：小計大於&#x200B;*5$*）
 
-* 套用任何折扣。
-* 選取&#x200B;**[!UICONTROL Auto Coupon]**。
-* 它將從&#x200B;**管理優惠券代碼**&#x200B;產生一些優惠券代碼。
-* 重新索引並清除快取。
+   * 套用任何折扣。
+   * 選取&#x200B;**[!UICONTROL Auto Coupon]**。
+   * 它將從&#x200B;**管理優惠券代碼**&#x200B;產生一些優惠券代碼。
+   * 重新索引並清除快取。
 
 1. 建立&#x200B;**[!UICONTROL customer account]**&#x200B;並登入前端。
 1. 新增購物車中超過&#x200B;*2*&#x200B;個數量的產品，並套用一張優惠券。
