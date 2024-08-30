@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: eb7f8bbb53cf96033c67ae077268351078fa786c
+source-git-commit: fdfd0b94de831572267dd333216453e7be7b6ea2
 workflow-type: tm+mt
-source-wordcount: '11200'
+source-wordcount: '11212'
 ht-degree: 0%
 
 ---
@@ -811,6 +811,7 @@ ht-degree: 0%
          * [概觀： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
          * [ACSD-59378：匯入期間儲存區層級 [!DNL URL] 重寫錯誤更新](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938：設定：升級期間資料庫觸發程式發生效能問題](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-59229：由於過期的X-VaryMagento，導致客戶群組資料配置錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：透過V1/customers [!DNL REST] API端點更新客戶時擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
       * [使用品質修補工具檢查Adobe Commerce問題的修補程式](/help/support-tools/patches-available-in-qpt-tool/check-patch-for-magento-issue-with-magento-quality-patches.md)
 * 公告{#announcements}
