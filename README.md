@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1fe71f13dbfc433886db900c359b7de2c6d0e7f3
+source-git-commit: eadb0294b716cdd24bb378364bc01b61e48d0521
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 6%
@@ -9,19 +9,20 @@ ht-degree: 6%
 
 我們歡迎社群以及檔案團隊外部的Adobe員工出力貢獻。
 
-## Adobe開放原始碼行為準則
+
+## Adobe Open Source行為準則
 
 本專案已採用 [Adobe 開放原始碼管理辦法](code-of-conduct.md)或 [.NET Foundation 管理辦法](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
 ## 關於您對Adobe內容的貢獻
 
-請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 貢獻方式取決於您的身分和您要貢獻的變更型別：
 
 ### 微幅變更
 
-若您出於好意想貢獻微幅更新內容，請前往文章，並按一下 **編輯** 文章中的連結，會前往文章的GitHub來源。 然後，只需使用GitHub UI進行更新即可。 檢視一般 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以取得詳細資訊。
+若您出於好意想貢獻微幅更新內容，請前往文章，按一下文章中的「**編輯**」連結，隨即會轉至該文章的GitHub來源， 然後，只需使用GitHub UI進行更新即可。 如需詳細資訊，請參閱一般[Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 Adobe使用條款涵蓋您在本存放庫為檔案和程式碼範例提交的小幅更正或釐清。
 
@@ -35,7 +36,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### 來自Adobe員工的重大變更
 
-若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用的私人存放庫： `https://git.corp.adobe.com/AdobeDocs`.
+若您是Adobe Experience Cloud解決方案產品團隊的技術撰寫人員、專案經理或開發人員，且您的工作正是貢獻或撰寫技術文章，請使用`https://git.corp.adobe.com/AdobeDocs`的私人存放庫。
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +44,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群投稿人可以使用GitHub UI進行基本編輯或建立存放庫復本，以做出重大貢獻。
 
-請參閱 [Adobe檔案投稿人指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 以取得詳細資訊。
+如需詳細資訊，請參閱[Adobe檔案貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
 
 ## 如何使用Markdown將主題格式化
 
@@ -56,5 +57,5 @@ If you submit a pull request with significant changes to documentation and code 
 
 在公開存放庫中，系統會為提取請求指派自動化標籤，協助我們管理提取請求工作流程，同時協助您瞭解提取請求的最新狀況：
 
-* **變更已傳送給作者**：作者已收到處理提取請求的通知。
-* **準備合併**：一切準備就緒，可供提取請求稽核團隊稽核。
+* **變更已傳送給作者**：作者已收到處理提取要求的通知。
+* **準備合併**：準備由我們的拉取要求稽核團隊檢閱。
