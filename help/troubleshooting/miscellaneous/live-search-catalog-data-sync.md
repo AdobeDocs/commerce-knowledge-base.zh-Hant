@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce問題提供解決方案，解決您在�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: ab39a21ca325cdad30debf89a1cff660bf5925e5
+source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,11 @@ ht-degree: 0%
 
 ## 問題
 
-您的目錄資料未正確同步，或已新增產品，但未顯示在搜尋結果中。
+您的目錄資料未正確同步，或已新增產品，但未出現在搜尋結果中。
+
+>[!NOTE]
+>
+>資料表名稱`catalog_data_exporter_products`和`catalog_data_exporter_product_attributes`現在稱為`cde_products_feed`和`cde_product_attributes_feed` （截至[!DNL Live Search]版本4.2.1）。若商家使用4.2.1之前的版本，請在舊資料表名稱`catalog_data_exporter_products`和`catalog_data_exporter_product_attributes`中尋找資料。
 
 <u>要再現的步驟</u>
 
@@ -59,20 +63,20 @@ ht-degree: 0%
 1. 使用下列SQL查詢，並確認您在`feed_data`資料行中有預期的資料。 另外，記下`modified_at`時間戳記。
 
    ```sql
-   select * from catalog_data_exporter_products where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. 如果您沒有看到正確的資料，請嘗試使用下列命令重新索引，並在步驟1重新執行SQL查詢以驗證資料：
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_products
+   bin/magento indexer:reindex cde_products_feed
    ```
 
 1. 如果您還是沒有看到正確的資料，請[建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 檢查上次產品匯出的時間戳記
 
-1. 如果您在`catalog_data_exporter_products`中看到正確的資料，請使用下列SQL查詢來檢查上次匯出的時間戳記。 它應該在`modified_at`時間戳記之後：
+1. 如果您在`cde_products_feed`中看到正確的資料，請使用下列SQL查詢來檢查上次匯出的時間戳記。 它應該在`modified_at`時間戳記之後：
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -93,20 +97,20 @@ ht-degree: 0%
 1. 使用下列SQL查詢，並確認您在`feed_data`資料行中有預期的資料。 另外，記下`modified_at`時間戳記。
 
    ```sql
-   select * from catalog_data_exporter_product_attributes where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
+   select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
 1. 如果您沒有看到正確的資料，請使用下列命令重新索引，然後在步驟1中重新執行SQL查詢以驗證資料。
 
    ```bash
-   bin/magento indexer:reindex catalog_data_exporter_product_attributes
+   bin/magento indexer:reindex cde_product_attributes_feed
    ```
 
 1. 如果您還是沒有看到正確的資料，請[建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 ### 檢查上次產品屬性匯出的時間戳記
 
-如果您在`catalog_data_exporter_product_attributes`中看到正確的資料：
+如果您在`cde_product_attributes_feed`中看到正確的資料：
 
 1. 使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在`modified_at`時間戳記之後。
 
