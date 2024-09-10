@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 6d79090b9a9c0a6e6b110678ecef58651ff69011
+source-git-commit: 8906fbf4830d8e1612af296efa83f7856f6ccec2
 workflow-type: tm+mt
-source-wordcount: '11367'
+source-wordcount: '11391'
 ht-degree: 0%
 
 ---
@@ -823,6 +823,7 @@ ht-degree: 0%
          * [ACSD-58141：如果啟用L2 Redis快取，PHPSESSID會針對登入客戶的POST請求重新產生](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229：由於過期的X-VaryMagento，導致客戶群組資料配置錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：透過V1/customers [!DNL REST] API端點更新客戶時擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-58442：修正將768px寬度裝置視為行動裝置，導致功能表和標題載入行動檢視而非桌上型電腦的問題](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop.md)
          * [ACSD-48210：存放區檢視特定範圍屬性會覆寫全域值](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
          * [ACSD-59280： 2.4.4-pX安裝中的ReflectionUnionType：：getName()錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59280-fix-for-reflection-union-type-error.md)
          * [ACSD-60303：啟用HTML縮制後，管理員訂單放置問題已解決](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60303-admin-order-placement-fix.md)
