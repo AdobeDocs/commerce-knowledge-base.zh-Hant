@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 605a45ed14faed7f3283a7146e4193bf2d26b251
+source-git-commit: 3ed9838bfb117888b3e4cfef052d39d7ada35b4b
 workflow-type: tm+mt
-source-wordcount: '11329'
+source-wordcount: '11346'
 ht-degree: 0%
 
 ---
@@ -811,6 +811,7 @@ ht-degree: 0%
          * [ACSD-58739：部分重新索引擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
          * [ACSD-57846：使用零價格篩選條件搜尋的GraphQL產品未傳回結果](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57846-graphql-products-search-with-filter-for-zero-prices-not-returning-results.md)
          * [ACSD-58054：為非作用中客戶產生API Token](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58054-generate-tokens-for-inactive-customers-via-api.md)
+         * [ACSD-58446：透過GraphQL刪除具有子使用者或團隊的團隊會產生無法提供資訊的錯誤訊息](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message.md)
          * [ACSD-58375：在商店檢視層級新增視訊時，YouTube API金鑰設定錯誤會導致錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level.md)
       * v1.1.50 {#v1-1-50}
          * [概觀： [!DNL Quality Patches Tool] (QPT) v1.1.50](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/overview.md)
