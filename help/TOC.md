@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: ed15e986088286c075953049dbadf329edccca51
+source-git-commit: 65af60f53789fdaac7aa2d1ea3ebddd82f2126d5
 workflow-type: tm+mt
-source-wordcount: '11408'
+source-wordcount: '11420'
 ht-degree: 0%
 
 ---
@@ -820,6 +820,7 @@ ht-degree: 0%
          * [ACSD-45049：客戶[!UICONTROL Is required]屬性設定無法按照Admin中的網站範圍運作](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-45049-customer-attribute-is-required-setting-doesnt-work.md)
          * [ACSD-59378：匯入期間儲存區層級 [!DNL URL] 重寫錯誤更新](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59378-store-level-url-rewrites-incorrectly-updated-during-import.md)
          * [ACSD-46938：設定：升級期間資料庫觸發程式發生效能問題](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-46938-fix-for-db-triggers-performance-issue-during-setup-upgrade.md)
+         * [ACSD-54887：客戶購物車在客戶工作階段過期後清除](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry.md)
          * [ACSD-58141：如果啟用L2 Redis快取，PHPSESSID會針對登入客戶的POST請求重新產生](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229：由於過期的X-VaryMagento，導致客戶群組資料配置錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：透過V1/customers [!DNL REST] API端點更新客戶時擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
