@@ -3,9 +3,9 @@ title: 在雲端基礎結構上重設Adobe Commerce的環境
 description: 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4439ee25e929a1bdb2216cc10fa0d4506c4f3aed
+source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -36,8 +36,9 @@ ht-degree: 0%
 
 <u>變更當天</u>：
 
-1. 將網站放入[!UICONTROL Maintenance Mode]。<br>
+1. 將網站放入[!UICONTROL Maintenance Mode]。
 深入瞭解使用手冊中的[啟用或停用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升級手冊中用於升級的[[!UICONTROL Maintenance Mode]選項](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)。
+1. 停用cron工作。 閱讀我們的[crons屬性指南](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)中有關停用cron工作的詳細資訊。
 1. 取得本機[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)。
 
 <u>若需要[!UICONTROL Rollback]</u>：
@@ -123,7 +124,7 @@ ht-degree: 0%
 1. 將環境複製到本機開發環境。 您可以在Cloud Console中複製命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 存取認可歷史記錄。 使用`--reverse`以相反順序顯示歷程記錄，以方便使用： `git log --reverse`
 1. 選取您擅長的認可雜湊。 若要將程式碼重設為真實狀態(Vanilla)，請尋找建立分支（環境）的第一個認可。
-   ![在Git主控台中選取認可雜湊](assets/select_commit_hash.png)
+   ![替代文字](image.png)
 1. 套用硬式[!DNL git]重設： `git reset --h <commit_hash>`
 1. 將變更推送至伺服器： `git push --force <origin> <branch>`
 
