@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 65af60f53789fdaac7aa2d1ea3ebddd82f2126d5
+source-git-commit: 97e61803978e9e18e9784020d53eb4b448cab830
 workflow-type: tm+mt
-source-wordcount: '11420'
+source-wordcount: '11432'
 ht-degree: 0%
 
 ---
@@ -806,6 +806,7 @@ ht-degree: 0%
          * [ACSD-57643：含有自訂選項的產品新增不正確](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57643-products-with-custom-options-are-incorrectly-added.md)
          * [ACSD-57588：運送至多個地址時，區域ID處理發生錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57588-region-id-error-when-shipping-to-multiple-addresses.md)
          * [ACSD-56979：刪除中繼更新後移除的產品影像](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted.md)
+         * [ACSD-58163： [!UICONTROL Cart Price Rule]未套用相符的[!UICONTROL Customer Segment]購物車（不含優惠券代碼）的折扣](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58163-cart-price-rule-does-not-apply-discount-from-matching-customer-segment-cart-without-coupon-code.md)
          * [ACSD-57086：來自啟用條款與條件之非預設網站的訂單會遭到錯誤處理](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly.md)
          * [ACSD-57941：產品選項未正確指派給管理存放區](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-57941-product-options-are-incorrectly-assigned-to-the-admin-store.md)
          * [ACSD-58739：部分重新索引擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-49/acsd-58739-partial-reindexing-throws-an-error.md)
