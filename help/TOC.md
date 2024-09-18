@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 97e61803978e9e18e9784020d53eb4b448cab830
+source-git-commit: 7ece2f2dd578fc455bc2d584ffa401f25f561630
 workflow-type: tm+mt
-source-wordcount: '11432'
+source-wordcount: '11443'
 ht-degree: 0%
 
 ---
@@ -825,6 +825,7 @@ ht-degree: 0%
          * [ACSD-58141：如果啟用L2 Redis快取，PHPSESSID會針對登入客戶的POST請求重新產生](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled.md)
          * [ACSD-59229：由於過期的X-VaryMagento，導致客戶群組資料配置錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59229-customer-group-segmentation-fix.md)
          * [ACSD-60441：透過V1/customers [!DNL REST] API端點更新客戶時擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-60441-updating-customers-via-v1-customers-rest-api.md)
+         * [ACSD-59514：Admin中的Forms在瀏覽器控制檯中出現 [!DNL Page Builder] 擲回錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console.md)
          * [ACSD-58790：修正 [!DNL Chrome]上行動檢視中產品詳細資料頁面影像縮放功能的夾點](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome.md)
          * [ACSD-58442：修正將768px寬度裝置視為行動裝置，導致功能表和標題載入行動檢視而非桌上型電腦的問題](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop.md)
          * [ACSD-48210：存放區檢視特定範圍屬性會覆寫全域值](/help/support-tools/patches-available-in-qpt-tool/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values.md)
