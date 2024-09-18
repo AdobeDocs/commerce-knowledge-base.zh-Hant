@@ -4,9 +4,9 @@ description: 「**問題：**您想要提供共用存取權給信任的同事，
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: e77322c04c7245538c10dfb397094eee6cfe6be9
+source-git-commit: ff863a9c8ebf3759c7ecf0549f79cc3a5efe4b46
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 0%
 1. 按一下您遇到問題的&#x200B;**[!UICONTROL Shared Access]**&#x200B;帳戶，並檢查您已獲得存取權的資源。
 1. 如果缺少特定資源，請聯絡帳戶擁有者（主要帳戶擁有者）。
 
-如果您持續遇到問題，請聯絡您的Adobe客戶團隊或傳送電子郵件至grp-Magento-HelpCenterLoginIssues@adobe.com。 請指定您的名稱以及與您的帳戶相關聯的電子郵件。
+如果您持續遇到問題，請聯絡您的Adobe客戶團隊。 請指定您的名稱以及與您的帳戶相關聯的電子郵件。
 
 ## 我使用共用存取許可權並按一下[!UICONTROL Support]，但當我開啟新票證時，不會顯示[!UICONTROL Organization]下拉式清單
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 1. 切換回&#x200B;**[!UICONTROL My Account]**。
 1. 如果它只列出一個&#x200B;**[!UICONTROL Shared Name]**，那將是您票證將開啟的&#x200B;*預設組織*。
 
-如果您持續遇到問題，請聯絡您的Adobe客戶團隊或傳送電子郵件至grp-Magento-HelpCenterLoginIssues@adobe.com。 指定您的名稱以及與您的帳戶相關聯的電子郵件。
+如果您持續遇到問題，請聯絡您的Adobe客戶團隊。 指定您的名稱以及與您的帳戶相關聯的電子郵件。
 
 ## 我曾經使用共用存取權，但仍可看到我的票證，而非共用票證
 
