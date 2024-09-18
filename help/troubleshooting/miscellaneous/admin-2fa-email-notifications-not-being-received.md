@@ -4,9 +4,9 @@ description: 當您在設定雙因素驗證(2FA)以增強Adobe Commerce雲端基
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 435a545adcf2a1d6b023abaec55c4b73e942ee1a
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,12 @@ ht-degree: 0%
    ```
 
    * 如果未傳回任何結果，則表示尚未設定寄件者地址。
+由於您無權存取管理員，因此必須將設定插入資料庫。 插入適當的電子郵件地址並執行MySQL陳述式：
+
+   ```
+   insert into core_config_data (scope,scope_id,path,value) values ('default',0,'trans_email/ident_general/email', your-email@here.com)
+   ```
+
    * 如果它傳回結果，請繼續進行&#x200B;**步驟2**。
 
 1. 如果電子郵件出現在您的「垃圾訊息」資料夾中，請按一下電子郵件中的連結。 如果連結已經過期，請再次嘗試登入以重複此程式。
