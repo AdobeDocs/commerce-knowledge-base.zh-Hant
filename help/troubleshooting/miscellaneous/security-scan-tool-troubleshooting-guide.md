@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe Commerce和Magento Open Source的安全性�
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '889'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 檢查52.87.98.44、34.196.167.176和3.218.25.102 IP是否未在80和443連線埠上封鎖。
 1. 檢查提交的重新導向URL （例如`https://mystore.com`重新導向至`https://www.mystore.com`或反之，或重新導向至其他網域名稱）。
-1. 針對已拒絕/未完成的請求，調查WAF/Web伺服器存取記錄檔。 HTTP 403 `Forbidden`和HTTP 500 `Internal server error`是造成產生空白報表的常見伺服器回應。 以下是封鎖使用者代理程式請求的確認程式碼範例：
+1. 調查遭拒絕/未履行請求的WAF/Web伺服器存取記錄檔。 HTTP 403 `Forbidden`和HTTP 500 `Internal server error`是造成產生空白報表的常見伺服器回應。 以下是封鎖使用者代理程式請求的確認程式碼範例：
 
 ```code block
 if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent_allowlist)
@@ -100,8 +100,12 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### Adobe Commerce會將安全性掃描報告保留多長時間？
 
-您可以從終端產生前10個報表。 如果需要較舊的報告，請聯絡Adobe Commerce支援。 最多可取得一年之前的安全性掃描報告。
+您可以從終端產生前10個報表。 如果需要較舊的報告，請聯絡Adobe Commerce支援。
 
 ### 提交支援票證時需要哪些資訊？
 
 請務必提供網域名稱。
+
+### 如果我從掃描工具掃描中移除存放區，會發生什麼事？
+
+如果您刪除存放區提交，所有相關的資料（包括掃描報告）都會被刪除。 這個操作是不可逆的。 刪除存放區網域後提交會建立「新」提交。
