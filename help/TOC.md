@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 82313d2444230de7f4ea426a255bf0462a136334
+source-git-commit: f3d662d8843eded65eade4732d2016bf34ccd6a5
 workflow-type: tm+mt
-source-wordcount: '11456'
+source-wordcount: '11462'
 ht-degree: 0%
 
 ---
@@ -1166,6 +1166,7 @@ ht-degree: 0%
       * [網站和API效能低](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
       * [以影像圖表取代折舊的Google影像圖表](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [進階搜尋未顯示最相關的結果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
+      * [在Admin中篩選訂單時發生錯誤](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [如果在「允許國家/地區」中未選取任何專案，則使用者無法將產品新增到購物車](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
       * [未顯示在「管理員」中「訂單」網格中的訂單](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
       * [無法驗證VAT編號 — 雲端基礎結構上的Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
