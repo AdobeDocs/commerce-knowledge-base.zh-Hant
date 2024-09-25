@@ -3,9 +3,10 @@ title: 停用Adobe Commerce說明中心
 description: 關於Adobe Commerce說明中心網站停止運作，您必須知道的一切。
 feature: Support
 role: Admin
-source-git-commit: 243319f2e9cad48b6259698928e3c97239400fc0
+exl-id: 1dd74f62-9a05-4bd6-aefb-3c9083122d9e
+source-git-commit: 631bd27880bfebd63d2897915ea981587a770466
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -17,13 +18,19 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Commerce支援已從Adobe Commerce說明中心移轉至Adobe Experience League。<br>**使用[這裡](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support)描述的Experience League案例表單流程提交支援案例。**
+>**使用[這裡](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support)描述的Experience League案例表單流程提交支援案例。**
+
+## 在Adobe Commerce說明中心檢視歷史案例
+
+Adobe已將Adobe Commerce說明中心歷史案例的可見性期間延長至2025年5月1日。
+
+**自2025年5月1日起，將無法再存取Adobe Commerce說明中心，且使用者將無法檢視系統內建立的歷史支援案例。**
 
 ## Adobe Commerce說明中心網站何時將停止服務？
 
-**在2024年9月3日，將無法再存取Adobe Commerce說明中心**，而且您將無法再檢視在該系統中建立的歷史支援案例。
-**<u>請儲存任何您想要保留的支援案例或資訊，在2024年9月3日之前儲存到瀏覽器中PDF。</u>**
-如果您想要檢閱2024年9月3日之後在Adobe Commerce說明中心建立的歷史支援案例，您需要在Adobe Experience League中開啟支援案例，並向支援團隊要求該資訊。
+**<u>請儲存任何您想要保留的支援案例或資訊，在2025年5月1日之前儲存到瀏覽器中PDF。</u>**
+
+如果您想要檢閱2025年5月1日之後在Adobe Commerce說明中心建立的歷史支援案例，您需要在Adobe Experience League中開啟支援案例，並向支援團隊要求該資訊。
 
 >[!NOTE]
 >
