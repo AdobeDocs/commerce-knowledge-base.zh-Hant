@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: f3d662d8843eded65eade4732d2016bf34ccd6a5
+source-git-commit: 25bc401506f81d83b1e00fe682fa477d708414dc
 workflow-type: tm+mt
-source-wordcount: '11462'
+source-wordcount: '11237'
 ht-degree: 0%
 
 ---
@@ -34,32 +34,6 @@ ht-degree: 0%
       * [Adobe Commerce的管理警報：CPU警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * QPT工具{#patches}中可用的修補程式
       * [QPT工具概觀中可用的修補程式](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
-      * v1.0.5 {#v1-0-5}
-         * [概覽：品質修補工具(QPT) v1.0.5](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/overview.md)
-         * [MDVA-28191：「管理員建立新訂單」中沒有網站的付款方式](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28191-magento-patch-no-payment-method-for-one-website-in-admin-create-new-order.md)
-         * [MDVA-28409修補程式：Adobe Commerce網頁伺服器當機 — 記憶體不足](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28409-magento-patch-magento-web-server-crashing-out-of-memory.md)
-         * [MDVA-28661：變更管理員電子郵件時，公司使用者管理出現問題](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28661-magento-patch-issue-with-company-users-management-when-changing-admin-email.md)
-         * [MDVA-28763：透過REST API管理產品影像時發生問題](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-28763-magento-patch-issues-with-managing-product-images-via-rest-api.md)
-         * [mdva-29042：全域類別許可權未變更](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-29042-magento-patch-global-category-permissions-unchanged.md)
-         * [MDVA-29959修補程式：具有「客戶」許可權的管理員無法管理公司帳戶](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-29959-magento-patch-admin-with-customers-permissions-cannot-manage-company-account.md)
-         * [MDVA-30107：存放區切換器無法如預期運作](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30107-magento-patch-store-switcher-does-not-work-as-expected.md)
-         * [MDVA-30265：電子郵件中的追蹤連結傳回404找不到頁面](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30265-magento-patch-tracking-link-in-email-returns-404-page-not-found.md)
-         * [MDVA-30284修補程式：Elasticsearch7 — 已超過索引中欄位總數[XXXXX]的限制](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30284-magento-patch-elasticsearch-7-limit-of-total-fields-xxxxx-in-index-has-been-exceeded.md)
-         * [MDVA-30428：願望清單不適用於Inventory management](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30428-magento-patch-wishlist-not-working-with-the-msi.md)
-         * [MDVA-30593修補程式：未清除過期的引號](/help/support-tools/patches-available-in-qpt-tool/v1-0-5/mdva-30593-magento-patch-expired-quotes-are-not-cleaned-up.md)
-      * v1.0.6 {#v1-0-6}
-         * [概覽：品質修補工具(QPT) v1.0.6](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/overview.md)
-         * [MDVA-28202修補程式：無庫存產品未正確篩選](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28202-magento-patch-out-of-stock-products-don-t-filter-properly.md)
-         * [MDVA-28300：GraphQL中目錄價格規則的價格計算問題](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28300-magento-patch-price-calculation-issue-with-catalog-price-rule-in-graphql.md)
-         * [MDVA-28993：Elasticsearch部分搜尋，「最小應符合」並修正「有連字型大小搜尋」問題](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-28993-magento-patch-elasticsearch-partial-search-minimum-should-match-and-fix-for-searches-with-hyphen-issue.md)
-         * [MDVA-29446：可用於結帳的不相關送貨方法](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-29446-magento-patch-non-relevant-shipping-method-available-for-checkout.md)
-         * [MDVA-29787：未顯示相關產品](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-29787-magento-patch-related-products-are-not-displayed.md)
-         * [MDVA-30102：Redis快取已滿](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30102-magento-patch-redis-cache-getting-full.md)
-         * [MDVA-30357：cron產生的網站地圖影像URL錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30357-magento-patch-sitemap-generated-by-cron-has-wrong-image-url.md)
-         * [MDVA-30565：工作階段快取本機儲存和簽出問題](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30565-magento-patch-session-cache-local-storage-and-checkout-issue.md)
-         * [MDVA-30599：Customer_is_guest設定不正確](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30599-magento-patch-customer-is-guest-is-set-incorrectly.md)
-         * [MDVA-30977：類別中缺少產品，索引相關](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-30977-magento-patch-missing-products-from-categories-indexing-related.md)
-         * [MDVA-31006：Paypal重複訂單10415錯誤](/help/support-tools/patches-available-in-qpt-tool/v1-0-6/mdva-31006-magento-patch-paypal-duplicate-orders-10415-error.md)
       * v1.0.7 {#v1-0-7}
          * [概覽：品質修補工具(QPT) v1.0.7](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/overview.md)
          * [MDVA-29148：儲存時ArrayBackend未指派預設值](/help/support-tools/patches-available-in-qpt-tool/v1-0-7/mdva-29148-patch-arraybackend-does-not-assign-default-value-on-save.md)
