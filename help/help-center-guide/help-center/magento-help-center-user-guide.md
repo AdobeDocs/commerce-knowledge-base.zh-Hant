@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: ab51577ea212470e9fa5a93dce3748de9c5c00a6
+source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2586'
 ht-degree: 0%
 
 ---
@@ -82,10 +82,10 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 ### 提交支援案例 {#support-case}
 
-成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面提交支援案例。
+以帳戶擁有者或「共用存取權」使用者的身分成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面來提交支援案例。
 
-* 如果您是帳戶擁有者，請遵循下列步驟。
-* 如果您是「共用存取」使用者，則必須先切換帳戶。 請參閱[存取共用帳戶（切換帳戶）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)，然後您可以繼續下列步驟。
+* 如果您是帳戶擁有者或回訪的「共用存取權」使用者，請遵循下列步驟。
+* 如果您是「共用存取權」使用者，而帳戶擁有者剛剛[提供您共用存取權](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access)，您必須先切換帳戶，才能繼續下列步驟。 如需詳細資訊，請參閱[存取共用帳戶（切換帳戶）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)。
 
 #### Adobe Experience League起始頁面 {#experience-league-start-page}
 
