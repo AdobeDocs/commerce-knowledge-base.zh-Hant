@@ -4,14 +4,18 @@ description: 疑難排解與維護Commerce商店所需瞭解的一切。
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 24c7783ca6d25f8cb13e7fe84efdb6cf09efcfa6
+source-git-commit: 607b835da518536196654734f62d78d095099476
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 1%
+source-wordcount: '1615'
+ht-degree: 0%
 
 ---
 
 # Adobe Commerce支援知識庫
+
+>[!NOTE]
+>
+>Adobe Commerce支援知識庫指南即將重組，其內容會移至Adobe Experience League內的其他位置。 與此同時，我們將繼續維護並更新本指南中的內容。
 
 ![知識庫首頁](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
@@ -28,12 +32,6 @@ ht-degree: 1%
 | [操作說明](/help/how-to/overview.md) | 從Adobe Commerce支援團隊取得清楚的逐步指示。 |
 | [常見問題集](/help/faq/overview.md) | 尋找有關Adobe Commerce政策、策略的常見問題，以及有關Adobe Commerce功能的細節。 |
 
->[!NOTE]
->
->若要提交新票證，請登入[Adobe Commerce說明中心](https://support.magento.com/)，並按照[提交支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)下詳述的步驟操作。
->
->如果您沒有看到提交票證的選項，請參閱[說明中心使用手冊](/help/help-center-guide/help-center/magento-help-center-user-guide.md)中的&#x200B;*[提交票證連結未顯示](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)*&#x200B;區段。
-
 ## 新增功能
 
 <table style="width:100%">
@@ -45,75 +43,209 @@ ht-degree: 1%
 
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/data-connection-customer-profiles-not-exported">客戶設定檔未出現在Experience Platform中：</a>如果使用Data Connection擴充功能時，如果您的客戶設定檔資料未出現在Experience Platform中，本文會提供疑難排解步驟。
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25075">安全性掃描工具傳回「無法判斷您的伺服器是否使用2FA」：</a>若要解決錯誤，請檢查<code>Magento_TwoFactorAuth</code>模組是否已停用。 若要通過檢查，通常應該啟用。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60632-address-saved-on-every-order-attempt">ACSD-60632：每次嘗試訂購時儲存的地址：</a> ACSD-60632修補程式修正每次嘗試訂購時儲存新地址的問題，無論是否成功建立訂單。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60326-graphql-query-error-customer-return-status">ACSD-60326：關於客戶退貨狀態的GraphQL查詢發生錯誤：</a> ACSD-60326修補程式修正了GraphQL查詢中針對客戶退貨狀態發生錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59925-sorting-items-in-media-gallery">ACSD-59925：在GraphQL中依位置排序媒體集中的專案：</a> ACSD-59925修補程式修正了媒體集中的專案未依位置排序，導致顯示順序不正確的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61322-products-not-assigned-to-shared-catalogue">ACSD-61322：未指派給共用目錄的產品包含在XML Sitemap：</a> ACSD-61322修補程式修正未指派給預設（一般）群組之共用目錄的產品/類別仍包含在XML Sitemap中的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60590-optimized-bestseller-report-generation">ACSD-60590：增強Bestsellers彙總每日報表產生的效能：</a> ACSD-60590修補程式修正Bestsellers彙總每日報表需要大量時間才能產生大量訂購的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59865-cart-price-rule-fix-for-insufficient-quantity-issue">ACSD-59865：由於產品數量不足，購物車價格規則無法取消先前的規則：</a> ACSD-59865修補程式修正了<em>固定金額折扣</em>、<em>產品價格折扣百分比</em>和<em>購買X取得Y</em>購物車價格規則不再取消先前規則動作的問題。 <em></em>安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin">在Admin中篩選訂單時發生錯誤：</a>本文針對Adobe Commerce問題提供修補程式，當嘗試在Admin中依日期篩選訂單時發生錯誤，顯示訊息： <em>完整性條件約束違規： 1052資料行'created_at' where子句模稜兩可</em>。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25030">Adobe Commerce：在內容安全性原則(CSP)限制模式下，結帳頁面出現內嵌JavaScript問題：</a>本文會針對啟用<strong>CSP限制模式</strong>時，透過Adobe Commerce 2.4.7中的Adobe Commerce Admin和Google Tag Manager新增自訂JavaScript，針對結帳時遇到的問題，提供詳細的說明和解決方案。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-61195-empty-cart-on-final-graphql-page">ACSD-61195：購物車GraphQL請求無法在最終頁面上傳回專案：</a> ACSD-61195修補程式修正了在購物車GraphQL請求的最後一頁未傳回購物車專案的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console">ACSD-59514：使用頁面產生器的Admin中的Forms在瀏覽器控制檯中擲回錯誤：</a> ACSD-59514修補程式修正了使用頁面產生器的Admin中的表單擲回錯誤<em>頁面產生器在提交表單後持續呈現5秒而未釋放瀏覽器控制檯中的鎖定</em>的問題，且無法儲存變更。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60538-if-product-is-disabled-attributes-dont-show">ACSD-60538：如果在<em>所有商店檢視中停用產品，則屬性無法正確顯示</em>：</a> ACSD-60538修補程式修正了以下問題：如果產品在<em>所有商店檢視</em>中停用，並且只在特定商店檢視範圍中啟用，則產品屬性無法在GraphQL回應中正確顯示，導致產品無法正確顯示。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-58352-return-attribute-labels-for-the-default-store-are-returned-via-graphql-api">ACSD-58352：透過GraphQL API傳回預設存放區的傳回屬性標籤：</a> ACSD-58352修補程式修正了在要求標頭中指定非預設存放區檢視時，透過GraphQL API傳回預設存放區的傳回屬性標籤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href = "https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24983">您的帳戶中缺少<em>Switch帳戶</em>下拉式清單：</a>本文針對Adobe Commerce問題提供解決方案，您的帳戶中缺少<em>Switch帳戶</em>下拉式清單，而且您失去代表商家提交票證的存取權。
     </td>
     <td>新增文章</td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>  
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-dashboard-ranking-incorrect">即時搜尋儀表板和搜尋結果排名不正確：</a>本文說明為什麼即時搜尋儀表板中顯示的資料可能不正確，或為什麼搜尋結果的排名可能不符合您的預期。  
+    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted">ACSD-56979：刪除中繼更新後移除的產品影像：</a>ACSD-56979修補程式修正刪除中繼更新後移除產品影像的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。  
     </td>
     <td>新增文章</td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/troubleshooting-encryption-key-rotation-cve-2024-34102">疑難排解加密金鑰輪換： CVE-2024-34102：</a>本文旨在協助商戶疑難排解加密金鑰輪換，因為他們已經在CVE-2024-34102上遵循此<a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-40-revised-to-include-isolated-patch-for-cve-2024-34102">文章</a>中概述的步驟。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values">ACSD-48210：存放區檢視特定範圍屬性覆寫全域值：</a> ACSD-48210修補程式修正了在特定存放區檢視中更新<em>網站範圍</em>屬性時覆寫全域範圍中屬性值的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
     </td>
     <td>新增文章 </td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center">停用Adobe Commerce說明中心：</a>為了能與Adobe解決方案系列更妥善地連線，Adobe Commerce已將我們的支援接收程式從Adobe Commerce說明中心移轉至Adobe Experience League。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-59280-fix-for-reflection-union-type-error">ACSD-59280： 2.4.4-pX安裝中的ReflectionUnionType：：getName()錯誤：</a> ACSD-59280修補程式修正了在安裝2.4.4-pX版本期間發生呼叫未定義方法<code>ReflectionUnionType::getName()</code>錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
     </td>
     <td>新增文章 </td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61">可用於Adobe Commerce的安全性更新 — APSB24-61：</a>此更新可解決嚴重、重要及中度的弱點成功利用漏洞可能會導致執行任意程式碼、讀取任意檔案系統、略過安全性功能及提升許可權。 公告是Adobe安全性公告(APSB24-61)。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry">ACSD-54887：客戶購物車在客戶工作階段過期後會被清除：</a> ACSD-54887修補程式修正了客戶工作階段過期後客戶購物車會被清除的問題，並啟用了<em>永久購物車</em>。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
     </td>
     <td>新增文章 </td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/live-search-facets-not-sorted">即時搜尋Facet未依字母順序排序：</a>本文說明所有Adobe Commerce店面Facet使用單選選項依字母順序排序的問題，而不論指派給對應屬性的輸入型別為何。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-60303-admin-order-placement-fix">ACSD-60303：啟用HTML縮制後已解決管理員訂單放置問題：</a> ACSD-60303修補程式修正啟用HTML縮制後無法放置管理員訂單的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
     </td>
     <td>新增文章 </td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102">保護存放區及旋轉加密金鑰的指南： CVE-2024-34102：</a>本文提供保護存放區及旋轉加密金鑰的指南。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy">ACSD-57045： URL重寫造成在<em>網站根目錄</em>從階層取消核取後出現無限頁面回圈：</a> ACSD-57045修補程式修正URL重寫造成在<em>網站根目錄</em>從階層取消核取後出現無限頁面回圈的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mdee-table-does-not-exist">修正Commerce Data Exporter摘要中未更新的資料，以及changelog資料表的cron log錯誤不存在：</a>本文提供解決方案，修正在Data Exporter Mview訂閱中使用錯誤檢視識別碼所導致的資料同步化問題。 Mview訂閱是用來追蹤資料庫表格的變更。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message">ACSD-58446：透過GraphQL刪除具有子項使用者或團隊的團隊會產生無資訊的錯誤訊息：</a> ACSD-58446修補程式修正了Adobe Commerce的問題，也就是透過GraphQL刪除具有子項使用者或團隊的團隊時，會傳回與UI不一致的無資訊錯誤訊息。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。 
     </td>
     <td>新增文章 </td>
-    <td>2024年8月27日</td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level">ACSD-58735：未正確設定的YouTube API金鑰會導致在商店檢視層級新增視訊時發生錯誤：</a> ACSD-58735修補程式修正了在商店檢視層級新增YouTube視訊時，錯誤YouTube API金鑰設定會導致錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。 
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly">ACSD-57086：來自啟用條款與條件之非預設網站的訂單處理不正確：</a> ACSD-57086修補程式修正來自啟用條款與條件之非預設網站的訂單未正確處理的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。 
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled">ACSD-58141：如果已啟用L2 Redis快取，PHPSESSID會在登入客戶的POST要求上重新產生：</a> ACSD-58141修補程式修正了以下問題：如果已啟用L2 Redis快取，且客戶已從Admin更新，則PHPSESSID會在登入客戶的POST要求上重新產生。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome">ACSD-58790：修正Chrome上行動檢視中產品詳細資料頁面影像的縮放夾功能：</a> ACSD-58790修補程式修正Chrome上行動檢視中的影像未如預期放大影像的Adobe Commerce問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
+  </tr>
+
+<tr>
+    <td>
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop">ACSD-58442：修正寬度768px的裝置被視為行動裝置，導致功能表和標題載入行動檢視而非桌上型電腦的問題：</a> ACSD-58442修補程式修正Adobe Commerce裝置寬度768px被視為行動裝置，導致功能表和標題載入行動檢視而非桌上型電腦的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。
+    </td>
+    <td>新增文章 </td>
+    <td>2024年10月17日</td>
   </tr>
 </table>
-
-## 受歡迎的文章
-
-* [在Cloud 2.4.4上切換為Adobe Commerce的OpenSearch](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
-* [Adobe Commerce中的Apache log4j2漏洞](/help/announcements/adobe-commerce-announcements/apache-log4j2-adobe-commerce.md)
-* [Adobe Commerce APSB22-12可用的安全性更新](/help/troubleshooting/known-issues-patches-attached/0-day-vulnerability-patch.md)
-* [識別並測量雲端基礎結構上Adobe Commerce的中斷](/help/how-to/general/how-to-identify-outages.md)
-* [在Adobe Commerce上檢視叢集中的環境vCPU層](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
-* [雲端基礎結構上的Adobe Commerce：CPU配置計算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-* [雲端基礎結構上的Adobe Commerce：檢查主機的CPU設定](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
