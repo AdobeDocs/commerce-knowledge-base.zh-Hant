@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 41100a7a059abf86524d2c6f66a4d81ddf1eb41f
+source-git-commit: 41e8cd47b62f68975ed61b5260934ecf2cadec0f
 workflow-type: tm+mt
-source-wordcount: '9814'
+source-wordcount: '9806'
 ht-degree: 0%
 
 ---
@@ -647,7 +647,6 @@ ht-degree: 0%
       * [Adobe Commerce支援將攝取流程移轉至Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
    * 說明中心新聞{#news}
       * [停用Adobe Commerce說明中心](/help/announcements/help-center-news/decommissioning-of-adobe-commerce-help-center.md)
-      * [Adobe Commerce支援知識庫開始接受貢獻](/help/announcements/help-center-news/github-repo-for-external-contributions.md)
 * 疑難排解{#troubleshooting}
    * [疑難排解概觀](/help/troubleshooting/overview.md)
    * 資料庫{#database}
