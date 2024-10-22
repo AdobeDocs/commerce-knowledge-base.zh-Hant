@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 41e8cd47b62f68975ed61b5260934ecf2cadec0f
+source-git-commit: d7940db29941e39ee6a664115095c7512a7f8d54
 workflow-type: tm+mt
-source-wordcount: '9806'
+source-wordcount: '9794'
 ht-degree: 0%
 
 ---
@@ -949,7 +949,6 @@ ht-degree: 0%
       * [[!DNL UPS]送貨方法整合從 [!DNL SOAP] 移轉至 [!DNL RESTful API]](/help/troubleshooting/known-issues-patches-attached/ups-shipping-method-integration-migration-from-soap-to-restful-api.md)
       * [[!DNL USPS] Ground Advantage送貨方法支援AC-9182的Hotfix](/help/troubleshooting/known-issues-patches-attached/usps-ground-advantage-shipping-method-support-hotfix-for-ac-9182.md)
       * [Adobe Commerce 2.4.3-p2 - CVE-2022-35698的2.4.5安全性Hotfix](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
-      * [從迷你購物車中多次點選結帳時出現清空購物車問題](/help/troubleshooting/known-issues-patches-attached/empty-shopping-cart-issue-when-multiple-click-on-checkout-from-mini-cart.md)
       * [Adobe Commerce 2.4.4：無法建立部分發票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [新訂單將傳送至封存](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
       * [進階報告cron工作錯誤Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
