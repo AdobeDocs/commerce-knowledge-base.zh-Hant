@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 3cddfcb136147a5c0602a62585438313b3162900
+source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
 workflow-type: tm+mt
-source-wordcount: '2586'
+source-wordcount: '2625'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,10 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 您可以按一下左側功能表上的「**[!UICONTROL My Cases]**」，檢視您個人提交的案例。
 
 ![檢視支援案例](assets/view_support_cases.png)
+
+#### 從Adobe Commerce說明中心檢視您的歷史案例
+
+深入瞭解如何從Adobe Commerce說明中心[停用Adobe Commerce說明中心](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/announcements/news/decommissioning-of-adobe-commerce-help-center)的Adobe Commerce知識庫&#x200B;**檢視您的歷史案例**。
 
 #### 檢視您的觀看案例
 
