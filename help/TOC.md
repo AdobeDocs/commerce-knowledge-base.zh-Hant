@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9a93f596b5196a9da61e9698a7e6456c650c2b42
+source-git-commit: a2f113e6d9123fd9058cce34a199a90484523862
 workflow-type: tm+mt
-source-wordcount: '9723'
+source-wordcount: '9692'
 ht-degree: 0%
 
 ---
@@ -951,9 +951,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.3-p2 - CVE-2022-35698的2.4.5安全性Hotfix](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-3-p2-2-4-5-security-hotfix-for-cve-2022-35698.md)
       * [Adobe Commerce 2.4.4：無法建立部分發票](/help/troubleshooting/known-issues-patches-attached/braintree-partial-invoice-error-apple-pay-google-pay.md)
       * [新訂單將傳送至封存](/help/troubleshooting/known-issues-patches-attached/new-orders-are-sent-to-archive.md)
-      * [進階報告cron工作錯誤Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-cron-job-errors-magento-commerce.md)
-      * [從資料庫移除失敗的登入嘗試](/help/troubleshooting/known-issues-patches-attached/remove-failed-login-attempts-from-the-database.md)
-      * [更新進階報告，以便在其自己的cron群組上執行](/help/troubleshooting/known-issues-patches-attached/update-advanced-reporting-to-run-on-its-own-cron-group.md)
       * [網站和API效能低](/help/troubleshooting/known-issues-patches-attached/low-site-and-api-performance.md)
       * [以影像圖表取代折舊的Google影像圖表](/help/troubleshooting/known-issues-patches-attached/replace-depreciated-google-image-charts-with-image-charts.md)
       * [進階搜尋未顯示最相關的結果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
@@ -969,7 +966,6 @@ ht-degree: 0%
       * [在管理員中大量刪除期間，刪除的產品比初始的產品多](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
       * [雲端基礎結構上的Adobe Commerce v2.3.5 GraphQL快取失效無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [啟用Braintree付款時，管理員無法建立訂單/重新訂單](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [Magento Commerce時出現進階報告404錯誤](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-magento-commerce.md)
       * [Adobe Commerce 2.4.0 B2B：折扣過期時採購單邏輯錯誤](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-b2b-wrong-purchase-order-logic-when-discount-expired.md)
       * [編輯排程更新的結束日期後，目錄表格中出現重複的專案](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5、2.3.5-p1修補程式：國家/地區付款問題](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
