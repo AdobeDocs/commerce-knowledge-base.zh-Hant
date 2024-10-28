@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: d8f832869916c04cacc0cefeeb9b45bd3c1f3b80
+source-git-commit: 8ee52f47d9e230ecd633ead3429d864f9df7c33e
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2583'
 ht-degree: 0%
 
 ---
@@ -84,9 +84,6 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 以帳戶擁有者或「共用存取權」使用者的身分成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面來提交支援案例。
 
-* 如果您是帳戶擁有者或回訪的「共用存取權」使用者，請遵循下列步驟。
-* 如果您是「共用存取權」使用者，而帳戶擁有者剛剛[提供您共用存取權](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#provide-shared-access)，您必須先切換帳戶，才能繼續下列步驟。 如需詳細資訊，請參閱[存取共用帳戶（切換帳戶）](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#switch-accounts)。
-
 #### Adobe Experience League起始頁面 {#experience-league-start-page}
 
 若要使用Adobe Experience League起始頁面提交新的支援案例，請遵循下列步驟：
@@ -106,7 +103,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
    ![open-support-page](assets/click_support.png)
 
-1. 若要開始支援接收程式，請確保您已從「組織」下拉式清單（如果顯示）中選取適當的組織。
+1. 若要開始支援接收程式，請確保您已從「組織」下拉式清單（如果顯示）中選取適當的組織。 若要提交Adobe Commerce案例，請選取以&#x200B;*[!DNL Commerce]*&#x200B;結尾的組織名稱。
 
    ![select_applicate_org](assets/select_appropriate_org.png)
 
