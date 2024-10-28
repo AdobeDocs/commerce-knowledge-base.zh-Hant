@@ -4,9 +4,9 @@ description: 本文提供相關建議，說明如何避免雲端基礎結構2.3.
 exl-id: 1488e2db-4a5d-4963-b48e-b84f760582d1
 feature: Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,6 @@ Adobe Commerce 2.3.6將可修正此問題，並排定於2020年第4季發行。
 <li><a href="/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md">Adobe Commerce 2.3.5中的大量動作產品計數已知問題</a></li>
 <li>
 <p title="Adobe Commerce雲端基礎結構和Adobe Commerce內部部署2.3.5和2.3.5-p1中的國家/地區付款方法問題"><a href="/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md">Adobe Commerce雲端基礎結構和Adobe Commerce內部部署2.3.5和2.3.5-p1中的國家/地區付款方法問題</a></p>
-</li>
-<li>
-<p title="Adobe Commerce會提示客戶登入，但提供無效連結"><a href="/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md">Adobe Commerce會提示客戶登入，但提供無效連結</a></p>
 </li>
 <li>
 <p title="Adobe Commerce 2.3.5-p1中Amazon Pay簽出問題的修補程式"><a href="/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md">Adobe Commerce 2.3.5-p1中Amazon Pay簽出問題的修補程式</a></p>

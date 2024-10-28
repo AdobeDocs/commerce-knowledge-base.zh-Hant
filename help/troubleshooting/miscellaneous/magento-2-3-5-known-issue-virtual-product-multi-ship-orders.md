@@ -4,9 +4,9 @@ description: 本文說明Adobe Commerce 2.3.5中的一個已知問題，即包�
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d51fd4d7b064b8eea6cd3771af279b74a8bdec48
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,6 @@ Adobe Commerce 2.3.6將可修正此問題，並排定於2020年第4季發行。
 * [Adobe Commerce 2.3.5中的產品比較已知問題](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
 * [Adobe Commerce 2.3.5中的大量動作產品計數已知問題](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
 * [Adobe Commerce 2.3.5和2.3.5-p1中的國家/地區付款方法問題](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-* [Adobe Commerce會提示客戶登入，但提供無效連結](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
 * [Adobe Commerce 2.3.5-p1中Amazon Pay簽出問題的修補程式](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
 
 在我們的開發人員檔案中：

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: fdca2b0345bbd259007f5eeef10dd63455395d4f
+source-git-commit: 7a4d6ab8a96cd739bc692ae6b91fc2613d3b115f
 workflow-type: tm+mt
-source-wordcount: '9662'
+source-wordcount: '9623'
 ht-degree: 0%
 
 ---
@@ -968,18 +968,13 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0修補程式：傳回送貨標籤建立問題](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
       * [在購物車中按兩下「移除連結」後出現「500錯誤」](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [從2.4.4升級至2.4.4-p1後，套件已降級](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [目錄分頁不適用於Elasticsearch6.x](/help/troubleshooting/known-issues-patches-attached/catalog-pagination-doesn-t-work-when-elasticsearch-6-x-is-used.md)
       * [Adobe Commerce 2.3.6、2.4.1在簽出的驗證碼無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [從伺服器電子郵件地址排序傳送的電子郵件](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [分割資料庫解決方案上的進階報告404錯誤](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)
       * [過多Ajax請求導致的效能問題](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
       * [移除中繼更新會刪除相關實體](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
       * [Google Analytics未追蹤轉換資料](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
-      * [特殊價格的日期錯誤](/help/troubleshooting/known-issues-patches-attached/wrong-date-for-special-price.md)
       * [Adobe Commerce 2.4.1和2.3.6建立帳戶按鈕停用Hotfix](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
-      * [在Admin中儲存主題設定時出現「區域已設定」錯誤](/help/troubleshooting/known-issues-patches-attached/area-already-set-error-when-saving-theme-configuration-in-admin.md)
-      * [Adobe Commerce會提示客戶登入無效的連結](/help/troubleshooting/known-issues-patches-attached/magento-prompts-customers-log-in-invalid-link.md)
-      * [B2B：公司無法存取店面中的設定檔頁面](/help/troubleshooting/known-issues-patches-attached/b2b-companies-cannot-access-profile-pages-on-store-front.md)
       * [Adobe Commerce 2.4.6從管理面板下訂單時發生錯誤](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [從版本&lt; 2.4.5升級時出現[!UICONTROL salesRule]個標籤問題](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [2.4.4、2.4.5和2.4.6版的[!DNL JQuery UI]安全性漏洞 [!DNL CVE-2022-31160] 修正](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
