@@ -1,17 +1,17 @@
 ---
-title: 「'部署失敗：'cache'名稱空間錯誤中未定義命令'」
+title: 「'快取排清時部署失敗：'快取'名稱空間錯誤中未定義命令'」
 description: 本文提供部署失敗並出現以下錯誤**快取名稱空間中未定義命令**時問題的解決方案。
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 1a8a4e1eada859a6712a43536d7bad26d1ce1244
+source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 部署失敗：「快取」名稱空間錯誤中未定義命令
+# 快取排清時部署失敗：「在&#39;cache&#39;名稱空間錯誤中未定義命令」
 
 >[!WARNING]
 >

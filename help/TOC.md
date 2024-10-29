@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 7a4d6ab8a96cd739bc692ae6b91fc2613d3b115f
+source-git-commit: 61b3cc2fc40b320c3c657a7dd0c6ea2b9db71c75
 workflow-type: tm+mt
-source-wordcount: '9623'
+source-wordcount: '9626'
 ht-degree: 0%
 
 ---
@@ -938,7 +938,7 @@ ht-degree: 0%
       * [部署錯誤：「下載時發生錯誤7...連線埠443：連線被拒」](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正確的檔案時發生部署錯誤](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
       * [找不到修補程式的部署錯誤](/help/troubleshooting/deployment/deployment-errors-where-patches-not-found.md)
-      * [部署失敗：「快取」名稱空間錯誤中未定義命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
+      * [快取排清時部署失敗：「快取」名稱空間錯誤中未定義命令](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中有正確的存取金鑰時部署失敗](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知問題{#known-issues-patches-attached}
       * [可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
