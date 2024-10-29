@@ -4,7 +4,7 @@ promoted: true
 description: 套用隔離修補程式，以針對Adobe Commerce 2.4.7-p2、2.4.6-p7、2.4.5-p9、2.4.4-p10及只執行 [!DNL B2B] 模組的舊版執行個體修正 [!DNL critical, important, and moderate vulnerabilities] 。
 feature: Compliance, Security
 role: Developer
-source-git-commit: 694cb7519733e950b55006866e585097bc2429f4
+source-git-commit: 483589be81e55f818f5cf93cccff2ffcbb5763cf
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]
 
-在2024年10月8日，Adobe已發行Adobe Commerce和[!DNL Adobe Commerce Webhooks Plugin]的定期排程安全性更新。
+2024年10月8日，Adobe已發行Adobe Commerce和[!DNL Adobe Commerce Webhooks Plugin]的定期排程安全性更新。
 此更新解決[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用此漏洞可能會導致執行任意程式碼、讀取任意檔案系統、略過安全性功能以及提升許可權。 公告是[Adobe安全性公告([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html)。
 
 >[!NOTE]
