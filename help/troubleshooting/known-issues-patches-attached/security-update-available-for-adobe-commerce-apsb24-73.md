@@ -1,19 +1,19 @@
 ---
 title: 可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]
 promoted: true
-description: 套用隔離修補程式，針對Adobe Commerce 2.4.7-p3、2.4.6-p8、2.4.5-p10、2.4.4-p11及只執行 [!DNL B2B] 模組的舊版執行個體來補救 [!DNL critical, important, and moderate vulnerabilities] 。
+description: 套用隔離修補程式，以針對Adobe Commerce 2.4.7-p2、2.4.6-p7、2.4.5-p9、2.4.4-p10及只執行 [!DNL B2B] 模組的舊版執行個體修正 [!DNL critical, important, and moderate vulnerabilities] 。
 feature: Compliance, Security
 role: Developer
-source-git-commit: 181316dc0bd42feae0a857ff52edd80dbfd492ad
+source-git-commit: 694cb7519733e950b55006866e585097bc2429f4
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # 可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]
 
-在2024年10月8日，Adobe已發行Adobe Commerce、Magento Open Source和[!DNL Adobe Commerce Webhooks Plugin]的定期排程安全性更新。
+在2024年10月8日，Adobe已發行Adobe Commerce和[!DNL Adobe Commerce Webhooks Plugin]的定期排程安全性更新。
 此更新解決[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用此漏洞可能會導致執行任意程式碼、讀取任意檔案系統、略過安全性功能以及提升許可權。 公告是[Adobe安全性公告([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html)。
 
 >[!NOTE]
@@ -28,14 +28,22 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-雲端上的Adobe Commerce、Adobe Commerce內部部署和Magento Open Source：
+雲端上的Adobe Commerce和Adobe Commerce內部部署：
 
-* 2.4.7-p3和更舊版本
-* 2.4.6-p8和更舊版本
-* 2.4.5-p10和較舊版本
-* 2.4.4-p11和較舊版本
+* 2.4.7-p2和更舊版本
+* 2.4.6-p7和更舊版本
+* 2.4.5-p9和更舊版本
+* 2.4.4-p10和較舊版本
 
-## 適用於Adobe Commerce on Cloud、Adobe Commerce內部部署軟體和Magento Open Source的解決方案
+B2B：
+
+* 1.4.2-p2和較舊版本
+* 1.3.5-p7和更舊版本
+* 1.3.4-p9和更舊版本
+* 1.3.3-p10和較舊版本
+
+
+## 適用於Adobe Commerce on Cloud和Adobe Commerce內部部署軟體的解決方案
 
 若要協助解決受影響產品和版本的弱點，您必須套用[!DNL CVE-2024-45115]獨立修補程式。
 
@@ -43,7 +51,7 @@ ht-degree: 0%
 
 使用以下附加的隔離修補程式：
 
-[vuln-25610-composer-patch.zip](assets/vuln-25610-composer-patch.zip)
+[vuln-26510-composer-patch.zip](assets/vuln-26510-composer-patch.zip)
 
 ## 如何套用隔離的修補程式
 
