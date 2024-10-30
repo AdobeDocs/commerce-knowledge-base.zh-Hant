@@ -1,17 +1,18 @@
 ---
-title: 「'快取排清時部署失敗：'快取'名稱空間錯誤中未定義命令'」
+title: 「快取排清時部署失敗：『快取』名稱空間中未定義命令』錯誤」
 description: 本文提供部署失敗並出現以下錯誤**快取名稱空間中未定義命令**時問題的解決方案。
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: e13be3ef9daa17b9463c8251933f68f6a35fedd2
+source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
 workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
-# 快取排清時部署失敗：「在&#39;cache&#39;名稱空間錯誤中未定義命令」
+
+# 快取排清時部署失敗：「在&#39;cache&#39;名稱空間中未定義命令」錯誤
 
 >[!WARNING]
 >
@@ -30,11 +31,11 @@ ht-degree: 0%
 
 雲端基礎結構上的Adobe Commerce 2.4.x
 
-## 問題  
+## 問題
 
 <u>要再現的步驟</u>：
 
-嘗試部署。 
+嘗試部署。
 
 <u>預期結果</u>：
 
@@ -66,16 +67,16 @@ ht-degree: 0%
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. 執行此MySql查詢以確認找不到存放區（由步驟2中的錯誤訊息所指示）。 
+1. 執行此MySql查詢以確認找不到存放區（由步驟2中的錯誤訊息所指示）。
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 執行下列MySql敘述句來刪除無效的資料列： 
+1. 執行下列MySql敘述句來刪除無效的資料列：
 
    ```sql
-   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store); 
+   delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
 1. 再次執行此命令：
