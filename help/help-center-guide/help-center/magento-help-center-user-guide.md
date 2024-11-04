@@ -3,7 +3,7 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 529bfc97ab05b839fca6d76f2d2f2f3dc040c9b9
+source-git-commit: 8438978de04746c8a66816fe4f03d5f0d2d11521
 workflow-type: tm+mt
 source-wordcount: '2649'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 >[!INFO]
 >
->1. 若要提交案例，您必須有權獲得適當產品的支援(例如Adobe Commerce、Adobe Commerce Reporting、Adobe Commerce Payment Services、Experience Platform等)。 如果您無權取得支援，頁面頂端會顯示橫條，通知您您您並非組織中有權取得支援的使用者。 若要提交Commerce相關問題的案例，您必須先選取以&#x200B;*[!DNL Commerce]*&#x200B;結尾的適當組織名稱。
+>1. 若要提交案例，您必須有權獲得適當產品的支援(例如Adobe Commerce、Adobe Commerce Reporting、Adobe Commerce Payment Services、Experience Platform等)。 如果您無權取得支援，頁面頂端會顯示橫條，通知您您您並非組織中有權取得支援的使用者。 若要提交Commerce相關問題的案例，您必須先選取以&#x200B;*[!DNL (Commerce)]*&#x200B;結尾的適當組織名稱。
 >1. 如果您隸屬於多個組織，或有多個名稱相似的組織(每個組織都代表該組織訂閱的任何其他Adobe產品)，您必須先從下拉式清單中選取適當的組織。
 >1. 如果您在[!UICONTROL Select a product]下拉式清單中看不到Adobe Commerce，您必須先向Commerce帳戶擁有者取得[共用存取權](#shared-access)。 取得共用存取權後，您必須先同步處理您的帳戶[](#switch-accounts)，才能完成程式，然後才能提交案例。
 
