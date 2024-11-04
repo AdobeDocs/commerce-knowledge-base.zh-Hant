@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: a0b8fdf0e04cad2260a04af7c1049c6831d2921b
+source-git-commit: 2212ec66c04445db791c5bd852d7498161de410d
 workflow-type: tm+mt
-source-wordcount: '9617'
+source-wordcount: '9625'
 ht-degree: 0%
 
 ---
@@ -940,6 +940,7 @@ ht-degree: 0%
       * [快取排清時部署失敗：「在&#39;cache&#39;名稱空間中未定義命令」錯誤](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中有正確的存取金鑰時部署失敗](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知問題{#known-issues-patches-attached}
+      * [Adobe Commerce 2.4.6-p8中 [!DNL GraphQL "placeOrder" API] 的回溯不相容變更](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
       * [可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
       * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
       * [可用於Adobe Commerce的安全性更新 — [!DNL APSB24-61]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-61.md)
@@ -1026,7 +1027,7 @@ ht-degree: 0%
    * [如何尋找Adobe Commerce產品檔案](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [針對雲端基礎結構上Adobe Commerce的所有頁面，將HTTP重新導向至HTTPS （強制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [在雲端上的Adobe Commerce中為MySQL分配更多空間](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
-   * [變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
+   * [變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [設定Fastly以用於雲端上的入門計畫](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Adobe Commerce Intelligence訓練影片：同類群組Report Builder](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [針對雲端上的Adobe Commerce將MariaDB 10.0升級至10.2](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
