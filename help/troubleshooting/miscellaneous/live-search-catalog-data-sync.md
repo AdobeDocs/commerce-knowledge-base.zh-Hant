@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce問題提供解決方案，解決您在�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: fe276c444c235b096ea6d61b02d8362314b5c154
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -60,13 +60,13 @@ ht-degree: 0%
 
 如果特定SKU的產品資料未正確同步，請執行以下操作：
 
-1. 使用下列SQL查詢，並確認您在`feed_data`資料行中有預期的資料。 另外，記下`modified_at`時間戳記。
+1. 使用下列[!DNL SQL]查詢，並確認您在`feed_data`欄中有您需要的資料。 另外，記下`modified_at`時間戳記。
 
    ```sql
    select * from cde_products_feed where sku = '<your_sku>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. 如果您沒有看到正確的資料，請嘗試使用下列命令重新索引，並在步驟1重新執行SQL查詢以驗證資料：
+1. 如果您沒有看到正確的資料，請嘗試使用下列命令重新編列索引，並在步驟1重新執行[!DNL SQL]查詢以驗證資料：
 
    ```bash
    bin/magento indexer:reindex cde_products_feed
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ### 檢查上次產品匯出的時間戳記
 
-1. 如果您在`cde_products_feed`中看到正確的資料，請使用下列SQL查詢來檢查上次匯出的時間戳記。 它應該在`modified_at`時間戳記之後：
+1. 如果您在`cde_products_feed`中看到正確的資料，請使用下列[!DNL SQL]查詢來檢查上次匯出的時間戳記。 它應該在`modified_at`時間戳記之後：
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -94,13 +94,13 @@ ht-degree: 0%
 
 如果特定屬性代碼的產品屬性資料未正確同步，請執行以下操作：
 
-1. 使用下列SQL查詢，並確認您在`feed_data`資料行中有預期的資料。 另外，記下`modified_at`時間戳記。
+1. 使用下列[!DNL SQL]查詢，並確認您在`feed_data`欄中有您需要的資料。 另外，記下`modified_at`時間戳記。
 
    ```sql
    select * from cde_product_attributes_feed where json_extract(feed_data, '$.attributeCode') = '<your_attribute_code>' and store_view_code = '<your_ store_view_code>';
    ```
 
-1. 如果您沒有看到正確的資料，請使用下列命令重新索引，然後在步驟1中重新執行SQL查詢以驗證資料。
+1. 如果您沒有看到正確的資料，請使用下列命令重新索引，然後在步驟1中重新執行[!DNL SQL]查詢以驗證資料。
 
    ```bash
    bin/magento indexer:reindex cde_product_attributes_feed
@@ -112,7 +112,7 @@ ht-degree: 0%
 
 如果您在`cde_product_attributes_feed`中看到正確的資料：
 
-1. 使用下列SQL查詢來檢查上次匯出的時間戳記。 它應在`modified_at`時間戳記之後。
+1. 使用下列[!DNL SQL]查詢檢查上次匯出的時間戳記。 它應在`modified_at`時間戳記之後。
 
    ```sql
    select * from scopes_website_data_exporter;
@@ -137,5 +137,6 @@ bin/magento saas:resync --feed productattributes
 
 ## 相關閱讀
 
-* 請參閱我們的使用者檔案中的[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)。
-* 請參閱Adobe Commerce SaaS Data Export Guide中的[檢閱記錄檔及疑難排解Adobe Commerce SaaS資料匯出和同步](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)。
+* 在我們的使用者檔案中[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)
+* [在Adobe Commerce SaaS Data Export Guide （僅英文版）中檢閱記錄檔並疑難排解Adobe Commerce SaaS資料匯出和同步](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

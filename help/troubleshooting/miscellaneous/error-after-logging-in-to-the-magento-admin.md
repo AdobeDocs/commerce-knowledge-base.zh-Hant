@@ -4,9 +4,9 @@ description: 本文針對您收到錯誤訊息，指出在此伺服器上找不�
 exl-id: f52b383b-87f2-4216-9bf4-e765db31ca6b
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '144'
 ht-degree: 0%
 
 ---
@@ -30,3 +30,7 @@ ht-degree: 0%
 * 符合`core_config_data`資料庫資料表中`web/unsecure/base_url`記錄的大小寫
 
 請使用有效值重新執行安裝。
+
+## 相關閱讀
+
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -4,9 +4,9 @@ description: 當您在適用於Adobe Commerce的Magento Order Management系統(O
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '208'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -61,10 +61,11 @@ Stack trace:
 
 ## 解決方案
 
-若要解決此問題，請在CLI中執行下列SQL陳述式，以刪除`mcom_api_messages`表格中的所有記錄：
+若要解決此問題，請在CLI中執行下列[!DNL SQL]陳述式，該陳述式會刪除`mcom_api_messages`資料表中的所有記錄：
 
 `delete from mcom_api_messages;`
 
 ## 相關閱讀
 
-請參閱OMS檔案[OMS聯結器安裝教學課程](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)。
+* OMS檔案[OMS聯結器安裝教學課程](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

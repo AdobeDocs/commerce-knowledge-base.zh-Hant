@@ -4,9 +4,9 @@ description: 本文解決您在「oauth_token」表格中看到大量「oauth_to
 feature: Variables, Upgrade
 role: Developer
 exl-id: 92d1d15a-04da-4ba4-b6b8-5c491af9c4c1
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -36,5 +36,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* Commerce設定參考指南中的[服務> [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html)。
-* Adobe Developer指南中的[驗證指南](https://developer.adobe.com/developer-console/docs/guides/authentication/)。
+* Commerce設定參考指南中的[服務> [!DNL OAuth]](https://experienceleague.adobe.com/docs/commerce-admin/config/services/oauth.html)
+* Adobe Developer指南中的[驗證指南](https://developer.adobe.com/developer-console/docs/guides/authentication/)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -3,9 +3,10 @@ title: 客戶設定檔未出現在Experience Platform中
 description: 本文提供使用 [!DNL Data Connection] 擴充功能時，如果您的客戶設定檔資料未出現在Experience Platform中的疑難排解步驟。
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
-source-git-commit: a520ef45f1c55dbf34a98c4f4d3ab49814535434
+exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '463'
 ht-degree: 0%
 
 ---
@@ -95,7 +96,7 @@ ht-degree: 0%
 
 ### 查詢事件資料SaaS表格
 
-連線並執行下列SQL查詢，以確認客戶設定檔記錄出現在
+連線並執行下列[!DNL SQL]查詢，以確認客戶設定檔記錄出現在
 `event_data_saas`資料表且沒有錯誤：
 
 ```sql
@@ -124,4 +125,5 @@ select * from event_data_saas;
 
 ## 相關閱讀
 
-請參閱Commerce Services使用手冊中的[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)擴充功能。
+* Commerce Services使用手冊中的[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)擴充功能
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -4,9 +4,9 @@ description: 使用此疑難排解工具可解決Adobe Commerce上的進階報�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: ae6dde9ecc01a0e1c561d1e91dbd2f7bc3504fe0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,10 @@ b.否 — 依照[進階報告需求](https://docs.magento.com/user-guide/reports
 
 +++**是否使用多個基本貨幣？**
 
-是否已使用多種基本貨幣（在訂單和設定中）？ 執行此SQL命令以取得目前的組態： `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` 。
+是否已使用多種基本貨幣（在訂單和設定中）？ 執行此[!DNL SQL]命令以取得目前的組態： `SELECT value FROM core_config_data WHERE path = 'currency/options/base';` 。
 
 a.是 — 如果查詢傳回多個資料列，您就無法使用「進階報表」，因為我們只支援一種幣別。\
-b.否 — 輸出只顯示一種貨幣。 範例： `USD`。 是否曾經使用過多個基本貨幣（在訂單中）？ 執行此SQL命令以取得歷史訂單資料：\
+b.否 — 輸出只顯示一種貨幣。 範例： `USD`。 是否曾經使用過多個基本貨幣（在訂單中）？ 執行此[!DNL SQL]命令以取得歷史訂單資料：\
 `SELECT DISTINCT base_currency_code FROM sales_order;`。
 **注意：這個命令需要完整的資料表掃描，所以對於記錄數量高的資料表，當查詢正在執行**以取得歷史訂單資料時，這可能會影響效能。
 如果您曾使用過多種基本貨幣，則無法使用進階報告，因為我們僅支援一種貨幣。 如果輸出只顯示一種貨幣，請繼續執行[步驟3](#step-3)。
@@ -157,3 +157,7 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 +++
 
 [回到步驟1](#step-1)
+
+## 相關閱讀
+
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

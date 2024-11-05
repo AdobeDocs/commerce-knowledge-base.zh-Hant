@@ -1,19 +1,19 @@
 ---
 title: 使用資料匯出功能來精確找出差異
-description: 本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+description: 本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
 
 # 使用資料匯出功能來精確找出差異
 
-本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 
 舉例來說，以下列分析為例：
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 
 ![](assets/Export_Discrepancies_5.gif)
 
-在「原始資料匯出」選單中，您可以選取要匯出的表格以及要包含在匯出中的欄。 篩選條件也可套用至結果集。
+在&#x200B;**原始資料匯出**&#x200B;功能表中，您可以選取要匯出的資料表以及要包含在匯出中的資料行。 篩選條件也可套用至結果集。
 
-在我們的範例中，用於此報告的&#x200B;**Revenue**&#x200B;量度使用&#x200B;**orders**&#x200B;資料表上定義的&#x200B;**order\_total**&#x200B;欄位，以&#x200B;**date**&#x200B;作為其時間戳記。 在匯出中，我們想要包含2014年11月的所有&#x200B;**order\_id**&#x200B;值及其&#x200B;**order\_total** 。 **收入**&#x200B;量度未使用任何篩選器，但我們將為匯出新增篩選器，以將結果集限製為2014年11月。
+在我們的範例中，用於此報告的&#x200B;**收入**&#x200B;量度使用&#x200B;**`orders`**&#x200B;資料表上定義的&#x200B;**order\_total**&#x200B;欄位，以&#x200B;**date**&#x200B;作為其時間戳記。 在匯出中，我們想要包含2014年11月的所有&#x200B;**order\_id**&#x200B;值及其&#x200B;**order\_total** 。 **收入**&#x200B;量度未使用任何篩選器，但我們將為匯出新增篩選器，以將結果集限製為2014年11月。
 
 以下是此範例中「原始資料匯出」功能表的外觀：
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 如果兩個系統具有相同的列計數，且&#x200B;**Revenue**&#x200B;量度不符合來源資料，則&#x200B;**order\_total**&#x200B;必須在某處關閉。 來源資料庫中的&#x200B;**order\_total**&#x200B;欄位可能已更新，且MagentoBI未擷取這些變更。
 
-若要確認此專案，請檢視&#x200B;**order\_total**&#x200B;欄是否正在重新核取。 前往「Data Warehouse管理員」，然後按一下「訂單」表格。 您會看到「變更？」中列出的[重新檢查頻率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) 欄。 **order\_total**&#x200B;欄位應該設定為依預期變更的頻率重新檢查；如果沒有，請繼續將它設定為您想要的重新檢查頻率。
+若要確認此專案，請檢視&#x200B;**order\_total**&#x200B;欄是否正在重新核取。 前往Data Warehouse管理員並按一下&#x200B;**`orders`**&#x200B;表格。 您會看到「變更？」中列出的[重新檢查頻率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) 欄。 **order\_total**&#x200B;欄位應該設定為依預期變更的頻率重新檢查；如果沒有，請繼續將它設定為您想要的重新檢查頻率。
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 如果來源資料庫的列數超過MagentoBI，而且間隔大於您預期在更新週期期間會傳入的訂單數，則可能存在連線問題。 這表示MagentoBI無法從來源資料庫提取新資料，原因有很多。
 
-導覽至「連線」頁面，並檢視包含訂單表格的資料來源狀態：
+導覽至「連線」頁面，並檢視包含`order`資料表的資料來源狀態：
 
 1. **如果狀態為「重新驗證**」，表示連線未使用正確的認證。 按一下連線，輸入正確的認證，然後再試一次。
 1. **如果狀態為「失敗**」，表示伺服器端的連線可能未正確設定。 連線失敗通常是因為不正確的主機名稱或目標伺服器不接受指定連線埠上的連線。按一下連線，然後再次檢查主機名稱的拼字，以及是否輸入正確的連線埠。 在伺服器端，請確定連線埠可以接受連線，而且您的防火牆已允許Magento的BI IP位址(54.88.76.97/32)。 **如果連線持續失敗**，請參閱本文結尾的[連絡支援區段](#support)以瞭解後續步驟。
@@ -87,7 +87,9 @@ ht-degree: 0%
 * **如果您的來源資料庫比MagentoBI有更多的資料列**，而且連線顯示為[成功]或繼續失敗，我們需要知道連線的名稱和您看到的錯誤訊息（如果有）。
 * **如果來源資料庫中的資料列少於MagentoBI，則不會從資料表中刪除**&#x200B;個資料列，且重新檢查頻率設定正確，請在試算表&#x200B;**中執行VLOOKUP，以找出哪些order\_id值在MagentoBI**&#x200B;中，而不是在來源資料庫中。 在提交票證時包含這些值。
 
-## 相關
+## 相關閱讀
 
-* [資料差異診斷檢查清單](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
-* [正在提交資料差異票證](https://support.magento.com/hc/en-us/articles/360016506472-Submitting-a-data-discrepancy-ticket)
+* [資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Adobe Commerce Intelligence服務原則](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+

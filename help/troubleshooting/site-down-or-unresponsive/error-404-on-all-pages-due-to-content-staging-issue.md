@@ -1,19 +1,19 @@
 ---
 title: 由於內容暫存問題，所有頁面均出現錯誤404
-description: 本文針對Adobe Commerce內部部署和Adobe Commerce雲端基礎結構問題提供修正，存取任何店面頁面或Commerce管理員時，會出現404錯誤。
+description: 本文針對Adobe Commerce內部部署和Adobe Commerce雲端基礎結構問題提供修正，當存取任何店面頁面或[!UICONTROL Commerce Admin]時，您會收到404錯誤。
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
 
 # 由於內容暫存問題，所有頁面均出現錯誤404
 
-本文針對Adobe Commerce內部部署和Adobe Commerce雲端基礎結構問題提供修正，存取任何店面頁面或Commerce管理員時，會出現404錯誤。
+本文針對Adobe Commerce內部部署和Adobe Commerce雲端基礎結構問題提供修正，當存取任何店面頁面或[!UICONTROL Commerce Admin]時，您會收到404錯誤。
 
 ## 受影響的產品和版本
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文不適用於嘗試[預覽測試更新](https://docs.magento.com/user-guide/cms/content-staging-scheduled-update.html#preview-the-scheduled-change)時發生404錯誤的情況。 如果您遇到此問題，請開啟[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+>本文不適用於嘗試[預覽測試更新](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)時發生404錯誤的情況。 如果您遇到此問題，請開啟[支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
 
 存取任何店面頁面或管理員使用[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (使用[Magento\_暫存模組](https://developer.adobe.com/commerce/php/module-reference/)排程的存放區內容資產更新)執行具有已排程更新的作業後，會發生404錯誤（「糟糕，我們的錯誤……」頁面）。 例如，您可能會刪除有排程更新的產品，或移除排程更新的結束日期。
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-在此情況下，您可以參閱[Site Down Troubleshooter](/help/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.md)以取得疑難排解想法。
+在此情況下，您可以參閱[Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter)以取得疑難排解想法。
 
 ## 解決方案
 
@@ -86,6 +86,10 @@ ht-degree: 0%
    DELETE FROM flag WHERE flag_code = 'staging';
    ```
 
-1. 等待cron工作執行（若設定正確，最多五分鐘後執行），或若未設定cron，則手動執行。
+1. 請等待[!DNL cron]工作執行（若設定正確，最多五分鐘後執行），或若您未設定[!DNL cron]，請手動執行。
 
-在修正無效連結後，應立即解決問題。 如果問題仍然存在，[請提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+在修正無效連結後，應立即解決問題。 如果問題仍然存在，[請提交支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+
+## 相關閱讀
+
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

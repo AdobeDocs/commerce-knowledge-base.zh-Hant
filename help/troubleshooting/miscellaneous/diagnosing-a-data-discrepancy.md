@@ -4,9 +4,9 @@ description: 本文提供疑難排解Magento Business Intelligence(MBI)報表與
 exl-id: 7d1156cb-9e9b-4426-a0ca-8890b815c245
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -38,3 +38,7 @@ ht-degree: 0%
 1. 同樣地，如果可在新增資料列之後修改分析中使用的資料行，請確認支援人員正在[檢查這些資料行的修改](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html)，以及重新檢查的頻率。
 
 **仍使用戳記？**&#x200B;別擔心 — 我們隨時為您提供協助。 使用[這些指示](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)傳送要求給我們。
+
+## 相關閱讀
+
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -4,9 +4,9 @@ description: 本文介紹Adobe Commerce中[!UICONTROL Product Recommendations]�
 exl-id: 431ee31e-eb5b-400c-9c99-cc86613453d7
 feature: Cache, Compliance, Extensions, Marketing Tools, Personalization, Products, Recommendations
 role: Developer
-source-git-commit: af9ee28c5819a9d1b97411210816bfe8a9522614
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ saas-export
 magento/product-recommendations
 ```
 
-模組正確，（請檢視開發人員檔案中的[[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。） 但您未看到任何建議，請嘗試下列步驟：
+模組正確，（請檢視開發人員檔案中的[[!UICONTROL Product Recommendations - Install and Configure]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/getting-started/install-configure)。）但您未看到任何建議，請嘗試下列步驟：
 
 * 模組可能沒有足夠的時間來收集行為資料。 允許系統執行24小時，以便開始收集資料。 請考慮部署不需要任何行為資料的建議型別，例如&quot;*更多類似此*&quot;。
 
@@ -83,3 +83,5 @@ saas-export
 * 在產品Recommendations指南中[建立產品Recommendations](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/product-recommendations/admin/create)
 * 在[!DNL SaaS]資料匯出指南中[檢閱記錄檔及疑難排解](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
 * Adobe Commerce Data Export Guide for [!DNL SaaS] Services中的[[!DNL SaaS] Data Export Extension發行說明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+

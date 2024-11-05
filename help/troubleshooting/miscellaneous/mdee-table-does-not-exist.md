@@ -3,9 +3,10 @@ title: ' [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [
 description: 本文提供解決方案，解決在 [!DNL Commerce Data Exporter mview] 訂閱中使用錯誤檢視識別碼所導致的資料同步問題。
 feature: Data Import/Export, Saas, Logs
 role: Developer
-source-git-commit: 3581e39e7054cf765403fd963e22a051457c1097
+exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -48,4 +49,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-Adobe Commerce Data Export Guide for [!DNL SaaS] Services中的[[!DNL SaaS] Data Export Extension發行說明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
+* Adobe Commerce Data Export Guide for [!DNL SaaS] Services中的[[!DNL SaaS] Data Export Extension發行說明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/release-notes)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

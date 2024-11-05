@@ -4,9 +4,9 @@ description: 本文修正透過「Commerce管理員」更新產品類別時，�
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -88,4 +88,8 @@ ht-degree: 0%
 1. 尋找具有相同`entity_id`和相同`created_in`值的類別記錄。
 1. 選取`row_id` = `entity_id`的記錄並複製`updated_in`值。
 1. 選取`row_id`不等於`entity_id`的記錄，並將複製的`updated_in`值貼上為`created_in`值。 請參閱下方的熒幕擷圖以作圖例。    ![正在複製created_in值.png](assets/copy_created-in_value.png)
-1. 驗證`staging_update`表格中是否存在類別更新記錄（步驟3中已更新的`created_in`值）。 *例如：*&#x200B;如果複製的`created_in`值為1509281953，則`staging_update`資料表中必須存在具有`row_id` = 1509281953的實體
+1. 驗證`staging_update`表格中是否存在類別更新記錄（步驟3中已更新的`created_in`值）。 *例如：*&#x200B;如果複製的`created_in`值為1509281953，則`staging_update`資料表中必須存在具有`row_id` = 1509281953的實體。
+
+## 相關閱讀
+
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

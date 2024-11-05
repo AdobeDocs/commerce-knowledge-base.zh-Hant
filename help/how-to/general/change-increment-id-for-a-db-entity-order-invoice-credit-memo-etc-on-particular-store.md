@@ -1,18 +1,18 @@
 ---
-title: 變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店
-description: 本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用'ALTER TABLE' SQL陳述式的特定Adobe Commerce存放區。
+title: 變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID
+description: 本文會討論如何使用'ALTER TABLE' SQL陳述式，變更特定Adobe Commerce存放區中Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
 
-# 變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店
+# 變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID
 
-本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用`ALTER TABLE` SQL陳述式的特定Adobe Commerce存放區。
+本文討論如何使用`ALTER TABLE` SQL陳述式變更特定Adobe Commerce存放區中Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID。
 
 ## 受影響的版本
 
@@ -86,5 +86,6 @@ ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 
 ## 相關檔案
 
-* [在我們的支援知識庫中建立雲端上的資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)。
-* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+* 在我們的支援知識庫中[在雲端上建立資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)
+* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

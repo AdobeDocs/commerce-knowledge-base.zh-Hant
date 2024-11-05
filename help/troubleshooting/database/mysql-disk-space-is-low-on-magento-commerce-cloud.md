@@ -1,19 +1,19 @@
 ---
-title: 雲端基礎結構上的Adobe Commerce上的MySQL磁碟空間不足
-description: 本文提供雲端基礎結構上Adobe Commerce上MySQL空間極低或沒有空間使用的解決方案。 症狀可能包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[解決方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至解決方案區段。
+title: '[!DNL MySQL]磁碟空間在雲端基礎結構上的Adobe Commerce上太低'
+description: 本文提供雲端基礎結構上Adobe Commerce上 [!DNL MySQL] 空間極低或沒有空間可供使用的解決方案。 症狀可能包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[解決方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至解決方案區段。
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 667fcacd5b6cbf56a5fd919d0683ad6a0f979fca
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
 
-# 雲端基礎結構上的Adobe Commerce上的MySQL磁碟空間不足
+# 雲端基礎結構上Adobe Commerce的[!DNL MySQL]磁碟空間不足
 
-本文提供雲端基礎結構上Adobe Commerce上MySQL空間極低或沒有空間使用的解決方案。 症狀可能包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至方案區段。
+本文提供解決方案，協助您在雲端基礎結構上的Adobe Commerce上遇到[!DNL MySQL]空間極低或沒有空間的情況。 症狀可能包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至方案區段。
 
 ## 受影響的產品和版本
 
@@ -37,18 +37,18 @@ ht-degree: 0%
 
 php錯誤：
 
-* *php： PDO：：\_\_construct()： MySQL伺服器已消失。*
+* *php： PDO：：\_\_construct()： [!DNL MySQL]伺服器已消失。*
 * *php錯誤： PDO：：\_\_construct()：讀取問候語封包時發生錯誤。 PID=NNNN.*
-* *錯誤2013 (HY000)：在「讀取初始通訊封包」時與MySQL伺服器的連線中斷，系統錯誤： 0「內部錯誤/檢查（非系統錯誤）」。*
+* *錯誤2013 (HY000)：在&#39;讀取初始通訊封包&#39;時與[!DNL MySQL]伺服器的連線中斷，系統錯誤： 0「內部錯誤/檢查（非系統錯誤）」。*
 
 資料庫錯誤：
 
 * *錯誤碼： 1114*
 * *InnoDB：將Word節點寫入FTS輔助索引資料表時發生錯誤（磁碟空間不足）。*
-* *SQLSTATE\[HY000\]：一般錯誤： 2006 MySQL伺服器已消失*
+* *SQLSTATE\[HY000\]：一般錯誤： 2006 [!DNL MySQL]伺服器已消失*
 * *\[ERROR\]從屬SQL：錯誤「資料表`<table\_name>`已滿」。*
 * *單元mysql.service進入失敗狀態。*
-* *錯誤： &#39;無法透過通訊端&#39;/var/run/mysqld/mysqld.sock&#39;連線到本機MySQL伺服器（111 &#39;連線已拒絕&#39;）&#39;*
+* *錯誤： &#39;無法透過通訊端&#39;/var/run/mysqld/mysqld.sock&#39;連線到本機[!DNL MySQL]伺服器（111 &#39;已拒絕連線&#39;）&#39;*
 * *1205超過鎖定等待逾時；嘗試重新啟動交易，查詢為： INSERT INTO \&#39;cron\_schedule\&#39; (\&#39;job\_code\&#39;， \&#39;status\&#39;， \&#39;created\_at\&#39;， \&#39;scheduled\_at\&#39;) VALUES (？， ？， `YYYY-02-07 HH:MM:SS`， `YYYY-MM-DD HH:MM:SS`)*
 
 部署錯誤：
@@ -58,17 +58,17 @@ php錯誤：
 * *正在升級結構描述…… SQLSTATE\[HY000\]：一般錯誤： 1114資料表`<table\_name>`已滿*
 * *SQLSTATE\[HY000\]：一般錯誤： 3寫入檔案時發生錯誤。/`<environment name>`/\#*
 * *W： `<filename>` （錯誤碼： 28「裝置上已無空間」）* *索引錯誤（以及/tmp中孤立的暫時.ibd檔案）：*
-* *目錄規則索引子擲回例外狀況。 事後不會清理暫存資料表，然後在目前的MySQL主節點*&#x200B;上填入磁碟
+* *目錄規則索引子擲回例外狀況。 暫時資料表在事後未被清理，然後填入目前[!DNL MySQL]主節點*&#x200B;上的磁碟
 
 <u>要再現的步驟</u>：
 
-您可以在CLI中執行下列命令，以檢查`/data/mysql` （或設定MySQL資料儲存體的位置）是否已滿的方式之一：
+您可以在CLI中執行下列命令，以檢查`/data/mysql` （或設定[!DNL MySQL]資料儲存體的位置）是否已滿的方式之一：
 
 ```bash
 df -h
 ```
 
-MySQL磁碟上的可用記憶體不足10%是中斷的主要指標。
+[!DNL MySQL]磁碟上的可用記憶體不足10%是中斷的主要指標。
 
 ## 原因
 
@@ -76,7 +76,7 @@ MySQL磁碟上的可用記憶體不足10%是中斷的主要指標。
 
 ## 解決方案
 
-您可以立即採取步驟讓MySQL回到正軌（或避免卡住）：清除大型表格以釋放一些空間。
+您可以立即採取步驟將[!DNL MySQL]帶回正軌（或避免卡住）：清除大型表格以釋放一些空間。
 
 但長期解決方案會分配更多空間，並遵循[資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括啟用[訂單/發票/出貨封存](https://docs.magento.com/user-guide/sales/order-archive.html)功能。
 
@@ -128,7 +128,7 @@ Size Used Avail Use% Mounted on·
 
 檢查是否有大型資料表，並考慮是否有任何資料表可以清除。 請在主要（來源）節點上執行此操作。
 
-例如，通常可以排清含有報表的表格。 如需有關如何尋找大型資料表的詳細資訊，請參閱[尋找大型MySQL資料表](/help/how-to/general/find-large-mysql-tables.md)文章。
+例如，通常可以排清含有報表的表格。 如需有關如何尋找大型資料表的詳細資訊，請參閱[尋找大型 [!DNL MySQL] 資料表](/help/how-to/general/find-large-mysql-tables.md)文章。
 
 如果沒有大型報表表格，請考慮排清`_index`表格，以將Adobe Commerce應用程式返回正軌。 `index_price`個資料表將是最佳候選者。 例如，`catalog_category_product_index_storeX`個資料表，其中X的值可以是「1」到最大存放區計數。 請注意，您需要重新索引以還原這些表格中的資料，而且在大目錄的情況下，此重新索引可能需要花很長的時間。
 
@@ -136,15 +136,19 @@ Size Used Avail Use% Mounted on·
 
 ### 檢查二進位記錄設定
 
-檢查您的MySQL伺服器二進位記錄設定： `log_bin`和`log_bin_index`。 如果已啟用這些設定，記錄檔可能會變得龐大。 [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求清除大型二進位記錄檔。 此外，請要求檢查二進位記錄是否正確設定，以定期清除記錄檔，以免佔用太多空間。
+檢查您的[!DNL MySQL]伺服器二進位記錄設定： `log_bin`和`log_bin_index`。 如果已啟用這些設定，記錄檔可能會變得龐大。 [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求清除大型二進位記錄檔。 此外，請要求檢查二進位記錄是否正確設定，以定期清除記錄檔，以免佔用太多空間。
 
-如果您沒有MySQL伺服器設定的存取權，請要求支援以進行檢查。
+如果您沒有[!DNL MySQL]伺服器設定的存取權，請要求支援以進行檢查。
 
 ### 分配/購買更多空間
 
-如果您有未使用的磁碟空間，請為MySQL配置更多磁碟空間。 請參閱[檢查磁碟空間限制](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)文章以瞭解如何檢查您是否有可用磁碟空間。
+如果您有未使用的磁碟空間，請為[!DNL MySQL]配置更多磁碟空間。 請參閱[檢查磁碟空間限制](/help/how-to/general/check-disk-space-limit-for-magento-commerce-cloud.md)文章以瞭解如何檢查您是否有可用磁碟空間。
 
-* 對於入門計畫、所有環境和Pro計畫整合環境，如果您有一些未使用的磁碟空間，則可以配置磁碟空間。 如需詳細資訊，請參閱[為MySQL分配更多空間](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)。
+* 對於入門計畫、所有環境和Pro計畫整合環境，如果您有一些未使用的磁碟空間，則可以配置磁碟空間。 如需詳細資訊，請參閱[為 [!DNL MySQL]](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)分配更多空間。
 * 若為Pro計畫測試和生產環境，如果您有未使用的磁碟空間，請[連絡支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以配置更多磁碟空間。
 
 如果您已達到空間限制，但仍遇到空間不足的問題，請考慮購買更多磁碟空間，並連絡您的Adobe帳戶團隊以取得詳細資料。
+
+## 相關閱讀
+
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -4,9 +4,9 @@ description: 本文針對資料庫中相同實體ID有多個列的問題，提�
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
 exl-id: 09d5c321-9c45-4041-b6f6-831efca0977e
-source-git-commit: a28257f55abf21cddec9b415e7e8858df33647be
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 SELECT * FROM $entityTable WHERE $column = <$entityID> ORDER BY created_in;
 ```
 
-其中類別/產品/購物車價格規則/類別價格規則/CMS頁面的`$entityID = ID`。
+其中類別/產品/購物車價格規則/目錄價格規則/CMS頁面的`$entityID = ID`。
 
 | 實體 | $entityTable | $欄 |
 |------------------|-----------------------------------|------------------|
@@ -67,5 +67,6 @@ SELECT row_id, entity_id, created_in, updated_in FROM catalog_product_entity WHE
 
 ## 相關閱讀
 
-* [類別變更未儲存在我們的支援知識庫中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)。
-* 在編輯我們的支援知識庫中排程更新的結束日期之後，[目錄表格中重複的專案](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html)。
+* [類別變更未儲存在我們的支援知識庫中](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.html)
+* 在編輯我們的支援知識庫中排程更新的結束日期之後，[在目錄表格中重複專案](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.html)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

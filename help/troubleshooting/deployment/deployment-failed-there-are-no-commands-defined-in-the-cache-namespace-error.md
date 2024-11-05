@@ -4,9 +4,9 @@ description: 本文提供部署失敗並出現以下錯誤**快取名稱空間�
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
-source-git-commit: 7efa7b5363c7f77d76c02051c7e0e6a0f38ca87d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 原因
 
-**core_config_data**&#x200B;表格包含資料庫中不再存在的商店ID或網站ID的設定。 當您從另一個執行個體/環境匯入資料庫備份，而且這些範圍的設定仍保留在資料庫中，儘管關聯的存放區/網站已被刪除時，就會發生這種情況。
+**`core_config_data`**&#x200B;資料表包含資料庫中已不存在的商店ID或網站ID的設定。 當您從另一個執行個體/環境匯入資料庫備份，而且這些範圍的設定仍保留在資料庫中，儘管關聯的存放區/網站已被刪除時，就會發生這種情況。
 
 ### 解決方案
 
@@ -67,13 +67,13 @@ ht-degree: 0%
    The store that was requested wasn't found. Verify the store and try again.
    ```
 
-1. 執行此MySql查詢以確認找不到存放區（由步驟2中的錯誤訊息所指示）。
+1. 執行此[!DNL MySQL]查詢以確認找不到存放區（由步驟2中的錯誤訊息所指示）。
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 執行下列MySql敘述句來刪除無效的資料列：
+1. 執行下列[!DNL MySQL]陳述式以刪除無效的資料列：
 
    ```sql
    delete from core_config_data where scope='stores' and scope_id not in (select store_id from store);
@@ -91,13 +91,13 @@ ht-degree: 0%
    The website with id X that was requested wasn't found. Verify the website and try again.
    ```
 
-   執行此MySql查詢，並確認找不到網站：
+   執行此[!DNL MySQL]查詢並確認找不到網站：
 
    ```sql
    select distinct scope_id from core_config_data where scope='stores' and scope_id not in (select store_id from store);
    ```
 
-1. 執行此MySql陳述式，從網站組態中刪除無效的資料列：
+1. 執行此[!DNL MySQL]陳述式，從網站組態中刪除無效的資料列：
 
    ```sql
    delete from core_config_data where scope='websites' and scope_id not in (select website_id from store_website);
@@ -107,5 +107,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Adobe Commerce部署疑難排解員](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)
-* [如果Cloud UI有「記錄片段」錯誤，則檢查部署記錄](/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+* [Adobe Commerce部署疑難排解員](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
+* [如果雲端UI有「記錄片段」錯誤，則檢查部署記錄](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

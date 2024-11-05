@@ -4,9 +4,9 @@ description: 本文是針對Adobe Commerce上遇到資料庫問題的客戶的�
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 這可以用一系列症狀來表示，包括`/tmp`掛載已滿、網站停止運作，或無法透過SSH連線至節點。 您也可能遇到錯誤，例如&#x200B;_裝置上已無空間(28)_。 如需因`/tmp`已滿而產生的錯誤清單，請檢閱[/tmp裝載已滿](/help/troubleshooting/miscellaneous/tmp-mount-full.md)。
 
-或您是否有因空間不足而導致的`/data/mysql`問題？ 這也可能是由各種症狀所指示，包括網站中斷、客戶無法將產品新增到購物車、連線到資料庫失敗以及Galeria錯誤，例如&#x200B;_SQLSTATE\[08S01\]：通訊連結失敗： 1047 WSREP_。 如需MySQL磁碟空間不足所造成的錯誤清單，請參閱雲端基礎結構上Adobe Commerce上的[MySQL磁碟空間不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)。
+或您是否有因空間不足而導致的`/data/mysql`問題？ 這也可能是由各種症狀所指示，包括網站中斷、客戶無法將產品新增到購物車、連線到資料庫失敗以及Galeria錯誤，例如&#x200B;_SQLSTATE\[08S01\]：通訊連結失敗： 1047 WSREP_。 如需[!DNL MySQL]磁碟空間不足所造成的錯誤清單，請參閱Adobe Commerce上雲端基礎結構](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)上的[[!DNL MySQL] 磁碟空間不足。
 
 如果您不確定是否有磁碟空間問題，且您有New Relic帳戶，請移至[New Relic基礎架構監視主機頁面](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)。 從那裡，按一下&#x200B;**儲存空間**&#x200B;索引標籤，將&#x200B;**圖表顯示**&#x200B;下拉式清單從5個結果變更為20個結果，並在[已使用磁碟百分比]圖表或表格中尋找高磁碟使用率的表格。 如需詳細步驟，請參閱[New Relic基礎架構監控>儲存標籤]https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#storage)。
 
@@ -42,7 +42,7 @@ b.否 — 檢查空格。 在CLI/終端機中執行`df -h | grep mysql`，然後
 一旦您減少了檔案數目，請在CLI/終端機中執行`df -h | grep mysql`然後執行`df -h | grep tmp`，以檢查`/tmp`和`/data/mysql`中的磁碟空間使用量。 `/tmp`或`/data/mysql`的使用率是否超過70%？
 
 a.是 — 繼續進行[步驟3](#step-3)。
-b.否 — 查詢可能會耗儘可用的儲存空間。 這可能會造成節點當機，導致查詢停止並移除`tmp`個檔案。 檢查MySQL CLI中`SHOW PROCESSLIST;`的輸出是否有可能是問題原因的查詢。 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求更多空間。
+b.否 — 查詢可能會耗儘可用的儲存空間。 這可能會造成節點當機，導致查詢停止並移除`tmp`個檔案。 檢查[!DNL MySQL] CLI中`SHOW PROCESSLIST;`的輸出是否有可能是問題原因的查詢。 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求更多空間。
 
 +++
 
@@ -54,7 +54,7 @@ b.否 — 查詢可能會耗儘可用的儲存空間。 這可能會造成節點
 
 >[!NOTE]
 >
->根據預設，資料庫tmpdir會寫入`/tmp`。 若要檢查您的資料庫組態是否仍維持此預設值，請在MySQL CLI中執行下列命令： `SHOW VARIABLES LIKE "TMPDIR";`如果資料庫tmpdir仍在寫入`/tmp`，您將會在[值]欄中看到`/tmp`。
+>根據預設，資料庫tmpdir會寫入`/tmp`。 若要檢查您的資料庫組態是否仍維持此預設值，請在[!DNL MySQL] CLI中執行下列命令： `SHOW VARIABLES LIKE "TMPDIR";`如果資料庫tmpdir仍在寫入`/tmp`，您將會在[值]欄中看到`/tmp`。
 
 a. `/tmp` — 繼續進行[步驟4](#step-4)。 \
 b. `/data/mysql` — 繼續進行[步驟5](#step-5)。
@@ -81,7 +81,7 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 
 +++**檢查預設值**
 
-您的資料庫組態可能不再為原始預設值。 在MySQL CLI中執行以尋找資料庫tmpdir設定： `SELECT @@DATADIR;`。 如果輸出`/data/mysql/`，資料庫tmpdir現在正在寫入`/data/mysql/`。 請依照雲端基礎結構上[Adobe Commerce的MySQL磁碟空間不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)中的步驟，嘗試增加此目錄中的空間。 接著在CLI/終端機中執行`df -h | grep mysql`再執行`df -h | grep tmp`，以檢查`/data/mysql`和`/tmp`中的磁碟空間使用量。\
+您的資料庫組態可能不再為原始預設值。 在[!DNL MySQL] CLI `SELECT @@DATADIR;`中執行以尋找資料庫tmpdir設定。 如果輸出`/data/mysql/`，資料庫tmpdir現在正在寫入`/data/mysql/`。 請嘗試依照雲端基礎結構上Adobe Commerce上[[!DNL MySQL] 磁碟空間不足的步驟，增加此目錄中的空間](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)。 接著在CLI/終端機中執行`df -h | grep mysql`再執行`df -h | grep tmp`，以檢查`/data/mysql`和`/tmp`中的磁碟空間使用量。\
   &lt;使用70%？
 
 答：是 — 您已解決問題。 \
@@ -90,3 +90,7 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 +++
 
 [回到步驟1](#step-1)
+
+## 相關閱讀
+
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

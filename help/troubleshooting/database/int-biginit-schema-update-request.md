@@ -4,9 +4,9 @@ description: 當您無法儲存產品更新（例如價格變更）或刪除及�
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 * Adobe Commerce （所有部署方法）所有[支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 當您無法儲存產品更新（例如價格變更）或刪除及複製產品時，本文會提供解決方案。
-您可能會看到錯誤訊息*無法儲存庫存專案。 請重試。*&#x200B;在產品更新後，您可能無法部署。 當您執行`php bin/magento setup:upgrade`時，您也可能看到下列MySQL錯誤訊息(在雲端基礎結構上的Adobe Commerce上，此錯誤會顯示在部署記錄中)：
+您可能會看到錯誤訊息*無法儲存庫存專案。 請重試。*&#x200B;在產品更新後，您可能無法部署。 當您執行`php bin/magento setup:upgrade`時，您也可能看到下列[!DNL MySQL]錯誤訊息(在雲端基礎結構上的Adobe Commerce上，此錯誤顯示在部署記錄中)：
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -56,7 +56,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 >[!WARNING]
 >
->變更表格之前，請先執行資料庫備份。 另外，將網站置於[維護模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)。 此外，也建議在進行變更後，在資料庫表格上執行MYSQL最佳化命令（只針對進行變更的表格）。
+>變更表格之前，請先執行資料庫備份。 另外，將網站置於[維護模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)。 此外，也建議在變更後對資料庫表格執行[!DNL MySQL]最佳化命令（只針對已變更的表格）。
 
 >[!NOTE]
 >
@@ -111,7 +111,8 @@ ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 
 ## 相關閱讀
 
-* Commerce安裝指南中的[一般MySQL指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html)。
-* [資料庫上載遺失我們支援知識庫中與MySQL](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html)的連線。
-* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html)。
-* [在我們支援知識庫中，Adobe Commerce在雲端基礎結構上最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html)。
+* Commerce安裝指南中的[一般 [!DNL MySQL] 指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html)
+* [資料庫上載遺失與我們支援知識庫中 [!DNL MySQL]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql.html)的連線
+* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html)
+* 在我們的支援知識庫中，[Adobe Commerce中雲端基礎結構最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
