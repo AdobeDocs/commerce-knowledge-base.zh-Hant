@@ -1,19 +1,19 @@
 ---
-title: Commerce管理員中的鎖定欄位
+title: Commerce管理員中的鎖定（灰色）欄位
 description: 本文提供您無法修改Commerce管理員中欄位時的解決方案。
 exl-id: 5fe0967a-4241-440b-bb0d-429fa5644bbc
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Commerce管理員中的鎖定欄位
+# Commerce管理員中的鎖定（灰色）欄位
 
-本文提供您無法修改Commerce管理員中欄位時的解決方案。
+本文提供您無法修改Commerce管理員中鎖定（灰色）欄位時的解決方案。
 
 ## 受影響的產品和版本
 

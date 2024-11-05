@@ -2,9 +2,9 @@
 title: 無法變更'app/etc/env.php'中的搜尋引擎
 description: 本文提供當您嘗試在Commerce管理員中變更搜尋引擎，但欄位鎖定的問題的解決方案。
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
+source-git-commit: bc800397a3c0c3a86eb717db60e445e13b299688
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 雲端基礎結構指南上的Commerce管理員中的[鎖定欄位](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md) Commerce。
+* 雲端基礎結構指南上的CommerceCommerce管理員中的[鎖定（灰色）欄位](/help/troubleshooting/miscellaneous/locked-fields-in-magento-admin.md)。
