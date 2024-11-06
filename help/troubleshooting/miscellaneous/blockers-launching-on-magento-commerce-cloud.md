@@ -4,9 +4,9 @@ description: 本文提供封鎖程式在雲端基礎結構上Adobe Commerce上�
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: 3dd44b72bc9f02fe808b70355c4331fc28aa3606
+source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '646'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,6 @@ ht-degree: 0%
 
 建議&#x200B;**：**&#x200B;要求您為測試或即時網域名稱取得共用SSL憑證。
 
-請參閱我們的支援知識庫中的[快速常見問題](/help/announcements/adobe-commerce-announcements/magento-ssl-tls-certificate-requirements-and-clean-up.md)文章，瞭解SSL憑證。
 
 ## 3.設定和測試301重新導向
 
