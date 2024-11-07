@@ -2,7 +2,7 @@
 title: ElasticSuite追蹤索引導致Elasticsearch發生問題
 description: 本文討論ElasticSuite外掛程式產生的追蹤索引所導致的Elasticsearch記憶體問題。
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -68,5 +68,5 @@ ElasticSuite有建立追蹤索引的新功能。 這些追蹤索引會記錄哪�
 
 如果您想要在設定的時間頻率刪除索引，請參閱開發人員檔案中的下列文章以建立cron工作：
 
-* [設定自訂cron工作和cron群組（教學課程）](https://devdocs.magento.com/guides/v2.3/config-guide/cron/custom-cron-tut.html)
-* [設定cron工作](https://devdocs.magento.com/guides/v2.3/cloud/configure/setup-cron-jobs.html)
+* [設定自訂cron工作和cron群組（教學課程）](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

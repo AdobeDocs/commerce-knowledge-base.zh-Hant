@@ -1,7 +1,7 @@
 ---
 title: 在安裝期間，發生例外狀況SessionHandler：：read()
 description: 「本文針對Adobe Commerce安裝期間的例外狀況**SessionHandler：：read()**錯誤提供修正。」
-source-git-commit: 5cec04f8c4f80d34fc26b06eb929960ce21e2dc0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 0%
@@ -25,7 +25,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 >[!NOTE]
 >
->此錯誤僅發生於2015年9月28日之前的程式碼版本。 如果您安裝日期為9月29日或之後的程式碼，則不會發生此錯誤。 如需Redis設定選項的詳細資訊，請參閱我們的開發人員檔案中的[設定Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)。 如需使用命令列安裝程式指定Redis的詳細資訊，請參閱我們的開發人員檔案中的[安裝主題](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-install.html)或[部署設定主題](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-subcommands-deployment.html#instgde-cli-subcommands-configphp)。
+>此錯誤僅發生於2015年9月28日之前的程式碼版本。 如果您安裝日期為9月29日或之後的程式碼，則不會發生此錯誤。 如需Redis設定選項的詳細資訊，請參閱我們的開發人員檔案中的[設定Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)。 如需使用命令列安裝程式指定Redis的詳細資訊，請參閱我們的開發人員檔案中的[安裝主題](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)或[部署設定主題](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/deployment)。
 
 ## 原因
 
@@ -33,7 +33,7 @@ in ../magento2/lib/internal/Magento/Framework/App/ErrorHandler.php:67
 
 ## 解決方案：
 
-* 升級您的Adobe Commerce程式碼。 請參閱開發人員檔案中的[安裝指南>更新Adobe Commerce軟體](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-uninstall.html#instgde-install-magento-update)。
+* 升級您的Adobe Commerce程式碼。 請參閱開發人員檔案中的[安裝指南>更新Adobe Commerce軟體](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall)。
 * 對現有程式碼使用以下因應措施：
 
 ## 尋找`php.ini` {#locate-php-ini}

@@ -4,7 +4,7 @@ description: 按一下每個問題，即可顯示疑難排解員每個步驟的�
 exl-id: 10a2313e-cc82-4ffc-9247-624884f3e165
 feature: Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 0%
@@ -80,7 +80,7 @@ b.否 — 繼續執行[步驟7](#step-7)。
 
 +++**您有Elasticsearch錯誤嗎？**
 
-a.是 — 繼續進行[檢查Elasticsearch](https://developer.adobe.com/commerce/php/module-reference/module-elasticsearch/)的步驟。\
+a.是 — 繼續進行[檢查Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)的步驟。
 b.否 — 繼續進行[步驟8](#step-8)。
 
 +++
@@ -116,7 +116,7 @@ b.否 — 繼續執行[步驟11](#step-11)。
 
 +++**您看到Redis錯誤嗎？**
 
-a.是 — 繼續進行[驗證 [!DNL Redis] 是否正在執行](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/redis#troubleshooting-redis)以及[[!DNL Redis] 疑難排解](https://redis.io/topics/problems)的步驟。\
+a.是 — 繼續進行[驗證 [!DNL Redis] 是否正在執行](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)以及[[!DNL Redis] 疑難排解](https://redis.io/topics/problems)的步驟。\
 b.否 — 繼續執行[步驟12](#step-12)。
 
 +++

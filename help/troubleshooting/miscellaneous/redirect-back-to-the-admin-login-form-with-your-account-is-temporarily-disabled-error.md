@@ -4,7 +4,7 @@ description: 「本文提供Commerce管理員登入問題的可能解決方案�
 exl-id: 1c7ffa1c-1fb1-4f69-9534-77d1e119318a
 feature: Admin Workspace, Customer Service
 role: Developer
-source-git-commit: f87263cde5aa001f78abc368c949ce150feecb91
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 ## 解決方案
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如[[!DNL phpMyAdmin]](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫。 在`admin_user`資料庫表格中，針對您的管理員使用者記錄，檢查`is_active`是否設為&quot;`1`&quot;且`lock_expires`是否為`NULL`。 如有需要，請重設這些值。
+1. 使用資料庫工具，例如[[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫。 在`admin_user`資料庫表格中，針對您的管理員使用者記錄，檢查`is_active`是否設為&quot;`1`&quot;且`lock_expires`是否為`NULL`。 如有需要，請重設這些值。
 
 ## 相關閱讀
 

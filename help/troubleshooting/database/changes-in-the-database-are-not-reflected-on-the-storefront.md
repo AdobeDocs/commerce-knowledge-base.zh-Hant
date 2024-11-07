@@ -4,7 +4,7 @@ description: 本文提供解決方案，以避免套用實體更新時的延遲�
 exl-id: ac52c808-299f-4d08-902f-f87db1fa7ca6
 feature: Catalog Management, Categories, Services, Storefront
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
@@ -26,13 +26,13 @@ ht-degree: 0%
 
 ## 原因
 
-如果您的索引子是[設定為依排程](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)更新，則問題可能是由一或多個變更記錄檔過大，或未設定MySQL觸發器的資料表所造成。
+如果您的索引子是[設定為依排程](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)更新，則問題可能是由一或多個變更記錄檔過大，或未設定MySQL觸發器的資料表所造成。
 
 ### 超大變更記錄表
 
 如果`indexer_update_all_views` cron工作未成功完成多次，變更記錄表就會變得很大。
 
-變更日誌表格是用來追蹤實體變更的資料庫表格。 只要變更未套用（由`indexer_update_all_views` cron工作執行），記錄就會儲存在變更記錄表中。 Adobe Commerce資料庫中有多個變更記錄表，它們會根據下列模式命名： INDEXER\_TABLE\_NAME + &#39;\_cl&#39;，例如`catalog_category_product_cl`、`catalog_product_category_cl`。 您可在我們的開發人員檔案中的[索引總覽> Mview](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html#m2devgde-mview)文章中，找到有關如何在資料庫中追蹤變更的更多詳細資訊。
+變更日誌表格是用來追蹤實體變更的資料庫表格。 只要變更未套用（由`indexer_update_all_views` cron工作執行），記錄就會儲存在變更記錄表中。 Adobe Commerce資料庫中有多個變更記錄表，它們會根據下列模式命名： INDEXER\_TABLE\_NAME + &#39;\_cl&#39;，例如`catalog_category_product_cl`、`catalog_product_category_cl`。 您可在我們的開發人員檔案中的[索引總覽> Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)文章中，找到有關如何在資料庫中追蹤變更的更多詳細資訊。
 
 ### [!DNL MySQL]資料庫觸發程式未設定
 

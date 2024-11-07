@@ -4,7 +4,7 @@ description: 本文提供如何避免快取失效的解決方案，因為快取�
 exl-id: 7cb6a39f-923b-4acc-965d-23cf7b52c25a
 feature: Cache, Catalog Management, Categories
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 0%
@@ -67,4 +67,4 @@ Adobe Commerce中有兩種型別的快取：
 ## 建議
 
 1. 避免從Commerce CLI排清快取。
-1. 將索引器設定為&#x200B;**依排程**&#x200B;更新，而非&#x200B;**儲存模式更新**，因為後者會觸發完整重新索引。 如需參考，請參閱我們的開發人員檔案中的[管理索引子>設定索引子](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html#configure-indexers)。
+1. 將索引器設定為&#x200B;**依排程**&#x200B;更新，而非&#x200B;**儲存模式更新**，因為後者會觸發完整重新索引。 如需參考，請參閱我們的開發人員檔案中的[管理索引子>設定索引子](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。

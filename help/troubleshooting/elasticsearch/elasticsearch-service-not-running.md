@@ -2,7 +2,7 @@
 title: Elasticsearch服務未執行
 description: 本文提供當Elasticsearch(ES)服務未執行（通常是當機結果）時可能遇到的錯誤解決方案。 症狀可能包括使用curl執行健康情況檢查時的錯誤、使用命令列重新索引、例外狀況和PHP錯誤，以及產品頁面上的錯誤。 此表格會列出錯誤，以及嘗試解決這些錯誤的資源連結。 一個症狀可能有多種不同的原因。
 exl-id: 2c2230de-cb30-4a03-8c3e-d9f44783dbae
-source-git-commit: 3ff881f1c799201ed25ba9737864b1226d283c22
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
    * v2.2.3+支援ES 5.x
    * v2.2.8+和v2.3.1+支援ES 6.x
-   * 不建議使用ES v2.x和v5.x，因為[生命週期結束](https://www.elastic.co/support/eol)。 不過，如果您有Adobe Commerce v2.3.1，並且想要使用ES 2.x或ES 5.x，您必須[變更Elasticsearchphp Client](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-downgrade.html)。
+   * 不建議使用ES v2.x和v5.x，因為[生命週期結束](https://www.elastic.co/support/eol)。 不過，如果您有Adobe Commerce v2.3.1，並且想要使用ES 2.x或ES 5.x，您必須[變更Elasticsearchphp Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 * Magento Open Source v2.3.0+支援ES 5.x和6.x （但建議使用6.x）。
 
@@ -59,8 +59,8 @@ ht-degree: 0%
 <li><a href="https://www.cyberciti.biz/datacenter/linux-unix-bsd-osx-cannot-write-to-hard-disk/">解決Linux與Unix系統硬碟問題的8個秘訣，例如磁碟已滿或無法寫入磁碟</a></li>
 <li><a href="https://serverfault.com/questions/315181/df-says-disk-is-full-but-it-is-not">serverfault： df表示磁碟已滿，但並未滿</a></li>
 <li><a href="https://unix.stackexchange.com/questions/125429/tracking-down-where-disk-space-has-gone-on-linux">unix.stackexchange.com：追蹤Linux上磁碟空間的去向？</a></li>
-<li>記錄檔的定期封存不足。 請參閱我們的開發人員檔案中的<a href="https://docs.magento.com/m2/ee/user_guide/system/action-log-archive.html#configure-the-log-archive">設定記錄封存</a>。</li>
-<li>檔案系統目錄未最佳化。 請參閱我們的開發人員檔案中的<a href="https://docs.magento.com/m2/ee/user_guide/system/file-optimization.html">檔案最佳化</a>。</li>
+<li>記錄檔的定期封存不足。 請參閱我們的開發人員檔案中的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/action-logs/action-log-archive">設定記錄封存</a>。</li>
+<li>檔案系統目錄未最佳化。 請參閱我們的開發人員檔案中的<a href="https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/developer-tools#resource-file-optimization">檔案最佳化</a>。</li>
 <li>如果上述檔案中的解決方案無法解決問題，請考慮聯絡您的Adobe客戶團隊以請求額外的儲存空間。</li>
 </ul>
 </li>

@@ -4,7 +4,7 @@ description: 本文提供雲端基礎結構上「robots.txt」檔案在Adobe Com
 exl-id: 6f0b9f47-1901-4c43-88d8-fd992015d70f
 feature: Cloud, Marketing Tools, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -38,5 +38,5 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [如何在我們的支援知識庫中封鎖Fastly層級](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)上進行Magento Commerce Cloud的惡意流量。
-* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)。
+* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。
 * 使用手冊中的[搜尋引擎機器人](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots)。

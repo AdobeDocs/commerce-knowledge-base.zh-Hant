@@ -4,7 +4,7 @@ description: 套用ACSD-47076修補程式以修正Adobe Commerce上 [!DNL Vimeo]
 exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 feature: Storefront
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ACSD-47076修補程式修正無法在店面播放[!DNL Vimeo]影片的問題。 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
 * [!DNL Quality Patches Tool]指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tool] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相關閱讀
 

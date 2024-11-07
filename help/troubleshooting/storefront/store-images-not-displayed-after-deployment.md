@@ -4,7 +4,7 @@ description: 本文提供部署後影像無法正確顯示時的解決方案。
 exl-id: 7e6bcebd-edff-437a-9103-2743443d2ed9
 feature: Cache, Categories, Deploy, Storefront
 role: Admin
-source-git-commit: c4d586ca3980acbe4f33c5f2616ef7f3051bc7d3
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 若要執行此動作，您需要透過[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)取得的SSH資訊和存放區URL。
 
-1. SSH至您的專案，此專案是[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)的來源，如開發人員檔案中的[SSH至環境](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh)所述。
+1. SSH至您的專案，此專案是[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)所述。
 1. 執行下列步驟，重新產生影像快取：
 
    ```bash

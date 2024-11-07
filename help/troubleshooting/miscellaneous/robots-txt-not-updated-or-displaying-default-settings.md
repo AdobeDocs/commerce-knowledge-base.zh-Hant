@@ -4,7 +4,7 @@ description: 文章提供已正確設定'robots.txt'時的解決方案，例如�
 exl-id: 629b1247-9282-49f9-ada3-a804ddbaa0f5
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 0%
@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 解決方案
 
-依搜尋引擎啟用索引。 請參閱我們的開發人員檔案中的[依搜尋引擎設定索引](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html#configure-indexing-by-search-engine)。
+依搜尋引擎啟用索引。 請參閱我們的開發人員檔案中的[依搜尋引擎設定索引](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)。
 
 ## 相關閱讀
 
-* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://devdocs.magento.com/cloud/trouble/robots-sitemap.html)。
+* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。

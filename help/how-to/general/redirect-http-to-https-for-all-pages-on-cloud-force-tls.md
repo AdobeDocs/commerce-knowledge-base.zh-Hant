@@ -3,7 +3,7 @@ title: 針對雲端基礎結構上Adobe Commerce的所有頁面，將HTTP重新�
 description: 在Commerce管理員中啟用Fastly的**強制TLS**功能，對雲端基礎結構存放區上Adobe Commerce的所有頁面啟用全域HTTP到HTTPS重新導向。
 exl-id: 71667f52-a99a-47a6-99d8-10532364870f
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 將&#x200B;**在店面上使用安全URL**&#x200B;和&#x200B;**在管理員上使用安全URL**&#x200B;設定設定設為&#x200B;**是**。    ![magento-admin_base-urls-secure-settings.png](assets/magento-admin_base-urls-secure-settings.png)
 1. 按一下右上角的&#x200B;**儲存設定**&#x200B;以套用變更。
 
-使用手冊中的&#x200B;**相關檔案：**   [儲存URL](https://docs.magento.com/m2/ee/user_guide/stores/store-urls.html)。
+使用手冊中的&#x200B;**相關檔案：**   [儲存URL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/site-store/store-urls)。
 
 ### 步驟2：啟用強制TLS {#step-2-enable-force-tls}
 

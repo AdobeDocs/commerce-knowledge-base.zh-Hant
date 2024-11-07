@@ -4,7 +4,7 @@ description: 本文提供使用Adobe提供的SSL憑證更新自訂SSL憑證時�
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 0%
@@ -46,6 +46,6 @@ Adobe Commerce會在憑證到期後30天更新任何憑證。
 ## 相關閱讀
 
 * Magento Commerce Cloud的[SSL (TLS)憑證：我們的支援知識庫中的常見問題集](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
-* [命令列工具參考：我們的開發人員檔案中的magento-cloud certificate：add](https://devdocs.magento.com/guides/v2.4/reference/cli/magento-cloud.html#certificateadd)。
-* 在開發人員檔案中[啟動檢查清單](https://devdocs.magento.com/cloud/live/site-launch-checklist.html)。
-* 使用手冊中的[存取全網站分析工具](https://docs.magento.com/user-guide/reports/site-wide-analysis-tool.html#step-2-access-site-wide-analysis-tool)。
+* [命令列工具參考：我們的開發人員檔案中的magento-cloud certificate：add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
+* 在開發人員檔案中[啟動檢查清單](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)。
+* 使用手冊中的[存取全網站分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。

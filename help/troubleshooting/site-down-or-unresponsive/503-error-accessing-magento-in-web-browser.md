@@ -4,7 +4,7 @@ description: 針對嘗試存取Adobe Commerce店面和/或管理員時出現503�
 exl-id: 4232aa21-40c2-41b0-9fb0-fc8cd4db8e39
 feature: Storefront
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>要再現的步驟</u>
 
-（先決條件：確定存放區不是[維護模式](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-mode.html#config-mode-show)）。
+（先決條件：確定存放區不是[維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)）。
 
 在網頁瀏覽器中導覽至您的Commerce管理員或店面。
 

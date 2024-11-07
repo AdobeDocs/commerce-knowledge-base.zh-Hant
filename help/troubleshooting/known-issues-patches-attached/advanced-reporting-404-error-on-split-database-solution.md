@@ -1,10 +1,10 @@
 ---
 title: 分割資料庫解決方案上的進階報告404錯誤
-description: 本文為Adobe Commerce 2.3.x使用者提供修補程式，該修補程式具有[分割資料庫解決方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)，在嘗試使用進階報表時發生404錯誤。
+description: 本文為Adobe Commerce 2.3.x使用者提供修補程式，該修補程式具有[分割資料庫解決方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)，在嘗試使用進階報表時發生404錯誤。
 exl-id: b81d4ada-5f38-4882-bc5b-ab4ccd63fc5f
 feature: Commerce Intelligence
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 分割資料庫解決方案上的進階報告404錯誤
 
-本文為Adobe Commerce 2.3.x使用者提供修補程式，該修補程式具有[分割資料庫解決方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)，在嘗試使用進階報告時遇到404錯誤。
+本文為Adobe Commerce 2.3.x使用者提供修補程式，該修補程式具有[分割資料庫解決方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)，在嘗試使用進階報告時遇到404錯誤。
 
 ## 受影響的產品和版本
 

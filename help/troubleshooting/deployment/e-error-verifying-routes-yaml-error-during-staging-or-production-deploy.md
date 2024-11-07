@@ -4,7 +4,7 @@ description: 「本文為Adobe Commerce提供雲端基礎結構問題的解決�
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 提с交並推送您的變更，以重新部署您的專案。
 
-如需更新路由設定的詳細指示，請參閱我們的開發人員檔案中的[Adobe Commerce雲端>設定路由](https://devdocs.magento.com/guides/v2.3/cloud/project/project-conf-files_routes.html)。
+如需更新路由設定的詳細指示，請參閱我們的開發人員檔案中的[Adobe Commerce雲端>設定路由](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml)。
 
 >[!NOTE]
 >

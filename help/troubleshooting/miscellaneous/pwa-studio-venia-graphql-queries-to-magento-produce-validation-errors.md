@@ -4,7 +4,7 @@ description: 本文提供如何解決Venia storefront GraphQL查詢至Adobe Comm
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 0%
@@ -42,9 +42,9 @@ yarn run validate-queries
 如需如何升級的指示，請參閱下列檔案：
 
 * 若要進行PWA Studio升級，請搜尋[PWA發行說明](https://github.com/magento/pwa-studio/releases/)的「從舊版升級」區段，找出您需要升級到的版本。
-* 在開發人員檔案中[升級雲端基礎結構上的Adobe Commerce ](https://devdocs.magento.com/cloud/project/project-upgrade.html)
-* [升級我們的開發人員檔案中的Adobe Commerce內部部署（使用「composer create-project」或archive安裝）](https://devdocs.magento.com/guides/v2.3/comp-mgr/cli/cli-upgrade.html)
-* [升級我們的開發人員檔案中的Adobe Commerce內部部署(透過複製Adobe Commerce存放庫安裝)](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/dev_update-magento.html)
+* 在開發人員檔案中[升級雲端基礎結構上的Adobe Commerce ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* [升級我們的開發人員檔案中的Adobe Commerce內部部署（使用「composer create-project」或archive安裝）](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)
+* [升級我們的開發人員檔案中的Adobe Commerce內部部署(透過複製Adobe Commerce存放庫安裝)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/developer/git-installs)
 
 ## 相關閱讀
 

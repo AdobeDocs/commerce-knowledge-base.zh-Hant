@@ -4,7 +4,7 @@ description: 本文修正使用nginx網頁伺服器時Adobe Commerce安裝失敗
 exl-id: 0af90c7e-0733-41c8-b217-9595b133fa95
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '87'
 ht-degree: 0%
@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### 因應措施
 
-使用[命令列](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli.html)安裝Adobe Commerce軟體。
+使用[命令列](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)安裝Adobe Commerce軟體。

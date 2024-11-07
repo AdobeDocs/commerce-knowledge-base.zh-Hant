@@ -4,7 +4,7 @@ description: 本文提供當資料庫上載失去與MySQL的連線時的解決�
 exl-id: 6051cea1-8292-4a81-8908-eb516cb4a32b
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 0%
@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-您必須在`services.yaml`中配置更多空間給資料庫，而且如果您有未使用的空間，則需部署。 如需相關步驟，請參閱[服務磁碟空間](https://devdocs.magento.com/cloud/project/manage-disk-space.html#service-disk-space)。
+您必須在`services.yaml`中配置更多空間給資料庫，而且如果您有未使用的空間，則需部署。 如需相關步驟，請參閱[服務磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)。
 
 注意：在Pro架構計畫上，您可以執行下列命令來檢查磁碟分割上配置的空間： `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## 相關閱讀
 
-在開發人員檔案中[管理磁碟空間](https://devdocs.magento.com/cloud/project/manage-disk-space.html)
+在開發人員檔案中[管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

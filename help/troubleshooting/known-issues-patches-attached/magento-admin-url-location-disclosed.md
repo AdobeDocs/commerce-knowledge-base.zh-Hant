@@ -4,9 +4,9 @@ description: 本文提供Adobe Commerce安全性問題的修補程式，其中�
 exl-id: fe147ad5-6019-46c1-b48c-6b957b6e1582
 feature: Admin Workspace
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -48,4 +48,4 @@ Adobe也強烈建議商家部署工具來保護其管理面板，包括雙因素
 * 針對Protect的暴力攻擊[5立即動作](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [Protect您的Magento安裝密碼猜測新更新](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [安全性最佳實務](https://magento.com/security/best-practices/security-best-practices)
-* 在Adobe Commerce中為[2.3.x](https://docs.magento.com/user-guide/v2.3/stores/security-two-factor-authentication.html)和[2.4.x](https://docs.magento.com/user-guide/stores/security-two-factor-authentication.html)新增並設定雙因素驗證
+* 在Adobe Commerce中為[2.4.x](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)新增及設定雙因素驗證

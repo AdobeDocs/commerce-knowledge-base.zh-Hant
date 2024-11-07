@@ -4,7 +4,7 @@ description: 本文會說明一個已知的Adobe Commerce內部部署2.4.2問題
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront
 role: Admin
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '266'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Adobe Commerce已與Nginx一併安裝。
 <u>要再現的步驟</u>：
 
 1. 設定Adobe Commerce以使用AWS `s3`作為媒體儲存空間。
-1. 使用Adobe Commerce安裝目錄中提供的`nginx.conf.sample`設定檔和Nginx虛擬主機來設定Nginx。 請參閱我們的開發人員檔案中的[設定Nginx](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/nginx.html#configure-nginx-ubuntu)。
+1. 使用Adobe Commerce安裝目錄中提供的`nginx.conf.sample`設定檔和Nginx虛擬主機來設定Nginx。 請參閱我們的開發人員檔案中的[設定Nginx](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)。
 1. 使用單一產品影像建立簡單產品。
 1. Nginx在`nginx.conf.sample`中調整影像大小的組態未加註解，類似於：
 

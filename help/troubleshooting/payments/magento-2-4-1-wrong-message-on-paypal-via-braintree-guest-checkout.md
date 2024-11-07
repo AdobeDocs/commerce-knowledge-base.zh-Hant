@@ -4,7 +4,7 @@ description: 本文會說明一個已知的Adobe Commerce 2.4.1問題，其中�
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>必要條件</u>：
 
 1. 在Commerce Admin中，在&#x200B;**商店** > **設定** > **銷售** > **簽出**&#x200B;下，設定&#x200B;**允許來賓簽出** = *否*。
-1. 如使用手冊的[Braintree](https://docs.magento.com/user-guide/payment/braintree.html?)中所述，透過Braintree啟用PayPal。
+1. 如使用手冊的[Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)中所述，透過Braintree啟用PayPal。
 
 <u>要再現的步驟</u>：
 
@@ -55,10 +55,10 @@ ht-degree: 0%
 
 ## 因應措施
 
-此問題的因應措施是客戶可以在商店登入（登入的使用者不使用訪客結帳）。 其中已停用訪客簽出。 Adobe Commerce 2.4.2版已修正此問題。
+此問題的因應措施是客戶可以在已停用訪客簽出的商店（登入的使用者不使用訪客簽出）登入。 Adobe Commerce 2.4.2版已修正此問題。
 
 ## 相關閱讀
 
 * [在我們支援知識庫中，有關Adobe Commerce購物車中產品數目的最佳實務](https://support.magento.com/hc/en-us/articles/360048550332)。
-* [訂購處理教學課程：步驟1。 在開發人員檔案中新增專案至購物車](https://devdocs.magento.com/guides/v2.4/rest/tutorials/orders/order-add-items.html)
-* [GraphQL結帳教學課程：步驟1。 在開發人員檔案中新增產品至購物車](https://devdocs.magento.com/guides/v2.4/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
+* [訂購處理教學課程：步驟1。 在開發人員檔案中新增專案至購物車](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/)
+* [GraphQL結帳教學課程：步驟1。 在開發人員檔案中新增產品至購物車](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html)

@@ -4,7 +4,7 @@ description: 「本文討論如何解決雲端基礎結構上的Adobe Commerce�
 exl-id: 2f72d80a-05b2-4908-8fa8-61d06885ed07
 feature: Cloud, Deploy, Paas, Variables
 role: Developer
-source-git-commit: 9ca95444aa785191e4c8bf1603773f3430414797
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 0%
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 ### 2.在env：COMPOSER\_AUTH變數中新增索引鍵值，並檢查auth.json中是否指定了相同的索引鍵
 
-在開發人員檔案中，請參閱[準備現有系統](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#auth-json)和[新增驗證金鑰](https://devdocs.magento.com/cloud/setup/first-time-setup-import-prepare.html#add-authentication-keys)中的指示和相關資訊。
+在開發人員檔案中，請參閱[準備現有系統](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)和[新增驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)中的指示和相關資訊。
 
 ### 3.更新或刪除auth.json
 

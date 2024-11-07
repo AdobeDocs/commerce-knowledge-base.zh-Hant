@@ -4,7 +4,7 @@ description: 本文提供網站效能低下的修正。 啟用但未使用'Magen
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 如果您在&#x200B;**Content** > *Elements*&#x200B;底下沒有看到&#x200B;**橫幅**&#x200B;選項，則不是這種情況，而且無法套用這篇文章的建議。
 
-針對雲端基礎結構上的Adobe Commerce 2.3.x （功能在v 2.3.x](https://devdocs.magento.com/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已[重新命名）：
+針對雲端基礎結構上的Adobe Commerce 2.3.x （功能在v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已[重新命名）：
 
 1. 登入Commerce管理員。
 1. 導覽至&#x200B;**內容** > *元素>* **動態區塊**。
@@ -56,5 +56,5 @@ ht-degree: 0%
 >
 >我們強烈建議先在[測試/整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)上測試變更，然後再將其套用至生產環境。 我們也建議在進行任何操作之前先進行最近的備份。
 
-1. 停用`Magento_Banner`模組輸出，如開發人員檔案中的[停用模組輸出](https://devdocs.magento.com/guides/v2.3/config-guide/config/disable-module-output.html)所述。 您需要使用的模組名稱為`Magento_Banner`。
-1. 部署您的程式碼。 針對雲端基礎結構上的Adobe Commerce，請依照開發人員檔案中的[部署您的存放區](https://devdocs.magento.com/guides/v2.3/cloud/live/stage-prod-live.html)文章所述進行部署。
+1. 停用`Magento_Banner`模組輸出，如開發人員檔案中的[停用模組輸出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)所述。 您需要使用的模組名稱為`Magento_Banner`。
+1. 部署您的程式碼。 針對雲端基礎結構上的Adobe Commerce，請依照開發人員檔案中的[部署您的存放區](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章所述進行部署。

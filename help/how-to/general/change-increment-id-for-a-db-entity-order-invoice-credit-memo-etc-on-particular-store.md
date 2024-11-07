@@ -3,7 +3,7 @@ title: 變更特定商店中DB實體（訂單、發票、銷退折讓單等）�
 description: 本文會討論如何使用'ALTER TABLE' SQL陳述式，變更特定Adobe Commerce存放區中Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * Adobe Commerce內部部署：2.x.x
 * 雲端基礎結構上的Adobe Commerce： 2.x.x
-* MySQL：任何[支援的版本](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements-tech.html#database)
+* MySQL：任何[支援的版本](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## 您何時需要變更增量ID （案例）
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 必備條件步驟
 
 1. 尋找應變更新增量ID的存放區和實體。
-1. [連線](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. [連線](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 使用下列查詢來檢查實體序清單目前的auto\_increment值：
 
 ```sql
@@ -53,7 +53,7 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 相關檔案
 
-* [在開發人員檔案中設定遠端MySQL資料庫連線](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql_remote.html)。
+* [在開發人員檔案中設定遠端MySQL資料庫連線](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)。
 
 ## 更新實體以變更增量ID
 

@@ -4,7 +4,7 @@ description: 本文提供在New Relic中收到Adobe Commerce的Apdex警告警報
 exl-id: 6e3f28ae-734b-468f-b6a5-c4f2edb1cb4b
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services
 role: Admin
-source-git-commit: 3493214b468ac93dc938690495ea0a6bcf645a29
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 <u> **做！** </u>
 
 * 中止任何排定的部署，直到清除此警示為止。
-* 如果您的網站沒有回應或完全沒有回應，請立即將網站置於維護模式。 如需相關步驟，請參閱開發人員檔案中的[安裝指南>啟用或停用維護模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)。 請務必將您的IP新增至劐免IP位址清單，以確保您仍可存取您的網站以進行疑難排解。 如需相關步驟，請參閱我們的開發人員檔案中的[維護劐免IP位址清單](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten#instgde-cli-maint-exempt)。
+* 如果您的網站沒有回應或完全沒有回應，請立即將網站置於維護模式。 如需相關步驟，請參閱開發人員檔案中的[安裝指南>啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。 請務必將您的IP新增至劐免IP位址清單，以確保您仍可存取您的網站以進行疑難排解。 如需相關步驟，請參閱我們的開發人員檔案中的[維護劐免IP位址清單](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#instgde-cli-maint-exempt)。
 
 <u>**不要！**</u>
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 1. 如果問題不是由服務版本所造成：
    * 檢查其他MySQL問題，例如長時間執行查詢、未定義主索引鍵和重複索引。 如需相關步驟，請參閱我們的支援知識庫中的[雲端基礎結構上Adobe Commerce中最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
    * 檢查其他PHP問題。 在CLI/終端機中執行`ps aufx`以檢閱執行中的處理序。 在終端機輸出中，您會看到目前執行的cron作業和程式。 檢查處理序執行時間的輸出。 如果有一個執行時間較長的cron，則cron可能會掛起。 如需疑難排解步驟，請參閱我們的支援知識庫中的[效能緩慢、執行速度緩慢且長時間的cron](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)和[Cron工作卡在「執行中」狀態](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)。
-1. 在識別出問題的潛在來源後，會透過SSH連線至環境以進行進一步調查。 如需相關步驟，請參閱開發人員檔案中的[Cloud for Adobe Commerce >技術和需求> SSH至您的環境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)。
+1. 在識別出問題的潛在來源後，會透過SSH連線至環境以進行進一步調查。 如需相關步驟，請參閱開發人員檔案中的[Cloud for Adobe Commerce >技術和需求> SSH至您的環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)。
 1. 如果您仍在努力識別來源，請檢閱最近的趨勢，以識別最近的程式碼部署或設定變更（例如，新客戶群組和目錄的大型變更）的相關問題。 建議您檢閱過去七天的活動，以瞭解程式碼部署或變更中的任何關聯。
-1. 如果您無法在合理的時間內找到解決方案，請要求升級網站，或讓網站進入維護模式（如果尚未這麼做的話）。 如需相關步驟，請參閱我們的支援知識庫中的[如何要求暫時調整大小](/help/how-to/general/how-to-request-temporary-magento-upsize.md)，以及開發人員檔案中的[安裝指南>啟用或停用維護模式](https://devdocs.magento.com/guides/v2.4/install-gde/install/cli/install-cli-subcommands-maint.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=mainten)。
-1. 如果[upsize](/help/how-to/general/how-to-request-temporary-magento-upsize.md)將網站回覆正常運作，請考慮要求永久性的升級(請連絡您的Adobe客戶團隊)，或嘗試透過執行負載測試和最佳化查詢，或降低服務壓力的程式碼，在您的專用測試中重現問題。 在開發人員檔案中，請參閱[Cloud for Adobe Commerce >測試部署>載入和壓力測試](https://devdocs.magento.com/cloud/live/stage-prod-test.html#loadtest)。
+1. 如果您無法在合理的時間內找到解決方案，請要求升級網站，或讓網站進入維護模式（如果尚未這麼做的話）。 如需相關步驟，請參閱我們的支援知識庫中的[如何要求暫時調整大小](/help/how-to/general/how-to-request-temporary-magento-upsize.md)，以及開發人員檔案中的[安裝指南>啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。
+1. 如果[upsize](/help/how-to/general/how-to-request-temporary-magento-upsize.md)將網站回覆正常運作，請考慮要求永久性的升級(請連絡您的Adobe客戶團隊)，或嘗試透過執行負載測試和最佳化查詢，或降低服務壓力的程式碼，在您的專用測試中重現問題。 在開發人員檔案中，請參閱[Cloud for Adobe Commerce >測試部署>載入和壓力測試](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/staging-and-production#load-and-stress-testing)。

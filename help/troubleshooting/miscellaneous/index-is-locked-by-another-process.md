@@ -4,7 +4,7 @@ description: 本文討論Adobe Commerce中常見的索引問題，該問題導�
 exl-id: 542c714c-fad5-4f0e-9757-d90044c36bfc
 feature: Catalog Management, Categories
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -77,12 +77,12 @@ bin/magento indexer:reset catalogsearch_fulltext;
 
 在我們的使用手冊中：
 
-* [索引管理](https://docs.magento.com/user-guide/system/index-management.html?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
+* [索引管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/index-management?itm_source=merchdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=reindexing)
 
 在我們的開發人員檔案中：
 
-* [索引概述](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexing.html)
-* [索引子最佳實務](https://devdocs.magento.com/guides/v2.3/performance-best-practices/configuration.html#indexers)
-* [設定並執行Cron](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cron.html)
-* [管理索引子](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-index.html)
-* [索引子最佳化](https://devdocs.magento.com/guides/v2.3/extension-dev-guide/indexer-batch.html)
+* [索引概述](https://developer.adobe.com/commerce/php/development/components/indexing/)
+* [索引子最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/configuration)
+* [設定並執行Cron](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs)
+* [管理索引子](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers)
+* [索引子最佳化](https://developer.adobe.com/commerce/php/development/components/indexing/optimization/)

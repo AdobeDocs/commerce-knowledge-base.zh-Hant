@@ -4,7 +4,7 @@ description: 本文提供在Inventory management安裝/升級後，庫存狀態�
 exl-id: ae32fbe3-deab-4f31-b427-95f8b54a476f
 feature: Install, Inventory, Orders
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 0%
@@ -33,4 +33,4 @@ ht-degree: 0%
 
 如果您有多個網站，您需要將這些網站新增為預設庫存或其他自訂庫存的Sales Channel。
 
-請參閱使用手冊中Wiki/使用手冊的[Stock區段](https://docs.magento.com/m2/ce/user_guide/catalog/inventory-stock.html)，瞭解如何操作的詳細資訊。
+請參閱使用手冊中Wiki/使用手冊的[Stock區段](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)，瞭解如何操作的詳細資訊。

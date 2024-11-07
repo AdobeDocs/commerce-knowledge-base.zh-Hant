@@ -1,10 +1,10 @@
 ---
-title: 'MDVA-33606：使用者在儲存指派給階層的CMS頁面時發生錯誤'
+title: 「MDVA-33606：使用者在儲存指派給階層的CMS頁面時發生錯誤」
 description: MDVA-33606修補程式解決在儲存指派給階層樹狀結構的CMS頁面時，使用者收到*發現唯一條件約束違規*錯誤的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3後，即可使用此修補程式。 修補程式ID為MDVA-33606。 請注意，問題已在Adobe Commerce 2.4.3中修正。
 exl-id: cdefece5-6d13-4003-87e9-810c665e940c
 feature: CMS
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-33606：使用者在儲存指派給階層的CMS頁面時發生錯誤
 
-MDVA-33606修補程式解決當儲存指派給階層樹狀結構的CMS頁面時，使用者收到&#x200B;*發現的唯一條件約束違規*&#x200B;錯誤的問題。 安裝[品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3時，即可使用此修補程式。 修補程式ID為MDVA-33606。 請注意，問題已在Adobe Commerce 2.4.3中修正。
+MDVA-33606修補程式解決在儲存指派給階層樹狀結構的CMS頁面時，使用者收到&#x200B;*發現的唯一條件約束違規*&#x200B;錯誤的問題。 安裝[品質修補工具(QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3時，即可使用此修補程式。 修補程式ID為MDVA-33606。 請注意，問題已在Adobe Commerce 2.4.3中修正。
 
 ## 受影響的產品和版本
 
@@ -27,7 +27,7 @@ MDVA-33606修補程式解決當儲存指派給階層樹狀結構的CMS頁面時�
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -62,8 +62,8 @@ MDVA-33606修補程式解決當儲存指派給階層樹狀結構的CMS頁面時�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相關閱讀
 

@@ -4,7 +4,7 @@ description: 本文列出備份建立問題的可能解決方案。
 exl-id: 1a6204ad-bd5a-46dc-8a8e-39655a174e09
 feature: Storage, Data Import/Export
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Backup functionality is currently disabled. Please use other means for backups.
 bin/magento config:set system/backup/functionality_enabled 1
 ```
 
-如需備份的其他資訊，請參閱[備份並復原檔案系統、媒體及資料庫。](https://devdocs.magento.com/guides/v2.3/install-gde/install/cli/install-cli-backup.html)
+如需備份的其他資訊，請參閱[備份並復原檔案系統、媒體及資料庫。](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/backup)
 
 ## 磁碟空間不足 {#insufficient-disk-space-trouble-backup-space-}
 
@@ -55,6 +55,6 @@ bin/magento config:set system/backup/functionality_enabled 1
 
 ## 備份失敗 {#backup-fails-trouble-backup-all-}
 
-如果備份失敗或所有備份測試都失敗，[Adobe Commerce檔案系統擁有者](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/file-sys-perms-over.html)可能沒有足夠的許可權和擁有該Adobe Commerce檔案系統。 例如，另一個使用者可能擁有這些檔案，或者這些檔案可能是唯讀的。
+如果備份失敗或所有備份測試都失敗，[Adobe Commerce檔案系統擁有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)可能沒有足夠的許可權和擁有該Adobe Commerce檔案系統。 例如，另一個使用者可能擁有這些檔案，或者這些檔案可能是唯讀的。
 
-請特別注意`<magento_root>/var`目錄和子目錄的檔案系統許可權和擁有權。 如需詳細資訊，請參閱[設定檔案系統許可權和擁有權](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-system-perms.html)。
+請特別注意`<magento_root>/var`目錄和子目錄的檔案系統許可權和擁有權。 如需詳細資訊，請參閱[設定檔案系統許可權和擁有權](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/configure-permissions)。

@@ -4,7 +4,7 @@ description: 本主題說明部署期間Google Analytics可能遇到的典型問
 exl-id: ecf6a277-2dfa-45cf-b86f-9a27f39017f4
 feature: Build, Deploy, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-如果您想要一律啟用Google Analytics，請設定部署變數`ENABLE_GOOGLE_ANALYTICS = true`，如開發人員檔案中的[部署變數](https://devdocs.magento.com/guides/v2.3/cloud/env/variables-deploy.html#enable_google_analytics)所述。
+如果您想要一律啟用Google Analytics，請設定部署變數`ENABLE_GOOGLE_ANALYTICS = true`，如開發人員檔案中的[部署變數](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)所述。
 
 >[!NOTE]
 >

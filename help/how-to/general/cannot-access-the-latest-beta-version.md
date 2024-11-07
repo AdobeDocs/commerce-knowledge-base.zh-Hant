@@ -2,7 +2,7 @@
 title: 無法存取最新的Beta版本
 description: 本文提供解決方案，解決嘗試使用最新Beta版本Adobe Commerce程式碼時的問題。 Beta程式碼僅適用於已遵循[Adobe Commerce Beta方案](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述程式的官方Adobe合作夥伴。
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: c1c2bd29e14f4cbfffb235801e95ec7cbb7c7a55
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 搶先使用的程式碼位置
 
-在測試版存取期間，只能透過[repo.magento.com](https://repo.magento.com/)上的Composer取得發行套件。 在此期間，發行套件無法在GitHub和Adobe Commerce入口網站上使用，我們將在正式發行日期將它們發佈到這些位置。 如需有關如何使用Composer的詳細資訊，請按一下[這裡](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)。
+在測試版存取期間，只能透過[repo.magento.com](https://repo.magento.com/)上的Composer取得發行套件。 在此期間，發行套件無法在GitHub和Adobe Commerce入口網站上使用，我們將在正式發行日期將它們發佈到這些位置。 如需有關如何使用Composer的詳細資訊，請按一下[這裡](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
 
 ### 您需要使用的影像ID
 

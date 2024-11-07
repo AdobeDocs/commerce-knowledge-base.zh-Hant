@@ -4,7 +4,7 @@ description: 本文針對購物車價格規則優惠券無法正常運作的問�
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -62,8 +62,8 @@ Adobe Commerce （所有部署方法） 2.4.3和更高版本
 ...
 ```
 
-如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html#configuration)。
+如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
 
 ## 相關閱讀
 
-在開發人員檔案中[訊息佇列總覽](https://devdocs.magento.com/guides/v2.4/config-guide/mq/rabbitmq-overview.html)。
+在開發人員檔案中[訊息佇列總覽](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。

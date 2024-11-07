@@ -3,7 +3,7 @@ title: 如何為Adobe Commerce新增國家/地區
 description: 本文說明如何新增Adobe Commerce和Zend地區設定資料庫中不存在的國家/地區。 這需要程式碼和資料庫變更，這些變更根據您適用的合約條款構成「客戶自訂」。 請注意，本文包含的範例資料係依「現況」提供，不含任何保固。 Adobe或任何關聯實體均無義務維護、更正、更新、變更、修改或以其他方式支援這些材料。 我們在這裡將說明達成此目標所需完成作業的基本原則。
 exl-id: af499add-4966-4a3a-972a-62a34c169a1b
 feature: Build, Cache
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1105'
 ht-degree: 0%
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 在嘗試建立新模組之前，請參閱開發人員檔案中的下列主題：
 
-* [PHP開發人員指南](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/bk-extension-dev-guide.html)
-* [模組總覽](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)
-* [建立新模組](https://devdocs.magento.com/videos/fundamentals/create-a-new-module/)
-* [模組組態檔](https://devdocs.magento.com/guides/v2.4/config-guide/config/config-files.html)
+* [PHP開發人員指南](https://developer.adobe.com/commerce/php/development/)
+* [模組總覽](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [建立新模組](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
+* [模組組態檔](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## 必要資訊
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 在此範例中，我們將建立名為\&#39;ExtraCountries\&#39;的新模組，其目錄結構如下：
 
-（如需模組結構的詳細資訊，請參閱我們的開發人員檔案中的[模組概觀](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html)）。
+（如需模組結構的詳細資訊，請參閱我們的開發人員檔案中的[模組概觀](https://developer.adobe.com/commerce/php/architecture/modules/overview/)）。
 
 <pre><ExtraCountries>
  |
@@ -97,7 +97,7 @@ ht-degree: 0%
 </config>
 ```
 
-如需模組組態檔的詳細資訊，請參閱我們的開發人員檔案中的[PHP開發人員指南>定義組態檔](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/required-configuration-files.html)。
+如需模組組態檔的詳細資訊，請參閱我們的開發人員檔案中的[PHP開發人員指南>定義組態檔](https://developer.adobe.com/commerce/php/development/build/required-configuration-files/)。
 
 請注意，這些變更是選用的，只會影響新國家/地區在「允許國家/地區」、「郵遞區號為選用的」和「歐盟國家/地區」清單中的預設所屬國家/地區。 如果從模組結構略過此檔案，仍會新增新的國家，但必須在&#x200B;**管理員** > **商店** > *設定* > **設定** > **一般** > **國家選項**&#x200B;設定頁面中手動設定。
 
@@ -123,7 +123,7 @@ ht-degree: 0%
 
 在模組註冊檔案中，我們必須指定「Adobe Commerce目錄」模組的相依性，以確保「額外國家/地區」模組會在目錄模組之後註冊及執行。
 
-如需模組相依性的詳細資訊，請參閱開發人員檔案中的[管理模組相依性](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_depend.html#managing-module-dependencies)。
+如需模組相依性的詳細資訊，請參閱開發人員檔案中的[管理模組相依性](https://developer.adobe.com/commerce/php/architecture/modules/dependencies/#managing-module-dependencies)。
 
 `module.xml`範例
 
@@ -185,7 +185,7 @@ class TranslatedListsPlugin
 
 此資料修補程式會在Adobe Commerce安裝/升級過程中執行，並將新增國家/地區記錄至資料庫。
 
-請參閱我們的開發人員檔案中的[開發資料和結構描述修補程式](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/declarative-schema/data-patches.html)，以取得資料修補程式的詳細資訊。
+請參閱我們的開發人員檔案中的[開發資料和結構描述修補程式](https://developer.adobe.com/commerce/php/development/components/declarative-schema/patches/)，以取得資料修補程式的詳細資訊。
 
 在下列範例中，您可以看到方法`apply()`的`$data`陣列包含新國家/地區的國家/地區識別碼、ISO2和ISO3代碼，而且此資料正在插入資料庫中。
 
@@ -266,7 +266,7 @@ class AddDataForAbstractCountry implements DataPatchInterface, PatchVersionInter
 
 ### ExtraCountries/registration.php
 
-這是registration.php檔案的範例。 若要瞭解模組註冊的詳細資訊，請參閱我們的開發人員檔案中的[PHP開發人員指南>註冊您的元件](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/component-registration.html)。
+這是registration.php檔案的範例。 若要瞭解模組註冊的詳細資訊，請參閱我們的開發人員檔案中的[PHP開發人員指南>註冊您的元件](https://developer.adobe.com/commerce/php/development/build/component-registration/)。
 
 ```php
 <?php
@@ -279,7 +279,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 這是composer.json檔案的範例。
 
-若要進一步瞭解composer.json，請參閱我們的開發人員檔案中的[PHP開發人員指南> The composer.json檔案](https://devdocs.magento.com/guides/v2.4/extension-dev-guide/build/composer-integration.html)。
+若要進一步瞭解composer.json，請參閱我們的開發人員檔案中的[PHP開發人員指南> The composer.json檔案](https://developer.adobe.com/commerce/php/development/build/composer-integration/)。
 
 ```json
 {
@@ -310,7 +310,7 @@ ComponentRegistrar::register(ComponentRegistrar::MODULE, 'VendorName_ExtraCountr
 
 ## 模組安裝
 
-若要瞭解如何安裝模組，請參閱開發人員檔案中的[模組位置](https://devdocs.magento.com/guides/v2.4/architecture/archi_perspectives/components/modules/mod_intro.html#module-locations)。
+若要瞭解如何安裝模組，請參閱開發人員檔案中的[模組位置](https://developer.adobe.com/commerce/php/architecture/modules/overview/#module-locations)。
 
 將模組目錄放置到正確位置後，請執行`bin/magento setup:upgrade`以套用資料修補程式並註冊轉譯外掛程式。
 

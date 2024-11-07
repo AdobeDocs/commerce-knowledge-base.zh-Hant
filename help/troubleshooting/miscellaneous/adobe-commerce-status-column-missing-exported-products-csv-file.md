@@ -4,7 +4,7 @@ description: 當您在包含已匯出產品的CSV檔案中找不到狀態列時�
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
@@ -50,5 +50,5 @@ CSV檔案中的產品狀態屬性已重新命名。 現在是[!UICONTROL product
 
 ## 相關閱讀
 
-* [使用我們的使用手冊中的CSV檔案](https://docs.magento.com/user-guide/system/data-csv.html)。
-* 使用手冊中的[產品匯出屬性參考](https://docs.magento.com/user-guide/system/data-attributes-product.html)。
+* [使用我們的使用手冊中的CSV檔案](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv)。
+* 使用手冊中的[產品匯出屬性參考](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product)。

@@ -4,7 +4,7 @@ description: 針對Adobe Commerce的Magento Order Management系統(OMS)無法透
 exl-id: 19149d8c-ea24-46fb-8815-9f637afe46ca
 feature: System
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 在本機環境中安裝Adobe Commerce。
 1. 設定ngrock以建立通道來公開您的本機伺服器。
-1. 嘗試[連線到OMS](https://omsdocs.magento.com/en/integration/connector/setup-tutorial/)。
+1. 嘗試[連線到OMS](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)。
 
 <u>預期結果</u>
 

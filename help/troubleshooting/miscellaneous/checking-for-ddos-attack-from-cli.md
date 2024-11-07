@@ -4,7 +4,7 @@ description: 本文會討論如何嘗試從伺服器的命令列介面(CLI)檢�
 exl-id: dfdef289-cf51-42d7-b3fb-d4d2d3760951
 feature: Observability
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 0%
@@ -35,8 +35,8 @@ ht-degree: 0%
 ## 解決方案步驟
 
 1. 檢查Adobe Commerce記錄檔以檢視是否發生DDoS攻擊以外的其他情況。 如需詳細資訊，請參閱開發人員檔案中的下列文章：
-   * [Adobe Commerce和Magento Open Source記錄檔位置](https://devdocs.magento.com/guides/v2.3/config-guide/cli/logging.html)
-   * 雲端基礎結構記錄位置上的[Adobe Commerce](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)
+   * [Adobe Commerce和Magento Open Source記錄檔位置](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/enable-logging)
+   * 雲端基礎結構記錄位置上的[Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)
 1. 開始使用CLI來使用`netstat`命令檢查您目前所有的網際網路連線： `netstat -na`。 這會顯示所有使用中建立的伺服器連線。 在這裡，您可能會注意到來自相同IP位址的連線過多。
 1. 若要將已建立的連線結果進一步縮小為僅連線至連線埠80 （您網站的http連線埠）的連線，以便從一個IP位址或一組IP位址排序並識別太多連線，請使用以下命令： `netstat -an | grep :80 | sort`。 您可以對連線埠443上的https重複相同的命令： `netstat -an | grep :443 | sort`。 另一個選項是將原始指令同時延伸至連線埠80和443： `netstat -an | egrep ":80|:443" | sort`。
 1. 若要檢視伺服器上是否有許多作用中的`SYNC_REC`，請使用命令：     `netstat -n -p|grep SYN_REC | wc -l`     這個值通常小於5，但若是DDoS攻擊，可能會高很多，不過對於某些伺服器，數字可能會高一些，這是正常情況。
@@ -53,6 +53,6 @@ ht-degree: 0%
 
 ## 開發人員檔案中的相關閱讀：
 
-* [DDoS保護](https://devdocs.magento.com/guides/v2.3/cloud/cdn/cloud-fastly.html#ddos-protection)
-* [使用CLI命令](https://devdocs.magento.com/guides/v2.3/config-guide/deployment/pipeline/example/cli.html)
-* 適用於Commerce的[雲端CLI](https://devdocs.magento.com/guides/v2.3/cloud/reference/cli-ref-topic.html)
+* [DDoS保護](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#ddos-protection)
+* [使用CLI命令](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli)
+* 適用於Commerce的[雲端CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)

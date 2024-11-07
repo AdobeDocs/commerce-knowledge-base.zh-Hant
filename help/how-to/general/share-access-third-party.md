@@ -3,7 +3,7 @@ title: 雲端基礎結構上Adobe Commerce的第三方測試秘訣
 description: 本文提供選項，讓您在雲端基礎結構上的Adobe Commerce擴充功能發生問題時，可與協力廠商共用存取權以進行測試/驗證。
 exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 feature: Best Practices, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 * 提供您的協力廠商雲端環境的存取權。 相關文章：
 
    * [Adobe Commerce說明中心使用手冊>共用存取權：授予其他使用者存取您帳戶的許可權](/help/help-center-guide/help-center/magento-help-center-user-guide.md#shared-access) （在我們的支援知識庫中）。
-   * 在我們的使用手冊中[共用您的Commerce帳戶](https://docs.magento.com/user-guide/magento/magento-account-share.html)。
+   * 在我們的使用手冊中[共用您的Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)。
 
 * 建立資料庫傾印（或給予第三方廠商執行此作業的存取權）。 這可以使用CLI或在Commerce Admin中完成。 此DB傾印會模糊化客戶資料，因此他們只得到程式碼和產品SKU等，沒有專有/客戶資料。 若需參考資訊，請在我們的支援知識庫中使用[共用您的Commerce帳戶] (/help/how-to/general/create-database-dump-on-cloud.md)。
 * 測試完成後，請務必撤銷雲端環境的共用存取權，如支援知識庫中的[Adobe Commerce說明中心使用手冊>撤銷（刪除共用存取權）](/help/help-center-guide/help-center/magento-help-center-user-guide.md#revoke-shared-access)所述。

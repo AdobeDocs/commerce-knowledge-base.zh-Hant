@@ -4,7 +4,7 @@ description: 本文提供Adobe Commerce 2.4.5問題的修補程式，此問題�
 exl-id: 8840aecb-21d9-4965-8c09-395e2d263aaa
 feature: Admin Workspace, Native Luma Frontend Development, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->此外，適用於Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce 1.0.18版的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html)，以尋找套用最新套件的說明。
+>此外，適用於Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce 1.0.18版的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches)，以尋找套用最新套件的說明。
 
 ### 相容的Adobe Commerce版本：
 

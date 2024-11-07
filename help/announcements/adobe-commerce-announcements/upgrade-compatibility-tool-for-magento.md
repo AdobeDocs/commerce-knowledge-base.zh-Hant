@@ -4,7 +4,7 @@ description: 升級相容性工具1.1.0是命令列工具，可分析安裝在Ad
 exl-id: 312abc5a-1d6a-4f32-9929-a94f4962eddd
 feature: Upgrade
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Adobe Commerce客戶。
 
 ## 安裝升級相容性工具1.1.0
 
-如需安裝步驟，請參閱我們的開發人員檔案中的Adobe Commerce： [升級相容性工具>安裝](https://devdocs.magento.com/upgrade-compatibility-tool/install.html)。 如需使用工具的先決條件，請參閱開發人員檔案中的Adobe Commerce： [升級相容性工具](https://devdocs.magento.com/upgrade-compatibility-tool/prerequisites.html)。
+如需安裝步驟，請參閱我們的開發人員檔案中的Adobe Commerce： [升級相容性工具>安裝](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run)。 如需使用工具的先決條件，請參閱開發人員檔案中的Adobe Commerce： [升級相容性工具](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/prerequisites)。
 
 ## 每個問題旁邊的數目是多少？
 
@@ -47,7 +47,7 @@ Adobe Commerce客戶。
 * 錯誤代碼： Adobe Commerce指派的錯誤訊息識別碼。
 * 錯誤說明：總結錯誤原因的說明。
 * 錯誤建議動作：如果適用，提供疑難排解及解決錯誤的指引。
-* 在[錯誤訊息參考頁面](https://devdocs.magento.com/upgrade-compatibility-tool/errors.html)上列出並描述代碼。
+* 在[錯誤訊息參考頁面](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/reporting/error-messages)上列出並描述代碼。
 
 ## 我可以在哪裡分享關於該工具的意見回饋？
 
@@ -56,4 +56,4 @@ Adobe Commerce客戶。
 ## 相關閱讀
 
 * Adobe Commerce部落格： [介紹升級相容性工具(Alpha)](https://magento.com/blog/magento-news/introducing-upgrade-compatibility-tool)
-* Adobe Commerce：在開發人員檔案中[升級相容性工具](https://devdocs.magento.com/upgrade-compatibility-tool/introduction.html)。
+* Adobe Commerce：在開發人員檔案中[升級相容性工具](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview)。

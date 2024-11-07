@@ -4,7 +4,7 @@ description: 本文提供配置解決方案，解決Edge Side Include (ESI)問�
 exl-id: e7f9b773-1a2d-4c3b-9e1f-a1781fbc898c
 feature: Categories, Site Navigation, Storefront, Variables
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 若要解決問題，您需要執行額外的Varnish設定，並重新啟動Varnish。
 
-1. 以具有`root`許可權的使用者身分，在文字編輯器中開啟您的「消失」設定檔。 請參閱開發人員檔案中的[修改Varnish系統組態](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl)，以取得不同作業系統之檔案可能所在位置的資訊。
+1. 以具有`root`許可權的使用者身分，在文字編輯器中開啟您的「消失」設定檔。 請參閱開發人員檔案中的[修改Varnish系統組態](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server)，以取得不同作業系統之檔案可能所在位置的資訊。
 1. 在`DAEMON_OPTS variable`中，新增`-p feature=+esi_ignore_https`、`-p  feature=+esi_ignore_other_elements`、`-p  feature=+esi_disable_xml_check`。 如下所示：
 
    ```bash
@@ -64,5 +64,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在開發人員檔案中[設定Varnish與您的網頁伺服器](https://devdocs.magento.com/guides/v2.3/config-guide/varnish/config-varnish-configure.html#config-varnish-config-sysvcl)。
+* 在開發人員檔案中[設定Varnish與您的網頁伺服器](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/config-varnish-server)。
 * [塗漆檔案](https://varnish-cache.org/docs/5.1/reference/index.html)

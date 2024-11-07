@@ -4,7 +4,7 @@ description: 本文提供解決方案，解決嘗試使用最新搶鮮版Adobe C
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 在發行前版本中，發行套件有兩個位置可用：
 
-1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://devdocs.magento.com/guides/v2.3/install-gde/composer.html)。
+1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
 1. 在[account.magento.com](https://account.magento.com/customer/account/login)上，**我的帳戶** > **下載**。
 
 >[!NOTE]

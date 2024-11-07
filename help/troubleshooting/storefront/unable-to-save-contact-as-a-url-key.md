@@ -4,7 +4,7 @@ description: 本文提供當您無法將*contact*儲存為產品或CMS頁面的U
 exl-id: eb340813-aba5-43a4-af5d-8fb64c93e021
 feature: CMS, Marketing Tools, Storefront
 role: Admin
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '327'
 ht-degree: 0%
@@ -21,11 +21,11 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 問題
 
-您無法使用辭彙&#x200B;*contact*&#x200B;作為URL索引鍵來儲存產品或CMS頁面。 當您嘗試儲存URL金鑰時，您會收到一個錯誤，指出URL金鑰是重複的URL。
+您無法使用辭彙&#x200B;*contact*&#x200B;做為URL金鑰來儲存產品或CMS頁面。 當您嘗試儲存URL金鑰時，您會收到一個錯誤，指出URL金鑰是重複的URL。
 
 <u>要再現的步驟</u>：
 
-建立以&#x200B;*連絡人*&#x200B;作為URL索引鍵的CMS頁面。
+建立CMS頁面，並將&#x200B;*連絡人*&#x200B;設為URL索引鍵。
 
 <u>預期結果</u>：
 
@@ -63,5 +63,5 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 相關閱讀
 
-* 使用手冊中的[URL重寫](https://docs.magento.com/user-guide/marketing/url-rewrite.html)。
-* 使用手冊中的[SEO最佳實務](https://docs.magento.com/user-guide/marketing/seo-best-practices.html)。
+* 使用手冊中的[URL重寫](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)。
+* 使用手冊中的[SEO最佳實務](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview)。

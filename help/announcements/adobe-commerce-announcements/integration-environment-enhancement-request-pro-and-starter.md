@@ -4,7 +4,7 @@ description: 如果您是雲端基礎結構Adobe Commerce Pro計畫架構客戶�
 exl-id: c49b049b-efb8-412f-b27d-a89f8a758d85
 feature: Integration
 role: Admin
-source-git-commit: fb26b71316e04de31fa6a895b87230bed5c1ca6a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 1. 商家需要[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以連絡原因「*要求雲端設定變更*」要求升級至增強整合環境。
 1. Adobe客戶工程團隊會確認整合環境的數量，並開始變更。
 1. 升級完成時，商家將在票證中收到通知。
-1. 商家重新部署整合環境。 請依照開發人員檔案中[合併分支](https://devdocs.magento.com/cloud/env/environments-start.html#merge)中的步驟操作。 *注意*：在您執行時，部署會自動發生： <pre>git push origin <branch-name></pre>
+1. 商家重新部署整合環境。 請依照開發人員檔案中[合併分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)中的步驟操作。 *注意*：在您執行時，部署會自動發生： <pre>git push origin <branch-name></pre>
 
 效能提升表示成功升級至增強整合環境。
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 1. 商家需要[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以連絡原因&#x200B;*「要求雲端組態變更」* - **您的中繼環境是具名的整合環境**，要求升級至增強整合環境。
 1. Adobe客戶工程團隊會確認整合環境的數量，並開始變更。
 1. 升級完成時，商家將在票證中收到通知。
-1. 商家重新部署整合環境。 請依照開發人員檔案中[合併分支](https://devdocs.magento.com/cloud/env/environments-start.html#merge)中的步驟操作。 *注意*：在您執行時，部署會自動發生： <pre>git push origin <branch-name></pre>
+1. 商家重新部署整合環境。 請依照開發人員檔案中[合併分支](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/cli-branches#merge-a-branch)中的步驟操作。 *注意*：在您執行時，部署會自動發生： <pre>git push origin <branch-name></pre>
 
 效能提升表示成功升級至增強整合環境。
 

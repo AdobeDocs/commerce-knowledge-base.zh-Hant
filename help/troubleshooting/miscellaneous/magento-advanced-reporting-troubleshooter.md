@@ -4,7 +4,7 @@ description: 使用此疑難排解工具可解決Adobe Commerce上的進階報�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -19,10 +19,10 @@ ht-degree: 0%
 
 +++**您的網站是否符合進階報告需求？**
 
-使用進階報告時出現「404錯誤」頁面。 您的網站是否符合[進階報告需求](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)？
+使用進階報告時出現「404錯誤」頁面。 您的網站是否符合[進階報告需求](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)？
 
 a.是 — 繼續進行[步驟2](#step-2)。\
-b.否 — 依照[進階報告需求](https://docs.magento.com/user-guide/reports/advanced-reporting.html#requirements)中的步驟完成您網站的進階報告需求。 然後，繼續進行[步驟2](#step-2)。
+b.否 — 依照[進階報告需求](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#requirements)中的步驟完成您網站的進階報告需求。 然後，繼續進行[步驟2](#step-2)。
 
 +++
 
@@ -44,7 +44,7 @@ b.否 — 輸出只顯示一種貨幣。 範例： `USD`。 是否曾經使用�
 
 +++**您使用分割資料庫方案嗎？**
 
-您是否使用[分割資料庫方案](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master.html)？
+您是否使用[分割資料庫方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)？
 
 a.是 — 在分割資料庫解決方案](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)的[進階報告404錯誤中使用修補程式&#x200B;**MDVA-26831**&#x200B;並清除快取。 請等待24小時，讓工作再次執行，然後再試一次。\
 b.否 — 繼續進行[步驟4](#step-4)。
@@ -55,10 +55,10 @@ b.否 — 繼續進行[步驟4](#step-4)。
 
 +++**是否已啟用進階報告？**
 
-檢查&#x200B;**管理員** > **商店** > **設定** > **設定** > **一般** > **進階報告**。 如需詳細步驟，請檢閱[進階報告：啟用進階報告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)。
+檢查&#x200B;**管理員** > **商店** > **設定** > **設定** > **一般** > **進階報告**。 如需詳細步驟，請檢閱[進階報告：啟用進階報告](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)。
 
 a.是 — 繼續進行[步驟5](#step-5)。\
-b.否 — [啟用進階報告](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)並儲存，等待24小時讓Adobe Commerce和進階報告同步。 檢查您的資料現在是否載入。 如果問題解決了。 如果未繼續進行[步驟5](#step-5)。
+b.否 — [啟用進階報告](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)並儲存，等待24小時讓Adobe Commerce和進階報告同步。 檢查您的資料現在是否載入。 如果問題解決了。 如果未繼續進行[步驟5](#step-5)。
 
 +++
 
@@ -81,9 +81,9 @@ b.否 — 如果權杖值為NULL或資料庫中沒有記錄，請繼續執行[�
 
 a.是 — 執行下列步驟：1. 執行以下的查詢：\
 ``DELETE from `flag` where `flag_code` = 'analytics_link_subscription_update_reverse_counter';``\
-2\. 在設定中[停用並啟用進階報告模組](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)，並[重新授權權杖](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active)。\
+2\. 在設定中[停用並啟用進階報告模組](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，並[重新授權權杖](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
 3\. 等待24小時，讓Adobe Commerce和進階報表進行同步。 如果您仍然無法在進階報告中看到資料，[請提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
-b.否 — 如果查詢未傳回任何內容，請執行下列步驟：1. 在設定中[停用並啟用進階報告模組](https://docs.magento.com/user-guide/reports/advanced-reporting.html#step-1-enable-advanced-reporting)，並[重新授權權杖](https://docs.magento.com/user-guide/reports/advanced-reporting.html#verify-that-the-integration-is-active)。\
+b.否 — 如果查詢未傳回任何內容，請執行下列步驟：1. 在設定中[停用並啟用進階報告模組](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#step-1-enable-advanced-reporting)，並[重新授權權杖](https://experienceleague.adobe.com/en/docs/commerce-admin/start/reporting/business-intelligence#advanced-reporting#verify-that-the-integration-is-active)。\
 2\. 等待24小時，讓Adobe Commerce和進階報表進行同步。 如果您仍然無法在進階報告中看到資料，[請提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 +++

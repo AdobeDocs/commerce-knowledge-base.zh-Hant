@@ -3,7 +3,7 @@ title: 已設定Elasticsearch5，但搜尋頁面未載入「Fielddata已停用�
 description: 「本主題說明如何修正Elasticsearch5的問題，該頁面未載入搜尋頁面，且擲回類似下列的例外狀況：」
 exl-id: f5fa8144-4e7c-45ce-89d0-a8367e91d6db
 feature: Cache
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -56,7 +56,7 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 若要修正此問題，您需要將`is_filterable` （即用於分層導覽）和`filterable_in_search` （即用於搜尋結果分層導覽）設定為「0」（未使用）。 若要這麼做，請執行下列步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如[phpMyAdmin](https://devdocs.magento.com/guides/v2.2/install-gde/prereq/optional.html#install-optional-phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

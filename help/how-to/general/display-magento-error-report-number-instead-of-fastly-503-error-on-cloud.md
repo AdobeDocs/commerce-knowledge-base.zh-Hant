@@ -3,7 +3,7 @@ title: 顯示Adobe Commerce錯誤報告編號而非Fastly 503錯誤
 description: 「依預設，Fastly會隱藏**503服務無法使用之後的所有Adobe Commerce錯誤**錯誤。 若要顯示Adobe Commerce錯誤記錄報告編號（以便能夠在記錄中找到它並檢視錯誤詳細資料），請使用以下步驟開啟省略Fastly的網站：'
 exl-id: c0a4a9f8-a674-4cef-8088-e844594e6076
 feature: Cache, Cloud
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '260'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 檢視真實的Adobe Commerce錯誤和錯誤報告編號後，您可以按照以下步驟在錯誤報告檔案中獲取詳情：
 
-1. ssh連線至受影響的環境。 在開發人員檔案中，請參閱[SSH至環境](https://devdocs.magento.com/guides/v2.3/cloud/env/environments-ssh.html#ssh)。
+1. ssh連線至受影響的環境。 在開發人員檔案中，請參閱[SSH至環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)。
 1. 找到`./var/report/{error_number}`檔案。
 
 ## 將應用程式網域和IP位址新增至hosts檔案：詳細步驟

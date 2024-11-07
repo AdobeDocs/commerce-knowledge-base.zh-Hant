@@ -3,7 +3,7 @@ title: 在我們的雲端專業架構上，將資料庫auto_increment增量變�
 description: 這是Adobe Commerce在雲端基礎結構專業計畫架構解決方案上的預期行為，因為有3個節點的架構，且無法修改。
 exl-id: ea478cbc-2dc2-41c9-8ea7-7e2f308e5948
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -31,5 +31,5 @@ Galera資料庫叢集是資料庫叢集，每個節點有一個MariaDB MySQL資�
 
 請參閱我們的開發人員檔案：
 
-* [適用於Adobe Commerce的雲端> Pro架構>備份與災難回覆](https://devdocs.magento.com/cloud/architecture/pro-architecture.html#backup-and-disaster-recovery)
-* [適用於Adobe Commerce的雲端>安裝先決條件：資料庫](https://devdocs.magento.com/cloud/before/before-workspace-magento-prereqs.html#database)
+* [適用於Adobe Commerce的雲端> Pro架構>備份與災難回覆](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [適用於Adobe Commerce的雲端>安裝先決條件：資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)

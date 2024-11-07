@@ -4,7 +4,7 @@ description: 本文提供在PayPal Express結帳中選取地區時，針對下�
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 針對Adobe Commerce內部部署商家：套用[Hotfix，](https://magento.com/tech-resources/download#download2353)，可在「我的帳戶」中[magento.com](https://magento.com)入口網站的「下載」區段取得。
 
-雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://devdocs.magento.com/cloud/release-notes/mcp-release-notes.html?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)，以尋找套用最新套件的說明。
+雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)，以尋找套用最新套件的說明。
 
 ## 如何套用修正程式
 
@@ -57,4 +57,4 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 ## 相關閱讀
 
-* [發行資訊> Adobe Commerce 2.3.4發行說明>套用Adobe Commerce 2.3.4區域修補程式的PayPal Express結帳問題，以解決我們開發人員檔案中的重大PayPal Express結帳問題](https://devdocs.magento.com/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue)。
+* [發行資訊> Adobe Commerce 2.3.4發行說明>套用Adobe Commerce 2.3.4區域修補程式的PayPal Express結帳問題，以解決我們開發人員檔案中的重大PayPal Express結帳問題](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/release-notes-2-3-4-commerce.html#apply-the-paypal-express-checkout-issue-with-region-patch-for-magento-234-to-address-a-critical-paypal-express-checkout-issue)。

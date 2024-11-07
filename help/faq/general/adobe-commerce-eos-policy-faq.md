@@ -3,7 +3,7 @@ title: Adobe Commerce軟體終止支援常見問題集
 description: 下列常見問題集旨在協助商家、開發人員和合作夥伴瞭解Adobe Commerce針對受影響版本Adobe Commerce的已發佈終止支援(EOS)日期的影響。
 exl-id: ec147307-46eb-4a3a-8572-a014b091c58a
 feature: Best Practices, Compliance, Console
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1733'
 ht-degree: 0%
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 我可以在哪裡找到所有Adobe Commerce版本的軟體支援日期？
 
-您可以在[Adobe Commerce軟體生命週期原則](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce軟體生命週期原則與軟體支援日期。 我們也會在[開發人員檔案頁面](https://devdocs.magento.com/release/released-versions.html)上發佈終止支援(EOS)日期。
+您可以在[Adobe Commerce軟體生命週期原則](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce軟體生命週期原則與軟體支援日期。 我們也會在[開發人員檔案頁面](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)上發佈終止支援(EOS)日期。
 
 ### Adobe終止支援某個Adobe Commerce軟體版本代表什麼意思？
 
@@ -70,7 +70,7 @@ ht-degree: 0%
 
 移至最新版Adobe Commerce軟體可能需要時間和資源才能順利執行。 您最好在支援結束日期之前儘早進行規劃，以確保您有適當的時間和資源在預算內如期實現您的策略目標。 為了協助您進行下一次升級，Adobe已發佈[2.4升級指南](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)，其中包含要遵循的最佳實務和技術步驟，以及執行升級時要使用的工具和資源。
 
-另一個重要的考量是儘早預留開發人員和合作夥伴資源。 合作夥伴的時間和資源經常在支援結束日期之前預定，導致協助移轉專案的資源大幅減少。 建議您至少每年討論一次三年滾動計畫，並確定下一年的計畫和預算。 使用[Adobe的發行行事曆](https://devdocs.magento.com/release/)追蹤發行日期。
+另一個重要的考量是儘早預留開發人員和合作夥伴資源。 合作夥伴的時間和資源經常在支援結束日期之前預定，導致協助移轉專案的資源大幅減少。 建議您至少每年討論一次三年滾動計畫，並確定下一年的計畫和預算。 使用[Adobe的發行行事曆](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)追蹤發行日期。
 
 ### Adobe Commerce支援終止時，我可以使用協力廠商服務提供者提供軟體支援嗎？
 
@@ -94,7 +94,7 @@ Adobe Commerce授權到期後，您必須停止使用Adobe Commerce軟體，並�
 
 ### 在軟體版本的支援結束日期之前開啟的支援票證，即便在支援結束日期過後，是否仍會繼續處理以供解決？
 
-可以，即使軟體版本的支援結束日期已過，在軟體版本支援結束日期之前開啟的支援票證仍會繼續處理並解決。 但是，解決支援票證可能取決於解決是否依賴於Adobe Commerce控制之外的元件（即PHP、jQuery等） 已過期或支援終止的客戶。 在這些情況下，可透過指示您升級到最新版本來解決支援服務單。
+可以，即使軟體版本的支援結束日期已過，在軟體版本支援結束日期之前開啟的支援票證仍會繼續處理並解決。 但是，解決支援票證可能取決於解決是否依賴於Adobe Commerce控制範圍以外的元件（即PHP、jQuery等），這些元件已過期或達到支援終止狀態。 在這些情況下，可透過指示您升級到最新版本來解決支援服務單。
 
 ### 如果我開啟軟體支援即將結束之軟體版本的票證，Adobe會優先處理這些票證，以便在支援結束日期前解決嗎？
 

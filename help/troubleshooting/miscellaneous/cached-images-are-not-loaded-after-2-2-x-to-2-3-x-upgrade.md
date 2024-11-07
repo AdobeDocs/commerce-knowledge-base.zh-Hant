@@ -4,7 +4,7 @@ description: 本文針對在雲端基礎結構2.2.X上從Adobe Commerce升級為
 exl-id: 3e6bd5aa-bd5d-4880-8b78-64f280647abe
 feature: Cache, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
@@ -45,6 +45,6 @@ Adobe Commerce從2.2.X升級至2.3.X後，將無法使用快取的產品影像�
    * 整合：自行修正檔案並推送變更。
    * 測試和生產：自行修正檔案、推送變更，然後建立[Adobe Commerce支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以套用它。
 
-1. 在Commerce管理員中啟用Fastly影像最佳化（必須先設定Fastly），如<https://devdocs.magento.com/guides/v2.3/cloud/cdn/fastly-image-optimization.html>中所述。
+1. 在Commerce管理員中啟用Fastly影像最佳化（必須先設定Fastly），如<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>中所述。
 
 如果設定正確，但您仍然遇到問題，請繼續調查或聯絡[Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。

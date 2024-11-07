@@ -4,7 +4,7 @@ description: 本文提供元件相依性衝突的解決方案。
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 0%
@@ -51,7 +51,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/file-sys-perms-over.html)一文所述。
+請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文所述。
 
 ## 「元件相依性檢查」狀態永遠不變 {#trouble-depend-state}
 

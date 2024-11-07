@@ -4,7 +4,7 @@ description: ACSD-45675修補程式修正產品匯出使用預設商店檢視範
 exl-id: 9edd718e-4c0c-44dd-b802-07c9ec7c182a
 feature: Categories, Data Import/Export, Products
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ACSD-45675修補程式修正產品匯出使用預設商店檢視範圍的類別�
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
 * 品質修補程式工具指南中的Adobe Commerce或Magento Open Source內部部署： [[!DNL Quality Patches Tools] >使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相關閱讀
 

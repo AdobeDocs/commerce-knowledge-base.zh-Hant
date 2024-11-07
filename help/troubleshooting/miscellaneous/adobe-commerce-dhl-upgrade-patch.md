@@ -4,7 +4,7 @@ description: 本文提供修補程式，允許使用Adobe Commerce 2.4.4及舊�
 exl-id: 4350e83a-495b-41b4-a526-dae5923e9d41
 feature: Orders, Shipping/Delivery, Upgrade
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Commerce 2.4.5預計於2022年8月發行，其中將包含使用6.2版結�
 ## 修補
 
 修補程式ID為AC-3022，可在品質修補程式工具1.1.16版中取得。
-請參閱開發人員檔案中的[品質修補工具(QPT) >使用方式](https://devdocs.magento.com/quality-patches/usage.html)文章，瞭解如何使用QPT及安裝修補程式的資訊。
+請參閱開發人員檔案中的[品質修補工具(QPT) >使用方式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)文章，瞭解如何使用QPT及安裝修補程式的資訊。
 
 此修補程式適用於下列Adobe Commerce版本：
 
@@ -38,5 +38,5 @@ Adobe Commerce 2.4.5預計於2022年8月發行，其中將包含使用6.2版結�
 
 ## 相關閱讀
 
-* 使用手冊中的[運送公司> DHL](https://docs.magento.com/user-guide/shipping/dhl.html)
-* 使用手冊中的[傳遞方法](https://docs.magento.com/user-guide/configuration/sales/delivery-methods.html)
+* 使用手冊中的[運送公司> DHL](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl)
+* 使用手冊中的[傳遞方法](https://experienceleague.adobe.com/en/docs/commerce-admin/config/sales/delivery-methods)

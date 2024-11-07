@@ -4,7 +4,7 @@ description: 本文提供當'/tmp'掛載已滿、網站可能已關閉，且您�
 exl-id: e72d0f99-0060-474b-bb1c-2851896e1e43
 feature: Storage
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 0%
@@ -120,7 +120,7 @@ find /tmp/*.hprof -type f -delete
 
 若要避免遇到`/tmp`已滿的問題，請遵循下列建議：
 
-* 請勿使用MySQL進行搜尋。 Elasticsearch搜尋通常不需要建立大部分的大型臨時表格。 請參閱我們的開發人員檔案中的[設定Adobe Commerce以使用Elasticsearch](https://devdocs.magento.com/guides/v2.2/config-guide/elasticsearch/configure-magento.html)。
+* 請勿使用MySQL進行搜尋。 Elasticsearch搜尋通常不需要建立大部分的大型臨時表格。 請參閱我們的開發人員檔案中的[設定Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
 * 請避免在沒有索引的資料行上執行`SELECT`查詢，因為這會佔用大量的暫存磁碟空間。 您也可以新增索引。
 * 在CLI中執行下列命令，建立cron以清除`/tmp`：
 

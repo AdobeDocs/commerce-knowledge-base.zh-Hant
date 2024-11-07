@@ -4,7 +4,7 @@ description: 針對雲端基礎結構2.2.0中與無法存取存放區前端目�
 exl-id: ad363744-756a-48b9-ae11-58642e0ca6a4
 feature: Catalog Management, Logs
 role: Developer
-source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '490'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文提供修補程式當作因應措施，但問題已在Adobe Commerce雲端基礎結構v2.3.3版本中永久修正，建議您升級至v2.3.3。請依照開發人員檔案中[升級Adobe Commerce版本](https://devdocs.magento.com/cloud/project/project-upgrade.html)中的步驟操作。
+>本文提供修補程式當作因應措施，但問題已在Adobe Commerce雲端基礎結構v2.3.3版本中永久修正，建議您升級至v2.3.3。請依照開發人員檔案中[升級Adobe Commerce版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)中的步驟操作。
 
 本文為雲端基礎結構2.2.0上與儲存區前端目錄頁面無法存取相關的已知Adobe Commerce問題提供修補程式，其錯誤訊息類似於以下在記錄中的訊息： *完整性條件約束違規： 1062索引鍵&#39;PRIMARY&#39;的重複專案&#39;%entry%&#39;，查詢為： INSERT INTO \&#39;search\_tmp\_%number%*。
 
@@ -78,6 +78,6 @@ curl -X DELETE 127.0.0.1:9200/magento2_product_8_v332
 
 * 在雲端基礎結構上為Adobe Commerce的[記錄檔位置我們的支援知識庫中的入門計畫架構](/help/how-to/general/log-locations-directories-for-starter-plan.md)。
 * 在我們的支援知識庫中，為Adobe Commerce在雲端基礎結構Pro規劃架構](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)上的[記錄檔位置。
-* 在開發人員檔案中[Adobe Commerce的記錄檔位置](https://devdocs.magento.com/guides/v2.3/cloud/trouble/environments-logs.html)。
+* 在開發人員檔案中[Adobe Commerce的記錄檔位置](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)。
 
 ## 附加的檔案

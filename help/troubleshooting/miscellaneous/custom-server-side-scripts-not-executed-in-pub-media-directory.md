@@ -4,7 +4,7 @@ description: 本文修正將自訂伺服器端指令碼放置於'中時未執行
 exl-id: fcad8a5d-47d6-4729-93a4-2410d7710d69
 feature: Media
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '269'
 ht-degree: 0%
@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 相關檔案
 
-* 在開發人員檔案中，[適用於Adobe Commerce的雲端>專案結構>可寫入目錄](https://devdocs.magento.com/guides/v2.3/cloud/project/project-start.html#write-dir)。
+* 在開發人員檔案中，[適用於Adobe Commerce的雲端>專案結構>可寫入目錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories)。

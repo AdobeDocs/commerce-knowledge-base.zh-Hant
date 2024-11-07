@@ -4,7 +4,7 @@ description: 本文提供解決方案，協助您在Adobe Commerce後端儲存�
 exl-id: e45dc88a-2da0-4524-bd61-6634cfebb169
 feature: Admin Workspace, Marketing Tools
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 原因
 
-此問題與最近推出的影響最大工作階段大小的新功能有關。 請參閱我們的開發人員檔案中的[工作階段管理](https://docs.magento.com/user-guide/stores/security-session-management.html)。
+此問題與最近推出的影響最大工作階段大小的新功能有關。 請參閱我們的開發人員檔案中的[工作階段管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management)。
 
 ## 解決方案
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 使用手冊中的[行銷功能表](https://docs.magento.com/user-guide/marketing/marketing-menu.html)。
+* 使用手冊中的[行銷功能表](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu)。

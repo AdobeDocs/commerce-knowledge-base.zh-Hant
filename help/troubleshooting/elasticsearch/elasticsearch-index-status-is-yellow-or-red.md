@@ -2,7 +2,7 @@
 title: Elasticsearch索引狀態為「黃色」或「紅色」
 description: 本文提供當Elasticsearch索引狀態不是'*green*'時的修正。 '*yellow*'代表正常，而'*red*'代表錯誤。 「黃色」或「紅色」狀態可能會與缺少產品或顯示舊產品資訊同時出現。
 exl-id: 27689511-6a41-41a9-8dda-a627d2f65263
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '283'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 將在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中移除[MySQL目錄搜尋引擎。 您必須先安裝並設定Elasticsearch主機，才能安裝2.4.0版。請參閱[安裝及設定Elasticsearch](https://devdocs.magento.com/guides/v2.3/config-guide/elasticsearch/es-overview.html)。
+> 將在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中移除[MySQL目錄搜尋引擎。 您必須先安裝並設定Elasticsearch主機，才能安裝2.4.0版。請參閱[安裝及設定Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 文章針對Elasticsearch索引狀態不是&#39;*綠色*&#39;時提供修正。 &#39;*黃色*&#39;表示正常，而&#39;*紅色*&#39;表示錯誤。 「黃色」或「紅色」狀態可能會與缺少產品或顯示舊產品資訊同時出現。
 

@@ -4,7 +4,7 @@ description: 本文提供當頁面快取準備就緒，但部署停滯或網站�
 exl-id: c91d5c1f-95e6-4240-be98-2acea49ae728
 feature: Cache, Variables
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
@@ -37,8 +37,8 @@ ht-degree: 0%
 
 ## 解決方案
 
-限制快取預熱期間同時連線的數量。 這需要新增`WARM_UP_CONCURRENCY`部署後變數，以指定快取熱身指令碼可同時傳送的熱身要求數目。 設定此選項有助於管理Adobe Commerce雲端基礎結構的負載。 如需相關步驟，請參閱我們的開發人員檔案中的[Post-deploy變數> WARM\_UP\_CONCURRENCY](https://devdocs.magento.com/cloud/env/variables-post-deploy.html#warm_up_concurrency)。
+限制快取預熱期間同時連線的數量。 這需要新增`WARM_UP_CONCURRENCY`部署後變數，以指定快取熱身指令碼可同時傳送的熱身要求數目。 設定此選項有助於管理Adobe Commerce雲端基礎結構的負載。 如需相關步驟，請參閱我們的開發人員檔案中的[部署後變數> WARM\_UP\_CONCURRENCY](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-post-deploy#warm_up_concurrency)。
 
 ## 相關閱讀
 
-使用手冊中的[全頁快取](https://docs.magento.com/user-guide/system/cache-full-page.html)
+使用手冊中的[全頁快取](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching)

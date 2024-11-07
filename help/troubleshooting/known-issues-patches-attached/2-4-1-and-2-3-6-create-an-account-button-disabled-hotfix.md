@@ -4,7 +4,7 @@ description: 當您在表單上的任何欄位中輸入不正確的值後，難�
 exl-id: e6e65ede-8156-4e2b-b369-b18395bb3dbf
 feature: Customer Service
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 0%
@@ -57,4 +57,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [GitHub Adobe Commerce >提交無效的建立帳戶表單會使提交按鈕停用](https://github.com/magento/magento2/issues/30513)
-* [Adobe Commerce使用手冊>快速入門>建立帳戶](https://docs.magento.com/user-guide/magento/magento-account-create.html)
+* [Adobe Commerce使用手冊>快速入門>建立帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create)

@@ -4,7 +4,7 @@ description: '''本文提供[!UICONTROL Commerce Admin]登入問題的可能解�
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
-source-git-commit: 3f205b1d755bda7056f47bf1e1d036feb47ebadd
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 ### 變更工作階段存放區
 
-請嘗試變更工作階段存放區。 使用開發人員檔案中[如何尋找您的工作階段檔案](https://devdocs.magento.com/guides/v2.3/config-guide/sessions.html)文章中的資訊，找出您的工作階段儲存位置，並編輯`app/etc/env.php`檔案加以變更。
+請嘗試變更工作階段存放區。 使用開發人員檔案中[如何尋找您的工作階段檔案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/session-storage/sessions)文章中的資訊，找出您的工作階段儲存位置，並編輯`app/etc/env.php`檔案加以變更。
 
 例如，若要開始將工作階段儲存在檔案系統中，請變更`'session'`區段，如下所示：
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 從開發人員檔案中的組態檔[匯入資料](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-config-mgmt-import.html)
+* 從開發人員檔案中的組態檔[匯入資料](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/import-configuration)
 * 在開發人員檔案中[設定 [!DNL Redis]](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
 * [重新導向回[!UICONTROL Commerce Admin]登入表單，在我們的支援知識庫中出現「您的帳戶已暫時停用」錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error)
 * [嘗試登入我們的支援知識庫中的[!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)時，重新導向回登入表單，沒有發生錯誤

@@ -4,7 +4,7 @@ description: MDVA-40619修補程式解決CMS頁面階層變更中斷CMS頁面內
 exl-id: c003d845-1ba0-49c0-9f1a-a4b0ec00f30c
 feature: CMS
 role: Admin
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
@@ -27,11 +27,11 @@ MDVA-40619修補程式解決CMS頁面階層變更中斷CMS頁面內嵌編輯並�
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://devdocs.magento.com/quality-patches/tool.html#patch-grid)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
-CMS頁面階層變更會中斷CMS頁面內嵌編輯，並擲回「500錯誤」。
+CMS頁面階層變更中斷CMS頁面內嵌編輯並擲回「500錯誤」。
 
 <u>要再現的步驟</u>：
 
@@ -40,7 +40,7 @@ CMS頁面階層變更會中斷CMS頁面內嵌編輯，並擲回「500錯誤」�
 1. 取消勾選「使用父節點階層」。
 1. 手動選取頁面，然後按一下&#x200B;**儲存**。
 1. 然後前往&#x200B;**內容** > **頁面**。
-1. 嘗試從網格編輯任何CMS頁面。
+1. 嘗試從格線編輯任何CMS頁面。
 1. 按一下&#x200B;**儲存**。
 
 <u>預期結果</u>：
@@ -59,8 +59,8 @@ CMS頁面階層變更會中斷CMS頁面內嵌編輯，並擲回「500錯誤」�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching/mqp.html)。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相關閱讀
 

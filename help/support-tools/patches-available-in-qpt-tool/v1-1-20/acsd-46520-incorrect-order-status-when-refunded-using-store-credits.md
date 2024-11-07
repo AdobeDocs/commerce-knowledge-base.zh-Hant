@@ -4,7 +4,7 @@ description: 本文提供解決方案，解決使用商店積分退款時，使�
 exl-id: 8464df22-0223-4ded-a15f-ce06eacdf77c
 feature: Orders, Returns
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ACSD-46520修補程式可解決使用者使用商店積分退款時，訂單狀�
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
 * Adobe Commerce或[!DNL Magento Open Source]內部部署： [品質修補工具>使用狀況](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) （在品質修補工具指南中）。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://devdocs.magento.com/cloud/project/project-patch.html)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相關閱讀
 

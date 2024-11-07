@@ -4,7 +4,7 @@ description: 本文會討論一些常見的MySQL問題（緩慢查詢、流程�
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -80,5 +80,5 @@ ht-degree: 0%
 
 * 在dev.mysql.com中[MySQL Show Processlist語法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
 * dev.mysql.com中的[MySQL Kill語法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
-* 在開發人員檔案中[安全性、效能和資料處理](https://devdocs.magento.com/guides/v2.3/ext-best-practices/extension-coding/security-performance-data-bp.html)。
-* 在開發人員檔案中[MySQL說明](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/mysql.html)。
+* 在開發人員檔案中[安全性、效能和資料處理](https://developer.adobe.com/commerce/php/best-practices/extensions/security/)。
+* 在開發人員檔案中[MySQL說明](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。

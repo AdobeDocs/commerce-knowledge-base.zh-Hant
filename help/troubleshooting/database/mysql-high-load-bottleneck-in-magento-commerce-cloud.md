@@ -4,7 +4,7 @@ description: 此主題討論當MySQL的高負載在雲端基礎結構的Adobe Co
 exl-id: c1f9d282-41d8-4850-8a24-336d55aa3140
 feature: Cloud, Observability, Paas, Services
 role: Developer
-source-git-commit: 075f55b94202f75839abd25bd47824eeb5226485
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '864'
 ht-degree: 0%
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 * 雲端基礎結構2.x.x、Pro帳戶上的Adobe Commerce。
 
-### 必要條件
+### 先決條件
 
 * ECE工具2002.0.16版及更新版本
 * New Relic APM服務(**您的Adobe Commerce on cloud infrastructure帳戶包含New Relic APM服務的軟體**&#x200B;以及授權金鑰。)
 
-如需有關New Relic APM服務及其在雲端基礎結構帳戶上使用您Adobe Commerce設定的詳細資訊，請前往[New Relic服務](https://devdocs.magento.com/guides/v2.3/cloud/project/new-relic.html)和[New Relic APM簡介](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/)。
+如需有關New Relic APM服務及其在雲端基礎結構帳戶上使用您Adobe Commerce設定的詳細資訊，請前往[New Relic服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)和[New Relic APM簡介](https://docs.newrelic.com/docs/apm/new-relic-apm/getting-started/introduction-apm/)。
 
 ## 問題
 
@@ -61,7 +61,7 @@ Adobe Commerce可以非同步讀取多個資料庫或Redis。 將值`MYSQL_USE_S
 
    ![KB-372_image004.png](assets/KB-372_image004.png)
 
-   您可以在DevDocs](https://devdocs.magento.com/cloud/env/variables-deploy.html#mysql_use_slave_connection)中的[部署變數中找到更多詳細資料。
+   您可以在DevDocs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)中的[部署變數中找到更多詳細資料。
 
 1. 提交變更並推送變更。
 1. 推送變更將會起始新的部署流程。 部署成功完成後，您應該將雲端基礎結構執行個體上的Adobe Commerce設定為使用從屬連線。
@@ -70,7 +70,7 @@ Adobe Commerce可以非同步讀取多個資料庫或Redis。 將值`MYSQL_USE_S
 
 以下是當您考慮在雲端基礎結構存放區上為Adobe Commerce使用僕站連線功能時可能會詢問的常見問題。
 
-* 使用從屬連線是否有任何已知問題或限制？ **我們沒有任何使用從屬連線的已知問題。 只要確定您使用的是最近更新的ece-tools套件。 這裡有[如何更新您的ece-tools套件](https://devdocs.magento.com/cloud/project/ece-tools-update.html)的說明。**
+* 使用從屬連線是否有任何已知問題或限制？ **我們沒有任何使用從屬連線的已知問題。 只要確定您使用的是最近更新的ece-tools套件。 這裡有[如何更新您的ece-tools套件](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)的說明。**
 * 使用從屬連線時是否有額外的延遲？ *是的，跨可用區(Cross-Availability Zones)延遲較高，在執行個體未超載且可以承載整個負載的情況下，會降低Adobe Commerce在雲端基礎結構執行個體上的效能。 但很明顯地，如果執行個體超載 — 主從式將負載分散到MySQL資料庫或Redis上的不同節點，有助於提高效能。*
 
   **在非多載叢集上** - **從屬連線會減慢10-15%**&#x200B;的效能，這是不預設的原因之一。
@@ -82,9 +82,9 @@ Adobe Commerce可以非同步讀取多個資料庫或Redis。 將值`MYSQL_USE_S
 
 在我們的開發人員檔案中：
 
-* [部署變數](https://devdocs.magento.com/cloud/env/variables-deploy.html)。
-* [設定選擇性資料庫復寫](https://devdocs.magento.com/guides/v2.3/config-guide/multi-master/multi-master_slavedb.html)。
-* [ece-tools封裝](https://devdocs.magento.com/cloud/reference/ece-tools-reference.html)。
+* [部署變數](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy)。
+* [設定選擇性資料庫復寫](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master-replication)。
+* [ece-tools封裝](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/package-overview)。
 
 >[!NOTE]
 >

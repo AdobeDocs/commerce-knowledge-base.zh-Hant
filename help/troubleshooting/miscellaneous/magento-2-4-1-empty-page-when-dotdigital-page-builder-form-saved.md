@@ -4,7 +4,7 @@ description: 針對Adobe Commerce 2.4.1中的已知問題，本文提供因應�
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [什麼是頁面產生器？](https://devdocs.magento.com/page-builder/docs/)於我們的開發人員檔案。
+* [什麼是頁面產生器？](https://developer.adobe.com/commerce/frontend-core/page-builder/)於我們的開發人員檔案。
 * 在開發人員檔案中[頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)。
-* 使用手冊中的[頁面產生器](https://docs.magento.com/user-guide/cms/page-builder.html)。
-* [頁面產生器 — 使用手冊中的元素](https://docs.magento.com/user-guide/cms/page-builder-elements.html)。
+* 使用手冊中的[頁面產生器](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction)。
+* [頁面產生器 — 使用手冊中的元素](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements)。

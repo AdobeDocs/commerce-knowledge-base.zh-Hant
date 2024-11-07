@@ -4,7 +4,7 @@ description: '本文說明如何在Commerce管理員中清除快取時，識別�
 exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 0%
@@ -60,4 +60,4 @@ ls: cannot access 'pub/media/catalog/product/cache/directory/filename/': No such
 
 ## 相關閱讀
 
-* 在開發人員檔案中[快取管理](https://docs.magento.com/user-guide/system/cache-management.html)。
+* 在開發人員檔案中[快取管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management)。

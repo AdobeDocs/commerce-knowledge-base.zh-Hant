@@ -4,7 +4,7 @@ description: 本文提供使用者在驗證Fastly憑證時發生錯誤問題的�
 exl-id: 02104731-6666-47a6-abc6-215812f09915
 feature: Configuration
 role: Developer
-source-git-commit: 831a928dbe8fd6b37f3fe9ad5dc35ee80e11a578
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 0%
@@ -22,11 +22,11 @@ ht-degree: 0%
 ## 受影響的產品和版本
 
 * Adobe Commerce （所有部署方法）：所有版本
-* 擴充功能或技術(Fastly、New Relic等) Fastly版本
+* 擴充功能或技術(Fastly、New Relic等)版本Fastly
 
 ## 解決方案
 
-1. 請確定您具有正確的Fastly服務ID和API權杖，然後嘗試重新驗證。 如需詳細指示，請參閱我們的開發人員檔案中的[測試Fastly認證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)。
+1. 請確定您具有正確的Fastly服務ID和API權杖，然後嘗試重新驗證。 如需詳細指示，請參閱我們的開發人員檔案中的[測試Fastly認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)。
 1. 如果認證驗證失敗，請執行下列curl命令以確認服務的狀態：
 
    ```curl
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## 開發人員檔案中的相關閱讀：
 
-* [Adobe Commerce雲端> Fastly > Fastly服務帳戶和認證](https://devdocs.magento.com/cloud/cdn/cloud-fastly.html#fastly-service-account-and-credentials)
+* [Adobe Commerce雲端> Fastly > Fastly服務帳戶和認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly#fastly-service-account-and-credentials)
 
-* [Cloud for Adobe Commerce >設定Fastly >測試Fastly認證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#test-the-fastly-credentials)
+* [Cloud for Adobe Commerce >設定Fastly >測試Fastly認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)

@@ -4,7 +4,7 @@ description: 本文會討論當您嘗試使用Web安裝精靈來更新/安裝Ado
 exl-id: 85e55ed8-0bc9-4378-b722-46be98ce2638
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 解決方案
 
-若要解決此問題，請參閱是否有包含檔案和子目錄的`<magento_root>/update`目錄。 否則，請參閱我們的開發人員檔案中的[設定更新程式](https://devdocs.magento.com/guides/v2.3/comp-mgr/updater/update-updater.html)。
+若要解決此問題，請參閱是否有包含檔案和子目錄的`<magento_root>/update`目錄。 否則，請參閱我們的開發人員檔案中的[設定更新程式](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error)。

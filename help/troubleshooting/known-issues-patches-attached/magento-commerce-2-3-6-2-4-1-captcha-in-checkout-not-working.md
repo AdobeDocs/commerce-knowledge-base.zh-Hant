@@ -4,7 +4,7 @@ description: 本文提供在Adobe Commerce中使用Paypal Express、Payflow Pro�
 exl-id: 46ab7f4d-ee0a-4cc1-96cc-6eb408319e9c
 feature: Checkout, Orders
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 適用於Adobe Commerce 2.3.6</u>的<u>：
 
-* [Adobe Commerce 2.3.6發行說明：已知問題](https://devdocs.magento.com/guides/v2.3/release-notes/commerce-2-3-6.html#known-issues)
-* [Magento Open Source2.3.6發行說明：已知問題](https://devdocs.magento.com/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
+* [Adobe Commerce 2.3.6發行說明：已知問題](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/commerce-2-3-6.html)
+* [Magento Open Source2.3.6發行說明：已知問題](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/open-source-2-3-6.html#known-issues)
 
 適用於Adobe Commerce 2.4.1</u>的<u>：
 
-* [Adobe Commerce 2.4.1發行說明：已知問題](https://devdocs.magento.com/guides/v2.4/release-notes/commerce-2-4-1.html#known-issues)
-* [Magento Open Source2.4.1發行說明：已知問題](https://devdocs.magento.com/guides/v2.4/release-notes/open-source-2-4-1.html#known-issues)
+* [Adobe Commerce 2.4.1發行說明：已知問題](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/adobe-commerce/2-4-1#known-issues)
+* [Magento Open Source2.4.1發行說明：已知問題](https://experienceleague.adobe.com/en/docs/commerce-operations/release/notes/magento-open-source/2-4-1#known-issues)
 
 ## 受影響的產品和版本
 
@@ -83,4 +83,4 @@ ht-degree: 0%
 
 <u>Git修補程式</u>
 
-如需Adobe Commerce/Magento Open Source的Git修補程式指示，請參閱開發人員檔案[套用修補程式：自訂修補程式](https://devdocs.magento.com/guides/v2.4/comp-mgr/patching.html#custom-patches)。
+如需Adobe Commerce/Magento Open Source的Git修補程式指示，請參閱開發人員檔案[套用修補程式：自訂修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview#custom-patches)。

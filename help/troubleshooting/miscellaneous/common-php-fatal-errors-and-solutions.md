@@ -4,7 +4,7 @@ description: 本文列出您在檢視Adobe Commerce記錄檔時可以找到的�
 exl-id: 3e42d38f-97bc-4d38-8e36-23b1453f81d9
 feature: Support
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 `max_execution_time = 120`
 
-請參閱[自訂php.ini設定](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)文章。
+請參閱[自訂php.ini設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 範例
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-自訂您的`php.ini`設定。 請參閱此[自訂php.ini設定](https://devdocs.magento.com/cloud/project/magento-app-php-ini.html)文章。
+自訂您的`php.ini`設定。 請參閱此[自訂php.ini設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 範例
 
@@ -65,9 +65,9 @@ MySQL環境的磁碟空間已用完。 為MySQL環境提供更多磁碟空間。
 
 在我們的開發人員檔案中：
 
-* [PHP設定錯誤](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html)
-* [必要的PHP設定](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-settings.html)
-* [Redis驗證](https://devdocs.magento.com/guides/v2.3/config-guide/redis/redis-session.html#redis-verify)
-* [設定Redis](https://devdocs.magento.com/guides/v2.3/config-guide/redis/config-redis.html)
-* [PHP記憶體限制錯誤](https://devdocs.magento.com/guides/v2.3/install-gde/trouble/php/tshoot_php-set.html#trouble-php-memory)
-* [常見問題的解決方案 — 記憶體限制](https://devdocs.magento.com/guides/v2.3/test/unit/unit_test_execution_cli.html#solutions-to-common-problems)
+* [PHP設定錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [必要的PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis驗證](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [設定Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP記憶體限制錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [常見問題的解決方案 — 記憶體限制](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

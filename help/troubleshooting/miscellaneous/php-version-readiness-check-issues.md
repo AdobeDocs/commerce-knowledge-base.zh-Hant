@@ -4,9 +4,9 @@ description: 本文介紹使用Web安裝精靈在內部部署Adobe Commerce安�
 exl-id: dee939cf-b9b2-4750-965c-5b8908a4498d
 feature: Variables
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ### 解決方案
 
-若要解決此問題，請使用開發人員檔案[2.3.x系統需求](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)和[2.2.x系統需求](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)中列出的支援版本之一。
+若要解決此問題，請使用開發人員檔案[2.3.x系統需求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)和[2.2.x系統需求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)中列出的支援版本之一。
 
 ## PHP整備檢查不顯示
 
@@ -43,7 +43,7 @@ PHP整備檢查不會顯示PHP版本，如下圖所示。
 
 ### 解決方案
 
-這是cron作業設定不正確的症狀。 如需詳細資訊，請參閱我們的開發人員檔案中的[設定cron工作](https://devdocs.magento.com/guides/v2.3/install-gde/install/post-install-config.html#post-install-cron)。
+這是cron作業設定不正確的症狀。 如需詳細資訊，請參閱我們的開發人員檔案中的[設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 ## PHP版本不正確
 
@@ -62,8 +62,7 @@ PHP整備檢查不會顯示PHP版本，如下圖所示。
 * 重新啟動Web伺服器或php-fm。
 * 檢查`$PATH`環境變數以取得多個PHP路徑。
 * 使用`which php`命令找出您路徑中的第一個PHP可執行檔；如果不正確，請移除它或建立指向正確PHP版本的符號連結。
-* 使用[`phpinfo.php`](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/optional.html#install-optional-phpinfo)頁面來收集更多資訊。
+* 使用[`phpinfo.php`](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software)頁面來收集更多資訊。
 * 請根據我們的系統需求，在我們的開發人員檔案中確定您執行的是支援的PHP版本：
-   * [Adobe Commerce 2.3.x系統需求](https://devdocs.magento.com/guides/v2.3/install-gde/system-requirements.html)
-   * [Adobe Commerce 2.2.x系統需求](https://devdocs.magento.com/guides/v2.2/install-gde/system-requirements.html)
-* 為PHP命令列和PHP Web伺服器外掛程式設定相同的PHP設定，如開發人員檔案中的[PHP組態選項](https://devdocs.magento.com/guides/v2.3/install-gde/prereq/php-centos-ubuntu.html)中所述。
+   * [Adobe Commerce系統需求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
+* 為PHP命令列和PHP Web伺服器外掛程式設定相同的PHP設定，如開發人員檔案中的[PHP組態選項](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements#php-settings)中所述。

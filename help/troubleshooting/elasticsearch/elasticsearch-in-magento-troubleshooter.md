@@ -3,7 +3,7 @@ title: Adobe Commerce疑難排解員中的Elasticsearch
 description: Adobe Commerce上的Elasticsearch問題可使用Elasticsearch疑難排解器工具來解決。 按一下每個問題以顯示疑難排解員每個步驟的答案。
 exl-id: acae0da0-2918-4021-9fbe-c138940c5a72
 feature: Categories
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 0%
@@ -100,7 +100,7 @@ b.否 — 如果目錄搜尋的狀態是&#x200B;_需要重新索引_，請在CLI
 
 +++**`.yaml`檔案最近更新？**
 
-a.是 — 參考DevDocs檢查`.yaml`Elasticsearch設定[設定Elasticsearch：啟用Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=elastic%20search%20yaml)。\
+a.是 — 參考DevDocs檢查`.yaml`Elasticsearch設定[設定Elasticsearch：啟用Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。\
 b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 +++
@@ -131,7 +131,7 @@ b.否 — 繼續執行[步驟12](#step-12)。
 
 +++**儲存空間使用量> 85%？**
 
-a.是 — 您需要增加可用儲存空間。 請參閱DevDocs[設定Elasticsearch：啟用Elasticsearch](https://devdocs.magento.com/cloud/project/project-conf-files_services-elastic.html?itm_source=devdocs&amp;itm_medium=search_page&amp;itm_campaign=federated_search&amp;itm_term=elastic%20search%20yaml)。 然後執行： `localhost:9200/_cat/allocation?v` （如果您在Pro測試或生產環境中）。 如果您在其中一個整合環境（包括所有Starter分支）執行： `elasticsearch.internal:9200/_cat/allocation?v`。 繼續進行[步驟11](#step-11)。\
+a.是 — 您需要增加可用儲存空間。 請參閱DevDocs[設定Elasticsearch：啟用Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。 然後執行： `localhost:9200/_cat/allocation?v` （如果您在Pro測試或生產環境中）。 如果您在其中一個整合環境（包括所有Starter分支）執行： `elasticsearch.internal:9200/_cat/allocation?v`。 繼續進行[步驟11](#step-11)。\
 b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
 +++

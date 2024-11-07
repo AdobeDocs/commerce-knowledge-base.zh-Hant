@@ -3,7 +3,7 @@ title: 在雲端基礎結構上重設Adobe Commerce的環境
 description: 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 598459365cad811966ed529356cb9ab876f49a38
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1093'
 ht-degree: 0%
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 ## 案例2：還原快照
 
-閱讀：在開發人員檔案中[在雲端基礎結構上還原Adobe Commerce上的快照](https://devdocs.magento.com/cloud/project/project-webint-snap.html#restore-snapshot)。
+閱讀：在開發人員檔案中[在雲端基礎結構上還原Adobe Commerce上的快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
 
 >[!NOTE]
 >
 >在雲端基礎結構帳戶上存取Adobe Commerce之後以及套用重大變更之前，建立快照必須是我們的第一步。 此為最佳實務，強烈建議使用。
 
-閱讀：在開發人員檔案中建立[快照](https://devdocs.magento.com/cloud/project/project-webint-snap.html#create-snapshot)。
+閱讀：在開發人員檔案中建立[快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
 
 ## 案例3：沒有快照、建置穩定（可用SSH連線）
 

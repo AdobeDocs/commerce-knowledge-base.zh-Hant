@@ -4,7 +4,7 @@ description: 本文說明如何解決停用某些Adobe Commerce快取型別所�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 首先，檢查Adobe Commerce快取的狀態，看看這是否為問題。 為此，請[SSH至您的環境](https://devdocs.magento.com/cloud/env/environments-ssh.html#ssh)，然後執行下列命令：
+1. 首先，檢查Adobe Commerce快取的狀態，看看這是否為問題。 為此，請[SSH至您的環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)，然後執行下列命令：
 
    ```bash
    php bin/magento cache:status
@@ -47,8 +47,8 @@ ht-degree: 0%
 
 開發人員檔案中的Adobe Commerce快取檔案：
 
-* [Adobe Commerce快取總覽](https://devdocs.magento.com/guides/v2.3/frontend-dev-guide/cache_for_frontdevs.html)
-* [管理快取](https://devdocs.magento.com/guides/v2.3/config-guide/cli/config-cli-subcommands-cache.html)
+* [Adobe Commerce快取總覽](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
+* [管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 造成效能問題的其他可能原因和解決方案：
 

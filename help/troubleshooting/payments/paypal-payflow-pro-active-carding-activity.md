@@ -4,7 +4,7 @@ description: 2019年4月2日更新
 exl-id: 9fe73788-5b67-445a-9b0d-86489125d271
 feature: Cache, Orders, Payments
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 0%
@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 安裝套件後，請依照以下檔案所述設定Google reCAPTCHA （建議）或驗證碼：
 
-* 使用手冊中的[Google reCAPTCHA](https://docs.magento.com/user-guide/stores/security-google-recaptcha.html)。
-* 使用手冊中的[驗證碼](https://docs.magento.com/user-guide/stores/security-captcha.html)。
+* 使用手冊中的[Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha)。
+* 使用手冊中的[驗證碼](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha)。
 
 新的結帳表單選項為：
 

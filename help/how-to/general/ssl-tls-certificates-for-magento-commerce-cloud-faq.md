@@ -3,7 +3,7 @@ title: 雲端基礎結構上Adobe Commerce的SSL (TLS)憑證
 description: 本文提供在我們的雲端基礎結構上取得您Adobe Commerce網站的SSL (TLS)憑證相關問題的快速解答。
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: 43c3e5f95c4b54e235140cd5b3978d3887af5ee1
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Adobe提供網域驗證的[讓我們加密SSL/TLS憑證](https://letsencrypt.org
 
 案例1
 
-如果您尚未啟動網站，您可能會收到客戶技術顧問(CTA)提供的ACME Challenge CNAME。 如果您無法立即將DNS指向您的生產URL，而且需要預先建立SSL憑證，則您只需要ACME質詢。
+如果您尚未啟動網站，您可能會收到客戶技術顧問(CTA)提供的ACME挑戰CNAME。 如果您無法立即將DNS指向您的生產URL，而且需要預先建立SSL憑證，則您只需要ACME質詢。
 
 案例2
 
@@ -47,7 +47,7 @@ Adobe提供網域驗證的[讓我們加密SSL/TLS憑證](https://letsencrypt.org
 
 不過，此程式需要額外的設定和維護工作。 您首先需要產生網站網域名稱（或一般名稱）的憑證申請檔(CSR)，然後將其提供給您的SSL供應商以提供SSL憑證。
 
-取得SSL憑證後，請提交[Adobe Commerce支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，或與您的CTA合作將自訂裝載的憑證新增至您的雲端環境。
+取得SSL憑證後，請提交[Adobe Commerce支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，或搭配您的CTA將自訂裝載的憑證新增至您的雲端環境。
 
 * 如果網域已不再使用，系統會自動清除這些網域，您就不需要採取任何進一步的動作。
 * 如果您已經擁有憑證，請使用SFTP （SSH檔案傳輸通訊協定）使用者端將其上傳到伺服器上無法存取Web的檔案位置，並[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，讓他們知道檔案路徑。
@@ -67,7 +67,7 @@ SSL憑證的名稱僅對主要URL重要，它是由第一個URL命名的主要�
 
 ## 我可以使用萬用字元TLS憑證嗎？
 
-萬用字元TLS憑證只能與您的自訂憑證搭配使用，而不能與Adobe Commerce Let&#39;s Encrypt憑證搭配使用。 作為我們TLS最佳化的一部分，Adobe即將終止對萬用字元TLS憑證的支援。 我們正在識別並連絡使用萬用字元憑證搭配Adobe的Let&#39;s Encrypt憑證並在Adobe Commerce的[!DNL Fastly]主控台中設定的商家。 我們要求將這些萬用字元憑證取代為確切的網域，以確保TLS涵蓋範圍。 若要取代萬用字元TLS憑證，請造訪[!DNL Fastly]外掛程式的[網域區段](https://devdocs.magento.com/cloud/cdn/configure-fastly-customize-cache.html#manage-domains)。 從這裡，可以新增確切的網域，並移除萬用字元。 請注意，DNS必須指向[!DNL Fastly]，這些新網域才能透過CDN路由。 新增網域並更新DNS之後，將會布建相符的[Let&#39;s Encrypt](https://letsencrypt.org/)憑證。 如果您未使用萬用字元移除指向[!DNL Fastly]的網域，Adobe將會刪除共用憑證。 如果您未設定URL FQDN並在DNS中設定相同的URL FQDN，這可能會導致網站中斷。 因此，您應該確認設定的URL在其DNS中也有指向[!DNL Fastly]的一對一相符專案。
+萬用字元TLS憑證只能與您的自訂憑證搭配使用，而不能與Adobe Commerce Let&#39;s Encrypt憑證搭配使用。 作為我們TLS最佳化的一部分，Adobe即將終止對萬用字元TLS憑證的支援。 我們正在識別並連絡使用萬用字元憑證搭配Adobe的Let&#39;s Encrypt憑證並在Adobe Commerce的[!DNL Fastly]主控台中設定的商家。 我們要求將這些萬用字元憑證取代為確切的網域，以確保TLS涵蓋範圍。 若要取代萬用字元TLS憑證，請造訪[!DNL Fastly]外掛程式的[網域區段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)。 從這裡，可以新增確切的網域，並移除萬用字元。 請注意，DNS必須指向[!DNL Fastly]，這些新網域才能透過CDN路由。 新增網域並更新DNS之後，將會布建相符的[Let&#39;s Encrypt](https://letsencrypt.org/)憑證。 如果您未使用萬用字元移除指向[!DNL Fastly]的網域，Adobe將會刪除共用憑證。 如果您未設定URL FQDN並在DNS中設定相同的URL FQDN，這可能會導致網站中斷。 因此，您應該確認設定的URL在其DNS中也有指向[!DNL Fastly]的一對一相符專案。
 
 ## 如果我的網域不再指向Adobe Commerce，怎麼辦？
 
@@ -75,4 +75,4 @@ SSL憑證的名稱僅對主要URL重要，它是由第一個URL命名的主要�
 
 ## 相關閱讀
 
-在開發人員檔案中[布建SSL/TLS憑證](https://devdocs.magento.com/cloud/cdn/configure-fastly.html#provision-ssltls-certificates)
+在開發人員檔案中[布建SSL/TLS憑證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)

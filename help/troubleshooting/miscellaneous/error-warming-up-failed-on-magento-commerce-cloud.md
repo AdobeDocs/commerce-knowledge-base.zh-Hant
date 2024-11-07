@@ -4,7 +4,7 @@ description: 「本文提供頁面快取正在預熱且失敗並出現錯誤時�
 exl-id: 20a88030-b1c9-4fdc-83c1-f344d44cd2e1
 feature: Cache, Cloud, Paas
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 0%
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Adobe Commerce使用手冊>完整頁面快取](https://docs.magento.com/user-guide/system/cache-full-page.html) （在我們的使用手冊中）。
+* [Adobe Commerce使用手冊>完整頁面快取](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) （在我們的使用手冊中）。
 * 我們的支援知識庫中的[快取準備和網站無法在Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上使用。
