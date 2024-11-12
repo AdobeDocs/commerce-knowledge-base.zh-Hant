@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d197baf1644dd734880e6e36d6cf477bad3b1170
+source-git-commit: 03dfb2423e5cdb4e7f87e1e1f05a8261f3b4e602
 workflow-type: tm+mt
-source-wordcount: '9597'
+source-wordcount: '9587'
 ht-degree: 0%
 
 ---
@@ -961,7 +961,6 @@ ht-degree: 0%
       * [啟用Braintree付款時，管理員無法建立訂單/重新訂單](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [編輯排程更新的結束日期後，目錄表格中出現重複的專案](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
       * [Adobe Commerce 2.3.5、2.3.5-p1修補程式：國家/地區付款問題](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-      * [Adobe Commerce 2.4.0修補程式：傳回送貨標籤建立問題](/help/troubleshooting/known-issues-patches-attached/magento-2-4-0-patch-returns-shipping-label-creation-issue.md)
       * [在購物車中按兩下「移除連結」後出現「500錯誤」](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [從2.4.4升級至2.4.4-p1後，套件已降級](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6、2.4.1在簽出的驗證碼無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
