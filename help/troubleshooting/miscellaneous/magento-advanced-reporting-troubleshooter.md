@@ -4,7 +4,7 @@ description: 使用此疑難排解工具可解決Adobe Commerce上的進階報�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -46,7 +46,7 @@ b.否 — 輸出只顯示一種貨幣。 範例： `USD`。 是否曾經使用�
 
 您是否使用[分割資料庫方案](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/storage/split-db/multi-master)？
 
-a.是 — 在分割資料庫解決方案](/help/troubleshooting/known-issues-patches-attached/advanced-reporting-404-error-on-split-database-solution.md)的[進階報告404錯誤中使用修補程式&#x200B;**MDVA-26831**&#x200B;並清除快取。 請等待24小時，讓工作再次執行，然後再試一次。\
+a.是 — 對分割資料庫解決方案和清除快取使用進階報告404錯誤的修補程式&#x200B;**MDVA-26831**。 請等待24小時，讓工作再次執行，然後再試一次。\
 b.否 — 繼續進行[步驟4](#step-4)。
 
 +++
