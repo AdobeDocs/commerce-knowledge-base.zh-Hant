@@ -4,9 +4,9 @@ description: 本文針對雲端基礎結構網站上Adobe Commerce內部部署�
 exl-id: 68dfca8a-826c-4476-acaf-a139052b5dcc
 feature: Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 3bcdbd0536ec71cb80ffa3afbcd53c4ae385d2e3
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 有三種解決方案：
 
-* [升級至2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)版。 如果目前無法執行此操作，[請安裝修正問題的修補程式](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)。
+* [升級至2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)版。
 * 確保減少要求（快取要求或移至客戶的私人內容）。
 * 減少請求數量。
 

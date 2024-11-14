@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 692e665558205301f3b7915ce7eb9f3cf0288aff
+source-git-commit: bfbac61b95e895bcea90b6aa2f1190a30de7ba15
 workflow-type: tm+mt
-source-wordcount: '9579'
+source-wordcount: '9559'
 ht-degree: 0%
 
 ---
@@ -965,9 +965,6 @@ ht-degree: 0%
       * [從2.4.4升級至2.4.4-p1後，套件已降級](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6、2.4.1在簽出的驗證碼無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [從伺服器電子郵件地址排序傳送的電子郵件](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [過多Ajax請求導致的效能問題](/help/troubleshooting/known-issues-patches-attached/performance-issues-caused-by-excessive-ajax-requests.md)
-      * [移除中繼更新會刪除相關實體](/help/troubleshooting/known-issues-patches-attached/removing-staging-update-deletes-related-entity.md)
-      * [Google Analytics未追蹤轉換資料](/help/troubleshooting/known-issues-patches-attached/google-analytics-is-not-tracking-conversion-data.md)
       * [Adobe Commerce 2.4.1和2.3.6建立帳戶按鈕停用Hotfix](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Adobe Commerce 2.4.6從管理面板下訂單時發生錯誤](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [從版本&lt; 2.4.5升級時出現[!UICONTROL salesRule]個標籤問題](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
