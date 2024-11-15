@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: bfbac61b95e895bcea90b6aa2f1190a30de7ba15
+source-git-commit: 63664230a110a4ebf37c058e3bde71f6a359ac13
 workflow-type: tm+mt
-source-wordcount: '9559'
+source-wordcount: '9478'
 ht-degree: 0%
 
 ---
@@ -955,17 +955,10 @@ ht-degree: 0%
       * [Adobe Commerce管理員URL位置已公開](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
       * [為相同時段排程多個cron工作](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
       * [無庫存時，未顯示的可設定產品色票會被勾掉](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
-      * [在記錄中出現「完整性限制違規」的儲存區前端目錄頁面出現503錯誤](/help/troubleshooting/known-issues-patches-attached/503-error-on-store-front-catalog-pages-with-integrity-constraint-violation-in-logs.md)
-      * [在管理員中大量刪除期間，刪除的產品比初始的產品多](/help/troubleshooting/known-issues-patches-attached/not-selected-rows-are-deleted-during-mass-action-deletion.md)
-      * [雲端基礎結構上的Adobe Commerce v2.3.5 GraphQL快取失效無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-cloud-v2-3-5-graphql-caching-invalidation-not-working.md)
       * [啟用Braintree付款時，管理員無法建立訂單/重新訂單](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
-      * [編輯排程更新的結束日期後，目錄表格中出現重複的專案](/help/troubleshooting/known-issues-patches-attached/duplicate-entries-in-the-catalogrule-table-after-editing-the-end-date-of-a-schedule-update.md)
-      * [Adobe Commerce 2.3.5、2.3.5-p1修補程式：國家/地區付款問題](/help/troubleshooting/known-issues-patches-attached/magento-2-3-5-2-3-5-p1-patch-country-payment-issue.md)
-      * [在購物車中按兩下「移除連結」後出現「500錯誤」](/help/troubleshooting/known-issues-patches-attached/500-error-after-double-clicking-remove-link-in-shopping-cart.md)
       * [從2.4.4升級至2.4.4-p1後，套件已降級](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
       * [Adobe Commerce 2.3.6、2.4.1在簽出的驗證碼無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [從伺服器電子郵件地址排序傳送的電子郵件](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
-      * [Adobe Commerce 2.4.1和2.3.6建立帳戶按鈕停用Hotfix](/help/troubleshooting/known-issues-patches-attached/2-4-1-and-2-3-6-create-an-account-button-disabled-hotfix.md)
       * [Adobe Commerce 2.4.6從管理面板下訂單時發生錯誤](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [從版本&lt; 2.4.5升級時出現[!UICONTROL salesRule]個標籤問題](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
       * [2.4.4、2.4.5和2.4.6版的[!DNL JQuery UI]安全性漏洞 [!DNL CVE-2022-31160] 修正](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
