@@ -4,9 +4,9 @@ description: 疑難排解與維護Commerce商店所需瞭解的一切。
 exl-id: feacf38f-2803-4170-a64f-5d7c4567432d
 feature: Support
 role: Admin
-source-git-commit: 607b835da518536196654734f62d78d095099476
+source-git-commit: 52d07e5a5bb7be492f6799d0e5ad9fd49c3a61ae
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -43,209 +43,137 @@ ht-degree: 0%
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25075">安全性掃描工具傳回「無法判斷您的伺服器是否使用2FA」：</a>若要解決錯誤，請檢查<code>Magento_TwoFactorAuth</code>模組是否已停用。 若要通過檢查，通常應該啟用。
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25234">因重組而轉讓授權：</a>本文會協助您輕鬆轉換您的Adobe Commerce帳戶擁有權，包括讓您的服務順利執行所需的所有必要步驟。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60632-address-saved-on-every-order-attempt">ACSD-60632：每次嘗試訂購時儲存的地址：</a> ACSD-60632修補程式修正每次嘗試訂購時儲存新地址的問題，無論是否成功建立訂單。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25289">Adobe Commerce可用的安全性更新(APSB24-90)：</a>在2024年11月12日，Adobe發行了Adobe Commerce的安全性更新（雲端與內部部署）以及由Commerce服務提供支援並部署為SaaS （軟體即服務）的Magento Open Source功能。 此更新解決<a href="https://helpx.adobe.com/security/severity-ratings.html">嚴重</a>的弱點。 
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60326-graphql-query-error-customer-return-status">ACSD-60326：關於客戶退貨狀態的GraphQL查詢發生錯誤：</a> ACSD-60326修補程式修正了GraphQL查詢中針對客戶退貨狀態發生錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231">MageID帳戶擁有者無法登入及提交支援票證：</a>本文解決了Adobe Commerce的問題，也就是您無法登入您的帳戶(MageID) (網址為account.magento.com)以提交支援票證。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59925-sorting-items-in-media-gallery">ACSD-59925：在GraphQL中依位置排序媒體集中的專案：</a> ACSD-59925修補程式修正了媒體集中的專案未依位置排序，導致顯示順序不正確的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25135">Adobe Commerce的OOTBBraintree擴充功能無法支援最新的Visa 3DS欄位：</a>本文說明如何遵守新的Visa法規，因為Adobe Commerce現成的Braintree擴充功能無法支援最新的Visa 3DS欄位。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61322-products-not-assigned-to-shared-catalogue">ACSD-61322：未指派給共用目錄的產品包含在XML Sitemap：</a> ACSD-61322修補程式修正未指派給預設（一般）群組之共用目錄的產品/類別仍包含在XML Sitemap中的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-61528-retrieving-roles-using-graphql-returns-no-results">ACSD-61528：使用GraphQL擷取角色未傳回任何結果：</a> ACSD-61528修補程式修正了使用GraphQL從公司管理員擷取角色時，一律會傳回null結果的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.53時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60590-optimized-bestseller-report-generation">ACSD-60590：增強Bestsellers彙總每日報表產生的效能：</a> ACSD-60590修補程式修正Bestsellers彙總每日報表需要大量時間才能產生大量訂購的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-48318-environment-emulation-nesting-error-in-system-log">ACSD-48318： system.log：</a>中的環境模擬巢狀錯誤ACSD-48318修補程式修正了每次傳送發票電子郵件時，<code>system.log</code>中都會出現錯誤訊息<em>main.ERROR：不允許環境模擬巢狀的問題</em>。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.53時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59865-cart-price-rule-fix-for-insufficient-quantity-issue">ACSD-59865：由於產品數量不足，購物車價格規則無法取消先前的規則：</a> ACSD-59865修補程式修正了<em>固定金額折扣</em>、<em>產品價格折扣百分比</em>和<em>購買X取得Y</em>購物車價格規則不再取消先前規則動作的問題。 <em></em>安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59366-delete-teams-with-deactivated-users-not-visible-in-the-team-list">ACSD-59366：刪除團隊清單中看不到已停用使用者的團隊：</a> ACSD-59366修補程式修正了當您嘗試刪除團隊清單中看不到已停用使用者的團隊時，發生錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin">在Admin中篩選訂單時發生錯誤：</a>本文針對Adobe Commerce問題提供修補程式，當嘗試在Admin中依日期篩選訂單時發生錯誤，顯示訊息： <em>完整性條件約束違規： 1052資料行'created_at' where子句模稜兩可</em>。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60234-paypal-shows-an-incorrect-amount-when-discount-is-applied">ACSD-60234：套用折扣時，PayPal顯示的金額不正確：</a>ACSD-60234修補程式修正透過付款方式套用折扣時，[!DNL PayPal]顯示不正確金額的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25030">Adobe Commerce：在內容安全性原則(CSP)限制模式下，結帳頁面出現內嵌JavaScript問題：</a>本文會針對啟用<strong>CSP限制模式</strong>時，透過Adobe Commerce 2.4.7中的Adobe Commerce Admin和Google Tag Manager新增自訂JavaScript，針對結帳時遇到的問題，提供詳細的說明和解決方案。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60673-cart-price-rule-fix-for-multiple-payment-methods-at-checkout">ACSD-60673：針對結帳時多種付款方式修正的購物車價格規則問題：</a> ACSD-60673修補程式修正了使用付款方式條件的[!UICONTROL Cart Price Rule]的折扣不一定會列在總計中的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-61195-empty-cart-on-final-graphql-page">ACSD-61195：購物車GraphQL請求無法在最終頁面上傳回專案：</a> ACSD-61195修補程式修正了在購物車GraphQL請求的最後一頁未傳回購物車專案的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-60584-access-token-created-for-one-website-is-allowed-to-access-information-on-other-websites">ACSD-60584：為一個網站建立的存取權杖可以存取其他網站上的資訊：</a> ACSD-60584修補程式修正了為某個網站的使用者建立的存取權杖可以存取或變更其他網站上的客戶資訊的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.53時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-59514-forms-in-admin-with-page-builder-throw-error-in-browser-console">ACSD-59514：使用頁面產生器的Admin中的Forms在瀏覽器控制檯中擲回錯誤：</a> ACSD-59514修補程式修正了使用頁面產生器的Admin中的表單擲回錯誤<em>頁面產生器在提交表單後持續呈現5秒而未釋放瀏覽器控制檯中的鎖定</em>的問題，且無法儲存變更。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-60788-fixes-issue-where-custom-scripts-for-google-tag-manager-are-not-executed-due-to-content-security-policy-errors">ACSD-60788：由於內容安全性原則錯誤，Google Tag Manager的自訂指令碼未執行：</a> ACSD-60788修補程式修正了因內容安全性原則錯誤而無法執行[!DNL Google Tag Manager]的自訂指令碼的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60538-if-product-is-disabled-attributes-dont-show">ACSD-60538：如果在<em>所有商店檢視中停用產品，則屬性無法正確顯示</em>：</a> ACSD-60538修補程式修正了以下問題：如果產品在<em>所有商店檢視</em>中停用，並且只在特定商店檢視範圍中啟用，則產品屬性無法在GraphQL回應中正確顯示，導致產品無法正確顯示。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-61366-setup-command-fails-with-error">ACSD-61366： <code>bin/magento setup:static-content:deploy --jobs 4</code>命令遇到多個作業失敗並出現錯誤：</a> ACSD-61366修補程式修正了<code>bin/magento setup:static-content:deploy --jobs 4</code>命令遇到多個作業失敗並出現<em>連線埠的問題，必須在主機引數</em>錯誤中設定，儘管已指定DB連線的連線埠。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-50/acsd-58352-return-attribute-labels-for-the-default-store-are-returned-via-graphql-api">ACSD-58352：透過GraphQL API傳回預設存放區的傳回屬性標籤：</a> ACSD-58352修補程式修正了在要求標頭中指定非預設存放區檢視時，透過GraphQL API傳回預設存放區的傳回屬性標籤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-60816-newrelic-browser-monitoring-scripts-injected-by-apm-agent-are-not-compliant-with-csp">ACSD-60816： APM代理程式插入的New Relic瀏覽器監視指令碼與CSP不相容：</a> ACSD-60816修補程式修正了APM代理程式插入的[!DNL New Relic]瀏覽器監視指令碼與內容安全性原則(CSP)不相容的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-24983">您的帳戶中缺少<em>Switch帳戶</em>下拉式清單：</a>本文針對Adobe Commerce問題提供解決方案，您的帳戶中缺少<em>Switch帳戶</em>下拉式清單，而且您失去代表商家提交票證的存取權。
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-52/acsd-59952-error-on-deleting-shared-catalog-with-same-group-id-as-another-shared-catalog">ACSD-59952：刪除與其他共用目錄具有相同群組識別碼的共用目錄時發生錯誤：</a> ACSD-59952修補程式修正刪除與其他共用目錄具有相同之<code>customer_group_id</code>的共用目錄時擲回的錯誤。 它會進一步防止使用者建立這類共用目錄。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.52時，即可使用此修補程式。
     </td>
-    <td>新增文章</td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>  
-    <td>
-    <a href = "https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-56979-product-images-removed-after-staging-update-deleted">ACSD-56979：刪除中繼更新後移除的產品影像：</a>ACSD-56979修補程式修正刪除中繼更新後移除產品影像的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。  
-    </td>
-    <td>新增文章</td>
-    <td>2024年10月17日</td>
+    <td>新增文章 </td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-48210-store-view-specific-scope-attribute-overrides-global-values">ACSD-48210：存放區檢視特定範圍屬性覆寫全域值：</a> ACSD-48210修補程式修正了在特定存放區檢視中更新<em>網站範圍</em>屬性時覆寫全域範圍中屬性值的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59786-graphql-returns-an-error-when-fetching-a-quote-id-for-an-expired-quote">ACSD-59786：擷取過期報價的<code>quote_id</code>時，GraphQL傳回錯誤：</a>ACSD-59786修補程式修正了GraphQL查詢擷取過期報價的<code>quote_id</code>時傳回錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-59280-fix-for-reflection-union-type-error">ACSD-59280： 2.4.4-pX安裝中的ReflectionUnionType：：getName()錯誤：</a> ACSD-59280修補程式修正了在安裝2.4.4-pX版本期間發生呼叫未定義方法<code>ReflectionUnionType::getName()</code>錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-51/acsd-59967-javascript-error-prevents-google-maps-from-rendering-correctly">ACSD-59967： JavaScript錯誤導致Google地圖無法正確呈現：</a> ACSD-59967修補程式修正JavaScript錯誤導致[!DNL Google Maps]無法正確呈現的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.51時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 
 <tr>
     <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-54887-customer-shopping-cart-gets-cleared-after-session-expiry">ACSD-54887：客戶購物車在客戶工作階段過期後會被清除：</a> ACSD-54887修補程式修正了客戶工作階段過期後客戶購物車會被清除的問題，並啟用了<em>永久購物車</em>。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/v1-1-53/acsd-59930-improves-performance-of-company-flows">ACSD-59930：改善公司流程的效能：</a> ACSD-59930修補程式修正建立、儲存或刪除通訊錄中具有1000個以上位址之管理員的公司時，管理面板中顯示<em>逾時</em>錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.53時，即可使用此修補程式。
     </td>
     <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-60303-admin-order-placement-fix">ACSD-60303：啟用HTML縮制後已解決管理員訂單放置問題：</a> ACSD-60303修補程式修正啟用HTML縮制後無法放置管理員訂單的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57045-url-rewrites-cause-infinite-page-looping-after-website-root-unchecked-hierarchy">ACSD-57045： URL重寫造成在<em>網站根目錄</em>從階層取消核取後出現無限頁面回圈：</a> ACSD-57045修補程式修正URL重寫造成在<em>網站根目錄</em>從階層取消核取後出現無限頁面回圈的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/ascd-58446-deleting-a-team-with-child-users-or-teams-via-graphql-gives-an-uninformative-error-message">ACSD-58446：透過GraphQL刪除具有子項使用者或團隊的團隊會產生無資訊的錯誤訊息：</a> ACSD-58446修補程式修正了Adobe Commerce的問題，也就是透過GraphQL刪除具有子項使用者或團隊的團隊時，會傳回與UI不一致的無資訊錯誤訊息。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。 
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-58375-wrong-youtube-api-key-configuration-causes-an-error-when-adding-a-youtube-video-at-the-store-view-level">ACSD-58735：未正確設定的YouTube API金鑰會導致在商店檢視層級新增視訊時發生錯誤：</a> ACSD-58735修補程式修正了在商店檢視層級新增YouTube視訊時，錯誤YouTube API金鑰設定會導致錯誤的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。 
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-49/acsd-57086-orders-placed-from-non-default-websites-with-terms-conditions-processed-incorrectly">ACSD-57086：來自啟用條款與條件之非預設網站的訂單處理不正確：</a> ACSD-57086修補程式修正來自啟用條款與條件之非預設網站的訂單未正確處理的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.49時，即可使用此修補程式。 
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58141-phpsessid-regenerates-on-post-requests-for-logged-in-customers-with-l2-redis-cache-enabled">ACSD-58141：如果已啟用L2 Redis快取，PHPSESSID會在登入客戶的POST要求上重新產生：</a> ACSD-58141修補程式修正了以下問題：如果已啟用L2 Redis快取，且客戶已從Admin更新，則PHPSESSID會在登入客戶的POST要求上重新產生。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58790-fixes-pinch-to-zoom-functionality-on-the-product-detail-page-images-in-mobile-view-on-chrome">ACSD-58790：修正Chrome上行動檢視中產品詳細資料頁面影像的縮放夾功能：</a> ACSD-58790修補程式修正Chrome上行動檢視中的影像未如預期放大影像的Adobe Commerce問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。 
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
-  </tr>
-
-<tr>
-    <td>
-    <a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/patches/v1-1-50/acsd-58442-fixes-issue-devices-768px-mobile-view-instead-desktop">ACSD-58442：修正寬度768px的裝置被視為行動裝置，導致功能表和標題載入行動檢視而非桌上型電腦的問題：</a> ACSD-58442修補程式修正Adobe Commerce裝置寬度768px被視為行動裝置，導致功能表和標題載入行動檢視而非桌上型電腦的問題。 安裝[!DNL Quality Patches Tool (QPT)] 1.1.50時，即可使用此修補程式。
-    </td>
-    <td>新增文章 </td>
-    <td>2024年10月17日</td>
+    <td>2024年11月14日</td>
   </tr>
 </table>
