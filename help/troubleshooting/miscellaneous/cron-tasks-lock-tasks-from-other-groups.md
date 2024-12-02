@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Cron]個任務會鎖定其他群組的任務'
+title: '[!DNL Cron]個任務會鎖定來自其他群組的任務'
 description: 本文針對Adobe Commerce的雲端基礎結構問題，提供解決方案，此問題與某些長期執行的 [!DNL cron] 工作封鎖其他 [!DNL cron] 工作有關。
 exl-id: b5b9e8b3-373c-4f93-af9c-85da84dbc928
 feature: Configuration

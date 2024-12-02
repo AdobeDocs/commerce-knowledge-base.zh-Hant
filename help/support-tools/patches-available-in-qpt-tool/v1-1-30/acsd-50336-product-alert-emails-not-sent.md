@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-50336：產品警報電子郵件未傳送」
+title: ACSD-50336：產品警報電子郵件未傳送
 description: 套用ACSD-50336修補程式以修正Adobe Commerce問題，即當產品重新補充庫存或價格變更時，不會傳送產品警報電子郵件。
 exl-id: 0fc51603-e74d-4ce7-9e67-42826ffbfab2
 feature: Communications, Personalization, Products

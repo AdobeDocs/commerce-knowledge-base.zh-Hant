@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48216：*INVENTORY_source_item*表格的AUTO_INCREMENT在*UPDATE*作業時增加'
+title: ACSD-48216： *INVENTORY_source_item*表格的AUTO_INCREMENT在*UPDATE*作業時增加
 description: 套用ACSD-48216修補程式以修正Adobe Commerce問題，其中inventory_source_item*表格的*AUTO_INCREMENT會隨著*UPDATE*作業而增加。
 exl-id: fb97f240-95c0-479e-ac5a-00f6792374ab
 feature: Admin Workspace, Inventory, Orders

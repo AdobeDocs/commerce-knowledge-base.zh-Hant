@@ -1,5 +1,5 @@
 ---
-title: '[!DNL SendGrid] Adobe Commerce Cloud的檔案限制'
+title: Adobe Commerce Cloud的[!DNL SendGrid]檔案限制
 description: 本文提供Adobe Commerce在雲端基礎結構上 [!DNL SendGrid] 限制的因應措施。
 feature: Deploy, Marketing Tools
 role: Developer, Admin

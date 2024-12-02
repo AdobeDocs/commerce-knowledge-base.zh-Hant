@@ -1,6 +1,6 @@
 ---
-title: 「Adobe Commerce上的受管理警報：Redis記憶體警告警報」
-description: 「本文提供當您在New Relic中收到Adobe Commerce的Redis警告警報時的疑難排解步驟。 需要立即採取行動來解決問題。 根據您選取的警報通知通道，警報看起來類似以下內容：'
+title: Adobe Commerce上的受管理警報： Redis記憶體警告警報
+description: 本文提供當您在New Relic中收到Adobe Commerce的Redis警告警報時的疑難排解步驟。 需要立即採取行動來解決問題。 根據您選取的警報通知通道，警報看起來類似以下內容：
 exl-id: b7867a42-3817-4cb4-93cf-d69acee33a41
 feature: Categories, Marketing Tools, Observability, Services, Support, Tools and External Services, Variables
 role: Admin

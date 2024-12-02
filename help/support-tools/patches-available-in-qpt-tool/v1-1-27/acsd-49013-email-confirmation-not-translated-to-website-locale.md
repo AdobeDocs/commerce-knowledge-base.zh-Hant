@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49013：電子郵件確認未轉譯為網站地區設定'
+title: ACSD-49013：電子郵件確認未轉譯為網站地區設定
 description: 套用ACSD-49013修補程式，修正Adobe Commerce使用大量API建立客戶時，電子郵件確認未轉譯為網站地區設定的問題。
 exl-id: 68203bd4-021a-4736-a793-4b6663a9c66b
 feature: Admin Workspace, Communications

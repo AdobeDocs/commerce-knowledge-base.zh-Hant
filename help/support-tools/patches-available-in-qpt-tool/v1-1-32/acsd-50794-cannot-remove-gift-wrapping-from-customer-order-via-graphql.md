@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50794：無法透過GraphQL從客戶訂單中移除贈品包裝'
+title: ACSD-50794：無法透過GraphQL從客戶訂單中移除贈品包裝
 description: 套用ACSD-50794修補程式，修正Adobe Commerce使用者無法透過GraphQL從客戶訂單中移除贈品包裝的問題。
 exl-id: 4983910c-9ea0-451e-a2b6-81485184bbce
 feature: Gift, GraphQL, Orders

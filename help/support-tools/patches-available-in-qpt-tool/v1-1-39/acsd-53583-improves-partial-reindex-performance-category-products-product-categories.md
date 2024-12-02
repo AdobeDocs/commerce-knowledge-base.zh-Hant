@@ -1,10 +1,10 @@
 ---
-title: 'ACSD-53583：改善[!UICONTROL Category Products]和[!UICONTROL Product Categories]索引器的部分重新索引效能'
+title: ACSD-53583：改善[!UICONTROL Category Products]和[!UICONTROL Product Categories]索引器的部分重新索引效能
 description: 套用ACSD-53585修補程式，以改善「類別產品」和「產品類別」索引器的部分重新索引效能。
 feature: Products, Categories
 role: Admin, Developer
 exl-id: 1c8f7df3-379f-42d6-8b41-286d34f725d2
-source-git-commit: 29c2918ccae6404f6ae87d360ac16b149de5dd0d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%

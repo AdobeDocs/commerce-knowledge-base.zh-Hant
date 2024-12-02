@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-42645：管理員無法退還已停用商店點數的獎勵積分」
+title: MDVA-42645：管理員無法退還已停用商店點數的獎勵積分
 description: MDVA-42645修補程式解決了當商店信用功能停用時，管理員無法退款獎勵點數的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-42645。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 8e8f8c07-c1a2-4031-a2fb-cb737165dc2c
 feature: Admin Workspace, Orders, Rewards, Returns

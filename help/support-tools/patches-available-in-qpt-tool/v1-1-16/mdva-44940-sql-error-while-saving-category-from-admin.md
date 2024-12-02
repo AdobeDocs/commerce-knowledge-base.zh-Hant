@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-44940：從管理員儲存類別時發生SQL錯誤'
+title: MDVA-44940：從管理員儲存類別時發生SQL錯誤
 description: MDVA-44940修補程式修正從管理員儲存類別時發生SQL錯誤的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16後，即可使用此修補程式。 修補程式ID為MDVA-44940。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: cae6f231-3b91-441f-af56-824db0fa2d32
 feature: Admin Workspace, Categories, Sales Channels

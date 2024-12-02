@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48417：建立排程變更後出現SQL錯誤'
+title: ACSD-48417：建立排程變更後發生SQL錯誤
 description: 套用ACSD-48417修補程式來修正Adobe Commerce問題，建立產品的排程變更並儲存另一個產品後，出現SQL錯誤。
 exl-id: 2bbf3bb5-dec8-43b3-81f1-be0dc53d1f46
 feature: Storage

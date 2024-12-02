@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43726：部分重新索引後無法套用目錄價格規則'
+title: MDVA-43726：部分重新索引後無法套用型錄價格規則
 description: MDVA-43726修補程式修正部分重新索引後，無法套用以存放區層級屬性相符為基礎的目錄價格規則的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-43726。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 70e7e1d2-e601-4fed-9274-a1a619de29e1
 feature: Catalog Management, Categories, Orders, Price Rules

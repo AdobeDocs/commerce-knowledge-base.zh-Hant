@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce 2.4.0已知問題：遺失Klarna的「退款」標籤'
+title: Adobe Commerce 2.4.0已知問題：遺失Klarna的「退款」標籤
 description: 本文針對Klarna VBE （廠商套件擴充功能）中遺失**退款**標籤的Admin中的已知問題提供因應措施。 在Klarna入口網站進行退款時，**退款**標籤不會顯示在已退款的Bundled產品旁。
 exl-id: f08039b2-7f8b-481e-8ec8-1659e227744f
 feature: B2B, Orders, Payments

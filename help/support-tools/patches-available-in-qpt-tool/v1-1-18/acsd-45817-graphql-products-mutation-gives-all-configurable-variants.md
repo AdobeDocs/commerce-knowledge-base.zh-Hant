@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45817：GraphQL產品突變會提供所有可設定的變體'
+title: ACSD-45817：GraphQL產品突變會提供所有可設定的變體
 description: ACSD-45817修補程式修正了特定存放區的GraphQL「產品」突變會傳回所有可設定變體的問題，包括未指派給請求存放區的變體。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18後，即可使用此修補程式。 修補程式ID為ACSD-45817。 請注意，問題已在Adobe Commerce 2.4.4中修正。
 exl-id: 3d61d1aa-36b5-471d-929b-7df8ce65c791
 feature: GraphQL, Configuration, Products

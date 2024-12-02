@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42855：結帳時未將新的客戶地址儲存到通訊錄'
+title: 'MDVA-42855：結帳時沒有將新的客戶地址儲存到通訊錄 '
 description: MDVA-42855修補程式修正結帳時新客戶地址未儲存至通訊錄的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-42855。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 37fc51f4-773e-4bef-9fb1-e6629562b94a
 feature: Checkout, Orders, Shipping/Delivery

@@ -1,15 +1,15 @@
 ---
-title: 'ACSD-58163： [!UICONTROL Cart Price Rule]未套用相符的[!UICONTROL Customer Segment]購物車（不含優惠券代碼）的折扣'
+title: ACSD-58163： [!UICONTROL Cart Price Rule]未套用相符的[!UICONTROL Customer Segment]購物車（不含優惠券代碼）的折扣
 description: 套用ACSD-58163修補程式以修正Adobe Commerce問題，該問題導致[!UICONTROL Cart Price Rule]無法從無優惠券代碼的相符購物車中為訪客套用折扣。[!UICONTROL Customer Segment]
 feature: Products
 role: Admin, Developer
-source-git-commit: 7603a482953dc0ac0784ab6e6d3b22e4245e3e75
+exl-id: bc8587be-076c-4210-902c-6ecb69f581e2
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-58163： [!UICONTROL Cart Price Rule]未套用相符的[!UICONTROL Customer Segment]購物車（不含優惠券代碼）的折扣
 

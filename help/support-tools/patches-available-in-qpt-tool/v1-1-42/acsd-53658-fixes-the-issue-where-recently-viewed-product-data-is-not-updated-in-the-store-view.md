@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53658：**[!UICONTROL Recently Viewed Product]**資料未在存放區檢視中正確更新'
+title: ACSD-53658：存放區檢視中未正確更新**[!UICONTROL Recently Viewed Product]**資料
 description: 套用ACSD-53658修補程式以修正Adobe Commerce中**[!UICONTROL Recently Viewed Product]**資料未在存放區檢視中正確更新的問題。
 feature: CMS, Personalization
 role: Admin, Developer

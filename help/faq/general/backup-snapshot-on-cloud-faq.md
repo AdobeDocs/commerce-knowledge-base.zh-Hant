@@ -1,5 +1,5 @@
 ---
-title: 「雲端上的備份（快照）：常見問題集」
+title: 雲端上的備份（快照）：常見問題集
 description: 本文介紹在雲端基礎結構上使用Adobe Commerce的快照來備份環境的要點。
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas

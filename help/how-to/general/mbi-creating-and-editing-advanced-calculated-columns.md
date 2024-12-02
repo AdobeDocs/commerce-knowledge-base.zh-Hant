@@ -1,6 +1,6 @@
 ---
-title: 「MBI：建立和編輯進階計算欄」
-description: '''[管理員使用者](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)可以在「Data Warehouse管理員」中建立和編輯某些計算欄。 這些計算欄可讓您設定要尋找的報表，以回答關鍵業務問題。'
+title: MBI：建立和編輯進階計算欄
+description: '[管理員使用者](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management)能夠在「Data Warehouse管理員」中建立和編輯某些計算欄。 這些計算欄可讓您設定要尋找的報表，以回答關鍵業務問題。'
 exl-id: 713a5593-8103-4d74-be5e-0102678d0f97
 feature: Commerce Intelligence
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

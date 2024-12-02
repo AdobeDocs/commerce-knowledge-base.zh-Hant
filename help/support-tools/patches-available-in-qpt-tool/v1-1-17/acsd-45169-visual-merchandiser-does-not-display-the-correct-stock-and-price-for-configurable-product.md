@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-45169：Visual Merchandiser針對可設定的產品顯示不正確的庫存和價格」
+title: ACSD-45169：Visual Merchandiser針對可設定的產品顯示不正確的庫存和價格
 description: ACSD-45169修補程式修正了以下問題：套用測試版更新後，Visual Merchandiser無法針對可設定產品顯示正確的庫存和價格。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17時，即可使用此修補程式。 修補程式ID為ACSD-45169。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 5a7987c8-f276-4917-98f7-645402f4c454
 feature: Categories, Configuration, Merchandising, Orders, Products

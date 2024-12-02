@@ -1,5 +1,5 @@
 ---
-title: 「MC-42528：categoryList的GraphQL查詢顯示所有類別」
+title: MC-42528：categoryList的GraphQL查詢顯示所有類別
 description: MC-42528修補程式可解決當特定類別的瀏覽類別設定為「拒絕」時，「categoryList」的GraphQL查詢會傳回指派和未指派類別的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4時，即可使用此修補程式。 修補程式ID為MC-42528。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 8bb29f43-92ae-4f37-b147-7121b55c185b
 feature: Catalog Management, Categories, GraphQL, Customer Service

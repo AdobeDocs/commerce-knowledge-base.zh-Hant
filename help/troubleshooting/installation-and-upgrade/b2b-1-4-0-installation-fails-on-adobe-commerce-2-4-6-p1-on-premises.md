@@ -1,5 +1,5 @@
 ---
-title: '''[!DNL B2B] 1.4.0在Adobe Commerce 2.4.6-p1 on-premises''安裝失敗'
+title: 在Adobe Commerce 2.4.6-p1內部部署上安裝[!DNL B2B] 1.4.0失敗
 description: 本文提供 [!DNL B2B] 版本1.4.0安裝失敗的Adobe Commerce 2.4.6-p1內部部署問題的因應措施。
 feature: Install, Upgrade, B2B
 role: Developer

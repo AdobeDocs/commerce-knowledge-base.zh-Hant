@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-56858：B2B公司管理員中的角色許可權不一致」
+title: ACSD-56858：B2B公司管理員中的角色許可權差異
 description: 套用ACSD-56858修補程式以修正B2B環境中受限制公司管理員角色許可權顯示錯誤的Adobe Commerce問題。
 feature: Companies, B2B, Roles/Permissions
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: 'B2B-2674：新增快取功能至customAttributeMetadata GraphQL查詢'
+title: B2B-2674：新增快取功能至customAttributeMetadata GraphQL查詢
 description: 套用B2B-2674修補程式以新增快取功能至customAttributeMetadata GraphQL查詢。
 feature: Attributes, B2B, Cache, GraphQL
 role: Admin

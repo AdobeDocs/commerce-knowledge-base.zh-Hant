@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39181：相關產品規則顯示規則中未定義之類別的產品'
+title: MDVA-39181：相關產品規則顯示規則中未定義類別中的產品
 description: MDVA-39181修補程式解決相關產品規則顯示規則中未定義類別之產品的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10時，即可使用此修補程式。 修補程式ID為MDVA-39181。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: b6364d1c-2480-483a-9a83-ac91feeb14b9
 feature: Categories, Products

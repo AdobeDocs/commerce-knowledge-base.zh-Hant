@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-37725：透過非預設網站傳送的電子郵件包含預設網站的標誌URL」
+title: MDVA-37725：透過非預設網站傳送的電子郵件包含預設網站的標誌URL
 description: MDVA-37725修補程式修正了透過包含預設網站之標誌URL的非預設網站傳送非同步訂購電子郵件的問題。
 exl-id: c0d1b9a3-01bb-445b-b7da-f9be6952eaeb
 feature: Communications, Orders

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48773：從錯誤的商店取得的獎勵點數電子郵件範本'
+title: ACSD-48773：從錯誤的商店取得的獎勵點數電子郵件範本
 description: 套用ACSD-48773修補程式，修正從錯誤商店取得獎勵點數電子郵件範本的Adobe Commerce問題。
 exl-id: 96dda97c-5177-4883-ad2b-709928cb5f4d
 feature: Admin Workspace, Communications, Marketing Tools, Orders, Personalization, Rewards

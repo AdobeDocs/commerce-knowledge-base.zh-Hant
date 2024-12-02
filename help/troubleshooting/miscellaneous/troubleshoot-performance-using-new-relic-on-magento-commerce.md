@@ -1,6 +1,6 @@
 ---
 title: 在Adobe Commerce上使用New Relic進行效能疑難排解
-description: 「本文提供使用New Relic解決Adobe Commerce雲端基礎結構效能問題的疑難排解步驟。 此外，也提供資源以取得進一步資訊。 以下是問題清單。 按一下以檢視支援知識庫中的疑難排解步驟：'
+description: 本文提供疑難排解步驟，以使用New Relic解決Adobe Commerce的雲端基礎結構效能問題。 此外，也提供資源以取得進一步資訊。 以下是問題清單。 按一下，檢視支援知識庫中的疑難排解步驟：
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer

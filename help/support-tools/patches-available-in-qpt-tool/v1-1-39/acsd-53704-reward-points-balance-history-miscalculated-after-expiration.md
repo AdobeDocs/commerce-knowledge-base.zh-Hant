@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53704：過期後計算錯誤的獎勵積分餘額歷史記錄'
+title: ACSD-53704：過期後誤算的獎勵點數餘額歷史記錄
 description: 套用ACSD-53704修補程式，修正Adobe Commerce中在獎勵點到期日之後錯誤計算獎勵點餘額歷史記錄的問題。
 feature: Rewards
 role: Admin, Developer

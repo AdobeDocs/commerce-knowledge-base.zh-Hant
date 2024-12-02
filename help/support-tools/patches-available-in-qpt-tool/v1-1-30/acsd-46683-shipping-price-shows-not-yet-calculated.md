@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46683：運費顯示*尚未計算*'
+title: ACSD-46683：送貨價格顯示*尚未計算*
 description: 套用ACSD-46683修補程式，修正運送價格顯示*尚未計算*的Adobe Commerce問題。
 exl-id: 77986612-87b7-4f50-afaf-1cfe9a4feb6f
 feature: Marketing Tools, Orders, Shipping/Delivery

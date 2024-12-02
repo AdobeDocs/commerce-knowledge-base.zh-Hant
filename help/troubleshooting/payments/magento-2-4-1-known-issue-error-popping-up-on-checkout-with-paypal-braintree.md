@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce 2.4.1已知問題：使用PayPalBraintree結帳時出現錯誤」
+title: Adobe Commerce 2.4.1已知問題：使用PayPalBraintree結帳時突然出現錯誤
 description: 本文會說明已知的Adobe Commerce 2.4.1問題，如果使用PayPalBraintree付款並選取多個運送地址，則會在結帳的計費步驟上出現並消失錯誤訊息。
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
 feature: Checkout, Orders, Payments

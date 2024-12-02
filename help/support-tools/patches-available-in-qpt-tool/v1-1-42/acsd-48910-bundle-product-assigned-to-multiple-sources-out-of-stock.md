@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-48910：指定多個來源的套件產品在發票和出貨後無庫存」
+title: ACSD-48910：指定多個來源的套件產品在發票和出貨後無庫存
 description: 套用ACSD-48910修補程式，修正Adobe Commerce問題，即訂單開立商業發票及出貨後，指定給多個來源的套件產品會缺貨，即使訂單仍具有非零數量亦然。
 feature: Products, Inventory
 role: Admin, Developer

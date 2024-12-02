@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52831：當 [!DNL Google reCAPTCHA v3 Invisible] 啟用時，無法下可轉讓的報價單'
+title: ACSD-52831：啟用 [!DNL Google reCAPTCHA v3 Invisible] 時無法下可轉讓的報價單
 description: 套用ACSD-52831修補程式，修正啟用 [!DNL Google reCAPTCHA v3 Invisible] 時無法下可轉讓報價單的Adobe Commerce問題。
 feature: Quotes, B2B, Checkout
 role: Admin

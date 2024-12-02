@@ -1,6 +1,6 @@
 ---
-title: 「MDVA-40896：非同步產品中出現「錯誤：TypeError：引數3」錯誤」
-description: 「MDVA-40896修補程式修正了傳遞至Magento\Framework\Webapi\ServiceInputProcessor：：process()的「錯誤：TypeError：引數3」必須是型別陣列且字串已指定」錯誤會顯示在非同步產品大量API中的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15時，即可使用此修補程式。 修補程式ID為MDVA-40896。 請注意，Adobe Commerce 2.4.4已修正此問題。
+title: MDVA-40896：非同步產品中出現「錯誤：TypeError：引數3」錯誤
+description: MDVA-40896修補程式修正了傳遞至Magento\Framework\Webapi\ServiceInputProcessor：：process()的「錯誤：型別錯誤：引數3」必須是型別陣列且字串已指定」錯誤會顯示在非同步產品大量API中的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15時，即可使用此修補程式。 修補程式ID為MDVA-40896。 請注意，問題已在Adobe Commerce 2.4.4中修正。
 exl-id: d9b73e7a-c228-492c-9fdf-c57cceafb330
 feature: Products
 role: Admin

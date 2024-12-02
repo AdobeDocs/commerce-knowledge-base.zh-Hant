@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-45168：並未針對已覆寫url_key屬性的產品產生SEO友善URL」
+title: ACSD-45168：並未針對已覆寫url_key屬性的產品產生SEO友善URL
 description: 套用ACSD-45168修補程式以修正Adobe Commerce問題，該問題導致未針對在商店檢視層級上覆寫url_key屬性的產品產生SEO易記URL。
 exl-id: cdba42ac-3c96-439b-befa-f0a13587b5d9
 feature: Attributes, Cache, Categories, Marketing Tools, Products

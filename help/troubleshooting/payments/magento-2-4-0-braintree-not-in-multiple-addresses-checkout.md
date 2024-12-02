@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce 2.4.0：Braintree不在多個地址中籤出」
+title: Adobe Commerce 2.4.0：Braintree不在多個地址簽出
 description: 針對Adobe Commerce 2.4.0的已知問題，本文提供因應措施，其中處理「多個地址」結帳時未包含Braintree付款方法。 請注意，問題已在Adobe Commerce 2.4.1中修正。
 exl-id: efde0bba-fd4a-490b-becb-856cb9ea58a5
 feature: Checkout, Compliance, Orders, Payments, Shipping/Delivery

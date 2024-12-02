@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39546：暫存更新開始日期可以設為目前日期之前的日期'
+title: MDVA-39546：暫存更新開始日期可設為目前日期之前的日期
 description: MDVA-39546修補程式修正了將測試更新開始日期設為目前日期之前日期的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-39546。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: a66b5d83-2eba-45a6-9eb9-4ba39ef20e16
 feature: Staging

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-55381：解決從B2B請購單清單請求可設定產品選項uid時的錯誤」
+title: ACSD-55381：解決從B2B請購單清單請求可設定產品選項uid時的錯誤
 description: 套用ACSD-55381修補程式以修正Adobe Commerce問題，該問題發生在從B2B請購單清單查詢「configurated_product_option_uid」和「configurated_product_option_value_uid」欄位的GraphQL期間發生內部伺服器錯誤。
 feature: GraphQL, B2B, Products
 role: Admin, Developer

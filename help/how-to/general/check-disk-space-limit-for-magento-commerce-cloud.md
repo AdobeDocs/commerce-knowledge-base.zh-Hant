@@ -1,6 +1,6 @@
 ---
 title: 檢查雲端基礎結構上Adobe Commerce的磁碟空間限制
-description: 「檢查您在雲端基礎結構環境中每個Adobe Commerce有多少空間：」
+description: 若要檢查您在雲端基礎結構環境中每個Adobe Commerce有多少空間：
 exl-id: 0dd613e4-161f-403e-95a1-d228303693d3
 feature: Cloud
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733

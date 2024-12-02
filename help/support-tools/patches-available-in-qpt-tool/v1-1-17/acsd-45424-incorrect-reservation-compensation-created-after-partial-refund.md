@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45424：部分退款後建立的預訂補償不正確'
+title: ACSD-45424：部分退款後建立的預訂補償不正確
 description: ACSD-45424修補程式修正部分退款後建立錯誤預訂補償的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17時，即可使用此修補程式。 修補程式ID為ACSD-45424。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 0676cfda-a28e-4a66-a75b-8a3fc5e22566
 feature: Orders

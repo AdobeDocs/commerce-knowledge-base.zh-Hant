@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-53628：CSV銷售訂單報表顯示不正確的特殊字元」
+title: ACSD-53628：CSV銷售訂單報表顯示不正確的特殊字元
 description: 套用ACSD-53628修補程式，修正CSV銷售訂單報表顯示錯誤特殊字元的Adobe Commerce問題。
 feature: Orders, Data Import/Export
 role: Admin, Developer

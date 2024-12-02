@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49513：遠端儲存同步失敗'
+title: ACSD-49513：遠端儲存同步失敗
 description: 套用ACSD-49513修補程式，修正遠端儲存體同步作業因0位元組檔案而失敗的Adobe Commerce問題。
 exl-id: fce5f60f-d21f-40cd-8d8a-a1a26e0fbe75
 feature: Iaas, Storage

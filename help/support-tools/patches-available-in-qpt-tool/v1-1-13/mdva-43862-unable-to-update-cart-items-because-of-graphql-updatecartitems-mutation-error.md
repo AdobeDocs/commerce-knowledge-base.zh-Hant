@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-43862：由於GraphQL UpdateCartItems突變錯誤，客戶無法更新購物車專案」
+title: MDVA-43862：由於GraphQL UpdateCartItems突變錯誤，客戶無法更新購物車專案
 description: MDVA-43862修補程式解決客戶因GraphQL UpdateCartItems突變錯誤而無法更新購物車專案的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13後，即可使用此修補程式。 修補程式ID為MDVA-43862。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 5f0a2970-34a8-4a25-baf8-15c007f97084
 feature: GraphQL, Orders, Shopping Cart

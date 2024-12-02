@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37897：從「最近檢視的專案」新增產品時，重新導向不正確'
+title: MDVA-37897：從「最近檢視的專案」新增產品時，重新導向不正確
 description: MDVA-37897修補程式可解決使用者嘗試使用最近檢視的Widget中的選項新增產品時，所發生的重新導向錯誤問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1後，即可使用此修補程式。 修補程式ID為MDVA-37897。 請注意，此問題已排程在Adobe Commerce 2.4.4版中修正。
 exl-id: f0a86e02-b357-4d2d-8386-e9cc045bcf06
 feature: Products

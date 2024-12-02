@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-54472：被拒絕公司的客戶仍然可以驗證」
+title: ACSD-54472：被拒絕公司的客戶仍可驗證
 description: 套用ACSD-54472修補程式以修正遭拒絕公司的客戶仍可驗證，以及遭封鎖和遭拒絕公司的客戶仍可下訂單的Adobe Commerce問題。
 feature: B2B
 role: Admin, Developer

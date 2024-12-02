@@ -1,9 +1,10 @@
 ---
-title: '概述： [!DNL Quality Patches Tool] (QPT) v1.1.50'
+title: 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.50
 description: 此小節提供 [!DNL Quality Patches Tool] (QPT) v1.1.50中可用修補程式所修正問題的詳細說明。
 feature: Tools and External Services
 role: Admin, Developer
-source-git-commit: f62cf4284d7bb99a1ab58df676dfff726c34d327
+exl-id: 2bda5e91-a213-434a-b4e4-0dffeb222cae
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 0%
@@ -33,4 +34,3 @@ QPT v1.1.50包含下列修補程式：
 1. **ACSD-60441**：修正使用後端產生的整合存取權杖時，透過`V1/customers REST API`端點更新客戶的問題。
 
 使用左側的功能表，導覽至特定的修補程式頁面。
-

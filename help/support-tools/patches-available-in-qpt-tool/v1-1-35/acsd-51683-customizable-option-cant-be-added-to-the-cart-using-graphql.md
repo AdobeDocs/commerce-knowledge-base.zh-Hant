@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-51683：無法使用GraphQL將可自訂選項新增到購物車」
+title: ACSD-51683：無法使用GraphQL將可自訂選項新增到購物車
 description: 套用ACSD-51683修補程式，修正無法使用GraphQL將可自訂選項新增到購物車的Adobe Commerce問題。
 feature: GraphQL
 role: Admin

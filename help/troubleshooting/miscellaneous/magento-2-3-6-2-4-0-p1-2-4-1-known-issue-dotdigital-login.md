@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知問題：dotdigital登入'
+title: Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知問題： dotdigital登入
 description: 本文說明Adobe Commerce 2.3.6、2.4.0-p1和2.4.1的已知問題，此問題發生在啟用dotdigital帳戶時，無法透過Admin Panel登入[dotdigital](https://dotdigital.com/)。
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration

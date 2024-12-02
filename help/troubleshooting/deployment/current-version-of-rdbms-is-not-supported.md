@@ -1,6 +1,6 @@
 ---
 title: 部署時出現「不支援目前版本的RDBMS」錯誤
-description: 「本文提供部署失敗且部署記錄中出現下列錯誤時的解決方案： *不支援目前版本的RDBMS*。」
+description: 本文提供部署失敗且部署記錄中有下列錯誤時的解決方案： *不支援目前版本的RDBMS*。
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer

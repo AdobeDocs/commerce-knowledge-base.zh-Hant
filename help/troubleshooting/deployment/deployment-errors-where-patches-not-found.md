@@ -1,6 +1,6 @@
 ---
 title: 找不到修補程式的部署錯誤
-description: 「本文提供發生錯誤*找不到下一個修補程式的問題的解決方案： MDVA-XXXXX、ACSD-XXXXX。 請檢查這些修補程式的'status'命令是否適用於目前的Magento版本*。」
+description: 本文提供發生錯誤*找不到下一個修補程式的問題的解決方案：MDVA-XXXXX、ACSD-XXXXX。 請檢查這些修補程式的'status'命令是否適用於目前的Magento版本*。
 exl-id: 5a2fd35a-892a-48af-a41f-f275297b3e2e
 source-git-commit: c903360ffb22f9cd4648f6fdb4a812cb61cd90c5
 workflow-type: tm+mt

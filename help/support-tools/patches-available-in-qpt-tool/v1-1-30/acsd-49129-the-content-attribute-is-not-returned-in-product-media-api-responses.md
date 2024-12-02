@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-49129：產品媒體API回應中未傳回「Content」屬性」
+title: ACSD-49129：產品媒體API回應中未傳回「Content」屬性
 description: 套用ACSD-49129修補程式以修正「rest/V1/products/sku/media」產品媒體API回應中未傳回*content*屬性（*base64影像代碼*）的Adobe Commerce問題。
 exl-id: b7022046-3f52-4880-81b8-977ed270773f
 feature: REST, Attributes, Media, Page Content, Products

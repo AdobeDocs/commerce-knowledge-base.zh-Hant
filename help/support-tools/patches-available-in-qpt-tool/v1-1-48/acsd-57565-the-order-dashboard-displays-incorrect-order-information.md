@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-57565：訂單儀表板顯示不正確的訂單資訊'
+title: ACSD-57565：訂單儀表板顯示不正確的訂單資訊
 description: 套用ACSD-57565修補程式，修正Adobe Commerce訂單控制面板在更新時段前顯示錯誤訂單資訊的問題。
 feature: Roles/Permissions
 role: Admin, Developer

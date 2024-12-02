@@ -1,5 +1,5 @@
 ---
-title: 執行setup：upgrade時出現「區碼未設定」錯誤」
+title: 執行setup：upgrade時出現「區碼未設定」錯誤
 description: 本文為雲端基礎結構2.2.3上與*區碼未設定*錯誤（執行setup：upgrade命令時）相關的已知Adobe Commerce問題提供修補程式。
 exl-id: ace92331-6022-49fa-a776-d06d841b3b32
 feature: Install, Upgrade

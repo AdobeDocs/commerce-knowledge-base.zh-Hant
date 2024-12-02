@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-56760：管理員使用者僅限於特定網站，無法排序或新增產品」
+title: ACSD-56760：管理員使用者僅限於特定網站，無法排序或新增產品
 description: 套用ACSD-56760修補程式來修正Adobe Commerce問題，該問題導致僅限特定網站的管理員使用者無法排序或新增產品，以致於網路商店擁有自己的根類別。
 role: Admin
 exl-id: fc1898ce-dcd7-4c0b-bef0-445219e8455f

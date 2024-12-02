@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-45849：中繼更新後視訊中繼資料遺失」
+title: ACSD-45849：中繼更新後視訊中繼資料遺失
 description: ACSD-45849修補程式修正了套用測試更新後視訊中繼資料遺失的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18後，即可使用此修補程式。 修補程式ID為ACSD-45849。 請注意，問題已在Adobe Commerce 2.4.4中修正。
 exl-id: 071a535d-f96c-4731-a17c-0b7bf8a87372
 feature: Staging, Page Content

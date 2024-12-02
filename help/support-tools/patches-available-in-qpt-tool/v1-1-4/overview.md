@@ -1,5 +1,5 @@
 ---
-title: '概述： [!DNL Quality Patches Tool] (QPT) v1.1.4'
+title: 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.4
 description: 此小節提供 [!DNL Quality Patches Tool] (QPT) v1.1.4中可用修補程式所修正問題的詳細說明。
 exl-id: b7729740-acba-457e-a296-469016c98b51
 feature: Tools and External Services
@@ -27,6 +27,6 @@ QPT v1.1.4包含下列修補程式：
 1. **MDVA-40399**：修正無法透過REST API同時建立相同訂單之部分發票的問題。
 1. **MDVA-40401**：修正即使下訂單失敗，優惠券使用量值也會變更的問題。
 1. **MDVA-40435**：修正透過GraphQL套用時，具有動態價格的套件組合產品折扣不正確的問題。
-1. **MDVA-40537**：修正使用者建立商店檢視時，若存在數個具有相同URL索引鍵的CMS頁面時，發生錯誤的問題。
+1. **MDVA-40537**：修正使用者建立存放區檢視時，若存在數個具有相同URL索引鍵的CMS頁面時，發生錯誤的問題。
 
 使用左側的功能表，導覽至特定的修補程式頁面。

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40601：無法擷取透過GraphQL的排程更新所變更類別的相關資料'
+title: MDVA-40601：無法擷取透過GraphQL的排程更新所變更類別的相關資料
 description: MDVA-40601 Adobe Commerce品質修補程式修正了使用者透過GraphQL取得已排程更新變更的類別相關資訊時發生錯誤的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.3後，即可使用此修補程式。 修補程式ID為MDVA-40601。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: b1ea93e7-8d4a-4bdd-8267-cc60de25bd39
 feature: Categories, GraphQL

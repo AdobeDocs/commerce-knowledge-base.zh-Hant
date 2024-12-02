@@ -1,5 +1,5 @@
 ---
-title: 「概述：品質修補工具(QPT) v1.1.27」
+title: 概覽：品質修補工具(QPT) v1.1.27
 description: 此小節提供[!UICONTROL Quality Patches Tool] (QPT) v1.1.27中可用修補程式所修正問題的詳細說明。
 exl-id: 81fdbf11-a8f2-49c5-b283-fdac0eaaeaa5
 feature: Tools and External Services

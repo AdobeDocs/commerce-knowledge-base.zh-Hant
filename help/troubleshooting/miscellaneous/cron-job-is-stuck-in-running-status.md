@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Cron]工作卡在**執行中**狀態」'
+title: '[!DNL Cron]工作卡在**執行中**狀態'
 description: 本文提供當Adobe Commerce [!DNL cron] 工作未完成執行且持續處於「執行中」狀態時，以防止其他 [!DNL cron] 工作執行的解決方案。 發生此狀況的原因有很多，例如網路問題、應用程式當機、重新部署問題。
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration

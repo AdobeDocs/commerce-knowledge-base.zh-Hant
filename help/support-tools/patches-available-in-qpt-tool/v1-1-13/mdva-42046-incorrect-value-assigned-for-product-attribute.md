@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42046：指派給產品屬性的值不正確'
+title: MDVA-42046：指派給產品屬性的值不正確
 description: MDVA-42046修補程式修正了更新具有日期輸入欄位的產品時，為產品屬性指派的值不正確的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13後，即可使用此修補程式。 修補程式ID為MDVA-42046。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 837f5582-849c-43a3-ae02-87f71fb96061
 feature: Attributes, Products

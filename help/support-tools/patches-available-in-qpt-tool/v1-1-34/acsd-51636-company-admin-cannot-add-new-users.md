@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-51636：公司管理員無法從客戶帳戶區段新增使用者」
+title: ACSD-51636：公司管理員無法從客戶帳戶區段新增使用者
 description: 套用ACSD-51636修補程式以修正Adobe Commerce問題，其中公司管理員無法從客戶帳戶區段新增使用者，儘管其擁有所有必要的角色和許可權。
 feature: Admin Workspace, B2B, Companies, Customer Service
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce 2.4.0已知問題：Klarna站上訊息空白頁面」
+title: Adobe Commerce 2.4.0已知問題： Klarna站上訊息空白頁面
 description: 本文說明使用Klarna付款方法的已知Adobe Commerce 2.4.0問題，其中啟用Klarna站上傳訊而不指定設計主題，導致無法在店面正確顯示產品頁面（產品頁面顯示為空白）。
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments

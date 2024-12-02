@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43601：在完整重新索引後，從「catalogrule_product_price」表格中移除觸發程式'
+title: MDVA-43601：在完整重新索引後，從「catalogrule_product_price」表格中移除觸發程式
 description: MDVA-43601修補程式修正了完整重新索引「catalogrule_rule」或「catalogrule_product」後，從「catalogrule_product_price」表格移除觸發程式的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13後，即可使用此修補程式。 修補程式ID為MDVA-43601。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: fdef1e56-79ec-455a-8a29-b82f1c8ceea7
 feature: Catalog Management, Orders, Products

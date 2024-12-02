@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51305：GraphQL回應中無法使用無庫存複合子產品'
+title: ACSD-51305：GraphQL回應中無法使用無庫存複合子產品
 description: 套用ACSD-51305修補程式以修正Adobe Commerce回應中無法使用無庫存複合子產品的GraphQL問題。
 exl-id: 0f33eb62-dfd3-4d07-b095-9ee6e9983c4d
 feature: Categories, GraphQL, Orders, Products

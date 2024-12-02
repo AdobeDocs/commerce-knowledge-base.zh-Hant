@@ -1,5 +1,5 @@
 ---
-title: 「PWA Studio：瀏覽器無法解析.local.pwadev網站」
+title: PWA Studio：瀏覽器無法解析.local.pwadev網站
 description: 本文提供其他程式或程式編輯您的[主機檔案](https://en.wikipedia.org/wiki/Hosts_(file\)並移除專案網域的專案時的解決方案。
 exl-id: a1606016-906a-433f-9e40-9faa5f9bd790
 feature: Configuration

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43859：錯誤「已刪除客戶登入時沒有記錄具有customerId =」的這類實體'
+title: MDVA-43859：刪除客戶登入時記錄「沒有具有customerId =」的這類實體」錯誤
 description: MDVA-43859修補程式修正錯誤*當已刪除的客戶嘗試登入時，不會記錄具有customerId=*的此類實體問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14時，即可使用此修補程式。 修補程式ID為MDVA-43859。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 62c4b6ee-88a0-40b8-9eb2-37b6cefa0b83
 feature: Variables

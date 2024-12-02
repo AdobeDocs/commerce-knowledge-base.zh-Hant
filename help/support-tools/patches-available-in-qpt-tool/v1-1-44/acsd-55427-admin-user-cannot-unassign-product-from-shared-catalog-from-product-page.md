@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-55427：管理員無法從產品頁面上的**[!UICONTROL Product in Shared Catalogs]**解除指派產品」
+title: ACSD-55427：管理員無法從產品頁面上的**[!UICONTROL Product in Shared Catalogs]**解除指派產品
 description: 套用ACSD-55427修補程式以修正無法從**[!UICONTROL Product in Shared Catalogs]**取消指派產品的Adobe Commerce問題。
 feature: Products, B2B
 role: Admin, Developer

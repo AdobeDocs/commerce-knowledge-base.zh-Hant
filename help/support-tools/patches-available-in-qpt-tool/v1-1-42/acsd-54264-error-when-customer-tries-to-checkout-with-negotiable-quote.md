@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-54264：客戶嘗試以可轉讓報價結帳時發生錯誤」
+title: ACSD-54264：客戶嘗試以可轉讓報價結帳時發生錯誤
 description: 套用ACSD-54264修補程式以修正Adobe Commerce問題，其中錯誤訊息「您無法更新要求的屬性。 當客戶嘗試從其他商店檢視中取出可轉讓的報價時，就會出現資料列ID：store_id。
 feature: B2B, Checkout
 role: Admin, Developer

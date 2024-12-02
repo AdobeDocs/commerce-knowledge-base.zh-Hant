@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47332： cron失敗，錯誤僅在00:00到00:59 UTC之間報告'
+title: ACSD-47332： cron失敗，錯誤僅在00:00 UTC到00:59之間報告
 description: 套用ACSD-47332修補程式來修正Adobe Commerce問題，該問題導致cron失敗並出現只有在它在00:00 UTC到00:59 UTC之間執行時才會報告的錯誤。
 exl-id: a4eac977-6d0a-4e36-8576-68777c1e40b2
 feature: Configuration

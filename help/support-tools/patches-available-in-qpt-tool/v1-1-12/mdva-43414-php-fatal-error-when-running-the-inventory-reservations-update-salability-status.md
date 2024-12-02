@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-43414：執行「inventory.reservations.updateSalabilityStatus」時發生PHP嚴重錯誤'
+title: MDVA-43414：執行「inventory.reservations.updateSalabilityStatus」時發生PHP嚴重錯誤
 description: MDVA-43414修補程式可解決在數值SKU上執行「inventory.reservations.updateSalabilityStatus」佇列使用者時發生的PHP嚴重錯誤。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-43414。 請注意，問題已在Adobe Commerce 2.4.2中修正。
 exl-id: 197c5db1-36bc-41a7-a5ca-f026600da786
 feature: Inventory, Orders

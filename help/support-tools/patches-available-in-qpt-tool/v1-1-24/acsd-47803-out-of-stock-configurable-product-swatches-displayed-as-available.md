@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-47803：沒有庫存的可設定產品色票顯示為可用」
+title: ACSD-47803：未備貨的可設定產品色票顯示為可用
 description: 套用ACSD-47803修補程式，以修正Adobe Commerce無庫存可設定產品色票顯示為可用的問題。
 exl-id: 28b3f378-a790-4af6-9627-5bd8571523fd
 feature: Configuration, Orders, Products

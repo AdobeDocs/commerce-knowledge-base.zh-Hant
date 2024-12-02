@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39713：使用者可以編輯作用中排程更新的開始時間'
+title: MDVA-39713：使用者可以編輯作用中排程更新的開始時間
 description: MDVA-39713修補程式修正使用者可編輯作用中排程更新之開始時間的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-39713。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: c7221fdb-5fc0-4179-8d4c-c9e1f0d00692
 feature: CMS

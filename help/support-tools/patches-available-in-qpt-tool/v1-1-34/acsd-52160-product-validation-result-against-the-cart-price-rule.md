@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52160：根據購物車價格規則的產品驗證結果'
+title: ACSD-52160：根據購物車價格規則的產品驗證結果
 description: 套用ACSD-52160修補程式以修正Adobe Commerce問題，該問題導致根據規則條件*[!UICONTROL If an item is FOUND/NOT FOUND in the cart with All/Any of these conditions true]*未正確評估購物車價格規則的產品驗證結果。
 exl-id: a371c539-4440-4c84-baa4-774c32f66e41
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

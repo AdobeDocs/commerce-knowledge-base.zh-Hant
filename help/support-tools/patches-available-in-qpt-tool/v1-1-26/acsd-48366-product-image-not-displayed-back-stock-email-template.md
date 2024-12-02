@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48366：產品影像未顯示在[!UICONTROL Back to Stock]電子郵件範本上'
+title: ACSD-48366： [!UICONTROL Back to Stock]電子郵件範本上未顯示產品影像
 description: 套用ACSD-48366修補程式以修正產品庫存警示電子郵件中未顯示產品縮圖影像的Adobe Commerce問題。
 exl-id: 57b549b0-6e97-4d5f-927e-9585f3257872
 feature: Admin Workspace, Communications, Orders, Products

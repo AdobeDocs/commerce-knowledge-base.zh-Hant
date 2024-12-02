@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-54989：當[!UICONTROL Enable Purchase Orders]設為「是」且[!UICONTROL Purchase Order]設為「否」時，公司管理員無法訂購'
+title: ACSD-54989：當[!UICONTROL Enable Purchase Orders]設為「是」且[!UICONTROL Purchase Order]設為「否」時，公司管理員無法訂購
 description: 套用ACSD-54989修補程式以修正當[!UICONTROL Enable Purchase Orders]設為「是」且[!UICONTROL Purchase Order]設為「否」時，公司管理員無法下單的Adobe Commerce問題。
 feature: Orders, Companies, Purchase Orders
 role: Admin, Developer

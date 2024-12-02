@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51102：套用至大量未正確索引之產品的目錄規則'
+title: ACSD-51102：套用至大量未正確編制索引產品的目錄規則
 description: 套用ACSD-51102修補程式，修正已套用至大量產品的目錄規則在排程更新啟用規則時未正確編制索引的Adobe Commerce問題。
 feature: Catalog Management, Products
 role: Admin

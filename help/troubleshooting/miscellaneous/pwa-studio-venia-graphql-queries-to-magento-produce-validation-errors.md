@@ -1,5 +1,5 @@
 ---
-title: 「PWA Studio：對Adobe Commerce的Venia GraphQL查詢產生驗證錯誤」
+title: PWA Studio： Venia GraphQL查詢至Adobe Commerce會產生驗證錯誤
 description: 本文提供如何解決Venia storefront GraphQL查詢至Adobe Commerce執行個體產生驗證錯誤問題的建議。
 exl-id: ba268945-2a10-4af5-8089-cde21f0687bd
 feature: GraphQL

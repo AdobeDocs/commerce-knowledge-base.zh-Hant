@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50849：清除快取後新增產品導致不相符'
+title: ACSD-50849：清除快取後新增產品導致不相符
 description: 套用ACSD-50849修補程式來修正Adobe Commerce的問題，即在清除快取後將新產品新增至類別時，會導致現有產品的位置和選擇不符。
 feature: Cache, Categories, Products
 role: Admin

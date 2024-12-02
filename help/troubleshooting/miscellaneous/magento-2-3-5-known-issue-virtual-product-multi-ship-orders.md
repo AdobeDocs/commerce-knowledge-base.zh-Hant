@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce 2.3.5已知問題：虛擬產品多送貨訂單」
+title: Adobe Commerce 2.3.5已知問題：虛擬產品多送貨訂單
 description: 本文說明Adobe Commerce 2.3.5中的一個已知問題，即包含虛擬產品的多重送貨訂單未正確處理。
 exl-id: 34ce79a2-5157-492b-8ee4-bdc09aae0c40
 feature: Orders, Products, Shipping/Delivery

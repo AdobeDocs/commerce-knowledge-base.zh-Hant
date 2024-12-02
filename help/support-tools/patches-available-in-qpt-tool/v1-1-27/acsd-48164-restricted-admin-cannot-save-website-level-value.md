@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-48164：受限制的管理員無法儲存網站層級的值」
+title: ACSD-48164：受限制的管理員無法儲存網站層級的值
 description: 套用ACSD-48164修補程式以修正受限管理員無法儲存網站層級值的Adobe Commerce問題。
 exl-id: 6ec15163-ad30-4566-a46c-5756bfd9f8d4
 feature: Admin Workspace

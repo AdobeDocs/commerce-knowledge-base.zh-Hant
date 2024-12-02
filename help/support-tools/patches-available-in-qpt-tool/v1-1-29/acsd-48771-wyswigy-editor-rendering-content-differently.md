@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48771：WYSIWYG編輯器轉譯內容的方式不同'
+title: ACSD-48771： WYSIWYG編輯器轉譯內容的方式不同
 description: 套用ACSD-48771修補程式來修正WYSIWYG編輯器以不同方式呈現內容的Adobe Commerce問題。
 exl-id: 6a856fa3-6099-4237-8d1c-e3735b8ca012
 feature: Cache, Page Content
@@ -31,7 +31,7 @@ ACSD-48771修補程式修正WYSIWYG編輯器轉譯內容不同的問題。 安�
 
 ## 問題
 
-所見即所得編輯器轉譯內容的方式不同。
+WYSIWYG編輯器以不同方式呈現內容。
 
 <u>要再現的步驟</u>：
 

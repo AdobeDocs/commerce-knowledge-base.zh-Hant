@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49480：捨棄後續規則無法運作'
+title: ACSD-49480：捨棄無法使用的後續規則
 description: 套用ACSD-49480修補程式以修正[!UICONTROL Cart Price Rule - Discard Subsequent Rules]無法如預期運作的Adobe Commerce問題。
 exl-id: 8d306a9e-ed1a-4295-8130-81700cbf31a6
 feature: Price Rules

@@ -1,5 +1,5 @@
 ---
-title: '部署失敗：無法套用MDVA-43395修補程式'
+title: 部署失敗：無法套用MDVA-43395修補程式
 description: 本文提供此問題的解決方案，其中嘗試套用MDVA-43395修補程式會導致部署失敗。
 exl-id: 5341be3a-a9d7-4a4b-9755-8c585c6922a4
 feature: Deploy

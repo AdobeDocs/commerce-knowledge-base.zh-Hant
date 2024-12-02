@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51735：產品庫存為0時，訂單專案狀態錯誤地設定為*[!UICONTROL Ordered]*'
+title: ACSD-51735：當產品庫存為0時，訂單專案狀態錯誤地設定為*[!UICONTROL Ordered]*
 description: 套用ACSD-51735修補程式，修正產品庫存為0時，訂單專案狀態未正確設定為*[!UICONTROL Ordered]*的Adobe Commerce問題。
 feature: Orders, Products
 role: Admin

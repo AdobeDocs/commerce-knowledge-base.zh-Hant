@@ -1,5 +1,5 @@
 ---
-title: '概述： [!DNL Quality Patches Tool] (QPT) v1.1.33'
+title: 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.33
 description: 此小節提供 [!DNL Quality Patches Tool] (QPT) v1.1.33中可用修補程式所修正問題的詳細說明。
 feature: Tools and External Services
 role: Admin
@@ -30,7 +30,7 @@ QPT v1.1.33包含下列修補程式：
 1. **ACSD-51792**：修正啟用[!DNL Google Tag Manager] 4時頁面沒有曝光事件的問題。
 1. **ACSD-51471**：修正管理員使用者無法針對使用簡單產品的套件組合產品儲存已排程更新的問題，此套件組合產品本身已有排程更新。
 1. **ACSD-51700**：修正在admin的可下載產品編輯頁面上切換商店檢視時發生的錯誤。
-1. **ACSD-51120**：修正包含透過中繼更新更新的CMS區塊的CMS頁面未清除GraphQLGET要求快取的問題。
+1. **ACSD-51120**：修正包含透過中繼更新更新的GraphQL區塊的CMS頁面未清除CMSGET快取的問題。
 1. **ACSD-51240**：修正透過公司登錄檔完成註冊時，所上傳檔案遺失的問題。
 1. **ACSD-51907**：修正受限管理員使用者無法以離線退款建立銷退折讓單的問題。
 1. **ACSD-52148**：修正[!UICONTROL Google V3 reCAPTCHA Admin]登入偶爾失敗的問題。

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-48694：要求的狀態變更無效」錯誤導致客戶無法下訂單」
+title: ACSD-48694：要求的狀態變更無效。錯誤導致客戶無法下訂單
 description: 套用ACSD-48694修補程式以修正Adobe Commerce問題，其中錯誤*請求的無效狀態變更*會阻止客戶下訂單。
 exl-id: edf79424-6c4f-4cfd-ab7e-19f95b9bc685
 feature: Admin Workspace, Orders

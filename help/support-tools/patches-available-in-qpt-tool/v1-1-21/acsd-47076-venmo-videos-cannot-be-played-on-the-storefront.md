@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47076： [!DNL Vimeo] 影片無法在店面播放'
+title: ACSD-47076： [!DNL Vimeo] 影片無法在店面播放
 description: 套用ACSD-47076修補程式以修正Adobe Commerce上 [!DNL Vimeo] 影片無法在店面播放的問題。
 exl-id: 52161c0d-3d51-45a3-ba41-36f955df0bea
 feature: Storefront

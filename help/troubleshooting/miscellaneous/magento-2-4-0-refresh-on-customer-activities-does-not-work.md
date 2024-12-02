@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce 2.4.0：在客戶的活動上重新整理無法運作」
+title: Adobe Commerce 2.4.0：在客戶的活動上重新整理無法運作
 description: 本文針對Adobe Commerce 2.4.0的已知問題提供解決方案，該問題發生在管理員使用者為客戶建立訂單，且客戶活動側面板上的重新整理按鈕無法運作時。
 exl-id: 50048e9f-6009-4db5-ae4a-c35a84cec265
 feature: Configuration

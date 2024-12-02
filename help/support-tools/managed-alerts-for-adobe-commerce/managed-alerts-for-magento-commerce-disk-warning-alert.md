@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce的管理警報：磁碟警告警報」
+title: Adobe Commerce的管理警報：磁碟警告警報
 description: 本文提供當您在New Relic中收到Adobe Commerce的警告磁碟警示時的疑難排解步驟。 需要立即採取行動來解決問題。 根據您選取的警報通知通道，警報看起來類似以下內容。
 exl-id: 07b34db1-11ec-4cf2-ae47-cfc067f91383
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-43731：在『要符合的最少字詞』中新增值時，搜尋同義字無法運作」
+title: MDVA-43731：將值新增到「相符的最少字詞」中時，搜尋同義字無法運作
 description: MDVA-43731修補程式修正在「相符的最少字詞」中新增值時，搜尋同義字停止運作的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-43731。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: b795989c-d10b-443e-aebe-f3859930396a
 feature: Cache, Marketing Tools, Search

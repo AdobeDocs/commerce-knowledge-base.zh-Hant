@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42341：「categoryList」GraphQL查詢未篩選結果'
+title: MDVA-42341：「categoryList」GraphQL查詢未篩選結果
 description: MDVA-42341修補程式解決當請求具有Store標頭時，「categoryList」GraphQL查詢不會篩選結果的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.8時，即可使用此修補程式。 修補程式ID為MDVA-42341。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 34aeb30a-9491-4102-b33e-dcd857b6a1c2
 feature: GraphQL, Categories

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-56246：排程產品更新時清除多選屬性值」
+title: ACSD-56246：排程產品更新時清除多選屬性值
 description: 套用ACSD-56246修補程式，修正排程產品更新清除多選屬性值之Adobe Commerce問題。
 feature: Products, Attributes, Staging
 role: Admin, Developer

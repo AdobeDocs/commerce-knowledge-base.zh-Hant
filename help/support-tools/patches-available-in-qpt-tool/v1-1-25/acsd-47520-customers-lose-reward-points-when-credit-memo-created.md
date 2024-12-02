@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-47520：建立銷退折讓單時，客戶會失去獎勵積分」
+title: ACSD-47520：建立銷退折讓單時，客戶會失去獎勵積分
 description: 套用ACSD-47520修補程式，修正建立銷退折讓單時客戶遺失獎勵點的Adobe Commerce問題。
 exl-id: 748b4e05-981d-49f6-a4f5-b121d57085f4
 feature: Admin Workspace, Cache, Orders, Rewards, Returns

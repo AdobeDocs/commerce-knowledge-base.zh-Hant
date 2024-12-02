@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48448：訂單取消期間發生競爭條件問題，導致inventory_reservation表格中出現重複專案'
+title: ACSD-48448：訂單取消期間的競爭條件問題，導致inventory_reservation表格中出現重複專案
 description: 套用ACSD-48448修補程式來修正Adobe Commerce效能問題，此問題發生在訂單取消期間，導致inventory_reservation表格中出現重複專案。
 feature: Orders, Checkout
 role: Admin

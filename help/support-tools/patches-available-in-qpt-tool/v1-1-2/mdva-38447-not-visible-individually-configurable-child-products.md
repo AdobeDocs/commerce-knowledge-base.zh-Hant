@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-38447： GraphQL回應中傳回「無法個別顯示」可設定的子產品，且MySQL查詢緩慢'
+title: MDVA-38447：GraphQL回應中傳回「無法個別顯示」可設定的子產品，且MySQL查詢緩慢
 description: MDVA-38447 Adobe Commerce修補程式修正了GraphQL回應中傳回「無法個別顯示」可設定子產品的問題，以及使用類別篩選器的GraphQL產品查詢緩慢MySQL查詢。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2時，即可使用此修補程式。 修補程式ID為MDVA-38447。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 302e7458-d9ea-466a-a2ac-d86a8ee3eca3
 feature: B2B, GraphQL, Categories, Configuration, Products, Services

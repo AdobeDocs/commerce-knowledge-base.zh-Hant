@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-42969：相關產品規則僅適用於客戶區段設為全部時」
+title: MDVA-42969：相關產品規則僅適用於客戶區段設為全部時
 description: MDVA-42969修補程式修正了只有當客戶區段設為全部時，相關產品規則才能運作的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13後，即可使用此修補程式。 修補程式ID為MDVA-42969。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 2877ba7a-2681-4de2-9c37-228de232424f
 feature: Customer Service, Marketing Tools, Products

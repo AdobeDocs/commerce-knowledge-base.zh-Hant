@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-41164：無法儲存或編輯具有自訂客戶屬性的公司」
+title: MDVA-41164：無法儲存或編輯具有自訂客戶屬性的公司
 description: MDVA-41164修補程式解決管理員使用者無法儲存或編輯具有任何型別檔案或影像的自訂客戶屬性的公司的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-41164。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 24338895-68b4-404c-bedd-46cfc7e983a0
 feature: Admin Workspace, Attributes, B2B, Companies

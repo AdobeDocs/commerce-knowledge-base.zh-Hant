@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-55238：儲存空白的產品中繼說明'
+title: ACSD-55238：儲存空的產品中繼說明
 description: 套用ACSD-55238修補程式以修正Adobe Commerce問題，該問題導致中繼描述中一律顯示包含 [!DNL Page Builder] 或其他HTML編輯器產生的HTML代碼的產品描述，且無法將其設定為空白。
 feature: Products, Page Builder, Page Content
 role: Admin, Developer

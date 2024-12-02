@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Commerce內部部署2.4.2：缺少產品影像'
+title: Adobe Commerce內部部署2.4.2：缺少產品影像
 description: 本文會說明一個已知的Adobe Commerce內部部署2.4.2問題，此問題導致產品影像未上傳至產品頁面。 此問題排程在2.4.3版之後的未來版本中解決。目前沒有可用的解決方案，但做為解決辦法，您可以停用Nginx來調整影像大小。
 exl-id: c4d9240e-5df5-4eab-bb4e-1f06f9bd3a1e
 feature: Iaas, Products, Storefront

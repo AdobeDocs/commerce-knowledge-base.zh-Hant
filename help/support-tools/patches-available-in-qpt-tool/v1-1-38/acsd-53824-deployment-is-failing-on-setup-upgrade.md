@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53824：安裝程式升級時部署失敗'
+title: ACSD-53824：安裝程式升級時部署失敗
 description: 套用ACSD-53824修補程式以修正安裝程式升級時部署失敗的Adobe Commerce問題
 feature: Attributes, Upgrade
 role: Admin, Developer

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-47875：無法針對具有庫存管理的商店檢視範圍，將產品新增到購物車」
+title: ACSD-47875：無法透過庫存管理將產品新增到購物車以商店檢視範圍
 description: 套用ACSD-47875修補程式以修正Adobe Commerce問題，該問題導致無法針對具有庫存管理的特定商店檢視範圍，從管理員將產品新增到客戶購物車中。
 feature: Inventory, Shopping Cart, Products
 role: Admin, Developer

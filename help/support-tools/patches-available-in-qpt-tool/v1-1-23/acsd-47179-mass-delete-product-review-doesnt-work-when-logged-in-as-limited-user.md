@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-47179：以受限使用者角色登入時，大量刪除產品評論無法運作」
+title: ACSD-47179：以受限使用者角色登入時，無法大量刪除產品評論
 description: 套用ACSD-47179修補程式，修正以受限使用者角色登入時，大量刪除產品評論無法運作的Adobe Commerce問題。
 exl-id: 85d7ce63-7dd6-4df4-b314-278d18e69fbb
 feature: Marketing Tools, Products, Roles/Permissions

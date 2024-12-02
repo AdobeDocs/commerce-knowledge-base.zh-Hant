@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-36309：在管理網格中，依屬性搜尋產品的速度緩慢」
+title: MDVA-36309：在管理網格中，依屬性搜尋產品的速度緩慢
 description: MDVA-36309修補程式可解決管理格線中依屬性搜尋產品速度緩慢的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3後，即可使用此修補程式。 修補程式ID為MDVA-36309。 請注意，問題已在Adobe Commerce 2.4.3中修正。
 exl-id: 5e6b426b-201d-44a2-8c03-8ed5de8ed203
 feature: Admin Workspace, Attributes, Products, Search

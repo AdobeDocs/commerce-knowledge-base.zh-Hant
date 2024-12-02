@@ -1,6 +1,6 @@
 ---
 title: 清除Commerce管理員中的快取時發生錯誤
-description: '本文說明如何在Commerce管理員中清除快取時，識別錯誤訊息發生的原因。 當您嘗試透過「管理員」清除快取時，您會收到下列訊息：'
+description: 本文說明如何在Commerce管理員中清除快取時，識別發生錯誤訊息的原因。 當您嘗試透過「管理員」清除快取時，您會收到下列訊息：
 exl-id: aa414e04-bc6d-46bd-b98f-0446b97bda14
 feature: Admin Workspace, Cache
 role: Developer

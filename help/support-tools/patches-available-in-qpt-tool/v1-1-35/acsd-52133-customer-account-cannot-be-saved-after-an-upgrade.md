@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52133：升級後無法儲存客戶帳戶'
+title: ACSD-52133：升級後無法儲存客戶帳戶
 description: 套用ACSD-52133修補程式，修正Adobe Commerce升級後無法儲存客戶帳戶的問題。
 feature: Customers, Upgrade
 role: Admin

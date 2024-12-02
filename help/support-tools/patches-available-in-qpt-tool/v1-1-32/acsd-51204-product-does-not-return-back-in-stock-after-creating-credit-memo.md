@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51204：建立銷退折讓單後，產品沒有退回存貨'
+title: ACSD-51204：建立銷退折讓單後，產品沒有退回存貨
 description: 套用ACSD-51204修補程式，以修正Adobe Commerce產品在建立銷退折讓單後未退回庫存的問題。
 feature: Orders, Products, Returns
 role: Admin

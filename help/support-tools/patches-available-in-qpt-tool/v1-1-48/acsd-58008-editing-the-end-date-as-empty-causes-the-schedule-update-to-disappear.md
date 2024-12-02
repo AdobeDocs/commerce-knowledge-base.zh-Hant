@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-58008：將結束日期編輯為*empty*會導致排程更新消失'
+title: ACSD-58008：將結束日期編輯為*empty*會導致排程更新消失
 description: 套用ACSD-58008修補程式以修正Adobe Commerce將結束日期編輯為*empty*會導致排程更新消失的問題。
 feature: Staging, Page Content
 role: Admin, Developer

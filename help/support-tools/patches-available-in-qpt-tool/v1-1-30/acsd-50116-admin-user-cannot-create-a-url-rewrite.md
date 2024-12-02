@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-50116：管理員使用者無法為層級三或更低的子類別建立URL重新寫入」
+title: ACSD-50116：管理員使用者無法為層級三或更低的子類別建立URL重寫
 description: 套用ACSD-50116修補程式以修正Adobe Commerce中管理員使用者無法為第三級或更低級別的子類別建立URL重寫的問題。
 exl-id: 3fa8ebc1-b55d-437e-9dc7-bf6c300b9bbe
 feature: Admin Workspace, Categories

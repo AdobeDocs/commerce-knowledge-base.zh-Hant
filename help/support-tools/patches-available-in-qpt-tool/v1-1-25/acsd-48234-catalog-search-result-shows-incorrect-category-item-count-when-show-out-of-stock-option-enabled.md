@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48234：啟用[!UICONTROL Display Out of Stock Products]時，目錄搜尋結果類別專案計數不正確'
+title: ACSD-48234：啟用[!UICONTROL Display Out of Stock Products]時，目錄搜尋結果類別專案計數不正確
 description: 套用ACSD-48234修補程式以修正Adobe Commerce問題，此問題發生在啟用[!UICONTROL Display Out of Stock Products]選項時，目錄搜尋結果顯示錯誤的類別專案計數。
 exl-id: 8e70fe73-d550-4e11-b25e-84955e136d12
 feature: Admin Workspace, Categories, Catalog Management, Orders, Products, Search

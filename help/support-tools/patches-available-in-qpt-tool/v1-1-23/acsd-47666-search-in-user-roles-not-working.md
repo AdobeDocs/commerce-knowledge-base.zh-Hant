@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47666：在[!UICONTROL User Roles]中搜尋無法運作'
+title: ACSD-47666：在[!UICONTROL User Roles]中搜尋無法運作
 description: 套用ACSD-47666修補程式以修正[!UICONTROL User Roles]上的篩選函式無法如預期運作的Adobe Commerce問題。
 exl-id: c1b6d3ab-e132-4b09-8692-2b82f9ca6864
 feature: Roles/Permissions, Search

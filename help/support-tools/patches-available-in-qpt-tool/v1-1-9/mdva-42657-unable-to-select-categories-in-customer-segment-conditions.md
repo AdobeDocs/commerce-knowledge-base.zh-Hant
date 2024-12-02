@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-42657：無法在客戶區段條件中選取類別'
+title: MDVA-42657：無法在客戶區段條件中選取類別
 description: MDVA-42657修補程式解決管理員使用者無法在客戶區段條件中選取類別的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9後，即可使用此修補程式。 修補程式ID為MDVA-42657。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 9c810dcd-b39b-4456-a362-5452ada4dc53
 feature: Categories, Console, Customer Service

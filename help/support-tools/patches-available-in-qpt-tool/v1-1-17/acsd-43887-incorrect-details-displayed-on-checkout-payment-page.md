@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-43887：結帳付款頁面上顯示的詳細資料不正確」
+title: ACSD-43887：結帳付款頁面上顯示的詳細資料不正確
 description: ACSD-43887修補程式修正啟用「公司採購單」時，結帳付款頁面上顯示不正確詳細資料的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.17時，即可使用此修補程式。 修補程式ID為ACSD-43887。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 07b17f96-5236-43a7-aeaf-6bfe36c551cf
 feature: B2B, Checkout, Orders, Payments, User Account

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49877：視訊自動播放在行動裝置 [!DNL Safari]上無法運作'
+title: ACSD-49877：視訊自動播放在行動裝置 [!DNL Safari]上無法運作
 description: 套用ACSD-49877修補程式，修正視訊直接連結至遠端視訊檔案時，視訊自動播放選項在行動裝置 [!DNL Safari] 上無法運作的Adobe Commerce問題。
 exl-id: 454f7cec-29b9-485b-93be-2a4f2eb77da7
 feature: CMS

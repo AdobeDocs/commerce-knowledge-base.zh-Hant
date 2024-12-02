@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-42950：影片不會在產品頁面上播放」
+title: MDVA-42950：影片不會在產品頁面上播放
 description: MDVA-42950修補程式解決未在產品頁面上播放視訊的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-42950。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: e19e5ff0-9ddd-41de-b64b-4c3aef4d16a5
 feature: Products

@@ -1,10 +1,10 @@
 ---
-title: 'MDVA-36021：開啟訂單詳細資料時，使用者收到錯誤訊息'
+title: MDVA-36021：開啟訂單詳細資料時，使用者收到錯誤訊息
 description: MDVA-36021修補程式解決使用者嘗試開啟訂單詳細資料時，收到*Call to a member function getId()*錯誤訊息的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.1後，即可使用此修補程式。 修補程式ID為MDVA-36021。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 73b1f3c6-5dc4-48e4-8f3f-681be84f7638
 feature: Orders
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%

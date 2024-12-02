@@ -1,6 +1,6 @@
 ---
 title: 變更雲端基礎結構上Adobe Commerce的管理員密碼
-description: '！[login_panel_s.png](assets/login_panel_s.png)'
+description: ！[login_panel_s.png](assets/login_panel_s.png)
 exl-id: 1b6e867e-d314-4e7b-be95-d699e6749896
 feature: Admin Workspace, Cloud
 source-git-commit: 7dc84525aef4d59346bb9bc980a7ed9b7f6612cf

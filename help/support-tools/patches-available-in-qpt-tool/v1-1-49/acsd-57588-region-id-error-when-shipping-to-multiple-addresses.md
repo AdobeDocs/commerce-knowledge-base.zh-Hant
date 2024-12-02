@@ -1,9 +1,10 @@
 ---
-title: 「ACSD-57588：運送至多個地址時，區域ID處理發生錯誤」
+title: ACSD-57588：運送至多個地址時，區域ID處理發生錯誤
 description: 套用ACSD-57588修補程式以修正Adobe Commerce將訂單傳送至多個地址會在區域ID處理期間觸發錯誤的問題。
 feature: Orders, Shipping/Delivery
 role: Admin, Developer
-source-git-commit: 1899e4601d292a8543d1c34e622251a7f6aed124
+exl-id: 01a33db3-fdbe-4acd-a617-45fb3aee6f3d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 0%

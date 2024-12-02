@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-42768：子產品無存貨時，GraphQL顯示錯誤價格」
+title: MDVA-42768：子產品無存貨時，GraphQL顯示錯誤的價格
 description: MDVA-42768修補程式修正了當子產品（可設定的產品）無存貨時，GraphQL顯示錯誤價格的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10時，即可使用此修補程式。 修補程式ID為MDVA-42768。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 012e7e21-e508-4449-98a6-4bdb41284c3a
 feature: GraphQL, Orders, Products

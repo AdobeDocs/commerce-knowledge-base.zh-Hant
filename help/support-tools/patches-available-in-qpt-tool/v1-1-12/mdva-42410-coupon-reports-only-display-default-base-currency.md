@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-42410：抵用券報表僅顯示預設基本貨幣」
+title: MDVA-42410：抵用券報表僅顯示預設基本貨幣
 description: MDVA-42410修補程式修正了抵用券報表僅顯示基本貨幣的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-42410。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: b442a2ce-1bd4-4f09-95fd-2c626e32f509
 feature: Orders

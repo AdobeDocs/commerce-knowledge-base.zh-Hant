@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47908： *必須小於或等於0的值*結帳時發生錯誤'
+title: ACSD-47908： *應為小於或等於0的值*結帳時發生錯誤
 description: 套用ACSD-47908修補程式來修正Adobe Commerce錯誤*在結帳期間於出貨步驟上選取來源和數量時，必須有一個小於或等於0的值*。
 exl-id: fec90e4b-9cb8-4cd9-9e85-ccada840c896
 feature: Admin Workspace, Checkout, Orders

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45071：匯入期間新增到產品的預設來源'
+title: ACSD-45071：匯入期間新增到產品的預設來源
 description: ACSD-45071修補程式可解決匯入期間將預設來源新增至產品的問題。 安裝[[!DNL Quality Patches Tool (QPT)]](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.21時，即可使用此修補程式。 修補程式ID為ACSD-45071。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 8d8dbb06-6133-4d7a-939a-8bf18caec81c
 feature: Data Import/Export, Products

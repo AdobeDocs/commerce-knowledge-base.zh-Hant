@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51884：調整大小命令上的產品影像快取路徑不正確'
+title: ACSD-51884：調整大小命令上的產品影像快取路徑不正確
 description: 套用ACSD-51884修補程式，修正Adobe Commerce產品影像快取路徑在執行resize命令後會變得不正確的問題。
 feature: Products
 role: Admin

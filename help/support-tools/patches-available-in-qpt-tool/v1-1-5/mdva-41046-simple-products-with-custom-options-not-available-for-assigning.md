@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41046：無法指派包含自訂選項的簡單產品'
+title: MDVA-41046：無法指派包含自訂選項的簡單產品
 description: MDVA-41046修補程式解決具有自訂選項的簡單產品無法指派給可設定/分組產品的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-41046。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 01229a69-c72a-4189-9be5-1761073b74ee
 feature: Products

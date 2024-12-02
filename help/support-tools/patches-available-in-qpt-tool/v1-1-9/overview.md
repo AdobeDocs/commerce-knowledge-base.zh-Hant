@@ -1,5 +1,5 @@
 ---
-title: '概述： [!DNL Quality Patches Tool] (QPT) v1.1.9'
+title: 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.9
 description: 此小節提供 [!DNL Quality Patches Tool] (QPT) v1.1.9中可用修補程式所修正問題的詳細說明。
 exl-id: bd89de26-6ac7-463e-891a-9550e888b9f8
 feature: Tools and External Services

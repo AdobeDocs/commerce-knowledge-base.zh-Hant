@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce上的撰寫器更新失敗：不相容的引數型別」
+title: Adobe Commerce上的撰寫器更新失敗：不相容的引數型別
 description: 本文提供因程式碼編譯問題而卡住部署的解決方案。 此問題是由新版本的symfony/主控台相依性(4.4.27、4.4.28)所導致。
 exl-id: ba2dd229-29f6-43e2-9467-8bd1bf59e6ef
 feature: Console

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-50814：管理員使用者無法建立銷退折讓單」
+title: acsd-50814：管理員使用者無法建立銷退折讓單
 description: 套用ACSD-50814修補程式，修正管理員使用者無法建立銷退折讓單的Adobe Commerce問題。
 exl-id: bda374cf-6fb7-479f-8130-213ce3cc553e
 feature: Admin Workspace, Orders, Returns

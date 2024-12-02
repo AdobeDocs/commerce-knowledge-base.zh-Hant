@@ -1,5 +1,5 @@
 ---
-title: 「雲端上的Adobe Commerce：變更驗證金鑰並重新部署」
+title: 雲端上的Adobe Commerce：變更驗證金鑰並重新部署
 description: 本文提供如何使用不同的驗證金鑰在雲端基礎結構上重新部署Adobe Commerce的說明。 例如，您可能已將金鑰用於其他帳戶，或者您可能已使用Magento Open Source金鑰而非Adobe Commerce金鑰。
 exl-id: 47407c81-5c52-406f-812f-6c6b3ca5cafa
 feature: Cloud, Deploy

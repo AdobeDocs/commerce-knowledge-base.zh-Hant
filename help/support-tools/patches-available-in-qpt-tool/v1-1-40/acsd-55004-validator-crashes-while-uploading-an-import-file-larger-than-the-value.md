@@ -1,10 +1,10 @@
 ---
-title: 「ACSD-55004：驗證器上傳大於值的匯入檔案時當機」
+title: ACSD-55004：驗證器上傳大於值的匯入檔案時當機
 description: 套用ACSD-55004修補程式，以修正Adobe Commerce的問題，其中上傳大於「php.ini」中設定的值的匯入檔案時，驗證器會當機。
 feature: Data Import/Export
 role: Admin, Developer
 exl-id: 03b7667e-9b5b-4319-9135-dbc7fda7861d
-source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%

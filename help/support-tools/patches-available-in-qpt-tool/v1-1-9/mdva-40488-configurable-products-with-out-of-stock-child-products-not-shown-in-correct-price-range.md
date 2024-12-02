@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40488：含有無庫存子產品的可設定產品未顯示在正確價格範圍內'
+title: MDVA-40488：含有無庫存子產品的可設定產品未顯示在正確價格範圍內
 description: MDVA-40488修補程式解決具有無庫存子產品的可設定產品無法顯示在其正確價格範圍的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.9後，即可使用此修補程式。 修補程式ID為MDVA-40488。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 0c4b9f5e-ae41-409e-b244-1d7cf948ed6f
 feature: Configuration, Orders, Products

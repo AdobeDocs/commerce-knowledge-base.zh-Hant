@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-46767：當庫存數量變更時，[!UICONTROL Category]個頁面快取失效」
+title: ACSD-46767：當庫存數量變更時，[!UICONTROL Category]個頁面快取失效
 description: 套用ACSD-46767修補程式以修正庫存數量變更時（即使產品仍有庫存），[!UICONTROL Category]頁面快取失效的Adobe Commerce問題。
 feature: Cache, Products, Inventory
 role: Admin, Developer

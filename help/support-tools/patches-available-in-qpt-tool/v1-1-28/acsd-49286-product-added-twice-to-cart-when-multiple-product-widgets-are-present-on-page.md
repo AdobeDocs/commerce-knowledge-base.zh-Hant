@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-49286：出現多個產品Widget時，產品會新增到購物車兩次」
+title: ACSD-49286：出現多個產品Widget時，產品會新增到購物車兩次
 description: 套用ACSD-49286修補程式來修正Adobe Commerce問題，此問題導致當頁面上出現多個產品Widget時，產品會新增至購物車兩次。
 exl-id: b1764943-945d-4ef9-9bbe-3f3c8383b5b1
 feature: Admin Workspace, Orders, Products, Shopping Cart

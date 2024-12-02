@@ -1,6 +1,6 @@
 ---
-title: 「E：驗證路由時發生錯誤。在中繼或生產部署期間出現yaml錯誤」
-description: 「本文為Adobe Commerce提供雲端基礎結構問題的解決方案，當嘗試將專案部署到中繼或生產環境時，您會收到*"E：驗證路由時發生錯誤.yaml"*錯誤訊息。」
+title: E：驗證路由時發生錯誤。中繼或生產部署期間發生yaml錯誤
+description: 本文提供Adobe Commerce在雲端基礎結構問題上的解決方案，當嘗試將專案部署到中繼或生產環境時，您會收到*"E：驗證路由時發生錯誤.yaml"*錯誤訊息。
 exl-id: 7f58591a-5581-46cd-984d-09ac2c0f3903
 feature: Deploy, Routes, Staging
 role: Developer

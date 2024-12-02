@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-40134：啟用共用目錄時，GraphQL未傳回相關產品」
+title: MDVA-40134：啟用共用目錄時，GraphQL未傳回相關產品
 description: MDVA-40134修補程式修正啟用共用目錄時，GraphQL未傳回相關產品的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2時，即可使用此修補程式。 修補程式ID為MDVA-40134。 請注意，問題已在Adobe Commerce 2.4.3中修正。
 exl-id: 7b14355a-1c14-4c80-9426-6c40505d638b
 feature: B2B, Catalog Management, GraphQL, Products

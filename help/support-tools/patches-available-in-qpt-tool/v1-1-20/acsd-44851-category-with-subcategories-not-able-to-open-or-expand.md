@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-44851：子類別無法開啟或展開的類別」
+title: ACSD-44851：子類別無法開啟或展開的類別
 description: 本文提供使用者無法開啟或展開具有子類別的類別問題的解決方案。
 exl-id: 46ad9f9d-ed66-44df-b66d-ab9ff3923c36
 feature: Categories

@@ -1,5 +1,5 @@
 ---
-title: 「已發行品質修補程式工具：提供自助式品質修補程式的新工具」
+title: 已發行品質修補程式工具：提供自助式品質修補程式的新工具
 description: Adobe已發行品質修補程式工具以供一般使用，此工具可讓您套用、還原及檢視已安裝的Adobe Commerce版本（內部部署和雲端基礎結構）或Magento Open Source可用的品質修補程式的一般資訊。
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51666： 「工作階段已過期，請重新登入」錯誤。 在您登入後'
+title: ACSD-51666： 「工作階段已過期，請重新登入」錯誤。 在您登入後
 description: 套用ACSD-51666修補程式以修正錯誤*工作階段已過期的Adobe Commerce問題，請重新登入。*會在您嘗試登入後發生。
 feature: Customers
 role: Admin, Developer

@@ -1,6 +1,6 @@
 ---
 title: 基礎價格變更對共用型錄價格的影響
-description: 「本文回答的問題是：如果共用目錄中的產品有自訂價格，而且產品的基礎價格有變更（例如在排程更新後），則共用目錄會套用哪個價格？」
+description: 本文回答以下問題：如果共用目錄中的產品有自訂價格，而且產品的基礎價格有變更（例如在排程更新後），則共用目錄會套用哪個價格？
 exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
 source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0

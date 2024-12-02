@@ -1,5 +1,5 @@
 ---
-title: 「PWA Studio：Webpack在開始編譯前擱置」
+title: PWA Studio：Webpack在開始編譯前擱置
 description: 本文討論當javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在開始在Progressive Web App Studio (PWA Studio)中編譯之前掛起很長時間時的建議解決方案。
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration

@@ -1,6 +1,6 @@
 ---
-title: 「Adobe Commerce 2.3.7-p1已知問題：PayPal的過時訂購總數」
-description: 「本文針對Adobe Commerce 2.3.7-p1中的一個已知問題提供修補程式：客戶在購物車中多次使用PayPal結帳時，購買的是先前訂購的產品，而非他們嘗試訂購的新產品。」
+title: Adobe Commerce 2.3.7-p1已知問題：PayPal的過時訂購總數
+description: 本文針對Adobe Commerce 2.3.7-p1中的已知問題提供修補程式：當客戶在購物車中多次使用PayPal結帳時，會取得先前訂購的產品，而非客戶嘗試訂購的新產品。
 exl-id: ceb8f7ad-0cf7-4d42-aded-25d1dd947f5b
 feature: Orders, Payments
 role: Developer

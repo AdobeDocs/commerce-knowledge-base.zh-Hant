@@ -1,6 +1,6 @@
 ---
 title: 設定NPM以便使用PWA Studio
-description: '''[漸進式Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/)是雲端基礎結構2.3.x或更新版本上適用於Adobe Commerce的新專案。 為了能夠使用和安裝PWA Studio，您需要將NPM封裝管理程式版本設定為5.x或更新版本，以取得對Node.js 8.x的支援。這會在「.magento.app.yaml」設定檔案的「hooks：build」區段中完成。'
+description: '[漸進式Web Apps (PWA) Studio](https://magento.github.io/pwa-studio/)是雲端基礎結構2.3.x或更新版本上適用於Adobe Commerce的新專案。 為了能夠使用和安裝PWA Studio，您需要將NPM封裝管理程式版本設定為5.x或更新版本，以取得對Node.js 8.x的支援。這會在「.magento.app.yaml」設定檔案的「hooks：build」區段中完成。'
 exl-id: 3854fc94-e8ad-45d8-bf3e-73462364220d
 source-git-commit: 37ac9cca1f876a48092467aa38f2f2f013c83dd9
 workflow-type: tm+mt

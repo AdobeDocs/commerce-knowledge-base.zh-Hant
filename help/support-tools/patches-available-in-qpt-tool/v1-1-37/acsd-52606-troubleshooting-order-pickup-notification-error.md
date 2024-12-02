@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-52606：當使用者按一下「通知訂單已準備好取貨」時顯示的錯誤訊息'
+title: ACSD-52606：當使用者按一下「通知訂單已準備好取貨」時顯示的錯誤訊息
 description: 套用ACSD-52606修補程式以修正Adobe Commerce問題，該問題導致使用者按一下**[!UICONTROL Notify Order is Ready for Pickup]**時顯示錯誤訊息。
 feature: Orders, User Account
 role: Admin, Developer

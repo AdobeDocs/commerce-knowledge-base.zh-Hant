@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-33606：使用者在儲存指派給階層的CMS頁面時發生錯誤」
+title: MDVA-33606：使用者在儲存指派給階層的CMS頁面時發生錯誤
 description: MDVA-33606修補程式解決在儲存指派給階層樹狀結構的CMS頁面時，使用者收到*發現唯一條件約束違規*錯誤的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.3後，即可使用此修補程式。 修補程式ID為MDVA-33606。 請注意，問題已在Adobe Commerce 2.4.3中修正。
 exl-id: cdefece5-6d13-4003-87e9-810c665e940c
 feature: CMS

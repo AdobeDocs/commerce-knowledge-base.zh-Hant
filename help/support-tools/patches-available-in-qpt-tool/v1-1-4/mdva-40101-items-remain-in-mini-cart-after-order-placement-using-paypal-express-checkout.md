@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40101：下單後商品仍為迷你購物車PayPal Express結帳'
+title: MDVA-40101：下單後商品仍為迷你購物車PayPal Express結帳
 description: MDVA-40101修補程式修正使用PayPal Express結帳成功下單後，無法從迷你購物車移除專案的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4時，即可使用此修補程式。 修補程式ID為MDVA-40101。 請注意，問題已在Adobe Commerce 2.4.0中修正。
 exl-id: d640dfcd-6fb6-4cc6-8817-3ae19aa59bed
 feature: Checkout, Orders, Payments, Shopping Cart

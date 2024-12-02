@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48293：複合產品無庫存，兒童產品已補充庫存'
+title: ACSD-48293：複合產品無庫存（已售出）子產品已補充庫存
 description: 套用ACSD-48293修補程式來修正Adobe Commerce問題，此問題發生在售出的子產品恢復庫存時，複合產品會缺貨。
 exl-id: 74ca34fe-e015-4daf-a608-4756c8ab3558
 feature: Admin Workspace, Orders, Products

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-44703：訂單報表中的訂單總計計算錯誤'
+title: MDVA-44703：訂單報表中的訂單總計計算錯誤
 description: MDVA-44703修補程式修正限制管理員使用者的「訂單」報表中訂單總計計算錯誤的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.16後，即可使用此修補程式。 修補程式ID為MDVA-44703。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: d8c31e47-ace6-4dba-a57c-941e722a6aad
 feature: Orders

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-52921：向GraphQL請求無庫存可設定產品的購物車詳細資料時發生錯誤」
+title: ACSD-52921：向GraphQL請求無庫存可設定產品的購物車詳細資料時發生錯誤
 description: 套用ACSD-52921修補程式以修正Adobe Commerce問題，該問題導致從GraphQL請求無存貨可設定產品的購物車詳細資料時發生內部錯誤。
 feature: GraphQL, Configuration, Products, Shopping Cart
 role: Admin

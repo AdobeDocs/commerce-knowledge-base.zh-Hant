@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-37364：日期型別的自訂客戶屬性破壞格線UI'
+title: MDVA-37364：日期型別的自訂客戶屬性破壞格線UI
 description: MDVA-37364修補程式解決日期型別的自訂客戶屬性破壞客戶網格UI的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2時，即可使用此修補程式。 修補程式ID為MDVA-37364。 請注意，此問題已排程在Adobe Commerce 2.4.4版中修正。
 exl-id: d25baabf-45eb-403c-9f88-9c2448cc7b49
 feature: Attributes, Cache

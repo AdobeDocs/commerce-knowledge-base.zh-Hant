@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-40120：GraphQL產品DESC/ASC排序無法運作」
+title: MDVA-40120：GraphQL產品DESC/ASC排序無法運作
 description: MDVA-40120修補程式解決了GraphQL依DESC/ASC排序時，無法搭配具有相同關聯性或價格的產品運作的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.6後，即可使用此修補程式。 修補程式ID為MDVA-40120。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: f04373d6-d3e8-47ba-9261-87fad8dff327
 feature: GraphQL, Products

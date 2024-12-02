@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-56158：當多個稅捐規則套用至購物車時，GraphQL回應中的稅捐值錯誤」
+title: ACSD-56158：將多個稅捐規則套用至購物車時，GraphQL回應中的稅捐值錯誤
 description: 套用ACSD-56158修補程式，修正Adobe Commerce將多個稅捐規則套用至購物車時，GraphQL回應中的稅捐值呈現不正確的問題。
 feature: GraphQL, Taxes
 role: Admin, Developer

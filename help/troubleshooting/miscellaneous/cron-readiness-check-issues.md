@@ -1,6 +1,6 @@
 ---
 title: Cron整備檢查問題
-description: 「本文提供cron整備問題的解決方案。 以下是cron問題的症狀：'
+description: 本文提供cron整備問題的解決方案。 以下是cron問題的症狀：
 exl-id: 1f2cee2c-98ad-4cf5-af16-d736fced2a15
 feature: Configuration
 role: Developer

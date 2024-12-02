@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-49737：信用卡付款失敗後，優惠券錯誤地標籤為已使用」
+title: ACSD-49737：信用卡付款失敗後，優惠券錯誤地標籤為已使用
 description: 套用ACSD-49737修補程式，以修正Adobe Commerce在支付信用卡失敗後，優惠券錯誤地標示為使用的問題。
 exl-id: 77b5ec9c-3c4c-4da3-ba7e-8be3ccea04d0
 feature: Orders, Payments

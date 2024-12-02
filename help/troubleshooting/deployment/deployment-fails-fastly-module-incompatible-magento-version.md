@@ -1,6 +1,6 @@
 ---
 title: 部署失敗Fastly模組與Adobe Commerce版本不相容
-description: '更新日期： 2019年2月29日'
+description: 更新日期： 2019年2月29日
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer

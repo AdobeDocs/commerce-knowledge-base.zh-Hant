@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-50368：透過Async REST API或Async Bulk REST API建立客戶時，會忽略客戶group_id」
+title: ACSD-50368：透過非同步REST API或非同步大量REST API建立客戶時，會忽略客戶group_id
 description: 套用ACSD-50368修補程式以修正Adobe Commerce問題，該問題導致在透過非同步REST API或非同步大量REST API建立客戶時忽略客戶group_id。
 feature: REST
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-47106：未儲存公司建立頁面上的新自訂屬性」
+title: ACSD-47106：未儲存公司建立頁面上的新自訂屬性
 description: 套用ACSD-47106修補程式以修正Adobe Commerce無法儲存公司建立頁面上的新自訂屬性中的值的問題。
 exl-id: 941d6d8f-36eb-4b50-980f-e4afe6bf33df
 feature: Attributes, B2B, Companies

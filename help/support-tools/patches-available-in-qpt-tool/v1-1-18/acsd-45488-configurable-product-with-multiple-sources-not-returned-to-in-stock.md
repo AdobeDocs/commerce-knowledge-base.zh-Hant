@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-45488：具有多個來源的可設定產品未自動傳回庫存中」
+title: ACSD-45488：具有多個來源的可設定產品未自動退回庫存中
 description: ACSD-45488修補程式解決了具有多個來源的可設定產品無法自動退回到庫存中的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18後，即可使用此修補程式。 修補程式ID為ACSD-45488。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 83332226-b14e-4d36-bf65-170f55fff270
 feature: Configuration, Orders, Products, Returns

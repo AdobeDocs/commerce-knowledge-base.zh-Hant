@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51890：可以按多次[!UICONTROL Submit review]按鈕'
+title: ACSD-51890：可以按多次[!UICONTROL Submit review]按鈕
 description: 套用ACSD-51890修補程式以修正Adobe Commerce問題，該問題導致使用者可在不進行 [!DNL Google reCAPTCHA v3] 驗證的情況下多次點選[!UICONTROL Submit Review]按鈕。
 feature: Products
 role: Admin

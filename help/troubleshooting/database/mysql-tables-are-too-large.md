@@ -1,5 +1,5 @@
 ---
-title: '[!DNL MySQL]資料表太大'
+title: '[!DNL MySQL]個資料表太大'
 description: 本文探討當任何 [!DNL MySQL] 資料表大於1 GB時，為何會發生問題，以及如何防止此問題。
 exl-id: 43f74e3b-7f2e-428c-9964-56d2ce98a34d
 feature: Services

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40435：未透過GraphQL正確套用套件組合產品的折扣'
+title: MDVA-40435：未透過GraphQL正確套用套件組合產品的折扣
 description: MDVA-40435修補程式可解決無法透過GraphQL正確套用套件產品折扣的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.4時，即可使用此修補程式。 修補程式ID為MDVA-40435。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 939ba940-35b5-4ab0-81fe-38981246e389
 feature: GraphQL, Orders, Personalization, Products

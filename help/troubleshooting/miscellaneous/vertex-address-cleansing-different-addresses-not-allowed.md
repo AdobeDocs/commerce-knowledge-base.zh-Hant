@@ -1,5 +1,5 @@
 ---
-title: '頂點位址清除：不允許不同的位址'
+title: 頂點位址清除：不允許不同的位址
 description: 本文會討論當使用者嘗試輸入**不同**帳單和送貨地址，並啟用頂點地址驗證時，店面不會讓使用者輸入此問題的解決方案。
 exl-id: a481b044-3b74-4792-abc6-249a182c49e1
 feature: B2B, Orders, Shipping/Delivery, Checkout

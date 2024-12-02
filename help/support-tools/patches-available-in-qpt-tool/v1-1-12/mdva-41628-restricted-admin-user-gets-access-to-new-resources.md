@@ -1,5 +1,5 @@
 ---
-title: 「MDVA-41628：受限制的管理員使用者取得新資源的存取權」
+title: MDVA-41628：受限制的管理員使用者取得新資源的存取權
 description: MDVA-41628修補程式修正了受限管理員使用者在新增模組時能夠存取新資源的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-41628。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 8f63ce9d-07b6-4d9d-a51b-b85b783b2adf
 feature: Admin Workspace

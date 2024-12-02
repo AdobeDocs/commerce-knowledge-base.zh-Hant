@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-55112：可以按多次[!UICONTROL Sumbit Review]按鈕'
+title: ACSD-55112：可以按多次[!UICONTROL Sumbit Review]按鈕
 description: 套用ACSD-55112修補程式以修正Adobe Commerce問題，該問題導致使用者可在不進行 [!DNL Google reCAPTCHA v3] 驗證的情況下多次點選[!UICONTROL Submit Review]按鈕。
 feature: Products
 role: Admin, Developer

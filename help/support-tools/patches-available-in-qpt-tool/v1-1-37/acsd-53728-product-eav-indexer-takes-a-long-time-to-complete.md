@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-53728：產品EAV索引器需要很長時間才能完成」
+title: ACSD-53728：產品EAV索引器需要很長時間才能完成
 description: 套用ACSD-53728修補程式，修正Adobe Commerce中產品EAV索引器需長時間才能完成的問題。
 feature: Products, Attributes
 role: Admin, Developer

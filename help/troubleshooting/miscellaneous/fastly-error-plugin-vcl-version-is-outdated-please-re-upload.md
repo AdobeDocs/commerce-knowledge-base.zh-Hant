@@ -1,5 +1,5 @@
 ---
-title: 「Fastly錯誤：外掛程式VCL版本已過時！ 請重新上傳'
+title: Fastly錯誤：外掛程式VCL版本已過時！ 請重新上傳
 description: 當您看到訊息「*Plugin VCL版本已過時！ 請重新上傳。*" (在Commerce管理員的Fastly設定中)，因為尚未安裝最新的Fastly模組。
 exl-id: d7870e9e-ba6b-49c2-a80c-26fb464cbae3
 feature: Best Practices, Cache

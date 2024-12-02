@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39605：Redis快取TTL （到期日）的值錯誤'
+title: MDVA-39605： Redis快取TTL （到期日）的值錯誤
 description: MDVA-39605修補程式解決了Redis快取TTL （到期日）的值錯誤的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13後，即可使用此修補程式。 修補程式ID為MDVA-39605。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 7283838b-702d-4ddc-aa03-829dbf5aa91f
 feature: Cache, Console, Services

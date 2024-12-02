@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce 2.4.0已知問題：Amazon付費，無付款方式」
+title: Adobe Commerce 2.4.0已知問題： Amazon付費，無付款方式
 description: 針對Adobe Commerce 2.4.0的已知問題，本文提供解決方案，解決客戶啟用Amazon付款後，使用**返回標準結帳**時缺少付款方法的問題。
 exl-id: efd792c7-8970-4366-b9d1-4bf284ea96db
 feature: B2B, Orders, Payments

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-27456：使用者載入Swagger時發生錯誤'
+title: MDVA-27456：使用者載入Swagger時發生錯誤
 description: MDVA-27456修補程式修正使用者嘗試載入Swagger時發生錯誤的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6後，即可使用此修補程式。 修補程式ID為MDVA-27456。 請注意，問題已在Adobe Commerce 2.3.7中修正。
 exl-id: e331595f-a94b-4070-803a-60f559735b29
 feature: Tools and External Services

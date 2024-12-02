@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39521：無法透過GraphQL設定購物車上的運送地址'
+title: MDVA-39521：無法透過GraphQL設定購物車上的送貨地址
 description: MDVA-39521修補程式可解決使用者無法透過GraphQL在電話號碼為空白的購物車上設定送貨地址的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2時，即可使用此修補程式。 修補程式ID為MDVA-39521。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: b6bb4e83-ba65-4f15-82be-1252d9beb2fb
 feature: GraphQL, Orders, Shipping/Delivery, Shopping Cart

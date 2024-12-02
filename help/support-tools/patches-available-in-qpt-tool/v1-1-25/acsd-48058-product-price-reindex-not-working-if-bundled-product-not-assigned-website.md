@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-48058：如果套件產品未指派網站，則產品價格重新指數無法運作'
+title: ACSD-48058：如果捆綁產品未指派給網站，則產品價格重新指數無法運作
 description: 若未將隨附產品指派給任何網站，請套用ACSD-48058修補程式以修正Adobe Commerce中產品價格重新索引無法運作的問題。
 exl-id: 691371f1-7f10-4be6-80e4-821e7cf664a6
 feature: Admin Workspace, Orders, Products

@@ -1,5 +1,5 @@
 ---
-title: '概觀： [!DNL Quality Patches Tool] (QPT) v1.1.43'
+title: 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.43
 description: 此小節提供 [!DNL Quality Patches Tool] (QPT) v1.1.43中可用修補程式所修正問題的詳細說明。
 feature: Tools and External Services
 role: Admin, Developer
@@ -23,7 +23,7 @@ QPT v1.1.43包含下列修補程式：
 1. **ACSD-55610**：修正部分取消的訂單折扣金額不正確的問題。
 1. **ACSD-55334**：透過GraphQL回應中的翻譯字典修正標籤的翻譯。
 1. **ACSD-54739**：修正相關產品規則未套用產品庫存狀態條件的問題。
-1. **ACSD-53925**：修正當`catalog_product_price` dimensions-mode設為&#x200B;*網站*&#x200B;時，管理員無法儲存含有產品輪播的CMS區塊的問題。
+1. **ACSD-53925**：修正當`catalog_product_price`維度模式設為&#x200B;*網站*&#x200B;時，管理員無法將CMS區塊與產品輪播儲存的問題。
 1. **ACSD-52714**：修正日期格式設為&#x200B;*Y-m-d*&#x200B;時，日期篩選器在管理格線中無法運作的問題。
 1. **ACSD-53790**：修正可透過REST API為單一產品建立多個RMA的問題。
 1. **ACSD-56090**：修正GraphQL要求回應所有存放區資料（而非特別要求的存放區資料）的問題。

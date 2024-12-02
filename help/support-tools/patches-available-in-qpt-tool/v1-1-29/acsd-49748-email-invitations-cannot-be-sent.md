@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-49748：無法傳送電子郵件邀請'
+title: ACSD-49748：無法傳送電子郵件邀請
 description: 套用ACSD-49748修補程式以修正使用者無法傳送電子郵件邀請的Adobe Commerce問題。
 exl-id: 65de8ea9-e65c-463b-8cba-d35767d4343d
 feature: Admin Workspace, Communications, Marketing Tools

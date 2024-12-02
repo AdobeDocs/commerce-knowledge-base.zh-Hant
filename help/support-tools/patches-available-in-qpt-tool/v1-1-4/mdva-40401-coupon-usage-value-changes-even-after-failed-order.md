@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40401：訂單失敗後優惠券使用值變更'
+title: MDVA-40401：訂單失敗後優惠券使用量值變更
 description: MDVA-40401修補程式修正了即使在訂單失敗後優惠券使用量值也會變更的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.4時，即可使用此修補程式。 修補程式ID為MDVA-40401。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: c497ee84-9c20-4c75-ad3a-3b71f699acbf
 feature: Orders

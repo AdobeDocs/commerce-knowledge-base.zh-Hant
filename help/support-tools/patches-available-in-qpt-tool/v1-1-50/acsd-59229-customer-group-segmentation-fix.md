@@ -1,9 +1,10 @@
 ---
-title: 「ACSD-59229：由於過期的X-Magento-Vary值，導致客戶群組資料配置錯誤」
+title: ACSD-59229：由於過期的X-VaryMagento，導致客戶群組資料配置錯誤
 description: 套用ACSD-59229修補程式以修正Adobe Commerce問題，該問題導致客戶群組相關資訊因請求中的過期X-Magento-Vary值而儲存在錯誤的區段中。
 feature: Customers, Personalization, Marketing Tools
 role: Admin, Developer
-source-git-commit: 41d502a85a0cbb4eb8d186e4c1e1256aec3f8740
+exl-id: 090b674a-5103-48cd-9426-41166bf9272c
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%

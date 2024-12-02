@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-57003：訂單狀態變更為*Complete*，而非變更為*Processing*'
+title: ACSD-57003：訂單狀態變更為*Complete*而非*Processing*
 description: 套用ACSD-57003修補程式以修正訂單狀態變更為*Complete*而非變更為*Processing*的Adobe Commerce問題。
 feature: Orders, Invoices, Shipping/Delivery
 role: Admin, Developer

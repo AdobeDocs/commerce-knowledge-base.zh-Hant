@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52287：已封存訂單的狀態不會變更'
+title: ACSD-52287：已封存訂單的狀態不會變更
 description: 套用ACSD-52287修補程式，以修正Adobe Commerce的問題，即已封存訂單在提交銷退折讓單後，其狀態不會在網格上從*completed*變更為*closed*。
 feature: Orders, Checkout
 role: Admin, Developer

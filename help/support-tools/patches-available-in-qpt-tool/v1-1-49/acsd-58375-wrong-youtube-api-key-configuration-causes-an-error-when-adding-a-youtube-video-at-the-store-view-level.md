@@ -1,9 +1,10 @@
 ---
-title: 「ACSD-58375：錯誤設定的YouTube API金鑰導致在商店檢視層級新增視訊時發生錯誤」
+title: ACSD-58375：在商店檢視層級新增視訊時，YouTube API金鑰設定錯誤會導致錯誤
 description: 套用ACSD-58375修補程式，修正在商店檢視層級新增Adobe Commerce視訊時，錯誤YouTube API金鑰設定會導致錯誤的YouTube問題。
 feature: Catalog Management, Configuration
 role: Admin, Developer
-source-git-commit: 1887a74b0c5545f9213f54602c58de7028d1ad72
+exl-id: e97f53a1-930b-417f-bd1a-8084bb168d68
+source-git-commit: a84c3d296deb49d419be78f454696177a974d923
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-40816：產品格線未顯示詳細目錄資料'
+title: MDVA-40816：產品格線中未顯示詳細目錄資料
 description: 如果產品SKU包含特殊字元，MDVA-40816修補程式可解決產品格線中未顯示存貨資訊的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.10時，即可使用此修補程式。 修補程式ID為MDVA-40816。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 88c05c88-33be-4d72-a302-23a1510c401c
 feature: Admin Workspace, Inventory, Orders, Products

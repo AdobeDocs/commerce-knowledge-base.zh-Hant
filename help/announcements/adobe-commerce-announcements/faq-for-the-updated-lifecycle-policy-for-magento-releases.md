@@ -1,6 +1,6 @@
 ---
 title: Adobe Commerce發行版本更新生命週期原則的常見問題集
-description: 「Adobe Commerce為次要版本提供品質修正，從下一個次要軟體版本正式發行之日起至少12個月。 我們在此期間提供品質修正的方式正在改變：'
+description: Adobe Commerce為次要版本提供品質修正，從下一個次要軟體版本正式發行之日起至少12個月。 我們在此期間提供品質修正的方式正在改變：
 exl-id: 4aa601d0-ee1d-4f1f-a684-188772a58dd1
 feature: Compliance, Support
 role: Admin

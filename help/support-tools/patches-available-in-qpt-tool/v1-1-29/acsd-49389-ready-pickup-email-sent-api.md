@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-49389：準備好取件時，API就會傳送取件電子郵件」
+title: ACSD-49389：準備好接收由API傳送的電子郵件，但還沒有準備好接收時
 description: 套用ACSD-49389修補程式以修正Adobe Commerce問題，亦即訂單無法收取時，API會傳送已準備好收取的電子郵件。
 exl-id: a1baae06-cf36-448b-bda4-aff1e5ca68db
 feature: REST, Communications
@@ -43,7 +43,7 @@ ACSD-49389修補程式修正了訂單無法收取時，API會傳送準備收取�
 1. 從店面檢視在步驟4使用&#x200B;*[!UICONTROL In-Store Delivery]*&#x200B;方法建立的產品。
 1. 建立訂單的商業發票。
 1. 將產品的數量設為&#x200B;*0*，並使其無庫存。
-1. Post下列API請求：
+1. 發佈下列API請求：
 
 ```
 {

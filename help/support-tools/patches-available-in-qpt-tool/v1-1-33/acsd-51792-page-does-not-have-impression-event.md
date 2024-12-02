@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51792：頁面沒有曝光事件'
+title: ACSD-51792：頁面沒有曝光事件
 description: 套用ACSD-51792修補程式，修正啟用Adobe Commerce Tag Manager 4時頁面沒有曝光事件的Google效能問題。
 exl-id: 59194d4c-c387-4372-a0ff-1cdd74f8c6df
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc

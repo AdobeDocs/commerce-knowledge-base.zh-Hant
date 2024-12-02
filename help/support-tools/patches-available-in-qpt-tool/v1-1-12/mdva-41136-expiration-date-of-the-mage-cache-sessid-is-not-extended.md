@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-41136：未延長mage-cache-sessid的到期日'
+title: MDVA-41136： mage-cache-sessid的到期日未延長
 description: MDVA-41136修補程式解決「mage-cache-sessid」Cookie的到期日未延長，進而導致客戶資料清理的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-41136。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 7673d084-1ed2-4f1d-8525-e665b971baf2
 feature: Cache

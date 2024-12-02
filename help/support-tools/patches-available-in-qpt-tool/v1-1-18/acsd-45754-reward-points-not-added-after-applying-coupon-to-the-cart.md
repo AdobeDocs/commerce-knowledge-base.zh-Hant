@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-45754：將優惠券套用至購物車後未新增的獎勵點數'
+title: ACSD-45754：將優惠券套用至購物車後未新增的獎勵點數
 description: ACSD-45754修補程式解決將優惠券套用至購物車後未新增獎勵點數的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18後，即可使用此修補程式。 修補程式ID為ACSD-45754。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 957713c0-3e2e-4dc9-8924-2ae84c817e47
 feature: Orders, Rewards, Shopping Cart

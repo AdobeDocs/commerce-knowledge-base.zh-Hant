@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-39993：透過API完成的詳細目錄變更未反映在店面上'
+title: MDVA-39993：透過API完成的詳細目錄變更未反映在店面上
 description: MDVA-39993修補程式可解決透過API完成的詳細目錄變更未反映在店面的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.12後，即可使用此修補程式。 修補程式ID為MDVA-39993。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 2d49b9b7-8a70-44f3-80bf-4460bb2e61d5
 feature: REST, Inventory, Orders, Storefront

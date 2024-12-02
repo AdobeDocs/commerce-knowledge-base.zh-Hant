@@ -1,6 +1,6 @@
 ---
-title: 「cURL錯誤60： SSL憑證已過期」
-description: 「本文說明如何在收到cURL錯誤60後檢查上次部署分支的時間：雲端基礎結構上Adobe Commerce的主要或整合分支中的SSL憑證已過期。」
+title: cURL錯誤60： SSL憑證已過期
+description: 本文說明如何在收到cURL錯誤60後檢查上次部署分支的時間： Adobe Commerce雲端基礎結構上的主要或整合分支中的SSL憑證已過期。
 exl-id: 74f1db7e-ee2b-4e27-8fcc-fe462a9e72c3
 feature: Configuration
 role: Developer

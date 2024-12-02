@@ -1,6 +1,6 @@
 ---
 title: 清除雲端上的Fastly快取時發生錯誤（未成功處理清除請求）
-description: '''本文修正您使用Fastly清除選項時，您會收到錯誤訊息：*清除請求未成功處理*。 Fastly是一項CDN和快取服務，包含在Adobe Commerce的雲端基礎結構計畫和實作中。 如果您嘗試使用Fastly清除選項，但該選項無法處理，則您的環境中可能會有不正確的Fastly認證，或可能會遇到問題。」'
+description: 本文修正您使用Fastly清除選項時，收到錯誤的問題：*清除請求未成功處理*。 Fastly是一項CDN和快取服務，包含在Adobe Commerce的雲端基礎結構計畫和實作中。 如果您嘗試使用Fastly清除選項，但該選項無法處理，則您的環境中可能有不正確的Fastly認證，或可能會遇到問題。
 exl-id: 568b1f4c-2ccb-4740-a6e4-d227a55fcfe6
 feature: Cache, Cloud, Paas
 role: Developer

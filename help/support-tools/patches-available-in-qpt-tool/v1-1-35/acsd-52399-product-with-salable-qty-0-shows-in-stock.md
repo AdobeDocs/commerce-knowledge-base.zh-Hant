@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52399：可銷售數量0的產品有庫存'
+title: ACSD-52399：可銷售數量0的產品有庫存
 description: 套用ACSD-52399修補程式以修正Adobe Commerce問題，其中可銷售數量為0的可設定產品選項在產品頁面上顯示*庫存*。
 feature: Products, Configuration
 role: Admin, Developer

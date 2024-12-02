@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-32776：庫存狀態未更新訂單位置'
+title: MDVA-32776：庫存狀態未更新訂單位置
 description: MDVA-32776修補程式修正了下訂單但未出貨時，庫存狀態未更新的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.6後，即可使用此修補程式。 修補程式ID為MDVA-32776。 請注意，問題已在Adobe Commerce 2.4.2中修正。
 exl-id: 10e9458f-562a-480b-b813-104a93db4308
 feature: Orders

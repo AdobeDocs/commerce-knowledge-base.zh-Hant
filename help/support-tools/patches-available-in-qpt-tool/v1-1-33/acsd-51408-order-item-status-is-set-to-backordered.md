@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51408：訂單專案狀態未正確設定為[!UICONTROL backordered]'
+title: ACSD-51408：訂單專案狀態未正確設定為[!UICONTROL backordered]
 description: 套用ACSD-51408修補程式以修正訂單專案狀態錯誤設定為[!UICONTROL backordered]的Adobe Commerce問題。
 feature: B2B, Orders
 role: Admin

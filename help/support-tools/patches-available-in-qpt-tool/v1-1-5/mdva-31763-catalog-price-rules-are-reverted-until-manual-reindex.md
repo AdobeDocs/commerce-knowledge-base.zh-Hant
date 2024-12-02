@@ -1,5 +1,5 @@
 ---
-title: 'MDVA-31763：目錄價格規則會還原，直到手動重新編列索引為止'
+title: MDVA-31763：目錄價格規則會還原，直到手動重新編列索引為止
 description: MDVA-31763修補程式可解決在手動重新索引之前目錄價格規則會還原的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-31763。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: eb2dfd1a-6d12-4676-82c1-bf92c6fa9fda
 feature: Catalog Management, Orders, Price Rules

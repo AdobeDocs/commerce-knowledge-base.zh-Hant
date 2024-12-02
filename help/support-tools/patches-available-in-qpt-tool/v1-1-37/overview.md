@@ -1,5 +1,5 @@
 ---
-title: '概述： [!DNL Quality Patches Tool] (QPT) v1.1.37'
+title: 概觀： [!DNL Quality Patches Tool] (QPT) v1.1.37
 description: 此小節提供 [!DNL Quality Patches Tool] (QPT) v1.1.37中可用修補程式所修正問題的詳細說明。
 feature: Tools and External Services
 role: Admin, Developer

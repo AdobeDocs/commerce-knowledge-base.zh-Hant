@@ -1,10 +1,10 @@
 ---
-title: 'MDVA-43178：無法在GraphQL中擷取自訂存放區的客戶權杖'
+title: MDVA-43178：無法在GraphQL中擷取自訂存放區的客戶權杖
 description: MDVA-43178修補程式修正無法在GraphQL中擷取自訂存放區之客戶權杖的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.14時，即可使用此修補程式。 修補程式ID為MDVA-43178。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: b2a8bf96-7534-41d2-b83b-58d8e0b6d076
 feature: GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%

@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-52786：目錄規則*[!UICONTROL SKU is]*適用於所有以SKU開頭的產品'
+title: ACSD-52786：目錄規則*[!UICONTROL SKU is]*適用於所有以SKU開頭的產品
 description: 套用ACSD-52786修補程式以修正目錄規則條件*[!UICONTROL SKU is]*適用於從指定SKU開始的所有產品的Adobe Commerce問題。
 feature: Price Rules
 role: Admin

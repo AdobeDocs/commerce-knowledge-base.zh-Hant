@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-50367：客戶地址匯出不適用於多選屬性」
+title: ACSD-50367：客戶地址匯出不適用於多選屬性
 description: 套用ACSD-50367修補程式，修正建立不含值的多選**戶的「客戶地址」屬性時，客戶地址匯出無**運作的Adobe Commerce問題。
 exl-id: 688831d4-b49e-48fa-b4db-1328cda09a2b
 feature: Admin Workspace, Attributes, Data Import/Export, Shipping/Delivery

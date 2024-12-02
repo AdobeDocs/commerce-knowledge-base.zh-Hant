@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-46146：管理員下單後傳送兩封訂單確認電子郵件'
+title: ACSD-46146：管理員下單後傳送兩封訂單確認電子郵件
 description: ACSD-46146修補程式解決管理員下單後會傳送兩封訂單確認電子郵件的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.18後，即可使用此修補程式。 修補程式ID為ACSD-46146。 請注意，此問題已排程在Adobe Commerce 2.4.6中修正。
 exl-id: 3bf2cccf-7a40-48ca-ab51-ffb5939f8802
 feature: Admin Workspace, Communications, Orders

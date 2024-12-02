@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-53098：共用目錄中的產品不會在前端反映'
+title: ACSD-53098：共用目錄中的產品不會在前端反映
 description: 套用ACSD-53098修補程式來修正指派至共用目錄的產品在執行部分索引時未於前端反映的Adobe Commerce問題。
 feature: B2B, Catalog Management, Categories, Products
 role: Admin, Developer

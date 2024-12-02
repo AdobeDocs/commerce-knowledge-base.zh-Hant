@@ -1,15 +1,15 @@
 ---
-title: 'ACSD-59378：匯入期間儲存區層級 [!DNL URL] 重寫錯誤更新'
+title: ACSD-59378：匯入期間儲存區層級 [!DNL URL] 的重寫更新不正確
 description: 套用ACSD-59378修補程式以修正匯入期間未正確更新存放區層級 [!DNL URL] 重寫的Adobe Commerce問題。
 feature: Data Import/Export
 role: Admin, Developer
-source-git-commit: 3f400c3e325c3f377a5e12170b08615ebeadbcd1
+exl-id: 4ba567e3-323d-4068-90cc-50aacd45d397
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-59378：匯入期間錯誤地更新了存放區層級[!DNL URL]重寫
 

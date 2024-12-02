@@ -1,15 +1,15 @@
 ---
-title: 「ACSD-60441：透過V1/customers [!DNL REST] API端點更新客戶會擲回錯誤」
+title: ACSD-60441：透過V1/customers [!DNL REST] API端點更新客戶時擲回錯誤
 description: 套用ACSD-60441修補程式以修正Adobe Commerce問題，其中在使用後端產生的整合存取權杖時透過V1/customers [!DNL REST] API更新客戶會擲回錯誤。
 feature: REST, Customers
 role: Admin, Developer
-source-git-commit: ea62d2387ab0c04fe44291df431f42d78a0d2f2a
+exl-id: fdc18060-5c6d-4f95-84d3-9ad120fe3a7d
+source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
 
 ---
-
 
 # ACSD-60441：透過`V1/customers` [!DNL REST] API端點更新客戶時擲回錯誤
 

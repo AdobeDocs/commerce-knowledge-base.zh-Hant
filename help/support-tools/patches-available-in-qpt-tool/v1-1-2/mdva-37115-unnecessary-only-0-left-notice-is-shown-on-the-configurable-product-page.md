@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-37115：「產品頁面上只剩0個通知」'
+title: MDVA-37115：產品頁面上會顯示「只剩下0個」通知
 description: MDVA-37115修補程式解決了在可設定產品頁面上顯示不必要的*僅剩下0*通知的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.2時，即可使用此修補程式。 修補程式ID為MDVA-37115。 請注意，問題已在Adobe Commerce 2.4.3中修正。
 exl-id: 08aa6ac7-13ae-44c1-9db4-d449c3d8c985
 feature: Configuration, Products, Orders

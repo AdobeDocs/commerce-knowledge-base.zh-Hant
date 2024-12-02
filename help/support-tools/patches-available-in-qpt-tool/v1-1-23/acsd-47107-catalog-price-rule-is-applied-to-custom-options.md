@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-47107：型錄價格規則套用至自訂選項'
+title: ACSD-47107：型錄價格規則套用至自訂選項
 description: 套用ACSD-47107修補程式，以修正將目錄價格規則套用至自訂選項的Adobe Commerce問題。
 exl-id: 5de2a87e-90c1-4a2a-a75c-7f9ca766868e
 feature: Catalog Management, Orders, Price Rules

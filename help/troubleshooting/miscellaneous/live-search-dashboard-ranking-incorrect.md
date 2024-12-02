@@ -3,7 +3,8 @@ title: '[!DNL Live Search]儀表板和搜尋結果排名不正確'
 description: 如果 [!DNL Live Search] 儀表板中的資料不正確，或搜尋結果的排名與您的預期不符，本文會提供疑難排解資訊。
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: 4c1199c31f83d7c2aaf28e259d63473779bf2efe
+exl-id: d4aea1f1-c2c4-45e5-87c8-73069f7c9ffd
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
 source-wordcount: '132'
 ht-degree: 0%

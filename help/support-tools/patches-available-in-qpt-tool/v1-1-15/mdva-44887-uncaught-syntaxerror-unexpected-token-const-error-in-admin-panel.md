@@ -1,6 +1,6 @@
 ---
-title: 「MDVA-44887：管理面板中出現「Uncaught SyntaxError： Unexpected token const」錯誤」
-description: 「MDVA-44887修補程式修正管理員使用者無法點按任何功能表選項的問題。 「管理」面板中會顯示*Uncaught SyntaxError： Unexpected token const*錯誤。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15時，即可使用此修補程式。 修補程式ID為MDVA-44887。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。」
+title: MDVA-44887：「管理」面板中出現「未攔截到的SyntaxError：未預期的權杖常數」錯誤
+description: MDVA-44887修補程式修正管理員使用者無法點按任何功能表選項的問題。 「管理」面板中會顯示*Uncaught SyntaxError： Unexpected token const*錯誤。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.15時，即可使用此修補程式。 修補程式ID為MDVA-44887。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 66555e66-49d0-4f80-8f77-84ee107ab12e
 feature: Admin Workspace, Orders
 role: Admin

@@ -1,5 +1,5 @@
 ---
-title: '''ACSD-51857： ''aggregate_sales_report_bestsellers_data''的緩慢cron工作會影響效能'''
+title: ACSD-51857： 'aggregate_sales_report_bestsellers_data'的緩慢cron工作會影響效能
 description: 套用ACSD-51857修補程式以修正緩慢cron工作'aggregate_sales_report_bestsellers_data'影響大型'sales_order'和'sales_order_item'資料庫表格的Adobe Commerce問題。
 exl-id: 444ab283-c98b-46b3-a492-706f0ce34a27
 source-git-commit: a33364531d2efd572cd1b1847dd45e0f427af03b

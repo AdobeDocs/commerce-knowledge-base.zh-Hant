@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-51240：透過公司登錄檔單註冊時上傳的檔案遺失'
+title: ACSD-51240：透過公司登錄檔單註冊時遺失已上傳的檔案
 description: 套用ACSD-51240修補程式，修正透過公司登錄檔單註冊時，所上傳檔案遺失的Adobe Commerce問題。
 exl-id: e5822c54-4e77-46b0-84b6-5e25c3845974
 source-git-commit: e1fe8936c56f422ae591c6424d8a72621093db81

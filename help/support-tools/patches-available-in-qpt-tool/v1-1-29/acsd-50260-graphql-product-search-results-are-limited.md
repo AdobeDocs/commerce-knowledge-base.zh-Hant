@@ -1,5 +1,5 @@
 ---
-title: 'ACSD-50260： GraphQL產品搜尋結果受限'
+title: ACSD-50260： GraphQL產品搜尋結果受限
 description: 套用ACSD-50260修補程式以修正Adobe Commerce問題，該問題導致GraphQL產品搜尋結果限製為僅限10,000個結果。
 exl-id: 89234a72-a633-4f57-923c-cb5bbcea0fd0
 feature: Admin Workspace, Categories, GraphQL, Products, Search

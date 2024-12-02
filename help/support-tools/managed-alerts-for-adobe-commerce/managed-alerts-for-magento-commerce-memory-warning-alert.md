@@ -1,5 +1,5 @@
 ---
-title: 「Adobe Commerce的管理警報：記憶體警告警報」
+title: Adobe Commerce的管理警報：記憶體警告警報
 description: 本文提供當您在New Relic中收到Adobe Commerce的記憶體警告警報時的疑難排解步驟。 需要立即採取行動來解決問題。 根據您選取的警報通知通道，警報看起來類似以下內容。
 exl-id: bb5eb3f4-b162-4737-93d5-4037f2844bb1
 feature: Cache, Marketing Tools, Observability, Support, Tools and External Services

@@ -1,6 +1,6 @@
 ---
-title: 「ACSD-46213：類別樹狀結構請求限製為20個類別」
-description: 「ACSD-46213修補程式修正了類別樹狀結構請求僅限於20個類別的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19後，即可使用此修補程式。 修補程式ID為ACSD-46213。 『
+title: ACSD-46213：類別樹狀結構請求限於20個類別
+description: 'ACSD-46213修補程式修正了類別樹狀結構請求僅限於20個類別的問題。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.19後，即可使用此修補程式。 修補程式ID為ACSD-46213。 '
 exl-id: 27a18871-8552-4ecd-9e03-0dc38d037ea0
 feature: Categories
 role: Admin

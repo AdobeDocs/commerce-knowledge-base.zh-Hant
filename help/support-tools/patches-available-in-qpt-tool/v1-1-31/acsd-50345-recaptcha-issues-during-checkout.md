@@ -1,5 +1,5 @@
 ---
-title: 「ACSD-50345：結帳期間出現reCAPTCHA問題」
+title: ACSD-50345：結帳期間出現reCAPTCHA問題
 description: 套用ACSD-50345修補程式以修正Adobe Commerce問題，其中在下訂單時和結帳期間，reCAPTCHA v2和v3驗證失敗。
 exl-id: ac8c8130-0e4d-4610-9a55-afa779cce7a0
 feature: Checkout, Orders
