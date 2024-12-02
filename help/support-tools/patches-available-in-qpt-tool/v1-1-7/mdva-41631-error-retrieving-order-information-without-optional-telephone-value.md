@@ -4,7 +4,7 @@ description: MDVA-41631修補程式修正使用者透過GraphQL擷取訂單資�
 exl-id: 94b0b918-c1f9-4f5d-8fcd-8b92a9ca8c59
 feature: Orders
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 0%
@@ -37,8 +37,8 @@ Adobe Commerce （所有部署方法） 2.4.1 - 2.4.3-p1
 
 1. 移至&#x200B;**商店** > **設定** > **客戶** > **客戶設定** > **名稱和地址選項** > **顯示電話**&#x200B;並將電話號碼設定為選用。
 1. 使用GraphQL API作為登入客戶下訂單。
-   * 設定帳單和運送地址時不要設定電話號碼。 請依照開發人員檔案中的[GraphQL結帳教學課程](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-customer.html)指示操作。
-1. 使用GraphQL [customerOrders查詢](https://developer.adobe.com/commerce/webapi/graphql/queries/customer-orders.html)擷取訂單。
+   * 設定帳單和運送地址時不要設定電話號碼。 請依照開發人員檔案中的[GraphQL結帳教學課程](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/)指示操作。
+1. 使用GraphQL [customerOrders查詢](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/orders/)擷取訂單。
 
 <pre>
 <code class="language-graphql">

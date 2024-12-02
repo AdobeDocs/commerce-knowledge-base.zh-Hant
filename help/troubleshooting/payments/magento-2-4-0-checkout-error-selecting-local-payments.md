@@ -1,10 +1,10 @@
 ---
-title: 「Adobe Commerce 2.4.0：選取本機付款時發生結帳錯誤」
-description: 「本文討論結帳期間Adobe Commerce中已知問題的解決方案，也就是在某些國家/地區選取當地付款方式時出現錯誤訊息。 這發生在比利時、義大利、荷蘭、波蘭和西班牙等國家。
+title: Adobe Commerce 2.4.0：選取本機付款時發生結帳錯誤
+description: 本文探討結帳期間Adobe Commerce中已知問題的解決方案，也就是在為某些國家/地區選取本機付款方式時出現錯誤訊息。 這發生在以下國家：比利時、義大利、荷蘭、波蘭和西班牙。
 exl-id: de2eafb0-d03c-4ff8-9615-0f2676d95848
 feature: B2B, Categories, Checkout, Orders, Payments
 role: Developer
-source-git-commit: a8cc7ad0cb9cb111f5b9636ff18aef3b6ed44329
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '350'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 * 已安裝Adobe Commerce 2.4.0。
 * 建立一個產品和一個類別。
-* 設定[Braintree付款方式](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree.html)。
+* 設定[Braintree付款方式](https://developer.adobe.com/commerce/webapi/graphql/payment-methods/braintree/)。
 
 <u>要再現的步驟</u>：
 

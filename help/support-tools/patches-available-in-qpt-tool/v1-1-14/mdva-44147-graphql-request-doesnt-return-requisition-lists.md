@@ -4,7 +4,7 @@ description: MDVA-44147修補程式修正GraphQL要求未傳回請購單清單�
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -52,7 +52,7 @@ GraphQL請求未傳回請購單清單。
       </code>
       </pre>
 
-1. 使用下列查詢，從客戶擷取所有「請購單清單」。 使用值為`Bearer <customer_token>`的&#x200B;**Authorization**&#x200B;標頭。 如需詳細資訊，請參閱開發人員檔案中的[客戶查詢](https://developer.adobe.com/commerce/webapi/graphql/queries/customer.html)文章。
+1. 使用下列查詢，從客戶擷取所有「請購單清單」。 使用值為`Bearer <customer_token>`的&#x200B;**Authorization**&#x200B;標頭。 如需詳細資訊，請參閱開發人員檔案中的[客戶查詢](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/queries/customer/)文章。
 
    要求：
 

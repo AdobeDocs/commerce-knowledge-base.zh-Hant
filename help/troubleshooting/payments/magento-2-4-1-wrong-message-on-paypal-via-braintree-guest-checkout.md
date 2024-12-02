@@ -1,10 +1,10 @@
 ---
-title: 「Adobe Commerce 2.4.1：PayPalBraintree訪客結帳時出現錯誤訊息」
+title: Adobe Commerce 2.4.1：PayPalBraintree訪客結帳時出現錯誤訊息
 description: 本文會說明一個已知的Adobe Commerce 2.4.1問題，其中若訪客結帳功能遭停用，則嘗試透過Braintree透過PayPal下訂單的訪客客戶會收到一則非資訊性錯誤訊息。
 exl-id: 758f5c57-997e-4aca-b299-9934c94fa121
 feature: Checkout, Orders, Payments
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -61,4 +61,4 @@ ht-degree: 0%
 
 * [在我們支援知識庫中，有關Adobe Commerce購物車中產品數目的最佳實務](https://support.magento.com/hc/en-us/articles/360048550332)。
 * [訂購處理教學課程：步驟1。 在開發人員檔案中新增專案至購物車](https://developer.adobe.com/commerce/webapi/rest/tutorials/orders/order-add-items/)
-* [GraphQL結帳教學課程：步驟1。 在開發人員檔案中新增產品至購物車](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/checkout-add-product-to-cart.html)
+* [GraphQL結帳教學課程：步驟1。 在開發人員檔案中新增產品至購物車](https://developer.adobe.com/commerce/webapi/graphql/tutorials/checkout/add-product-to-cart/)
