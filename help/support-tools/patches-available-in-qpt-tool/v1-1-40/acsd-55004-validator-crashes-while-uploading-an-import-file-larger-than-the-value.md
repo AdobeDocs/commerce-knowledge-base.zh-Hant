@@ -4,7 +4,7 @@ description: 套用ACSD-55004修補程式，以修正Adobe Commerce的問題，�
 feature: Data Import/Export
 role: Admin, Developer
 exl-id: 03b7667e-9b5b-4319-9135-dbc7fda7861d
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: f12e25ac5dd607cc614dd99c90c5e104b2cee6a8
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%

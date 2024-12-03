@@ -4,7 +4,7 @@ description: 套用ACSD-60441修補程式以修正Adobe Commerce問題，其中�
 feature: REST, Customers
 role: Admin, Developer
 exl-id: fdc18060-5c6d-4f95-84d3-9ad120fe3a7d
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 06f751e43ef825c0eb29cb9b42eb41f07c308625
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%

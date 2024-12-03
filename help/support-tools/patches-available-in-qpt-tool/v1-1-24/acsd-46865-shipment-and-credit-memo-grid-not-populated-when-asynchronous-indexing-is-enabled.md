@@ -4,7 +4,7 @@ description: 套用ACSD-46865修補程式以修正Adobe Commerce在啟用[!UICON
 exl-id: 056177a8-42f0-4138-8c04-5b037d25dfd0
 feature: Cache, Orders, Returns, Shipping/Delivery
 role: Admin
-source-git-commit: 8b6bf1cdada7edb0cdb0bb3e90ed15ee8cebf77e
+source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
