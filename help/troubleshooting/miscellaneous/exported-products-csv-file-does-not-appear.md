@@ -1,19 +1,19 @@
 ---
 title: 匯出的產品.csv檔案不會出現
-description: 本文修正您在Commerce管理員中嘗試將產品匯出至.csv檔案，但檔案未顯示的問題。
+description: 針對您嘗試在Commerce管理員中將所需的實體型別匯出至.csv檔案，但檔案未顯示的問題，提供修正。
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: d55702ab97f3770d0ec71322f6c24448f0169ad4
+source-git-commit: b6f1222918b027eaecda42b767e6f83b2cf0f5d0
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
 
 # 匯出的產品.csv檔案不會出現
 
-本文修正您在Commerce管理員中嘗試將產品匯出至.csv檔案，但檔案未顯示的問題。
+本文解決在Commerce管理員中將所需的實體型別匯出至.csv檔案時導致檔案未顯示的問題。
 
 ## 受影響的產品和版本
 
@@ -30,7 +30,7 @@ ht-degree: 0%
    ![magento_export_products_2.3.4.png](assets/magento_export_products_2.3.4.png)
 
 1. 選取
-   * **實體型別**： *產品*
+   * **實體型別**：您要匯出的實體
    * **匯出檔案格式**： *CSV*
    * **欄位附件**：保持未勾選。
 1. 按一下&#x200B;**繼續**。
@@ -38,11 +38,11 @@ ht-degree: 0%
 
 <u>預期結果</u>
 
-含有匯出產品的.csv檔案會在幾分鐘後顯示在格線中。
+包含匯出之所需實體型別的.csv檔案會在幾分鐘內顯示在格線中。
 
 <u>實際結果</u>
 
-含有已匯出產品的.csv檔案在10分鐘或更長時間後不會顯示在格線中。
+包含轉存的所需實體型別的.csv檔案在10分鐘或更長時間後不會顯示在格線中。
 
 ## 原因
 
