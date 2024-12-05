@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 63664230a110a4ebf37c058e3bde71f6a359ac13
+source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
 workflow-type: tm+mt
-source-wordcount: '9478'
+source-wordcount: '9469'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
    * 全網站分析工具{#site-wide-analysis-tool}
       * [依Adobe區分的全網站分析工具：概觀](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
       * [Adobe Commerce全網站分析工具報表常見問題集](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
-   * Adobe Commerce {#observation}的觀察結果
-      * [Adobe Commerce的觀察概述](/help/support-tools/observation-for-adobe-commerce/observation-adobe-commerce-overview.md)
    * 在Adobe Commerce {#managed-alerts}上管理警報
       * [Adobe Commerce上的受管理警報：Redis記憶體嚴重警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert.md)
       * [Adobe Commerce的管理警報：磁碟警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert.md)
