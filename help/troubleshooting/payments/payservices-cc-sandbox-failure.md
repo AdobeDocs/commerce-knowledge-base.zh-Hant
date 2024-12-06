@@ -4,7 +4,7 @@ description: 本文說明為何測試信用卡在具有PayPal API的沙箱環境
 exl-id: 65fd08e0-eefc-47f3-8964-bef3610e6182
 feature: Orders, Payments
 role: Developer
-source-git-commit: 35d4f2130d0ec71f71f5f20aa8a7c76207e7a35a
+source-git-commit: 16fc1b45e7df32ef05dac6a245d6604bbbbef13a
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 0%
@@ -36,6 +36,6 @@ Error happened when processing the request. Please try again later.
 
 使用其他測試信用卡。 若要產生可用於測試的模擬信用卡：
 
-1. 移至PayPal開發人員入口網站[信用卡產生器](https://developer.paypal.com/developer/creditCardGenerator/)頁面。
+1. 移至PayPal開發人員入口網站[信用卡產生器](https://developer.paypal.com/api/rest/sandbox/card-testing/#link-creditcardgenerator)頁面。
 1. 登入PayPal開發人員入口網站儀表板。
 1. 產生測試信用卡。
