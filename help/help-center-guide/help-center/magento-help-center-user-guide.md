@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 7fbedaaf0d4edccc688be24951a7d30a9e774be8
+source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2934'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,18 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 ### 提交支援案例 {#support-case}
 
 以帳戶擁有者或「共用存取權」使用者的身分成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面來提交支援案例。
+
+>[!NOTE]
+>
+>Adobe Commerce Marketplace團隊的支援請求無法透過Experience League提交，因為其支援系統在未與Experience League整合的個別平台上運作。
+>
+>如果下列陳述為真，您可以提交您的支援案例：
+>
+>* 有問題的組織已在左欄命名，且以([!DNL Commerce])結尾。 您的問題與該組織或與其關聯的帳戶有關。
+>* 您的問題是無法登入Marketplace帳戶，或有關於部署擴充功能的問題。
+>* 您提出的問題並不僅僅是要求向Marketplace購買物品退款。
+>
+>若問題與發佈您的擴充功能、無法購買或在[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)上要求退款有關，您必須直接造訪https://commercemarketplace.adobe.com/以聯絡[!DNL Commerce Marketplace]團隊。 導覽至頁面底部，然後按一下&#x200B;**[!UICONTROL Contact Us]**，這會開啟表單以提交Marketplace支援票證。
 
 #### Adobe Experience League起始頁面 {#experience-league-start-page}
 
