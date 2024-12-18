@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 80b0dc119058ec7533124919d5917cdd219552fe
+source-git-commit: ace01511b6a3f3b406b25d563d892351a5f6cf7d
 workflow-type: tm+mt
-source-wordcount: '9469'
+source-wordcount: '9409'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,12 @@ ht-degree: 0%
       * [Adobe Commerce的管理警示：磁碟嚴重警示](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert.md)
       * [Adobe Commerce上的受管理警報： Redis記憶體警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert.md)
       * [Adobe Commerce的管理警報：記憶體警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert.md)
-      * [Adobe Commerce上的受管理警示：CPU嚴重警示](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
+      * [Adobe Commerce上的受管警報：CPU嚴重警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert.md)
       * [Adobe Commerce上的受管理警報：記憶體嚴重警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert.md)
       * [Adobe Commerce的管理警示：Apdex嚴重警示](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert.md)
       * [在Adobe Commerce上管理警報：MariaDB警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts.md)
       * [Adobe Commerce的管理警報：Apdex警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md)
-      * [Adobe Commerce的管理警報：CPU警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
+      * [Adobe Commerce的管理警報： CPU警告警報](/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert.md)
    * QPT工具{#patches}中可用的修補程式
       * [QPT工具概觀中可用的修補程式](/help/support-tools/patches-available-in-qpt-tool/patches-available-in-qpt-tool-overview.md)
       * v1.1.0 {#v1-1-0}
@@ -947,15 +947,9 @@ ht-degree: 0%
       * [進階搜尋未顯示最相關的結果](/help/troubleshooting/known-issues-patches-attached/advanced-search-not-showing-the-most-relevant-results.md)
       * [在Admin中篩選訂單時發生錯誤](/help/troubleshooting/known-issues-patches-attached/error-when-filtering-orders-in-admin.md)
       * [如果在「允許國家/地區」中未選取任何專案，則使用者無法將產品新增到購物車](/help/troubleshooting/known-issues-patches-attached/user-not-able-to-add-product-to-cart-if-allow-countries-is-not-selected.md)
-      * [未顯示在「管理員」中「訂單」網格中的訂單](/help/troubleshooting/known-issues-patches-attached/orders-not-displayed-in-the-orders-grid-in-the-admin.md)
-      * [無法驗證VAT編號 — 雲端基礎結構上的Adobe Commerce](/help/troubleshooting/known-issues-patches-attached/unable-to-validate-vat-number-magento-commerce-cloud.md)
-      * [啟用廣告封鎖程式時未載入結帳頁面](/help/troubleshooting/known-issues-patches-attached/checkout-pages-not-loading-when-ad-blocker-is-enabled.md)
       * [Adobe Commerce管理員URL位置已公開](/help/troubleshooting/known-issues-patches-attached/magento-admin-url-location-disclosed.md)
-      * [為相同時段排程多個cron工作](/help/troubleshooting/known-issues-patches-attached/multiple-cron-jobs-scheduled-for-the-same-time-period.md)
-      * [無庫存時，未顯示的可設定產品色票會被勾掉](/help/troubleshooting/known-issues-patches-attached/configurable-product-swatches-not-displayed-as-crossed-out-when-out-of-stock.md)
       * [啟用Braintree付款時，管理員無法建立訂單/重新訂單](/help/troubleshooting/known-issues-patches-attached/admin-cant-create-order-reorder-when-braintree-payment-enabled.md)
       * [從2.4.4升級至2.4.4-p1後，套件已降級](/help/troubleshooting/known-issues-patches-attached/packages-downgraded-after-upgrading-from-2-4-4-to-2-4-4-p1.md)
-      * [Adobe Commerce 2.3.6、2.4.1在簽出的驗證碼無法運作](/help/troubleshooting/known-issues-patches-attached/magento-commerce-2-3-6-2-4-1-captcha-in-checkout-not-working.md)
       * [從伺服器電子郵件地址排序傳送的電子郵件](/help/troubleshooting/known-issues-patches-attached/order-email-sent-from-the-server-email-address.md)
       * [Adobe Commerce 2.4.6從管理面板下訂單時發生錯誤](/help/troubleshooting/known-issues-patches-attached/adobe-commerce-2-4-6-error-placing-order-from-admin-panel.md)
       * [從版本&lt; 2.4.5升級時出現[!UICONTROL salesRule]個標籤問題](/help/troubleshooting/known-issues-patches-attached/salesrule-label-issues-when-upgrade-from-versions-under-2-4-5.md)
