@@ -3,9 +3,9 @@ title: Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: 9abd435c2b360ca667b7c5a4431fdbf4b3c86831
+source-git-commit: 16511a9bcc0e229297916f5c48ee8b606e10edbe
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2935'
 ht-degree: 0%
 
 ---
@@ -339,13 +339,15 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 <u>原因</u>
 
-如果您有/曾經擁有Adobe Commerce Cloud專案，並且已將使用者新增至專案，系統會自動授予他們專案擁有者影像ID的共用存取權。 這通常會在&#x200B;**[!UICONTROL Share Name]**&#x200B;欄中顯示，顯示來自MAG[XYZ ]*的*&#x200B;雲端共用存取。
+如果您有/曾經擁有Adobe Commerce Cloud專案，並且已將使用者新增至專案，系統可能會自動授予他們專案擁有者影像ID的共用存取權。 這通常會在&#x200B;**[!UICONTROL Share Name]**&#x200B;欄中顯示，顯示來自MAG[XYZ ]*的*&#x200B;雲端共用存取。
 
-如果缺少DELETE連結，表示已透過Commerce Cloud自動授與共用存取權。
+>[!NOTE]
+>
+>如果缺少DELETE連結，表示已透過Commerce Cloud自動授與共用存取權。
 
 <u>解決方案</u>
 
-如果未在此頁面上新增/指定共用存取權，則無法從MAG[XYZ ]*刪除共用名稱為*&#x200B;雲端共用存取權的共用存取權使用者清單。 這些檔案會保留以供參考/稽核之用。
+如果未在此頁面](https://account.magento.com/grantor/manage/)上新增/指定[，則無法從MAG[XYZ ]*刪除共用名稱為* Cloud Shared Access的共用存取使用者清單。 這些檔案會保留以供參考/稽核之用。
 
 不過，一旦您撤銷了這些共用存取許可權使用者的許可權，他們便無法再擁有該存取權。
 
