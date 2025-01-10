@@ -4,7 +4,7 @@ description: Adobe Commerce上的停滯部署和失敗部署可以使用Deployme
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: 7f4f24c596eac96dc8fef40589a827eb9aa0c468
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -30,7 +30,7 @@ b.否 — 維護或全球中斷。 檢查估計持續時間和更新。
 
 +++**其他環境中是否有部署會封鎖現有環境中的部署？**
 
-若要取得進行中活動的清單，請使用magento-cloud CLI執行以下命令（如果您只新增到一個雲端專案）。 **注意**：請檢查您是否使用最新版的magento-cloud CLI。 如需相關步驟，請參閱Commerce on Cloud Infrastructure指南中的[更新CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview#update-the-cli)。
+若要取得進行中活動的清單，請使用magento-cloud CLI執行以下命令（如果您只新增到一個雲端專案）。 **注意**：請檢查您是否使用最新版的magento-cloud CLI。 如需相關步驟，請參閱Commerce on Cloud Infrastructure指南中的[更新CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
 
 ```bash
 magento-cloud --state=in_progress

@@ -4,7 +4,7 @@ description: MDVA-44147修補程式修正GraphQL要求未傳回請購單清單�
 exl-id: c7a526f2-638c-4172-8750-aa076724851a
 feature: B2B, GraphQL
 role: Admin
-source-git-commit: 77f41d6034f985794e5c5b89cc007a69858683b9
+source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -37,7 +37,7 @@ GraphQL請求未傳回請購單清單。
 
 1. 移至&#x200B;**商店** > **設定** > **設定** > **一般** > **B2B功能**&#x200B;並啟用請購單清單。
 1. 以客戶身分登入，並將產品新增至[請購單清單](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/requisition-lists/requisition-lists)。
-1. 建立[客戶權杖](https://developer.adobe.com/commerce/webapi/graphql/mutations/generate-customer-token.html)。
+1. 建立[客戶權杖](https://developer.adobe.com/commerce/webapi/graphql/schema/customer/mutations/generate-token/)。
 
    <pre>
     <code class="language-graphql">

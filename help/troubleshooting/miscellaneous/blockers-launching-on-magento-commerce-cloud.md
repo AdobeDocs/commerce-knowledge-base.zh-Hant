@@ -4,7 +4,7 @@ description: 本文提供封鎖程式在雲端基礎結構上Adobe Commerce上�
 exl-id: 3b2c331f-5d90-4051-ada1-4934538fce79
 feature: Cache, Cloud, Marketing Tools, Observability, Paas
 role: Developer
-source-git-commit: d728d44c4e1be3172ebf595122f3cc215207ac17
+source-git-commit: df966df6a85057b26d53a870d038269ebdcc2b32
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 0%
@@ -78,7 +78,7 @@ http://www.mywebsite.com/old-category-page.html **>** http://www.mywebsite.com/n
 
 建議：若要找出效能不佳的可能原因，請考慮使用[Adobe Commerce Performance Toolkit](https://github.com/magento/magento2/tree/2.3/setup/performance-toolkit)進行效能測試。 您也可以考慮這些協力廠商工具：
 
-* [圍攻](https://www.joedog.org/siege-home/)： HTTP負載測試和基準公用程式；支援基本驗證、Cookie、HTTP、HTTPS和FTP通訊協定。
+* [圍攻](https://www.joedog.org/siege-home)： HTTP負載測試和基準公用程式；支援基本驗證、Cookie、HTTP、HTTPS和FTP通訊協定。
 * [Jmeter](https://jmeter.apache.org/)：可靠的負載測試和效能測量工具。 協助評估尖峰流量的效能，例如快閃銷售。
 * [New Relic](https://support.newrelic.com/)：找出網站中造成效能緩慢的流程和區域，並追蹤每個動作（例如傳輸資料、查詢、Redis等）的逗留時間。
 * [WebPageTest](https://www.webpagetest.org/) （免費）和[Pingdom](https://www.pingdom.com/) （付費）：即時分析不同來源位置的網站頁面載入時間。
