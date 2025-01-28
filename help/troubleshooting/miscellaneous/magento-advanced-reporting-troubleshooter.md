@@ -4,7 +4,7 @@ description: 使用此疑難排解工具可解決Adobe Commerce上的進階報�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: 3b402728be7a80b62f21319d2cf91a92f1ad4a0c
+source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 0%
@@ -138,7 +138,7 @@ b.否 — 繼續執行[步驟10](#step-10)。
 
 +++**cron工作是否擲回錯誤訊息？**
 
-範例：在`core_config_data`表格中，您看到錯誤&#x200B;*無法刪除&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0檔案*。 警告！unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0？lang=en)：沒有這樣的檔案或目錄*
+範例：在`cron_schedule`表格中，您看到錯誤&#x200B;*無法刪除&quot;/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0檔案*。 警告！unlink(/app/var/tmp/analytics/tmp/.nfsb3b6041dd44588a0000850c0？lang=en)：沒有這樣的檔案或目錄*
 
 a.是 — 在[中使用ACSD-50165修補程式無法刪除檔案。 警告！unlink：Admin](/help/troubleshooting/miscellaneous/file-cannot-be-deleated-no-file-or-directory.md)沒有這類檔案或目錄錯誤，請等待24小時讓工作再次執行，然後再試一次。\
 b.否 — 繼續執行[步驟11](#step-11)。
