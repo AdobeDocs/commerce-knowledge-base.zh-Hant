@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: c46d29aa11b9cbbcccbf1765b4ae972e14ac80ac
+source-git-commit: b14ce46b2e68b76f349c3d2791897c7519088f24
 workflow-type: tm+mt
-source-wordcount: '9397'
+source-wordcount: '9387'
 ht-degree: 0%
 
 ---
@@ -892,7 +892,6 @@ ht-degree: 0%
       * [Adobe Commerce的Magento Order Management系統(OMS)逾時](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
       * [直接運送擷取錯誤的地址](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
       * [清除Commerce管理員中的快取時發生錯誤](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
-      * [Adobe Commerce上超過SendGrid點數時未傳送電子郵件](/help/troubleshooting/miscellaneous/emails-not-being-sent-sendgrid-credits-exceeded.md)
       * [Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce雲端：以已終止訊息終止重新索引](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [升級至10.0版DHL結構描述以繼續提供DHL運送](/help/troubleshooting/miscellaneous/upgrade-to-v10-dhl-schema-to-continue-using-dhl-as-a-carrier.md)
