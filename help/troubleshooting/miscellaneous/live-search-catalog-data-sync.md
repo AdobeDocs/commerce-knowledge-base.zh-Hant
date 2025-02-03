@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce問題提供解決方案，解決您在�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 96e5bfc677949fb5f925040b95f951ca518fa71a
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 0%
 
 ## 問題
 
-您的目錄資料未正確同步，或已新增產品，但未出現在搜尋結果中。
+您的目錄資料未正確同步，或已新增產品，但未出現在搜尋結果中。 您也可能在`var/log/exception.log`中收到下列錯誤：
+
+`Magento_LiveSearch: An error occurred in search backend. {"result":{"errors":[{"message":"Exception while fetching data (/productSearch) : No index was found for this request"}]}}`
 
 >[!NOTE]
 >
@@ -134,6 +136,22 @@ ht-degree: 0%
 bin/magento saas:resync --feed products
 bin/magento saas:resync --feed productattributes
 ```
+
+執行以下命令來重新同步摘要：
+
+```
+bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed products --cleanup-feed
+bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
+bin/magento saas:resync --feed scopesWebsite --cleanup-feed
+bin/magento saas:resync --feed prices --cleanup-feed
+bin/magento saas:resync --feed productOverrides --cleanup-feed
+bin/magento saas:resync --feed variants --cleanup-feed
+bin/magento saas:resync --feed categories --cleanup-feed
+bin/magento saas:resync --feed categoryPermissions --cleanup-feed
+```
+
+[提交支援要求](https://experienceleague.adobe.com/home?support-tab=home#support)以要求即時搜尋索引的重新索引。 在問題說明中，加入&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下管理面板中的資料空間/環境ID。
 
 ## 相關閱讀
 
