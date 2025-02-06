@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: b14ce46b2e68b76f349c3d2791897c7519088f24
+source-git-commit: 9de7cb6d2c9e529031999cad9ae6f3c8de5520c7
 workflow-type: tm+mt
-source-wordcount: '9387'
+source-wordcount: '9382'
 ht-degree: 0%
 
 ---
@@ -958,7 +958,6 @@ ht-degree: 0%
       * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce雲端基礎結構2.3.1+升級後的Elasticsearch問題](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
       * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-      * [Adobe Commerce疑難排解員中的Elasticsearch](/help/troubleshooting/elasticsearch/elasticsearch-in-magento-troubleshooter.md)
       * [確保Elasticsearch已正確安裝](/help/troubleshooting/elasticsearch/ensure-elasticsearch-is-installed-properly.md)
       * [已設定Elasticsearch5，但搜尋頁面未載入「Fielddata已停用……」錯誤](/help/troubleshooting/elasticsearch/elasticsearch-5-is-configured-but-search-page-does-not-load-with-fielddata-is-disabled-error.md)
       * [Elasticsearch索引狀態為「黃色」或「紅色」](/help/troubleshooting/elasticsearch/elasticsearch-index-status-is-yellow-or-red.md)
