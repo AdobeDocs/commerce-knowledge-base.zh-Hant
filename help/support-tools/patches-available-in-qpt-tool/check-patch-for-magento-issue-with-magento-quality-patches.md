@@ -4,7 +4,7 @@ description: 本文提供品質修補工具(QPT)的概觀，以及說明其使�
 exl-id: 43393708-3939-449f-a764-b2ac6326165f
 feature: Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ce9c69e12d64b4b4a8e6129783d9b15e95eff867
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 0%
@@ -60,3 +60,4 @@ ht-degree: 0%
 
 * 在開發人員檔案中[品質修補程式工具發行說明](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)。
 * [如何在我們的支援知識庫中套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
+
