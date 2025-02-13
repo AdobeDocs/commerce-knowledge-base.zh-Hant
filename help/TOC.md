@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 83b57cde528c8f581d243553006cf0eb97aed138
+source-git-commit: 3003dc048e6f0bc34dd0264f0e038759e8ff94fa
 workflow-type: tm+mt
-source-wordcount: '9380'
+source-wordcount: '9388'
 ht-degree: 0%
 
 ---
@@ -932,6 +932,7 @@ ht-degree: 0%
       * [快取排清時部署失敗：「在&#39;cache&#39;名稱空間中未定義命令」錯誤](/help/troubleshooting/deployment/deployment-failed-there-are-no-commands-defined-in-the-cache-namespace-error.md)
       * [在env：COMPOSER_AUTH或auth.json中有正確的存取金鑰時部署失敗](/help/troubleshooting/deployment/deployment-failed-with-correct-access-key-env-composer-auth.md)
    * 已知問題{#known-issues-patches-attached}
+      * [Adobe Commerce 2.4.7-p4 [!DNL HIPAA] 1.2.0相容性套件Hotfix](/help/troubleshooting/known-issues-patches-attached/hotfix-for-hipaa-package-1-2-0-compatibility-with-adobe-commerce-2-4-7-p4.md)
       * [可用於Adobe Commerce的安全性更新 — [!DNL APSB25-08]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
       * [Adobe Commerce 2.4.6-p8中 [!DNL GraphQL "placeOrder" API] 的回溯不相容變更](/help/troubleshooting/known-issues-patches-attached/backwards-incompatible-changes-for-graphql-placeorder-api-in-adobe-commerce-2-4-6-p8.md)
       * [可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb24-73.md)
