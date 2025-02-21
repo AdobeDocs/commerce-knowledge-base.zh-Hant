@@ -1,16 +1,16 @@
 ---
-title: Adobe Commerce的Experience League支援使用指南
+title: 適用於Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c287b45c3cea99f6d536d6ed4d90a5e19d9fa71c
+source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
 workflow-type: tm+mt
-source-wordcount: '2963'
+source-wordcount: '3072'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce的Experience League支援使用指南
+# 適用於Adobe Commerce的Experience League支援使用指南
 
 在本指南中，瞭解如何向[Experience League支援](https://experienceleague.adobe.com/home#support)提交支援票證，以及提供Adobe Commerce帳戶的共用存取權。
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->目前，若要在Adobe Commerce說明中心檢視您先前提交的案例，您必須前往https://support.magento.com/hc/en-us/requests，因為這些案例尚未移轉至新的支援票證系統。 說明中心現在是唯讀的；若要繼續收到原始問題的支援，您必須向[Experience League支援](https://experienceleague.adobe.com/home#support)提交後續支援票證。
+>目前，若要在Adobe Commerce說明中心檢視您先前提交的案例，您必須前往https://support.magento.com/hc/en-us/requests，因為這些案例尚未移轉至新的支援票證系統。 說明中心現在為唯讀；若要繼續收到原始問題的支援，您必須向[Experience League支援](https://experienceleague.adobe.com/home#support)提交後續支援票證。
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [登入Experience League支援](#sign-in-experience-support)
 * [提交支援案例](#submit-case)
 
-   * [Adobe Experience League起始頁面](#experience-league-start-page)
+   * [Adobe Experience League首頁](#experience-league-start-page)
    * [Adobe Commerce帳戶頁面](#submit-case-adobe-commerce-account-page)
    * [*請確認您的電子郵件地址*](#verify-email-address-error)
 
@@ -63,11 +63,11 @@ ht-degree: 0%
 
 ## 什麼是EXPERIENCE LEAGUE支援？ {#what-is-experience-support}
 
-Experience League支援是Adobe的支援入口網站，符合資格的Adobe Commerce客戶可以在這裡提交和管理支援票證。 您也可以在此處檢閱疑難排解文章。
+Experience League支援是Adobe的支援入口網站，符合資格的Adobe Commerce客戶可在此提交和管理支援票證。 您也可以在此處檢閱疑難排解文章。
 
 ## 支援案例 {#support-cases}
 
-Adobe Experience League支援案例管理可透過案例與支援人員合作，解決在合約規定的所有Adobe Commerce產品使用Adobe產品(包括Adobe Commerce)時遇到的特定問題。
+Adobe Experience League支援案例管理可透過案例與支援人員合作，針對合約規定的所有Adobe產品使用Adobe Commerce等Adobe Commerce產品時遇到的特定問題，妥善處理。
 
 ## 登入EXPERIENCE LEAGUE支援 {#sign-in-experience-support}
 
@@ -82,7 +82,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 ### 提交支援案例 {#support-case}
 
-以帳戶擁有者或「共用存取權」使用者的身分成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面來提交支援案例。
+以帳戶擁有者或共用存取使用者身分成功登入後，您可以使用Adobe Experience League首頁、Adobe Commerce帳戶頁面和Adobe Commerce Cloud帳戶頁面提交支援案例。
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 >
 >若問題與發佈您的擴充功能、無法購買或在[Adobe Commerce Marketplace](https://commercemarketplace.adobe.com/)上要求退款有關，您必須直接造訪https://commercemarketplace.adobe.com/以聯絡[!DNL Commerce Marketplace]團隊。 導覽至頁面底部，然後按一下&#x200B;**[!UICONTROL Contact Us]**，這會開啟表單以提交Marketplace支援票證。
 
-#### Adobe Experience League起始頁面 {#experience-league-start-page}
+#### Adobe Experience League首頁 {#experience-league-start-page}
 
 若要使用Adobe Experience League起始頁面提交新的支援案例，請遵循下列步驟：
 
@@ -105,12 +105,12 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 >1. 若要提交案例，您必須有權獲得適當產品的支援(例如Adobe Commerce、Adobe Commerce Intelligence、Experience Platform等)。 如果您無權取得支援，頁面頂端會顯示橫條，通知您您您並非組織中有權取得支援的使用者。
 >1. 如果您屬於多個組織，或有多個組織具有類似名稱(每個組織都代表該組織訂閱的任何其他Adobe產品)，您必須先從左欄結尾為「(Commerce)」的下拉式清單中選取適當的組織。
 >1. 若要提交案例，您必須有權獲得適當產品的支援(例如Adobe Commerce、Adobe Commerce Reporting、Adobe Commerce Payment Services、Experience Platform等)。 如果您無權取得支援，頁面頂端會顯示橫條，通知您您您並非組織中有權取得支援的使用者。 若要提交Commerce相關問題的案例，您必須先選取以&#x200B;*[!DNL (Commerce)]*&#x200B;結尾的適當組織名稱。
->1. 如果您隸屬於多個組織，或有多個名稱相似的組織(每個組織都代表該組織訂閱的任何其他Adobe產品)，您必須先從下拉式清單中選取適當的組織。
+>1. 如果您隸屬於多個組織，或有多個名稱類似(每個都代表該組織擁有訂閱的任何其他Adobe產品)的組織，您必須先從下拉式清單中選取適當的組織。
 >1. 如果您在[!UICONTROL Select a product]下拉式清單中看不到Adobe Commerce，您必須先向Commerce帳戶擁有者取得[共用存取權](#shared-access)。 取得共用存取權後，您必須先同步處理您的帳戶[](#switch-accounts)，才能完成程式，然後才能提交案例。
 
 >[!NOTE]
 >
->在提交案例之前，請確保您已選取正確的組織，並且您選取的組織對於您請求支援的產品具有適當的權益。 例如，如果您的問題與Adobe Commerce有關，但您選擇Experience Platform作為產品，並且案例已成功提交，這可能會導致案例的路由錯誤和回應時間的延遲。
+>在提交案例之前，請確保您已選取正確的組織，並且您選取的組織對於您請求支援的產品具有適當的權益。 例如，如果您的問題與Adobe Commerce有關，但您已選取Adobe Commerce Intelligence或Adobe Experience Platform作為產品，且案例已成功提交，這可能會導致您的案例路由錯誤及回應時間延遲。
 >
 >此外，如果在提交案例時選取了錯誤的組織，您的團隊將無法在[!UICONTROL My Cases]下檢視適當/正確組織的案例。 Adobe Commerce支援團隊無法變更與案例相關的組織；為了解決此問題，您必須關閉現有案例，並提交具有已提供/選取之適當詳細資料的新案例。
 
@@ -126,9 +126,14 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
    ![未解決的支援案例](assets/open_support_case.png)
 
-1. 從下拉式選單中選取產品，並提供案例標題和說明。 注意：如果下拉式清單未顯示任何產品或Commerce不是可用選項，請嘗試在左側欄中切換組織並再次檢查。
+1. 從下拉式選單中選取產品，並提供案例標題和說明。 注意：如果下拉式清單未顯示任何產品或[!DNL Commerce]不是可用選項，請嘗試切換左側欄中的[!UICONTROL Organization]，然後再次檢查。
 
    ![select_product](assets/support_case_product.png)
+
+>[!NOTE]
+>
+>如果您在雲端基礎結構&#x200B;**上提交具有「**[!DNL Commerce]」的票證並選取為產品，而且組織列有多個專案，系統會提示您選取適當的[!UICONTROL Project ID]。 如果您找不到所需的[!UICONTROL Project ID]，請務必在票證上新增附註，說明您正在尋求其他「專案X」的協助。<br>如果您打算在Managed Services **」票證上提交「**[!DNL Commerce]」，且位於雲端基礎結構&#x200B;**上的**[!DNL Commerce]&#x200B;上，但未在雲端基礎結構&#x200B;**上將**[!DNL Commerce]&#x200B;視為可用產品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中輸入您問題的主旨。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中輸入問題的說明。<br>3。 輸入這兩個專案後，您將會看到下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;欄位。
+
 
 1. Adobe Experience League會提供建議文章和最佳實務，協助您解決案例。 如果您仍需要直接支援，在提交案例前，您需要提供一些其他資訊。
 
@@ -158,7 +163,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 >1. 如果您已提交OrgA的案例，但問題實際影響OrgB，OrgB的成員未來將無法在[!UICONTROL My Cases]下看到此案例。
 >1. 此外，OrgA的成員將能夠看到[!UICONTROL My Cases]下實際上適用於OrgB的案例，這可能會導致隱私權問題。
 
-您必須同時在https://account.adobe.com和https://account.magento.com擁有帳戶才能登入Experience League以提交支援案例。 您必須先登入才能提交支援案例。
+您必須同時在https://account.adobe.com和https://account.magento.com擁有帳戶才能登入Experience League提交支援案例。 您必須先登入才能提交支援案例。
 
 >[!NOTE]
 >
@@ -177,7 +182,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
    ![magento_account_support_tab](assets/magento_account_support_tab.png){width="800"}
 
-1. Adobe Experience League支援頁面會為您載入。
+1. 系統會為您載入Adobe Experience League支援頁面。
 1. 從左側功能表選取&#x200B;**[!UICONTROL Open Ticket]**。
 1. 填寫欄位。
 1. 按一下&#x200B;**提交**。
@@ -343,7 +348,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 <u>原因</u>
 
-如果您有/曾經擁有Adobe Commerce Cloud專案，並且已將使用者新增至專案，系統可能會自動授予他們專案擁有者影像ID的共用存取權。 這通常會在&#x200B;**[!UICONTROL Share Name]**&#x200B;欄中顯示，顯示來自MAG[XYZ ]*的*&#x200B;雲端共用存取。
+如果您有/擁有Adobe Commerce Cloud專案，並且已將使用者新增至專案，系統可能會自動授予他們專案擁有者影像ID的共用存取權。 這通常會在&#x200B;**[!UICONTROL Share Name]**&#x200B;欄中顯示，顯示來自MAG[XYZ ]*的*&#x200B;雲端共用存取。
 
 >[!NOTE]
 >
