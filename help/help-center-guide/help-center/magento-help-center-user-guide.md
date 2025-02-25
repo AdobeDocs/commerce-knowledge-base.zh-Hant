@@ -3,7 +3,7 @@ title: 適用於Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c578bdc5684705283bb1d3eb4c42edb62ad769f9
+source-git-commit: cb0d3b47c7b9693c83c6f1e85fa41cce57972c9f
 workflow-type: tm+mt
 source-wordcount: '3072'
 ht-degree: 0%
@@ -130,9 +130,9 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
    ![select_product](assets/support_case_product.png)
 
->[!NOTE]
->
->如果您在雲端基礎結構&#x200B;**上提交具有「**[!DNL Commerce]」的票證並選取為產品，而且組織列有多個專案，系統會提示您選取適當的[!UICONTROL Project ID]。 如果您找不到所需的[!UICONTROL Project ID]，請務必在票證上新增附註，說明您正在尋求其他「專案X」的協助。<br>如果您打算在Managed Services **」票證上提交「**[!DNL Commerce]」，且位於雲端基礎結構&#x200B;**上的**[!DNL Commerce]&#x200B;上，但未在雲端基礎結構&#x200B;**上將**[!DNL Commerce]&#x200B;視為可用產品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中輸入您問題的主旨。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中輸入問題的說明。<br>3。 輸入這兩個專案後，您將會看到下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;欄位。
+   >[!NOTE]
+   >
+   >如果您在雲端基礎結構&#x200B;**上提交具有「**[!DNL Commerce]」的票證並選取為產品，而且組織列有多個專案，系統會提示您選取適當的[!UICONTROL Project ID]。 如果您找不到所需的[!UICONTROL Project ID]，請務必在票證上新增附註，說明您正在尋求其他「專案X」的協助。<br>如果您打算在Managed Services **」票證上提交「**[!DNL Commerce]」，且位於雲端基礎結構&#x200B;**上的**[!DNL Commerce]&#x200B;上，但未在雲端基礎結構&#x200B;**上將**[!DNL Commerce]&#x200B;視為可用產品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中輸入您問題的主旨。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中輸入問題的說明。<br>3。 輸入這兩個專案後，您將會看到下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;欄位。
 
 
 1. Adobe Experience League會提供建議文章和最佳實務，協助您解決案例。 如果您仍需要直接支援，在提交案例前，您需要提供一些其他資訊。
@@ -143,23 +143,25 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 >[!IMPORTANT]
 >
->如果您在登入experienceleague.adobe.com時無法在組織下拉式選單中看到您的組織，在請求支援或管理現有支援案例之前，您可能需要將設定檔與accounts.magento.com同步。   
+>如果您在登入experienceleague.adobe.com時無法在組織下拉式選單中看到您的組織，在請求支援或管理現有支援案例之前，您可能需要將設定檔與accounts.magento.com同步。
 >
->1. 導覽至accounts.magento.com ，並使用您將用來管理Adobe Experience League中支援案例的相同設定檔（企業、學校或個人）登入。 
->1. 成功登入accounts.magento.com設定檔後，請導覽回experienceleague.adobe.com並登入。 
->1. 從組織下拉式選單中選取您的組織。 
->1. 如果貴組織仍未出現，請聯絡您的Commerce管理員以取得支援委派許可權。 如需其他資訊，請參閱[Commerce帳戶共用](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)說明文章。 
+>1. 導覽至accounts.magento.com ，並使用您將用來管理Adobe Experience League中支援案例的相同設定檔（企業、學校或個人）登入。
+>1. 成功登入accounts.magento.com設定檔後，請導覽回experienceleague.adobe.com並登入。
+>1. 從組織下拉式選單中選取您的組織。
+>1. 如果貴組織仍未出現，請聯絡您的Commerce管理員以取得支援委派許可權。 如需其他資訊，請參閱[Commerce帳戶共用](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)說明文章。
 
 >[!NOTE]
 >
 >為什麼組織/產品重要
 >
 >**範例A**：您僅共用一個公司的存取權，而該公司擁有兩個Adobe產品的權益：Product1和Product2。
+>
 >1. 由於每個組織代表一種產品，您會在下拉式清單中看到兩個組織，例如OrgA-Product1和OrgB-Product2。
 >1. 如果您選取「產品= Product1」，但您的問題與「產品2」有關，則案例會傳送至「產品2」支援部門，而在將案例傳送至「產品1」支援部門時，則會發生延遲。
 >1. 如果您已提交OrgA-Product1的案例，且想要日後檢閱該組織的[!UICONTROL My Cases]，若您選取OrgA-Product2作為組織，則不會看到該案例（與範例B相比，您只需選取其他組織即可）。
 >
 >**範例B**：您擁有兩家公司的共用存取權，而每家公司只有Adobe Commerce的權利。
+>
 >1. 如果您已提交OrgA的案例，但問題實際影響OrgB，OrgB的成員未來將無法在[!UICONTROL My Cases]下看到此案例。
 >1. 此外，OrgA的成員將能夠看到[!UICONTROL My Cases]下實際上適用於OrgB的案例，這可能會導致隱私權問題。
 
@@ -170,6 +172,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 >如果您已在https://account.magento.com擁有帳戶，但無法登入，則可能尚未在https://account.adobe.com註冊帳戶（自2022年8月起必須註冊）。
 >
 >若要解決此問題：
+>
 >1. 在https://account.adobe.com使用您MAG ID上的相同電子郵件地址建立帳戶。
 >1. 請前往https://account.magento.com將您的Adobe ID與MAG ID連結。
 
