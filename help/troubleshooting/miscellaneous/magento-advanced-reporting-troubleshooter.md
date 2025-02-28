@@ -4,9 +4,9 @@ description: 使用此疑難排解工具可解決Adobe Commerce上的進階報�
 exl-id: 7ef9870c-b6b6-4144-a5a7-81aa20a1606c
 feature: Cache, Support
 role: Developer
-source-git-commit: aed14781c6a7b43d0a719ac89c2965d5044d8c22
+source-git-commit: 207fd4cd11f76a5076e98cda8b6776b2d68ef937
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1017'
 ht-degree: 0%
 
 ---
@@ -125,9 +125,14 @@ ls -ltr pub/media/analytics/
 
 若要檢查access.logs中是否有記錄，請執行此命令：
 
-```
-zgrep -i analytics /var/log/platform/[cluster_id|cluster_id_stg]/access.log* | grep MagentoBI
-```
+* 在Commerce Cloud上：
+
+  ```
+  {{zgrep -i analytics /var/log/platform/*/access.log* | grep MagentoBI}}
+  ```
+
+* 若為On-Premise，請據以取代檔案路徑：
+  `zgrep -i analytics <your web server's log path>/access.log* | grep MagentoBI`
 
 a.是 — 如果檔案`data.tgz`存在且存取記錄中有記錄，但您仍然有404錯誤，則您需要[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 繼續執行[步驟10](#step-10)。

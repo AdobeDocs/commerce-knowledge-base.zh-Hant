@@ -2,9 +2,9 @@
 title: 如何取得並套用[!UICONTROL security patch]
 description: 本文提供如何取得及套用已發行的[!UICONTROL security patch]的指示，但無法取得指示。
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: b15a1d008b6cc2bdce797768e6ee7029a747e6da
+source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
@@ -32,10 +32,11 @@ Adobe Commerce On-Premise和Cloud — 所有版本
 
 **警告：**
 
-如果您使用舊版Adobe Commerce且已購買擴充支援，您的版本必須是下列其中一個版本才能套用安全性修補程式：
+如果您使用舊版Adobe Commerce (2.4.4)，系統會自動提供延伸支援。 您的版本必須是下列不支援的版本之一，才能套用最新的安全性修補程式：
 
-* 2.4.2 - p2
-* 2.4.3 - p3
+2.4.4 - 2.4.4-p11
+
+不支援的版本(2.3.x、2.4.0 - 2.4.3)不符合支援資格，您必須先升級至支援的版本，才能利用最新的安全性修正。
 
 如果您沒有「延伸支援」，您可以要求「支援」與您共用修補程式，但無法解決您在套用修補程式時可能遇到的任何問題/錯誤。
 
@@ -55,5 +56,5 @@ Adobe Commerce On-Premise和Cloud — 所有版本
 
 ## 相關閱讀
 
-* 請參閱&#x200B;*雲端基礎結構上的Adobe Commerce指南*&#x200B;中的Commerce Cloud Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)的[發行說明。
+* 請參閱&#x200B;*雲端基礎結構上的Commerce Cloud指南*&#x200B;中的[Adobe Commerce Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-tools-suite)發行說明。
 * 請參閱&#x200B;*雲端基礎結構指南上的Adobe Commerce*&#x200B;中的[升級Adobe Commerce版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)。
