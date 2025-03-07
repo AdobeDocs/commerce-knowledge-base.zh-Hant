@@ -4,9 +4,9 @@ description: Adobe Commerce上的停滯部署和失敗部署可以使用Deployme
 exl-id: 5141e079-be61-44c2-8bff-c4b13cb7e07c
 feature: Build, Deploy, Support
 role: Developer
-source-git-commit: aedf869e96ce6bcbf538805dd6d14d31db8c2e02
+source-git-commit: 4704446d043e3175b5af27c068908e58bfb7a9ff
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ b.否 — 維護或全球中斷。 檢查估計持續時間和更新。
 
 +++**其他環境中是否有部署會封鎖現有環境中的部署？**
 
-若要取得進行中活動的清單，請使用magento-cloud CLI執行以下命令（如果您只新增到一個雲端專案）。 **注意**：請檢查您是否使用最新版的magento-cloud CLI。 如需相關步驟，請參閱Commerce on Cloud Infrastructure指南中的[更新CLI](/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
+若要取得進行中活動的清單，請使用magento-cloud CLI執行以下命令（如果您只新增到一個雲端專案）。 **注意**：請檢查您是否使用最新版的magento-cloud CLI。 如需相關步驟，請參閱Commerce on Cloud Infrastructure指南中的[更新CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ magento-cloud --state=in_progress
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-若要尋找現有部署活動的相關資訊(請參閱[如果雲端UI有「記錄片段」錯誤，請檢查部署記錄](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.html)
+若要尋找現有部署活動的相關資訊(請參閱[如果雲端UI有「記錄片段」錯誤，請檢查部署記錄](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 如需詳細資訊)，您可以執行此命令來取得該活動的執行記錄檔：
 
 ```bash
@@ -79,7 +79,7 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 +++**使用Bitbucket？**
 
 a.是 — 檢查[status.bitbucket.com](https://bitbucket.status.atlassian.com/)。\
-b.否 — 檢查[建置和部署記錄](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)中的部署記錄錯誤。 繼續進行[步驟6](#step-6)。
+b.否 — 檢查[建置和部署記錄](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中的部署記錄錯誤。 繼續進行[步驟6](#step-6)。
 
 +++
 
@@ -124,7 +124,7 @@ b.否 — 繼續執行[步驟11](#step-11)。
 +++**可用儲存空間還好嗎？**
 
 a.是 — 繼續[步驟11](#step-11)。\
-b.否 — 檢閱[管理磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html)。
+b.否 — 檢閱[管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)。
 
 +++
 
@@ -148,9 +148,9 @@ b.否 — 繼續進行[步驟8](#step-8)。
 
 ## 步驟13 — 檢查Elasticsearch升級是否失敗 {#step-13}
 
-+++正在升級或部署的&#x200B;**Elasticsearch？**
++++**正在升級或部署的Elasticsearch？**
 
-a.是 — Elasticsearch失敗的升級步驟。 請參閱[Elasticsearch軟體相容性](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html)。 如果Elasticsearch升級仍無法運作，[請提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 **注意**：在雲端基礎結構上的Adobe Commerce上，請注意，若未提前48個營業時間通知我們的基礎結構團隊，服務升級就無法推送至生產環境。 這是必要措施，因為我們需要確保我們有一位基礎建設支援工程師在所需時間範圍內更新您的設定，將生產環境的停機時間降到最低。 因此，在變更需要投入生產前48小時，[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，詳細說明您需要的服務升級，並陳述您想要啟動升級程式的時間。\
+a.是 — Elasticsearch升級步驟失敗。 請參閱[Elasticsearch軟體相容性](https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-upgrade.html)。 如果Elasticsearch升級仍無法運作，[請提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 **注意**：在雲端基礎結構上的Adobe Commerce上，請注意，若未提前48個營業時間通知我們的基礎結構團隊，服務升級就無法推送至生產環境。 這是必要措施，因為我們需要確保我們有一位基礎建設支援工程師在所需時間範圍內更新您的設定，將生產環境的停機時間降到最低。 因此，在變更需要投入生產前48小時，[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，詳細說明您需要的服務升級，並陳述您想要啟動升級程式的時間。\
 b.否 — 繼續執行[步驟14](#step-14)。
 
 +++
@@ -164,7 +164,7 @@ b.否 — 繼續執行[步驟15](#step-15)。
 
 +++
 
-## 步驟15 -Elasticsearch版本錯誤 {#step-15}
+## 步驟15 - Elasticsearch版本錯誤 {#step-15}
 
 +++**有關Elasticseach版本的錯誤？**
 
@@ -210,7 +210,7 @@ b.否 — 繼續執行[步驟19](#step-19)。
 
 +++**使用協力廠商擴充功能？**
 
-a.是 — 嘗試[停用協力廠商擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html)並執行部署（檢視問題是否起因），尤其是當任何錯誤中有擴充功能名稱時。\
+a.是 — 嘗試[停用協力廠商擴充功能](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)並執行部署（檢視問題是否起因），尤其是當任何錯誤中有擴充功能名稱時。\
 b.否 — 繼續執行[步驟20](#step-20)。
 
 +++
