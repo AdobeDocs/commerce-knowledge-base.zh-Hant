@@ -4,9 +4,9 @@ description: 本文提供疑難排解步驟，以使用New Relic解決Adobe Comm
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 324cce66df1e4ab7ec4ef8fb6512c3acbabdf3ab
+source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 本文提供疑難排解步驟，以使用New Relic解決Adobe Commerce的雲端基礎結構效能問題。 此外，也提供資源以取得進一步資訊。 下表包含下列問題和建議的資源：
 
 * 低Apdex分數
-* 高CPU使用量
+* CPU使用量高
 * 高I/O作業
 * 中斷
 
@@ -60,22 +60,22 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="/help/support-tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert.md">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
+<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
 </td>
 </tr>
 <tr>
 <td>
-<p>高CPU使用率：</p>
-<p>高CPU使用率可能表示有特別忙碌的服務，例如MySQL、Redis等。</p>
+<p>CPU使用量高：</p>
+<p>CPU使用量高表示服務特別忙碌，例如MySQL、Redis等。</p>
 </td>
 <td>
 <ol>
 <li>登入<a href="https://login.newrelic.com/login">New Relic</a> &gt;基礎結構&gt;程式。</li>
-<li>請檢閱CPU圖表，檢視是否有任何持續或耗用時間超過100% CPU時間的處理序，並與執行個體的處理器計數進行比較。 請注意資源使用率的高峰。 不建議您終止處理序，除非它是卡住的cron。</li>
+<li>請檢閱CPU圖表，檢視是否有任何停滯或耗用時間超過100%CPU的流程在執行個體上並與處理器計數進行比較。 請注意資源使用率的高峰。 不建議您終止處理序，除非它是卡住的cron。</li>
 </ol>
 </td>
 <td>
-<p>若要進一步瞭解效能測量結果，特別是CPU百分比、I/O位元組以及個別或處理序群組的記憶體使用量，請參閱<a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic檔案&gt;基礎架構UI頁面&gt;基礎架構主機頁面&gt;處理序索引標籤</a>。</p>
+<p>若要進一步瞭解效能測量結果，特別是CPU百分比、I/O位元組以及個別程式或程式群組的記憶體使用狀況，請參閱<a href="https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#processes">New Relic檔案&gt;基礎架構UI頁面&gt;基礎架構主機頁面&gt;程式索引標籤</a>。</p>
 </td>
 </tr>
 <tr>
@@ -121,7 +121,7 @@ ht-degree: 0%
 <li>依最耗時的專案排序。</li>
 <li>檢閱熱門查詢。
 
-附註： <code>更新</code> 或<code>插入</code>查詢是最耗用CPU的查詢。</li>
+附註： <code>更新</code> 或<code>插入</code>查詢是最耗用的CPU查詢。</li>
 <li>從「排序依據」選擇器切換至「傳輸量」，並尋找導致資料庫傳輸量下拉式清單的處理程式。</li>
 <li>如果您需要進一步調查，請考慮檢查協力廠商服務。</li>
 </ol>
