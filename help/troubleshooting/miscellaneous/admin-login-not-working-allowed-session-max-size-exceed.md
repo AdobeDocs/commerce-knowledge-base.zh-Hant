@@ -1,17 +1,18 @@
 ---
-title: '[!DNL Admin]登入無法運作 — 超過允許的工作階段大小上限'
-description: 解決當您嘗試登入 [!DNL Admin] 面板，而表單重新整理且您無法登入的問題。
+title: '[!UICONTROL Admin]登入無法運作 — 超過允許的工作階段大小上限'
+description: 解決當您嘗試登入[!UICONTROL Admin]面板，而表單重新整理且您無法登入的問題。
 exl-id: 12789df0-6130-4e60-a92a-68ed329bd7fd
-source-git-commit: 8718148f6d9a40c9a71484a7fbc818a626e825e1
+source-git-commit: fe4a48581bdfe24da5082b69fb26a8032bd77334
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
 
-# [!DNL Admin]登入無法運作 — 超過允許的工作階段大小上限
+# [!UICONTROL Admin]登入無法運作 — 超過允許的工作階段大小上限
 
-本文修正您嘗試登入[!DNL Admin]面板時，表單剛剛重新整理且您無法登入的問題。 這是因為已超過[!DNL Admin]工作階段大小。
+本文修正您嘗試登入[!UICONTROL Admin]面板，但表單會重新整理且您無法登入，或您在[!UICONTROL Admin]面板中執行某些動作並自動登出等情況。
+這是因為[!UICONTROL Admin] [!UICONTROL Session Size]已超過。
 
 ## 受影響的版本
 
@@ -20,7 +21,10 @@ ht-degree: 0%
 
 ## 問題
 
-無法登入[!DNL Admin]，因為表單持續重新載入。
+您在[!UICONTROL Admin]上遇到下列其中一種症狀：
+
+1. 無法登入[!UICONTROL Admin]，因為表單持續重新載入。
+1. 嘗試執行動作時，系統會自動將您登出。
 
 ## 原因
 
@@ -41,7 +45,7 @@ ht-degree: 0%
 
 雲端基礎結構上的<u>Adobe Commerce</u>：
 
-(只有當部署/作業模式為預設或開發人員時，才能在[!DNL Admin]中存取此設定。 但是，雲端環境中只允許生產部署模式。)
+(只有在部署/作業模式為&#x200B;*預設*&#x200B;或&#x200B;*開發人員*&#x200B;時，才能在[!UICONTROL Admin]中存取此設定。 但是，雲端環境中只允許生產部署模式。)
 
 若要增加此值，請在終端機(SSH)中執行此命令：
 
@@ -53,6 +57,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 相關閱讀
 
-* 管理系統指南中的[工作階段大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)。
-* 組態指南中的[操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)。
-* 雲端基礎結構指南中的[安全連線](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections) Commerce。
+* 管理系統指南中的[工作階段大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 組態指南中的[操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
+* 雲端基礎結構上的Commerce指南中的[安全連線](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)
