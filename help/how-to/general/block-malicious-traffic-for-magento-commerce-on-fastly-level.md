@@ -3,9 +3,9 @@ title: 在Fastly層級封鎖Adobe Commerce的惡意流量
 description: 本文提供當您懷疑雲端基礎結構存放區上的Adobe Commerce遭到DDoS攻擊時，封鎖惡意流量可採取的步驟。
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: b58e182c64b3fad508145d9078619ddbe0e2b887
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -85,4 +85,5 @@ name: block_bad_useragents
 
 ## 相關閱讀
 
-[雲端上Adobe Commerce的產品特定授權條款](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* [雲端上Adobe Commerce的產品特定授權條款](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
+* 在Commerce on Cloud指南中[封鎖要求的自訂VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
