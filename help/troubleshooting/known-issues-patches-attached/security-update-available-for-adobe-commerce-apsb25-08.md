@@ -5,9 +5,9 @@ description: 套用隔離修補程式來修正Adobe Commerce 2.4.8-beta1、2.4.7
 feature: Compliance, Security
 role: Developer
 exl-id: 567e6ad2-704e-461f-a54d-75f6bd96e996
-source-git-commit: d669c097767b5855c6bd747a0ab11b3520f405a0
+source-git-commit: aba9548c0b5a06ffd0cddce630e53e5664bb9aac
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,10 @@ ht-degree: 0%
 * 2.4.4-p11和較舊版本
 
 ## 適用於Adobe Commerce on Cloud、Adobe Commerce內部部署和Magento Open Source軟體的解決方案
+
+>[!NOTE]
+>
+>此問題已由[最新雲端修補程式更新](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest)解決。 當雲端修補程式更新中的修正已就緒時，嘗試套用隔離的修補程式可能會導致安裝失敗。
 
 為協助解決受影響產品和版本的弱點，您必須根據您的Adobe Commerce/Magento Open Source版本套用[!DNL CVE-2025-24434]獨立修補程式。
 
@@ -97,4 +101,4 @@ ht-degree: 0%
 Adobe Commerce可用的安全性更新：
 
 * [Adobe安全性公告([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [可用於Adobe Commerce的最新安全性更新)](https://helpx.adobe.com/security/products/magento.html)
+* [可用於Adobe Commerce的最新安全性更新](https://helpx.adobe.com/security/products/magento.html)
