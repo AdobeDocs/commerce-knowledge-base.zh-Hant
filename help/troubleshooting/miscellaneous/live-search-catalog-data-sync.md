@@ -4,7 +4,7 @@ description: 本文針對Adobe Commerce問題提供解決方案，解決您在�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: 54f6fb60adca6f639cd315b3d070c7b93aa45bab
+source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -38,7 +38,7 @@ ht-degree: 0%
 或
 
 1. 將新產品新增至目錄。
-1. 在執行時間Magento索引器+ cron後的15-20分鐘內，嘗試使用產品名稱或其他可搜尋屬性執行搜尋查詢，以將資料同步到後端服務。
+1. 從Magento索引器+ cron執行後15-20分鐘，嘗試使用產品名稱或其他可搜尋屬性執行搜尋查詢，以將資料同步至後端服務。
 
 <u>預期結果</u>
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 ### 等待套用變更
 
-設定並連線後，可能要花30分鐘以上的時間建立ES (Elasticsearch)中的索引並傳回搜尋結果。 後續的一次性產品更新預計會在幾分鐘內編列索引。
+設定並連線後，可能要花30分鐘以上的時間才會建立ES (Elasticsearch)中的索引並傳回搜尋結果。 後續的一次性產品更新預計會在幾分鐘內編列索引。
 
 ### 同步特定SKU的產品資料
 
@@ -146,7 +146,7 @@ bin/magento saas:resync --feed productattributes
 執行以下命令來重新同步摘要：
 
 ```
-bin/magento saas:resync --feed productattributes --cleaup-feed
+bin/magento saas:resync --feed productattributes --cleanup-feed
 bin/magento saas:resync --feed products --cleanup-feed
 bin/magento saas:resync --feed scopesCustomerGroup --cleanup-feed
 bin/magento saas:resync --feed scopesWebsite --cleanup-feed
