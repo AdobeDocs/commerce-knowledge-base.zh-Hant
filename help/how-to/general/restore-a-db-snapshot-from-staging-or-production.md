@@ -2,9 +2,9 @@
 title: 從中繼或生產還原資料庫快照
 description: Adobe Commerce本文會說明如何在雲端基礎結構上，從中繼或生產環境還原DB快照。
 exl-id: 1026a1c9-0ca0-4823-8c07-ec4ff532606a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: c8cd2bf97681527a32a403a413c5fa823d07abed
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,12 @@ ht-degree: 0%
 
    ```sql
    drop database <cluster ID_stg>;
+   ```
+
+1. 刪除資料庫後，重新建立資料庫：
+
+   ```mysql
+   create database [database_name];
    ```
 
 1. 輸入下列命令以匯入[!DNL snapshot]：
