@@ -3,16 +3,16 @@ title: 設定新 [!DNL domain]的檢查清單
 description: 這是一份檢查清單，說明如何在Adobe Commerce中設定雲端基礎結構上的新 [!DNL domain] 。
 exl-id: bfe0582d-2c6d-4814-908f-dfd8c898bef7
 feature: Cache
-source-git-commit: 625ed2c7ab79f7bca9a979903e97c44c875e607c
+source-git-commit: f7b246088e3580922bd3389b2992e5dd8f97ff7a
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
 # 設定新[!DNL domain]的核對清單
 
-此檢查清單說明如何在Adobe Commerce中設定雲端基礎結構上的新[!DNL domain]。 無論您是要新增網域還是以新網域取代目前網域，此功能均適用。
+此檢查清單說明如何在Adobe Commerce中設定雲端基礎結構上的新[!DNL domain]。 無論您是要新增網域還是取代目前的網域，此設定皆適用。 在取得新的中繼環境後，此准則亦適用（請參閱步驟4）。
 
 ## 受影響的產品和版本
 
@@ -65,3 +65,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [設定多個網站或商店：新增使用手冊中的 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)。
+* [網站因來源遮罩而無法存取](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking)
