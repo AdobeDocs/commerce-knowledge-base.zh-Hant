@@ -2,14 +2,17 @@
 title: 如何取得並套用[!UICONTROL security patch]
 description: 本文提供如何取得及套用已發行的[!UICONTROL security patch]的指示，但無法取得指示。
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 06bc239cb5b1a894d2a60236a9b32b2b0c4eba80
+source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
 
 # 如何取得並套用[!UICONTROL security patch]
+
+>[!NOTE]
+>如果您有內部部署安裝，而且未使用[!DNL CVS]或[!DNL GitHub]等版本控制系統來管理您的程式碼，您的Web主機或許可以協助套用修補程式。 歡迎聯絡他們以尋求支援
 
 本文提供如何取得及套用已發行的[!UICONTROL security patch]的指示，但無法取得指示。
 
@@ -17,18 +20,17 @@ ht-degree: 0%
 
 Adobe Commerce On-Premise和Cloud — 所有版本
 
+
 ## 原因
 
-大部分的[!UICONTROL Security Patches]已發行，不需套用任何實體檔案或Hotfix。
+大部分[!UICONTROL Security Patches]已發行，但未套用任何獨立的修補程式或Hotfix，因此需要升級至[!UICONTROL Security Patch]發行版本。
 
 ## 解決方案
 
 
 ### 案例I：
 
-如果發行說明中提及實體修補程式檔案/Hotfix：
-
-* 從[https://account.magento.com](https://account.magento.com/downloads/view/)的下載區段下載檔案。 （共用存取許可權的使用者必須先獲得帳戶擁有者/授權持有者的下載許可權）
+* 如果[發行說明](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)中提及隔離的修補程式檔案/Hotfix，請從[https://account.magento.com](https://account.magento.com/downloads/view/)的下載區段下載檔案。 共用存取許可權的使用者必須先獲得帳戶擁有者/授權持有者的下載許可權。
 
 **警告：**
 
@@ -42,7 +44,9 @@ Adobe Commerce On-Premise和Cloud — 所有版本
 
 ### 案例II：
 
-如果發行說明中未提及實體修補程式檔案/Hotfix：
+隔離的修補程式僅於例外情況下提供，並非實作安全性修正的推薦形式。
+
+如果發行說明中未提及隔離的修補程式檔案/Hotfix：
 
 * **雲端：**
 
@@ -51,8 +55,8 @@ Adobe Commerce On-Premise和Cloud — 所有版本
 
 * **雲端或內部部署：**
 
-* 如果無法使用實體修補程式檔案/Hotfix，[請將Cloud上的Adobe Commerce版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X升級至最新的修補程式版本2.4.X-pY。
-* 如果無法使用實體修補程式檔案/Hotfix，[請將Adobe Commerce Version On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X升級至最新的修補程式版本2.4.X-pY。
+* 如果無法使用隔離的修補程式檔案/Hotfix，[請將Cloud](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version) 2.4.X上的Adobe Commerce版本升級至最新的修補程式版本2.4.X-pY。
+* 如果無法使用隔離的修補程式檔案/Hotfix，[請將Adobe Commerce Version On-Premise](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade) 2.4.X升級至最新的修補程式版本2.4.X-pY。
 
 ## 相關閱讀
 
