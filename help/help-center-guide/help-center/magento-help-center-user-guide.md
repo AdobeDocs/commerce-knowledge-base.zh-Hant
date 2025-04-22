@@ -3,9 +3,9 @@ title: 適用於Adobe Commerce的Experience League支援使用指南
 description: 瞭解如何將支援票證提交至Experience League支援、提供帳戶的共用存取權並導覽Adobe Commerce知識庫。
 exl-id: 9eb4814f-c9c4-4dd0-b68a-87d712898aa5
 feature: Support, Roles/Permissions, Tools and External Services, Admin Workspace, Iaas, Marketing Tools
-source-git-commit: c9468428b9d230121fb1da354d138439a04d070d
+source-git-commit: 46c19ec1185aa176beff9e5039a324a1f11b9aa1
 workflow-type: tm+mt
-source-wordcount: '2942'
+source-wordcount: '2966'
 ht-degree: 0%
 
 ---
@@ -321,6 +321,10 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 >使用者必須有現有的帳戶，才能獲得共用存取許可權 — 如需詳細資訊，請參閱[建立Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-create#create-a-commerce-account)。
 
 為新使用者提供共用存取權後，相關資訊可在您Adobe Commerce帳戶頁面的&#x200B;**共用存取權** > **管理許可權**&#x200B;中取得。
+
+>[!NOTE]
+>
+>共用存取權不會自動授與Commerce Cloud Console的存取權。 您必須將使用者分別[新增至雲端專案](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/project/user-access#add-a-user-to-the-project)。
 
 ![magento-account-shared-manage-permissions](assets/magento_account_shared_manage_permissions.png)
 
