@@ -2,9 +2,9 @@
 title: 支援票證問題原因說明
 description: 本文列出支援票證**問題原因**欄位選項，並提供每個選項的詳細說明。
 exl-id: 678505fe-8c8d-4963-8dee-eec0a61a2daf
-source-git-commit: e1f13098e3e0894b1d3acf9ad38fb49f6a5a54f6
+source-git-commit: f502c913964103b88bcb00f942f70439394148f5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,7 @@ ht-degree: 0%
   </tr>  
 </tbody>
 </table>
+
+## 相關閱讀
+
+* 在Adobe Commerce的Experience League支援使用指南中[提交支援案例](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
