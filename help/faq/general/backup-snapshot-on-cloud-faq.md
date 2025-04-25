@@ -3,9 +3,9 @@ title: 雲端上的備份（快照）：常見問題集
 description: 本文介紹在雲端基礎結構上使用Adobe Commerce的快照來備份環境的要點。
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 0958a8923e27c1341f4b536812b26205685b2b81
+source-git-commit: cfaa7043eed9cc5369f5317b10609d97a91d5861
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,9 @@ ht-degree: 0%
 ### 測試和生產環境
 
 * 在Pro計畫中，手動快照不適用於測試和生產環境。
-* 自動快照會建立&#x200B;**，無論您網站的即時狀態**&#x200B;為何（也會為尚未啟動的網站建立快照）。 無法公開存取自動備份，因為它們儲存在不同的系統中。 您可以[提交Adobe Commerce支援票證](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)，以請求特殊備份或從票證中提供日期、時間和時區的特定備份還原。 此外，請注意，支援不會為您執行復原或還原資料庫 — 它們會擷取快照，但您必須自行還原資料庫。
+* 無論您網站的即時狀態&#x200B;**為何，都會在**建立自動快照（也會為尚未啟動的網站建立快照）。 無法公開存取自動備份，因為它們儲存在不同的系統中。
+您可以[提交Adobe Commerce支援票證](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)，以請求特殊備份或從票證中提供日期、時間和時區的特定備份還原。 支援不會依需求產生任何手動快照。
+此外，請注意，支援不會為您執行復原或還原資料庫 — 它們會擷取快照，但您必須自行還原資料庫。
 * 備份是使用&#x200B;**加密的Amazon Web Services Elastic Block Store (AWS EBS)快照**&#x200B;所建立。
 * 環境快照包含完整系統（檔案系統和資料庫）。
 * 自動快照&#x200B;**的保留時間不同**，並遵循[排程](/docs/commerce-cloud-service/user-guide/architecture/pro-architecture.html?lang=en#backup-and-disaster-recovery)。
