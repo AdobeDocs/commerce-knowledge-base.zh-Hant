@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce問題提供解決方案，解決您在�
 exl-id: cd2e602f-b2c7-4ecf-874f-ec5f99ae1900
 feature: Catalog Management, Search
 role: Developer
-source-git-commit: b0d4b2e541c42095d6d09b91ba6f390064c89af6
+source-git-commit: fec99ebd6b03f2dc1b70c0ea388935dc5e60ad57
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -136,14 +136,7 @@ ht-degree: 0%
 
 ### API設定變更後同步
 
-（已知問題）如果您已變更API設定，而導致資料空間ID變更，並發現目錄變更不再同步，請執行以下命令：
-
-```bash
-bin/magento saas:resync --feed products
-bin/magento saas:resync --feed productattributes
-```
-
-執行以下命令來重新同步摘要：
+（已知問題）如果您已變更API設定，而導致資料空間ID變更，並發現目錄變更不再同步，請執行以下命令以重新同步摘要：
 
 ```
 bin/magento saas:resync --feed productattributes --cleanup-feed
@@ -158,6 +151,9 @@ bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
 [提交支援要求](https://experienceleague.adobe.com/home?support-tab=home#support)以要求即時搜尋索引的重新索引。 在問題說明中，加入&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下管理面板中的資料空間/環境ID。
+
+>[!IMPORTANT]
+>只有在您已更新API組態，或使用[ — 試用](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)選項執行`saas:resync`命令時，才使用`--cleanup-feed`選項。 在其他情況下使用`--cleanup-feed`選項會導致資料遺失和資料同步問題。
 
 ## 相關閱讀
 
