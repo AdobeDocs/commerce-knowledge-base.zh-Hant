@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 1f9b11e38ed11fc022a5afa9132130ea2a266616
+source-git-commit: a4a913c9159e9267ca20da99b9d690c85667c7db
 workflow-type: tm+mt
-source-wordcount: '9326'
+source-wordcount: '9340'
 ht-degree: 0%
 
 ---
@@ -945,6 +945,7 @@ ht-degree: 0%
       * [2.4.4、2.4.5和2.4.6版的[!DNL JQuery UI]安全性漏洞 [!DNL CVE-2022-31160] 修正](/help/troubleshooting/known-issues-patches-attached/jquery-cve-2022-31160-fix-2-4-4-2-4-5-2-4-6.md)
       * [[!DNL FedEx]配送方法整合從SOAP移轉至RESTful API](/help/troubleshooting/known-issues-patches-attached/fedex-shipping-method-integration-migration-soap-restful-api.md)
       * [Adobe Commerce中超過Cookie最大數量的錯誤](/help/troubleshooting/known-issues-patches-attached/maximum-number-of-cookies-would-be-exceeded-error.md)
+      * [APSB25-08安全性修補程式之後，所有大量非同步Web端點的執行時間都有所增加](/help/troubleshooting/known-issues-patches-attached/increased-execution-time-for-bulk-asynchronous-web-endpoints-post-apsb25-08-security-patch.md)
    * Elasticsearch {#elasticsearch}
       * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [Adobe Commerce雲端基礎結構2.3.1+升級後的Elasticsearch問題](/help/troubleshooting/elasticsearch/elasticsearch-issues-after-magento-commerce-cloud-2-3-1-upgrade.md)
