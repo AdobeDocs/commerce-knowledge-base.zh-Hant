@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 41948c702d5c4e37847ab18ca2a93798e70a8e98
+source-git-commit: 1f9b11e38ed11fc022a5afa9132130ea2a266616
 workflow-type: tm+mt
-source-wordcount: '9315'
+source-wordcount: '9326'
 ht-degree: 0%
 
 ---
@@ -708,6 +708,7 @@ ht-degree: 0%
       * [疑難排解升級相容性工具錯誤](/help/troubleshooting/installation-and-upgrade/uct-segmentation-fault-error.md)
       * [安裝或升級期間發生記憶體不足錯誤](/help/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade.md)
       * [由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2會因SQL語法錯誤而失敗](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
+      * [B2B 1.5.2更新後Magento_Company模組升級中的效能問題](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * 網站停止或無回應 {#site-down-or-unresponsive}
       * [由於來源遮罩，無法存取網站](/help/troubleshooting/site-down-or-unresponsive/production-site-not-accessible-due-to-origin-cloaking.md)
       * [在網頁瀏覽器中存取Adobe Commerce時出現503錯誤](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
