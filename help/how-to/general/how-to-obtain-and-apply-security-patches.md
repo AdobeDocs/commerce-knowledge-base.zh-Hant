@@ -2,7 +2,7 @@
 title: 如何取得並套用[!UICONTROL security patch]
 description: 本文提供如何取得及套用已發行的[!UICONTROL security patch]的指示，但無法取得指示。
 exl-id: 55f2be73-2ccc-4750-a7bd-3058fc2d5107
-source-git-commit: 43c8308c6539c53f60fb6457047898a2edd46532
+source-git-commit: 3c7234b52e5e4465d95c95345e1c070c28600dfb
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 # 如何取得並套用[!UICONTROL security patch]
 
 >[!NOTE]
->如果您有內部部署安裝，而且未使用[!DNL CVS]或[!DNL GitHub]等版本控制系統來管理您的程式碼，您的Web主機或許可以協助套用修補程式。 歡迎聯絡他們以尋求支援
+>如果您有內部部署安裝，而且未使用[!DNL CVS]或[!DNL GitHub]等版本控制系統來管理您的程式碼，您的Web主機或許可以協助套用修補程式。 歡迎聯絡他們以尋求支援。
 
 本文提供如何取得及套用已發行的[!UICONTROL security patch]的指示，但無法取得指示。
 
