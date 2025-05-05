@@ -40,7 +40,7 @@ We found conflicting component dependencies.
 >
 >您看到的訊息可能會不同。
 
-請參閱支援知識庫中解決方案](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)的[衝突的元件相依性。
+請參閱支援知識庫中解決方案[&#128279;](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)的衝突的元件相依性。
 
 ## 檔案系統許可權問題 {#trouble-depend-permission}
 

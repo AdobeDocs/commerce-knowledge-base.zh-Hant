@@ -53,7 +53,7 @@ Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策P
 
 請依照下列步驟提交[支援票證](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)，以請求暫時的額外雲端容量：
 
-輸入下列資訊後，在Adobe Commerce支援中心](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)提交[支援票證：
+輸入下列資訊後，在Adobe Commerce支援中心[&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)提交支援票證：
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策P
 
 ## 檢視您的升級記錄
 
-您可以向&#x200B;**CSM （客戶成功經理）**要求資訊，以檢視要求調整大小的歷程記錄。
+您可以向&#x200B;**CSM （客戶成功經理）**&#x200B;要求資訊，以檢視要求調整大小的歷程記錄。
 下列資訊適用於每個調整大小請求：
 
 * **大小開始日期**： upsize要求的日期。

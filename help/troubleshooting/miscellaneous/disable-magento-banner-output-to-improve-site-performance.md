@@ -38,7 +38,7 @@ ht-degree: 0%
 
 如果您在&#x200B;**Content** > *Elements*&#x200B;底下沒有看到&#x200B;**橫幅**&#x200B;選項，則不是這種情況，而且無法套用這篇文章的建議。
 
-針對雲端基礎結構上的Adobe Commerce 2.3.x （功能在v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已[重新命名）：
+針對雲端基礎結構上的Adobe Commerce 2.3.x （功能在v 2.3.x[&#128279;](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已重新命名）：
 
 1. 登入Commerce管理員。
 1. 導覽至&#x200B;**內容** > *元素>* **動態區塊**。

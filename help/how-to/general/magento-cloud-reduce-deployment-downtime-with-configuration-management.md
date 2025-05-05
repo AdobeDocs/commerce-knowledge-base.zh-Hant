@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 開發人員檔案中的設定管理
 
-* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.1.X**](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的[設定管理*
-* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.2.X**](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的[設定管理*
+* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.1.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的設定管理*
+* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.2.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的設定管理*
 * [從&#x200B;*在雲端基礎結構上升級Adobe Commerce*&#x200B;主題的2.0.X或2.1.X](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html#upgrade-from-older-versions)區段升級
 * *雲端基礎結構上的Adobe Commerce設定指南*&#x200B;中的[管道部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/overview.html) — 針對雲端基礎結構上的Adobe Commerce，您不需要遵循本指南中的指示。 內容僅供參考。 我們已在雲端基礎結構上透過Adobe Commerce提供組建伺服器、整合環境等。

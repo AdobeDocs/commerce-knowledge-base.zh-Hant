@@ -23,7 +23,7 @@ ht-degree: 0%
 
 **檢視您的大小調整歷程記錄**
 
-您可以向&#x200B;**CSM （客戶成功經理）**要求資訊，以檢視要求調整大小的歷程記錄。
+您可以向&#x200B;**CSM （客戶成功經理）**&#x200B;要求資訊，以檢視要求調整大小的歷程記錄。
 下列資訊適用於每個調整大小請求：
 
 * **大小開始日期**： upsize要求的日期。
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **要求突波容量**
 
-雲端基礎結構上的Adobe Commerce商戶如果預期在節日季節期間需要額外的容量，應透過我們的[說明中心](/help/overview.md)提交突波容量支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)，說明票證內的日期和預期容量需求。 [請注意，容量增加需要使用您的授權超額容量。
+雲端基礎結構上的Adobe Commerce商戶如果預期在節日季節期間需要額外的容量，應透過我們的[說明中心](/help/overview.md)提交突波容量支援票證[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)，說明票證內的日期和預期容量需求。 請注意，容量增加需要使用您的授權超額容量。
 
 **我們建議在需要容量時，至少提前48個營業時間提交這些票證；此外，由於此期間的容量有限，我們建議儘量提前提交黑色星期五/網路星期一期間的申請。**
 

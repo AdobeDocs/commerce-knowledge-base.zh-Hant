@@ -63,7 +63,7 @@ ht-degree: 0%
 1. 如果您因任何原因無法在[magento.com](https://account.magento.com/customer/account/login)找到此資訊，請連絡您的Adobe帳戶團隊。
 1. 如果以上都不管用，請[連絡支援人員](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
 
-夥伴的&#x200B;****
+夥伴的&#x200B;**&#x200B;**
 
 若要瞭解您的MageID是否為主要映像，請嘗試下列步驟：
 

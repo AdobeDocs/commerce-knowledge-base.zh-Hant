@@ -1,5 +1,5 @@
 ---
-title: '''MDVA-44188：電子郵件不會傳送至包含''''的ID。-"`'
+title: '''MDVA-44188：電子郵件不會傳送至包含''''的ID。-"&grave;'
 description: MDVA-44188修補程式修正電子郵件未傳送至包含'的電子郵件ID的問題。-'。 安裝[Quality Patches Tool (QPT)](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md) 1.1.13後，即可使用此修補程式。 修補程式ID為MDVA-44188。 請注意，此問題已排程在Adobe Commerce 2.4.5中修正。
 exl-id: 2abd300a-6cf3-4973-9b36-1bba7b578378
 feature: Communications

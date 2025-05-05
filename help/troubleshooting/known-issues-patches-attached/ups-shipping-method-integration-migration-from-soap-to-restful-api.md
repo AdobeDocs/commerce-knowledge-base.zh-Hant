@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 原因
 
-[!DNL UPS]已發行其 [!DNL API]](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)的[安全性更新。
+[!DNL UPS]已發行其 [!DNL API][&#128279;](https://developer.ups.com/oauth-developer-guide?loc=en_US&amp;sp_rid=NTA5MzQ1OTE2NjEyS0&amp;sp_mid=72989914)的安全性更新。
 
 如果您有歐盟（其他來源可能會遇到相同的問題）作為出貨來源，這會導致[!DNL UPS REST]請求中的錯誤：
 *出貨不能以KGS/IN、LBS/CM或OZS/CM作為測量單位。*

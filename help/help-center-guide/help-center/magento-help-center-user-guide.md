@@ -130,7 +130,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
    >[!NOTE]
    >
-   >如果您在雲端基礎結構&#x200B;**上提交具有「**[!DNL Commerce]」的票證並選取為產品，而且組織列有多個專案，系統會提示您選取適當的[!UICONTROL Project ID]。 如果您找不到所需的[!UICONTROL Project ID]，請務必在票證上新增附註，說明您正在尋求其他「專案X」的協助。<br>如果您打算在Managed Services **」票證上提交「**[!DNL Commerce]」，且位於雲端基礎結構&#x200B;**上的**[!DNL Commerce]&#x200B;上，但未在雲端基礎結構&#x200B;**上將**[!DNL Commerce]&#x200B;視為可用產品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中輸入您問題的主旨。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中輸入問題的說明。<br>3。 輸入這兩個專案後，您將會看到下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;欄位。
+   >如果您在雲端基礎結構&#x200B;**上提交具有「**&#x200B;[!DNL Commerce]」的票證並選取為產品，而且組織列有多個專案，系統會提示您選取適當的[!UICONTROL Project ID]。 如果您找不到所需的[!UICONTROL Project ID]，請務必在票證上新增附註，說明您正在尋求其他「專案X」的協助。<br>如果您打算在Managed Services **」票證上提交「**&#x200B;[!DNL Commerce]」，且位於雲端基礎結構&#x200B;**上的**&#x200B;[!DNL Commerce]&#x200B;上，但未在雲端基礎結構&#x200B;**上將**&#x200B;[!DNL Commerce]&#x200B;視為可用產品：<br>1。 在&#x200B;**[!UICONTROL Case title]**&#x200B;中輸入您問題的主旨。<br>2。 在&#x200B;**[!UICONTROL Case description]**&#x200B;中輸入問題的說明。<br>3。 輸入這兩個專案後，您將會看到下面的&#x200B;**[!UICONTROL Cloud Project URL]**&#x200B;欄位。
 
 
 1. Adobe Experience League會提供建議文章和最佳實務，協助您解決案例。 如果您仍需要直接支援，在提交案例前，您需要提供一些其他資訊。
@@ -360,7 +360,7 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 <u>解決方案</u>
 
-如果未在此頁面](https://account.magento.com/grantor/manage/)上新增/指定[，則無法從MAG[XYZ ]*刪除共用名稱為* Cloud Shared Access的共用存取使用者清單。 這些檔案會保留以供參考/稽核之用。
+如果未在此頁面[&#128279;](https://account.magento.com/grantor/manage/)上新增/指定，則無法從MAG[XYZ ]*刪除共用名稱為* Cloud Shared Access的共用存取使用者清單。 這些檔案會保留以供參考/稽核之用。
 
 不過，一旦您撤銷了這些共用存取許可權使用者的許可權，他們便無法再擁有該存取權。
 
@@ -390,6 +390,6 @@ Adobe Experience League支援案例管理可透過案例與支援人員合作，
 
 ## Adobe Commerce的計費常見問題集 {#billing-faq}
 
-商戶通常以信用卡(CC)交易支付我們的服務費用，而Adobe Commerce](/help/faq/general/billing-faq-for-adobe-commerce.md)的[帳單常見問題集是您支付帳單時提供協助的資源。
+商戶通常以信用卡(CC)交易支付我們的服務費用，而Adobe Commerce[&#128279;](/help/faq/general/billing-faq-for-adobe-commerce.md)的帳單常見問題集是您支付帳單時提供協助的資源。
 
 

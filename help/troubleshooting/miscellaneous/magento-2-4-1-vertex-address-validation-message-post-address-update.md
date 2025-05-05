@@ -37,7 +37,7 @@ ht-degree: 0%
 
 <u>第一個情境：</u>
 
-請依照上述六個步驟](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的[進行，然後：
+請依照上述六個步驟[&#128279;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的進行，然後：
 
 1. 輸入新的有效帳單地址。
 1. 按一下&#x200B;**更新**&#x200B;按鈕。 它會顯示類似下列的訊息/建議： *地址無效。*&#x200B;這將會接著提供地址建議，例如： *郵遞區號： XXXXX- XXXX Street ： XXX City Street XXX*
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 <u>第二個情境：</u>
 
-請依照上述六個步驟](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的[進行，然後：
+請依照上述六個步驟[&#128279;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的進行，然後：
 
 1. 使用有效地址填寫地址表單。
 1. 按一下&#x200B;**更新**&#x200B;按鈕。 它會顯示類似下列的訊息/建議： *地址無效。*&#x200B;這將會接著提供地址建議，例如： *郵遞區號： XXXXX-XXXX Street ： XXX City Street XXX*。

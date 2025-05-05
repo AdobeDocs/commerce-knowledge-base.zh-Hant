@@ -41,7 +41,7 @@ ht-degree: 0%
 即使您的版本不支援[!DNL OpenSearch]，應用程式也只會辨識/接受[!DNL Elasticsearch7]做為搜尋引擎。
 
 從Adobe Commerce 2.4.6版開始，應用程式已更新，可允許選取[!DNL OpenSearch]作為搜尋引擎。
-如果您在非雲端環境中移至「**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**」，將可以變更此選項，如下列&#x200B;**解決方案**所示。
+如果您在非雲端環境中移至「**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**」，將可以變更此選項，如下列&#x200B;**解決方案**&#x200B;所示。
 （注意：在雲端環境中，此欄位無法變更，因為搜尋引擎已鎖定在`app/etc/env.php`檔案中。）
 
 ## 解決方案

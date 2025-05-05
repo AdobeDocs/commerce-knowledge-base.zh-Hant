@@ -29,7 +29,7 @@ ht-degree: 0%
 
 先決條件：使用「付款服務」功能下訂單。
 
-1. 在[管理員](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin)中，訂單已開立商業發票[](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) （或[已取消](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)，或透過銷退折讓單](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)退款[）。
+1. 在[管理員](https://experienceleague.adobe.com/en/docs/commerce-admin/start/admin/admin)中，訂單已開立商業發票[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/invoices#create-an-invoice) （或[已取消](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/customer-account-create-order)，或透過銷退折讓單[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos)退款）。
 1. 切換作業選項至「訂單付款狀態」報表，以檢視有關該訂單的資訊。
 1. 狀態會顯示為`AUTHORIZED`，這是開立商業發票或其他訂單動作之前的訂單狀態。
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 有兩個因素會影響「管理員」中可見資料的延遲：
 
-* 您透過Admin](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)中的[設定，選擇從Commerce同步（匯出及保留）資料的頻率。
+* 您透過Admin[&#128279;](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/configure/configure-admin.html)中的設定，選擇從Commerce同步（匯出及保留）資料的頻率。
 * PayPal發佈報表資料的時間範圍。
 
 ## 解決方案

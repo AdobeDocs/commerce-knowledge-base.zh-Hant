@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 受限的管理員存取權造成效能問題
 
-本文提供解決方案，適用於使用使用使用手冊中受網站](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)限制角色範圍的[管理員角色，而效能受到負面影響的情況。
+本文提供解決方案，適用於使用使用使用手冊中受網站[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/user-accounts/permissions-user-roles#step-2assign-resources)限制角色範圍的管理員角色，而效能受到負面影響的情況。
 
 ## 受影響的產品和版本
 

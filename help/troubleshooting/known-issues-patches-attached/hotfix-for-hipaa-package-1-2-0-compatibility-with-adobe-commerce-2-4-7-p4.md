@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 先決條件
 
-* Adobe已布建您的Adobe Commerce帳戶以存取&#x200B;**[!DNL HIPAA Ready]**&#x200B;擴充功能。 請參閱Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)的[[!DNL HIPAA] 整備程度，以取得我們&#x200B;**Adobe Commerce：快速入門手冊**&#x200B;的詳細資料。
+* Adobe已布建您的Adobe Commerce帳戶以存取&#x200B;**[!DNL HIPAA Ready]**&#x200B;擴充功能。 請參閱Adobe Commerce[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/hipaa-ready-service/overview)的[!DNL HIPAA] 整備程度，以取得我們&#x200B;**Adobe Commerce：快速入門手冊**&#x200B;的詳細資料。
 * 存取[repo.magento.com](https://repo.magento.com)以安裝擴充功能。 如需金鑰產生和取得必要許可權，請參閱&#x200B;**Adobe Commerce：安裝指南**&#x200B;中的[取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
 
 ## 問題

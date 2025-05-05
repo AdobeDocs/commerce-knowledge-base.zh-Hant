@@ -24,7 +24,7 @@ ht-degree: 0%
 ### 測試和生產環境
 
 * 在Pro計畫中，手動快照不適用於測試和生產環境。
-* 無論您網站的即時狀態&#x200B;**為何，都會在**建立自動快照（也會為尚未啟動的網站建立快照）。 無法公開存取自動備份，因為它們儲存在不同的系統中。
+* 無論您網站的即時狀態&#x200B;**為何，都會在**&#x200B;建立自動快照（也會為尚未啟動的網站建立快照）。 無法公開存取自動備份，因為它們儲存在不同的系統中。
 您可以[提交Adobe Commerce支援票證](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#submit-ticket)，以請求特殊備份或從票證中提供日期、時間和時區的特定備份還原。 支援不會依需求產生任何手動快照。
 此外，請注意，支援不會為您執行復原或還原資料庫 — 它們會擷取快照，但您必須自行還原資料庫。
 * 備份是使用&#x200B;**加密的Amazon Web Services Elastic Block Store (AWS EBS)快照**&#x200B;所建立。
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ### 整合（開發）環境
 
-* 您的[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) **未自動備份**，但您可以手動建立快照&#x200B;****。
+* 您的[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) **未自動備份**，但您可以手動建立快照&#x200B;**&#x200B;**。
 * 您可以為非上線商店的整合環境建立手動快照。
 * 您可能有&#x200B;**多個已手動觸發的快照**。
 * 手動觸發的快照會儲存&#x200B;**7天**。
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 資料庫備份是雲端快照集的一部分：
 
->>
+&#x200B;>>
 快照是環境的完整備份，包含所有執行中服務（例如&#x200B;**您的MySQL資料庫**、Redis等）的所有持續性資料，以及任何儲存在掛載磁碟區上的檔案。
 
 >[!NOTE]

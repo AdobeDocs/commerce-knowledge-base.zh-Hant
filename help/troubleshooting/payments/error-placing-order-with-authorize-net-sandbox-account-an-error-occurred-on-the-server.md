@@ -29,7 +29,7 @@ ht-degree: 0%
 
 使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙箱帳戶下訂單會導致錯誤訊息：
 
->>
+&#x200B;>>
 「伺服器發生錯誤。 請嘗試重新下單」
 
 ## 原因1：已啟用測試模式
@@ -39,7 +39,7 @@ ht-degree: 0%
 ## 解決方案1：停用測試模式
 
 1. 移至&#x200B;**商店** > **組態** > **銷售** > **付款方式** > **其他付款方式** > **Authorize.net直接發佈**。
-1. 將&#x200B;**測試模式**&#x200B;設為[否] （取消勾選[2}使用系統值&#x200B;**]，然後在功能表中選取[否]）。**
+1. 將&#x200B;**測試模式**&#x200B;設為[否] （取消勾選[2&rbrace;使用系統值&#x200B;**]，然後在功能表中選取[否]）。**
 1. 按一下&#x200B;**儲存設定**。
 
 ![authorize-net_test-mode_setting.png](/help/troubleshooting/miscellaneous/assets/authorize-net_test-mode_setting.png)

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 這可以用一系列症狀來表示，包括`/tmp`掛載已滿、網站停止運作，或無法透過SSH連線至節點。 您也可能遇到錯誤，例如&#x200B;_裝置上已無空間(28)_。 如需因`/tmp`已滿而產生的錯誤清單，請檢閱[/tmp裝載已滿](/help/troubleshooting/miscellaneous/tmp-mount-full.md)。
 
-或您是否有因空間不足而導致的`/data/mysql`問題？ 這也可能是由各種症狀所指示，包括網站中斷、客戶無法將產品新增到購物車、連線到資料庫失敗以及Galeria錯誤，例如&#x200B;_SQLSTATE\[08S01\]：通訊連結失敗： 1047 WSREP_。 如需[!DNL MySQL]磁碟空間不足所造成的錯誤清單，請參閱Adobe Commerce上雲端基礎結構](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)上的[[!DNL MySQL] 磁碟空間不足。
+或您是否有因空間不足而導致的`/data/mysql`問題？ 這也可能是由各種症狀所指示，包括網站中斷、客戶無法將產品新增到購物車、連線到資料庫失敗以及Galeria錯誤，例如&#x200B;_SQLSTATE\[08S01\]：通訊連結失敗： 1047 WSREP_。 如需[!DNL MySQL]磁碟空間不足所造成的錯誤清單，請參閱Adobe Commerce上雲端基礎結構[&#128279;](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)上的[!DNL MySQL] 磁碟空間不足。
 
 如果您不確定是否有磁碟空間問題，且您有New Relic帳戶，請移至[New Relic基礎架構監視主機頁面](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)。 從那裡，按一下&#x200B;**儲存空間**&#x200B;索引標籤，將&#x200B;**圖表顯示**&#x200B;下拉式清單從5個結果變更為20個結果，並在[已使用磁碟百分比]圖表或表格中尋找高磁碟使用率的表格。 如需詳細步驟，請參閱[New Relic基礎架構監控>儲存標籤]https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#storage)。
 

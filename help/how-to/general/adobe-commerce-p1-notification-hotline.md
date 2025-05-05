@@ -21,7 +21,7 @@ ht-degree: 0%
 ## P1通知熱線電話原則
 
 * P1通知熱線可用於報告P1層級問題。 （請參閱上一節中的P1事件定義）。
-* 在呼叫Adobe Commerce P1通知熱線前，請先提交支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)。[
+* 在呼叫Adobe Commerce P1通知熱線前，請先提交支援票證[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)。
 * 調查、疑難排解和通訊將僅在支援票證內進行。
 * 在呼叫之前，直接將您可能擁有的所有其他問題相關資訊新增到票證。
 * 打電話時，請確定有票證號碼。

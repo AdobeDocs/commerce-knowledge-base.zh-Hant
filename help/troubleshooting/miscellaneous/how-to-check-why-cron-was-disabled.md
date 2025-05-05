@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 遺失[!DNL OpCache]設定的解決方案 {#solution-missed-opcache-settings}
 
-請參閱我們的Commerce知識庫中由於設定錯誤或遺失 [!DNL OpCache] 設定](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings)而停止的[[!DNL Cron] 。
+請參閱我們的Commerce知識庫中由於設定錯誤或遺失 [!DNL OpCache] 設定[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings)而停止的[!DNL Cron] 。
 
 ### 基礎架構團隊針對已停用的解決方案 {#solution-disabled-by-infrastructure-team}
 

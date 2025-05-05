@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ### 啟用外寄電子郵件
 
-在使用&#x200B;**忘記密碼**&#x200B;表單之前，[使用[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)啟用寄出電子郵件](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)。
+在使用&#x200B;**忘記密碼**&#x200B;表單之前，[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/outgoing-emails.html)使用[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)啟用寄出電子郵件。
 
 ### 檢查您的[垃圾郵件]資料夾
 

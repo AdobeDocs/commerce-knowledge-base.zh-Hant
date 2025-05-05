@@ -130,4 +130,4 @@ find /tmp/*.hprof -type f -delete
 
 ## 相關閱讀
 
-在我們的支援知識庫中，雲端基礎結構上的Adobe Commerce ](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)的[MySQL磁碟空間不足。
+在我們的支援知識庫中，雲端基礎結構上的Adobe Commerce [&#128279;](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)的MySQL磁碟空間不足。

@@ -20,7 +20,7 @@ ht-degree: 0%
   ![upgr-tshoot-no-cron.png](assets/upgr-tshoot-no-cron.png)
 * Commerce管理員中會顯示下列錯誤：
   ![compman-cron-not-running.png](assets/compman-cron-not-running.png)
-若要檢視錯誤，您可能需要按一下視窗頂端的**系統訊息**，如下所示：
+若要檢視錯誤，您可能需要按一下視窗頂端的&#x200B;**系統訊息**，如下所示：
   ![compman_sys-messages.png](assets/compman_sys-messages.png)
 
 ## 檢查您現有的crontab {#check-your-existing-crontab}

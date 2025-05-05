@@ -58,4 +58,4 @@ ht-degree: 0%
 
 ## 相關資訊
 
-在我們的支援知識庫中，在Cloud](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)上手動[重設卡住的Adobe Commerce cron工作。
+在我們的支援知識庫中，在Cloud[&#128279;](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)上手動重設卡住的Adobe Commerce cron工作。

@@ -61,7 +61,7 @@ Adobe Commerce可以非同步讀取多個資料庫或Redis。 將值`MYSQL_USE_S
 
    ![KB-372_image004.png](assets/KB-372_image004.png)
 
-   您可以在DevDocs](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)中的[部署變數中找到更多詳細資料。
+   您可以在DevDocs[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#mysql_use_slave_connection)中的部署變數中找到更多詳細資料。
 
 1. 提交變更並推送變更。
 1. 推送變更將會起始新的部署流程。 部署成功完成後，您應該將雲端基礎結構執行個體上的Adobe Commerce設定為使用從屬連線。
@@ -76,7 +76,7 @@ Adobe Commerce可以非同步讀取多個資料庫或Redis。 將值`MYSQL_USE_S
   **在非多載叢集上** - **從屬連線會減慢10-15%**&#x200B;的效能，這是不預設的原因之一。
 
   *但在超載的叢集上，效能會提高，因為這些10-15%會透過流量減少負載來緩解。*
-* 我應該為商店啟用這些設定嗎？ *如果您的MySQL資料庫或Redis有高負載或預期有高負載，則絕對需要啟用從屬連線。 對於具有平均流量的一般客戶，這是&#x200B;**不是**要啟用的最佳設定。*
+* 我應該為商店啟用這些設定嗎？ *如果您的MySQL資料庫或Redis有高負載或預期有高負載，則絕對需要啟用從屬連線。 對於具有平均流量的一般客戶，這是&#x200B;**不是**&#x200B;要啟用的最佳設定。*
 
 ## 相關閱讀
 

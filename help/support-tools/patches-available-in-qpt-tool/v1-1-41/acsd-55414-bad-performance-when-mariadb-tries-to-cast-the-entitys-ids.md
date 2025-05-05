@@ -1,6 +1,6 @@
 ---
 title: 'ACSD-55414：當MariaDB嘗試轉換entitys_ids時效能不佳'
-description: 套用ACSD-55414修補程式以修正Adobe Commerce問題，當MariaDB嘗試將`entitys_ids`從字串轉換為整數時，這會阻礙重新索引的效能。
+description: 套用ACSD-55414修補程式以修正Adobe Commerce問題，當MariaDB嘗試將&grave;entitys_ids&grave;從字串轉換為整數時，這會阻礙重新索引的效能。
 feature: Attributes
 role: Admin, Developer
 exl-id: 008a4fda-5d80-47e2-8fb4-c1e39d15a6ba

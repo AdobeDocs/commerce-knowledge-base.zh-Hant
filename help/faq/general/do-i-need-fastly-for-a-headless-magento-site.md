@@ -33,5 +33,5 @@ ht-degree: 0%
 
 ## 更多資訊
 
-* [Headless網站：分離式架構有什麼大不了的？由[Josh Koenig](https://pantheon.io/team/josh-koenig)進行的](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture)。
+* [&#128279;](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture)Headless網站：分離式架構有什麼大不了的？由[Josh Koenig](https://pantheon.io/team/josh-koenig)進行的。
 * 在開發人員檔案中[Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)。

@@ -44,7 +44,7 @@ ht-degree: 0%
 ### 原因
 
 在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。
-對應**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
+對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
 
 ### 解決方案
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`類別的封鎖指令碼。
 1. 使用`CSPNonceProvider`類別允許執行指令碼。
-Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
+Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函式以取得[!DNL nonce]字串。
 
@@ -114,7 +114,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTR
 ### 原因
 
 在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。
-對應**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
+對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
 
 ### 解決方案
 
@@ -126,7 +126,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTR
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`類別的封鎖指令碼。
 1. 使用`CSPNonceProvider`類別允許執行指令碼。
-Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
+Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函式以取得[!DNL nonce]字串。
 
@@ -185,7 +185,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTR
 ### 原因
 
 在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。
-對應**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
+對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
 
 ### 解決方案
 
@@ -197,7 +197,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTR
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`類別的封鎖指令碼。
 1. 使用`CSPNonceProvider`類別允許執行指令碼。
-Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
+Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函式以取得[!DNL nonce]字串。
 

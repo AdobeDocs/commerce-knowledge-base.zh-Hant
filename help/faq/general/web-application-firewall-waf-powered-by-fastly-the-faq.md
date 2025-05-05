@@ -50,7 +50,7 @@ WAF會在單一雲端帳戶下針對所有網域整體調整。
 
 ## 如何更新WAF規則集？ WAF規則的變更或更新以及在生產環境中全域套用的速度如何？
 
-作為雲端WAF服務的一部分，Fastly管理來自商業第三方、Fastly研究和開放來源的規則更新。 使用者會視需要或在可從個別來源取得規則變更時，將已發佈的規則更新至原則。 啟用後，符合規則已發佈類別的新規則也會插入任何服務的WAF例項中。 這有助於確保即時涵蓋新的或不斷演變的利用漏洞。 您可以在Fastly檔案網站上檢閱規則更新與維護的相關資訊[](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance)。
+作為雲端WAF服務的一部分，Fastly管理來自商業第三方、Fastly研究和開放來源的規則更新。 使用者會視需要或在可從個別來源取得規則變更時，將已發佈的規則更新至原則。 啟用後，符合規則已發佈類別的新規則也會插入任何服務的WAF例項中。 這有助於確保即時涵蓋新的或不斷演變的利用漏洞。 您可以在Fastly檔案網站上檢閱規則更新與維護的相關資訊[&#128279;](https://docs.fastly.com/guides/web-application-firewall/fastly-waf-rule-set-updates-maintenance#rule-set-maintenance)。
 
 ## Adobe Commerce的雲端WAF與WAF解決方案Fastly提供給直接客戶的服務有何不同？
 
@@ -132,7 +132,7 @@ WAF支援提供下列資源，協助您減少不想要或惡意請求對服務�
 
 ## 如果WAF封鎖合法流量或導致其他問題，我如何取得協助？
 
-在[Adobe Commerce說明中心](https://support.magento.com)提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 [請包含以指出票證與WAF服務相關，並包含封鎖的請求識別碼(ID)。
+在[Adobe Commerce說明中心](https://support.magento.com)提交支援票證[&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 請包含以指出票證與WAF服務相關，並包含封鎖的請求識別碼(ID)。
 
 Adobe Commerce支援票證系統可追蹤我們的支援工程師與客戶人員之間的通訊。 此系統提供有時間戳記的通訊記錄，並在票證更新時傳送電子郵件給客戶和Adobe Commerce的工作人員。
 

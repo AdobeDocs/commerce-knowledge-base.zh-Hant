@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 將在Adobe Commerce 2.4.0](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中移除[MySQL目錄搜尋引擎。 您必須先安裝並設定Elasticsearch主機，才能安裝2.4.0版。請參閱[安裝及設定Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+> 將在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中移除MySQL目錄搜尋引擎。 您必須先安裝並設定Elasticsearch主機，才能安裝2.4.0版。請參閱[安裝及設定Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 文章針對Elasticsearch索引狀態不是&#39;*綠色*&#39;時提供修正。 &#39;*黃色*&#39;表示正常，而&#39;*紅色*&#39;表示錯誤。 「黃色」或「紅色」狀態可能會與缺少產品或顯示舊產品資訊同時出現。
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!DNL Live Search]儀表板和搜尋結果排名不正確
 
-如果您注意到[!DNL Live Search]儀表板中顯示的資料不正確，或搜尋結果](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies)的[排名不是您預期的，請參閱以下可能的原因：
+如果您注意到[!DNL Live Search]儀表板中顯示的資料不正確，或搜尋結果[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/category-merch#ranking-strategies)的排名不是您預期的，請參閱以下可能的原因：
 
 * `productView`個事件中產品內容的`topLevelSku`欄位遺失。 這會導致空白的轉換和其他非預期的量度。
 

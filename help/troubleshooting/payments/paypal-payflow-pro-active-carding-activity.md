@@ -59,7 +59,7 @@ Adobe Commerce （所有部署方法）和Magento Open Source2.1.x、2.2.x、2.3
 
 執行以下命令進行安裝。
 
-針對Adobe Commerce內部部署：****
+針對Adobe Commerce內部部署：**&#x200B;**
 
 ```bash
 composer require magento/module-paypal-recaptcha
@@ -90,7 +90,7 @@ bin/magento cache:clean
 
 執行以下命令進行安裝：
 
-針對Adobe Commerce內部部署：****
+針對Adobe Commerce內部部署：**&#x200B;**
 
 ```bash
 composer require magento/module-paypal-captcha

@@ -51,4 +51,4 @@ Adobe Commerce （所有部署方法） 2.4.4 - 2.4.7，並套用下列其中一
 
 * 在Adobe Commerce升級指南中[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply)
 * [大規模發佈Adobe Commerce修補程式的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) (在Adobe Commerce實作行動手冊中)
-* 雲端指南中Commerce Cloud Commerce Tools Suite](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)的[發行說明。
+* 雲端指南中Commerce Cloud Commerce Tools Suite[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)的發行說明。

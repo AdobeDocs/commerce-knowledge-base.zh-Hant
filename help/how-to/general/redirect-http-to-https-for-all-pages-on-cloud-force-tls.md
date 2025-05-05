@@ -47,7 +47,7 @@ TLS （傳輸層安全性）是一種安全HTTP連線的通訊協定，取代了
 
 Fastly的Force TLS功能可讓您強制將網站頁面的所有傳入未加密請求傳送到TLS。
 
->>
+&#x200B;>>
 其運作方式是傳回&#x200B;*301 Moved Permanently*&#x200B;回應給任何未加密的請求，這會重新導向至TLS同等專案。 例如，若對&#x200B;*http://www.example.com/foo.jpeg*&#x200B;提出請求，將會重新導向至&#x200B;*https://www.example.com/foo.jpeg*。
 
 [保護通訊安全](https://docs.fastly.com/guides/securing-communications/) （Fastly檔案）

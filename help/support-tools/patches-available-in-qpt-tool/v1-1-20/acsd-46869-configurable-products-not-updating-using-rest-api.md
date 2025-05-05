@@ -69,4 +69,4 @@ ACSD-46869修補程式修正了可設定產品在結帳時未使用REST API更�
 * [[!DNL Quality Patches Tool] 已發行：我們的支援知識庫提供自助式品質修補程式](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)的新工具。
 * [使用我們的支援知識庫中的 [!DNL Quality Patches Tool]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/check-patch-for-magento-issue-with-magento-quality-patches.html)，檢查您的Adobe Commerce問題是否有修補程式可用。
 
-如需[!DNL QPT]中其他修補程式的詳細資訊，請參閱品質修補程式工具指南中 [!DNL QPT]](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)的[修補程式。
+如需[!DNL QPT]中其他修補程式的詳細資訊，請參閱品質修補程式工具指南中 [!DNL QPT][&#128279;](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)的修補程式。

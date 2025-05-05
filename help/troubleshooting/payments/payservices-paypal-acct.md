@@ -41,4 +41,4 @@ ht-degree: 0%
 
 1. 使用在[PayPal Developer](https://developer.paypal.com/docs/api-basics/sandbox/accounts/#create-a-business-sandbox-account)入口網站中建立的沙箱帳戶。
 1. 按一下[重設沙箱](https://experienceleague.adobe.com/docs/commerce-merchant-services/payment-services/get-started/sandbox.html#test-in-sandbox-environment)，然後重新啟動您的沙箱上線。
-1. 如果您無法緩解帳戶問題，請連絡支援人員](mailto:payment-services-support@adobe.com)，以便您可以繼續上線並接受付款。[
+1. 如果您無法緩解帳戶問題，請連絡支援人員[&#128279;](mailto:payment-services-support@adobe.com)，以便您可以繼續上線並接受付款。

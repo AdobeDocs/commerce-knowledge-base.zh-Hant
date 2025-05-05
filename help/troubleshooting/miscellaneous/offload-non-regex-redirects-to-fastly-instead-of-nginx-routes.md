@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 建立Edge字典。
 
-   首先，您可以使用Adobe Commerce](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[[!DNL VCL] 代碼片段來定義邊緣字典。 這將包含重新導向。
+   首先，您可以使用Adobe Commerce[&#128279;](/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[!DNL VCL] 代碼片段來定義邊緣字典。 這將包含重新導向。
 
    對此有一些警告：
 

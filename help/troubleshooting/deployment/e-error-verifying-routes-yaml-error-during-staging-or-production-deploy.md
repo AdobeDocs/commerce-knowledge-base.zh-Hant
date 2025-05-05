@@ -36,9 +36,9 @@ ht-degree: 0%
 <pre>部署應用程式驗證設定E：驗證routes.yaml時發生錯誤。
 已為您的叢集設定下列網域，但並未在routes.yaml檔案中定義路由：
 
-- store1.example.com
-- store2.example.com
-- test-store.example.com
+&#x200B;- store1.example.com
+&#x200B;- store2.example.com
+&#x200B;- test-store.example.com
 
 使用您目前的routes.yaml設定，
   系統不會提供這些網域！

@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >在實作本文中的方案之前（`INT`到`BIGINT`結構描述更新），商家必須一律檢查他們要變更的欄位與另一個資料表沒有任何外部索引鍵關係。 如果欄位確實與其他資料表有外部索引鍵關係，則會出現問題，因為相關欄位仍為`INT`。 他們可以使用以下查詢來驗證這一點。 此查詢列出資料庫中給定表格欄位可用的外部索引鍵關係：
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM

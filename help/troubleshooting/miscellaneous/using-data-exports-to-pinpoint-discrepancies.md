@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 來源資料庫的資料列數少於MagentoBI {#lessrows}
 
-如果來源資料庫的資料列數少於MagentoBI，則資料列可能會從來源資料庫刪除，而MagentoBI無法擷取這些刪除專案。 ** [刪除資料](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能會導致不一致、更新時間延長，以及後勤方面的一系列問題**，因此我們強烈建議您不要刪除資料，除非資料確實有必要。
+如果來源資料庫的資料列數少於MagentoBI，則資料列可能會從來源資料庫刪除，而MagentoBI無法擷取這些刪除專案。 **&#x200B; [刪除資料](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能會導致不一致、更新時間延長，以及後勤方面的一系列問題**，因此我們強烈建議您不要刪除資料，除非資料確實有必要。
 
 但是，如果從表格中刪除列，請檢視主索引鍵上的重新檢查頻率。 重新核取主索引鍵表示將檢查表格中是否有已刪除的列。
 

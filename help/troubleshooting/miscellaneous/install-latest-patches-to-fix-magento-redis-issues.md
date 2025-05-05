@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 安裝最新修補程式以修正Adobe Commerce Redis問題
 
-本文提供雲端基礎結構修補程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)套件上[Adobe Commerce中可用的最新Redis相關修補程式的資訊。
+本文提供雲端基礎結構修補程式[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)套件上Adobe Commerce中可用的最新Redis相關修補程式的資訊。
 
 ## 受影響的產品和版本
 

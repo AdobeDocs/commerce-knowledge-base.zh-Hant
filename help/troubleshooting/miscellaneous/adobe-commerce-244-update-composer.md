@@ -64,7 +64,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 根據您安裝Adobe Commerce的方式，將下列專案新增至您的`composer.json`檔案：
 
-* 如果已使用`composer create-project`命令](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage)建立專案[：
+* 如果已使用`composer create-project`命令[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage)建立專案：
 
   ```json
   "config": {
