@@ -23,7 +23,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 依照使用手冊中的[安全性掃描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)所述，設定安全性掃描工具以檢查您的網站。
+1. 依照使用手冊中的[安全性掃描](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-scan)所述，設定安全性掃描工具以檢查您的網站。
 1. 在[動作]資料欄中，選取&#x200B;**執行掃描**。
 
 <u>預期結果</u>：
@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在我們的開發人員檔案中[上線並啟動](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/overview)。
-* 使用手冊中的[安全性掃描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)。
+* 在我們的開發人員檔案中[上線並啟動](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/launch/overview)。
+* 使用手冊中的[安全性掃描](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-scan)。

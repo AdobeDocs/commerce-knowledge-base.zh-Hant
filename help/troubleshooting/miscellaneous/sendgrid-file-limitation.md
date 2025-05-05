@@ -52,9 +52,9 @@ Month Date Time i-xxxxxxxxxxxxxxxxx postfix/sendmail[26434]: fatal: no-reply@xxx
 ## 因應措施
 
 * 請勿使用高於6Mb或10Mb的附件。
-* 請考慮在您的Adobe Commerce執行個體上使用遠端SMTP伺服器。 如需相關步驟，請參閱管理系統指南中的[設定電子郵件通訊](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html)。
+* 請考慮在您的Adobe Commerce執行個體上使用遠端SMTP伺服器。 如需相關步驟，請參閱管理系統指南中的[設定電子郵件通訊](https://experienceleague.adobe.com/docs/commerce-admin/systems/communications/email-communications.html?lang=zh-Hant)。
 * 重新設定伺服器，讓檔案可儲存在模組內，然後將連結附加至電子郵件中的檔案。
 
 ## 相關閱讀
 
-* 我們的Commerce雲端基礎結構指南中的[[!DNL SendGrid] 電子郵件服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html)。
+* 我們的Commerce雲端基礎結構指南中的[[!DNL SendGrid] 電子郵件服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/sendgrid.html?lang=zh-Hant)。

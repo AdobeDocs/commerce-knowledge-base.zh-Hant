@@ -43,9 +43,9 @@ ht-degree: 0%
 
 此功能在雲端基礎結構的Adobe Commerce上停用。
 
-請參閱我們的開發人員檔案中的[安裝、管理和升級擴充功能](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)，瞭解如何在雲端基礎結構上執行更新或安裝Adobe Commerce的外部模組。
-請參閱開發人員檔案中的[快速入門安裝](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)，取得如何執行更新或安裝Adobe Commerce內部部署外部模組的資訊。
+請參閱我們的開發人員檔案中的[安裝、管理和升級擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure-store/extensions)，瞭解如何在雲端基礎結構上執行更新或安裝Adobe Commerce的外部模組。
+請參閱開發人員檔案中的[快速入門安裝](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)，取得如何執行更新或安裝Adobe Commerce內部部署外部模組的資訊。
 
 ## 相關閱讀
 
-* 請參閱我們的開發人員檔案中的[安裝擴充功能](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)。
+* 請參閱我們的開發人員檔案中的[安裝擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure-store/extensions#install-an-extension)。

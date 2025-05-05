@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-如果您想要一律啟用Google Analytics，請設定部署變數`ENABLE_GOOGLE_ANALYTICS = true`，如開發人員檔案中的[部署變數](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)所述。
+如果您想要一律啟用Google Analytics，請設定部署變數`ENABLE_GOOGLE_ANALYTICS = true`，如開發人員檔案中的[部署變數](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy#enable_google_analytics)所述。
 
 >[!NOTE]
 >

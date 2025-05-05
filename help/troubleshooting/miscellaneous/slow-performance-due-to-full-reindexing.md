@@ -53,7 +53,7 @@ ht-degree: 0%
 
 ### 解決方案
 
-只在必要時才執行重新索引。 如需相關步驟，請參閱我們的開發人員檔案中的[設定索引子](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。 一般建議和最佳實務是允許部分重新索引機制處理資料重新索引，而不需要商家手動操作。 所有重新索引應該使用原生Adobe Commerce功能(Mview)完成。 Mview會執行部分重新索引，這是重新索引資料的最有效率方式。 若要瞭解Mview，請參閱我們的開發人員檔案中的[索引概觀： Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)。
+只在必要時才執行重新索引。 如需相關步驟，請參閱我們的開發人員檔案中的[設定索引子](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。 一般建議和最佳實務是允許部分重新索引機制處理資料重新索引，而不需要商家手動操作。 所有重新索引應該使用原生Adobe Commerce功能(Mview)完成。 Mview會執行部分重新索引，這是重新索引資料的最有效率方式。 若要瞭解Mview，請參閱我們的開發人員檔案中的[索引概觀： Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)。
 
 ## 相關閱讀
 

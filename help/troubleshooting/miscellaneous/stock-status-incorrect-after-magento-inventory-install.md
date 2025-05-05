@@ -33,4 +33,4 @@ ht-degree: 0%
 
 如果您有多個網站，您需要將這些網站新增為預設庫存或其他自訂庫存的Sales Channel。
 
-請參閱使用手冊中Wiki/使用手冊的[Stock區段](https://experienceleague.adobe.com/en/docs/commerce-admin/inventory/stocks/stocks-manage)，瞭解如何操作的詳細資訊。
+請參閱使用手冊中Wiki/使用手冊的[Stock區段](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/inventory/stocks/stocks-manage)，瞭解如何操作的詳細資訊。

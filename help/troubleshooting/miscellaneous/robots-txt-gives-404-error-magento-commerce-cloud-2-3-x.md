@@ -33,10 +33,10 @@ ht-degree: 0%
 
 如果您未啟用自助服務（或不確定是否已啟用），請[提交Magento支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求將Nginx重新導向規則從`/robots.txt`要求移除至`/media/robots.txt`。
 
-如果您已啟用自助服務，請將ECE-Tools升級為至少2002.0.12，並移除`.magento.app.yaml`檔案中的Nginx重新導向規則。 如需詳細資訊，請參考開發人員檔案中的[新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html)。
+如果您已啟用自助服務，請將ECE-Tools升級為至少2002.0.12，並移除`.magento.app.yaml`檔案中的Nginx重新導向規則。 如需詳細資訊，請參考開發人員檔案中的[新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap.html?lang=zh-Hant)。
 
 ## 相關閱讀
 
 * [如何在我們的支援知識庫中封鎖Fastly層級](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)上進行Magento Commerce Cloud的惡意流量。
-* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。
-* 使用手冊中的[搜尋引擎機器人](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html#search-engine-robots)。
+* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。
+* 使用手冊中的[搜尋引擎機器人](https://experienceleague.adobe.com/docs/commerce-admin/marketing/seo/seo-overview.html?lang=zh-Hant#search-engine-robots)。

@@ -43,4 +43,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在我們的即時搜尋指南中[安裝 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
+* 在我們的即時搜尋指南中[安裝 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hant)

@@ -24,7 +24,7 @@ ht-degree: 0%
 
 如果您的網站被DDoS超載，您可能無法登入您的Commerce管理員（並執行本文中進一步說明的所有步驟）。
 
-若要存取Admin，請依照[啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)並將您的IP位址列入白名單中的說明，將您的網站置於維護模式。 完成後停用維護模式。
+若要存取Admin，請依照[啟用或停用維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)並將您的IP位址列入白名單中的說明，將您的網站置於維護模式。 完成後停用維護模式。
 
 ## 依IP封鎖流量
 
@@ -74,7 +74,7 @@ name: block_bad_useragents
 * 機器人可以忽略您的`robots.txt`。 尤其是惡意程式碼自動機制，它會掃描網頁以找出安全漏洞，而垃圾郵件傳送者使用的電子郵件地址收集器則不會受到任何注意。
 * `robots.txt`檔案是公開可用的檔案。 任何人都可以看到您不希望機器人使用的伺服器區段。
 
-基礎資訊和預設Adobe Commerce `robots.txt`設定可在開發人員檔案的[搜尋引擎機器人](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots)文章中找到。
+基礎資訊和預設Adobe Commerce `robots.txt`設定可在開發人員檔案的[搜尋引擎機器人](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/seo-overview#search-engine-robots)文章中找到。
 
 如需`robots.txt`的一般資訊和建議，請參閱：
 
@@ -86,4 +86,4 @@ name: block_bad_useragents
 ## 相關閱讀
 
 * [雲端上Adobe Commerce的產品特定授權條款](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/PSLT-AdobeCommerceCloud-WW-2023v1.pdf)
-* 在Commerce on Cloud指南中[封鎖要求的自訂VCL](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)
+* 在Commerce on Cloud指南中[封鎖要求的自訂VCL](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/cdn/custom-vcl-snippets/fastly-vcl-blocking)

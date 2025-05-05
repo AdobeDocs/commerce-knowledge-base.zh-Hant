@@ -23,7 +23,7 @@ ht-degree: 0%
 * 雲端基礎結構上的Adobe Commerce內部部署和Adobe Commerce：
    * v2.2.3+支援ES 5.x
    * v2.2.8+和v2.3.1+支援ES 6.x
-   * 不建議使用ES v2.x和v5.x，因為[生命週期結束](https://www.elastic.co/support/eol)。 不過，如果您有Adobe Commerce v2.3.1，並且想要使用ES 2.x或ES 5.x，您必須[變更Elasticsearchphp Client](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+   * 不建議使用ES v2.x和v5.x，因為[生命週期結束](https://www.elastic.co/support/eol)。 不過，如果您有Adobe Commerce v2.3.1，並且想要使用ES 2.x或ES 5.x，您必須[變更Elasticsearchphp Client](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/search/overview-search)。
 * Magento Open Source v2.3.0+支援ES 5.x和6.x （但建議使用6.x）。
 
 ## 問題
@@ -56,8 +56,8 @@ Elasticsearch未正確安裝。 原因可能是：
 
 若要正確設定Elasticsearch：
 
-* 雲端基礎結構上Adobe Commerce的商家可以遵循我們的開發人員檔案中的步驟： [設定Elasticsearch服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
-* Adobe Commerce內部部署和Magento Open Source上的商家可以遵循我們的開發人員檔案中的步驟： [安裝及設定Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+* 雲端基礎結構上Adobe Commerce的商家可以遵循我們的開發人員檔案中的步驟： [設定Elasticsearch服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/elasticsearch)。
+* Adobe Commerce內部部署和Magento Open Source上的商家可以遵循我們的開發人員檔案中的步驟： [安裝及設定Elasticsearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 設定Elasticsearch後，請檢查是否已正確設定：
 

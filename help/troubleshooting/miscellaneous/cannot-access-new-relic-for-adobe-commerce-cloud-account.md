@@ -33,4 +33,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-在開發人員檔案中[管理 [!DNL New Relic] 帳戶](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。
+在開發人員檔案中[管理 [!DNL New Relic] 帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。

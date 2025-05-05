@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 相關檔案
 
-* 在開發人員檔案中，[適用於Adobe Commerce的雲端>專案結構>可寫入目錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories)。
+* 在開發人員檔案中，[適用於Adobe Commerce的雲端>專案結構>可寫入目錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/file-structure#writable-directories)。

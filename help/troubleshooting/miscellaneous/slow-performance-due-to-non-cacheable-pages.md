@@ -53,7 +53,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->對於雲端基礎結構上的Adobe Commerce 2.4.1和更新版本，您可以使用[全網站分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access)來自動檢查完整頁面快取是否未正確設定。
+>對於雲端基礎結構上的Adobe Commerce 2.4.1和更新版本，您可以使用[全網站分析工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/site-wide-analysis-tool/access)來自動檢查完整頁面快取是否未正確設定。
 
 ### 相關閱讀
 

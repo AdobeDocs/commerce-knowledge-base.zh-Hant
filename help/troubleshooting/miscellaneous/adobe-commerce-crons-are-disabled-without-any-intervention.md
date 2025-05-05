@@ -39,10 +39,10 @@ ht-degree: 0%
 
 ## 解決方案
 
-將[!DNL ECE Tools]升級至最新版本[2002.1.13](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)。
+將[!DNL ECE Tools]升級至最新版本[2002.1.13](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package#v2002113)。
 
 ## 相關閱讀
 
-* [我們的支援知識庫中的效能緩慢、緩慢且長時間執行 [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html)。
-* [[!DNL Cron] 任務會鎖定我們支援知識庫中其他群組](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=en)的任務。
-* 我們的支援知識庫中的[[!DNL Cron] 工作卡在「執行中」狀態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=en)。
+* [我們的支援知識庫中的效能緩慢、緩慢且長時間執行 [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hant)。
+* [[!DNL Cron] 任務會鎖定我們支援知識庫中其他群組](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=zh-Hant)的任務。
+* 我們的支援知識庫中的[[!DNL Cron] 工作卡在「執行中」狀態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=zh-Hant)。

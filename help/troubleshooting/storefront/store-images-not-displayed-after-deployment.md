@@ -31,9 +31,9 @@ ht-degree: 0%
 
 如果發生這種狀況，您可以使用「Magento」指令來重新產生影像快取並正確顯示影像。
 
-若要執行此動作，您需要透過[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)取得的SSH資訊和存放區URL。
+若要執行此動作，您需要透過[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hant)取得的SSH資訊和存放區URL。
 
-1. SSH至您的專案，此專案是[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)所述。
+1. SSH至您的專案，此專案是[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)所述。
 1. 執行下列步驟，重新產生影像快取：
 
    ```bash

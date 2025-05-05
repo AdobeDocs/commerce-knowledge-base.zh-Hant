@@ -36,7 +36,7 @@ Adobe Commerce例項通常包含自訂程式碼和設定。 Adobe不支援或解
 | **描述** | 網站可用性是根據測量結果周圍的設定臨界值來決定。 如果檢查在10分鐘內失敗，並且沒有正在進行的部署，則會觸發網站中斷通知。 |
 | **通知收件者** | 商家/合作夥伴和Adobe。 |
 | 由Adobe執行的&#x200B;**動作** | 如果問題發生在Adobe Commerce基礎架構上，則負責分類及修正。 |
-| 商戶的&#x200B;**動作** | 負責修正因商家/合作夥伴引進的變更或自訂程式碼所造成的問題。 如需疑難排解，請參閱： [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html)。 |
+| 商戶的&#x200B;**動作** | 負責修正因商家/合作夥伴引進的變更或自訂程式碼所造成的問題。 如需疑難排解，請參閱： [Site Down Troubleshooter](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter.html?lang=zh-Hant)。 |
 
 ## 磁碟空間監視
 
@@ -48,4 +48,4 @@ Adobe Commerce例項通常包含自訂程式碼和設定。 Adobe不支援或解
 | **描述** | 系統會根據設定在主機可用磁碟空間周圍的臨界值來傳送通知。 額外的磁碟空間會自動新增一次，以利相關掛載（[!DNL MySQL]或媒體）避免網站中斷，並讓商家有時間清除磁碟空間，及/或識別並解決造成磁碟使用量快速增加的任何程式碼或記錄檔。 |
 | **通知收件者** | 商家/合作夥伴和Adobe。 |
 | 由Adobe執行的&#x200B;**動作** | 自動提高支援票證，並將額外的磁碟空間自動新增至相關的掛載（[!DNL MySQL]或媒體），以防止網站中斷。 |
-| 商戶的&#x200B;**動作** | 若要接收持續警告層級的磁碟空間警示，請參閱： <ul><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟警告警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)</li><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟嚴重警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert) </li></ul> |
+| 商戶的&#x200B;**動作** | 若要接收持續警告層級的磁碟空間警示，請參閱： <ul><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟警告警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)</li><li>[[!DNL Managed alerts for Adobe Commerce]：磁碟嚴重警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert) </li></ul> |

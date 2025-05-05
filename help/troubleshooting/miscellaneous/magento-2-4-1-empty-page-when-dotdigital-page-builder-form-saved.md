@@ -45,6 +45,6 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [什麼是頁面產生器？](https://developer.adobe.com/commerce/frontend-core/page-builder/)於我們的開發人員檔案。
-* 在開發人員檔案中[頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)。
-* 使用手冊中的[頁面產生器](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction)。
-* [頁面產生器 — 使用手冊中的元素](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements)。
+* 在開發人員檔案中[頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=zh-Hant)。
+* 使用手冊中的[頁面產生器](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/page-builder/introduction)。
+* [頁面產生器 — 使用手冊中的元素](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/page-builder/workspace#elements)。

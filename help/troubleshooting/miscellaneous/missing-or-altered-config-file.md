@@ -36,7 +36,7 @@ BAK檔案是部署程式的產物。 如果您在部署後手動變更組態檔�
 
 若要還原組態檔：
 
-1. 使用[SSH](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)登入您的遠端存放庫。
+1. 使用[SSH](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)登入您的遠端存放庫。
 1. 列出可用的備份檔案。
 
    ```

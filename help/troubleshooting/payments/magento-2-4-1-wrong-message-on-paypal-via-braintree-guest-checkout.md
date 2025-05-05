@@ -27,7 +27,7 @@ ht-degree: 0%
 <u>必要條件</u>：
 
 1. 在Commerce Admin中，在&#x200B;**商店** > **設定** > **銷售** > **簽出**&#x200B;下，設定&#x200B;**允許來賓簽出** = *否*。
-1. 如使用手冊的[Braintree](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/payments/braintree?)中所述，透過Braintree啟用PayPal。
+1. 如使用手冊的[Braintree](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/payments/braintree?)中所述，透過Braintree啟用PayPal。
 
 <u>要再現的步驟</u>：
 

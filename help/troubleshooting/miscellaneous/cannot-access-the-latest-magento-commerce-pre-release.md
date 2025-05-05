@@ -40,7 +40,7 @@ ht-degree: 0%
 
 在發行前版本中，發行套件有兩個位置可用：
 
-1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)。
 1. 在[account.magento.com](https://account.magento.com/customer/account/login)上，**我的帳戶** > **下載**。
 
 >[!NOTE]

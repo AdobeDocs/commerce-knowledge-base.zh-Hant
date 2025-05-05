@@ -42,8 +42,8 @@ ht-degree: 0%
 
 ## 解決方案
 
-依搜尋引擎啟用索引。 請參閱我們的開發人員檔案中的[依搜尋引擎設定索引](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)。
+依搜尋引擎啟用索引。 請參閱我們的開發人員檔案中的[依搜尋引擎設定索引](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap#configure-indexing-by-search-engine)。
 
 ## 相關閱讀
 
-* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。
+* [在開發人員檔案中新增網站地圖和搜尋引擎機器人](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure-store/robots-sitemap)。

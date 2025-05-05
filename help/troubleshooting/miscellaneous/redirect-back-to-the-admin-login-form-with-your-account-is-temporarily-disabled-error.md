@@ -37,9 +37,9 @@ ht-degree: 0%
 ## 解決方案
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如[[!DNL phpMyAdmin]](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫。 在`admin_user`資料庫表格中，針對您的管理員使用者記錄，檢查`is_active`是否設為&quot;`1`&quot;且`lock_expires`是否為`NULL`。 如有需要，請重設這些值。
+1. 使用資料庫工具，例如[[!DNL phpMyAdmin]](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫。 在`admin_user`資料庫表格中，針對您的管理員使用者記錄，檢查`is_active`是否設為&quot;`1`&quot;且`lock_expires`是否為`NULL`。 如有需要，請重設這些值。
 
 ## 相關閱讀
 
-* [嘗試登入[!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)時，重新導向回登入表單，沒有錯誤
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [嘗試登入[!UICONTROL Commerce Admin]](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin)時，重新導向回登入表單，沒有錯誤
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -54,7 +54,7 @@ ht-degree: 0%
 
 
 
-如需更新資料庫組態的步驟，請參閱Commerce on Cloud Infrastructure指南中「部署變數」主題中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html#database_configuration)。
+如需更新資料庫組態的步驟，請參閱Commerce on Cloud Infrastructure指南中「部署變數」主題中的[DATABASE_CONFIGURATION](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hant#database_configuration)。
 
 
 ## 相關閱讀

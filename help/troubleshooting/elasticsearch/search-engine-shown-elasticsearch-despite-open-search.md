@@ -74,4 +74,4 @@ $ curl 127.0.0.1:9200
 
 ## 相關閱讀
 
-在Commerce雲端基礎結構指南中[設定OpenSearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html)。
+在Commerce雲端基礎結構指南中[設定OpenSearch服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/opensearch.html?lang=zh-Hant)。

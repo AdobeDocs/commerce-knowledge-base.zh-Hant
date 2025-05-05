@@ -34,7 +34,7 @@ ht-degree: 0%
 
 **要求突波容量**
 
-雲端基礎結構上的Adobe Commerce商戶如果預期在節日季節期間需要額外的容量，應透過我們的[說明中心](/help/overview.md)提交突波容量支援票證[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)，說明票證內的日期和預期容量需求。 請注意，容量增加需要使用您的授權超額容量。
+雲端基礎結構上的Adobe Commerce商戶如果預期在節日季節期間需要額外的容量，應透過我們的[說明中心](/help/overview.md)提交突波容量支援票證[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=zh-Hant)，說明票證內的日期和預期容量需求。 請注意，容量增加需要使用您的授權超額容量。
 
 **我們建議在需要容量時，至少提前48個營業時間提交這些票證；此外，由於此期間的容量有限，我們建議儘量提前提交黑色星期五/網路星期一期間的申請。**
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 在我們的支援知識庫中：
 
-* 雲端上Adobe Commerce的[CPU配置計算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-* [檢查雲端上的Adobe Commerce是否需要主機執行個體的大小調整](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-* [檢查雲端上Adobe Commerce的主機的CPU組態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* [識別並測量雲端上Adobe Commerce的中斷](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)
+* 雲端上Adobe Commerce的[CPU配置計算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=zh-Hant)
+* [檢查雲端上的Adobe Commerce是否需要主機執行個體的大小調整](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=zh-Hant)
+* [檢查雲端上Adobe Commerce的主機的CPU組態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=zh-Hant)
+* [識別並測量雲端上Adobe Commerce的中斷](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=zh-Hant)

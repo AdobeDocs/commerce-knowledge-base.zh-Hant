@@ -15,7 +15,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->已在[[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html)中修正此問題。 若要安裝最新版本，請參閱使用手冊中的[更新 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#update)。
+>已在[[!DNL Live Search] [2.0.4]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/release-notes.html?lang=zh-Hant)中修正此問題。 若要安裝最新版本，請參閱使用手冊中的[更新 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hant#update)。
 
 本文提供產品清單頁面(PLP)顯示&#x200B;*找不到符合選取專案*&#x200B;的產品，而搜尋彈出視窗傳回部分專案的已知問題相關資訊。
 
@@ -49,4 +49,4 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 相關閱讀
 
-在我們的使用手冊中[安裝 [!DNL Live Search]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/install)。
+在我們的使用手冊中[安裝 [!DNL Live Search]](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/live-search/install)。

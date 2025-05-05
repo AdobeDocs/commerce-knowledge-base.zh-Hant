@@ -119,8 +119,8 @@ bin/magento cache:clean
 
 安裝套件後，請依照以下檔案所述設定Google reCAPTCHA （建議）或驗證碼：
 
-* 使用手冊中的[Google reCAPTCHA](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-google-recaptcha)。
-* 使用手冊中的[驗證碼](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/captcha/security-captcha)。
+* 使用手冊中的[Google reCAPTCHA](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/captcha/security-google-recaptcha)。
+* 使用手冊中的[驗證碼](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/captcha/security-captcha)。
 
 新的結帳表單選項為：
 

@@ -32,7 +32,7 @@ Installation-fails-cannot-create-install.log
 
 如果您不確定如何變更此值，請使用下列步驟：
 
-1. 如果您尚未這樣做，請建立[phpinfo.php](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software)。
+1. 如果您尚未這樣做，請建立[phpinfo.php](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software)。
 1. 在瀏覽器的位址或位置欄位中輸入下列URL： `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
 1. 尋找`php.ini`的位置。     在顯示的結果中，`php.ini`通常指定為&#x200B;**載入的組態檔**。
 1. 以具有根許可權的使用者身分，在文字編輯器中開啟`php.ini`。

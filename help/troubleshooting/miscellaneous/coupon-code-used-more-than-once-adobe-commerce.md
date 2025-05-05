@@ -62,8 +62,8 @@ Adobe Commerce （所有部署方法） 2.4.3和更高版本
 ...
 ```
 
-如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
+如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
 
 ## 相關閱讀
 
-在開發人員檔案中[訊息佇列總覽](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。
+在開發人員檔案中[訊息佇列總覽](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。

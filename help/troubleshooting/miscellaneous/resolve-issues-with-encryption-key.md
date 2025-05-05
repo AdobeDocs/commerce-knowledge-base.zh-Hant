@@ -33,7 +33,7 @@ ht-degree: 0%
 
 若要複製加密金鑰：
 
-1. SSH至您的專案，此專案是資料庫傾印的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)所述。
+1. SSH至您的專案，此專案是資料庫傾印的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)所述。
 1. 在文字編輯器中開啟`app/etc/env.php`。
 1. 複製`crypt`的`key`值。
 
@@ -44,7 +44,7 @@ return array ('crypt' =>      array ('key' => '<your encryption key>', ),);
 若要設定目標專案的索引鍵值：
 
 1. 開啟[雲端主控台](https://console.adobecommerce.com)並找出您的專案。
-1. 設定[CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html) （在開發人員檔案中）變數的值，如開發人員檔案中的[設定您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)所述。 這將觸發部署程式，而且每次部署時`app/etc/env.php`檔案中的`CRYPT_KEY`都會被覆寫。
+1. 設定[CRYPT\_KEY](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy.html?lang=zh-Hant) （在開發人員檔案中）變數的值，如開發人員檔案中的[設定您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hant)所述。 這將觸發部署程式，而且每次部署時`app/etc/env.php`檔案中的`CRYPT_KEY`都會被覆寫。
 
 您可以選擇手動覆寫`app/etc/env.php`檔案中的加密金鑰：
 

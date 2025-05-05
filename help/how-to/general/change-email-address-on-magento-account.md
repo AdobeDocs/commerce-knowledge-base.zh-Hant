@@ -34,7 +34,7 @@ ht-degree: 0%
 
 <u>解決方案</u>
 
-1. [在https://experienceleague.adobe.com/home#support提交支援要求](https://experienceleague.adobe.com/home#support)，說明如下：
+1. [在https://experienceleague.adobe.com/home#support提交支援要求](https://experienceleague.adobe.com/home?lang=zh-Hant#support)，說明如下：
 
    * 要更新的現有電子郵件地址
    * 新電子郵件地址
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 <u>解決方案</u>
 
-如果您可以存取[目前擁有者電子郵件]的信箱，請在Creative Cloud使用手冊中的[重設或變更Adobe密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)指南之後，重設目前擁有者電子郵件的密碼。
+如果您可以存取[目前擁有者電子郵件]的信箱，請在Creative Cloud使用手冊中的[重設或變更Adobe密碼](https://helpx.adobe.com/tw/manage-account/using/change-or-reset-password.html)指南之後，重設目前擁有者電子郵件的密碼。
 
 1. 找到傳送至目前擁有者信箱的密碼重設連結，並附上指示。
 1. 設定新密碼，並將電子郵件變更為[新擁有者電子郵件]。
@@ -62,5 +62,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-在Creative Cloud使用手冊中[重設忘記的密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)。
-在Creative Cloud使用手冊中[更新您的帳戶設定檔](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html)。
+在Creative Cloud使用手冊中[重設忘記的密碼](https://helpx.adobe.com/tw/manage-account/using/change-or-reset-password.html)。
+在Creative Cloud使用手冊中[更新您的帳戶設定檔](https://helpx.adobe.com/tw/manage-account/using/edit-adobe-account-personal-profile.html)。

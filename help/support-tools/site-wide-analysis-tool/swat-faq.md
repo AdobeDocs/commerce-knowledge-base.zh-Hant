@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->在Adobe Commerce雲端基礎結構v2.4.1和更新版本中，[!DNL Site-Wide Analysis Tool]可透過Commerce管理面板使用。 因此，客戶可以直接執行[!DNL Site-Wide Analysis Tool]報告。 如需存取詳細資訊，請參閱[[!DNL Site-Wide Analysis Tool] 指南](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html)。
+>在Adobe Commerce雲端基礎結構v2.4.1和更新版本中，[!DNL Site-Wide Analysis Tool]可透過Commerce管理面板使用。 因此，客戶可以直接執行[!DNL Site-Wide Analysis Tool]報告。 如需存取詳細資訊，請參閱[[!DNL Site-Wide Analysis Tool] 指南](https://experienceleague.adobe.com/docs/commerce-operations/tools/site-wide-analysis-tool/access.html?lang=zh-Hant)。
 
 ## 什麼是[!DNL Site-Wide Analysis Tool]？
 

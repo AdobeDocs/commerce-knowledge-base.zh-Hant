@@ -122,5 +122,5 @@ Adobe Commerce （所有部署方法） 2.4.x
 
 ## 相關閱讀
 
-* 在我們的銷售與促銷使用手冊中，[URL重寫了](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)。
-* 我們的銷售與促銷使用手冊中的[SEO最佳作法](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/seo-overview)..
+* 在我們的銷售與促銷使用手冊中，[URL重寫了](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/url-rewrites/url-rewrite)。
+* 我們的銷售與促銷使用手冊中的[SEO最佳作法](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/seo-overview)..

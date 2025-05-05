@@ -67,4 +67,4 @@ Adobe Commerce中有兩種型別的快取：
 ## 建議
 
 1. 避免從Commerce CLI排清快取。
-1. 將索引器設定為&#x200B;**依排程**&#x200B;更新，而非&#x200B;**儲存模式更新**，因為後者會觸發完整重新索引。 如需參考，請參閱我們的開發人員檔案中的[管理索引子>設定索引子](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。
+1. 將索引器設定為&#x200B;**依排程**&#x200B;更新，而非&#x200B;**儲存模式更新**，因為後者會觸發完整重新索引。 如需參考，請參閱我們的開發人員檔案中的[管理索引子>設定索引子](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。

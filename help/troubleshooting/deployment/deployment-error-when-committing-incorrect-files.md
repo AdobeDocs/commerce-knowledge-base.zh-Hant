@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-當您認可至檔案/資料夾的存放庫時，會發生部署錯誤。 例如，下列錯誤是由於嘗試在[建置階段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html#build-phase)期間無法使用資料庫時連線至資料庫所造成：
+當您認可至檔案/資料夾的存放庫時，會發生部署錯誤。 例如，下列錯誤是由於嘗試在[建置階段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=zh-Hant#build-phase)期間無法使用資料庫時連線至資料庫所造成：
 
 ```SQL
 SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i  
@@ -42,7 +42,7 @@ SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for database.i
 
 ## 原因
 
-某些檔案/資料夾不應認可至存放庫，因為它們會造成[部署工作流程](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html)中斷。
+某些檔案/資料夾不應認可至存放庫，因為它們會造成[部署工作流程](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/process.html?lang=zh-Hant)中斷。
 
 ## 解決方案
 

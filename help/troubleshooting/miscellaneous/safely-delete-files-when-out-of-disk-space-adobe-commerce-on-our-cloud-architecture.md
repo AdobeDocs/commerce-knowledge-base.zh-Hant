@@ -1,6 +1,6 @@
 ---
 title: 當雲端基礎結構上的Adobe Commerce中的磁碟空間用完時，安全地刪除檔案
-description: 本文提供解決方案，協助您因磁碟空間不足而需要安全地移除檔案。 在考慮此動作之前，請檢閱我們的開發人員檔案中的[管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left)。 如果該文章中的步驟不適合您或者沒有解決問題，請檢視本文中的步驟。
+description: 本文提供解決方案，協助您因磁碟空間不足而需要安全地移除檔案。 在考慮此動作之前，請檢閱我們的開發人員檔案中的[管理磁碟空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#no-space-left)。 如果該文章中的步驟不適合您或者沒有解決問題，請檢視本文中的步驟。
 exl-id: 6b0a5c1a-8db4-49d7-a785-b4e0bbaea0df
 feature: Cloud, Paas
 role: Developer
@@ -59,4 +59,4 @@ FS='/data/exports';NUMRESULTS=20;resize;clear; echo "Please find below the Large
 
 在我們的開發人員檔案中：
 
-* [管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)
+* [管理磁碟空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

@@ -44,7 +44,7 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 <tr>
 <td>
 <p>商家（一般使用者）檔案：</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home</a></p>
+<p><a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home</a></p>
 </td>
 </tr>
 <tr>
@@ -54,7 +54,7 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 </td>
 <td>
 <p>商家（一般使用者）檔案：</p>
-<p><a href="https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home</a></p>
+<p><a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home">https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home</a></p>
 </td>
 </tr>
 <tr>
@@ -64,7 +64,7 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 </td>
 <td>
 <p>商家（一般使用者）檔案：</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=zh-Hant">https://experienceleague.adobe.com/docs/commerce-admin/b2b/guide-overview.html?lang=zh-Hant</a></p>
 </td>
 </tr>
 <tr>
@@ -85,7 +85,7 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 <td>Adobe CommerceBusiness Intelligence</td>
 <td>
 <p>商家（一般使用者）檔案：</p>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html</a></p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=zh-Hant">https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=zh-Hant</a></p>
 </td>
 </tr>
 <tr>

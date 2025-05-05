@@ -42,7 +42,7 @@ web@ddc35c264bd89a72042f1f3e5a:~$ nc database.internal 3306
 Database out of space
 ```
 
-您必須在`services.yaml`中配置更多空間給資料庫，而且如果您有未使用的空間，則需部署。 如需相關步驟，請參閱[服務磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)。
+您必須在`services.yaml`中配置更多空間給資料庫，而且如果您有未使用的空間，則需部署。 如需相關步驟，請參閱[服務磁碟空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#service-disk-space)。
 
 注意：在Pro架構計畫上，您可以執行下列命令來檢查磁碟分割上配置的空間： `df -h`
 
@@ -58,4 +58,4 @@ Filesystem                                         Size  Used Avail Use% Mounted
 
 ## 相關閱讀
 
-在開發人員檔案中[管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)
+在開發人員檔案中[管理磁碟空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space)

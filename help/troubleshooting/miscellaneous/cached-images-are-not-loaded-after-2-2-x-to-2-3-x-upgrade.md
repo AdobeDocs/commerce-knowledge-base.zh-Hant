@@ -45,6 +45,6 @@ Adobe Commerce從2.2.X升級至2.3.X後，將無法使用快取的產品影像�
    * 整合：自行修正檔案並推送變更。
    * 測試和生產：自行修正檔案、推送變更，然後建立[Adobe Commerce支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以套用它。
 
-1. 在Commerce管理員中啟用Fastly影像最佳化（必須先設定Fastly），如<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>中所述。
+1. 在Commerce管理員中啟用Fastly影像最佳化（必須先設定Fastly），如<https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>中所述。
 
 如果設定正確，但您仍然遇到問題，請繼續調查或聯絡[Adobe Commerce支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。

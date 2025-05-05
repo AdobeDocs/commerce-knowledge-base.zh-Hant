@@ -56,7 +56,7 @@ SELECT ea.attribute_code, ea.frontend_input, cea.is_filterable, cea.is_filterabl
 若要修正此問題，您需要將`is_filterable` （即用於分層導覽）和`filterable_in_search` （即用於搜尋結果分層導覽）設定為「0」（未使用）。 若要這麼做，請執行下列步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    UPDATE catalog_eav_attribute AS cea

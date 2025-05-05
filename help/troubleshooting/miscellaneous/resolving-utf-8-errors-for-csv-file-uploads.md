@@ -23,4 +23,4 @@ ht-degree: 0%
 1. 按一下&#x200B;**檔案** > **另存新檔{3&#x200B;}，&#x200B; &#x200B;並選擇&#x200B; &#x200B;**&#x200B;逗號分隔值(.csv)**格式來儲存檔案。**
 1. 以Sublime Text開啟CSV檔案。
 1. &#x200B;在Sublime文字中，瀏覽至&#x200B;**檔案** > **以編碼儲存** > **UTF-8\*&#x200B;** 。 這會以UTF-8編碼儲存CSV檔案。    ![csv_file_UTF-8_sublime_3.2.2_magento_BI.png](assets/csv_file_UTF-8_sublime_3.2.2_magento_BI.png)
-1. [將資料](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) （在我們的使用手冊中）上傳到MagentoBI中的新資料表。
+1. [將資料](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/connecting/using-file-uploader) （在我們的使用手冊中）上傳到MagentoBI中的新資料表。

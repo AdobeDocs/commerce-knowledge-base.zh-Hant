@@ -170,13 +170,13 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 如果您使用「組態管理」，則應該要有組態檔。 編輯app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)檔案，並確定設定`'Fastly_Cdn' => 1`正確無誤。 設定不應為`'Fastly_Cdn' => 0` （表示已停用）。如果您啟用Fastly，請刪除設定檔並執行bin/magento magento-cloud：scd-dump命令以進行更新。 如需逐步瞭解此檔案，請參閱組態指南中的[管理系統特定設定的範例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)。
+1. 如果您使用「組態管理」，則應該要有組態檔。 編輯app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)檔案，並確定設定`'Fastly_Cdn' => 1`正確無誤。 設定不應為`'Fastly_Cdn' => 0` （表示已停用）。如果您啟用Fastly，請刪除設定檔並執行bin/magento magento-cloud：scd-dump命令以進行更新。 如需逐步瞭解此檔案，請參閱組態指南中的[管理系統特定設定的範例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html?lang=zh-Hant#manage-the-system-specific-configuration)。
 
-如果未安裝模組，您必須安裝在[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)分支中，並部署至中繼和生產環境。 請參閱[設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)以取得雲端基礎結構指南中Commerce的指示。
+如果未安裝模組，您必須安裝在[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)分支中，並部署至中繼和生產環境。 請參閱[設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)以取得雲端基礎結構指南中Commerce的指示。
 
 ### Fastly-Magento-VCL-Uploaded不存在
 
-在安裝與設定期間，您應該已上傳Fastly VCL。 這些是Fastly模組提供的基本VCL片段，不是您建立的自訂VCL片段。 如需相關指示，請參閱Commerce on Cloud Infrastructure指南中的[上傳Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)。
+在安裝與設定期間，您應該已上傳Fastly VCL。 這些是Fastly模組提供的基本VCL片段，不是您建立的自訂VCL片段。 如需相關指示，請參閱Commerce on Cloud Infrastructure指南中的[上傳Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant#upload-vcl-to-fastly)。
 
 ### X-Cache包含MISS
 
@@ -190,7 +190,7 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 
 如果問題仍然存在，其他擴充功能可能會重設這些標題。 在測試中重複以下程式以停用擴充功能，找出導致問題的擴充功能。 找出導致問題的擴充功能後，您需要在「生產」中停用擴充功能。
 
-1. 若要停用擴充功能，請依照雲端基礎結構指南上Commerce的[管理擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions)區段中提供的步驟操作。
+1. 若要停用擴充功能，請依照雲端基礎結構指南上Commerce的[管理擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=zh-Hant#manage-extensions)區段中提供的步驟操作。
 1. 停用擴充功能後，請移至&#x200B;**[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**。
 1. 按一下&#x200B;**[!UICONTROL Flush Magento Cache]**。
 1. 現在一次啟用一個擴充功能，以儲存設定並排清快取。
@@ -201,6 +201,6 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 
 ## 如需詳細資訊，請參閱我們的開發人員檔案：
 
-* [關於Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
-* [自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)
+* [關於Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant)
+* [設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)
+* [自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hant)

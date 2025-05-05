@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 還原環境快照
 
-若要還原現有的快照（在支援的環境上：整合、測試、生產在入門計畫上或整合在Pro計畫上），請遵循雲端基礎結構指南中「Commerce上的備份管理：還原手動備份」[中的步驟。](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+若要還原現有的快照（在支援的環境上：整合、測試、生產在入門計畫上或整合在Pro計畫上），請遵循雲端基礎結構指南中「Commerce上的備份管理：還原手動備份」[中的步驟。](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
 
 ## 資料庫(DB)備份
 

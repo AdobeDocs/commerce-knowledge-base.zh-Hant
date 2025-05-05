@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 問題
 
-已排程的商店內容資產（頁面、產品、區塊等）更新 在更新開始時間後不會立即顯示在店面上。 當已使用[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)功能排程更新時，就會發生這種情況。
+已排程的商店內容資產（頁面、產品、區塊等）更新 在更新開始時間後不會立即顯示在店面上。 當已使用[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hant)功能排程更新時，就會發生這種情況。
 
 ## 原因
 
@@ -45,6 +45,6 @@ ht-degree: 0%
 
 ## 相關檔案
 
-* 在Commerce on Cloud Infrastructure指南中[設定清除選項](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
-* 內容與設計檔案中的[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)。
+* 在Commerce on Cloud Infrastructure指南中[設定清除選項](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)。
+* 內容與設計檔案中的[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hant)。
 * [在Fastly檔案中提供過時內容](https://docs.fastly.com/guides/performance-tuning/serving-stale-content)。

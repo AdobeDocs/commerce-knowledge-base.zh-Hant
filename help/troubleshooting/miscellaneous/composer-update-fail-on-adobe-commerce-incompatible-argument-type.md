@@ -57,7 +57,7 @@ Adobe Commerce內部部署2.4.x
 
 **如何在雲端基礎結構上修正Adobe Commerce：**
 
-執行上述命令或升級至最新的ECE工具版本(ece-tools：2002.1.7)，將於7月29日（星期四）提供。 如需相關步驟，請參閱開發人員檔案中的[Cloud for Adobe Commerce >更新ece-tools版本](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
+執行上述命令或升級至最新的ECE工具版本(ece-tools：2002.1.7)，將於7月29日（星期四）提供。 如需相關步驟，請參閱開發人員檔案中的[Cloud for Adobe Commerce >更新ece-tools版本](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)。
 
 完整修正將在Adobe Commerce （所有部署方法） 2.4.4中發佈。
 

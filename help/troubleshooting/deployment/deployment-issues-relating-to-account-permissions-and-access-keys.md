@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [在開發人員檔案中取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+* [在開發人員檔案中取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。

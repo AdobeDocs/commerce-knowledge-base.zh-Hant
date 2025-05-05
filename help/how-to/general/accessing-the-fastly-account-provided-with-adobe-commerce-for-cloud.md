@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ## 如何檢視您的Fastly認證
 
-請參閱我們的開發人員檔案中的[取得Fastly認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds)區段。
+請參閱我們的開發人員檔案中的[取得Fastly認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#cloud-fastly-creds)區段。
 
 ## 如何測試Fastly認證
 
-請參閱我們的開發人員檔案中的[測試Fastly認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)區段。
+請參閱我們的開發人員檔案中的[測試Fastly認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#test-the-fastly-credentials)區段。
 

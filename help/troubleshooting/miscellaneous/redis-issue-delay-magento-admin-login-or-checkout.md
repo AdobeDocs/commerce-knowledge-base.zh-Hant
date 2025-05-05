@@ -80,6 +80,6 @@ Adobe Commerce 2.1.14和2.2.2已修正此問題。
 
 ## 雲端基礎結構上的Adobe Commerce 2.2.0：使用ECE-Tools v2002.0.8或更新版本 {#h_64593789291526919876198}
 
-版本為2002.0.3 - 2002.0.7的[ECE-Tools](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)部署指令碼套件會自動套用[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)因應措施，將`disable_locking`設定為`1`。 這樣會停用Adobe Commerce 2.2.0的工作階段鎖定機制，不會發生原始問題。
+版本為2002.0.3 - 2002.0.7的[ECE-Tools](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package)部署指令碼套件會自動套用[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=zh-Hant)因應措施，將`disable_locking`設定為`1`。 這樣會停用Adobe Commerce 2.2.0的工作階段鎖定機制，不會發生原始問題。
 
 如果您在雲端基礎結構2.2.0上執行Adobe Commerce，請將ECE-Tools升級至v2002.0.8或更新版本。 您也可以考慮將雲端基礎結構上的Adobe Commerce升級為2.2.2或更新版本。

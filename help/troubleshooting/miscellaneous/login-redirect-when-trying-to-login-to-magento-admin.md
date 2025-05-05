@@ -52,7 +52,7 @@ ht-degree: 0%
 若要增加管理員工作階段存留期，請執行以下步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    UPDATE core_config_data SET value = 7200 WHERE path = 'admin/security/session_lifetime';
@@ -69,7 +69,7 @@ ht-degree: 0%
 若要檢查Cookie設定值並清除這些值，請執行下列步驟：
 
 1. 建立資料庫備份。
-1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
+1. 使用資料庫工具，例如[phpMyAdmin](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)，或從命令列手動存取資料庫以執行下列SQL查詢：
 
    ```sql
    SELECT * FROM core_config_data WHERE (path = "web/cookie/cookie_domain" OR path = "web/cookie/cookie_path");

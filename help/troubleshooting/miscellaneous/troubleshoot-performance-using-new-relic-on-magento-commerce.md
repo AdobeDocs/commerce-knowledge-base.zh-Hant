@@ -60,7 +60,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
+<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
 </td>
 </tr>
 <tr>

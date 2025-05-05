@@ -50,5 +50,5 @@ CSV檔案中的產品狀態屬性已重新命名。 現在是[!UICONTROL product
 
 ## 相關閱讀
 
-* [使用我們的使用手冊中的CSV檔案](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv)。
-* 使用手冊中的[產品匯出屬性參考](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product)。
+* [使用我們的使用手冊中的CSV檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-csv)。
+* 使用手冊中的[產品匯出屬性參考](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-attributes-product)。

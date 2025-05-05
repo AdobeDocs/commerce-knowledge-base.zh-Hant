@@ -30,13 +30,13 @@ ht-degree: 0%
 
 ### 檢查是否有足夠的空間可供MySQL使用
 
-針對雲端基礎結構上的所有Adobe Commerce入門計畫架構環境，以及Adobe Commerce在雲端基礎結構上的[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) Pro計畫架構，[SSH連線至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)並執行命令：
+針對雲端基礎結構上的所有Adobe Commerce入門計畫架構環境，以及Adobe Commerce在雲端基礎結構上的[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md) Pro計畫架構，[SSH連線至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)並執行命令：
 
 ```bash
 magento-cloud db:size
 ```
 
-針對Pro架構的暫存或生產環境，[SSH至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)，然後執行`df -h`   `| grep mysql`命令。 結果將類似於以下內容：
+針對Pro架構的暫存或生產環境，[SSH至環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)，然後執行`df -h`   `| grep mysql`命令。 結果將類似於以下內容：
 
 ```bash
 sxpe7gigd5ok2@i-00baa9e24f31dba41:~$ df -h | grep mysql
@@ -55,7 +55,7 @@ mysql:
     disk: 2048
 ```
 
-請參閱[設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)文章以供參考。
+請參閱[設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=zh-Hant)文章以供參考。
 
 若要對Pro架構的測試或生產環境進行這些變更，您必須建立[支援票證](https://support.magento.com)。 但是，通常您不必在Pro架構的測試/生產上處理這個問題，因為Adobe Commerce會監視這些引數，並警示您和/或根據合約採取動作。
 

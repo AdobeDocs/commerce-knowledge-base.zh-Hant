@@ -70,6 +70,6 @@ BOB: Is this in TOC?
 
 ## 我們的支援知識庫中的相關主題：
 
-* [正在新增使用者並設定許可權](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
-* [如何更新我的電子郵件地址或密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
-* [如何重設密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
+* [正在新增使用者並設定許可權](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=zh-Hant)
+* [如何更新我的電子郵件地址或密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=zh-Hant)
+* [如何重設密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=zh-Hant)

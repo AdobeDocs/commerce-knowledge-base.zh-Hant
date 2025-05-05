@@ -41,8 +41,8 @@ ht-degree: 0%
 
 `du -shc` */path/to/folder*
 
-如果媒體磁碟使用量佔總磁碟空間的大部分，您可以考慮啟用[Fastly Deep Image Optimization](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)，然後手動刪除伺服器上&#x200B;*pub/media/catalog/product/cache*&#x200B;資料夾中的檔案。
+如果媒體磁碟使用量佔總磁碟空間的大部分，您可以考慮啟用[Fastly Deep Image Optimization](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization#deep-image-optimization)，然後手動刪除伺服器上&#x200B;*pub/media/catalog/product/cache*&#x200B;資料夾中的檔案。
 
 ## 相關閱讀
 
-[檢查我們的支援知識庫中的專用叢集](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。
+[檢查我們的支援知識庫中的專用叢集](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。

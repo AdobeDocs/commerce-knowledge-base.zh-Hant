@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. [ACSD-45849：中繼更新後視訊中繼資料遺失：](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45849-video-metadata-lost-after-staging-update.md)ACSD-45849修補程式修正了在套用中繼更新後視訊中繼資料遺失的問題。 安裝Quality Patches Tool (QPT) 1.1.18時，即可使用此修補程式。
 
-1. [ACSD-45754：將優惠券套用至購物車後未新增獎勵積分：](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html) ACSD-45754修補程式可解決將優惠券套用至購物車後未新增獎勵積分的問題。 安裝Quality Patches Tool (QPT) 1.1.18時，即可使用此修補程式。
+1. [ACSD-45754：將優惠券套用至購物車後未新增獎勵積分：](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/support-tools/patches/acsd-45754-reward-points-not-added-after-applying-coupon-to-the-cart.html?lang=zh-Hant) ACSD-45754修補程式可解決將優惠券套用至購物車後未新增獎勵積分的問題。 安裝Quality Patches Tool (QPT) 1.1.18時，即可使用此修補程式。
 
 1. [ACSD-45488：具有多個來源的可設定產品未送回庫存中：](/help/support-tools/patches-available-in-qpt-tool/v1-1-18/acsd-45488-configurable-product-with-multiple-sources-not-returned-to-in-stock.md) ACSD-45488修補程式可解決具有多個來源的可設定產品未自動送回庫存的問題。 安裝Quality Patches Tool (QPT) 1.1.18時，即可使用此修補程式。
 

@@ -49,7 +49,7 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 針對Adobe Commerce內部部署商家：套用[Hotfix，](https://magento.com/tech-resources/download#download2353)，可在「我的帳戶」中[magento.com](https://magento.com)入口網站的「下載」區段取得。
 
-雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)，以尋找套用最新套件的說明。
+雲端基礎結構商家上的Adobe Commerce：Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&amp;itm_medium=quick_search&amp;itm_campaign=federated_search&amp;itm_term=cloud%20patche)，以尋找套用最新套件的說明。
 
 ## 如何套用修正程式
 

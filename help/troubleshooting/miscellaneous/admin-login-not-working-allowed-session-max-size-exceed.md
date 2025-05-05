@@ -57,6 +57,6 @@ bin/magento config:set system/security/max_session_size_admin 500000
 
 ## 相關閱讀
 
-* 管理系統指南中的[工作階段大小](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
-* 組態指南中的[操作模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode)
-* 雲端基礎結構上的Commerce指南中的[安全連線](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)
+* 管理系統指南中的[工作階段大小](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-session-management#admin-sessions)
+* 組態指南中的[操作模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/set-mode)
+* 雲端基礎結構上的Commerce指南中的[安全連線](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)

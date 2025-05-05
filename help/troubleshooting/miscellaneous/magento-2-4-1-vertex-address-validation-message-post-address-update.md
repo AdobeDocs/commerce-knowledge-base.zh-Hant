@@ -24,7 +24,7 @@ ht-degree: 0%
 
 先決條件：
 
-啟用&#x200B;**頂點位址清除**。 如需相關步驟，請參閱使用手冊中的[設定店面位址清理](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html)。
+啟用&#x200B;**頂點位址清除**。 如需相關步驟，請參閱使用手冊中的[設定店面位址清理](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=zh-Hant)。
 
 <u>要再現的步驟：</u>
 

@@ -20,4 +20,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [開發人員檔案中的New Relic服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。
+* [開發人員檔案中的New Relic服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。

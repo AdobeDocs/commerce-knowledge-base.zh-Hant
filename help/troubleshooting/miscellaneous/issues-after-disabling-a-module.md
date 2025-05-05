@@ -30,6 +30,6 @@ ht-degree: 0%
 
 ## 解決方案
 
-如果您需要停用模組功能，請依照開發人員檔案中的[啟用或停用模組](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)來停用模組。
+如果您需要停用模組功能，請依照開發人員檔案中的[啟用或停用模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/manage-modules)來停用模組。
 
 模組輸出停用功能已從2.2.0版開始移除。

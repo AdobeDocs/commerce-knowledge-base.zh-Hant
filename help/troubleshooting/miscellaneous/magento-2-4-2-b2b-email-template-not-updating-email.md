@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在開發人員檔案中[管理訊息佇列](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。
+* 在開發人員檔案中[管理訊息佇列](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues)。

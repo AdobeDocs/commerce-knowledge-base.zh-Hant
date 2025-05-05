@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >在任何Adobe Commerce版本上，由於某些擴充功能僅適用於平面表格，因此如果您停用平面表格，將會帶來風險。 如果您知道有些擴充功能使用一般目錄索引子，在將這些值設定為&quot; *No*&quot;時，您可能需要考慮到這一點。
 
-本文說明如何解決啟用[平面資料表和索引子](https://experienceleague.adobe.com/en/docs/commerce-admin/catalog/catalog/catalog-flat)所造成的網站效能問題，以及執行緩慢和卡住的cron。
+本文說明如何解決啟用[平面資料表和索引子](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/catalog/catalog/catalog-flat)所造成的網站效能問題，以及執行緩慢和卡住的cron。
 
 受影響的產品和版本
 

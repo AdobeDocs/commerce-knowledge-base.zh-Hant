@@ -104,7 +104,7 @@ Adobe Commerce的WAF產品包括OWASP前10大威脅的保護（屬於PCI需求�
 
 ## 客戶可以建立和修改IP黑名單以封鎖流量嗎？
 
-可以，客戶可以在雲端基礎結構的Admin UI上，從Adobe Commerce啟用依國家/地區和存取控制清單(ACL)的封鎖。 若您想要封鎖來自特定國家/地區或特定IP或IP範圍的訪客存取，請使用這些功能。 如果您希望封鎖的訪客看到自訂頁面而不是錯誤代碼，您可以在Fastly設定選單中上傳HTML來建立自訂錯誤頁面。 請參閱我們的開發人員檔案中的[建立自訂錯誤/維護頁面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+可以，客戶可以在雲端基礎結構的Admin UI上，從Adobe Commerce啟用依國家/地區和存取控制清單(ACL)的封鎖。 若您想要封鎖來自特定國家/地區或特定IP或IP範圍的訪客存取，請使用這些功能。 如果您希望封鎖的訪客看到自訂頁面而不是錯誤代碼，您可以在Fastly設定選單中上傳HTML來建立自訂錯誤頁面。 請參閱我們的開發人員檔案中的[建立自訂錯誤/維護頁面](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)。
 
 ## 我可以在哪裡檢視WAF服務的運作狀態？
 
@@ -118,7 +118,7 @@ Adobe Commerce的WAF產品包括OWASP前10大威脅的保護（屬於PCI需求�
 
 雖然Adobe Commerce沒有安全性作業中心，但我們有安全性作業程式，可讓我們運用適當的資源，即時回應安全性事件。 我們亦提供全年無休的追蹤支援。
 
-您也可以從[安全性中心](https://helpx.adobe.com/security.html)取得與Adobe Commerce相關的安全性新聞與更新。
+您也可以從[安全性中心](https://helpx.adobe.com/tw/security.html)取得與Adobe Commerce相關的安全性新聞與更新。
 
 ## 提供哪些支援？
 
@@ -160,7 +160,7 @@ Adobe Commerce支援票證系統可追蹤我們的支援工程師與客戶人員
 </tr>
 <tr>
 <td>緊急升級*</td>
-<td>請參閱美國和國際號碼的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html">Adobe Commerce P1通知熱線</a>文章。</td>
+<td>請參閱美國和國際號碼的<a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/adobe-commerce-p1-notification-hotline.html?lang=zh-Hant">Adobe Commerce P1通知熱線</a>文章。</td>
 </tr>
 </tbody>
 </table>

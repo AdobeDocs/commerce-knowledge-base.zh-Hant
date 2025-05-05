@@ -30,12 +30,12 @@ ht-degree: 0%
 
 有兩種方式可透過從專案中移除使用者來停止通知：
 
-* 方法1：使用雲端[!DNL Project URL]。 如需相關步驟，請參閱Commerce雲端基礎結構指南中的[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)。
-* 方法2：使用magento-cloud [!DNL CLI]。 如需相關步驟，請參閱Commerce雲端基礎結構指南中的[使用 [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-with-the-cli)管理使用者。
+* 方法1：使用雲端[!DNL Project URL]。 如需相關步驟，請參閱Commerce雲端基礎結構指南中的[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant)。
+* 方法2：使用magento-cloud [!DNL CLI]。 如需相關步驟，請參閱Commerce雲端基礎結構指南中的[使用 [!DNL CLI]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant#manage-users-with-the-cli)管理使用者。
 
 如果已完成此操作，但電子郵件通知仍繼續包含這些使用者，請提交支援票證以請求從帳戶上的&#x200B;*[!UICONTROL Always CC]*&#x200B;設定中移除這些使用者。
 
 ## 相關閱讀
 
-* 在Commerce雲端基礎結構指南中[檢視使用者的專案角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#view-a-user&#39;s-project-role)。
-* [如何在Commerce KB的支援通知](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html)中包含團隊成員。
+* 在Commerce雲端基礎結構指南中[檢視使用者的專案角色](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant#view-a-user&?lang=zh-Hant#39;s-project-role)。
+* [如何在Commerce KB的支援通知](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-include-a-team-member-in-support-notifications.html?lang=zh-Hant)中包含團隊成員。

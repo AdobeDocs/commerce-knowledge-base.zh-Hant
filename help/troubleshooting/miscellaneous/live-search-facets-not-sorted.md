@@ -22,7 +22,7 @@ Adobe Commerce 2.4.x和更新版本
 
 ## 因應措施
 
-但是，在某些邊緣案例中，Facet可能無法依照在[[!DNL Live Search] Faceting工作區](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)中設定的字母順序排序。
+但是，在某些邊緣案例中，Facet可能無法依照在[[!DNL Live Search] Faceting工作區](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/live-search/live-search-admin/facets/faceting-workspace)中設定的字母順序排序。
 
 暫行解決方法是在[!UICONTROL Admin]屬性區段中排序產品屬性。
 

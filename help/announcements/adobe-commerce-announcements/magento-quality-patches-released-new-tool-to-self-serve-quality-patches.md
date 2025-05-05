@@ -29,5 +29,5 @@ Adobe已發行品質修補程式工具以供一般使用，此工具可讓您套
 
 如需詳細資訊，請參閱我們的開發人員檔案：
 
-* [品質修補程式工具中可用的修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)
-* [品質修補工具發行說明](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [品質修補程式工具中可用的修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hant)
+* [品質修補工具發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/release-notes)

@@ -33,7 +33,7 @@ Adobe Commerce已與Nginx一併安裝。
 <u>要再現的步驟</u>：
 
 1. 設定Adobe Commerce以使用AWS `s3`作為媒體儲存空間。
-1. 使用Adobe Commerce安裝目錄中提供的`nginx.conf.sample`設定檔和Nginx虛擬主機來設定Nginx。 請參閱我們的開發人員檔案中的[設定Nginx](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)。
+1. 使用Adobe Commerce安裝目錄中提供的`nginx.conf.sample`設定檔和Nginx虛擬主機來設定Nginx。 請參閱我們的開發人員檔案中的[設定Nginx](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/web-server/nginx)。
 1. 使用單一產品影像建立簡單產品。
 1. Nginx在`nginx.conf.sample`中調整影像大小的組態未加註解，類似於：
 

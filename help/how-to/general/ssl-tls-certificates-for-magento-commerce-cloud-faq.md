@@ -67,7 +67,7 @@ SSL憑證的名稱僅對主要URL重要，它是由第一個URL命名的主要�
 
 ## 我可以使用萬用字元TLS憑證嗎？
 
-萬用字元TLS憑證只能與您的自訂憑證搭配使用，而不能與Adobe Commerce Let&#39;s Encrypt憑證搭配使用。 作為TLS最佳化的一部分，Adobe將終止支援萬用字元TLS憑證。 我們正在識別並連絡使用萬用字元憑證搭配Adobe的Let&#39;s Encrypt憑證，並在Adobe Commerce的[!DNL Fastly]主控台中設定的商家。 我們要求將這些萬用字元憑證取代為確切的網域，以確保TLS涵蓋範圍。 若要取代萬用字元TLS憑證，請造訪[!DNL Fastly]外掛程式的[網域區段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)。 從這裡，可以新增確切的網域，並移除萬用字元。 請注意，DNS必須指向[!DNL Fastly]，這些新網域才能透過CDN路由。 新增網域並更新DNS之後，將會布建相符的[Let&#39;s Encrypt](https://letsencrypt.org/)憑證。 如果您未使用萬用字元移除指向[!DNL Fastly]的網域，Adobe將會刪除共用憑證。 如果您未設定URL FQDN並在DNS中設定相同的URL FQDN，這可能會導致網站中斷。 因此，您應該確認設定的URL在其DNS中也有指向[!DNL Fastly]的一對一相符專案。
+萬用字元TLS憑證只能與您的自訂憑證搭配使用，而不能與Adobe Commerce Let&#39;s Encrypt憑證搭配使用。 作為TLS最佳化的一部分，Adobe將終止支援萬用字元TLS憑證。 我們正在識別並連絡使用萬用字元憑證搭配Adobe的Let&#39;s Encrypt憑證，並在Adobe Commerce的[!DNL Fastly]主控台中設定的商家。 我們要求將這些萬用字元憑證取代為確切的網域，以確保TLS涵蓋範圍。 若要取代萬用字元TLS憑證，請造訪[!DNL Fastly]外掛程式的[網域區段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)。 從這裡，可以新增確切的網域，並移除萬用字元。 請注意，DNS必須指向[!DNL Fastly]，這些新網域才能透過CDN路由。 新增網域並更新DNS之後，將會布建相符的[Let&#39;s Encrypt](https://letsencrypt.org/)憑證。 如果您未使用萬用字元移除指向[!DNL Fastly]的網域，Adobe將會刪除共用憑證。 如果您未設定URL FQDN並在DNS中設定相同的URL FQDN，這可能會導致網站中斷。 因此，您應該確認設定的URL在其DNS中也有指向[!DNL Fastly]的一對一相符專案。
 
 ## 如果我的網域不再指向Adobe Commerce，怎麼辦？
 
@@ -75,4 +75,4 @@ SSL憑證的名稱僅對主要URL重要，它是由第一個URL命名的主要�
 
 ## 相關閱讀
 
-在開發人員檔案中[布建SSL/TLS憑證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)
+在開發人員檔案中[布建SSL/TLS憑證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#provision-ssltls-certificates)

@@ -29,4 +29,4 @@ ht-degree: 0%
 
 ## 解決方案
 
-若要解決此問題，請參閱是否有包含檔案和子目錄的`<magento_root>/update`目錄。 否則，請參閱我們的開發人員檔案中的[設定更新程式](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error)。
+若要解決此問題，請參閱是否有包含檔案和子目錄的`<magento_root>/update`目錄。 否則，請參閱我們的開發人員檔案中的[設定更新程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/updater-application-is-not-available-error)。

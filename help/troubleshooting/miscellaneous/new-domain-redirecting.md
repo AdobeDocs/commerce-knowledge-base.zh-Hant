@@ -29,15 +29,15 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 如果網域在相同環境中重新導向，請確定您已設定[變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables)。
+1. 如果網域在相同環境中重新導向，請確定您已設定[變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#modify-variables)。
 1. 如果網域正在重新導向到另一個環境，請執行以下命令，檢查您是否已設定正確的[!DNL Fastly]服務： `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->您可以登入每個環境（測試/生產）並檢查`/mnt/shared/fastly_tokens.txt`檔案，以找到[!DNL Fastly] API認證。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[設定 [!DNL Fastly] 服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+>您可以登入每個環境（測試/生產）並檢查`/mnt/shared/fastly_tokens.txt`檔案，以找到[!DNL Fastly] API認證。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[設定 [!DNL Fastly] 服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)。
 
 如果上述兩個設定都正確，請提交支援票證。
 
 ## 相關閱讀
 
-* [在我們支援知識庫中設定新網域](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html)的檢查清單。
+* [在我們支援知識庫中設定新網域](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html?lang=zh-Hant)的檢查清單。

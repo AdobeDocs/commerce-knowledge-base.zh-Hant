@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-使用手冊中的[自動產品重新導向](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic)。
+使用手冊中的[自動產品重新導向](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/seo/url-rewrites/url-redirect-product-automatic)。

@@ -23,7 +23,7 @@ Adobe Commerce 2.3.x
 
 <u>要再現的步驟</u>
 
-（先決條件：確定存放區不是[維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)）。
+（先決條件：確定存放區不是[維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/set-mode#config-mode-show)）。
 
 在網頁瀏覽器中導覽至您的Commerce管理員或店面。
 

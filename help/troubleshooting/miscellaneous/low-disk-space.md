@@ -45,7 +45,7 @@ Adobe Commerce會將所有記錄檔儲存在`var`目錄中。 會建立新記錄
 * 清除`var`目錄。
 * 設定cron工作以追蹤`var`目錄的大小並加以清除。
 * 如果您有未使用的磁碟空間，請分配更多磁碟空間。 （如需如何檢查您的空間限制的詳細資訊，請參閱下節。）
-   * 對於入門計畫、所有環境和Pro計畫整合環境，如果您有一些未使用的磁碟空間，則可以配置磁碟空間，如[管理磁碟空間：配置磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)中所述。
+   * 對於入門計畫、所有環境和Pro計畫整合環境，如果您有一些未使用的磁碟空間，則可以配置磁碟空間，如[管理磁碟空間：配置磁碟空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#application-disk-space)中所述。
    * 對於Pro計畫測試和生產環境，如果您有一些未使用的磁碟空間，請聯絡支援以分配更多磁碟空間。
 * 如果您已達到空間限制，但仍遇到空間不足的問題，請考慮購買更多磁碟空間，並連絡您的Adobe帳戶團隊以取得詳細資料。
 

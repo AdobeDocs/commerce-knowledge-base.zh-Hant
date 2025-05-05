@@ -48,7 +48,7 @@ ht-degree: 0%
 
 若要確認您的crontab是否已設定，請執行下列步驟：
 
-1. 以[Magento檔案系統擁有者](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)身分登入或切換至您的Magento伺服器。
+1. 以[Magento檔案系統擁有者](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)身分登入或切換至您的Magento伺服器。
 1. 檢視下列檔案是否存在：    `bash    ls -al <magento_root>/var/.setup_cronjob_status`。 如果檔案存在，則cron過去已順利執行。 如果檔案&#x200B;*不存在*，表示您尚未安裝Magento或沒有執行cron。 無論是上述哪一種情況，請繼續進行下一個步驟。
 1. 取得有關cron的更多詳細資料。 以具有`root`許可權的使用者身分，輸入下列命令：    `bash    crontab -u <Magento file system owner name> -l`。 例如，在CentOS `bash    crontab -u magento_user -l`上。  如果尚未為使用者設定crontab，則會顯示以下訊息：    `terminal    no crontab for magento_user`。 您的crontab會告訴您下列內容：
 
@@ -62,17 +62,17 @@ ht-degree: 0%
 
 ### 未設定crontab的解決方案 {#solution-crontab-not-set-up}
 
-若要確認您的cron工作已正確設定，請參閱[設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
+若要確認您的cron工作已正確設定，請參閱[設定cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 ### 從不正確的PHP二進位檔案執行cron的解決方案 {#solution-cron-running-from-incorrect-php-binary}
 
 如果您的cron作業使用與Web伺服器外掛程式不同的PHP二進位檔，則可能會顯示PHP設定錯誤。 若要解決此問題，請為PHP命令列和PHP Web伺服器外掛程式設定相同的PHP設定。
 
-如需有關PHP設定的詳細資訊，請參閱我們的開發人員檔案中的[必要的PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+如需有關PHP設定的詳細資訊，請參閱我們的開發人員檔案中的[必要的PHP設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
 
 ### cron執行時發生錯誤的解決方案 {#solution-cron-running-with-errors}
 
-嘗試手動執行每個命令，因為命令可能會顯示有用的錯誤訊息。 請參閱[設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/next-steps/configuration)。
+嘗試手動執行每個命令，因為命令可能會顯示有用的錯誤訊息。 請參閱[設定cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/next-steps/configuration)。
 
 >[!NOTE]
 >

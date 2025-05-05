@@ -44,7 +44,7 @@ ht-degree: 0%
 如果您的Adobe Commerce專案部署在Pro架構上，則可以使用[!DNL Percona Toolkit]來分析查詢。
 
 1. 對MySQL慢速查詢記錄檔執行`pt-query-digest --type=slowlog`命令。
-   * 若要尋找緩慢查詢記錄檔的位置，請參閱我們的開發人員檔案中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**。
+   * 若要尋找緩慢查詢記錄檔的位置，請參閱我們的開發人員檔案中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hant)**。
    * 請參閱[[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest)檔案。
 1. 根據發現的問題，採取步驟修正查詢，讓查詢更快執行。
 
@@ -81,4 +81,4 @@ ht-degree: 0%
 * 在dev.mysql.com中[MySQL Show Processlist語法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
 * dev.mysql.com中的[MySQL Kill語法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
 * 在開發人員檔案中[安全性、效能和資料處理](https://developer.adobe.com/commerce/php/best-practices/extensions/security/)。
-* 在開發人員檔案中[MySQL說明](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。
+* 在開發人員檔案中[MySQL說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。

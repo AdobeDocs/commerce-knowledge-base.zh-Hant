@@ -50,4 +50,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 使用手冊中的[媒體儲存空間](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)。
+* 使用手冊中的[媒體儲存空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/wysiwyg/storage/media-storage)。

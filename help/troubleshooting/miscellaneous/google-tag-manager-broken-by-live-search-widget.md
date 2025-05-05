@@ -31,6 +31,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在我們的Adobe Commerce Live Search檔案中[[!DNL Live Search] 指南總覽](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html)
+* 在我們的Adobe Commerce Live Search檔案中[[!DNL Live Search] 指南總覽](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/guide-overview.html?lang=zh-Hant)
 
-* 在我們的Adobe Commerce Live Search檔案中[正在安裝 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html)
+* 在我們的Adobe Commerce Live Search檔案中[正在安裝 [!DNL Live Search]](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hant)

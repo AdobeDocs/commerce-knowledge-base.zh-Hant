@@ -34,7 +34,7 @@ ht-degree: 0%
 <p>在這些情況下，管理員使用者需要將您新增至專案。</p>
 </td>
 <td>
-<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html">存取我們的支援知識庫中的New Relic服務</a>。</p>
+<p><a href="https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/faq/access-new-relic-services.html?lang=zh-Hant">存取我們的支援知識庫中的New Relic服務</a>。</p>
 </td>
 </tr>
 <tr>

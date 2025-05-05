@@ -95,7 +95,7 @@ Adobe Commerce應用程式元件2.3.2版中的匯出功能已知問題。
 
 >[!TIP]
 >
->[YAML檔案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)區分大小寫，不允許使用索引標籤。 請留意在.magento.env.yaml檔案中使用一致的縮排，否則您的設定可能無法如預期運作。 檔案和範例檔案中的範例使用雙空格縮排。 使用ece-tools validate指令檢查您的設定。
+>[YAML檔案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)區分大小寫，不允許使用索引標籤。 請留意在.magento.env.yaml檔案中使用一致的縮排，否則您的設定可能無法如預期運作。 檔案和範例檔案中的範例使用雙空格縮排。 使用ece-tools validate指令檢查您的設定。
 
 >[!NOTE]
 >

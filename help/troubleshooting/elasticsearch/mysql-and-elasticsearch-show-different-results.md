@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
-> 將在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中移除MySQL目錄搜尋引擎。 您必須先設定並設定Elasticsearch主機，才能安裝2.4.0版。請參閱我們的開發人員檔案中的[安裝及設定Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/overview-search)。
+> 將在Adobe Commerce 2.4.0[&#128279;](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)中移除MySQL目錄搜尋引擎。 您必須先設定並設定Elasticsearch主機，才能安裝2.4.0版。請參閱我們的開發人員檔案中的[安裝及設定Elasticsearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/search/overview-search)。
 
 本文針對雲端基礎結構2.2.3中已知的Adobe Commerce問題，提供修補程式，這些問題與使用MySQL和Elasticsearch取得相同搜尋查詢的不同搜尋結果有關。
 

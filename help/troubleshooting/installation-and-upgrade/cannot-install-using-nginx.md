@@ -31,4 +31,4 @@ If you are using the sample nginx configuration, please go to http://ce.mtf03.bc
 
 ### 因應措施
 
-使用[命令列](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)安裝Adobe Commerce軟體。
+使用[命令列](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/advanced)安裝Adobe Commerce軟體。

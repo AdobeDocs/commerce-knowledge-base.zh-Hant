@@ -66,11 +66,11 @@ ht-degree: 0%
 
 如果您使用在共用帳戶下建立的金鑰，您需要聯絡Adobe Commerce授權擁有者，他為您提供存取權，並要求他們為您產生金鑰。
 
-如果您的授權先前因付款問題而被撤銷，而且您已解決這些問題且已更新授權，則您需要[產生新的驗證金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)。
+如果您的授權先前因付款問題而被撤銷，而且您已解決這些問題且已更新授權，則您需要[產生新的驗證金鑰](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html?lang=zh-Hant)。
 
 ### 2.在env：COMPOSER\_AUTH變數中新增索引鍵值，並檢查auth.json中是否指定了相同的索引鍵
 
-在開發人員檔案中，請參閱[準備現有系統](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)和[新增驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/overview)中的指示和相關資訊。
+在開發人員檔案中，請參閱[準備現有系統](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/overview)和[新增驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/overview)中的指示和相關資訊。
 
 ### 3.更新或刪除auth.json
 

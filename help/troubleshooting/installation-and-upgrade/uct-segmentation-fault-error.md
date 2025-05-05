@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 受影響的產品和版本
 
-* [升級相容性工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html)與2.3.0以後的Adobe Commerce版本相容。
+* [升級相容性工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/overview.html?lang=zh-Hant)與2.3.0以後的Adobe Commerce版本相容。
 
 ## 分段錯誤錯誤
 
@@ -82,4 +82,4 @@ php -d memory_limit=-1 /bin/uct upgrade:check INSTALLATION_DIR -c M2_VERSION
 bin/uct upgrade:check /<dir>/<instance-name> -m /vendor/<vendor-name>/
 ```
 
-如需命令列介面選項的詳細資訊，請參閱[在命令列介面中執行工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html)頁面。
+如需命令列介面選項的詳細資訊，請參閱[在命令列介面中執行工具](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/upgrade-compatibility-tool/use-upgrade-compatibility-tool/run.html?lang=zh-Hant)頁面。

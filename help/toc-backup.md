@@ -338,11 +338,11 @@ ht-degree: 0%
       * [Realpath快取大小最佳實務](/help/best-practices/configuration/realpath-cache-size-best-practice.md)
       * [在Adobe Commerce中最佳化CSS和JS檔案](/help/best-practices/configuration/optimize-css-and-js-files-in-magento-commerce.md)
    * 資料庫{#database}
-      * [Adobe Commerce 2.3.5升級：壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)
+      * [Adobe Commerce 2.3.5升級：壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=zh-Hant)
       * [觸發器使用的最佳實務](/help/best-practices/database/best-practice-for-triggers-usage.md)
-      * [雲端基礎結構上Adobe Commerce中最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
+      * [雲端基礎結構上Adobe Commerce中最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hant)
       * [MySQL從屬連線雲端基礎結構上的Adobe Commerce最佳實務](/help/best-practices/database/magento-commerce-cloud-best-practice-for-slave-connection.md)
-      * [雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+      * [雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hant)
    * 一般{#general}
       * [私人內容區塊中的_isScopePrivate會減慢Adobe Commerce效能](/help/best-practices/general/isscopeprivate-in-private-content-blocks-slows-magento-performance.md)
       * [雲端基礎結構上Adobe Commerce的疑難排解最佳做法](/help/best-practices/general/troubleshooting-best-practices-for-magento-commerce-cloud.md)
@@ -370,7 +370,7 @@ ht-degree: 0%
       * [雲端基礎結構上Adobe Commerce中影像的最佳實務](/help/best-practices/performance/best-practice-for-images-in-magento-commerce-cloud.md)
       * [Adobe Commerce最佳實務：在管理員中執行關鍵動作](/help/best-practices/performance/magento-best-practice-conducting-critical-actions-in-admin.md)
       * [Adobe Commerce最佳實務：若未使用，請停用報表](/help/best-practices/performance/magento-best-practice-disable-reports-if-not-using.md)
-      * [索引子「依排程更新」可最佳化Adobe Commerce效能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html)
+      * [索引子「依排程更新」可最佳化Adobe Commerce效能](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/indexer-configuration.html?lang=zh-Hant)
       * [Adobe Commerce產品變數最佳實務](/help/best-practices/performance/best-practice-magento-product-variations.md)
       * [Adobe Commerce訂購績效最佳實務](/help/best-practices/performance/best-practice-magento-order-placement-performance.md)
       * [Adobe Commerce最佳實務：啟用非同步訂單處理](/help/best-practices/performance/magento-best-practice-enable-asynchronous-orders-processing.md)

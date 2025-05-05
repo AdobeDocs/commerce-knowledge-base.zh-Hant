@@ -14,7 +14,7 @@ ht-degree: 0%
 # 可用於Adobe Commerce的安全性更新 — [!DNL APSB24-73]
 
 2024年10月8日，Adobe已發行Adobe Commerce和[!DNL Adobe Commerce Webhooks Plugin]的定期排程安全性更新。
-此更新解決[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用此漏洞可能會導致執行任意程式碼、讀取任意檔案系統、略過安全性功能以及提升許可權。 公告是[Adobe安全性公告([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html)。
+此更新解決[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/tw/security/severity-ratings.html)漏洞。 成功利用此漏洞可能會導致執行任意程式碼、讀取任意檔案系統、略過安全性功能以及提升許可權。 公告是[Adobe安全性公告([!DNL APSB24-73])](https://helpx.adobe.com/tw/security/products/magento/apsb24-73.html)。
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ B2B：
 
 ## 如何套用隔離的修補程式
 
-解壓縮檔案，並參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的撰寫器修補程式，以取得指示。
+解壓縮檔案，並參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hant)提供的撰寫器修補程式，以取得指示。
 
 ## 僅適用於Adobe Commerce on Cloud商家 — 如何分辨是否已套用隔離的修補程式
 
@@ -63,7 +63,7 @@ B2B：
 
 <u>您可以執行下列步驟，以檔案`VULN-27015-2.4.7_COMPOSER.patch` **為例**</u>：
 
-1. [安裝品質修補工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安裝品質修補工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hant)。
 1. 執行命令： <br>
    ![cve-2024-34102-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. 您應該會看到類似以下的輸出，其中VULN-27015傳回&#x200B;*已套用*&#x200B;狀態：
@@ -82,4 +82,4 @@ B2B：
 
 Adobe Commerce可用的安全性更新：
 
-* [Adobe安全性公告([!DNL APSB24-73])](https://helpx.adobe.com/security/products/magento/apsb24-73.html)
+* [Adobe安全性公告([!DNL APSB24-73])](https://helpx.adobe.com/tw/security/products/magento/apsb24-73.html)

@@ -29,7 +29,7 @@ ht-degree: 0%
 
 先決條件：已安裝Adobe Commerce 2.4.3或更舊版本。
 
-1. 開始升級，如[執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html)中所述。
+1. 開始升級，如[執行升級](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade.html?lang=zh-Hant)中所述。
 1. 執行`composer update`命令以升級Adobe Commerce應用程式。
 
 <u>預期結果</u>：
@@ -64,7 +64,7 @@ Plugin initialization failed (require(app/etc/NonComposerComponentRegistration.p
 
 根據您安裝Adobe Commerce的方式，將下列專案新增至您的`composer.json`檔案：
 
-* 如果已使用`composer create-project`命令[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer#get-the-metapackage)建立專案：
+* 如果已使用`composer create-project`命令[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer#get-the-metapackage)建立專案：
 
   ```json
   "config": {

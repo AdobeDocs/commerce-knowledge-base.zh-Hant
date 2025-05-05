@@ -52,5 +52,5 @@ Composer version 1.0-dev (2b14f0a047dd4f3545ec82381f65c36ea93a4c81) 2015-11-25 1
    * 將Composer升級為2015年11月26日之後的版本： `composer self-update`。
 
 1. 刪除您的Adobe Commerce目錄和子目錄。
-1. 請使用`[composer create-project](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)`或`[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`再次嘗試下載。
+1. 請使用`[composer create-project](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)`或`[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`再次嘗試下載。
 1. 成功下載Adobe Commerce軟體後，更新撰寫器： `composer self-update`。

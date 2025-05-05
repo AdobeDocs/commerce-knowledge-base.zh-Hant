@@ -40,5 +40,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 雲端基礎結構指南上的Commerce中的[網頁應用程式防火牆(WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service)。
-* [開始使用雲端基礎結構指南上的Commerce中的自訂VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
+* 雲端基礎結構指南上的Commerce中的[網頁應用程式防火牆(WAF)](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service)。
+* [開始使用雲端基礎結構指南上的Commerce中的自訂VCL](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。

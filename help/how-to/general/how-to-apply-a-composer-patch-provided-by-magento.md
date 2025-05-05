@@ -36,7 +36,7 @@ ht-degree: 0%
    git push origin
    ```
 
-如需將修補程式套用至雲端專案的其他資訊，請參閱我們的開發人員檔案中的[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+如需將修補程式套用至雲端專案的其他資訊，請參閱我們的開發人員檔案中的[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ### 如何套用Adobe Commerce內部部署和Magento Open Source的撰寫器修補程式 {#commerce}
 

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-在2022年8月，我們發行了DHL結構描述6.2版的[升級，以及修正修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html)，讓商家能夠繼續提供DHL運送。 DHL於2022年10月再次推出較新的結構描述（10.0版），而舊版（6.2結構描述）將於2022年12月底淘汰。 Adobe Commerce 2.4.5和更早版本的DHL整合僅支援版本6.2。
+在2022年8月，我們發行了DHL結構描述6.2版的[升級，以及修正修補程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=zh-Hant)，讓商家能夠繼續提供DHL運送。 DHL於2022年10月再次推出較新的結構描述（10.0版），而舊版（6.2結構描述）將於2022年12月底淘汰。 Adobe Commerce 2.4.5和更早版本的DHL整合僅支援版本6.2。
 
 ## 解決方案
 
@@ -35,8 +35,8 @@ ht-degree: 0%
 
 請參閱下列連結，瞭解如何使用[!DNL Quality Patches Tool]並根據您的部署方法安裝修補程式：
 
-* Adobe Commerce內部部署與Magento Open Source： [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html) in Adobe Experience League。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* Adobe Commerce內部部署與Magento Open Source： [Quality Patches Tools > Usage](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hant) in Adobe Experience League。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 **此修補程式適用於下列Adobe Commerce版本（所有部署方法）：**
 
@@ -44,13 +44,13 @@ ht-degree: 0%
 
 ## 有用的連結
 
-* Adobe Experience League中的[[!DNL Quality Patches Tool] >發行說明](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)。
+* Adobe Experience League中的[[!DNL Quality Patches Tool] >發行說明](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=zh-Hant)。
 
-* [[!DNL Quality Patches Tool]：在Adobe Experience League中搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。
+* [[!DNL Quality Patches Tool]：在Adobe Experience League中搜尋修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hant)。
 
 ## 相關閱讀
 
-* [套用修補程式，以繼續將DHL作為支援知識庫中的運送業者](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html)。
+* [套用修補程式，以繼續將DHL作為支援知識庫中的運送業者](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/adobe-commerce-dhl-upgrade-patch.html?lang=zh-Hant)。
 
-* 使用手冊中的[運送公司> DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html)。
-* 使用手冊中的[設定參考>銷售>傳遞方法](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html)。
+* 使用手冊中的[運送公司> DHL](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/dhl.html?lang=zh-Hant)。
+* 使用手冊中的[設定參考>銷售>傳遞方法](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/delivery-methods.html?lang=zh-Hant)。

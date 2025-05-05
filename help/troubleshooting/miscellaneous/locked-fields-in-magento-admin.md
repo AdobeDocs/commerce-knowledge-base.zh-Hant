@@ -52,6 +52,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在開發人員檔案中[匯出設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)。
-* 在開發人員檔案中[設定組態值](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)。
+* 在開發人員檔案中[匯出設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/configuration-management/export-configuration)。
+* 在開發人員檔案中[設定組態值](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/configuration-management/set-configuration-values)。
 * 雲端基礎結構上的[Adobe Commerce：在我們的支援知識庫中使用組態管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md)，減少部署停機時間。

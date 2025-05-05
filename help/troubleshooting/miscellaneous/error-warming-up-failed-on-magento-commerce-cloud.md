@@ -47,5 +47,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Adobe Commerce使用手冊>完整頁面快取](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) （在我們的使用手冊中）。
+* [Adobe Commerce使用手冊>完整頁面快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/tools/cache-management#full-page-caching) （在我們的使用手冊中）。
 * 我們的支援知識庫中的[快取準備和網站無法在Adobe Commerce](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)上使用。

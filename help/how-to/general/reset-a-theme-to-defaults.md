@@ -30,7 +30,7 @@ ht-degree: 0%
 
 如果您需要重設存放區主題，但無法存取「管理員」面板，可以執行下列動作在資料庫中重設主題：
 
-1. 使用資料庫工具（例如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)）或從命令列手動存取資料庫，以執行下列SQL查詢： `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. 使用資料庫工具（例如[phpMyAdmin](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)）或從命令列手動存取資料庫，以執行下列SQL查詢： `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. 清除下列目錄：
    * `pub/static/frontend`
    * `var/view_preprocessing`

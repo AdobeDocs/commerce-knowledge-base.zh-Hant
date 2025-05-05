@@ -34,11 +34,11 @@ Next exception 'ReflectionException' with message 'Class Magento\CatalogRule\Mod
 
 ### 解決方案
 
-[再次設定檔案系統擁有權和許可權](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html)為具有`root`許可權的使用者。
+[再次設定檔案系統擁有權和許可權](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/file-system-permissions.html?lang=zh-Hant)為具有`root`許可權的使用者。
 
 ## 症狀（生產模式）
 
-如果您目前設定為[生產模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html)，如果您使用[magento sampledata：deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html)命令，範例資料安裝會失敗：
+如果您目前設定為[生產模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hant)，如果您使用[magento sampledata：deploy](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/next-steps/sample-data/composer-packages.html?lang=zh-Hant)命令，範例資料安裝會失敗：
 
 ```php
 PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Console\Input\ArrayInput::__construct() must be of the type array, object given, called in /<path>/vendor/magento/framework/ObjectManager/Factory/AbstractFactory.php on line 97 and defined in /<path>/vendor/symfony/console/Symfony/Component/Console/Input/ArrayInput.php:37
@@ -48,7 +48,7 @@ PHP Fatal error: Uncaught TypeError: Argument 1 passed to Symfony\Component\Cons
 
 請勿在生產模式中安裝範例資料。 切換到開發人員模式並清除部分`var`目錄，然後再試一次。
 
-請依照顯示為[Adobe Commerce檔案系統擁有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html)的順序輸入下列命令：
+請依照顯示為[Adobe Commerce檔案系統擁有者](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/file-system/overview.html?lang=zh-Hant)的順序輸入下列命令：
 
 ```php
 cd <magento_root>

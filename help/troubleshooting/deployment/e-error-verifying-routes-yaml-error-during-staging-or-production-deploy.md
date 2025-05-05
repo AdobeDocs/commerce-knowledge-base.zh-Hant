@@ -80,7 +80,7 @@ ht-degree: 0%
 
 1. 提с交並推送您的變更，以重新部署您的專案。
 
-如需更新路由設定的詳細指示，請參閱我們的開發人員檔案中的[Adobe Commerce雲端>設定路由](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml)。
+如需更新路由設定的詳細指示，請參閱我們的開發人員檔案中的[Adobe Commerce雲端>設定路由](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml)。
 
 >[!NOTE]
 >

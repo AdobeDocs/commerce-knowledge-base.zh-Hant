@@ -27,7 +27,7 @@ ht-degree: 0%
 
 `max_execution_time = 120`
 
-請參閱[自訂php.ini設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
+請參閱[自訂php.ini設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 範例
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-自訂您的`php.ini`設定。 請參閱此[自訂php.ini設定](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
+自訂您的`php.ini`設定。 請參閱此[自訂php.ini設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/php-settings)文章。
 
 ## 範例
 
@@ -65,9 +65,9 @@ MySQL環境的磁碟空間已用完。 為MySQL環境提供更多磁碟空間。
 
 在我們的開發人員檔案中：
 
-* [PHP設定錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
-* [必要的PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)
-* [Redis驗證](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
-* [設定Redis](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
-* [PHP記憶體限制錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [PHP設定錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/overview)
+* [必要的PHP設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/php-settings)
+* [Redis驗證](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/redis/redis-session#verify-redis-connection)
+* [設定Redis](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cache/redis/config-redis)
+* [PHP記憶體限制錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/overview)
 * [常見問題的解決方案 — 記憶體限制](https://developer.adobe.com/commerce/testing/guide/unit/command-line/#solutions-to-common-problems)

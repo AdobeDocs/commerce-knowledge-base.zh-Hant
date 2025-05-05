@@ -29,7 +29,7 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-變更`.magento.env.yaml`中的任何值，並推送至伺服器，伺服器應定義目前取出環境的組態（和部署設定）。 如需相關步驟，請參閱我們的開發人員檔案中的[環境變數>部署變數](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy)。
+變更`.magento.env.yaml`中的任何值，並推送至伺服器，伺服器應定義目前取出環境的組態（和部署設定）。 如需相關步驟，請參閱我們的開發人員檔案中的[環境變數>部署變數](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-deploy)。
 
 <u>預期結果：</u>
 
@@ -45,11 +45,11 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 檢查系統是否已根據[Adobe Commerce效能最佳實務>軟體建議](https://experienceleague.adobe.com/en/docs/commerce-operations/performance-best-practices/software)進行設定。
+1. 檢查系統是否已根據[Adobe Commerce效能最佳實務>軟體建議](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/performance-best-practices/software)進行設定。
 1. 透過執行： `php -i | grep opcache.enable_cli`，檢查`php.ini`中的`opcache.enable_cli`指示詞是否設定為`0`
 1. 如果輸出看起來像`opcache.enable_cli=1`，請編輯專案根目錄中的`php.ini`檔案，並將`opcache.enable_cli=1`變更為`opcache.enable_cli=0`
 1. 重新部署專案。
 
 ## 相關閱讀
 
-* [適用於Adobe Commerce的雲端>建置和部署](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml)。
+* [適用於Adobe Commerce的雲端>建置和部署](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml)。

@@ -82,4 +82,4 @@ on line 63 in /app/vendor/magento/framework/App/ErrorHandler.php:61
 
 ## 相關閱讀
 
-* 在我們的開發人員檔案中[升級和修補程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices)。
+* 在我們的開發人員檔案中[升級和修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/best-practices)。

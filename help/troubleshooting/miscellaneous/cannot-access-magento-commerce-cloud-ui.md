@@ -23,12 +23,12 @@ ht-degree: 0%
 
 如果您在首次存取URL時收到403錯誤，請確定您擁有主分支中的角色。
 
-1. 請連絡с專案的授權擁有者或超級使用者，並確定他們已提供存取權給您，身為&#x200B;**環境層級使用者**，相關說明也請參閱開發人員檔案中的[雲端專案>從雲端主控台管理使用者](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#manage-users-from-the-cloud-console)。
+1. 請連絡с專案的授權擁有者或超級使用者，並確定他們已提供存取權給您，身為&#x200B;**環境層級使用者**，相關說明也請參閱開發人員檔案中的[雲端專案>從雲端主控台管理使用者](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant#manage-users-from-the-cloud-console)。
 
    如果您在特定分支中只有適用的角色，則您需要前往該分支的URL，例如
    `https://console.adobecommerce.com/<owner-name>/<project-id>/<branch-name>`
 
    下次存取主要URL時，預設為您上次造訪過的環境。
 
-1. 如果您仍然無法登入，請с聯絡專案的授權擁有者或超級使用者，並確定他們已提供您作為&#x200B;**專案層級使用者**&#x200B;的存取權，如開發人員檔案中的[雲端專案>將使用者新增至專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html#add-a-user-to-the-project)所述。
+1. 如果您仍然無法登入，請с聯絡專案的授權擁有者或超級使用者，並確定他們已提供您作為&#x200B;**專案層級使用者**&#x200B;的存取權，如開發人員檔案中的[雲端專案>將使用者新增至專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant#add-a-user-to-the-project)所述。
 1. 如果錯誤持續發生，[送出支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。

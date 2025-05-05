@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 可用於Adobe Commerce的安全性更新 — [!DNL APSB25-08]
 
-2025年2月11日，Adobe發佈了定期排程的Adobe Commerce和Magento Open Source安全性更新。 此更新解決[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/security/severity-ratings.html)漏洞。 成功利用這些漏洞可能會導致執行任意程式碼、略過安全性功能以及提升許可權。 如需詳細資訊，請參閱[Adobe安全性公告([!DNL APSB25-08])此處](https://helpx.adobe.com/security/products/magento/apsb25-08.html)。
+2025年2月11日，Adobe發佈了定期排程的Adobe Commerce和Magento Open Source安全性更新。 此更新解決[[!DNL critical, important]和 [!DNL moderate]](https://helpx.adobe.com/tw/security/severity-ratings.html)漏洞。 成功利用這些漏洞可能會導致執行任意程式碼、略過安全性功能以及提升許可權。 如需詳細資訊，請參閱[Adobe安全性公告([!DNL APSB25-08])此處](https://helpx.adobe.com/tw/security/products/magento/apsb25-08.html)。
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此問題已由[最新雲端修補程式更新](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest)解決。 當雲端修補程式更新中的修正已就緒時，嘗試套用隔離的修補程式可能會導致安裝失敗。
+>此問題已由[最新雲端修補程式更新](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches#latest)解決。 當雲端修補程式更新中的修正已就緒時，嘗試套用隔離的修補程式可能會導致安裝失敗。
 
 為協助解決受影響產品和版本的弱點，您必須根據您的Adobe Commerce/Magento Open Source版本套用[!DNL CVE-2025-24434]獨立修補程式。
 
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 ## 如何套用隔離的修補程式
 
-解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的撰寫器修補程式，以取得指示。
+解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hant)提供的撰寫器修補程式，以取得指示。
 
 ## 僅適用於Adobe Commerce on Cloud商家 — 如何分辨是否已套用隔離的修補程式
 
@@ -81,7 +81,7 @@ ht-degree: 0%
 >
 ><u>您可以執行下列步驟，以檔案`VULN-27015-2.4.7_COMPOSER.patch` **為例**</u>：
 
-1. [安裝品質修補工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html)。
+1. [安裝品質修補工具](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/usage.html?lang=zh-Hant)。
 1. 執行命令： <br>
    ![cve-2024-34102-tell-if-patch-applied-code](assets/cve-2024-34102-tell-if-patch-applied-code.png)
 1. 您應該會看到類似以下的輸出，其中VULN-27015傳回&#x200B;*已套用*&#x200B;狀態：
@@ -100,5 +100,5 @@ ht-degree: 0%
 
 Adobe Commerce可用的安全性更新：
 
-* [Adobe安全性公告([!DNL APSB25-08])](https://helpx.adobe.com/security/products/magento/apsb25-08.html)
-* [可用於Adobe Commerce的最新安全性更新](https://helpx.adobe.com/security/products/magento.html)
+* [Adobe安全性公告([!DNL APSB25-08])](https://helpx.adobe.com/tw/security/products/magento/apsb25-08.html)
+* [可用於Adobe Commerce的最新安全性更新](https://helpx.adobe.com/tw/security/products/magento.html)

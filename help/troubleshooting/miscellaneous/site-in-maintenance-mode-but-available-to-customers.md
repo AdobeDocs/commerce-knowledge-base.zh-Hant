@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-在開發人員檔案中[啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。
+在開發人員檔案中[啟用或停用維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)。

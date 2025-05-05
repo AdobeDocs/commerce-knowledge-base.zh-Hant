@@ -25,7 +25,7 @@ ht-degree: 0%
 不，你不需要。在此情況下，您可以略過使用Fastly — 至少是在開發初期。
 
 唯一您可能不想啟用的情況是Headless部署。
-請參閱我們的開發人員檔案中的[Adobe Commerce雲端> Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)。
+請參閱我們的開發人員檔案中的[Adobe Commerce雲端> Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly)。
 
 不過，很有可能您需要Fastly才能使用其SSL憑證。
 
@@ -34,4 +34,4 @@ ht-degree: 0%
 ## 更多資訊
 
 * [&#128279;](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture)Headless網站：分離式架構有什麼大不了的？由[Josh Koenig](https://pantheon.io/team/josh-koenig)進行的。
-* 在開發人員檔案中[Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)。
+* 在開發人員檔案中[Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly)。

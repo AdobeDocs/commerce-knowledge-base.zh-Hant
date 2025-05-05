@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ### 我可以在哪裡找到所有Adobe Commerce版本的軟體支援日期？
 
-您可以在[Adobe Commerce軟體生命週期原則](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce軟體生命週期原則與軟體支援日期。 我們也會在[開發人員檔案頁面](https://experienceleague.adobe.com/en/docs/commerce-operations/release/versions)上發佈終止支援(EOS)日期。
+您可以在[Adobe Commerce軟體生命週期原則](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)中找到Adobe Commerce軟體生命週期原則與軟體支援日期。 我們也會在[開發人員檔案頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/versions)上發佈終止支援(EOS)日期。
 
 ### Adobe終止支援某個Adobe Commerce軟體版本代表什麼意思？
 
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 您的Commerce平台是貴公司的重要商務系統，及時瞭解最新資訊是商務的重要持續投資。 數位店面的最新技術和安全性更新在許多層面上都很重要，可協助促進創新和成長。
 
-移至最新版Adobe Commerce軟體可能需要時間和資源才能順利執行。 您最好在支援結束日期之前儘早進行規劃，以確保您有適當的時間和資源在預算內如期實現您的策略目標。 為了協助您進行下一次升級，Adobe已發佈[2.4升級指南](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf)，其中包含要遵循的最佳實務和技術步驟，以及執行升級時要使用的工具和資源。
+移至最新版Adobe Commerce軟體可能需要時間和資源才能順利執行。 您最好在支援結束日期之前儘早進行規劃，以確保您有適當的時間和資源在預算內如期實現您的策略目標。 為了協助您進行下一次升級，Adobe已發佈[2.4升級指南](https://experienceleague.adobe.com/docs/commerce-operations/assets/adobe-commerce-2-4-upgrade-guide.pdf?lang=zh-Hant)，其中包含要遵循的最佳實務和技術步驟，以及執行升級時要使用的工具和資源。
 
-另一個重要的考量是儘早預留開發人員和合作夥伴資源。 合作夥伴的時間和資源經常在支援結束日期之前預定，導致協助移轉專案的資源大幅減少。 建議您至少每年討論一次三年滾動計畫，並確定下一年的計畫和預算。 使用[Adobe的發行行事曆](https://experienceleague.adobe.com/en/docs/commerce-operations/release/planning/schedule)追蹤發行日期。
+另一個重要的考量是儘早預留開發人員和合作夥伴資源。 合作夥伴的時間和資源經常在支援結束日期之前預定，導致協助移轉專案的資源大幅減少。 建議您至少每年討論一次三年滾動計畫，並確定下一年的計畫和預算。 使用[Adobe的發行行事曆](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/release/planning/schedule)追蹤發行日期。
 
 ### Adobe Commerce支援終止時，我可以使用協力廠商服務提供者提供軟體支援嗎？
 

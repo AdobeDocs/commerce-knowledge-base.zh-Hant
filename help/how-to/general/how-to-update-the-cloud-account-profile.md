@@ -42,4 +42,4 @@ ht-degree: 0%
 
 如果您需要將您目前帳戶的所有權轉移給新的所有者或其他電子郵件地址，您將需要更新與該帳戶關聯的主要使用者電子郵件。
 
-請參閱： [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=en)
+請參閱： [https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=zh-Hant](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-transfer.html?lang=zh-Hant)

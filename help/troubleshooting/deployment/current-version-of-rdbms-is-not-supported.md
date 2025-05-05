@@ -45,12 +45,12 @@ ht-degree: 0%
 您必須先將MariaDB服務升級為相容的版本，才能升級應用程式。
 
 
-如需雲端基礎結構Pro計畫架構上Adobe Commerce的整合分支（以及入門架構中的所有分支），請遵循開發人員檔案中的[設定服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml)。
+如需雲端基礎結構Pro計畫架構上Adobe Commerce的整合分支（以及入門架構中的所有分支），請遵循開發人員檔案中的[設定服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/services-yaml)。
 
 針對雲端基礎結構Pro計畫架構上Adobe Commerce的測試和生產，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，以便在您部署Adobe Commerce版本升級之前請求升級服務。
 
 
 ## 相關閱讀
 
-* 在開發人員檔案中[組建和部署的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices)。
-* [Adobe Commerce 2.3.5升級：在我們的支援知識庫中壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)。
+* 在開發人員檔案中[組建和部署的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices)。
+* [Adobe Commerce 2.3.5升級：在我們的支援知識庫中壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=zh-Hant)。

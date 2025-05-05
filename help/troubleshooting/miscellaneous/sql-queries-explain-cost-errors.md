@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## 無法執行查詢。 \[xxx\]的EXPLAIN成本值太高，無法執行此查詢。
 
-如果您看到此訊息，則表示該查詢被視為太昂貴，無法執行。 針對這種情況，我們有兩個建議：一個是從您的查詢中排除任何ORDER BY條款，因為它們的作業成本很高。 第二個是遵循我們[最佳化文章](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html)中的秘訣，調整您的查詢。
+如果您看到此訊息，則表示該查詢被視為太昂貴，無法執行。 針對這種情況，我們有兩個建議：一個是從您的查詢中排除任何ORDER BY條款，因為它們的作業成本很高。 第二個是遵循我們[最佳化文章](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/optimizing-your-sql-queries.html?lang=zh-Hant)中的秘訣，調整您的查詢。
 
 ## 無法執行查詢。 此查詢會傳回\[xxx\]列，超過我們10,000列的限制
 

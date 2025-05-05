@@ -31,9 +31,9 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>
 
-1. 依照使用者檔案之[安裝Live Search >設定API金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#configure-api-keys)中的說明，設定並連線您Adobe Commerce執行個體的Live Search。
-1. 30分鐘後，依照使用者檔案中的[安裝即時搜尋>驗證匯出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#verify-export)說明驗證匯出的目錄資料。
-1. 30分鐘後，依照使用者檔案中的[安裝即時搜尋>測試連線](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html#test-connection)所述測試連線。
+1. 依照使用者檔案之[安裝Live Search >設定API金鑰](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hant#configure-api-keys)中的說明，設定並連線您Adobe Commerce執行個體的Live Search。
+1. 30分鐘後，依照使用者檔案中的[安裝即時搜尋>驗證匯出](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hant#verify-export)說明驗證匯出的目錄資料。
+1. 30分鐘後，依照使用者檔案中的[安裝即時搜尋>測試連線](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/install.html?lang=zh-Hant#test-connection)所述測試連線。
 
 或
 
@@ -150,13 +150,13 @@ bin/magento saas:resync --feed categories --cleanup-feed
 bin/magento saas:resync --feed categoryPermissions --cleanup-feed
 ```
 
-[提交支援要求](https://experienceleague.adobe.com/home?support-tab=home#support)以要求即時搜尋索引的重新索引。 在問題說明中，加入&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下管理面板中的資料空間/環境ID。
+[提交支援要求](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)以要求即時搜尋索引的重新索引。 在問題說明中，加入&#x200B;**[!UICONTROL System]** > **[!UICONTROL Services]** > **[!UICONTROL Commerce Services Connector]**&#x200B;下管理面板中的資料空間/環境ID。
 
 >[!IMPORTANT]
->只有在您已更新API組態，或使用[ — 試用](https://experienceleague.adobe.com/en/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)選項執行`saas:resync`命令時，才使用`--cleanup-feed`選項。 在其他情況下使用`--cleanup-feed`選項會導致資料遺失和資料同步問題。
+>只有在您已更新API組態，或使用[ — 試用](https://experienceleague.adobe.com/zh-hant/docs/commerce/saas-data-export/data-export-cli-commands#--dry-run)選項執行`saas:resync`命令時，才使用`--cleanup-feed`選項。 在其他情況下使用`--cleanup-feed`選項會導致資料遺失和資料同步問題。
 
 ## 相關閱讀
 
-* 在我們的使用者檔案中[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html)
-* [在Adobe Commerce SaaS Data Export Guide （僅英文版）中檢閱記錄檔並疑難排解Adobe Commerce SaaS資料匯出和同步](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在我們的使用者檔案中[上線即時搜尋](https://experienceleague.adobe.com/docs/commerce-merchant-services/live-search/onboard/onboarding-overview.html?lang=zh-Hant)
+* [在Adobe Commerce SaaS Data Export Guide （僅英文版）中檢閱記錄檔並疑難排解Adobe Commerce SaaS資料匯出和同步](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/saas-data-export/troubleshooting-logging)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

@@ -57,4 +57,4 @@ Adobe Commerce內部部署：使用[品質修補工具>使用狀況](/docs/comme
 ## 相關閱讀
 
 * Commerce工具指南中的[[!DNL Quality Patches Tool] >發行說明](/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)。
-* [[!DNL Quality Patches Tool]：搜尋Commerce工具指南中的修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。
+* [[!DNL Quality Patches Tool]：搜尋Commerce工具指南中的修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hant)。

@@ -53,4 +53,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 使用手冊中的[安全性掃描](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-scan)。
+* 使用手冊中的[安全性掃描](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-scan)。

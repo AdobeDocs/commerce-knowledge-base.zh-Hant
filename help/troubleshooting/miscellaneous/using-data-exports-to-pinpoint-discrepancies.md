@@ -1,6 +1,6 @@
 ---
 title: 使用資料匯出功能來精確找出差異
-description: 本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+description: 本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用資料匯出功能來精確找出差異
 
-本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+本文提供疑難排解MagentoBI資料中差異的解決方案。 資料匯出是將您的MagentoBI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 
 舉例來說，以下列分析為例：
 
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 如果兩個系統具有相同的列計數，且&#x200B;**Revenue**&#x200B;量度不符合來源資料，則&#x200B;**order\_total**&#x200B;必須在某處關閉。 來源資料庫中的&#x200B;**order\_total**&#x200B;欄位可能已更新，且MagentoBI未擷取這些變更。
 
-若要確認此專案，請檢視&#x200B;**order\_total**&#x200B;欄是否正在重新核取。 前往Data Warehouse管理員並按一下&#x200B;**`orders`**&#x200B;表格。 您會看到「變更？」中列出的[重新檢查頻率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html) 欄。 **order\_total**&#x200B;欄位應該設定為依預期變更的頻率重新檢查；如果沒有，請繼續將它設定為您想要的重新檢查頻率。
+若要確認此專案，請檢視&#x200B;**order\_total**&#x200B;欄是否正在重新核取。 前往Data Warehouse管理員並按一下&#x200B;**`orders`**&#x200B;表格。 您會看到「變更？」中列出的[重新檢查頻率](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=zh-Hant) 欄。 **order\_total**&#x200B;欄位應該設定為依預期變更的頻率重新檢查；如果沒有，請繼續將它設定為您想要的重新檢查頻率。
 
 ### ![](assets/Export_Discrepancies_4.gif)
 
@@ -69,7 +69,7 @@ ht-degree: 0%
 
 ## 來源資料庫的資料列數少於MagentoBI {#lessrows}
 
-如果來源資料庫的資料列數少於MagentoBI，則資料列可能會從來源資料庫刪除，而MagentoBI無法擷取這些刪除專案。 **&#x200B; [刪除資料](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html)可能會導致不一致、更新時間延長，以及後勤方面的一系列問題**，因此我們強烈建議您不要刪除資料，除非資料確實有必要。
+如果來源資料庫的資料列數少於MagentoBI，則資料列可能會從來源資料庫刪除，而MagentoBI無法擷取這些刪除專案。 **&#x200B; [刪除資料](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hant)可能會導致不一致、更新時間延長，以及後勤方面的一系列問題**，因此我們強烈建議您不要刪除資料，除非資料確實有必要。
 
 但是，如果從表格中刪除列，請檢視主索引鍵上的重新檢查頻率。 重新核取主索引鍵表示將檢查表格中是否有已刪除的列。
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
-* [Adobe Commerce Intelligence服務原則](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy)
+* [Adobe Commerce Intelligence服務原則](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 

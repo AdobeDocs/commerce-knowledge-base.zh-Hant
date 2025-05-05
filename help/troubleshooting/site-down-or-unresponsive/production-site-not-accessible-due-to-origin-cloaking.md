@@ -47,9 +47,9 @@ https：&#x200B;//mydomain.com.c.&lt;projectid>.magento.cloud/無法再存取。
 ## 解決方案
 
 * 如果您的雲端網站為上線狀態，請切換至https://mydomain.com/。
-* 如果您有使用中的網站（非雲端），請使用https://mydomain.com/網域，設定子網域`mcprod.mydomain.com`並更新您的&#x200B;**基礎URL**&#x200B;至&#x200B;*https://mcprod.mydomain.com*，然後[將DNS指向Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)。
+* 如果您有使用中的網站（非雲端），請使用https://mydomain.com/網域，設定子網域`mcprod.mydomain.com`並更新您的&#x200B;**基礎URL**&#x200B;至&#x200B;*https://mcprod.mydomain.com*，然後[將DNS指向Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#update-dns-configuration-with-development-settings)。
 
 ## 相關閱讀
 
 * [我們的支援知識庫中的Fastly來源遮罩啟用常見問題集](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-* 在我們的支援知識庫中設定新網域的[檢查清單](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain)
+* 在我們的支援知識庫中設定新網域的[檢查清單](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain)

@@ -48,7 +48,7 @@ ht-degree: 0%
 PHP message: PHP Warning: Unknown: Input variables exceeded 1000. To increase the limit change max_input_vars in php.ini.
 ```
 
-`max-input-vars`沒有「適當的」值；這取決於您設定的大小和複雜性。 視需要修改`php.ini`檔案中的值。 請參閱[必要的PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+`max-input-vars`沒有「適當的」值；這取決於您設定的大小和複雜性。 視需要修改`php.ini`檔案中的值。 請參閱[必要的PHP設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
 
 ## xdebug最大函式巢狀層級錯誤
 
@@ -76,4 +76,4 @@ Parse error: syntax error, unexpected 'data' (T_STRING)
 
 有關[asp\_tags](http://php.net/manual/en/ini.core.php#ini.asp-tags)的詳細資訊。
 
-編輯`php.ini`並設定`asp_tags = off`。 如需詳細資訊，請參閱[必要的PHP設定](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)。
+編輯`php.ini`並設定`asp_tags = off`。 如需詳細資訊，請參閱[必要的PHP設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/php-settings)。

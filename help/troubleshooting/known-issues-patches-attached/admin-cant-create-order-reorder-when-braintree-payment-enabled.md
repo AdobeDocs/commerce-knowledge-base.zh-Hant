@@ -58,7 +58,7 @@ report.CRITICAL: Error: Call to a member function getMethodInstance() on null in
 
 >[!NOTE]
 >
->此外，適用於Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce 1.0.18版的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches)，以尋找套用最新套件的說明。
+>此外，適用於Adobe Commerce on cloud infrastructure商家：Adobe已在Commerce 1.0.18版的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches)，以尋找套用最新套件的說明。
 
 ### 相容的Adobe Commerce版本：
 

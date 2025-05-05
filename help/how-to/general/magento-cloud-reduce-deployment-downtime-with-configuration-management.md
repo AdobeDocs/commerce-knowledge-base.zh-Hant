@@ -20,7 +20,7 @@ ht-degree: 0%
 
 * **在所有環境中套用相同的組態。**&#x200B;通常，您可以手動或透過複雜的資料庫更新來輸入組態。 使用「組態管理」，您可以將資料庫中的組態匯出至單一檔案，以便稍後將程式碼從本機開發環境推送至整合、測試和生產環境。
 
-* 部署靜態內容時發生&#x200B;**網站停機時間。**&#x200B;一般會在[部署階段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase)期間部署靜態內容。 這最多可能需要30分鐘或更長時間，這在業務上是不可接受的。 組態管理將靜態內容部署移至[建置階段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase)，這不需要停機時間。
+* 部署靜態內容時發生&#x200B;**網站停機時間。**&#x200B;一般會在[部署階段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase)期間部署靜態內容。 這最多可能需要30分鐘或更長時間，這在業務上是不可接受的。 組態管理將靜態內容部署移至[建置階段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase)，這不需要停機時間。
 
 ## 技術版本
 
@@ -34,14 +34,14 @@ ht-degree: 0%
 這樣將提供下列優點：
 
 * **所有環境中一致的設定：**&#x200B;任何匯出至設定檔案的設定都會遭到鎖定(Commerce管理員中的對應欄位會變成唯讀)，以確保在您推送檔案至所有環境時，設定的一致性。
-* **縮短停機時間：**&#x200B;靜態檔案部署會從[部署階段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase) （需要網站處於維護模式）移至[建置階段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase) （當網站未處於維護模式，且發生錯誤或問題時不會停機）。
+* **縮短停機時間：**&#x200B;靜態檔案部署會從[部署階段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/process#deploy-phase-deploy-phase) （需要網站處於維護模式）移至[建置階段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/process#build-phase-build-phase) （當網站未處於維護模式，且發生錯誤或問題時不會停機）。
 * **在雲端基礎結構2.2和更新版本上使用Adobe Commerce所保護的敏感資料：**，此程式也會將任何敏感資料（例如付款閘道認證）匯出至`env.php`檔案。 此檔案應僅儲存至建立該檔案的環境，而不會透過Git分支推送。
 
 我們強烈建議您在部署中套用設定管理方法。
 
 ## 開發人員檔案中的設定管理
 
-* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.1.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的設定管理*
-* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.2.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)的設定管理*
-* [從&#x200B;*在雲端基礎結構上升級Adobe Commerce*&#x200B;主題的2.0.X或2.1.X](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html#upgrade-from-older-versions)區段升級
-* *雲端基礎結構上的Adobe Commerce設定指南*&#x200B;中的[管道部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/overview.html) — 針對雲端基礎結構上的Adobe Commerce，您不需要遵循本指南中的指示。 內容僅供參考。 我們已在雲端基礎結構上透過Adobe Commerce提供組建伺服器、整合環境等。
+* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.1.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)的設定管理*
+* 雲端基礎結構指南上的&#x200B;*Adobe Commerce中的&#x200B;**2.2.X**&#x200B;[&#128279;](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)和[範例](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)的設定管理*
+* [從&#x200B;*在雲端基礎結構上升級Adobe Commerce*&#x200B;主題的2.0.X或2.1.X](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=zh-Hant#upgrade-from-older-versions)區段升級
+* *雲端基礎結構上的Adobe Commerce設定指南*&#x200B;中的[管道部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/overview.html?lang=zh-Hant) — 針對雲端基礎結構上的Adobe Commerce，您不需要遵循本指南中的指示。 內容僅供參考。 我們已在雲端基礎結構上透過Adobe Commerce提供組建伺服器、整合環境等。

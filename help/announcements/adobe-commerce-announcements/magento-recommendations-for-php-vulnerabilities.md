@@ -28,7 +28,7 @@ ht-degree: 0%
 針對此更新重新部署雲端網站的其他附註：
 
 * 如果您的網站仍在使用PHP 7.0版，則必須在重新部署之前先升級到支援的PHP版本，以便利用這些安全性更新。
-* 若為2.1.x/2.2.x，有關升級PHP的更多資訊可在[這裡](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html)找到。
+* 若為2.1.x/2.2.x，有關升級PHP的更多資訊可在[這裡](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=zh-Hant)找到。
 
 \* *本文和訊息的先前版本顯示為9月19日，但我們的團隊已提前完成工作。*
 

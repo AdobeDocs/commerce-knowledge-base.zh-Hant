@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >**淘汰通知**
 >
->由於付款服務指示[PSD2](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive)和許多API的持續演化，Authorize.Net有過時和未來不再符合安全性的風險。 因此，現已棄用，我們建議您在Adobe Commerce設定中將其停用，並轉換為對應的[Commerce Marketplace擴充功能](https://marketplace.magento.com/extensions.html)。
+>由於付款服務指示[PSD2](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/compliance/payments/compliance-payment-services-directive)和許多API的持續演化，Authorize.Net有過時和未來不再符合安全性的風險。 因此，現已棄用，我們建議您在Adobe Commerce設定中將其停用，並轉換為對應的[Commerce Marketplace擴充功能](https://marketplace.magento.com/extensions.html)。
 >
 >**此整合已從Adobe Commerce 2.4.0版本中移除，並且已從目前的2.3版本棄用。**
 >
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 問題
 
-使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙箱帳戶下訂單會導致錯誤訊息：
+使用[Authorize.Net Direct Post](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/payments/error-placing-order-with-authorize-net-sandbox-account-an-error-occurred-on-the-server)沙箱帳戶下訂單會導致錯誤訊息：
 
 &#x200B;>>
 「伺服器發生錯誤。 請嘗試重新下單」

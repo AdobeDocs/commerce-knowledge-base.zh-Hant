@@ -18,7 +18,7 @@ ht-degree: 0%
 * [資料差異診斷檢查清單](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
 * [使用匯出功能來精確找出資料差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
-我們也建議您確定已針對發生差異的資料表和資料行設定正確的[復寫方法](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods)和[重新檢查](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)。 請注意，您需要管理員許可權才能存取復寫方法並重新檢查資訊。
+我們也建議您確定已針對發生差異的資料表和資料行設定正確的[復寫方法](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods)和[重新檢查](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)。 請注意，您需要管理員許可權才能存取復寫方法並重新檢查資訊。
 
 ## 我仍需要協助！
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [已計算的欄](/help/how-to/general/mbi-creating-and-editing-advanced-calculated-columns.md)
-* [結構資料庫變更](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html)
+* [結構資料庫變更](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/connecting/data-migration-services.html?lang=zh-Hant)

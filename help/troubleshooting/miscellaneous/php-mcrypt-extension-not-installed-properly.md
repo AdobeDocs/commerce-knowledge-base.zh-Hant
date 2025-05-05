@@ -29,7 +29,7 @@ exception 'Exception' with message 'PHP Warning: PHP Startup: Unable to load dyn
 Installing data fixtures:
 /usr/bin/php -f '/Users/username/www/magento/dev/shell/run_data_fixtures.php' -- --bootstrap='MAGE_DIRS[base][path]=/Users/username/www/magento' 2>&1
 [ERROR] exception 'Exception' with message '
-Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/en/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
+Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' depends on 'mcrypt' PHP [extension](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/operational-playbook/glossary#extension) that is not loaded.'
 ```
 
 ```php
@@ -60,4 +60,4 @@ Fatal error: Uncaught exception 'Exception' with message 'Module 'Magento_Core' 
 PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php5/20121212/mcrypt.so' - /usr/lib/php5/20121212/mcrypt.so: cannot open shared object file: No such file or directory in Unknown on line 0
 ```
 
-在某些情況下，您可能需要從[命令列](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/advanced)安裝Adobe Commerce軟體，並指定已安裝mcrypt之LAMP棧疊的完整路徑。
+在某些情況下，您可能需要從[命令列](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/advanced)安裝Adobe Commerce軟體，並指定已安裝mcrypt之LAMP棧疊的完整路徑。

@@ -45,4 +45,4 @@ PHP 8.1已包含JSON支援，不需要另外安裝擴充功能。
 
 ## 相關閱讀
 
-[PHP應用程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/php-settings) （在開發人員檔案中）。
+[PHP應用程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/php-settings) （在開發人員檔案中）。

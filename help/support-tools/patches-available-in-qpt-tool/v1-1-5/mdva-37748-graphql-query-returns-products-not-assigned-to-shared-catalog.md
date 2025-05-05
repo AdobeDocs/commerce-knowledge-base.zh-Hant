@@ -1,6 +1,6 @@
 ---
 title: 'MDVA-37748： GraphQL查詢傳回未指派給共用目錄的產品'
-description: MDVA-37748修補程式修正GraphQL查詢傳回未指派給共用目錄之產品的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-37748。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+description: MDVA-37748修補程式修正GraphQL查詢傳回未指派給共用目錄之產品的問題。 安裝[Quality Patches Tool (QPT)](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-37748。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 exl-id: 1f441882-dc14-433c-aa03-ff22483ce5a7
 feature: B2B, GraphQL, Catalog Management, Categories, Products
 role: Admin
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # MDVA-37748： GraphQL查詢傳回未指派給共用目錄的產品
 
-MDVA-37748修補程式修正GraphQL查詢傳回未指派給共用目錄之產品的問題。 安裝[品質修補工具(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-37748。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
+MDVA-37748修補程式修正GraphQL查詢傳回未指派給共用目錄之產品的問題。 安裝[品質修補工具(QPT)](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/patches/overview) 1.1.5時，即可使用此修補程式。 修補程式ID為MDVA-37748。 請注意，此問題已排程在Adobe Commerce 2.4.4中修正。
 
 ## 受影響的產品和版本
 
@@ -27,7 +27,7 @@ Adobe Commerce （所有部署方法） 2.4.2 - 2.4.2-p2
 
 >[!NOTE]
 >
->此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
+>此修補程式可能適用於其他發行了「品質修補程式」工具的版本。 若要檢查修補程式是否與您的Adobe Commerce版本相容，請將`magento/quality-patches`套件更新至最新版本，並在[[!DNL Quality Patches Tool]上檢查相容性：搜尋修補程式頁面](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hant)。 使用修補程式ID作為搜尋關鍵字，以尋找修補程式。
 
 ## 問題
 
@@ -320,8 +320,8 @@ GraphQL傳回的計數和產品只會考慮指派給與登入使用者相關聯�
 
 若要套用個別修補程式，請根據您的部署方法使用下列連結：
 
-* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage)。
-* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+* Adobe Commerce或Magento Open Source內部部署：開發人員檔案中的[軟體更新指南>套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/usage)。
+* 雲端基礎結構上的Adobe Commerce： [我們的開發人員檔案中的「升級和修補程式>套用修補程式」](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 ## 相關閱讀
 

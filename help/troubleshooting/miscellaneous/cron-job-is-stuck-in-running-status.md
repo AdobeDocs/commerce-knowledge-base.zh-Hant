@@ -37,7 +37,7 @@ ht-degree: 0%
 
 若要解決此問題，您必須使用`cron:unlock`命令重設[!DNL cron]工作。 這個命令會變更資料庫中[!DNL cron]工作的狀態，強制結束工作以允許其他排定的工作繼續。
 
-1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
+1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
 1. 取得MySQL資料庫認證：    ```shell    echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp    ```
 1. 使用`mysql`連線到資料庫：    ```shell    mysql -hdatabase.internal -uuser -ppassword main    ```
 1. 選取`main`資料庫：    ```shell    use main    ```
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ### 停止單一[!DNL cron]的解決方案 {#solution-stop-a-single-cron}
 
-1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
+1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
 1. 使用下列命令檢查長時間執行的工作：
 
    ```date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'```

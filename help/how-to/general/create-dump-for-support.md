@@ -27,7 +27,7 @@ Adobe Commerce （所有部署方法） 2.3.x、2.4.x。
 
 然後，您可以提供到傾印檔案（您的存放區地址和顯示的檔案名稱）的直接下載連結給支援。
 
-如果您無法從管理員建立傾印，請考慮使用CLI命令，如開發人員檔案中的[執行支援公用程式](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/run-support-utilities)所述。
+如果您無法從管理員建立傾印，請考慮使用CLI命令，如開發人員檔案中的[執行支援公用程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/run-support-utilities)所述。
 
 ## 相關閱讀
 

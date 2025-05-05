@@ -32,7 +32,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 將B2B升級至1.5.2版。
 
 <u>預期結果</u>：
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 ### 如何套用修補程式
 
-解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
+解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
 
 ### 使用雲端修補程式套用修補程式
 
@@ -80,8 +80,8 @@ ht-degree: 0%
    ```
 
 1. 將ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch新增至`m2-hotfixes`目錄。
-1. 認可並推播變更以開始重新部署和`bin/magento setup:upgrade`。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。
+1. 認可並推播變更以開始重新部署和`bin/magento setup:upgrade`。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。
 
 ## 相關閱讀
 
-* [由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2失敗，並出現SQL語法錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2失敗，並出現SQL語法錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)

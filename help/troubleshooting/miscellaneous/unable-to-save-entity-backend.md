@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 原因
 
-此問題與最近推出的影響最大工作階段大小的新功能有關。 請參閱我們的開發人員檔案中的[工作階段管理](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/security-session-management)。
+此問題與最近推出的影響最大工作階段大小的新功能有關。 請參閱我們的開發人員檔案中的[工作階段管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/security-session-management)。
 
 ## 解決方案
 
@@ -52,4 +52,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 使用手冊中的[行銷功能表](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/marketing-menu)。
+* 使用手冊中的[行銷功能表](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/marketing/marketing-menu)。

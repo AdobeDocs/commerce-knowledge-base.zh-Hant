@@ -56,4 +56,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在Adobe Commerce的Experience League支援使用指南中[提交支援案例](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+* 在Adobe Commerce的Experience League支援使用指南中[提交支援案例](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。

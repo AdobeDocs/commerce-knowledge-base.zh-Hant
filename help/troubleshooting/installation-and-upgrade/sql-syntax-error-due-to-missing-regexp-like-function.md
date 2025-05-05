@@ -38,7 +38,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 將B2B升級至1.5.2版。
 
 <u>預期結果</u>：
@@ -78,4 +78,4 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
    composer update magento/magento-cloud-patches
    ```
 
-1. 提交並推送變更以啟動重新部署。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。
+1. 提交並推送變更以啟動重新部署。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。

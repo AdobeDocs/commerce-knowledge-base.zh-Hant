@@ -24,8 +24,8 @@ ht-degree: 0%
 
 * [PHP開發人員指南](https://developer.adobe.com/commerce/php/development/)
 * [模組總覽](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [建立新模組](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/create-module)
-* [模組組態檔](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
+* [建立新模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-learn/tutorials/backend-development/create-module)
+* [模組組態檔](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/files/module-files)
 
 ## 必要資訊
 

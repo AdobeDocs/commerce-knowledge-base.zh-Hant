@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Adobe Commerce支援票證生命週期原則更新
 
-本檔案概述Adobe DX支援案例生命週期的改善專案，旨在增加溝通，並儘快為客戶提供解決方案，以協助確保客戶取得成功。 您也可在[Adobe成功計畫總覽：支援案例生命週期](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)中找到此專案。
+本檔案概述Adobe DX支援案例生命週期的改善專案，旨在增加溝通，並儘快為客戶提供解決方案，以協助確保客戶取得成功。 您也可在[Adobe成功計畫總覽：支援案例生命週期](https://experienceleague.adobe.com/zh-hant/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)中找到此專案。
 以下是在支援流程中遇到的各種情境的時間表和通知：
 
 ## 案例後續提醒
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [提交支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
-* [「提交票證」連結未顯示在Adobe Commerce說明中心開始頁面](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)上
-* [票證提交表單：商家未顯示在組織下拉式清單中](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
-* [Adobe成功計畫總覽：支援案例生命週期](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)
+* [提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)
+* [「提交票證」連結未顯示在Adobe Commerce說明中心開始頁面](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#no-submit-link)上
+* [票證提交表單：商家未顯示在組織下拉式清單中](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)
+* [Adobe成功計畫總覽：支援案例生命週期](https://experienceleague.adobe.com/zh-hant/docs/support-resources/data-sheets/overview#support-case-lifecycle---coming-soon)

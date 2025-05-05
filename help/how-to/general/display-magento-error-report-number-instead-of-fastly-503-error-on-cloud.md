@@ -20,7 +20,7 @@ ht-degree: 0%
 
 檢視真實的Adobe Commerce錯誤和錯誤報告編號後，您可以按照以下步驟在錯誤報告檔案中獲取詳情：
 
-1. ssh連線至受影響的環境。 在開發人員檔案中，請參閱[SSH至環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)。
+1. ssh連線至受影響的環境。 在開發人員檔案中，請參閱[SSH至環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)。
 1. 找到`./var/report/{error_number}`檔案。
 
 ## 將應用程式網域和IP位址新增至hosts檔案：詳細步驟

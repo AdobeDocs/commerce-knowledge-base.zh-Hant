@@ -1,6 +1,6 @@
 ---
 title: 安裝最新修補程式以修正Adobe Commerce Redis問題
-description: 本文提供[Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)套件中提供的最新Redis相關修補程式資訊。
+description: 本文提供[Adobe Commerce on cloud infrastructure Patches](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)套件中提供的最新Redis相關修補程式資訊。
 exl-id: 0335bc11-f679-4629-b4e7-6a0e68c3ae44
 feature: Cache, Install, Services
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 安裝最新修補程式以修正Adobe Commerce Redis問題
 
-本文提供雲端基礎結構修補程式[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)套件上Adobe Commerce中可用的最新Redis相關修補程式的資訊。
+本文提供雲端基礎結構修補程式[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)套件上Adobe Commerce中可用的最新Redis相關修補程式的資訊。
 
 ## 受影響的產品和版本
 
@@ -25,7 +25,7 @@ Redis的額外CPU和記憶體耗用量可能會降低Adobe Commerce效能，進�
 
 ## 解決方案
 
-在雲端基礎結構修補程式套件上套用Adobe Commerce提供的最新修補程式。 如需詳細指示，請參閱我們的開發人員檔案中的[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
+在雲端基礎結構修補程式套件上套用Adobe Commerce提供的最新修補程式。 如需詳細指示，請參閱我們的開發人員檔案中的[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches)。
 
 Adobe Commerce在雲端基礎結構修補程式套件上提供的最新Redis修補程式，有助於進行以下工作：
 

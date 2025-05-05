@@ -54,7 +54,7 @@ ht-degree: 0%
 [2019-01-23 00:00:00] CRITICAL: Command php ./bin/magento setup:static-content:deploy --ansi --no-interaction --jobs 1 --exclude-theme Magento/luma en_GB en_US returned code 1
 ```
 
-如果您在雲端基礎結構解決方案上使用Adobe Commerce，您會在[部署記錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations)中看到此錯誤訊息。 若為Adobe Commerce內部部署，您會在命令列中看到錯誤。
+如果您在雲端基礎結構解決方案上使用Adobe Commerce，您會在[部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/test/log-locations)中看到此錯誤訊息。 若為Adobe Commerce內部部署，您會在命令列中看到錯誤。
 
 ## 原因
 
@@ -70,4 +70,4 @@ ht-degree: 0%
    * 如果Fastly模組包含在magento-cloud-metapackage中：    <pre>Composer更新magento/magento-cloud-metapackage</pre>
    * 如果Fastly模組是單獨安裝(例如，如果您是使用Adobe Commerce內部部署，而不是雲端版本) <pre>Composer更新fastly/magento2</pre>
 1. 提交並推播變更，如果未自動完成，則觸發部署程式。
-1. 在Admin中，[將新VCL上傳到Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
+1. 在Admin中，[將新VCL上傳到Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。

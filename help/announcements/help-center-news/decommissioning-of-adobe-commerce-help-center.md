@@ -14,11 +14,11 @@ ht-degree: 0%
 # 停用Adobe Commerce說明中心
 
 在我們的歷程中，為了與Adobe解決方案系列建立更密切的聯絡，Adobe Commerce已將我們的支援接收流程從Adobe Commerce說明中心移轉至Adobe Experience League。
-在2024年7月29日，Adobe Commerce說明中心已設為唯讀，而所有新支援案例現在已透過[Adobe Experience League](https://experienceleague.adobe.com/)提交。
+在2024年7月29日，Adobe Commerce說明中心已設為唯讀，而所有新支援案例現在已透過[Adobe Experience League](https://experienceleague.adobe.com/zh-hant)提交。
 
 >[!NOTE]
 >
->**使用[這裡](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support)描述的Experience League案例表單流程提交支援案例。**
+>**使用[這裡](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide?lang=en#what-is-experience-support)描述的Experience League案例表單流程提交支援案例。**
 
 ## 在Adobe Commerce說明中心檢視歷史案例
 
@@ -34,4 +34,4 @@ Adobe已將Adobe Commerce說明中心歷史案例的可見性期間延長至2025
 
 >[!NOTE]
 >
->Adobe Commerce說明中心的知識庫部分也已移轉至[Adobe Experience League入口網站](https://experienceleague.adobe.com/)。 建立支援票證時，會向您建議相關知識庫文章，以及Adobe Experience League的其他相關Adobe Commerce檔案。
+>Adobe Commerce說明中心的知識庫部分也已移轉至[Adobe Experience League入口網站](https://experienceleague.adobe.com/zh-hant)。 建立支援票證時，會向您建議相關知識庫文章，以及Adobe Experience League的其他相關Adobe Commerce檔案。

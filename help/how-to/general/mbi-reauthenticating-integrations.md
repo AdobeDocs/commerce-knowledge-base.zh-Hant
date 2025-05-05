@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 資料庫與SaaS整合
 
-如需資料庫與SaaS整合的清單，請參閱我們的開發人員檔案中的[使用整合連線外部資料](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （開啟頁面時，請使用左側的目錄進行導覽）。
+如需資料庫與SaaS整合的清單，請參閱我們的開發人員檔案中的[使用整合連線外部資料](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （開啟頁面時，請使用左側的目錄進行導覽）。
 
 ## 發生連線問題？
 

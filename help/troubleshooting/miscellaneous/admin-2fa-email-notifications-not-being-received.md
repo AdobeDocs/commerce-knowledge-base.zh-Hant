@@ -58,4 +58,4 @@ php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 
 ## 相關閱讀
 
-* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) （在開發人員檔案中）。
+* [SendGrid](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/sendgrid) （在開發人員檔案中）。

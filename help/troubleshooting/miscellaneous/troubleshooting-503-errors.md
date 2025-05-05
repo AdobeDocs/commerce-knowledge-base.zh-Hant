@@ -63,4 +63,4 @@ ht-degree: 0%
 $ bin/magento cache:enable
 ```
 
-如需使用命令列的詳細資訊，請參閱[開始使用命令列組態](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/config-cli)。
+如需使用命令列的詳細資訊，請參閱[開始使用命令列組態](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/config-cli)。

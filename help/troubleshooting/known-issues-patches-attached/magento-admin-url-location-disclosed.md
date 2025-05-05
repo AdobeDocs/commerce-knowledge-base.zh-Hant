@@ -48,4 +48,4 @@ Adobe也強烈建議商家部署工具來保護其管理面板，包括雙因素
 * 針對Protect的暴力攻擊[5立即動作](https://magento.com/security/best-practices/5-immediate-actions-protect-against-brute-force-attacks)
 * [Protect您的Magento安裝密碼猜測新更新](https://magento.com/security/best-practices/protect-your-magento-installation-password-guessing-new-update)
 * [安全性最佳實務](https://magento.com/security/best-practices/security-best-practices)
-* 在Adobe Commerce中為[2.4.x](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)新增及設定雙因素驗證
+* 在Adobe Commerce中為[2.4.x](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/2fa/security-two-factor-authentication)新增及設定雙因素驗證

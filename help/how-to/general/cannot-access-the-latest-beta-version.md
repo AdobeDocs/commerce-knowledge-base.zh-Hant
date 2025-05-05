@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 搶先使用的程式碼位置
 
-在測試版存取期間，只能透過[repo.magento.com](https://repo.magento.com/)上的Composer取得發行套件。 在此期間，發行套件無法在GitHub和Adobe Commerce入口網站上使用，我們將在正式發行日期將它們發佈到這些位置。 如需有關如何使用Composer的詳細資訊，請按一下[這裡](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+在測試版存取期間，只能透過[repo.magento.com](https://repo.magento.com/)上的Composer取得發行套件。 在此期間，發行套件無法在GitHub和Adobe Commerce入口網站上使用，我們將在正式發行日期將它們發佈到這些位置。 如需有關如何使用Composer的詳細資訊，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)。
 
 ### 您需要使用的影像ID
 
