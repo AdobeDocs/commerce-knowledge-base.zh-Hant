@@ -31,14 +31,14 @@ ht-degree: 0%
 
 如果它們尚未新增至專案，您需要將它們新增為[!DNL Super User]並授予[!DNL Shared Access]：
 
-* 在我們的使用手冊中[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)。
-* [無法新增使用者至我們的Adobe Commerce知識庫中的Commerce雲端專案](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html)。
-* [Adobe Commerce說明中心使用手冊：共用存取](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html#shared-access)在我們的Commerce知識庫中。
+* 在我們的使用手冊中[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant)。
+* [無法新增使用者至我們的Adobe Commerce知識庫中的Commerce雲端專案](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.html?lang=zh-Hant)。
+* [Adobe Commerce說明中心使用手冊：共用存取](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hant#shared-access)在我們的Commerce知識庫中。
 
-若他們已新增至[!DNL cloud project]，但沒有[!DNL Super User role]，請在[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html)中更新他們的[!DNL role]。
+若他們已新增至[!DNL cloud project]，但沒有[!DNL Super User role]，請在[管理使用者存取權](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html?lang=zh-Hant)中更新他們的[!DNL role]。
 
-如果您想要讓團隊成員成為貴組織所有開啟案例的監看員，請提交[支援票證](https://experienceleague.adobe.com/home?lang=en&amp;support-tab=home#support)。
+如果您想要讓團隊成員成為貴組織所有開啟案例的監看員，請提交[支援票證](https://experienceleague.adobe.com/home?lang=zh-Hant&amp;support-tab=home#support)。
 
 ## 相關閱讀
 
-[前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html)
+[前團隊成員會收到Adobe Commerce雲端通知電子郵件](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.html?lang=zh-Hant)
