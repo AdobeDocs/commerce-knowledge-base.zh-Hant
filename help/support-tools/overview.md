@@ -21,7 +21,7 @@ Adobe Commerce提供多種支援工具，協助並強化您改善電子商務商
 
 * [!DNL Quality Patches Tool] (QPT)
 
-   * [QPT工具概觀中可用的修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
+   * [QPT工具概觀中可用的修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/patches-available-in-qpt/patches-available-in-qpt-tool-overview)
 
      [[!DNL Quality Patches Tool]](https://github.com/magento/quality-patches) (QPT)是可讓您套用Adobe和Magento Open Source社群所開發的個別品質修補程式的工具。
 
@@ -35,20 +35,20 @@ Adobe Commerce提供多種支援工具，協助並強化您改善電子商務商
 
 * Adobe Commerce的觀察結果
 
-   * [Adobe Commerce的觀察概述](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
+   * [Adobe Commerce的觀察概述](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/observation-for-adobe-commerce/intro)
 
 * 在Adobe Commerce上管理警報
-   * [Adobe Commerce上的Managed警示： Redis記憶體嚴重警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
-   * [Adobe Commerce的管理警示：磁碟警告警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
-   * [Adobe Commerce的管理警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
-   * [Adobe Commerce的Managed警示：磁碟嚴重警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
-   * [Adobe Commerce上的Managed警示： Redis記憶體警告警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
-   * [Adobe Commerce的管理警示：記憶體警告警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
-   * 在Adobe Commerce上管理警示： [CPU嚴重警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
-   * [Adobe Commerce上的Managed警示：記憶體嚴重警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
-   * [Adobe Commerce的Managed警示： Apdex嚴重警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
-   * 在Adobe Commerce上[受管理的警示： MariaDB警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
-   * [Adobe Commerce的Managed警示： Apdex警告警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
-   * [Adobe Commerce的管理警示： CPU警告警示](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
+   * [Adobe Commerce上的Managed警示： Redis記憶體嚴重警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-critical-alert)
+   * [Adobe Commerce的管理警示：磁碟警告警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-warning-alert)
+   * [Adobe Commerce的管理警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce)
+   * [Adobe Commerce的Managed警示：磁碟嚴重警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-disk-critical-alert)
+   * [Adobe Commerce上的Managed警示： Redis記憶體警告警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-redis-memory-warning-alert)
+   * [Adobe Commerce的管理警示：記憶體警告警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-memory-warning-alert)
+   * 在Adobe Commerce上管理警示： [CPU嚴重警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-cpu-critical-alert)
+   * [Adobe Commerce上的Managed警示：記憶體嚴重警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-memory-critical-alert)
+   * [Adobe Commerce的Managed警示： Apdex嚴重警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-critical-alert)
+   * 在Adobe Commerce上[受管理的警示： MariaDB警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-on-magento-commerce-mariadb-alerts)
+   * [Adobe Commerce的Managed警示： Apdex警告警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-apdex-warning-alert)
+   * [Adobe Commerce的管理警示： CPU警告警示](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/managed-alerts-for-adobe-commerce/managed-alerts-for-magento-commerce-cpu-warning-alert)
 * Commerce網站評估工具
-   * [Commerce網站評估](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html)
+   * [Commerce網站評估](https://experienceleague.adobe.com/tools/commerce-site-assessment/index.html?lang=zh-Hant)
