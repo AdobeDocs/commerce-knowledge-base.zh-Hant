@@ -3,9 +3,9 @@ title: 連結Magento.com與accounts.magento.cloud帳戶登入
 description: 自2020年4月1日起，Adobe Commerce將要求在[accounts.magento.cloud](https://accounts.magento.cloud/)擁有帳戶的使用者將此帳戶與其[Magento.com](https://account.magento.com/customer/account/login/)帳戶連結。 這會使[Magento.com](https://account.magento.com/customer/account/login/)帳戶登入成為這兩個帳戶的主要登入方法，並提升使用者的安全性。
 exl-id: 89afec50-bc21-46cd-8440-2bcf717ded69
 feature: Cloud
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 74b04ca74330037252334c288b15d8412d00d253
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -33,3 +33,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [無法登入Adobe Commerce支援或雲端帳戶](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
+* [MageID帳戶擁有者無法登入並提交支援票證](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
