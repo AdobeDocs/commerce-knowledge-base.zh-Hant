@@ -33,4 +33,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [無法登入Adobe Commerce支援或雲端帳戶](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-* [MageID帳戶擁有者無法登入並提交支援票證](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [MageID帳戶擁有者無法登入並提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-25231)
