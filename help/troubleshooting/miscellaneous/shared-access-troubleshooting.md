@@ -4,7 +4,7 @@ description: '**問題：**您想要提供共用存取權給信任的同事，�
 exl-id: 9e03c031-2359-42a6-9de4-943451a16456
 feature: Cache
 role: Developer
-source-git-commit: 37996dd7e372c4d886c943d5ad2a94c016ac8b35
+source-git-commit: c2ccad480c89b974ffea7f2d4e2860e01882f833
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 0%
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 **解決方案：**
 
-* 如果您是帳戶擁有者（主要帳戶擁有者），請聯絡您的Adobe帳戶團隊。 如果您的團隊成員可以存取支援，請讓他們[建立支援票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)。 指定與您的帳戶關聯的名稱和電子郵件。
+* 如果您是帳戶擁有者（主要帳戶擁有者），請聯絡您的Adobe帳戶團隊。 如果您的團隊成員可以存取支援，請讓他們[建立支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#merchant-not-displayed)。 指定與您的帳戶關聯的名稱和電子郵件。
 * 如果您不是帳戶擁有者，則必須聯絡他們以提供共用存取權和必要的許可權。
-* 如果帳戶擁有者已離開公司，而您想要將帳戶轉移給其他使用者，請參閱[轉移Commerce帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-transfer)。
+* 如果帳戶擁有者已離開公司，而您想要將帳戶轉移給其他使用者，請參閱[轉移Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-transfer)。
 
 >[!NOTE]
 >
->即使非帳戶擁有者在其帳戶上也可能有[!UICONTROL Shared Access]標籤。 但是，只有具有必要許可權的帳戶擁有者（主要帳戶擁有者）才能為其他使用者提供共用存取權。 如需共用存取許可權的詳細資訊，請參閱Adobe Commerce的Experience League支援使用手冊中的[共用存取許可權：授予其他使用者存取您帳戶的許可權](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)。
+>即使非帳戶擁有者在其帳戶上也可能有[!UICONTROL Shared Access]標籤。 但是，只有具有必要許可權的帳戶擁有者（主要帳戶擁有者）才能為其他使用者提供共用存取權。 如需共用存取許可權的詳細資訊，請參閱Adobe Commerce的Experience League支援使用手冊中的[共用存取許可權：授予其他使用者存取您帳戶的許可權](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)。
 
 ## 我使用共用存取權，但無法存取特定資源
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 ## 我使用共用存取權並按一下[!UICONTROL Support]，但當我為組織開啟新票證時，表單中沒有可用的產品
 
-**問題：**&#x200B;在[Experience League](https://experienceleague.adobe.com/home?lang=zh-Hant#support)上開啟票證時，我無法選取適當的雲端專案。
+**問題：**&#x200B;在[Experience League](https://experienceleague.adobe.com/home#support)上開啟票證時，我無法選取適當的雲端專案。
 
 **可能的原因：**&#x200B;您尚未選取具有[!DNL Commerce]個許可權的正確組織。
 
@@ -58,20 +58,20 @@ ht-degree: 0%
 
 ## 我使用共用存取權並按一下[!UICONTROL Support]，但當我為具有[!DNL Commerce]許可權的組織開啟新票證時，雲端專案未列在表單中
 
-**問題**：在[Experience League](https://experienceleague.adobe.com/home?lang=zh-Hant#support)上開啟票證時，我無法選取適當的雲端專案。
+**問題**：在[Experience League](https://experienceleague.adobe.com/home#support)上開啟票證時，我無法選取適當的雲端專案。
 
 **可能的原因**：您可能尚未加入專案，或專案與不同的授權相關聯（某些組織可能有名稱非常類似的子公司/相關公司）。
 
 **解決方案**：
 
-1. 確定您已被新增至專案。 請參閱[管理使用者存取權](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/user-access)。
+1. 確定您已被新增至專案。 請參閱[管理使用者存取權](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/user-access)。
 1. 確保您已被帳戶所有者授予與專案關聯的授權的共用存取權。
 
 如果您持續遇到問題，請聯絡您的Adobe客戶團隊。 指定與您的帳戶關聯的名稱和電子郵件。
 
 ## 我使用共用存取許可權並按一下[!UICONTROL Support]，但當我開啟新票證時，[!UICONTROL Organization]下拉式清單未顯示或未列出該組織
 
-**問題**：我已切換至[!UICONTROL Shared Access]帳戶，但當我嘗試在[Experience League](https://experienceleague.adobe.com/home?lang=zh-Hant#support)上提交票證時，沒有可用組織，或下拉式清單中未列出組織名稱。
+**問題**：我已切換至[!UICONTROL Shared Access]帳戶，但當我嘗試在[Experience League](https://experienceleague.adobe.com/home#support)上提交票證時，沒有可用組織，或下拉式清單中未列出組織名稱。
 
 **可能的原因**：您只被授與帳戶中一個商家共用的存取權。
 
@@ -92,5 +92,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [無法登入Adobe Commerce支援或雲端帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project)
-* [MageID帳戶擁有者無法登入並提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-25231)
+* [無法登入Adobe Commerce支援或雲端帳戶](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project)
+* [MageID帳戶擁有者無法登入並提交支援票證](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-25231)
