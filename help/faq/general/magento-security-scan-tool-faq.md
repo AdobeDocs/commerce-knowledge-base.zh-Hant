@@ -3,9 +3,9 @@ title: Adobe Commerce安全性掃描工具常見問題集
 description: 本文回答有關Adobe Commerce安全性掃描工具的一些常見問題(FAQ)。
 exl-id: 380ce617-e3d9-491b-b425-8489abd3c541
 feature: Compliance
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+source-git-commit: cff17a83648e10e85d95a5895acd8d1916a8eef9
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 安全性掃描工具是否適用於所有Adobe Commerce商家？ {#is-magento-security-scan-tool-available-to-all-magento-merchants}
 
-可以，所有Adobe Commerce和Magento Open Source商家都可使用安全性掃描工具。
+是，所有Adobe Commerce和Magento Open Source商家都可使用安全性掃描工具。
 
 ## 有人可以使用安全性掃描工具掃描我的網站嗎？ {#can-anyone-scan-my-site-with-the-magento-security-scan-tool}
 
@@ -48,6 +48,6 @@ ht-degree: 0%
 
 ## 如果在掃描報告中遇到誤判，該怎麼辦？ {#what-do-i-do-if-i-come-across-a-false-positive-in-the-scan-report}
 
-我們建議商戶調查所有失敗的掃描，並採取適當步驟來解決此類問題。 調查後，如果商家發現掃描結果顯示為誤判，我們會要求商家通知Adobe採取適當的行動。
+我們建議商戶調查所有失敗的掃描，並採取適當步驟來解決此類問題。 調查後，如果商戶發現疑似誤判的掃描結果，我們會要求商戶通知Adobe採取適當的行動。
 
-若要提交誤判報告，請輸入具有Adobe Commerce商家支援的票證，以便我們能夠評估誤判、進行必要變更和/或提供建議，以避免日後看到這類通知。 商戶也可以寄電子郵件至[securityscan@magento.com](mailto:securityscan@magento.com)，回報誤報。
+若要提交誤判報告，請輸入具有Adobe Commerce商家支援的票證，以便我們能夠評估誤判、進行必要變更和/或提供建議，以避免日後看到這類通知。
