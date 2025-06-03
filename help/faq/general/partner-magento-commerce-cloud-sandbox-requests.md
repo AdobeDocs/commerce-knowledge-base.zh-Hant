@@ -30,7 +30,7 @@ ht-degree: 0%
 
 擁有合作夥伴沙箱雲端專案的合作夥伴無法透過Experience League提交沙箱相關問題的票證。 請勿使用商戶帳戶來提交這些票證，因為這些票證似乎是代表他們提交的，並會導致混淆。
 
-如果您代表尚未獲授共用存取權的商家提交票證，請向帳戶擁有者要求存取權。 如需如何要求存取權的步驟，請參閱[共用存取權：授予其他使用者存取您帳戶的許可權](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)。
+如果您代表尚未獲授共用存取權的商家提交票證，請向帳戶擁有者要求存取權。 如需如何要求存取權的步驟，請參閱[共用存取權：授予其他使用者存取您帳戶的許可權](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#shared-access)。
 
 * 解決方案合作夥伴應透過電子郵件傳送[SPPHelp@adobe.com](mailto:SPPHelp@adobe.com)來提交與沙箱相關的支援請求。 這些要求將轉送給合作夥伴技術支援團隊。
 * 技術合作夥伴應聯絡[市集支援](mailto:commercemarketplacesupport@adobe.com)。
