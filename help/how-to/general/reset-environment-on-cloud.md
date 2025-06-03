@@ -3,9 +3,9 @@ title: 在雲端基礎結構上重設Adobe Commerce的環境
 description: 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 4327f464fb8eebf30a380e9e58afe55c3e613e52
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1110'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,9 @@ ht-degree: 0%
 # 在雲端基礎結構上重設Adobe Commerce的環境
 
 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
+>[!NOTE]
+>
+>本指南適用於所有Cloud Starter環境，且僅適用於Cloud Pro上的整合環境。
 
 選擇最適合您的案例：
 
@@ -27,7 +30,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一律先在您的&#x200B;**[!UICONTROL Staging Environment]**&#x200B;中測試這些步驟！
+>一律先在較低層級的環境中測試這些步驟！
 
 <u>升級/部署活動前5天</u>：
 
@@ -37,9 +40,9 @@ ht-degree: 0%
 <u>變更當天</u>：
 
 1. 將網站放入[!UICONTROL Maintenance Mode]。
-深入瞭解使用手冊中的[啟用或停用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html?lang=zh-Hant)，以及升級手冊中用於升級的[[!UICONTROL Maintenance Mode]選項](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html?lang=zh-Hant)。
-1. 停用cron工作。 閱讀我們的[crons屬性指南](<https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)中有關停用cron工作的詳細資訊。
-1. 取得本機[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=zh-Hant)。
+深入瞭解使用手冊中的[啟用或停用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升級手冊中用於升級的[[!UICONTROL Maintenance Mode]選項](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)。
+1. 停用cron工作。 閱讀我們的[crons屬性指南](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)中有關停用cron工作的詳細資訊。
+1. 取得本機[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)。
 
 <u>若需要[!UICONTROL Rollback]</u>：
 
@@ -55,13 +58,13 @@ ht-degree: 0%
 
 ## 案例2：還原快照
 
-閱讀：在開發人員檔案中[在雲端基礎結構上還原Adobe Commerce上的快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
+閱讀：在開發人員檔案中[在雲端基礎結構上還原Adobe Commerce上的快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
 
 >[!NOTE]
 >
 >在雲端基礎結構帳戶上存取Adobe Commerce之後以及套用重大變更之前，建立快照必須是我們的第一步。 此為最佳實務，強烈建議使用。
 
-閱讀：在開發人員檔案中建立[快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
+閱讀：在開發人員檔案中建立[快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
 
 ## 案例3：沒有快照、建置穩定（可用SSH連線）
 
@@ -88,24 +91,24 @@ ht-degree: 0%
 
 若要移除組態檔，請遵循下列步驟：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 移除組態檔： `rm app/etc/config.php`
 
 深入瞭解組態管理：
 
 * [減少雲端基礎結構上Adobe Commerce的部署停機時間](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) （在我們的支援知識庫中）。
-* 在開發人員檔案中[商店設定的組態管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)。
+* 在開發人員檔案中[商店設定的組態管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)。
 
 ### 步驟1：使用setup：uninstall命令解除安裝Adobe Commerce軟體
 
 
 解除安裝Adobe Commerce軟體會捨棄並還原資料庫、移除部署設定，以及清除`var`下的目錄。
 
-閱讀：在開發人員檔案中[解除安裝Adobe Commerce軟體](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=zh-Hant)。
+閱讀：在開發人員檔案中[解除安裝Adobe Commerce軟體](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)。
 
 若要解除安裝Adobe Commerce軟體，請遵循下列步驟：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 執行`setup:uninstall` ： `bin/magento setup:uninstall`
 1. 確認解除安裝。
 
@@ -155,10 +158,10 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 如果執行`setup:uninstall`命令失敗並出現錯誤，而且無法完成，我們可以使用以下步驟手動清除DB：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
-1. 連線到MySQL DB： `mysql -h database.internal` （對於Pro環境，請參閱： [設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=zh-Hant)）。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. 連線到MySQL DB： `mysql -h database.internal` （對於Pro環境，請參閱： [設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)）。
 1. 卸除`main`資料庫： `drop database main;`
 1. 建立空的`main`資料庫： `create database main;`
 1. 刪除下列組態檔： `config.php`、`config.php.bak`、`env.php`、`env.php.bak`
 
-重設DB後，[進行 [!DNL git] 推送到環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html?lang=zh-Hant)，並將Adobe Commerce安裝到新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hant#environment-commands)。
+重設DB後，[進行 [!DNL git] 推送到環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)，並將Adobe Commerce安裝到新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。
