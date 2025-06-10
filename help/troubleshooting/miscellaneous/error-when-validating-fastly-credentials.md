@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 請確定您具有正確的[!DNL Fastly]服務ID和API權杖，然後再次嘗試驗證。 如需詳細指示，請參閱我們的開發人員檔案中的[測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)。
+1. 請確定您具有正確的[!DNL Fastly]服務ID和API權杖，然後再次嘗試驗證。 如需詳細指示，請參閱我們的開發人員檔案中的[測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)。
 1. 如果認證驗證失敗，請執行下列curl命令以確認服務的狀態：
 
    ```curl
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 ## 開發人員檔案中的相關閱讀：
 
-* Adobe Commerce的[雲端> [!DNL Fastly] > [!DNL Fastly] 服務帳戶和認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* Adobe Commerce的[雲端> [!DNL Fastly] > [!DNL Fastly] 服務帳戶和認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* 適用於Adobe Commerce的[雲端>設定 [!DNL Fastly] >測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* 適用於Adobe Commerce的[雲端>設定 [!DNL Fastly] >測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
