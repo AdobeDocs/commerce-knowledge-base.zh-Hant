@@ -79,7 +79,7 @@ ht-degree: 0%
    ```
 
 1. 將資料庫[!DNL dump file] （例如： [!DNL Production]的`<cluster ID>.sql.gz`或[!DNL Staging]的`<cluster ID_stg>.sql.gz`）複製到您的本機電腦。
-1. 請確認您已將[!DNL SSH tunnel]設定為從遠端連線至資料庫： [[!DNL SSH] 及 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) （在開發人員檔案中）。
+1. 請確認您已將[!DNL SSH tunnel]設定為從遠端連線至資料庫： [[!DNL SSH] 及 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) （在開發人員檔案中）。
 1. 連線到資料庫。
 
    ```bash
@@ -175,6 +175,6 @@ ht-degree: 0%
 
 在我們的開發人員檔案中：
 
-* [匯入代碼：匯入資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* 雲端上的[備份（快照）：常見問題](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [匯入代碼：匯入資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* 雲端上的[備份（快照）：常見問題](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
