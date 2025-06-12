@@ -38,7 +38,7 @@ ht-degree: 0%
 
 如果在&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]**&#x200B;下看不到&#x200B;**[!UICONTROL Banners]**&#x200B;選項，表示您已套用這篇文章的建議。
 
-對於雲端基礎結構上的Adobe Commerce 2.3.x和更新版本（功能在v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已[重新命名）：
+對於雲端基礎結構上的Adobe Commerce 2.3.x和更新版本（功能在v 2.3.x[&#128279;](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已重新命名）：
 
 1. 登入Commerce管理員。
 1. 導覽至&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Dynamic Blocks]**。
