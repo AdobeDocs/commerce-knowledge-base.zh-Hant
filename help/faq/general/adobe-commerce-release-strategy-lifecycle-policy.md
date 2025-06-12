@@ -1,6 +1,6 @@
 ---
 title: 2024年和2023年Adobe Commerce發行策略與生命週期政策的常見問題集
-description: 為了滿足Adobe Commerce客戶的關鍵任務需求，我們將Adobe Commerce 2.4.4及更新版本的支援期限從{0**date**版延長至{3年。  [!DNL GA] 支援包括**安全性與品質修補程式**。 如需時間詳細資訊，請參閱我們新的[發行行事曆](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)。
+description: 為了滿足Adobe Commerce客戶的關鍵任務需求，我們將Adobe Commerce 2.4.4及更新版本的支援期限從&lbrace;0**date**版延長至&lbrace;3年。  [!DNL GA] 支援包括**安全性與品質修補程式**。 如需時間詳細資訊，請參閱我們新的[發行行事曆](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)。
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
 source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
