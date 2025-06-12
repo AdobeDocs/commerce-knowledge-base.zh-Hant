@@ -4,9 +4,9 @@ description: 本文提供網站效能低下的修正。 啟用但未使用'Magen
 exl-id: 90a8bd21-1f2c-4cfe-8213-17f877e20de8
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 76ef59dc37504f50d55734a90c9ce5b30bb83175
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->如果您使用Adobe Commerce Banner功能，請參閱我們的支援知識庫中的[高輸送量AJAX要求導致效能不佳](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)文章，以取得有關如何避免過多Ajax要求所導致的效能問題的建議。
+>如果您使用Adobe Commerce Banner功能，請參閱我們的支援知識庫中的[高輸送量AJAX要求導致效能不佳](/help/troubleshooting/miscellaneous/high-throughput-ajax-requests-cause-poor-performance.md)文章，以取得有關如何避免過多Ajax要求所造成的效能問題的建議。
 
 ## 受影響的產品和版本
 
@@ -33,18 +33,18 @@ ht-degree: 0%
 適用於Adobe Commerce雲端基礎結構2.2.x：
 
 1. 登入Commerce管理員。
-1. 導覽至&#x200B;**內容** > *元素* > **橫幅**。
+1. 導覽至&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Banners]**。
 1. 如果此頁面上顯示的格線是空的，表示您沒有任何橫幅。
 
-如果您在&#x200B;**Content** > *Elements*&#x200B;底下沒有看到&#x200B;**橫幅**&#x200B;選項，則不是這種情況，而且無法套用這篇文章的建議。
+如果在&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]**&#x200B;下看不到&#x200B;**[!UICONTROL Banners]**&#x200B;選項，表示您已套用這篇文章的建議。
 
-針對雲端基礎結構上的Adobe Commerce 2.3.x （功能在v 2.3.x[&#128279;](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已重新命名）：
+對於雲端基礎結構上的Adobe Commerce 2.3.x和更新版本（功能在v 2.3.x](https://commerce-docs.github.io/devdocs-archive/2.3/guides/v2.3/release-notes/ReleaseNotes2.3.0Commerce.html#banner-now-dynamic-block)中已[重新命名）：
 
 1. 登入Commerce管理員。
-1. 導覽至&#x200B;**內容** > *元素>* **動態區塊**。
+1. 導覽至&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]** > **[!UICONTROL Dynamic Blocks]**。
 1. 如果此頁面上顯示的格線是空的，表示您沒有任何動態區塊（橫幅）。
 
-如果您在&#x200B;**Content** > *Elements*&#x200B;底下沒有看到&#x200B;**動態區塊**&#x200B;選項，則不是這種情況，而且無法套用這篇文章的建議。
+如果在&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]**&#x200B;下看不到&#x200B;**[!UICONTROL Dynamic Blocks]**&#x200B;選項，表示您已套用這篇文章的建議。 若要再次檢視橫幅選項，請反轉此程式。
 
 ## 原因
 
@@ -56,5 +56,8 @@ ht-degree: 0%
 >
 >我們強烈建議先在[測試/整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)上測試變更，然後再將其套用至生產環境。 我們也建議在進行任何操作之前先進行最近的備份。
 
-1. 停用`Magento_Banner`模組輸出，如開發人員檔案中的[停用模組輸出](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/files/disable-module-output)所述。 您需要使用的模組名稱為`Magento_Banner`。
-1. 部署您的程式碼。 針對雲端基礎結構上的Adobe Commerce，請依照開發人員檔案中的[部署您的存放區](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章所述進行部署。
+1. 停用`Magento_Banner`模組輸出，如開發人員檔案中的[停用模組輸出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)所述。 您需要使用的模組名稱為`Magento_Banner`。
+1. 部署您的程式碼。 針對雲端基礎結構上的Adobe Commerce，請依照開發人員檔案中的[部署您的存放區](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章所述進行部署。
+1. 停用模組輸出後，功能表不再出現在管理員中。
+1. 您不會再在&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]**&#x200B;下看到橫幅或動態選項。 若要再次顯示選項，[啟用模組輸出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output?lang=en#disable-module-output-in-a-simple-deployment)。
+
