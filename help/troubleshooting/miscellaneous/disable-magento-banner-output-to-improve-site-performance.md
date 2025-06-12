@@ -56,8 +56,8 @@ ht-degree: 0%
 >
 >我們強烈建議先在[測試/整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)上測試變更，然後再將其套用至生產環境。 我們也建議在進行任何操作之前先進行最近的備份。
 
-1. 停用`Magento_Banner`模組輸出，如開發人員檔案中的[停用模組輸出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output)所述。 您需要使用的模組名稱為`Magento_Banner`。
-1. 部署您的程式碼。 針對雲端基礎結構上的Adobe Commerce，請依照開發人員檔案中的[部署您的存放區](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章所述進行部署。
+1. 停用`Magento_Banner`模組輸出，如開發人員檔案中的[停用模組輸出](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/files/disable-module-output)所述。 您需要使用的模組名稱為`Magento_Banner`。
+1. 部署您的程式碼。 針對雲端基礎結構上的Adobe Commerce，請依照開發人員檔案中的[部署您的存放區](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)文章所述進行部署。
 1. 停用模組輸出後，功能表不再出現在管理員中。
-1. 您不會再在&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]**&#x200B;下看到橫幅或動態選項。 若要再次顯示選項，[啟用模組輸出](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/disable-module-output?lang=en#disable-module-output-in-a-simple-deployment)。
+1. 您不會再在&#x200B;**[!UICONTROL Content]** > **[!UICONTROL Elements]**&#x200B;下看到橫幅或動態選項。 若要再次顯示選項，[啟用模組輸出](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/files/disable-module-output?lang=en#disable-module-output-in-a-simple-deployment)。
 
