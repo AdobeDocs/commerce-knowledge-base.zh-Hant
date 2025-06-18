@@ -18,7 +18,7 @@ ht-degree: 0%
 Adobe Commerce為次要版本提供品質修正，從下一個次要軟體版本正式發行之日起至少12個月。 我們在此期間提供品質修正的方式正在改變：
 
 * **先前原則：**&#x200B;目前12個月EOS視窗中前一行的品質修正會透過我們的每季修補程式發行版本提供，因此每季修補程式是安全性+品質的組合。
-* **新原則：**&#x200B;從2.4開始，作為最新的次要版本行，先前支援的行(2.3)的發行修補程式將移至僅限安全性。 發行次要（如2.4）及後續發行次要(New Minor)產品線後，我們仍會在12個月期間針對先前支援的產品線提供品質修正；但這些修正可透過[品質修補工具(QPT)](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)提供，且僅著重於嚴重問題。
+* **新原則：**&#x200B;從2.4開始，作為最新的次要版本行，先前支援的行(2.3)的發行修補程式將移至僅限安全性。 發行次要（如2.4）及後續發行次要(New Minor)產品線後，我們仍會在12個月期間針對先前支援的產品線提供品質修正；但這些修正可透過[品質修補工具(QPT)](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)提供，且僅著重於嚴重問題。
 
 ## 此原則何時生效？
 
@@ -38,7 +38,7 @@ Adobe也將繼續推出最新版本行的僅限安全性版本。 [推出新的�
 
 ## 什麼是品質修補工具？
 
-請參閱我們支援知識庫中的[品質修補程式工具：自助服務品質修補程式的新工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)文章。
+請參閱我們支援知識庫中的[品質修補程式工具：自助服務品質修補程式的新工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)文章。
 
 ## 誰應該考慮使用此新原則？
 
