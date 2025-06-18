@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 2ed731574bb25c31d0fcb800fcf8f98b85ff0bc2
+source-git-commit: 51f693c29781029adc0f3d6214d7f784b873998b
 workflow-type: tm+mt
-source-wordcount: '3459'
+source-wordcount: '3449'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,6 @@ ht-degree: 0%
       * [Adobe Commerce發行版本更新生命週期原則的常見問題集](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [在Cloud 2.4.4上切換為Adobe Commerce的OpenSearch](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [針對PHP漏洞的Adobe Commerce建議](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
-      * [已發行品質修補程式工具：提供自助式品質修補程式的新工具](/help/announcements/adobe-commerce-announcements/magento-quality-patches-released-new-tool-to-self-serve-quality-patches.md)
       * [Adobe Commerce 2.4.0中將移除MySQL目錄搜尋引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe支援客戶資料存取和隱私權](/help/announcements/adobe-commerce-announcements/adobe-support-customer-data-access-and-privacy.md)
       * [UPS API已過時](/help/announcements/adobe-commerce-announcements/ups-apis-deprecated.md)
