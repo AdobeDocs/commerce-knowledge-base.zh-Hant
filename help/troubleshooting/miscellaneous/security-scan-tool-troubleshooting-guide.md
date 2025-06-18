@@ -104,7 +104,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 提交支援票證時需要哪些資訊？
 
-請提供與[安全性掃描](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID所提交完全相同的網域名稱。 請注意，Adobe Commerce內部部署不需要Cloud Project_ID。
+請提供與[安全性掃描](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID所提交完全相同的網域名稱。 請注意，Adobe Commerce內部部署不需要Cloud Project_ID。
 
 ### 如果我從掃描工具掃描中移除存放區，會發生什麼事？
 
