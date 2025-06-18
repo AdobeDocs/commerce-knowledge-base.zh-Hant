@@ -4,9 +4,9 @@ description: 瞭解如何針對Adobe Commerce和Magento Open Source的安全性�
 exl-id: 35e18a11-bda9-47eb-924a-1095f4f01017
 feature: Compliance, Security
 role: Developer
-source-git-commit: 525352027bfa4a8728bdbbfe61af3dca5dbb18f9
+source-git-commit: c6e338fb33477ab107fe4de382b485339b57275a
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '909'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 問題：無法提交網站
 
-安全性掃描工具要求您先證明網站的所有權，才能將網域新增至安全性掃描工具。 您可以使用HTML註解或`<meta>`標籤將確認代碼新增至您的網站來執行此操作。 HTML註解應放置在`<body>`標籤內，例如在頁尾區段。 `<meta>`標籤應放置在頁面的`<head>`區段內。
+安全性掃描工具要求您先證明網站的所有權，才能將網域新增至安全性掃描工具。 您可以使用HTML註解或`<meta>`標籤，將確認代碼新增至您的網站來執行此操作。 HTML註解應放置在`<body>`標籤內，例如在頁尾區段。 `<meta>`標籤應放置在頁面的`<head>`區段內。
 
 當安全性掃描工具無法確認商戶的網站擁有權時，商戶會遇到一個常見問題。
 
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ## 問題：安全性掃描工具產生的空白報表
 
-您從安全性掃描工具取得空白的掃描報告，或取得僅包含一個錯誤的報告，例如&#x200B;*安全性工具無法連線到基礎URL*，或在提供的URL *上找不到* Magento安裝。
+您從安全性掃描工具取得空白的掃描報告，或取得僅包含一個錯誤的報告，例如： *安全性工具無法連線到基礎URL*，或在提供的URL *上找不到* Magento安裝。
 
 ### 解決方案
 
-1. 檢查52.87.98.44、34.196.167.176和3.218.25.102 IP是否未在80和443連線埠上封鎖。
+1. 檢查52.87.98.44、34.196.167.176和3.218.25.102 IP是否未封鎖在80和443連線埠上。
 1. 檢查提交的重新導向URL （例如`https://mystore.com`重新導向至`https://www.mystore.com`或反之，或重新導向至其他網域名稱）。
 1. 調查遭拒絕/未履行請求的WAF/Web伺服器存取記錄檔。 HTTP 403 `Forbidden`和HTTP 500 `Internal server error`是造成產生空白報表的常見伺服器回應。 以下是封鎖使用者代理程式請求的確認程式碼範例：
 
@@ -57,7 +57,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. **通過**：安全性掃描工具已掃描您更新的資料並核准變更。
 1. **未知**：安全性掃描工具還沒有您網域的資料；請等候下一個同步處理週期。
-1. **失敗**：如果狀態顯示失敗，您必須修正問題（啟用2FA、變更管理員URL等） 並等待下一個同步處理週期。
+1. **失敗**：如果狀態顯示失敗，您必須修正問題（啟用2FA、變更管理員URL等），並等候下一個同步處理週期。
 
 如果對執行個體進行變更後24小時已經過去，且變更未反映在安全性掃描報告中，您可以[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。 提交票證時提供存放區URL。
 
@@ -76,7 +76,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 1. 檢查新建立的SSH帳戶、檔案系統變更等。
 1. 執行安全性審查。
-1. 請檢視Adobe Commerce版本並升級，尤其是如果它仍在執行已不支援的Magento1。
+1. 請檢視Adobe Commerce版本和升級，尤其是當它仍在執行已不支援的Magento 1時。
 1. 如果問題仍然存在，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)並提供商店URL。
 
 ## 問題：危害性插入失敗
@@ -104,8 +104,8 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 提交支援票證時需要哪些資訊？
 
-請務必提供網域名稱。
+請提供與[安全性掃描](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID所提交完全相同的網域名稱。 請注意，Adobe Commerce內部部署不需要Cloud Project_ID。
 
 ### 如果我從掃描工具掃描中移除存放區，會發生什麼事？
 
-如果您刪除存放區提交，所有相關的資料（包括掃描報告）都會被刪除。 這個操作是不可逆的。 刪除存放區網域後提交會建立「新」提交。
+如果您刪除存放區提交，所有相關的資料（包括掃描報告）都會被刪除。 這個操作是不可逆的。 在刪除存放區網域後提交該網域會建立「新建」提交。
