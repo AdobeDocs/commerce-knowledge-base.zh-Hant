@@ -36,7 +36,7 @@ ht-degree: 0%
 
 有三種解決方案：
 
-* [升級至2.3.4](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)版。
+* [升級至2.3.4](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)版。
 * 確保減少要求（快取要求或移至客戶的私人內容）。
 * 減少請求數量。
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 <u>減少要求數目</u>
 
-* 停用永久購物車，因為它會增加`customer/section/load`個要求的數量。 請依照開發人員檔案中[持續性購物車路徑](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/paths/config-reference-general)中的步驟，檢視持續性購物車是否已啟用。
+* 停用永久購物車，因為它會增加`customer/section/load`個要求的數量。 請依照開發人員檔案中[持續性購物車路徑](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/paths/config-reference-general)中的步驟，檢視持續性購物車是否已啟用。
 * 如果您需要在`sections.xml`中重新載入內容或使內容無效，請依照開發人員檔案中[私人內容：使私人內容無效](https://developer.adobe.com/commerce/php/development/cache/page/private-content/#invalidate-private-content)中的步驟操作。 請確定您沒有直接在自訂中使用`customerData.reload()`方法。
 * 檢查同一頁面上的其他POST AJAX請求。 在Google Chrome Chrome瀏覽器中，開啟Google開發人員工具。 按一下「**網路**」標籤，然後按一下「**XHR**」標籤，就會有來自特定頁面的所有AJAX要求清單。 然後按一下每個請求，在欄位中，請求方法應為GET請求。 注意：Google Chrome為範例，您也可以在其他瀏覽器中執行此動作。
 * 檢查特定AJAX請求的Google Tag Manager (GTM)功能。 使用者可以移除此AJAX，並使用私人功能重構其自訂，以減少對伺服器的請求總數。
