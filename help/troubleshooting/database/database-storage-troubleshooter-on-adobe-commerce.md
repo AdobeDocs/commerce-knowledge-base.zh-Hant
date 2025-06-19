@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%嗎？
 
-a.是 — 這是檔案過多所導致。 檢閱在[當磁碟空間不足時安全地刪除檔案的步驟，雲端基礎結構上的Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)。 完成這些步驟後，請繼續進行[步驟2](#step-2)。 如果您想要要求更多空間，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
+a.是 — 這是檔案過多所導致。 檢閱在[當磁碟空間不足時安全地刪除檔案的步驟，雲端基礎結構上的Adobe Commerce](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26889)。 完成這些步驟後，請繼續進行[步驟2](#step-2)。 如果您想要要求更多空間，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 檢查空格。 在CLI/終端機中執行`df -h | grep mysql`，然後執行`df -h | grep tmp`，以檢查`/tmp`和`/data/mysql`目錄中的磁碟空間使用量。 繼續進行[步驟3](#step-3)。
 
 +++
@@ -93,4 +93,4 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 
 ## 相關閱讀
 
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

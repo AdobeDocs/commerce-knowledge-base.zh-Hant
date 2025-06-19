@@ -18,7 +18,7 @@ ht-degree: 0%
 
 * Adobe Commerce內部部署：2.x.x
 * 雲端基礎結構上的Adobe Commerce： 2.x.x
-* MySQL：任何[支援的版本](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
+* MySQL：任何[支援的版本](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/system-requirements)
 
 ## 您何時需要變更增量ID （案例）
 
@@ -29,12 +29,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在PayPal的「付款接收偏好設定」中，允許每個商業發票識別碼進行多項付款，以修正PayPal的付款閘道問題。 請參閱我們的支援知識庫中的[PayPal閘道拒絕要求 — 重複發票問題](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
+>您也可以在PayPal的「付款接收偏好設定」中，允許每個商業發票識別碼進行多項付款，以修正PayPal的付款閘道問題。 請參閱我們的支援知識庫中的[PayPal閘道拒絕要求 — 重複發票問題](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 
 ## 必備條件步驟
 
 1. 尋找應變更新增量ID的存放區和實體。
-1. [連線](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. [連線](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
 1. 使用下列查詢來檢查實體序清單目前的auto\_increment值：
 
 ```sql
@@ -53,7 +53,7 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 相關檔案
 
-* [在開發人員檔案中設定遠端MySQL資料庫連線](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)。
+* [在開發人員檔案中設定遠端MySQL資料庫連線](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)。
 
 ## 更新實體以變更增量ID
 
@@ -87,5 +87,5 @@ ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 ## 相關檔案
 
 * 在我們的支援知識庫中[在雲端上建立資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)
-* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

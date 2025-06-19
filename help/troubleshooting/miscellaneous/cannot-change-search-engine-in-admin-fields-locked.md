@@ -42,4 +42,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 雲端基礎結構指南上的CommerceCommerce管理員中的[鎖定（灰色）欄位](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26879)。
+* 雲端基礎結構指南上的CommerceCommerce管理員中的[鎖定（灰色）欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26879)。

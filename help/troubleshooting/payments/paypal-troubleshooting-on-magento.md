@@ -41,7 +41,7 @@ PayPal付款的大多數問題都有類似的症狀：在指定付款卡詳細�
 
 請參閱下列文章：
 
-* [PayPal閘道已拒絕要求 — 我們的支援知識庫中有重複的發票問題](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
+* [PayPal閘道已拒絕要求 — 我們的支援知識庫中有重複的發票問題](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 * [變更支援知識庫中新商店實體](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的遞增識別碼。
 
 ## 聯絡支援以收集進階付款記錄
