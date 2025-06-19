@@ -4,9 +4,9 @@ description: 本文提供透過PayPal處理付款相關問題的解決方案，�
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ PayPal付款的大多數問題都有類似的症狀：在指定付款卡詳細�
 
 請參閱下列文章：
 
-* [PayPal閘道已拒絕要求 — 我們的支援知識庫中有重複的發票問題](/help/troubleshooting/payments/paypal-gateway-rejected-request-duplicate-invoice-issue.md)。
+* [PayPal閘道已拒絕要求 — 我們的支援知識庫中有重複的發票問題](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 * [變更支援知識庫中新商店實體](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的遞增識別碼。
 
 ## 聯絡支援以收集進階付款記錄
