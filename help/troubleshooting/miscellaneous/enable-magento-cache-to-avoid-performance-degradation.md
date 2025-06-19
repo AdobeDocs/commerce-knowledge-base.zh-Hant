@@ -4,9 +4,9 @@ description: 本文說明如何解決停用某些Adobe Commerce快取型別所�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+source-git-commit: bd6aa238ff8273c60a4cf5160fb614de6ff00d21
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 首先，檢查Adobe Commerce快取的狀態，看看這是否為問題。 為此，請[SSH至您的環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)，然後執行下列命令：
+1. 首先，檢查Adobe Commerce快取的狀態，看看這是否為問題。 為此，請[SSH至您的環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#ssh)，然後執行下列命令：
 
    ```bash
    php bin/magento cache:status
@@ -48,11 +48,11 @@ ht-degree: 0%
 開發人員檔案中的Adobe Commerce快取檔案：
 
 * [Adobe Commerce快取總覽](https://developer.adobe.com/commerce/frontend-core/guide/caching/)
-* [管理快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-cache)
+* [管理快取](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 造成效能問題的其他可能原因和解決方案：
 
-* [停用Adobe Commerce橫幅輸出以改善網站效能](/help/troubleshooting/miscellaneous/disable-magento-banner-output-to-improve-site-performance.md)
-* [MySQL資料表太大](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26945)
+* [停用Adobe Commerce橫幅輸出以改善網站效能](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [MySQL資料表太大](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [效能緩慢、速度緩慢且長時間執行cron](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [受限的管理員存取權造成效能問題](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
