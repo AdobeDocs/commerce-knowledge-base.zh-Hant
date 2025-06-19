@@ -152,7 +152,7 @@ ht-degree: 0%
 ]
 ```
 
-這表示您過去曾透過執行`ece-tools`封裝中的`config:dump`命令，在Build](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上設定[SCD。
+這表示您過去曾透過執行`ece-tools`封裝中的`config:dump`命令，在Build[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上設定SCD。
 
 如果您發現您建立的新商店/網站未顯示在`app/etc/config.php`檔案中，請確定再次執行命令以將`config.php`檔案與您的資料庫變更同步，然後認可`config.php`檔案並重新部署。 這是為了促進新商店/網站的靜態內容部署到適當的檔案路徑。
 
