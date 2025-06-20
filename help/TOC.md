@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: dc2149f886d46826610f2f74b48ef9060a4ff376
+source-git-commit: 9defec16bbe62e13320d20fcbd0b5e65e946d9f7
 workflow-type: tm+mt
-source-wordcount: '3263'
+source-wordcount: '3257'
 ht-degree: 0%
 
 ---
@@ -253,7 +253,6 @@ ht-degree: 0%
       * [從Git推播時放入生產環境的新環境](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [登入Commerce管理員時發生錯誤](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [適用於Adobe Commerce的Magento Order Management系統(OMS)逾時](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [直接運送擷取錯誤的地址](/help/troubleshooting/miscellaneous/drop-shipping-picks-up-wrong-address.md)
       * [清除Commerce管理員中的快取時發生錯誤](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce雲端：以已終止訊息終止重新索引](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
