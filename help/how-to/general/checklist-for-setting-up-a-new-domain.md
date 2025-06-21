@@ -159,4 +159,4 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [設定多個網站或商店：新增使用手冊中的 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#add-new-domains)。
-* [網站因來源遮罩而無法存取](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26856)
+* [網站因來源遮罩而無法存取](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26856)

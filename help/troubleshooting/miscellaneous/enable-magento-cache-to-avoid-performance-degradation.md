@@ -52,7 +52,7 @@ ht-degree: 0%
 
 造成效能問題的其他可能原因和解決方案：
 
-* [停用Adobe Commerce橫幅輸出以改善網站效能](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26909)
+* [停用Adobe Commerce橫幅輸出以改善網站效能](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [MySQL資料表太大](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26945)
 * [效能緩慢、速度緩慢且長時間執行cron](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
 * [受限的管理員存取權造成效能問題](/help/troubleshooting/miscellaneous/restricted-admin-access-causing-performance-issues.md)
