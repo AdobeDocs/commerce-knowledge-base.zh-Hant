@@ -35,7 +35,7 @@ b.否 — 依照[進階報告需求](https://experienceleague.adobe.com/en/docs/
 a.是 — 如果查詢傳回多個資料列，您就無法使用&#x200B;**[!UICONTROL Advanced Reporting]**，因為我們只支援一種貨幣。 您必須使用[Adobe Commerce Intelligence](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/guide-overview)。 請洽詢您的帳戶團隊以設定此專案。
 b.否 — 輸出只顯示一種貨幣。 範例： `USD`。 是否曾經使用過多個基本貨幣（在訂單中）？ 執行此[!DNL SQL]命令以取得歷史訂單資料：\
 `SELECT DISTINCT base_currency_code FROM sales_order;`。
-**注意：這個命令需要完整的資料表掃描，所以對於記錄數量高的資料表，當查詢正在執行**以取得歷史訂單資料時，這可能會影響效能。
+**注意：這個命令需要完整的資料表掃描，所以對於記錄數量高的資料表，當查詢正在執行**&#x200B;以取得歷史訂單資料時，這可能會影響效能。
 如果您曾使用過多種基本貨幣，則無法使用進階報告，因為我們僅支援一種貨幣。 如果輸出只顯示一種貨幣，請繼續執行[步驟3](#step-3)。
 
 +++
