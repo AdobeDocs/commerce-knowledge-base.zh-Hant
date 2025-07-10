@@ -30,7 +30,7 @@ b.否 — 維護或全球中斷。 檢查估計持續時間和更新。
 
 +++**其他環境中是否有部署會封鎖現有環境中的部署？**
 
-若要取得進行中活動的清單，請使用magento-cloud CLI執行以下命令（如果您只新增到一個雲端專案）。 **注意**：請檢查您是否使用最新版的magento-cloud CLI。 如需相關步驟，請參閱Commerce on Cloud Infrastructure指南中的[更新CLI](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
+若要取得進行中活動的清單，請使用magento-cloud CLI執行以下命令（如果您只新增到一個雲端專案）。 **注意**：請檢查您是否使用最新版的magento-cloud CLI。 如需相關步驟，請參閱Commerce on Cloud Infrastructure指南中的[更新CLI](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
 
 ```bash
 magento-cloud --state=in_progress
@@ -42,7 +42,7 @@ magento-cloud --state=in_progress
 magento-cloud -p <project-id or project-url> --state=in_progress
 ```
 
-若要尋找現有部署活動的相關資訊(請參閱[如果雲端UI有「記錄片段」錯誤，請檢查部署記錄](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+若要尋找現有部署活動的相關資訊(請參閱[如果雲端UI有「記錄片段」錯誤，請檢查部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 如需詳細資訊)，您可以執行此命令來取得該活動的執行記錄檔：
 
 ```bash
@@ -79,7 +79,7 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 +++**使用Bitbucket？**
 
 a.是 — 檢查[status.bitbucket.com](https://bitbucket.status.atlassian.com/)。\
-b.否 — 檢查[建置和部署記錄](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中的部署記錄錯誤。 繼續進行[步驟6](#step-6)。
+b.否 — 檢查[建置和部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/test/log-locations)中的部署記錄錯誤。 繼續進行[步驟6](#step-6)。
 
 +++
 
@@ -123,11 +123,11 @@ b.否 — 繼續執行[步驟11](#step-11)。
 
 +++**可用儲存空間還好嗎？**
 
-* [檢查整合/入門環境](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
-* [檢查Pro測試/生產環境](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
+* [檢查整合/入門環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-integration-environment)
+* [檢查Pro測試/生產環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space?lang=en#check-dedicated-clusters)
 
 a.是 — 繼續[步驟11](#step-11)。\
-b.否 — 檢閱[管理磁碟空間](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)。
+b.否 — 檢閱[管理磁碟空間](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/storage/manage-disk-space)。
 
 +++
 
@@ -139,7 +139,7 @@ a.是
 
 * 對於整合/入門環境：
 
-   * 請[在.magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space)中增加磁碟值，然後重新部署。 如果這個方法無法運作，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+   * 請[在.magento.app.yaml](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=zh-Hant#application-disk-space)中增加磁碟值，然後重新部署。 如果這個方法無法運作，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
    * 或者，檢閱`var/log`資料夾並刪除任何超過1MB的記錄檔。 執行此命令以檢查檔案大小：
 
      ```bash
@@ -176,7 +176,7 @@ b.否 — 繼續執行[步驟14](#step-14)。
 
 +++**檔案系統用完inode或空間？**
 
-a.是 — 請參閱[管理磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#application-disk-space)。\
+a.是 — 請參閱[管理磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=zh-Hant#application-disk-space)。\
 b.否 — 繼續執行[步驟15](#step-15)。
 
 +++
@@ -218,7 +218,7 @@ b.否 — 繼續執行[步驟18](#step-18)。
 
 +++**後掛接失敗/擱置？**
 
-a.是 — 資料庫： [可用磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html#allocate-disk-space)，損毀，不完整/損毀的資料表。\
+a.是 — 資料庫： [可用磁碟空間](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space.html?lang=zh-Hant#allocate-disk-space)，損毀，不完整/損毀的資料表。\
 b.否 — 繼續執行[步驟19](#step-19)。
 
 +++
@@ -227,7 +227,7 @@ b.否 — 繼續執行[步驟19](#step-19)。
 
 +++**使用協力廠商擴充功能？**
 
-a.是 — 嘗試[停用協力廠商擴充功能](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/extensions)並執行部署（檢視問題是否起因），尤其是當任何錯誤中有擴充功能名稱時。\
+a.是 — 嘗試[停用協力廠商擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/extensions)並執行部署（檢視問題是否起因），尤其是當任何錯誤中有擴充功能名稱時。\
 b.否 — 繼續執行[步驟20](#step-20)。
 
 +++
