@@ -78,7 +78,7 @@ df -h
 
 您可以立即採取步驟將[!DNL MySQL]帶回正軌（或避免卡住）：清除大型表格以釋放一些空間。
 
-但長期解決方案會分配更多空間，並遵循[資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+但長期解決方案會分配更多空間，並遵循[資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hant)，包括啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 以下是有關快速和長期解決方案的詳細資訊。
 
@@ -124,7 +124,7 @@ Size Used Avail Use% Mounted on·
 
 >[!WARNING]
 >
->我們強烈建議在執行任何操作之前建立資料庫備份，並在網站負載過高期間避免這些操作。 請參閱我們的開發人員檔案中的[傾印您的資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
+>我們強烈建議在執行任何操作之前建立資料庫備份，並在網站負載過高期間避免這些操作。 請參閱我們的開發人員檔案中的[傾印您的資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
 
 檢查是否有大型資料表，並考慮是否有任何資料表可以清除。 請在主要（來源）節點上執行此操作。
 
@@ -132,7 +132,7 @@ Size Used Avail Use% Mounted on·
 
 如果沒有大型報表表格，請考慮排清`_index`表格，以將Adobe Commerce應用程式返回正軌。 `index_price`個資料表將是最佳候選者。 例如，`catalog_category_product_index_storeX`個資料表，其中X的值可以是「1」到最大存放區計數。 請注意，您需要重新索引以還原這些表格中的資料，而且在大目錄的情況下，此重新索引可能需要花很長的時間。
 
-排清它們後，請等待wsrep同步完成。 您現在可以建立備份，並採取更重大的步驟來增加更多空間，例如分配/購買更多空間，以及啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+排清它們後，請等待wsrep同步完成。 您現在可以建立備份，並採取更重大的步驟來增加更多空間，例如分配/購買更多空間，以及啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 ### 檢查二進位記錄設定
 
@@ -148,7 +148,7 @@ Size Used Avail Use% Mounted on·
    mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
    ```
 
-   如需詳細步驟，請參閱[連線並針對Adobe Commerce資料庫](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)執行查詢。
+   如需詳細步驟，請參閱[連線並針對Adobe Commerce資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)執行查詢。
 
 1. 檢查未使用的空間：
 
@@ -167,7 +167,7 @@ Size Used Avail Use% Mounted on·
    檢查輸出以檢視是否有已配置但未使用的記憶體。 當資料已從表格內刪除，但記憶體仍配置給該表格時，就會發生這種情況。
 
 
-1. 將您的網站置於維護模式，並停止cron工作，讓資料庫上沒有任何互動。 如需相關步驟，請參閱[啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)以及[停用cron工作](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 將您的網站置於維護模式，並停止cron工作，讓資料庫上沒有任何互動。 如需相關步驟，請參閱[啟用或停用維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)以及[停用cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
 1. 使用下列命令重新建立表格以回收該空間（例如使用上面列出的具有最多未使用空間的表格）：
 
    ```sql
@@ -182,7 +182,7 @@ Size Used Avail Use% Mounted on·
    ```
 
 
-1. 現在[停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1)和[啟用cron工作](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 現在[停用維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1)和[啟用cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
 
 
 ### 分配/購買更多空間
@@ -196,4 +196,4 @@ Size Used Avail Use% Mounted on·
 
 ## 相關閱讀
 
-[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
