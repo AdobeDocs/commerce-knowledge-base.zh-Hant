@@ -1,19 +1,19 @@
 ---
-title: '[!DNL MySQL]磁碟空間在雲端基礎結構上的Adobe Commerce上太低'
+title: 雲端基礎結構上Adobe Commerce的[!DNL MySQL]磁碟空間不足
 description: 本文提供雲端基礎結構上Adobe Commerce上 [!DNL MySQL] 空間極低或沒有空間可供使用的解決方案。 症狀可能包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[解決方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至解決方案區段。
 exl-id: 788c709e-59f5-4062-ab25-5ce6508f29f9
 feature: Catalog Management, Categories, Cloud, Paas, Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 80343c834563e7550569d225979edfa6a997bcfc
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1319'
 ht-degree: 0%
 
 ---
 
 # 雲端基礎結構上Adobe Commerce的[!DNL MySQL]磁碟空間不足
 
-本文提供解決方案，協助您在雲端基礎結構上的Adobe Commerce上遇到[!DNL MySQL]空間極低或沒有空間的情況。 症狀可能包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至方案區段。
+本文提供解決方案，協助您在雲端基礎結構上的Adobe Commerce上遇到[!DNL MySQL]空間極低或沒有空間的情況。 症狀包括網站中斷、客戶無法將產品新增到購物車、無法連線到資料庫、從遠端存取資料庫，以及無法透過SSH連線到節點。 症狀還包括Galera、環境同步、PHP、資料庫和部署錯誤，如下所列。 按一下[方案](https://support.magento.com/hc/en-us/articles/360058472572#solution)直接跳至方案區段。
 
 ## 受影響的產品和版本
 
@@ -78,7 +78,7 @@ df -h
 
 您可以立即採取步驟將[!DNL MySQL]帶回正軌（或避免卡住）：清除大型表格以釋放一些空間。
 
-但長期解決方案會分配更多空間，並遵循[資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hant)，包括啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+但長期解決方案會分配更多空間，並遵循[資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)，包括啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 以下是有關快速和長期解決方案的詳細資訊。
 
@@ -118,13 +118,13 @@ Size Used Avail Use% Mounted on·
 
 ### 檢查大型`ibtmp1`檔案
 
-檢查每個節點`/data/mysql`上的大型`ibtmp1`檔案：此檔案是暫存表格的表格空間。 如果有產生暫存表格的錯誤查詢，它們會包含在`ibtmp1`檔案中。 只有在重新啟動資料庫時，才會移除此檔案。 如果它正在佔用所有可用的空間，則必須重新啟動資料庫。 如果存在錯誤的查詢，則會重新建立它。
+檢查每個節點`ibtmp1`上的大型`/data/mysql`檔案：此檔案是暫存表格的表格空間。 如果有產生暫存表格的錯誤查詢，它們會包含在`ibtmp1`檔案中。 只有在重新啟動資料庫時，才會移除此檔案。 如果它正在佔用所有可用的空間，則必須重新啟動資料庫。 如果存在錯誤的查詢，則會重新建立它。
 
 ### 排清大型表格
 
 >[!WARNING]
 >
->我們強烈建議在執行任何操作之前建立資料庫備份，並在網站負載過高期間避免這些操作。 請參閱我們的開發人員檔案中的[傾印您的資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
+>我們強烈建議在執行任何操作之前建立資料庫備份，並在網站負載過高期間避免這些操作。 請參閱我們的開發人員檔案中的[傾印您的資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)。
 
 檢查是否有大型資料表，並考慮是否有任何資料表可以清除。 請在主要（來源）節點上執行此操作。
 
@@ -132,13 +132,58 @@ Size Used Avail Use% Mounted on·
 
 如果沒有大型報表表格，請考慮排清`_index`表格，以將Adobe Commerce應用程式返回正軌。 `index_price`個資料表將是最佳候選者。 例如，`catalog_category_product_index_storeX`個資料表，其中X的值可以是「1」到最大存放區計數。 請注意，您需要重新索引以還原這些表格中的資料，而且在大目錄的情況下，此重新索引可能需要花很長的時間。
 
-排清它們後，請等待wsrep同步完成。 您現在可以建立備份，並採取更重大的步驟來增加更多空間，例如分配/購買更多空間，以及啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
+排清它們後，請等待wsrep同步完成。 您現在可以建立備份，並採取更重大的步驟來增加更多空間，例如分配/購買更多空間，以及啟用[訂單/發票/出貨封存](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/order-management/orders/order-archive)功能。
 
 ### 檢查二進位記錄設定
 
 檢查您的[!DNL MySQL]伺服器二進位記錄設定： `log_bin`和`log_bin_index`。 如果已啟用這些設定，記錄檔可能會變得龐大。 [建立支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求清除大型二進位記錄檔。 此外，請要求檢查二進位記錄是否正確設定，以定期清除記錄檔，以免佔用太多空間。
 
 如果您沒有[!DNL MySQL]伺服器設定的存取權，請要求支援以進行檢查。
+
+### 回收未使用的已配置磁碟空間
+
+1. SSH至節點1並登入MySQL：
+
+   ```sh
+   mysql -h127.0.0.1 -p`php -r "echo (include('app/etc/env.php'))['db']['connection']['default']['password'];"` -u`whoami` `whoami`
+   ```
+
+   如需詳細步驟，請參閱[連線並針對Adobe Commerce資料庫](https://experienceleague.adobe.com/en/docs/commerce-learn/tutorials/backend-development/remote-db-connection-execute-queries)執行查詢。
+
+1. 檢查未使用的空間：
+
+   ```sql
+   SELECT table_name, round((data_length+index_length)/1048576,2) AS size_MB, round((data_free)/1048576,2) AS Allocated_but_unused FROM information_schema.tables WHERE data_free > 1048576*10 ORDER BY data_free DESC;
+   ```
+
+
+   範例輸出：
+
+   | table_name | size_MB | Allocated_but_unused |
+   |----------------------|----------|--------------------------|
+   | vertex_taxrequest | 28145.20 | 14943.00 |
+
+
+   檢查輸出以檢視是否有已配置但未使用的記憶體。 當資料已從表格內刪除，但記憶體仍配置給該表格時，就會發生這種情況。
+
+
+1. 將您的網站置於維護模式，並停止cron工作，讓資料庫上沒有任何互動。 如需相關步驟，請參閱[啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode)以及[停用cron工作](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+1. 使用下列命令重新建立表格以回收該空間（例如使用上面列出的具有最多未使用空間的表格）：
+
+   ```sql
+   ALTER TABLE vertex_taxrequest Engine = "INNODB";
+   ```
+
+1. 執行以下查詢來檢查在資料行&#x200B;**[!UICONTROL Allocated_but_unused]**&#x200B;中顯示高值的每個資料表的未配置空間。
+
+   ```sql
+   SELECT table_name, round((data_length+index_length)/1048576,2) as size_MB, round((data_free)/1048576,2) as Allocated_but_unused FROM information_schema.tables WHERE 1 AND data_free > 1048576*10 ORDER BY 
+   data_free DESC;
+   ```
+
+
+1. 現在[停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode#enable-or-disable-maintenance-mode-1)和[啟用cron工作](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/crons-property#disable-cron-jobs)。
+
 
 ### 分配/購買更多空間
 
@@ -147,8 +192,8 @@ Size Used Avail Use% Mounted on·
 * 對於入門計畫、所有環境和Pro計畫整合環境，如果您有一些未使用的磁碟空間，則可以配置磁碟空間。 如需詳細資訊，請參閱[為 [!DNL MySQL]](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)分配更多空間。
 * 若為Pro計畫測試和生產環境，如果您有未使用的磁碟空間，請[連絡支援](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以配置更多磁碟空間。
 
-如果您已達到空間限制，但仍遇到空間不足的問題，請考慮購買更多磁碟空間，並連絡您的Adobe帳戶團隊以取得詳細資料。
+如果您已達到空間限制，但仍遇到空間不足問題，請考慮購買更多磁碟空間，並聯絡Adobe帳戶團隊以取得詳細資料。
 
 ## 相關閱讀
 
-[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
