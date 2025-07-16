@@ -19,9 +19,9 @@ ht-degree: 0%
 
 Adobe Commerce （所有部署方法） 2.4.4 - 2.4.7，並套用下列其中一項修補程式：
 
-* 使用[[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)套用MDVA-12304修補程式
-* [可用於Adobe Commerce的安全性更新 — APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
-* [適用於 [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)的雲端修補程式
+* 使用[[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/release-notes)套用MDVA-12304修補程式
+* [可用於Adobe Commerce的安全性更新 — APSB25-08](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27149)
+* [適用於 [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)的雲端修補程式
 
 ## 問題
 
@@ -50,6 +50,6 @@ Adobe Commerce （所有部署方法） 2.4.4 - 2.4.7，並套用下列其中一
 
 ### 相關閱讀
 
-* 在Adobe Commerce升級指南中[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply)
-* [大規模發佈Adobe Commerce修補程式的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) (在Adobe Commerce實作行動手冊中)
-* 雲端指南中Commerce Cloud Commerce Tools Suite[的](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)發行說明。
+* 在Adobe Commerce升級指南中[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/patches/apply)
+* [大規模發佈Adobe Commerce修補程式的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) (在Adobe Commerce實作行動手冊中)
+* 雲端指南中Commerce Cloud Commerce Tools Suite[的](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)發行說明。
