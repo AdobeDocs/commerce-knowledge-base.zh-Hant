@@ -3,9 +3,10 @@ title: APSB25-08安全性修補程式之後，大量非同步Web端點的執行�
 description: 本文提供此問題的Hotfix：套用APSB25-08安全性修補程式後，1000多個專案的POST rest/all/async/bulk/V1/products要求執行時間大幅增加。
 feature: Security, Cache, REST, Products, Customers
 role: Admin, Developer
-source-git-commit: fce7f860b9fddd694b311ffc4acd56a48c06e14b
+exl-id: 784a48cb-1ef1-432b-b09f-ebcbb9bebf01
+source-git-commit: f0c2e20e0bd6dab713be59c1c686ee2948445bd4
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -55,8 +56,8 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html?lang=zh-Hant)提供的撰寫器修補程式，以取得指示。
+解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento.html)提供的撰寫器修補程式，以取得指示。
 
 ## 相關閱讀
 
-* [Adobe Commerce適用的安全性更新 — APSB25-08](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
+* [可用於Adobe Commerce的安全性更新 — APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)

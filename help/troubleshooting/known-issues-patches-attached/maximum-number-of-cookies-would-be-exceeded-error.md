@@ -3,9 +3,10 @@ title: Adobe Commerce中超過Cookie最大數量的錯誤
 description: 瞭解如何解決發生錯誤的Adobe Commerce問題，說明會超過Cookie的最大數量。
 feature: Deploy, Support, Upgrade, Tools and External Services
 role: Admin, Developer
-source-git-commit: 44e167c801bbcd313f74c9fc51f9cde9473ef96f
+exl-id: 5c42ea7a-f023-4d34-8417-bb470efc3b84
+source-git-commit: 87e98607ee5e1cc41e4266836fd09531a290725e
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -18,9 +19,9 @@ ht-degree: 0%
 
 Adobe Commerce （所有部署方法） 2.4.4 - 2.4.7，並套用下列其中一項修補程式：
 
-* 使用[[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/release-notes)套用MDVA-12304修補程式
-* [APSB25-08隔離式安全性修補程式](/help/troubleshooting/known-issues-patches-attached/security-update-available-for-adobe-commerce-apsb25-08.md)
-* [適用於 [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)的雲端修補程式
+* 使用[[!DNL Quality Patches Tool (QPT)]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/release-notes)套用MDVA-12304修補程式
+* [可用於Adobe Commerce的安全性更新 — APSB25-08](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27149)
+* [適用於 [!DNL Commerce] 1.1.4](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-patches)的雲端修補程式
 
 ## 問題
 
@@ -49,6 +50,6 @@ Adobe Commerce （所有部署方法） 2.4.4 - 2.4.7，並套用下列其中一
 
 ### 相關閱讀
 
-* 在Adobe Commerce升級指南中[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/patches/apply)
-* [大規模發佈Adobe Commerce修補程式的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) (在Adobe Commerce實作行動手冊中)
-* 雲端指南中Commerce Cloud Commerce Tools Suite[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)的發行說明。
+* 在Adobe Commerce升級指南中[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply)
+* [大規模發佈Adobe Commerce修補程式的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/maintenance/patching-at-scale) (在Adobe Commerce實作行動手冊中)
+* 雲端指南中Commerce Cloud Commerce Tools Suite[的](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/release-notes/cloud-tools-suite)發行說明。
