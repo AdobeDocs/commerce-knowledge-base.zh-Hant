@@ -22,17 +22,17 @@ ht-degree: 0%
 
 ### 步驟1 — 這是否適用於[!DNL Integration, Staging]或[!DNL Production environment]？
 
-* **[!DNL Integration]**：不支援[!DNL Custom domains]。 您必須改用這個方法： [設定多個網站或商店：設定本機安裝](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)在我們的使用手冊中。
+* **[!DNL Integration]**：不支援[!DNL Custom domains]。 您必須改用這個方法： [設定多個網站或商店：設定本機安裝](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#add-new-domains)在我們的使用手冊中。
 * **[!DNL Staging]**：移至&#x200B;**步驟2**。
 * **[!DNL Production]**：移至&#x200B;**步驟3**。
 
 ### 步驟2 - [!DNL Staging environment]：您是在[!DNL Pro]還是[!DNL Starter]？
 
-* **[!DNL Pro]**： **送出要求**&#x200B;以將網域新增到[!DNL Fastly, Nginx]，並設定[!DNL SSL certificate] （以及視需要設定[!DNL Sendgrid domain]）。 完成設定後，[使用 [!DNL DNS]  [!DNL development settings]更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)設定。
+* **[!DNL Pro]**： **送出要求**&#x200B;以將網域新增到[!DNL Fastly, Nginx]，並設定[!DNL SSL certificate] （以及視需要設定[!DNL Sendgrid domain]）。 完成設定後，[使用 [!DNL DNS]  [!DNL development settings]更新](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant#update-dns-configuration-with-development-settings)設定。
 
 >[!NOTE]
 >
->您可以自行將新[!DNL domain]新增至[!DNL Fastly]，方法是在[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]**&#x200B;的&#x200B;**[!UICONTROL Domains]**&#x200B;中更新組態，如同我們的使用手冊中的[[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)一樣。
+>您可以自行將新[!DNL domain]新增至[!DNL Fastly]，方法是在[!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]**&#x200B;的&#x200B;**[!UICONTROL Domains]**&#x200B;中更新組態，如同我們的使用手冊中的[[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=zh-Hant#manage-domains)一樣。
 >
 >如果您無法新增網域，可能是由於下列其中一個原因：
 >
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您自己可以在[!DNL domain] > [!DNL Fastly] > [!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** **[!UICONTROL Full Page Cache]**&#x200B;**[!DNL Fastly Configuration]**&#x200B;的&#x200B;**[!UICONTROL Domains]**&#x200B;中更新設定，以將新的[[!DNL Manage domains]新增至](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)。
+>您自己可以在[!DNL domain] > [!DNL Fastly] > [!DNL Admin] > **[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** **[!UICONTROL Full Page Cache]**&#x200B;**[!DNL Fastly Configuration]**&#x200B;的&#x200B;**[!UICONTROL Domains]**&#x200B;中更新設定，以將新的[[!DNL Manage domains]新增至](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=zh-Hant#manage-domains)。
 >
 >
 >如果您無法新增網域，可能是由於下列其中一個原因：
@@ -59,12 +59,12 @@ ht-degree: 0%
 
 ### 步驟4 - [!DNL domain]是否上線？
 
-* **是**： [使用 [!DNL DNS] 設定更新[!UICONTROL production]設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings)。
-* **否**： [使用 [!DNL DNS] 設定更新[!UICONTROL development]設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)。
+* **是**： [使用 [!DNL DNS] 設定更新[!UICONTROL production]設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hant#update-dns-configuration-with-production-settings)。
+* **否**： [使用 [!DNL DNS] 設定更新[!UICONTROL development]設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant#update-dns-configuration-with-development-settings)。
 
 ### 步驟5 — 網域重新導向是否已在`magento-vars.php`中設定？
 
-設定網域後，您需要[修改](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)檔案中的變數`magento-vars.php`，以將網域導向適當的網站/商店URL。
+設定網域後，您需要[修改](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)檔案中的變數`magento-vars.php`，以將網域導向適當的網站/商店URL。
 
 ### 步驟6 - [!DNL domain]設定是否已驗證？
 
@@ -156,11 +156,11 @@ ht-degree: 0%
 ]
 ```
 
-這表示您過去曾透過執行[封裝中的](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)命令，在Build`config:dump`上設定`ece-tools`SCD。
+這表示您過去曾透過執行[封裝中的](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)命令，在Build`config:dump`上設定`ece-tools`SCD。
 
 如果您發現您建立的新商店/網站未顯示在`app/etc/config.php`檔案中，請確定再次執行命令以將`config.php`檔案與您的資料庫變更同步，然後認可`config.php`檔案並重新部署。 這是為了促進新商店/網站的靜態內容部署到適當的檔案路徑。
 
 ## 相關閱讀
 
-* [設定多個網站或商店：新增使用手冊中的 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)。
-* [網站因來源遮罩而無法存取](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26856)
+* [設定多個網站或商店：新增使用手冊中的 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#add-new-domains)。
+* [網站因來源遮罩而無法存取](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26856)
