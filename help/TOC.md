@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 15d38d9b0cb18536326c0afbb12b8a21eaee596c
+source-git-commit: 0569b4874400e0d313ad556cc7c07abfc7647368
 workflow-type: tm+mt
-source-wordcount: '3029'
+source-wordcount: '3013'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,6 @@ ht-degree: 0%
 * [Adobe Commerce支援知識庫](/help/overview.md)
 * 支援工具 {#support-tools}
    * [支援工具總覽](/help/support-tools/overview.md)
-   * 全網站分析工具 {#site-wide-analysis-tool}
-      * [Adobe的全網站分析工具：概觀](/help/support-tools/site-wide-analysis-tool/swat-tool-overview.md)
-      * [Adobe Commerce全網站分析工具報表常見問題集](/help/support-tools/site-wide-analysis-tool/swat-faq.md)
 * 公告 {#announcements}
    * [公告總覽](/help/announcements/overview.md)
    * Adobe Commerce公告 {#commerce-announcements}
