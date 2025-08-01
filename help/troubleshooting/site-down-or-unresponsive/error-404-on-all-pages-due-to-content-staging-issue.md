@@ -4,7 +4,7 @@ description: 本文針對Adobe Commerce內部部署和Adobe Commerce雲端基礎
 exl-id: 62d8ba6e-8550-4e1e-8e8d-8f319c92778a
 feature: CMS, Catalog Management, Categories, Page Content, Staging
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 48f06a90108842e00745b75db2f56a320704faf5
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 0%
@@ -24,9 +24,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->本文不適用於嘗試[預覽測試更新](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)時發生404錯誤的情況。 如果您遇到此問題，請開啟[支援票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+>本文不適用於嘗試[預覽測試更新](https://experienceleague.adobe.com/en/docs/commerce-admin/content-design/guide-overview#preview-the-scheduled-change)時發生404錯誤的情況。 如果您遇到此問題，請開啟[支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
 
-存取任何店面頁面或管理員使用[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hant) (使用[Magento\_暫存模組](https://developer.adobe.com/commerce/php/module-reference/)排程的存放區內容資產更新)執行具有已排程更新的作業後，會發生404錯誤（「糟糕，我們的錯誤……」頁面）。 例如，您可能會刪除有排程更新的產品，或移除排程更新的結束日期。
+存取任何店面頁面或管理員使用[Content Staging](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html) (使用[Magento\_Staging模組](https://developer.adobe.com/commerce/php/module-reference/)排程的存放區內容資產更新)執行作業後，會發生404錯誤（「糟糕，我們的錯誤……」頁面）。 例如，您可能會刪除有排程更新的產品，或移除排程更新的結束日期。
 
 存放區內容資產包括：
 
@@ -76,7 +76,7 @@ ht-degree: 0%
 
 ![updates_exist_1.png](assets/updates_exist_1.png)
 
-在此情況下，您可以參閱[Site Down Troubleshooter](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/site-down-or-unresponsive/magento-site-down-troubleshooter)以取得疑難排解想法。
+在此情況下，您可以參閱[Site Down Troubleshooter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27152)以取得疑難排解想法。
 
 ## 解決方案
 
@@ -88,8 +88,8 @@ ht-degree: 0%
 
 1. 請等待[!DNL cron]工作執行（若設定正確，最多五分鐘後執行），或若您未設定[!DNL cron]，請手動執行。
 
-在修正無效連結後，應立即解決問題。 如果問題仍然存在，[請提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
+在修正無效連結後，應立即解決問題。 如果問題仍然存在，[請提交支援票證](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#support-case)。
 
 ## 相關閱讀
 
-[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
