@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 0569b4874400e0d313ad556cc7c07abfc7647368
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '3013'
+source-wordcount: '3006'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ ht-degree: 0%
 * 公告 {#announcements}
    * [公告總覽](/help/announcements/overview.md)
    * Adobe Commerce公告 {#commerce-announcements}
-      * [整合環境增強功能要求 — Pro與Starter](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)
       * [針對雲端基礎結構上的Adobe Commerce提出假期突增容量要求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
       * [Adobe Commerce的升級相容性工具1.1.0](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
       * [Adobe Commerce發行版本更新生命週期原則的常見問題集](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)

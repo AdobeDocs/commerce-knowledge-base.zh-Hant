@@ -4,7 +4,7 @@ description: 本文針對Fastly快取無法在您的網站上運作的問題提�
 exl-id: 725949e9-b69b-456f-9c56-e2163143a71e
 feature: Cache, Cloud, Console, Paas
 role: Developer
-source-git-commit: 586a8c6340bfd2cbf773d1b009d6e106e930117d
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 使用curl命令測試
 
-接下來，使用curl命令來驗證XMagento標籤是否存在以及其他標頭資訊。 「測試」和「生產」的命令格式不同。
+接下來，使用curl命令來驗證X-Magento-Tags是否存在以及其他標題資訊。 「測試」和「生產」的命令格式不同。
 
 如需這些命令的詳細資訊，當您插入`-H "host:URL"`時略過Fastly，將來源取代為連線位置（來自您的OneDrive試算表的CNAME資訊），`-k`會忽略SSL，而`-v`會提供詳細回應。 如果標題正確顯示，請檢查即時網站並再次驗證標題。
 
@@ -105,14 +105,14 @@ curl -k https://www.mymagento.biz.c.sv7gVom4qrpek.ent.magento.cloud -H 'Host: ww
 
 * 檢查傳回的回應標題和值：
 * Fastly-Magento-VCL-Uploaded應該存在
-* 應該會傳回XMagento標籤
+* 應該會傳回X-Magento-Tags
 * Fastly-Module-Enabled應為Yes或Fastly擴充功能版本號碼
 * X-Cache應為HIT或HIT， HIT
 * x-cache-hits應為1,1
 * Cache-Control： max-age應大於0
 * Pragma應為快取
 
-以下範例顯示Pragma、X-Module-Tags和Fastly-Module-Enabled的正確Magento。
+以下範例顯示Pragma、X-Magento-Tags和Fastly-Module-Enabled的正確值。
 
 curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 
@@ -170,13 +170,13 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
    "fastly-magento2": {    "type": "vcs",    "url": "https://github.com/fastly/fastly-magento2.git"    }
    ```
 
-1. 如果您使用「組態管理」，則應該要有組態檔。 編輯app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)檔案，並確定設定`'Fastly_Cdn' => 1`正確無誤。 設定不應為`'Fastly_Cdn' => 0` （表示已停用）。如果您啟用Fastly，請刪除設定檔並執行bin/magento magento-cloud：scd-dump命令以進行更新。 如需逐步瞭解此檔案，請參閱組態指南中的[管理系統特定設定的範例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html?lang=zh-Hant#manage-the-system-specific-configuration)。
+1. 如果您使用「組態管理」，則應該要有組態檔。 編輯app/etc/config.app.php (2.0， 2.1)或app/etc/config.php (2.2)檔案，並確定設定`'Fastly_Cdn' => 1`正確無誤。 設定不應為`'Fastly_Cdn' => 0` （表示已停用）。如果您已啟用Fastly，請刪除設定檔並執行bin/magento magento-cloud:scd-dump命令以進行更新。 如需逐步瞭解此檔案，請參閱組態指南中的[管理系統特定設定的範例](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/technical-details.html#manage-the-system-specific-configuration)。
 
-如果未安裝模組，您必須安裝在[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)分支中，並部署至中繼和生產環境。 請參閱[設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)以取得雲端基礎結構指南中Commerce的指示。
+如果未安裝模組，您必須安裝在[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)分支中，並部署至中繼和生產環境。 請參閱[設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)以取得雲端基礎結構指南中Commerce的指示。
 
 ### Fastly-Magento-VCL-Uploaded不存在
 
-在安裝與設定期間，您應該已上傳Fastly VCL。 這些是Fastly模組提供的基本VCL片段，不是您建立的自訂VCL片段。 如需相關指示，請參閱Commerce on Cloud Infrastructure指南中的[上傳Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant#upload-vcl-to-fastly)。
+在安裝與設定期間，您應該已上傳Fastly VCL。 這些是Fastly模組提供的基本VCL片段，不是您建立的自訂VCL片段。 如需相關指示，請參閱Commerce on Cloud Infrastructure指南中的[上傳Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#upload-vcl-to-fastly)。
 
 ### X-Cache包含MISS
 
@@ -185,12 +185,12 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 如果您得到相同的結果，請使用curl命令並驗證回應標頭：
 
 * Pragma是快取
-* XMagento標籤已存在
+* X-Magento-Tags已存在
 * Cache-Control： max-age大於0
 
 如果問題仍然存在，其他擴充功能可能會重設這些標題。 在測試中重複以下程式以停用擴充功能，找出導致問題的擴充功能。 找出導致問題的擴充功能後，您需要在「生產」中停用擴充功能。
 
-1. 若要停用擴充功能，請依照雲端基礎結構指南上Commerce的[管理擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=zh-Hant#manage-extensions)區段中提供的步驟操作。
+1. 若要停用擴充功能，請依照雲端基礎結構指南上Commerce的[管理擴充功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/extensions.html?lang=en#manage-extensions)區段中提供的步驟操作。
 1. 停用擴充功能後，請移至&#x200B;**[!UICONTROL System]** > **[!UICONTROL Tools]** > **[!UICONTROL Cache Management]**。
 1. 按一下&#x200B;**[!UICONTROL Flush Magento Cache]**。
 1. 現在一次啟用一個擴充功能，以儲存設定並排清快取。
@@ -201,6 +201,6 @@ curl指令的輸出可能會很長。 以下是僅供摘要參考的資訊：
 
 ## 如需詳細資訊，請參閱我們的開發人員檔案：
 
-* [關於Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant)
-* [設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)
-* [自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hant)
+* [關於Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [設定Fastly](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* [自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)

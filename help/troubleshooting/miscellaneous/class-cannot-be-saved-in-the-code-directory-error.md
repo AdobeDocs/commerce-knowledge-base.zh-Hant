@@ -4,9 +4,9 @@ description: 本文說明如何修正指定相依性的方式導致類別無法�
 exl-id: e2c00d4d-31c3-4446-a317-a8ac92c707d5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 在您的本機環境中，撰寫與自動產生的類別相依的自訂類別。
 1. 執行觸發自訂類別的案例，並檢視其是否正常運作。
 1. 認可並將變更推送至整合環境。 這將觸發部署流程。 部署成功。
-1. 在[整合環境](/help/announcements/adobe-commerce-announcements/integration-environment-enhancement-request-pro-and-starter.md)中，執行觸發自訂類別的案例。
+1. 在[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)中，執行觸發自訂類別的案例。
 
 <u>預期結果</u>
 
