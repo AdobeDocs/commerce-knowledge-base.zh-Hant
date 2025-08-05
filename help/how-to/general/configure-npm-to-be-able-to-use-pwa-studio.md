@@ -40,7 +40,7 @@ ht-degree: 0%
    >
    >如果您不僅要在組建中，也要在應用程式中執行Node.JS，請新增下列命令以變更您的組建連結：
    > 
-   ```
+   > ```
    > echo 'unset NPM_CONFIG_PREFIX' >> .environment
    > echo 'export NO_UPDATE_NOTIFIER=1' >> .environment
    > echo 'export NVM_DIR="$MAGENTO_CLOUD_DIR/.nvm"' >> .environment
