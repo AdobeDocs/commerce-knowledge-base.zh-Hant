@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 在入門計畫與專業計畫整合上分配空間
 
-對於所有Starter計畫環境和Pro計畫[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以增加`.magento/services.yaml`引數，在`mysql: disk:`檔案中為MySQL配置更多空間。 例如：
+對於所有Starter計畫環境和Pro計畫[整合環境](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以增加`.magento/services.yaml`引數，在`mysql: disk:`檔案中為MySQL配置更多空間。 例如：
 
 ```yaml
 mysql:
@@ -23,7 +23,7 @@ mysql:
     disk: 2048
 ```
 
-請參閱[設定MySQL服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供參考。
+請參閱[設定MySQL服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供參考。
 
 變更`.magento/services.yaml`檔案後，您必須確認並推送變更，才能套用變更。 推送將會觸發部署程式。
 

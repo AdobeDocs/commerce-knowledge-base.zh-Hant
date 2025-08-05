@@ -48,10 +48,10 @@ ht-degree: 0%
    > ```
 
 1. 將變更儲存在檔案中。
-1. Git會將編輯的檔案推送至您的[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)。
+1. Git會將編輯的檔案推送至您的[整合環境](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)。
 
 在您Git將更新的YAML檔案推送至環境後，變更就會生效。
 
 ## 相關檔案
 
-* [應用程式設定：我們的Adobe Commerce on Cloud Infrastructure指南中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html)鉤點。
+* [應用程式設定：我們的Adobe Commerce on Cloud Infrastructure指南中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/hooks-property.html?lang=zh-Hant)鉤點。

@@ -40,7 +40,7 @@ ht-degree: 0%
 此外，請注意，支援不會為您執行復原或還原資料庫 — 它們會擷取快照，但您必須自行還原資料庫。
 * 備份是使用&#x200B;**加密的Amazon Web Services Elastic Block Store (AWS EBS)快照**&#x200B;所建立。
 * 環境快照包含完整系統（檔案系統和資料庫）。
-* 自動快照&#x200B;**的保留時間不同**，並遵循[排程](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)。
+* 自動快照&#x200B;**的保留時間不同**，並遵循[排程](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)。
 
 >[!NOTE]
 >
@@ -50,15 +50,15 @@ ht-degree: 0%
 
 ### 整合（開發）環境
 
-* 您的[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242) **未自動備份**，但您可以手動建立快照&#x200B;**&#x200B;**。
+* 您的[整合環境](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242) **未自動備份**，但您可以手動建立快照&#x200B;**&#x200B;**。
 * 您可以為非上線商店的整合環境建立手動快照。
 * 您可能有&#x200B;**多個已手動觸發的快照**。
 * 手動觸發的快照會儲存&#x200B;**7天**。
 
 **我們的開發人員檔案中的相關文章：**
 
-* [備份與災難回覆](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [建立快照](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
+* [備份與災難回覆](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [建立快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)
 
 ## 環境快照，入門計畫
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 ## 還原環境快照
 
-若要還原現有的快照（在支援的環境上：整合、測試、生產在入門計畫上或整合在Pro計畫上），請遵循雲端基礎結構指南中「Commerce上的備份管理：還原手動備份」[中的步驟。](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+若要還原現有的快照（在支援的環境上：整合、測試、生產在入門計畫上或整合在Pro計畫上），請遵循雲端基礎結構指南中「Commerce上的備份管理：還原手動備份」[中的步驟。](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
 
 ## 資料庫(DB)備份
 
@@ -78,8 +78,8 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->掛接的磁碟區僅包含/參考[可寫入的掛接](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#mounts)，不會包含所有`/app`目錄。 至於其他檔案，這些檔案是由[建置和部署程式](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-develop-deploy-workflow#deployment-workflow)所建立/產生，您也必須從您的Git存放庫中籤出剩餘的檔案。
+>掛接的磁碟區僅包含/參考[可寫入的掛接](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure/app/properties/properties#mounts)，不會包含所有`/app`目錄。 至於其他檔案，這些檔案是由[建置和部署程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/architecture/pro-develop-deploy-workflow#deployment-workflow)所建立/產生，您也必須從您的Git存放庫中籤出剩餘的檔案。
 
-在開發人員檔案中[快照和備份管理](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)。
+在開發人員檔案中[快照和備份管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/storage/snapshots)。
 
 只有在您需要特定時間點的DB時，才提交Pro Production and Staging之DB快照的[支援要求](/help/help-center-guide/help-center/magento-help-center-user-guide.md)。 如果您只需要（在任何環境中）資料庫的最新備份，請參閱知識庫文章： [在雲端上產生資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)。

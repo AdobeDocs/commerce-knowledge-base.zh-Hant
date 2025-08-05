@@ -26,7 +26,7 @@ ht-degree: 0%
 1. 在您的本機環境中，撰寫與自動產生的類別相依的自訂類別。
 1. 執行觸發自訂類別的案例，並檢視其是否正常運作。
 1. 認可並將變更推送至整合環境。 這將觸發部署流程。 部署成功。
-1. 在[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)中，執行觸發自訂類別的案例。
+1. 在[整合環境](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)中，執行觸發自訂類別的案例。
 
 <u>預期結果</u>
 

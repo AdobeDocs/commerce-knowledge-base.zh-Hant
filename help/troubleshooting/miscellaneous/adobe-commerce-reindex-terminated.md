@@ -31,11 +31,11 @@ ht-degree: 0%
 1. 減少產品數量（以及客戶群組和商店 — 如果適用）。
 1. 僅限一或兩名同時使用者使用。
 1. 停用cron工作，並視需要手動執行。
-1. 如果先前未曾執行此動作，請要求升級至增強型整合環境 — 請注意，一旦執行升級，您將受限制的環境數量限制。 請參閱我們的支援知識庫中的[整合環境增強功能要求 — Pro與Starter](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)文章，以取得詳細資料。
+1. 如果先前未曾執行此動作，請要求升級至增強型整合環境 — 請注意，一旦執行升級，您將受限制的環境數量限制。 請參閱我們的支援知識庫中的[整合環境增強功能要求 — Pro與Starter](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)文章，以取得詳細資料。
 
 ## 相關閱讀：
 
 在我們的開發人員檔案中：
 
-* [專業架構>整合環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
-* [入門架構>測試環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
+* [專業架構>整合環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [入門架構>測試環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)
