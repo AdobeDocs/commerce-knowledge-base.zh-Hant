@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
+source-git-commit: acb00b0e25b85a558675993d63a80a59df7af5d7
 workflow-type: tm+mt
-source-wordcount: '3006'
+source-wordcount: '2998'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 0%
    * [公告總覽](/help/announcements/overview.md)
    * Adobe Commerce公告 {#commerce-announcements}
       * [針對雲端基礎結構上的Adobe Commerce提出假期突增容量要求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
-      * [Adobe Commerce的升級相容性工具1.1.0](/help/announcements/adobe-commerce-announcements/upgrade-compatibility-tool-for-magento.md)
       * [Adobe Commerce發行版本更新生命週期原則的常見問題集](/help/announcements/adobe-commerce-announcements/faq-for-the-updated-lifecycle-policy-for-magento-releases.md)
       * [在Cloud 2.4.4上切換為Adobe Commerce的OpenSearch](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [針對PHP漏洞的Adobe Commerce建議](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
