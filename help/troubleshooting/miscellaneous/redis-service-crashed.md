@@ -43,7 +43,7 @@ redis-cli -p REDIS_PORT -h REDIS_HOST info | egrep --color "(role|used_memory_pe
 >
 >您也可以執行下列CLI命令來擷取Redis主機位址和連線埠號碼：
 >   
-```bash
+>   ```bash
 >   echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp
 >   ```
 
