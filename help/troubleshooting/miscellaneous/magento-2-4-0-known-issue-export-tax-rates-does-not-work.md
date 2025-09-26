@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce 2.4.0已知問題，提供**匯出稅率
 exl-id: 29a34a1f-d23a-43cb-ac1f-8711ce25fa6c
 feature: Data Import/Export, Orders
 role: Developer
-source-git-commit: a1046621259ea49eab74cd6ba3bba550e0c70283
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 0%
 
 在我們的支援知識庫中：
 
-* [Adobe Commerce 2.4.0已知問題：Braintree付款方式未出現在多地址結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中。
+* [Adobe Commerce 2.4.0已知問題： Braintree付款方法未出現在多地址結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中。
 * [Adobe Commerce 2.4.0已知問題 — 重新整理客戶活動無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)。
-* [Adobe Commerce 2.4.0已知問題：店面顯示原始訊息資料](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)。
 * [Adobe Commerce 2.4.0已知問題：「將選取專案新增至我的購物車」按鈕無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)。

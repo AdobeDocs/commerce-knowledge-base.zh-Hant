@@ -1,12 +1,12 @@
 ---
-title: 「Adobe Commerce 2.4.0：」將選取專案新增至購物車「無法運作」
+title: Adobe Commerce 2.4.0：「將選取專案新增至我的購物車」無法運作
 description: 本文提供在管理客戶的購物車時，Commerce管理員中按鈕斷裂已知問題的因應措施。 嘗試將選取的產品新增至客戶的購物車時，位於區段底部的**新增選取專案至我的購物車**按鈕無法運作。 此問題會發生在包含兩個**將選取專案新增至我的購物車**按鈕的任何Admin面板頁面上。 Adobe Commerce 2.4.1將提供永久修正。
 exl-id: b0830ec2-2aea-4afb-8d02-e9c8f54283be
 feature: Orders, Shopping Cart
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,6 @@ Adobe Commerce不會將您的選取專案新增至我的購物車。
 
 ## 相關閱讀
 
-* [MerchDocs&#39;管理使用手冊中的購物車](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage)。
-* [Adobe Commerce 2.4.0已知問題：原始訊息資料顯示在我們的支援知識庫中的店面](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)。
+* [MerchDocs&#39;管理使用手冊中的購物車](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage)。
 * [Adobe Commerce 2.4.0已知問題：我們的支援知識庫中的「匯出稅率」無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)。
-* [Adobe Commerce 2.4.0已知問題：我們的支援知識庫中的「多個地址」結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中未顯示Braintree付款方式。
+* [Adobe Commerce 2.4.0已知問題： Braintree付款方法未出現在我們的支援知識庫的「多個地址」結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中。

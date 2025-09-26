@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 446b3f6d49a5534187bb8706d5cf6068d8f40fec
+source-git-commit: 2b12aeb9227944fc80da50d50fbc5668f4622269
 workflow-type: tm+mt
-source-wordcount: '2989'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,6 @@ ht-degree: 0%
       * [正在檢查緩慢的查詢和處理MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [資料庫上載遺失與MySQL的連線](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [資料庫的變更不會反映在店面上](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
-      * [MySQL中的死結](/help/troubleshooting/database/deadlocks-in-mysql.md)
       * [雲端基礎結構上Adobe Commerce中的MySQL高負載瓶頸](/help/troubleshooting/database/mysql-high-load-bottleneck-in-magento-commerce-cloud.md)
       * [雲端上的Adobe Commerce發生MySQL伺服器已消失&#x200B;錯誤](/help/troubleshooting/database/mysql-server-has-gone-away-error-on-magento-commerce-cloud.md)
       * [雲端基礎結構上的Adobe Commerce上的MySQL磁碟空間不足](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)
@@ -56,8 +55,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0 Braintree虛擬終端機頁面已損毀](/help/troubleshooting/payments/magento-2-4-0-known-issue-braintree-virtual-terminal-page-is-corrupted.md)
       * [系統不會處理來自不同網域之管理員和前端的數位來源付款](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Adobe Commerce 2.4.0已知問題： Amazon付費，無付款方式](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
-      * [Adobe Commerce 2.3.7-p1已知問題：PayPal的過時訂購總數](/help/troubleshooting/payments/paypal-price-known-issue-commerce-237p1.md)
-      * [Adobe Commerce 2.3.5-p1中Amazon Pay簽出問題的修補程式](/help/troubleshooting/payments/patch-for-amazon-pay-checkout-issue-in-magento-2-3-5-p1.md)
       * [Adobe Commerce 2.4.0：選取本機付款時發生結帳錯誤](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
       * [PayPal Payflow主動式分片活動](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Adobe Commerce上的PayPal疑難排解](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
@@ -65,18 +62,11 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.2 B2B：折扣仍維持付款方式變更](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
       * [Adobe Commerce 2.4.2： Braintree Venmo付款無法運作](/help/troubleshooting/payments/magento-2-4-2-braintree-venmo-payment-does-not-work.md)
       * [具有多個地址的結帳時未顯示付款方法](/help/troubleshooting/payments/payment-methods-not-displayed-on-checkout-with-multiple-addresses.md)
-      * [歐盟客戶無法完成付款](/help/troubleshooting/payments/eu-customers-cannot-complete-payments.md)
       * [Adobe Commerce 2.4.0已知問題： Klarna站上訊息空白頁面](/help/troubleshooting/payments/magento-2-4-0-known-issue-klarna-on-site-messaging-blank-pages.md)
    * 店面 {#storefront}
-      * [Adobe Commerce 2.4.0已知問題：訂單顯示錯誤](/help/troubleshooting/storefront/magento-2-4-0-known-issue-orders-display-error.md)
       * [Adobe Commerce內部部署2.4.2：缺少產品影像](/help/troubleshooting/storefront/adobe-commerce-2-4-2-on-prem-product-image-missing.md)
-      * [安裝後，影像和樣式表不會載入；只會顯示文字，不會顯示圖形](/help/troubleshooting/storefront/after-installing-images-and-stylesheets-do-not-load-only-text-displays-no-graphics.md)
       * [店面未顯示產品](/help/troubleshooting/storefront/product-is-not-displayed-on-storefront.md)
-      * [Adobe Commerce 2.4.0問題： storefront原始訊息資料顯示](/help/troubleshooting/storefront/magento-2-4-0-issue-storefront-raw-message-data-display.md)
-      * [在Adobe Commerce 2.3.5中結帳時出現商店信用問題](/help/troubleshooting/storefront/store-credit-issue-during-checkout-in-magento-2-3-5.md)
       * [部署後未顯示存放區影像](/help/troubleshooting/storefront/store-images-not-displayed-after-deployment.md)
-      * [Adobe Commerce 2.3.5中的產品比較已知問題](/help/troubleshooting/storefront/product-comparison-known-issue-in-magento-2-3-5.md)
-      * [Adobe Commerce 2.4.0：在多重運送結帳時移除獎勵點時出現404錯誤](/help/troubleshooting/storefront/magento-2-4-0-404-error-removing-rewards-points-on-multi-shipping-checkout.md)
       * [客戶被登出或遺失Adobe Commerce店面的購物車內容](/help/troubleshooting/storefront/customers-get-logged-out-or-lose-cart-content-on-magento-storefront.md)
       * [無法將連絡人儲存為URL索引鍵](/help/troubleshooting/storefront/unable-to-save-contact-as-a-url-key.md)
    * 安裝和升級 {#installation-and-upgrade}
