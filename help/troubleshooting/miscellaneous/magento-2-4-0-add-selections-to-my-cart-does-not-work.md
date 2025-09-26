@@ -41,6 +41,6 @@ Adobe Commerce不會將您的選取專案新增至我的購物車。
 
 ## 相關閱讀
 
-* [MerchDocs&#39;管理使用手冊中的購物車](https://experienceleague.adobe.com/en/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage)。
+* [MerchDocs&#39;管理使用手冊中的購物車](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/stores-sales/point-of-purchase/assist/shopping-assisted-cart-manage)。
 * [Adobe Commerce 2.4.0已知問題：我們的支援知識庫中的「匯出稅率」無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)。
 * [Adobe Commerce 2.4.0已知問題： Braintree付款方法未出現在我們的支援知識庫的「多個地址」結帳](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)中。
