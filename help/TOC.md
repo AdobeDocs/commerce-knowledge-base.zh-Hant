@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 2b12aeb9227944fc80da50d50fbc5668f4622269
+source-git-commit: 750c0c41580af90cc5c883472326f2073cfe0b23
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2891'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 0%
 * 疑難排解 {#troubleshooting}
    * [疑難排解概觀](/help/troubleshooting/overview.md)
    * 資料庫 {#database}
-      * [資料庫中相同實體的多個資料列](/help/troubleshooting/database/multiple-rows-in-database-for-same-entity.md)
       * [正在檢查緩慢的查詢和處理MySQL](/help/troubleshooting/database/checking-slow-queries-and-processes-mysql.md)
       * [資料庫上載遺失與MySQL的連線](/help/troubleshooting/database/database-upload-loses-connection-to-mysql.md)
       * [資料庫的變更不會反映在店面上](/help/troubleshooting/database/changes-in-the-database-are-not-reflected-on-the-storefront.md)
