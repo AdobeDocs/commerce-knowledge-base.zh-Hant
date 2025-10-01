@@ -19,7 +19,7 @@ ht-degree: 3%
 
 ![知識庫首頁](../help/assets/knowledge-base-home-page-cover.jpg){width="100%"}
 
-此知識庫中的資訊是設計成補充[Adobe Commerce開發人員檔案](https://developer.adobe.com/commerce/docs)和[Adobe Commerce商家指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html)，以及其他Adobe Commerce出版物。 內容涵蓋疑難排解和最佳作法、發佈公告、回答常見問題，並強調官方檔案（出於任何原因）未提及的特定案例。
+此知識庫中的資訊是設計成補充[Adobe Commerce開發人員檔案](https://developer.adobe.com/commerce/docs)和[Adobe Commerce商家指南](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html?lang=zh-Hant)，以及其他Adobe Commerce出版物。 內容涵蓋疑難排解和最佳作法、發佈公告、回答常見問題，並強調官方檔案（出於任何原因）未提及的特定案例。
 
 ## 此知識庫包含哪些內容？
 
