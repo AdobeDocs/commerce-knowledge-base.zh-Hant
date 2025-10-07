@@ -4,9 +4,9 @@ description: 本文是針對Adobe Commerce上遇到資料庫問題的客戶的�
 exl-id: f7b09023-7129-4fd0-9bb5-02a2228bc148
 feature: Observability, Services, Storage, Support
 role: Developer
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+source-git-commit: aa4cfbceb745f1a06b8a8f9e93cbdebbc151458b
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 這可以用一系列症狀來表示，包括`/tmp`掛載已滿、網站停止運作，或無法透過SSH連線至節點。 您也可能遇到錯誤，例如&#x200B;_裝置上已無空間(28)_。 如需因`/tmp`已滿而產生的錯誤清單，請檢閱[/tmp裝載已滿](/help/troubleshooting/miscellaneous/tmp-mount-full.md)。
 
-或您是否有因空間不足而導致的`/data/mysql`問題？ 這也可能是由各種症狀所指示，包括網站中斷、客戶無法將產品新增到購物車、連線到資料庫失敗以及Galeria錯誤，例如&#x200B;_SQLSTATE\[08S01\]：通訊連結失敗： 1047 WSREP_。 如需[!DNL MySQL]磁碟空間不足所造成的錯誤清單，請參閱Adobe Commerce上雲端基礎結構[&#128279;](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)上的[!DNL MySQL] 磁碟空間不足。
+或您是否有因空間不足而導致的`/data/mysql`問題？ 這也可能是由各種症狀所指示，包括網站中斷、客戶無法將產品新增到購物車、連線到資料庫失敗以及Galeria錯誤，例如&#x200B;_SQLSTATE\[08S01\]：通訊連結失敗： 1047 WSREP_。 如需[!DNL MySQL]磁碟空間不足所造成的錯誤清單，請參閱Adobe Commerce上雲端基礎結構[[!DNL MySQL] 上的](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806)磁碟空間不足。
 
 如果您不確定是否有磁碟空間問題，且您有New Relic帳戶，請移至[New Relic基礎架構監視主機頁面](https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/)。 從那裡，按一下&#x200B;**儲存空間**&#x200B;索引標籤，將&#x200B;**圖表顯示**&#x200B;下拉式清單從5個結果變更為20個結果，並在[已使用磁碟百分比]圖表或表格中尋找高磁碟使用率的表格。 如需詳細步驟，請參閱[New Relic基礎架構監控>儲存標籤]https://docs.newrelic.com/docs/infrastructure/infrastructure-ui-pages/infra-hosts-ui-page/#storage)。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 IUse% > 90%嗎？
 
-a.是 — 這是檔案過多所導致。 檢閱在[當磁碟空間不足時安全地刪除檔案的步驟，雲端基礎結構上的Adobe Commerce](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26889)。 完成這些步驟後，請繼續進行[步驟2](#step-2)。 如果您想要要求更多空間，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
+a.是 — 這是檔案過多所導致。 檢閱在[當磁碟空間不足時安全地刪除檔案的步驟，雲端基礎結構上的Adobe Commerce](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26889)。 完成這些步驟後，請繼續進行[步驟2](#step-2)。 如果您想要要求更多空間，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。\
 b.否 — 檢查空格。 在CLI/終端機中執行`df -h | grep mysql`，然後執行`df -h | grep tmp`，以檢查`/tmp`和`/data/mysql`目錄中的磁碟空間使用量。 繼續進行[步驟3](#step-3)。
 
 +++
@@ -42,7 +42,7 @@ b.否 — 檢查空格。 在CLI/終端機中執行`df -h | grep mysql`，然後
 一旦您減少了檔案數目，請在CLI/終端機中執行`df -h | grep mysql`然後執行`df -h | grep tmp`，以檢查`/tmp`和`/data/mysql`中的磁碟空間使用量。 `/tmp`或`/data/mysql`的使用率是否超過70%？
 
 a.是 — 繼續進行[步驟3](#step-3)。
-b.否 — 查詢可能會耗儘可用的儲存空間。 這可能會造成節點當機，導致查詢停止並移除`tmp`個檔案。 檢查[!DNL MySQL] CLI中`SHOW PROCESSLIST;`的輸出是否有可能是問題原因的查詢。 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求更多空間。
+b.否 — 查詢可能會耗儘可用的儲存空間。 這可能會造成節點當機，導致查詢停止並移除`tmp`個檔案。 檢查`SHOW PROCESSLIST;` CLI中[!DNL MySQL]的輸出是否有可能是問題原因的查詢。 [提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，要求更多空間。
 
 +++
 
@@ -81,7 +81,7 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 
 +++**檢查預設值**
 
-您的資料庫組態可能不再為原始預設值。 在[!DNL MySQL] CLI `SELECT @@DATADIR;`中執行以尋找資料庫tmpdir設定。 如果輸出`/data/mysql/`，資料庫tmpdir現在正在寫入`/data/mysql/`。 請嘗試依照雲端基礎結構上Adobe Commerce上[[!DNL MySQL] 磁碟空間不足的步驟，增加此目錄中的空間](/help/troubleshooting/database/mysql-disk-space-is-low-on-magento-commerce-cloud.md)。 接著在CLI/終端機中執行`df -h | grep mysql`再執行`df -h | grep tmp`，以檢查`/data/mysql`和`/tmp`中的磁碟空間使用量。\
+您的資料庫組態可能不再為原始預設值。 在[!DNL MySQL] CLI `SELECT @@DATADIR;`中執行以尋找資料庫tmpdir設定。 如果輸出`/data/mysql/`，資料庫tmpdir現在正在寫入`/data/mysql/`。 請嘗試依照雲端基礎結構上Adobe Commerce上[[!DNL MySQL] 磁碟空間不足的步驟，增加此目錄中的空間](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806)。 接著在CLI/終端機中執行`df -h | grep mysql`再執行`df -h | grep tmp`，以檢查`/data/mysql`和`/tmp`中的磁碟空間使用量。\
   &lt;使用70%？
 
 答：是 — 您已解決問題。 \
@@ -93,4 +93,4 @@ b.否 — [提交支援票證](/help/help-center-guide/help-center/magento-help-
 
 ## 相關閱讀
 
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
