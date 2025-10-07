@@ -92,7 +92,7 @@ Filesystem Inodes   Used   Free Use% Mounted on
 
 #### 檢查並釋放MySQL空間
 
-遵循[雲端基礎結構上Adobe Commerce的MySQL磁碟空間不足中的指示>檢查並釋放我們的支援知識庫中的儲存空間](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space)。
+遵循[雲端基礎結構上Adobe Commerce的MySQL磁碟空間不足中的指示>檢查並釋放我們的支援知識庫中的儲存空間](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27806#check-and-free-up-storage-space)。
 
 #### 檢查Elasticsearch棧積傾印
 
@@ -120,7 +120,7 @@ find /tmp/*.hprof -type f -delete
 
 若要避免遇到`/tmp`已滿的問題，請遵循下列建議：
 
-* 請勿使用MySQL進行搜尋。 Elasticsearch的搜尋功能通常不需要建立大部分的大型臨時表格。 請參閱我們的開發人員檔案中的[設定Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
+* 請勿使用MySQL進行搜尋。 Elasticsearch的搜尋功能通常不需要建立大部分的大型臨時表格。 請參閱我們的開發人員檔案中的[設定Adobe Commerce以使用Elasticsearch](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/search/configure-search-engine)。
 * 請避免在沒有索引的資料行上執行`SELECT`查詢，因為這會佔用大量的暫存磁碟空間。 您也可以新增索引。
 * 在CLI中執行下列命令，建立cron以清除`/tmp`：
 
@@ -130,4 +130,4 @@ find /tmp/*.hprof -type f -delete
 
 ## 相關閱讀
 
-在我們的支援知識庫中，雲端基礎結構上的Adobe Commerce [的](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27806)MySQL磁碟空間不足。
+在我們的支援知識庫中，雲端基礎結構上的Adobe Commerce [的](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27806)MySQL磁碟空間不足。
