@@ -3,9 +3,9 @@ title: 如何請求雲端基礎結構上的臨時Adobe Commerce升級
 description: 如果您的組織正在規劃您預期會有高流量的線上活動，或您突然發現您的網站正在進行高流量活動，您可以提出[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)以請求雲端基礎結構存放區中Adobe Commerce的臨時額外雲端容量。
 exl-id: 561e2bdd-718a-45c1-8b6c-a0e3a6c8ad04
 feature: Cloud, Iaas
-source-git-commit: 357e0acb1c849079ff0fe9f53fe386f60475c7f9
+source-git-commit: e59335b67e1f33e138e34cab93ce593836d14b48
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 如何監控網站效能
 
-Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策Pro規劃架構和雲端基礎結構上的Adobe Commerce入門規劃架構生產環境可追蹤下列關鍵效能量度：
+Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警報政策專業計畫架構和雲端基礎結構上的Adobe Commerce入門計畫架構生產環境可追蹤以下關鍵績效指標：
 
 * [Apdex分數](https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction)
 * 錯誤率
@@ -51,21 +51,53 @@ Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策P
 
 ## 請求臨時擴充的步驟
 
-請依照下列步驟提交[支援票證](/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)，以請求暫時的額外雲端容量：
-
-輸入下列資訊後，在Adobe Commerce支援中心[&#128279;](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)提交支援票證：
+若要要求暫時性的額外雲端容量，請在Adobe Commerce支援中心提交[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，並提供下列資訊：
 
 >[!NOTE]
 >
 >*假期突波要求*&#x200B;選項只能選擇在10月到12月之間。
 
-1. 請選取您要尋求支援的Adobe Commerce產品。
-1. 完成前四個（產品、組織、實施型別、主旨）欄位。
-1. 在&#x200B;**連絡人原因**&#x200B;下拉式清單中選取&#x200B;*Adobe Commerce雲端基礎結構*。
-1. 在&#x200B;**Adobe Commerce基礎結構連絡人原因**&#x200B;下拉式選項中，選取&#x200B;*假日突增容量要求*。 在快顯訊息上按一下&#x200B;**確定**，要求48個營業小時通知暫時的額外雲端容量要求。
-1. 選取必要欄位&#x200B;**調整開始日期**&#x200B;和&#x200B;**調整結束日期**&#x200B;的日期。 偏好的&#x200B;**調整大小開始時間**&#x200B;也是必要欄位。
-1. 填入下四個欄位。
-1. 在&#x200B;**描述**&#x200B;欄位中，如果您有其他大小資訊，請在此處提供。 如果不需要特定的較大容量，我們將為您擴充至下一個更大的環境容量大小。 突波要求會預設為您目前大小的下個較大大小。 如果您需要額外的容量，請在&#x200B;**描述**&#x200B;欄位中指定。 增加的容量將從您簽訂的「喘振天數」或vCPU天數中扣除。 通常的容量增加時段為5天，但如果您需要更多或更少的天數，請在[支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)中指出這一點。
+1. 選取您需要支援的[!DNL Adobe Commerce]產品：
+   * [!DNL Commerce Cloud]
+   * [!DNL Commerce on Managed Service]
+
+1. 填入下列欄位：
+   * **[!UICONTROL Case Title]**
+   * **[!UICONTROL Case Description]** *（請確定已清楚描述問題和內容。）*
+
+1. 從&#x200B;*下拉式功能表中選取*&#x200B;基礎結構變更要求&#x200B;**[!UICONTROL Issue Reason]**。
+
+1. 從下拉式功能表中選擇&#x200B;**[!UICONTROL Environment]**。
+
+1. 從下拉式選單中選取適當的&#x200B;**[!UICONTROL Product Version]**。
+
+1. 從&#x200B;*下拉式選單中選擇*&#x200B;雲端專案調整大小(vCPU)**[!UICONTROL Which Infra Change you would like to do today]**。
+
+1. **選取[!UICONTROL Architecture]**：
+   * *預設架構：*&#x200B;從&#x200B;*選取大小*&#x200B;下拉式功能表中選取&#x200B;**下一個可用大小**。
+   * *縮放架構：*&#x200B;選取時，畫面會變更為顯示兩個額外的欄位：
+      * *網頁節點的大小*
+      * *服務節點的大小* *（請輸入每個節點的所需大小。）*
+
+1. 輸入UTC格式的&#x200B;**[!UICONTROL From Date]** （日期和時間）。
+
+1. 輸入UTC格式的&#x200B;**[!UICONTROL To Date]** （日期和時間）。
+
+1. 提供&#x200B;**[!UICONTROL Project URL]** *(可在https://accounts.magento.cloud/下找到，通常採用`https://[REGION].magento.cloud/projects/PROJECT_ID`格式)*
+
+1. 輸入&#x200B;**[!UICONTROL Project ID]**。
+
+1. 提供&#x200B;**[!UICONTROL Affected URL]** *（必須以`http://`或`https://`開頭。）*
+
+1. 選取&#x200B;**[!UICONTROL Priority]**。
+
+1. 選取&#x200B;**[!UICONTROL Business Impact]**。
+
+1. 確認&#x200B;**[!UICONTROL Time Zone]** *（例如`(UTC-5:00) Indiana (East)`）*
+
+1. 輸入&#x200B;**[!UICONTROL Phone Number]** *（例如`+12015550123`）*
+
+1. 按一下&#x200B;**[!UICONTROL Submit]**&#x200B;完成您的支援案例。
 
 >[!NOTE]
 >
@@ -73,7 +105,7 @@ Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策P
 
 ## 檢視您的升級記錄
 
-您可以向&#x200B;**CSM （客戶成功經理）**&#x200B;要求資訊，以檢視要求調整大小的歷程記錄。
+您可以向&#x200B;**CSM （客戶成功經理）**要求資訊，以檢視要求調整大小的歷程記錄。
 下列資訊適用於每個調整大小請求：
 
 * **大小開始日期**： upsize要求的日期。
@@ -88,7 +120,7 @@ Adobe為雲端基礎結構上的Adobe Commerce提供一組New Relic警示政策P
 * 如需如何衡量及改善網站績效的深入分析、方法和範例，請參閱我們的支援知識庫中的下列深入文章：
    * [雲端上Adobe Commerce的CPU配置計算](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
    * [檢查雲端上的Adobe Commerce是否需要主機執行個體的大小調整](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-   * [檢查雲端上Adobe Commerce的主機的CPU設定](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
+   * [檢查雲端上Adobe Commerce的主機CPU設定](/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
 * 如需如何識別中斷的詳細資訊，請參閱我們的支援知識庫中的[識別並測量雲端上Adobe Commerce的中斷](/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)。
 * 如需改善網站效能以避免使用容量增加之需要的資訊，請參閱我們的開發人員檔案中的下列文章：
    * [影像大小](/docs/commerce-admin/catalog/products/digital-assets/product-image-config.html#product-image-resizing)
