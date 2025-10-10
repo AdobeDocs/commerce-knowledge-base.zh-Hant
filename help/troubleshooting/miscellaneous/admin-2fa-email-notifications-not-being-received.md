@@ -4,9 +4,9 @@ description: 當您在設定雙因素驗證(2FA)以增強Adobe Commerce雲端基
 exl-id: 7ab6b2b4-6aca-4323-a45b-2b4e52955160
 feature: Admin Workspace, Communications
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 9eaea028886e74fc06c9516801919cd7f650f98c
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,24 @@ ht-degree: 0%
 php -r "mail(<your email address>,<subject>,<content>,'To: <sender email>');"
 ```
 
-檢查您的「垃圾訊息」資料夾中是否有電子郵件。 如果電子郵件出現於該處，[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#login)以要求在SendGrid中將網域標示為白色。
+檢查您的「垃圾訊息」資料夾中是否有電子郵件。
+
+如果電子郵件出現在您的Spam資料夾中，您網域的電子郵件驗證可能未針對透過SendGrid的傳出傳遞完全設定。
+
+如果您使用Adobe管理的SendGrid服務：
+
+[送出支援票證](https://experienceleague.adobe.com/home?support-tab=home#support)，要求使用SendGrid驗證您的傳送網域（有時稱為&#x200B;*白色標籤*）。
+此過程包括新增DNS記錄(DKIM和SPF)以授權SendGrid代表您的網域傳送電子郵件，這會增加將您的電子郵件傳送到收件匣而非Spam資料夾的可能性。
+
+如果您使用自己的SendGrid帳戶：
+
+您負責直接在SendGrid帳戶儀表板中管理您的網域驗證設定。 如需詳細資訊，請參閱SendGrid檔案中的[如何設定網域驗證](https://www.twilio.com/docs/sendgrid/ui/account-and-settings/how-to-set-up-domain-authentication)。
+
+>[!NOTE]
+>
+>有些客戶可能會選擇使用個別布建的SendGrid服務，以完全控制電子郵件的傳遞能力及法規遵循（例如HIPAA要求）。 根據您使用的SendGrid服務型別(Adobe管理與自我管理)，確保遵循正確的疑難排解步驟。
+
 
 ## 相關閱讀
 
-* [SendGrid](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/project/sendgrid) （在開發人員檔案中）。
+* [SendGrid](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/project/sendgrid) （在開發人員檔案中）。
