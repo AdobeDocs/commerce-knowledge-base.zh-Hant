@@ -28,7 +28,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
-> 如果您將快照集匯入整合環境中，請留意資料庫大小。 大型資料庫可能會在匯入後導致效能降低。 建議您先將快照匯入中繼或本機環境，以檢閱並縮減其大小，然後再將其傳輸至整合。 此外，如果在匯入後發生效能問題，請考慮停用整合分支中的cron工作。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[整合環境](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)。
+> 如果您將快照集匯入整合環境中，請留意資料庫大小。 大型資料庫可能會在匯入後導致效能降低。 建議您先將快照匯入中繼或本機環境，以檢閱並縮減其大小，然後再將其傳輸至整合。 此外，如果在匯入後發生效能問題，請考慮停用整合分支中的cron工作。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[整合環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/architecture/pro-architecture#integration-environment)。
 
 * [方法1：將資料庫 [!DNL dump] 傳輸至本機電腦，然後匯入它](#meth2)。
 * [方法2：直接從伺服器 [!DNL dump] 匯入資料庫](#meth3)。
@@ -83,7 +83,7 @@ ht-degree: 0%
    ```
 
 1. 將資料庫[!DNL dump file] （例如： `<cluster ID>.sql.gz`的[!DNL Production]或`<cluster ID_stg>.sql.gz`的[!DNL Staging]）複製到您的本機電腦。
-1. 請確認您已將[!DNL SSH tunnel]設定為從遠端連線至資料庫： [[!DNL SSH] 及 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) （在開發人員檔案中）。
+1. 請確認您已將[!DNL SSH tunnel]設定為從遠端連線至資料庫： [[!DNL SSH] 及 [!DNL sFTP]： [!DNL SSH tunneling]](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections#env-start-tunn) （在開發人員檔案中）。
 1. 連線到資料庫。
 
    ```bash
@@ -179,6 +179,6 @@ ht-degree: 0%
 
 在我們的開發人員檔案中：
 
-* [匯入代碼：匯入資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
-* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* 雲端上的[備份（快照）：常見問題](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
+* [匯入代碼：匯入資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/staging-production)
+* [[!DNL Snapshots] 和 [!DNL backup] 管理： [!DNL Dump] 您的資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* 雲端上的[備份（快照）：常見問題](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/faq/backup-snapshot-on-cloud-faq)
