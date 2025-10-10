@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 4b92294b26082da2ac5984b729cea2a49663f4b2
+source-git-commit: 5c4d76b3dbaf34b2ded10b520297087562fcaad2
 workflow-type: tm+mt
-source-wordcount: '2852'
+source-wordcount: '2834'
 ht-degree: 0%
 
 ---
@@ -86,12 +86,10 @@ ht-degree: 0%
       * [由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2會因SQL語法錯誤而失敗](/help/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function.md)
       * [B2B 1.5.2更新後Magento_Company模組升級中的效能問題](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)
    * 網站停止或無回應 {#site-down-or-unresponsive}
-      * [在網頁瀏覽器中存取Adobe Commerce時出現503錯誤](/help/troubleshooting/site-down-or-unresponsive/503-error-accessing-magento-in-web-browser.md)
-      * [由於維護模式保持啟用狀態，網站無法載入](/help/troubleshooting/site-down-or-unresponsive/site-fails-to-load-due-to-maintenance-mode-left-enabled.md)
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
