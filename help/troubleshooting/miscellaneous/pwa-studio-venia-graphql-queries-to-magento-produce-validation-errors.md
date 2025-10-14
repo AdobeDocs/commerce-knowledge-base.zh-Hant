@@ -42,7 +42,7 @@ yarn run validate-queries
 如需如何升級的指示，請參閱下列檔案：
 
 * 若要進行PWA Studio升級，請搜尋[PWA發行說明](https://github.com/magento/pwa-studio/releases/)的「從舊版升級」區段，找出您需要升級到的版本。
-* 在開發人員檔案中[升級雲端基礎結構上的Adobe Commerce ](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
+* 在開發人員檔案中[升級雲端基礎結構上的Adobe Commerce &#x200B;](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version)
 * [升級我們的開發人員檔案中的Adobe Commerce內部部署（使用「composer create-project」或archive安裝）](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/implementation/perform-upgrade)
 * [升級我們的開發人員檔案中的Adobe Commerce內部部署(透過複製Adobe Commerce存放庫安裝)](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/developer/git-installs)
 
