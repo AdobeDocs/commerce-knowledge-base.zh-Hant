@@ -3,7 +3,7 @@ title: Adobe Commerce P1通知熱線
 description: 本文提供Adobe Commerce的P1通知熱線號碼，可在尋求報告P1事件時使用，並說明應提供的資訊。
 feature: Communications
 exl-id: 48c4fe93-676e-4c69-a96c-8fb3e6872973
-source-git-commit: bbff778a020a05953b82b452cdede7c46f20c990
+source-git-commit: 5ffe54bba60e0773779d03a26347d24e2c368365
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -20,8 +20,8 @@ ht-degree: 0%
 
 ## P1通知熱線電話原則
 
-* P1通知熱線可用於報告P1層級問題。 （請參閱上一節中的P1事件定義）。
-* 在呼叫Adobe Commerce P1通知熱線前，請先提交支援票證[&#128279;](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hant#submit-ticket)。
+* P1通知熱線可用於報告P1層級的問題（請參閱上一節中的P1事件定義）。
+* 在呼叫Adobe Commerce P1通知熱線前，請先提交支援票證[。](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=en#submit-ticket)
 * 調查、疑難排解和通訊將僅在支援票證內進行。
 * 在呼叫之前，直接將您可能擁有的所有其他問題相關資訊新增到票證。
 * 打電話時，請確定有票證號碼。
@@ -34,18 +34,18 @@ ht-degree: 0%
 * US
    * 免付費電話： (+1) 800 497 0335 (第一次選單時，請按3 Adobe Commerce P1熱線)
 * EMEA
-   * 英國：(+44) 800 169 0454 (第一個功能表按下Adobe Commerce P1熱線電話6)
-   * 丹麥： (+45) 80206017 (第一個功能表按下Adobe Commerce P1熱線的6字)
-   * 荷蘭：(+31) 020 203 5138 (第一個功能表上，Adobe Commerce P1熱線按6)
-   * 義大利：(+39) 0269 682 818 (第一個功能表按下，Adobe Commerce P1熱線按6)
-   * 瑞典： (+46) 0200 810 330 (第一個功能表按下，Adobe Commerce P1熱線按6)
+   * 英國：(+44) 800 169 0454 (第一個功能表按下Adobe Commerce P1熱線電話3)
+   * 丹麥：(+45) 80206017 (第一個功能表，Adobe Commerce P1熱線按3)
+   * 荷蘭：(+31) 020 203 5138 (第一個功能表上，Adobe Commerce P1熱線按3)
+   * 義大利：(+39) 0269 682 818 (第一個功能表按3 Adobe Commerce P1熱線電話)
+   * 瑞典： (+46) 0200 810 330 (第一個功能表按下3 Adobe Commerce P1熱線電話)
 * APAC
    * 澳洲：(+61) 1 800 358 683 (第一個功能表按下，Adobe Commerce P1熱線按3)
-   * 新加坡：(+65) 1 800 818 5220 (第一個功能表按下，Adobe Commerce P1熱線按6)
-   * 菲律賓（付費電話）： (+63) 1 800 1441 0660 (第一個功能表，Adobe Commerce P1熱線按6)
-   * 紐西蘭（付費電話）： (+64) 050 861 4264 (第一個功能表按下，Adobe Commerce P1熱線按6)
-   * 台灣：(+886)0 800 666 381 (第一個功能表按下，Adobe Commerce P1熱線按6)
-   * 馬來西亞（付費電話）： (+60) 1800 220 120 (第一個功能表，按Adobe Commerce P1熱線的6字)
-   * 印度：(+91) 0008 004 402 107 (第一個功能表按下Adobe Commerce P1熱線電話6)
-   * 香港： (+852) 30 713 107 (第一個功能表按6 Adobe Commerce P1熱線電話)
-   * 日本：(+81) 120 071 300 (第一個功能表前，Adobe Commerce P1熱線按6)
+   * 新加坡： (+65) 1 800 818 5220 (第一個功能表按下Adobe Commerce P1熱線電話3)
+   * 菲律賓（付費電話）： (+63) 1 800 1441 0660 (第一個功能表，按Adobe Commerce P1熱線電話3)
+   * 紐西蘭（付費電話）： (+64) 050 861 4264 (第一個功能表，按3顯示Adobe Commerce P1熱線)
+   * 台灣：(+886)0 800 666 381 (第一個功能表按3 Adobe Commerce P1熱線電話)
+   * 馬來西亞（付費電話）： (+60) 1800 220 120 (第一個功能表，按3顯示Adobe Commerce P1熱線)
+   * 印度：(+91) 0008 004 402 107 (第一次選單時，請按3輸入Adobe Commerce P1熱線)
+   * 香港：(+852) 30 713 107 (第一個功能表按3 Adobe Commerce P1熱線電話)
+   * 日本：(+81) 120 071 300 (第一個功能表時，Adobe Commerce P1熱線按3)
