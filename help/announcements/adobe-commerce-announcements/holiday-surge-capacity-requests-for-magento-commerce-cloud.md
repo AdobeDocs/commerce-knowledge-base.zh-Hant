@@ -15,7 +15,7 @@ ht-degree: 0%
 
 在旺季的假期銷售季節（大約11月中旬至1月中旬），Adobe建議所有託管於雲端基礎結構的Adobe Commerce商戶為增加的流量做好準備。
 
-如需針對旺季準備您的系統和團隊的全面、跨解決方案檢查清單和最佳實務，請參閱[Adobe DX統一假日整備指南](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness)。
+如需針對旺季準備您的系統和團隊的全面、跨解決方案檢查清單和最佳實務，請參閱[Adobe DX統一假日整備指南](https://experienceleague.adobe.com/zh-hant/docs/support-resources/data-sheets/unified-holiday-readiness)。
 
 **計畫和預估流量**
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 **要求突波容量**
 
-雲端基礎結構上的Adobe Commerce商戶如果預期在節日季節期間需要額外的容量，應透過我們的[說明中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html)提交突波容量支援票證[，說明票證內的日期和預期容量需求。 &#x200B;](/help/overview.md)請注意，容量增加需要使用您的授權超額容量。
+雲端基礎結構上的Adobe Commerce商戶如果預期在節日季節期間需要額外的容量，應透過我們的[說明中心](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-request-temporary-magento-upsize.html?lang=zh-Hant)提交突波容量支援票證[，說明票證內的日期和預期容量需求。 &#x200B;](/help/overview.md)請注意，容量增加需要使用您的授權超額容量。
 
 **我們建議在需要容量時，至少提前48個營業時間提交這些票證；此外，由於此期間的容量有限，我們建議儘量提前提交黑色星期五/網路星期一期間的申請。**
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 在我們的支援知識庫中：
 
-* 雲端上Adobe Commerce的[CPU配置計算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html)
-* [檢查雲端上的Adobe Commerce是否需要主機執行個體的大小調整](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html)
-* [檢查雲端上Adobe Commerce的主機CPU設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html)
-* [識別並測量雲端上Adobe Commerce的中斷](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html)
+* 雲端上Adobe Commerce的[CPU配置計算](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-cpu-allocation-calculation.html?lang=zh-Hant)
+* [檢查雲端上的Adobe Commerce是否需要主機執行個體的大小調整](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.html?lang=zh-Hant)
+* [檢查雲端上Adobe Commerce的主機CPU設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/magento-commerce-cloud-check-hosts-cpu-configuration.html?lang=zh-Hant)
+* [識別並測量雲端上Adobe Commerce的中斷](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/how-to-identify-outages.html?lang=zh-Hant)

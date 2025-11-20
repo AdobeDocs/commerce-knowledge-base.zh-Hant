@@ -16,7 +16,7 @@ ht-degree: 0%
 
 隨附的pdf提供相關提示，說明如何針對高流量準備基礎架構、防止停機時間，以及在假期中最佳化效能。
 
-如需針對旺季準備您的組織、基礎結構和團隊的其他跨解決方案指南，請參閱[Adobe DX解決方案統一假日整備指南](https://experienceleague.adobe.com/en/docs/support-resources/data-sheets/unified-holiday-readiness)。
+如需針對旺季準備您的組織、基礎結構和團隊的其他跨解決方案指南，請參閱[Adobe DX解決方案統一假日整備指南](https://experienceleague.adobe.com/zh-hant/docs/support-resources/data-sheets/unified-holiday-readiness)。
 
 ## 受影響的產品和版本
 
