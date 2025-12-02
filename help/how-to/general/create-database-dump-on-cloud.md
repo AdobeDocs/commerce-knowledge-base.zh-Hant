@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 先決條件：使用SSH連線至環境
 
-若要使用本文所述的任何變體將您的資料庫傾印在Adobe Commerce上的雲端基礎結構上，您必須先[SSH連線到您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+若要使用本文所述的任何變體將您的資料庫傾印在Adobe Commerce上的雲端基礎結構上，您必須先[SSH連線到您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
 
 >[!WARNING]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 選項1：db-dump （**ece-tools；建議**）
 
-您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)命令傾印您的資料庫：
+您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=zh-Hant)命令傾印您的資料庫：
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,7 +34,7 @@ vendor/bin/ece-tools db-dump
 
 這是建議且最安全的選項。
 
-請參閱雲端基礎結構指南中Commerce的[傾印您的資料庫(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html)。
+請參閱雲端基礎結構指南中Commerce的[傾印您的資料庫(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=zh-Hant)。
 
 ## 選項2： mariadb-dump （舊版的mysqldump）
 
@@ -73,4 +73,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **相關檔案：**
 
 * [mysqldump — 正式MySQL檔案中的資料庫備份程式](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)。
-* 在我們的Commerce on Cloud Infrastructure指南中，[雲端特有的變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) （請參閱`MAGENTO_CLOUD_RELATIONSHIPS`）。
+* 在我們的Commerce on Cloud Infrastructure指南中，[雲端特有的變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=zh-Hant) （請參閱`MAGENTO_CLOUD_RELATIONSHIPS`）。
