@@ -3,9 +3,9 @@ title: 在雲端基礎結構上的Adobe Commerce上建立資料庫傾印
 description: 本文討論在雲端基礎結構上的Adobe Commerce上建立資料庫(DB)傾印的可能（以及建議）方法。
 exl-id: 4a2e54ac-8d65-4e51-8337-08f9748dc6c0
 feature: Cloud
-source-git-commit: 0948b2a94ee4f2a355e7c024a09929f0ad223783
+source-git-commit: 96b145a1f76c296907da96fd97c7a8f7778463f8
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## 先決條件：使用SSH連線至環境
 
-若要使用本文所述的任何變體將您的資料庫傾印在Adobe Commerce上的雲端基礎結構上，您必須先[SSH連線到您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+若要使用本文所述的任何變體將您的資料庫傾印在Adobe Commerce上的雲端基礎結構上，您必須先[SSH連線到您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 
 >[!WARNING]
 >
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ## 選項1：db-dump （**ece-tools；建議**）
 
-您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html?lang=zh-Hant)命令傾印您的資料庫：
+您可以使用[ECE-Tools](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/ece-tools/update-package.html)命令傾印您的資料庫：
 
 ```php
 vendor/bin/ece-tools db-dump
@@ -34,15 +34,25 @@ vendor/bin/ece-tools db-dump
 
 這是建議且最安全的選項。
 
-請參閱雲端基礎結構指南中Commerce的[傾印您的資料庫(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html?lang=zh-Hant)。
+請參閱雲端基礎結構指南中Commerce的[傾印您的資料庫(ECE-Tools)](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/storage/database-dump.html)。
 
-## 選項2： mysqldump
+## 選項2： mariadb-dump （舊版的mysqldump）
+
++++<b>適用於較新的MariaDB版本（11.x和更新版本）</b>
+
+從MariaDB 11.0.1開始，`mysqldump`符號連結已過時。 建議您改用`mariadb-dump`。
+
+如需詳細資訊，請參閱[mariadb-dump使用者端公用程式](https://mariadb.com/docs/server/clients-and-utilities/backup-restore-and-import-clients/mariadb-dump)。
+
++++
+
++++<b>適用於舊版MariaDB</b> 
+
+如果您使用較舊的MariaDB版本，`mariadb-dump`無法使用，您可以使用原生MySQL `mysqldump`命令傾印您的DB。
 
 >[!WARNING]
 >
 >請勿對資料庫叢集執行此命令。 叢集不會區分它是針對主要資料庫還是次要資料庫執行。 如果叢集對主要執行這個命令，資料庫將無法執行寫入作業，直到傾印完成，而且可能會影響效能和網站穩定性。
-
-您可以使用原生MySQL `mysqldump`命令傾印您的資料庫。
 
 整個命令可能如下所示：
 
@@ -51,6 +61,8 @@ mysqldump -h <host> -u <username> -p <password> --single-transaction <db_name> |
 ```
 
 執行`mysqldump`命令建立並儲存在`\tmp`中的資料庫備份，應從此位置移動。 它不應在`\tmp`中佔用儲存空間（這可能會導致問題）。
+
++++
 
 若要取得您的DB認證（主機、使用者名稱和密碼），您可以呼叫`MAGENTO_CLOUD_RELATIONSHIPS`環境變數：
 
@@ -61,4 +73,4 @@ echo $MAGENTO_CLOUD_RELATIONSHIPS |base64 --d |json_pp
 **相關檔案：**
 
 * [mysqldump — 正式MySQL檔案中的資料庫備份程式](https://dev.mysql.com/doc/refman/8.0/en/mysqldump.html)。
-* 在我們的Commerce on Cloud Infrastructure指南中，[雲端特有的變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html?lang=zh-Hant) （請參閱`MAGENTO_CLOUD_RELATIONSHIPS`）。
+* 在我們的Commerce on Cloud Infrastructure指南中，[雲端特有的變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-cloud.html) （請參閱`MAGENTO_CLOUD_RELATIONSHIPS`）。
