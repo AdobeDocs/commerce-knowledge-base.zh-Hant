@@ -4,9 +4,9 @@ description: 本文會說明一個已知的Adobe Commerce 2.4.1問題，其中�
 exl-id: c2abeb96-e837-4d16-92dd-82fea5661dd9
 feature: Shipping/Delivery
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: ce377064efabaf09d3856da7c6c5c742a9fdcc2f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -22,9 +22,6 @@ ht-degree: 0%
 
 ## 問題
 
-先決條件：
-
-啟用&#x200B;**頂點位址清除**。 如需相關步驟，請參閱使用手冊中的[設定店面位址清理](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/vertex-address-cleansing-different-addresses-not-allowed.html?lang=zh-Hant)。
 
 <u>要再現的步驟：</u>
 
@@ -37,7 +34,7 @@ ht-degree: 0%
 
 <u>第一個情境：</u>
 
-請依照上述六個步驟[&#128279;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的進行，然後：
+請依照上述六個步驟[中的](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)進行，然後：
 
 1. 輸入新的有效帳單地址。
 1. 按一下&#x200B;**更新**&#x200B;按鈕。 它會顯示類似下列的訊息/建議： *地址無效。*&#x200B;這將會接著提供地址建議，例如： *郵遞區號： XXXXX- XXXX Street ： XXX City Street XXX*
@@ -56,7 +53,7 @@ ht-degree: 0%
 
 <u>第二個情境：</u>
 
-請依照上述六個步驟[&#128279;](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)中的進行，然後：
+請依照上述六個步驟[中的](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md#first_sixth)進行，然後：
 
 1. 使用有效地址填寫地址表單。
 1. 按一下&#x200B;**更新**&#x200B;按鈕。 它會顯示類似下列的訊息/建議： *地址無效。*&#x200B;這將會接著提供地址建議，例如： *郵遞區號： XXXXX-XXXX Street ： XXX City Street XXX*。
