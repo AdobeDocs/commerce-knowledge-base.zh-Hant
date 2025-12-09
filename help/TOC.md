@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
+source-git-commit: 3a482f7e5ddc872ddaf9634da8ca4f41a3b46ab4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2763'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,6 @@ ht-degree: 0%
       * [系統不會處理來自不同網域之管理員和前端的數位來源付款](/help/troubleshooting/payments/cybersource-payment-from-admin-and-front-on-different-domains-not-processed.md)
       * [Adobe Commerce 2.4.0已知問題： Amazon付費，無付款方式](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
       * [Adobe Commerce 2.4.0：選取本機付款時發生結帳錯誤](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
-      * [PayPal Payflow主動式分片活動](/help/troubleshooting/payments/paypal-payflow-pro-active-carding-activity.md)
       * [Adobe Commerce上的PayPal疑難排解](/help/troubleshooting/payments/paypal-troubleshooting-on-magento.md)
       * [Adobe Commerce 2.4.0、2.4.1：啟用Braintree Venmo部分發票](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
       * [Adobe Commerce 2.4.2 B2B：折扣仍維持付款方式變更](/help/troubleshooting/payments/magento-2-4-2-b2b-discount-remains-pay-method-change.md)
@@ -88,7 +87,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
