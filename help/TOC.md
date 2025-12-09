@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9c17f1a10303f91ac95813171191983471d345a1
+source-git-commit: ed116b8fddfb6f5e22c2da2fdad5d0d0d2b4a377
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2769'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -203,7 +203,6 @@ ht-degree: 0%
       * [已排程的內容分段更新未與過時的Fastly快取一起顯示](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [疑難排解cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [匯出的產品.csv檔案不會出現](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
-      * [「類別無法儲存在程式碼目錄中」錯誤](/help/troubleshooting/miscellaneous/class-cannot-be-saved-in-the-code-directory-error.md)
       * [如果Cloud UI有「記錄片段」錯誤，則檢查部署記錄](/help/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error.md)
       * [由於撰寫器發生變更，下載失敗](/help/troubleshooting/miscellaneous/download-fails-because-of-changes-in-composer.md)
       * [錯誤：在雲端基礎結構上的Adobe Commerce上準備失敗](/help/troubleshooting/miscellaneous/error-warming-up-failed-on-magento-commerce-cloud.md)
