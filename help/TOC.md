@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 96ec7b44bd913c5976f0a8e3ce8355f7686622ad
+source-git-commit: dff3d2101da7264fe5e6af9ac5c9a6c1c8c97bc9
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2700'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -101,7 +101,6 @@ ht-degree: 0%
       * [Adobe Commerce 2.4.0 B2B管理員無法將可設定的產品新增至報價](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
       * [Adobe Commerce 2.3.6：在儲存位址時顯示無窮無盡的迴旋](/help/troubleshooting/miscellaneous/magento-2-3-6-endless-spinner-displayed-on-address-save.md)
       * [疑難排解雲端基礎結構上Adobe Commerce的New Relic](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
-      * [透過管理面板存取網頁設定精靈時出現404 not found錯誤](/help/troubleshooting/miscellaneous/404-error-web-set-up-wizard-cloud.md)
       * [啟用快取以避免效能降低](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Adobe Commerce安全性掃描工具疑難排解指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [檔案許可權整備檢查問題](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
@@ -116,7 +115,6 @@ ht-degree: 0%
       * [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
       * [解決CSV檔案上傳的UTF-8錯誤](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
       * [在Adobe Commerce上使用New Relic進行效能疑難排解](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
-      * [Adobe Commerce 2.3.5中的大量動作產品計數已知問題](/help/troubleshooting/miscellaneous/bulk-action-product-count-known-issue-in-magento-2-3-5.md)
       * [正在檢查來自CLI的DDoS攻擊](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
       * [存取店面或Commerce管理員時出現空白頁面或重新導向回圈錯誤](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
       * [Adobe Commerce 2.4.1頂點位址驗證訊息張貼位址更新](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)
@@ -127,7 +125,6 @@ ht-degree: 0%
       * [安裝Inventory management後庫存狀態不正確](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [Adobe Commerce 2.3.5已知問題：虛擬產品多送貨訂單](/help/troubleshooting/miscellaneous/magento-2-3-5-known-issue-virtual-product-multi-ship-orders.md)
       * [使用資料匯出功能來精確找出差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-      * [未顯示庫存影像，Adobe Commerce和Magento Open Source 2.3.7-p2](/help/troubleshooting/miscellaneous/adobe-commerce-and-magento-open-source-2-3-7-p2-stock-images-not-showing.md)
       * [在Adobe Commerce中啟用影像最佳化時發生錯誤](/help/troubleshooting/miscellaneous/error-enabling-image-optimization-in-magento-commerce.md)
       * [資料移轉工具疑難排解](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [元件相依性整備檢查問題](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
@@ -141,7 +138,6 @@ ht-degree: 0%
       * [共用存取疑難排解](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
       * [效能緩慢、速度緩慢且長時間執行cron](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
       * [驗證Fastly認證時發生錯誤](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
-      * [備份問題](/help/troubleshooting/miscellaneous/backup-issues.md)
       * [CSV匯入後，新客戶未顯示在客戶格線中](/help/troubleshooting/miscellaneous/new-customers-not-displayed-in-customer-grid-after-csv-import.md)
       * [安全性掃描工具報告為空白](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
       * [Adobe Commerce 2.4.2-p1：含錯誤值的發票備註](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
