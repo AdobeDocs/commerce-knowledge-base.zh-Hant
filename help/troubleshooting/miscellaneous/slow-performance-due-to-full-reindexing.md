@@ -4,9 +4,9 @@ description: 本文針對因完全重新索引（其中索引相關的資料庫�
 exl-id: 4f20a862-cf54-4196-8a88-101f0c80f8f1
 feature: Best Practices
 role: Developer
-source-git-commit: 72ee49a8667f575a58e0cf1b3d5c9df936cc628b
+source-git-commit: 0786763a1db386fbea7f809eba9bc7f202cdd27a
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,10 @@ ht-degree: 0%
 
 ### 解決方案
 
-只在必要時才執行重新索引。 如需相關步驟，請參閱我們的開發人員檔案中的[設定索引子](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。 一般建議和最佳實務是允許部分重新索引機制處理資料重新索引，而不需要商家手動操作。 所有重新索引應該使用原生Adobe Commerce功能(Mview)完成。 Mview會執行部分重新索引，這是重新索引資料的最有效率方式。 若要瞭解Mview，請參閱我們的開發人員檔案中的[索引概觀： Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)。
+只在必要時才執行重新索引。 如需相關步驟，請參閱我們的開發人員檔案中的[設定索引子](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/cli/manage-indexers#configure-indexers)。 一般建議和最佳實務是允許部分重新索引機制處理資料重新索引，而不需要商家手動操作。 所有重新索引應該使用原生Adobe Commerce功能(Mview)完成。 Mview會執行部分重新索引，這是重新索引資料的最有效率方式。 若要瞭解Mview，請參閱我們的開發人員檔案中的[索引概觀： Mview](https://developer.adobe.com/commerce/php/development/components/indexing/#mview)。
 
 ## 相關閱讀
 
 * [索引概述：如何在我們的開發人員檔案中重新索引](https://developer.adobe.com/commerce/php/development/components/indexing/#how-to-reindex)。
-* [失效的快取造成我們的支援知識庫中的回應時間降低](/help/troubleshooting/miscellaneous/invalidated-cache-causes-response-time-degradation.md)。
+
 
