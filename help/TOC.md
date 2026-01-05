@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d1fe74501ffcb908e9434a0988087ae6c9e73088
+source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
 workflow-type: tm+mt
-source-wordcount: '2617'
+source-wordcount: '2612'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -330,7 +330,6 @@ ht-degree: 0%
    * [我可以在我的雲端例項上安裝協力廠商應用程式嗎？](/help/faq/general/can-i-install-third-party-applications-on-my-cloud-instance.md)
    * [連結Magento.com與accounts.magento.cloud帳戶登入](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Fastly Origin遮罩啟用常見問題集](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
-   * [Adobe Commerce的計費常見問題集](/help/faq/general/billing-faq-for-adobe-commerce.md)
    * [在我們的雲端專業架構上，將資料庫auto_increment增量變數設為&quot;3&quot; Adobe Commerce](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
    * [在Cloud Pro基礎結構上監控Adobe Commerce情況說明書](/help/faq/general/monitoring-whitepaper.md)
    * [存取New Relic服務](/help/faq/general/access-new-relic-services.md)
