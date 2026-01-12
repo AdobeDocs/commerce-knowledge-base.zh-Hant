@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 557cfbab3dd2c612255c177848d9faf98024a04b
+source-git-commit: fd5d542ca580060c3f0b3ad28024365a43758cfb
 workflow-type: tm+mt
-source-wordcount: '2612'
+source-wordcount: '2597'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -249,7 +249,6 @@ ht-degree: 0%
    * [Adobe Commerce支援票證生命週期原則更新](/help/help-center-guide/help-center/magento-support-ticket-lifecycle-policy-update.md)
 * 操作說明 {#how-to}
    * [操作說明概述](/help/how-to/overview.md)
-   * [Adobe Commerce P1通知熱線](/help/how-to/general/adobe-commerce-p1-notification-hotline.md)
    * [如何在支援通知中加入團隊成員](/help/how-to/general/how-to-include-a-team-member-in-support-notifications.md)
    * [如何取得及套用安全性修補程式](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [設定新 [!DNL domain]的檢查清單](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
@@ -296,7 +295,6 @@ ht-degree: 0%
    * [在Fastly層級封鎖Adobe Commerce的惡意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [從GitHub認可建立Adobe Commerce Composer安裝的修補程式](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
    * [變更雲端基礎結構上Adobe Commerce的管理員密碼](/help/how-to/general/change-magento-admin-password-on-cloud.md)
-   * [如何請求雲端基礎結構上的臨時Adobe Commerce升級](/help/how-to/general/how-to-request-temporary-magento-upsize.md)
    * [在Adobe Commerce上檢視叢集中的環境vCPU層](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [雲端基礎結構上的Adobe Commerce：檢查主機的CPU設定](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
    * [雲端上的Adobe Commerce：變更驗證金鑰並重新部署](/help/how-to/general/redeploy-with-another-key.md)
