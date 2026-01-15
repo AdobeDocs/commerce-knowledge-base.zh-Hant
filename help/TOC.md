@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
+source-git-commit: d9d2382570c53d8da835d770dfae108fe64b31cc
 workflow-type: tm+mt
-source-wordcount: '2417'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -212,7 +212,6 @@ ht-degree: 0%
       * [部署失敗Fastly模組與Adobe Commerce版本不相容](/help/troubleshooting/deployment/deployment-fails-fastly-module-incompatible-magento-version.md)
       * [部署錯誤： SQLSTATE[HY000]](/help/troubleshooting/deployment/deployment-error-sql-hy000.md)
       * [與帳戶許可權和存取金鑰相關的部署問題](/help/troubleshooting/deployment/deployment-issues-relating-to-account-permissions-and-access-keys.md)
-      * [Adobe Commerce部署疑難排解員](/help/troubleshooting/deployment/magento-deployment-troubleshooter.md)
       * [升級至支援PHP 8.1的版本時，在部署期間發生錯誤](/help/troubleshooting/deployment/error-during-deployment-when-upgrading-to-version-supporting-php-8-1.md)
       * [部署錯誤：「下載時發生錯誤7...連線埠443：連線被拒」](/help/troubleshooting/deployment/deployment-error-downloading-connection-refused-adobe-commerce.md)
       * [提交不正確的檔案時發生部署錯誤](/help/troubleshooting/deployment/deployment-error-when-committing-incorrect-files.md)
