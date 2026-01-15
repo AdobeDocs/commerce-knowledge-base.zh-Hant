@@ -4,9 +4,9 @@ description: 本文介紹Commerce Admin在管理B2B報價時的一個已知問�
 exl-id: 73f7231b-b496-4250-b9e2-29427c772d56
 feature: Admin Workspace, B2B, Catalog Management, Configuration, Products, Quotes
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,4 @@ ht-degree: 0%
 ## 建議
 
 目前，編輯B2B報價時沒有此問題的因應措施，但針對訂單與購物車管理，可從&#x200B;**產品清單**&#x200B;中選取產品，而非由&#x200B;**SKU**&#x200B;新增產品。 Adobe Commerce 2.4.1將可提供解決問題的修補程式，該版本預計於2020年第4季發行。
-
-## 相關閱讀
-
-* [Adobe Commerce 2.4.0已知問題：在客戶的活動上重新整理無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0已知問題：匯出稅率無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 

@@ -4,9 +4,9 @@ description: 本文針對Adobe Commerce 2.4.0安裝失敗並出現錯誤訊息�
 exl-id: 0680199b-7e47-4a8c-91fe-9f6c32839a0e
 feature: B2B, Cache, Console, Install, Upgrade
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '314'
 ht-degree: 0%
 
 ---
@@ -42,13 +42,9 @@ ht-degree: 0%
 ## 我們的支援知識庫中的相關閱讀：
 
 * [Adobe Commerce 2.4.0已知問題：遺失Klarna的「退款」標籤](/help/troubleshooting/payments/magento-2-4-0-known-issue-missing-refund-label-in-klarna.md)
-* [Adobe Commerce 2.4.0已知問題：在管理員的「建立新訂單」頁面上遺失兩個按鈕](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
 * [Adobe Commerce 2.4.0、2.4.1：啟用Braintree Venmo部分發票發放](/help/troubleshooting/payments/magento-2-4-0-2-4-1-enable-braintree-venmo-partial-invoice-issue.md)
 * [Adobe Commerce 2.4.0已知問題：在結帳期間為部分國家顯示選擇當地付款方式的錯誤訊息](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
 * [Adobe Commerce 2.4.0已知問題：已啟用Amazon Pay，使用返回標準結帳時缺少付款方法](/help/troubleshooting/payments/magento-2-4-0-known-issue-amazon-pay-no-payment-methods.md)
 * [Adobe Commerce 2.4.0 B2B管理員無法將可設定的產品新增至報價](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
 * [Adobe Commerce 2.4.0已知問題： Braintree付款方法未出現在多地址結帳中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
-* [Adobe Commerce 2.4.0已知問題 — 在客戶的活動上重新整理無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0已知問題 — 匯出稅率無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
-* [Adobe Commerce 2.4.0已知問題：「將選取專案新增至我的購物車」按鈕無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
 

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 466435b0f73d1fb26ce492c0063104b1dd932e2d
+source-git-commit: 881fdb528850471fcf34dbdf94c7980fff0f248b
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2417'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -94,7 +94,6 @@ ht-degree: 0%
       * [Redis服務當機](/help/troubleshooting/miscellaneous/redis-service-crashed.md)
       * [SQL查詢：說明成本錯誤](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [Adobe Commerce 2.4.0 B2B管理員無法將可設定的產品新增至報價](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-      * [Adobe Commerce 2.3.6：在儲存位址時顯示無窮無盡的迴旋](/help/troubleshooting/miscellaneous/magento-2-3-6-endless-spinner-displayed-on-address-save.md)
       * [疑難排解雲端基礎結構上Adobe Commerce的New Relic](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
       * [啟用快取以避免效能降低](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Adobe Commerce安全性掃描工具疑難排解指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
@@ -124,7 +123,6 @@ ht-degree: 0%
       * [元件相依性整備檢查問題](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
       * [無法在雲端基礎結構UI上存取Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
       * [類別變更未儲存](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
-      * [Adobe Commerce 2.4.0已知問題 — 匯出稅率無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
       * [適用於Adobe Commerce的Magento Order Management系統(OMS)處理錯誤](/help/troubleshooting/miscellaneous/magento-order-management-messages-processing-error.md)
       * [從2.2.X升級至2.3.X後不會載入快取影像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
       * [將網站新增至安全性掃描時出現錯誤訊息](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
@@ -146,37 +144,24 @@ ht-degree: 0%
       * [PHP mcrypt擴充功能未正確安裝](/help/troubleshooting/miscellaneous/php-mcrypt-extension-not-installed-properly.md)
       * [Adobe Commerce 2.3.6、2.4.0-p1、2.4.1已知問題： dotdigital登入](/help/troubleshooting/miscellaneous/magento-2-3-6-2-4-0-p1-2-4-1-known-issue-dotdigital-login.md)
       * [Cron工作卡在「執行中」狀態](/help/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.md)
-      * [部署後.magento.env.yaml變更未顯示在env.php中](/help/troubleshooting/miscellaneous/magento-env-yaml-changes-not-shown-in-env-php-after-deploy.md)
-      * [停用模組後的問題](/help/troubleshooting/miscellaneous/issues-after-disabling-a-module.md)
       * [將非規則運算式重新導向解除安裝到Fastly而非Nginx （路由）](/help/troubleshooting/miscellaneous/offload-non-regex-redirects-to-fastly-instead-of-nginx-routes.md)
-      * [Adobe Commerce 2.4.0已知問題：遺失「建立新訂單」按鈕](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-create-new-order-buttons-missing.md)
       * [Adobe Commerce的進階報告疑難排解員](/help/troubleshooting/miscellaneous/magento-advanced-reporting-troubleshooter.md)
       * [常見的PHP嚴重錯誤和解決方案](/help/troubleshooting/miscellaneous/common-php-fatal-errors-and-solutions.md)
-      * [Adobe Commerce上的撰寫器更新失敗：不相容的引數型別](/help/troubleshooting/miscellaneous/composer-update-fail-on-adobe-commerce-incompatible-argument-type.md)
       * [Adobe Commerce 2.4.2 B2B：電子郵件範本未更新電子郵件](/help/troubleshooting/miscellaneous/magento-2-4-2-b2b-email-template-not-updating-email.md)
       * [PWA Studio：瀏覽器不信任產生的SSL憑證](/help/troubleshooting/miscellaneous/pwa-studio-browser-not-trust-generated-ssl-certificate.md)
       * [疑難排解503錯誤，因必須變更預設清漆設定](/help/troubleshooting/miscellaneous/troubleshooting-503-errors.md)
       * [Cron任務會鎖定來自其他群組的任務](/help/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.md)
       * [安裝xdebug函式最大巢狀層級錯誤](/help/troubleshooting/miscellaneous/installation-xdebug-maximum-function-nesting-level-error.md)
-      * [在瀏覽器中存取Adobe Commerce時，出現PHP版本錯誤或404錯誤](/help/troubleshooting/miscellaneous/php-version-error-or-404-error-when-accessing-magento-in-browser.md)
-      * [匯入不會更新套件組合選項順序](/help/troubleshooting/miscellaneous/bundle-options-order-is-not-updated-by-import.md)
-      * [Adobe Commerce 2.4.0：「將選取專案新增至我的購物車」無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
       * [MBI：資料差異](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)
       * [不在pub media目錄中執行的自訂伺服器端指令碼](/help/troubleshooting/miscellaneous/custom-server-side-scripts-not-executed-in-pub-media-directory.md)
-      * [PHP版本整備檢查問題](/help/troubleshooting/miscellaneous/php-version-readiness-check-issues.md)
       * [雲端網站速度緩慢](/help/troubleshooting/miscellaneous/cloud-site-is-slow.md)
       * [自訂SSL憑證到期資訊](/help/troubleshooting/miscellaneous/custom-ssl-certificate-expiration-information.md)
       * [PWA Studio：執行開發人員模式時出現驗證錯誤](/help/troubleshooting/miscellaneous/pwa-studio-validation-errors-when-running-developer-mode.md)
       * [使用Adobe Commerce時關閉每小時Amazon電子郵件](/help/troubleshooting/miscellaneous/turn-off-hourly-amazon-emails-when-using-magento.md)
       * [Github代號問題和撰寫器金鑰程式](/help/troubleshooting/miscellaneous/github-token-issue-and-composer-key-procedures.md)
-      * [Adobe Commerce 2.4.1問題：無法在Chrome中變更Amazon帳戶](/help/troubleshooting/miscellaneous/magento-2-4-1-known-issue-unable-to-change-amazon-account-in-google-chrome.md)
-      * [ECE-Tools和修補程式更新錯誤Adobe Commerce雲端基礎結構2.2.x.、2.3.x](/help/troubleshooting/miscellaneous/ece-tools-and-patch-update-errors-magento-commerce-cloud-2-2-x-2-3-x.md)
       * [PWA Studio：Webpack在開始編譯前擱置](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
-      * [安裝最新修補程式以修正Adobe Commerce Redis問題](/help/troubleshooting/miscellaneous/install-latest-patches-to-fix-magento-redis-issues.md)
       * [解決不合法的位移錯誤](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [以程式設計方式建立時產品狀態不正確](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [Fastly錯誤：外掛程式VCL版本已過時！ 請重新上傳](/help/troubleshooting/miscellaneous/fastly-error-plugin-vcl-version-is-outdated-please-re-upload.md)
-      * [Adobe Commerce 2.4.0：在客戶的活動上重新整理無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
       * [雲端上的Adobe Commerce出現變數/匯出資料夾許可權問題](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [已排程的內容分段更新未與過時的Fastly快取一起顯示](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [疑難排解cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
@@ -199,12 +184,10 @@ ht-degree: 0%
       * [疑難排解Adobe Commerce Intelligence帳戶鎖定](/help/troubleshooting/miscellaneous/troubleshooting-mbi-account-lockout.md)
       * [影響xdebug安裝的已知問題](/help/troubleshooting/miscellaneous/known-issues-that-affect-installation.md)
       * [無法登入Adobe Commerce支援或雲端帳戶](/help/troubleshooting/miscellaneous/unable-to-log-in-to-support-or-cloud-project.md)
-      * [衝突的元件相依性](/help/troubleshooting/miscellaneous/conflicting-component-dependencies.md)
       * [Adobe Commerce Intelligence服務原則](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [從Git推播時放入生產環境的新環境](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [登入Commerce管理員時發生錯誤](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
       * [適用於Adobe Commerce的Magento Order Management系統(OMS)逾時](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
-      * [清除Commerce管理員中的快取時發生錯誤](/help/troubleshooting/miscellaneous/error-purging-cache-in-admin.md)
       * [Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce雲端：以已終止訊息終止重新索引](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [Adobe Commerce狀態列缺少匯出的產品CSV檔案](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)

@@ -4,9 +4,9 @@ description: 本文針對Klarna VBE （廠商套件擴充功能）中遺失**退
 exl-id: f08039b2-7f8b-481e-8ec8-1659e227744f
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: 9cd9720a73b8ecde3baf6a7a5b5732ad1330feee
+source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 移至Adobe Commerce前端，並將套件產品新增至&#x200B;**購物車**。
 1. 瀏覽至簽出。
-1. 輸入消費者資訊到結帳，然後按一下[下一步] **&#x200B;**。
+1. 輸入消費者資訊到結帳，然後按一下[下一步] ****。
 1. 選取&#x200B;**KP選項**&#x200B;並按一下&#x200B;**下訂單**。
 1. 移至&#x200B;**管理員** > **銷售** > **訂單**。
 1. 開啟訂單。
@@ -55,9 +55,6 @@ ht-degree: 0%
 
 ## 我們的支援知識庫中的相關閱讀：
 
-* [Adobe Commerce 2.4.0已知問題：匯出稅率無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-known-issue-export-tax-rates-does-not-work.md)
 * [Adobe Commerce 2.4.0已知問題： Braintree付款方法未出現在多地址結帳中](/help/troubleshooting/payments/magento-2-4-0-braintree-not-in-multiple-addresses-checkout.md)
 * [Adobe Commerce 2.4.0已知問題：在結帳期間為部分國家顯示選擇當地付款方式的錯誤訊息](/help/troubleshooting/payments/magento-2-4-0-checkout-error-selecting-local-payments.md)
 * [Adobe Commerce 2.4.0 B2B管理員無法將可設定的產品新增至報價](/help/troubleshooting/miscellaneous/magento-2-4-0-b2b-admin-can-t-add-configurable-product-to-quote.md)
-* [Adobe Commerce 2.4.0已知問題 — 在客戶的活動上重新整理無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-refresh-on-customer-activities-does-not-work.md)
-* [Adobe Commerce 2.4.0已知問題：「將選取專案新增至我的購物車」按鈕無法運作](/help/troubleshooting/miscellaneous/magento-2-4-0-add-selections-to-my-cart-does-not-work.md)
