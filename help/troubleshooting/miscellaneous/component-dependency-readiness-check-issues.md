@@ -49,7 +49,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文所述。
+請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文所述。
 
 ## 「元件相依性檢查」狀態永遠不變 {#trouble-depend-state}
 
