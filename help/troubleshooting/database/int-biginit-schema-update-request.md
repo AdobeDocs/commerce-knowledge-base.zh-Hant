@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >在實作本文中的方案之前（`INT`到`BIGINT`結構描述更新），商家必須一律檢查他們要變更的欄位與另一個資料表沒有任何外部索引鍵關係。 如果欄位確實與其他資料表有外部索引鍵關係，則會出現問題，因為相關欄位仍為`INT`。 他們可以使用以下查詢來驗證這一點。 此查詢列出資料庫中給定表格欄位可用的外部索引鍵關係：
 >
-```mysql
+>```mysql
 >SELECT 
 >     TABLE_NAME,COLUMN_NAME,CONSTRAINT_NAME,REFERENCED_TABLE_NAME,REFERENCED_COLUMN_NAME
 >FROM
@@ -50,7 +50,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 在終端機中執行下列命令，檢查主索引鍵的最大值： `SELECT MAX(value_id) FROM catalog_product_entity_int;`
 
-如果`max(value_id)`小於`max int(11) [ 4294967296 ]`，且`[ AUTO_INCREMENT ]`的值大於或等於`max int(11) [ 4294967296 ]`，則請考慮將[更新為資料表`[ AUTO_INCREMENT ]`中的下一個值。 ](#update-the-auto-increment-to-the-next-value-from-the-table)否則，請考慮[`INT`到`BIGINT`的結構描述更新](#int_to_bigint_schema_update)。
+如果`max(value_id)`小於`max int(11) [ 4294967296 ]`，且`[ AUTO_INCREMENT ]`的值大於或等於`max int(11) [ 4294967296 ]`，則請考慮將[更新為資料表`[ AUTO_INCREMENT ]`中的下一個值。 &#x200B;](#update-the-auto-increment-to-the-next-value-from-the-table)否則，請考慮[`INT`到`BIGINT`的結構描述更新](#int_to_bigint_schema_update)。
 
 ## 將`AUTO_INCREMENT`更新為資料表中的下一個值 {#update-the-auto-increment-to-the-next-value-from-the-table}
 
