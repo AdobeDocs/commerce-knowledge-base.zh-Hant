@@ -56,7 +56,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 >[!WARNING]
 >
->變更表格之前，請先執行資料庫備份。 另外，將網站置於[維護模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html#maintenance-mode)。 此外，也建議在變更後對資料庫表格執行[!DNL MySQL]最佳化命令（只針對已變更的表格）。
+>變更表格之前，請先執行資料庫備份。 另外，將網站置於[維護模式](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/setup/application-modes.html?lang=zh-Hant#maintenance-mode)。 此外，也建議在變更後對資料庫表格執行[!DNL MySQL]最佳化命令（只針對已變更的表格）。
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ ALTER TABLE catalog_product_entity_int AUTO_INCREMENT = 4283174131;
 
 ## 相關閱讀
 
-* Commerce安裝指南中的[一般 [!DNL MySQL] 指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html)
-* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html)
-* 在我們的支援知識庫中，[Adobe Commerce中雲端基礎結構最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce安裝指南中的[一般 [!DNL MySQL] 指南](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql.html?lang=zh-Hant)
+* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/database-best-practices-for-magento-commerce-cloud.html?lang=zh-Hant)
+* 在我們的支援知識庫中，[Adobe Commerce中雲端基礎結構最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/best-practices/database/most-common-database-issues-in-magento-commerce-cloud.html?lang=zh-Hant)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
