@@ -4,9 +4,9 @@ description: 本文針對「var/log/exception.log」中的資料庫連線錯誤�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 5ca7a4400e62db2419b32a31a4f6cf04f5a82e35
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-當[!DNL MySQL]使用者端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)伺服器收到大於[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)位元組的封包時，它會發出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)錯誤（可在`exception.log`中看到）並關閉連線。 如果通訊封包太大，對於某些使用者端，您也可能在查詢&#x200B;*錯誤期間收到*&#x200B;與[!DNL MySQL]伺服器的遺失連線。
+當[!DNL MySQL]使用者端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)伺服器收到大於[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)位元組的封包時，它會發出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)錯誤（可在`exception.log`中看到）並關閉連線。 如果通訊封包太大，對於某些使用者端，您也可能在查詢&#x200B;*錯誤期間收到[!DNL MySQL]與*&#x200B;伺服器的遺失連線。
 
 <u>要再現的步驟</u>
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 解決方案
 
 1. 識別個別資料列超過目前`max_allowed_packet`限制的查詢。 這類查詢需要重寫以降低傳回的資料量。 若要這麼做，可在`SELECT`陳述式中減少資料行數目，或是為資料表設計中的各個資料行選擇較小的資料型別。 如果您有New Relic帳戶，請使用[New Relic APM錯誤頁面](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors)和[New Relic APM資料庫頁面](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time)以及[New Relic記錄檔](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)來搜尋相關查詢。
-1. 為了快速修正，您可以在您[提交票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)時暫時要求增加`max_allowed_packet`大小，但這是由客戶工程團隊自行決定，因為值太大可能會導致網路阻塞，進而導致復寫失敗。
+1. 為了快速修正，您可以在您`max_allowed_packet`提交票證[時暫時要求增加](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)大小，但這是由客戶工程團隊自行決定，因為值太大可能會導致網路阻塞，進而導致復寫失敗。
 1. 最佳實務是，您應該在CLI中針對某些大型資料庫表格執行下列命令：
 
    ```
@@ -45,8 +45,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在開發人員檔案中[內部部署安裝概觀](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/overview)。
-* [資料庫上載遺失我們支援知識庫中與 [!DNL MySQL]](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/database/database-upload-loses-connection-to-mysql)的連線。
-* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hant)。
-* [解決支援知識庫中資料庫效能問題的最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hant)。
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在開發人員檔案中[內部部署安裝概觀](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
+* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
+* [解決支援知識庫中資料庫效能問題的最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
