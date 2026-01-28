@@ -4,9 +4,9 @@ description: 本文說明Adobe Commerce 2.3.6、2.4.0-p1和2.4.1的已知問題�
 exl-id: 427d895c-8c03-4ced-813a-eeaa67f1d1f0
 feature: Configuration
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 38b4d310cab9dccad142c244f6e07f8421a9894d
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,3 @@ ht-degree: 0%
 ## 解決方案
 
 解決方法：針對此特定情況使用Safari的替代瀏覽器。
-
-## 相關閱讀
-
-[Adobe Commerce 2.4.1已知問題 — 我們的支援知識庫中，無法使用不同的送貨/帳單地址來驗證頂點地址](/help/troubleshooting/miscellaneous/magento-2-4-1-vertex-address-validation-message-post-address-update.md)。
