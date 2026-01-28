@@ -1,29 +1,29 @@
 ---
-title: 我已為Sensei設定API金鑰，但只看到一個SaaS資料空間
-description: 針對Sensei的API金鑰設定完成後，您只看到一個SaaS資料空間的問題，本文提供解決方案。
+title: 我已為Adobe AI設定API金鑰，但只看到一個SaaS資料空間
+description: 針對Adobe AI的API金鑰設定完成後，您只看到一個SaaS資料空間的問題，本文提供解決方案。
 exl-id: e13041da-b122-4684-8287-42132931f47a
 feature: REST, Saas, Observability
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: 27b0836380c3040b26076b9cb81b9328cb2c9ff2
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---
 
-# 我已為Sensei設定API金鑰，但只看到一個SaaS資料空間
+# 我已為Adobe AI設定API金鑰，但只看到一個SaaS資料空間
 
-針對Sensei的API金鑰設定完成後，您只看到一個SaaS資料空間的問題，本文提供解決方案。
+針對Adobe AI的API金鑰設定完成後，您只看到一個SaaS資料空間的問題，本文提供解決方案。
 
 ## 受影響的產品和版本
 
 * Adobe Commerce （所有部署方法）：所有版本
 * Magento Open Source：所有版本
-* 擴充功能或技術(Fastly、New Relic等)、Adobe Sensei (產品Recommendations/即時搜尋)
+* 擴充功能或技術(Fastly、New Relic等)、Adobe AI （產品推薦/即時搜尋）
 
 ## 問題
 
-我已設定Sensei的API金鑰，但我只看到一個SaaS資料空間。
+我已設定Adobe AI的API金鑰，但我只看到一個SaaS資料空間。
 
 ## 原因
 
