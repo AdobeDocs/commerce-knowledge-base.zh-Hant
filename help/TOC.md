@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 6e47f604af3a498f4f9e10c0175875766ebd7e2a
+source-git-commit: 7f7e26f07e921577b1dd7686f5dace396888aa60
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2340'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -158,7 +158,6 @@ ht-degree: 0%
       * [PWA Studio：Webpack在開始編譯前擱置](/help/troubleshooting/miscellaneous/pwa-studio-webpack-hangs-before-beginning-compilation.md)
       * [解決不合法的位移錯誤](/help/troubleshooting/miscellaneous/resolve-an-illegal-offset-error.md)
       * [以程式設計方式建立時產品狀態不正確](/help/troubleshooting/miscellaneous/product-status-incorrect-when-created-programmatically.md)
-      * [雲端上的Adobe Commerce出現變數/匯出資料夾許可權問題](/help/troubleshooting/miscellaneous/issue-in-the0email-folder-adobe-commerce.md)
       * [已排程的內容分段更新未與過時的Fastly快取一起顯示](/help/troubleshooting/miscellaneous/scheduled-content-staging-updates-not-displayed-with-stale-fastly-cache.md)
       * [疑難排解cron](/help/troubleshooting/miscellaneous/troubleshoot-cron.md)
       * [匯出的產品.csv檔案不會出現](/help/troubleshooting/miscellaneous/exported-products-csv-file-does-not-appear.md)
@@ -302,7 +301,6 @@ ht-degree: 0%
    * [連結Magento.com與accounts.magento.cloud帳戶登入](/help/faq/general/linking-magento-com-and-accounts-magento-cloud-account-logins.md)
    * [Fastly Origin遮罩啟用常見問題集](/help/faq/general/fastly-origin-cloaking-enablement-faq.md)
    * [在我們的雲端專業架構上，將資料庫auto_increment增量變數設為&quot;3&quot; Adobe Commerce](/help/faq/general/database-auto-increment-increment-variable-set-to-3-magento-cloud-pro.md)
-   * [在Cloud Pro基礎結構上監控Adobe Commerce情況說明書](/help/faq/general/monitoring-whitepaper.md)
    * [存取New Relic服務](/help/faq/general/access-new-relic-services.md)
    * [Adobe Commerce的網頁內容可存取性](/help/faq/general/accessibility.md)
    * [客戶可以在Adobe Commerce中使用多少張優惠券？](/help/faq/general/how-many-coupons-can-a-customer-use-in-magento-2.md)
