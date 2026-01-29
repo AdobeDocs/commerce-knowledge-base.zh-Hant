@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 7f7e26f07e921577b1dd7686f5dace396888aa60
+source-git-commit: 49dd77f7cb185d771f5f1db823692ede72748634
 workflow-type: tm+mt
-source-wordcount: '2340'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -309,7 +309,6 @@ ht-degree: 0%
    * [Adobe Commerce GDPR資源](/help/faq/general/magento-gdpr-resources.md)
    * [基礎價格變更對共用型錄價格的影響](/help/faq/general/base-price-change-affect-on-shared-catalog-price.md)
    * [Adobe Commerce常見問題集的「管理面板」中的雙因素驗證](/help/faq/general/two-factor-authentication-in-admin-panel-on-magento-faq.md)
-   * [Adobe Commerce支援工具總覽](/help/faq/general/support-tools-overview.md)
    * [雲端上的備份（快照）：常見問題集](/help/faq/general/backup-snapshot-on-cloud-faq.md)
    * [2024年和2023年Adobe Commerce發行策略與生命週期政策的常見問題集](/help/faq/general/adobe-commerce-release-strategy-lifecycle-policy.md)
    * [我可以針對共用目錄中的價格排程內容測試更新嗎？](/help/faq/general/can-i-schedule-content-staging-updates-for-prices-in-a-shared-catalog.md)
