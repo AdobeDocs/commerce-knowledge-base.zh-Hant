@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 87955322d02a499cf97d297761c9c1f7ebbca3c3
+source-git-commit: 981d62e0bd2c61ae516777579757eaff505b8719
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2298'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -180,7 +180,6 @@ ht-degree: 0%
       * [Adobe Commerce Intelligence服務原則](/help/troubleshooting/miscellaneous/mbi-service-policies.md)
       * [從Git推播時放入生產環境的新環境](/help/troubleshooting/miscellaneous/when-pushed-from-git-environments-placed-under-production-on-magento-cloud.md)
       * [登入Commerce管理員時發生錯誤](/help/troubleshooting/miscellaneous/error-after-logging-in-to-the-magento-admin.md)
-      * [適用於Adobe Commerce的Magento Order Management系統(OMS)逾時](/help/troubleshooting/miscellaneous/mom-times-out-when-trying-to-connect-to-a-local-environment.md)
       * [Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面](/help/troubleshooting/miscellaneous/magento-2-4-1-empty-page-when-dotdigital-page-builder-form-saved.md)
       * [Adobe Commerce雲端：以已終止訊息終止重新索引](/help/troubleshooting/miscellaneous/adobe-commerce-reindex-terminated.md)
       * [Adobe Commerce狀態列缺少匯出的產品CSV檔案](/help/troubleshooting/miscellaneous/adobe-commerce-status-column-missing-exported-products-csv-file.md)
