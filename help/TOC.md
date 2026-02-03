@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 981d62e0bd2c61ae516777579757eaff505b8719
+source-git-commit: 5e179296b668aec143c309dd56a7561fe0ccbd09
 workflow-type: tm+mt
-source-wordcount: '2298'
+source-wordcount: '2291'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -113,7 +113,6 @@ ht-degree: 0%
       * [嘗試登入Commerce Admin時登入重新導向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
       * [解決加密金鑰的問題](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
       * [PWA Studio： Venia GraphQL查詢至Adobe Commerce會產生驗證錯誤](/help/troubleshooting/miscellaneous/pwa-studio-venia-graphql-queries-to-magento-produce-validation-errors.md)
-      * [安裝Inventory management後庫存狀態不正確](/help/troubleshooting/miscellaneous/stock-status-incorrect-after-magento-inventory-install.md)
       * [使用資料匯出功能來精確找出差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
       * [資料移轉工具疑難排解](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
       * [元件相依性整備檢查問題](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
