@@ -4,7 +4,7 @@ description: 本文針對'deployed_version.txt'無法寫入的錯誤，提供手
 exl-id: 88d8c126-349f-49cd-8f02-2a32e4994521
 feature: Deploy, Page Content, SCD
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # 執行`setup:static-content:deploy` deployed_version.txt問題
 
-本文提供手動執行`setup:static-content:deploy`命令時，`deployed_version.txt`無法寫入的錯誤修正。
+本文提供手動執行`deployed_version.txt`命令時，`setup:static-content:deploy`無法寫入的錯誤修正。
 
 ## 問題
 
-如果您遵循雲端基礎結構上的Adobe Commerce建議來使用[設定管理](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) （並將靜態資產產生移動至建置階段，以減少部署期間的網站停機時間），當您手動執行`setup:static-content:deploy`命令時，可能會遇到以下錯誤：
+如果您遵循雲端基礎結構上的Adobe Commerce建議來使用設定管理（並將靜態資產產生移動至建置階段，以減少部署期間的網站停機時間），則在手動執行`setup:static-content:deploy`命令時可能會遇到以下錯誤：
 
 ```
 {{cloud-project-id}}_stg@i:~$ php bin/magento setup:static-content:deploy

@@ -3,9 +3,9 @@ title: 復原沒有雲端快照的環境
 description: 本文說明兩種解決方案，可復原環境，而不會在雲端基礎結構上的Adobe Commerce上擁有環境的快照。
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: 5347e8714ef1374440f5d246100a0221e4b189fc
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 若要移除組態檔，請遵循下列步驟：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 移除設定檔：
    * 若為Adobe Commerce 2.4：
 
@@ -62,21 +62,18 @@ ht-degree: 0%
      rm app/etc/config.local.php
    ```
 
-檢閱以下內容，進一步瞭解組態管理：
+在開發人員檔案中檢閱商店設定的[組態管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)，以進一步瞭解組態管理。
 
-* [減少雲端基礎結構上Adobe Commerce的部署停機時間](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) （在我們的支援知識庫中）。
-* 在開發人員檔案中[商店設定的組態管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)。
-
-### 步驟1：使用setup：uninstall命令解除安裝Adobe Commerce軟體 {#setup-uninstall}
+### 步驟1：使用setup:uninstall命令解除安裝Adobe Commerce軟體 {#setup-uninstall}
 
 
 解除安裝Adobe Commerce軟體會捨棄並還原資料庫、移除部署設定，以及清除`var`下的目錄。
 
-檢閱我們的開發人員檔案中的[解除安裝Adobe Commerce軟體](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=zh-Hant)。
+檢閱我們的開發人員檔案中的[解除安裝Adobe Commerce軟體](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)。
 
 若要解除安裝Adobe Commerce軟體，請遵循下列步驟：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 執行`setup:uninstall`：
 
    ```php
@@ -143,11 +140,11 @@ ht-degree: 0%
 git commit --allow-empty -m "<message>" && git push <origin> <branch>
 ```
 
-## 如果安裝：解除安裝失敗，請手動重設資料庫
+## 如果安裝:uninstall失敗，請手動重設資料庫
 
 如果執行`setup:uninstall`命令失敗並出現錯誤，而且無法完成，我們可以使用以下步驟手動清除DB：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 連線至MySQL資料庫：
 
    ```sql
@@ -168,15 +165,15 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 1. 刪除下列組態檔： `config.php`、`config.php` `.bak`、`env.php`和`env.php.bak`。
 
-重設DB後，[將Git推送至環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hant#git-commands)，並將Adobe Commerce安裝至新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hant#environment-commands)。
+重設DB後，[將Git推送至環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#git-commands)，並將Adobe Commerce安裝至新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。
 
 ## 相關閱讀
 
 在我們的開發人員檔案中：
 
-* [還原雲端上的快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
-* [建立快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [快照和備份管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
-* [使用Cloud Console管理分支 — 檢視記錄](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=zh-Hant#view-logs)
-* [元件部署失敗](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=zh-Hant)
-* [管理您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hant#configure-the-project)
+* [還原雲端上的快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [建立快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
+* [快照和備份管理](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [使用Cloud Console管理分支 — 檢視記錄](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=en#view-logs)
+* [元件部署失敗](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html)
+* [管理您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html#configure-the-project)

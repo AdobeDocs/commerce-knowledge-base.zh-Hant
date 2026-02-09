@@ -3,9 +3,9 @@ title: 在雲端基礎結構上重設Adobe Commerce的環境
 description: 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 4327f464fb8eebf30a380e9e58afe55c3e613e52
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -40,17 +40,17 @@ ht-degree: 0%
 <u>變更當天</u>：
 
 1. 將網站放入[!UICONTROL Maintenance Mode]。
-深入瞭解使用手冊中的[啟用或停用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html?lang=zh-Hant)，以及升級手冊中用於升級的[[!UICONTROL Maintenance Mode]選項](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html?lang=zh-Hant)。
-1. 停用cron工作。 閱讀我們的[crons屬性指南](<https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)中有關停用cron工作的詳細資訊。
-1. 取得本機[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html?lang=zh-Hant)。
+深入瞭解使用手冊中的[啟用或停用[!UICONTROL Maintenance Mode]](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/maintenance-mode.html)，以及升級手冊中用於升級的[[!UICONTROL Maintenance Mode]選項](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/troubleshooting/maintenance-mode-options.html)。
+1. 停用cron工作。 閱讀我們的[crons屬性指南](<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property#disable-cron-jobs>)中有關停用cron工作的詳細資訊。
+1. 取得本機[[!UICONTROL Database Dump]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/create-database-dump-on-cloud.html)。
 
 <u>若需要[!UICONTROL Rollback]</u>：
 
 1. 如果應用程式（例如[!DNL MariaDB]）已升級為此計畫活動的一部分，請先將該應用程式重新安裝至先前的版本。
 1. [!UICONTROL Rollback]使用本機[!UICONTROL Database Dump]的資料庫，並將它匯回[!DNL MariaDB]。
-1. 透過[!DNL Git]將程式碼[!UICONTROL Rollback]至先前的工作版本。
+1. 透過[!UICONTROL Rollback]將程式碼[!DNL Git]至先前的工作版本。
 
-對於升級/規劃的活動[!UICONTROL rollbacks/restores]，不建議使用[!UICONTROL Snapshots]，因為擷取資料所需的時間比本機[!UICONTROL Database Dump]長，如上方&#x200B;**步驟2所述，若需要[!UICONTROL Rollback]**&#x200B;區段。
+對於升級/規劃的活動[!UICONTROL Snapshots]，不建議使用[!UICONTROL rollbacks/restores]，因為擷取資料所需的時間比本機[!UICONTROL Database Dump]長，如上方&#x200B;**步驟2所述，若需要[!UICONTROL Rollback]**&#x200B;區段。
 
 [!UICONTROL Snapshots]不是儲存在節點/伺服器上，而是儲存在不同的儲存區塊上，而且由於資料必須透過網路從區塊儲存傳輸至新磁碟，所以這個過程需要時間。 然後，會將新磁碟掛載到節點，準備擷取/匯入到連線到節點/伺服器的原始磁碟。
 
@@ -58,13 +58,13 @@ ht-degree: 0%
 
 ## 案例2：還原快照
 
-閱讀：在開發人員檔案中[在雲端基礎結構上還原Adobe Commerce上的快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
+閱讀：在開發人員檔案中[在雲端基礎結構上還原Adobe Commerce上的快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-snapshot)。
 
 >[!NOTE]
 >
 >在雲端基礎結構帳戶上存取Adobe Commerce之後以及套用重大變更之前，建立快照必須是我們的第一步。 此為最佳實務，強烈建議使用。
 
-閱讀：在開發人員檔案中建立[快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
+閱讀：在開發人員檔案中建立[快照](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-snapshot)。
 
 ## 案例3：沒有快照、建置穩定（可用SSH連線）
 
@@ -91,24 +91,21 @@ ht-degree: 0%
 
 若要移除組態檔，請遵循下列步驟：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 移除組態檔： `rm app/etc/config.php`
 
-深入瞭解組態管理：
+在開發人員檔案中，進一步瞭解商店設定的[組態管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html)。
 
-* [減少雲端基礎結構上Adobe Commerce的部署停機時間](/help/how-to/general/magento-cloud-reduce-deployment-downtime-with-configuration-management.md) （在我們的支援知識庫中）。
-* 在開發人員檔案中[商店設定的組態管理](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/store-settings.html?lang=zh-Hant)。
-
-### 步驟1：使用setup：uninstall命令解除安裝Adobe Commerce軟體
+### 步驟1：使用setup:uninstall命令解除安裝Adobe Commerce軟體
 
 
 解除安裝Adobe Commerce軟體會捨棄並還原資料庫、移除部署設定，以及清除`var`下的目錄。
 
-閱讀：在開發人員檔案中[解除安裝Adobe Commerce軟體](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html?lang=zh-Hant)。
+閱讀：在開發人員檔案中[解除安裝Adobe Commerce軟體](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/uninstall.html)。
 
 若要解除安裝Adobe Commerce軟體，請遵循下列步驟：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 執行`setup:uninstall` ： `bin/magento setup:uninstall`
 1. 確認解除安裝。
 
@@ -154,14 +151,14 @@ ht-degree: 0%
 git commit --allow-empty -m "<message>" && git push <origin> <branch>
 ```
 
-## 如果安裝：解除安裝失敗，請手動重設資料庫
+## 如果安裝:uninstall失敗，請手動重設資料庫
 
 如果執行`setup:uninstall`命令失敗並出現錯誤，而且無法完成，我們可以使用以下步驟手動清除DB：
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
-1. 連線到MySQL DB： `mysql -h database.internal` （對於Pro環境，請參閱： [設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html?lang=zh-Hant)）。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
+1. 連線到MySQL DB： `mysql -h database.internal` （對於Pro環境，請參閱： [設定MySQL服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/service/mysql.html)）。
 1. 卸除`main`資料庫： `drop database main;`
 1. 建立空的`main`資料庫： `create database main;`
 1. 刪除下列組態檔： `config.php`、`config.php.bak`、`env.php`、`env.php.bak`
 
-重設DB後，[進行 [!DNL git] 推送到環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html?lang=zh-Hant)，並將Adobe Commerce安裝到新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hant#environment-commands)。
+重設DB後，[進行 [!DNL git] 推送到環境以觸發重新部署](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/deployment/examples/example-using-cli.html)，並將Adobe Commerce安裝到新建立的DB。 或[執行重新部署命令](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html#environment-commands)。

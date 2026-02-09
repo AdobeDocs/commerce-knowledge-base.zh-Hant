@@ -4,9 +4,9 @@ description: 本文提供當產品未顯示在店面時的解決方案。
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -59,5 +59,5 @@ ht-degree: 0%
 
 ## 我們的支援知識庫中的相關閱讀
 
-* [記錄Pro架構的位置（目錄）](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
-* [記錄入門架構的位置（目錄）](/help/how-to/general/log-locations-directories-for-starter-plan.md)
+[記錄Pro架構的位置（目錄）](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
+
