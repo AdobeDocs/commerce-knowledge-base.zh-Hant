@@ -27,24 +27,24 @@ ht-degree: 0%
 
 1. 記錄檔位置位於雲端基礎結構上的[Adobe Commerce Pro規劃我們的支援知識庫中的架構記錄檔](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)。
 1. 根據您發現的錯誤，如果您想要啟用、停用或解除安裝自訂模組，這些文章會詳細說明這些動作：
-   * 在開發人員檔案中[啟用或停用模組](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/manage-modules)。
-   * 在開發人員檔案中[解除安裝模組](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)。
+   * 在開發人員檔案中[啟用或停用模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/manage-modules)。
+   * 在開發人員檔案中[解除安裝模組](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/uninstall-modules)。
 
 ### 雲端基礎結構上的Adobe Commerce，所有版本
 
-1. 記錄位置： [雲端基礎結構上的Adobe Commerce記錄](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/test/log-locations) （在開發人員檔案中）。
+1. 記錄位置： [雲端基礎結構上的Adobe Commerce記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/test/log-locations) （在開發人員檔案中）。
 1. 根據您發現的錯誤，如果您想要啟用、停用或解除安裝自訂模組，開發人員檔案中的這些文章會詳細說明這些動作：
-   * [安裝、管理和升級擴充功能](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure-store/extensions)。
-   * [元件部署失敗](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment)。
+   * [安裝、管理和升級擴充功能](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure-store/extensions)。
+   * [元件部署失敗](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment)。
 
 ## 相關閱讀
 
 在我們的開發人員檔案中：
 
 * [模組總覽](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
-* [安裝選擇性範例資料時發生錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
+* [安裝選擇性範例資料時發生錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [例外狀況處理](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
-* [安裝期間發生例外狀況](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
-* [執行模組管理員](https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
-* [模組組態檔](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/files/module-files)
-* [記憶體不足錯誤](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)
+* [安裝期間發生例外狀況](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)
+* [執行模組管理員](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/upgrade-guide/prepare/prerequisites)
+* [模組組態檔](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/files/module-files)
+* [記憶體不足錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/out-of-memory-error-during-install-or-upgrade)
