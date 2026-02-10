@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: ceea083458aef5f8d0fcabef66399046d0d2016b
+source-git-commit: 014b425a0db4b5824a1caf033318fe7fd74d9a92
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2226'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -217,7 +217,6 @@ ht-degree: 0%
    * [設定新 [!DNL domain]的檢查清單](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [從中繼或生產還原資料庫快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials：更新付款方式或取消訂閱](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
-   * [Adobe Commerce Intelligence訓練影片： SQL Report Builder](/help/how-to/general/mbi-training-video-sql-report-builder.md)
    * [僅提供第一次購買時的折扣（無折價券）](/help/how-to/general/provide-discount-for-first-purchase-only-no-coupons.md)
    * [復原沒有雲端快照的環境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [如何為Adobe Commerce新增國家/地區](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
