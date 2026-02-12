@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 888089e960017477364b3b3dae7e9cc5c69892ba
+source-git-commit: 87c6be20e766e88978f7a02960457cf715cf6911
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2177'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -220,7 +220,6 @@ ht-degree: 0%
    * [如何為Adobe Commerce新增國家/地區](/help/how-to/general/how-to-add-a-new-country-to-magento-2.md)
    * [在Commerce管理員中自訂設計設定](/help/how-to/general/customize-design-configuration-in-magento-admin.md)
    * [雲端基礎結構上的Adobe Commerce：CPU配置計算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-   * [使用REST API更新共用目錄價格](/help/how-to/general/update-shared-catalog-prices-using-rest-api.md)
    * [尋找大型MySQL表格](/help/how-to/general/find-large-mysql-tables.md)
    * [在雲端基礎結構環境的Adobe Commerce上使用CLI檢查磁碟空間](/help/how-to/general/check-disk-space-on-cloud-environment-using-cli.md)
    * [手動重設雲端基礎結構上的Adobe Commerce cron工作卡住](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
