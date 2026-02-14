@@ -103,4 +103,4 @@ Adobe Commerce支援知識庫提供Adobe Commerce支援團隊的疑難排解解�
 
 * Adobe信任中心（安全性更新和修補程式）： [https://www.adobe.com/trust/resources.html](https://www.adobe.com/trust/resources.html)
 * Adobe Commerce社群開發人員部落格（社群提供的做法、最佳實務和技術新聞）： [https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog](https://community.magento.com/t5/Magento-DevBlog/bg-p/devblog)
-* Adobe Commerce部落格（高階電子商務）：[https://business.adobe.com/blog/](https://business.adobe.com/blog/)
+* Adobe Commerce部落格（高階電子商務）：[https://business.adobe.com/tw/blog/](https://business.adobe.com/tw/blog/)
