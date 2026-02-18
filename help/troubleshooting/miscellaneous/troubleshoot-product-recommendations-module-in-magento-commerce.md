@@ -49,7 +49,7 @@ magento/product-recommendations
 
 >[!NOTE]
 >
->如果&#x200B;[**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) （在我們的使用手冊中）為&#x200B;*已啟用*，Adobe Commerce會在購物者同意前不會收集行為資料。 如果&#x200B;**[!UICONTROL Cookie Restriction Mode]**已&#x200B;*停用*，Adobe Commerce會依預設收集行為資料。
+>如果&#x200B;[**[!UICONTROL Cookie Restriction Mode]**](https://experienceleague.adobe.com/en/docs/commerce-admin/start/compliance/privacy/compliance-cookie-law) （在我們的使用手冊中）為&#x200B;*已啟用*，Adobe Commerce會在購物者同意前不會收集行為資料。 如果&#x200B;**[!UICONTROL Cookie Restriction Mode]**&#x200B;已&#x200B;*停用*，Adobe Commerce會依預設收集行為資料。
 
 ## 目錄[!DNL SaaS]匯出模組
 
