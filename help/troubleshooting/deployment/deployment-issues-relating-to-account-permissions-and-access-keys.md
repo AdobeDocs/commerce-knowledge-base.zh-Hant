@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 如何停用存取金鑰
 
-如果您沒有與舊金鑰相關聯的[Commerce Marketplace](https://marketplace.magento.com/)帳戶的存取權，[請聯絡Adobe Commerce支援](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以停用該金鑰。
+如果您沒有與舊金鑰相關聯的[Commerce Marketplace](https://marketplace.magento.com/)帳戶的存取權，[請聯絡Adobe Commerce支援](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以停用該金鑰。
 
 如果您擁有與舊金鑰相關聯的Marketplace帳戶的存取權，請採取以下步驟來停用金鑰：
 
@@ -64,4 +64,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [在開發人員檔案中取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+* [在開發人員檔案中取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。

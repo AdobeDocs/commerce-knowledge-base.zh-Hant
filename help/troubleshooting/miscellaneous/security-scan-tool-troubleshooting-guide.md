@@ -59,7 +59,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. **未知**：安全性掃描工具還沒有您網域的資料；請等候下一個同步處理週期。
 1. **失敗**：如果狀態顯示失敗，您必須修正問題（啟用2FA、變更管理員URL等），並等候下一個同步處理週期。
 
-如果對執行個體進行變更後24小時已經過去，且變更未反映在安全性掃描報告中，您可以[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。 提交票證時提供存放區URL。
+如果對執行個體進行變更後24小時已經過去，且變更未反映在安全性掃描報告中，您可以[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。 提交票證時提供存放區URL。
 
 ## BotNet可疑失敗
 
@@ -77,7 +77,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. 檢查新建立的SSH帳戶、檔案系統變更等。
 1. 執行安全性審查。
 1. 請檢視Adobe Commerce版本和升級，尤其是當它仍在執行已不支援的Magento 1時。
-1. 如果問題仍然存在，請[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)並提供商店URL。
+1. 如果問題仍然存在，請[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)並提供商店URL。
 
 ## 問題：危害性插入失敗
 
@@ -90,7 +90,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 1. 執行系統組態變更檢閱，尤其是在`HTML head`區段值中的自訂`Miscellaneous HTML`和`footer`。
 1. 執行程式碼和資料庫審查，以找出不熟悉的變更和插入的惡意程式碼跡象。
 
-如果上述方法都沒有幫助，請[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，並提供報表中的商店URL和錯誤訊息。
+如果上述方法都沒有幫助，請[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，並提供報表中的商店URL和錯誤訊息。
 
 ## 常見問題
 
@@ -104,7 +104,7 @@ if(req.http.user-agent ~ "(Chrome|Firefox)/[1-7][0-9]" && client.ip !~ useragent
 
 ### 提交支援票證時需要哪些資訊？
 
-請提供與[安全性掃描](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID所提交完全相同的網域名稱。 請注意，Adobe Commerce內部部署不需要Cloud Project_ID。
+請提供與[安全性掃描](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26357)、MAGEID和Cloud Project_ID所提交完全相同的網域名稱。 請注意，Adobe Commerce內部部署不需要Cloud Project_ID。
 
 ### 如果我從掃描工具掃描中移除存放區，會發生什麼事？
 

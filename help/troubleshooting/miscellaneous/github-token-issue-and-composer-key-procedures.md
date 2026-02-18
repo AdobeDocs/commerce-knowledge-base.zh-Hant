@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 這為該撰寫器套件版本新增了需求。 檢查鎖定檔案 — `composer/composer`版本必須為1.0.22或更高版本。
 1. 認可`composer.json`和`composer.lock`並推播部署。
 
-如果此方法無法運作，請[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+如果此方法無法運作，請[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ## 相關閱讀
 

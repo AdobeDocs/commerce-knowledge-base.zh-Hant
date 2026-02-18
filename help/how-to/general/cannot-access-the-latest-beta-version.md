@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ### 搶先使用的程式碼位置
 
-在測試版存取期間，只能透過[repo.magento.com](https://repo.magento.com/)上的Composer取得發行套件。 在此期間，發行套件無法在GitHub和Adobe Commerce入口網站上使用，我們將在正式發行日期將它們發佈到這些位置。 如需有關如何使用Composer的詳細資訊，請按一下[這裡](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+在測試版存取期間，只能透過[repo.magento.com](https://repo.magento.com/)上的Composer取得發行套件。 在此期間，發行套件無法在GitHub和Adobe Commerce入口網站上使用，我們將在正式發行日期將它們發佈到這些位置。 如需有關如何使用Composer的詳細資訊，請按一下[這裡](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)。
 
 ### 您需要使用的影像ID
 
@@ -47,7 +47,7 @@ ht-degree: 0%
    * 如果您看到使用中的合作夥伴授權資訊，則表示您的MageID是主要的。 如果END DATE值是未來的日期，則合作夥伴授權有效。
    * 如果您沒有看到使用中的合作夥伴授權資訊，則表示您的MageID僅具有共用存取權。 若要瞭解主要識別碼持有者，請前往&#x200B;**與我共用**&#x200B;注意此處指定的SHARENAME。 按一下&#x200B;**切換帳戶**，並選取您在SHARENAME中記下的值。 在歡迎頁面上，您會看到主要ID持有者的電子郵件。
 1. 如果您因任何原因無法在[magento.com](https://account.magento.com/customer/account/login)找到此資訊，請連絡您的合作夥伴經理。
-1. 如果以上都不管用，請[連絡支援人員](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
+1. 如果以上都不管用，請[連絡支援人員](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
 
 #### 開發人員沒有正確的金鑰存取權
 

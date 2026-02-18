@@ -34,7 +34,7 @@ ht-degree: 0%
 ## 解決方案
 
 1. 識別個別資料列超過目前`max_allowed_packet`限制的查詢。 這類查詢需要重寫以降低傳回的資料量。 若要這麼做，可在`SELECT`陳述式中減少資料行數目，或是為資料表設計中的各個資料行選擇較小的資料型別。 如果您有New Relic帳戶，請使用[New Relic APM錯誤頁面](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors)和[New Relic APM資料庫頁面](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time)以及[New Relic記錄檔](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)來搜尋相關查詢。
-1. 為了快速修正，您可以在您`max_allowed_packet`提交票證[時暫時要求增加](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)大小，但這是由客戶工程團隊自行決定，因為值太大可能會導致網路阻塞，進而導致復寫失敗。
+1. 為了快速修正，您可以在您`max_allowed_packet`提交票證[時暫時要求增加](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)大小，但這是由客戶工程團隊自行決定，因為值太大可能會導致網路阻塞，進而導致復寫失敗。
 1. 最佳實務是，您應該在CLI中針對某些大型資料庫表格執行下列命令：
 
    ```
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在開發人員檔案中[內部部署安裝概觀](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/overview)。
-* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)。
-* [解決支援知識庫中資料庫效能問題的最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)。
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在開發人員檔案中[內部部署安裝概觀](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/overview)。
+* 在我們的支援知識庫中[雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hant)。
+* [解決支援知識庫中資料庫效能問題的最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hant)。
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

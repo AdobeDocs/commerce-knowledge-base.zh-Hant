@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 請確定您具有正確的[!DNL Fastly]服務ID和API權杖，然後再次嘗試驗證。 如需詳細指示，請參閱我們的開發人員檔案中的[測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)。
+1. 請確定您具有正確的[!DNL Fastly]服務ID和API權杖，然後再次嘗試驗證。 如需詳細指示，請參閱我們的開發人員檔案中的[測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)。
 1. 如果認證驗證失敗，請執行下列curl命令以確認服務的狀態：
 
    ```curl
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 1. 如果上述命令傳回類似下列的錯誤： `{"msg":"Token $TOKEN expired at 2021-09-28T02:03:37Z"}`，請提交支援票證以請求新的API權杖。 收到新Token後，請更新環境中的設定。
 
-   若要瞭解如何提交支援票證，請參閱我們的支援知識庫中的[Adobe Commerce說明中心使用手冊>支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets)。
+   若要瞭解如何提交支援票證，請參閱我們的支援知識庫中的[Adobe Commerce說明中心使用手冊>支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#support-tickets)。
 
    >[!NOTE]
    >
@@ -50,6 +50,6 @@ ht-degree: 0%
 
 ## 開發人員檔案中的相關閱讀：
 
-* Adobe Commerce的[雲端> [!DNL Fastly] > [!DNL Fastly] 服務帳戶和認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
+* Adobe Commerce的[雲端> [!DNL Fastly] > [!DNL Fastly] 服務帳戶和認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly?lang=en#fastly-service-account-and-credentials)
 
-* 適用於Adobe Commerce的[雲端>設定 [!DNL Fastly] >測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)
+* 適用於Adobe Commerce的[雲端>設定 [!DNL Fastly] >測試 [!DNL Fastly] 認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration?lang=en#test-the-fastly-credentials)

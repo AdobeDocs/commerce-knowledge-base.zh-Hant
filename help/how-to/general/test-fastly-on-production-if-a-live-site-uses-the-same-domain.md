@@ -34,13 +34,13 @@ ht-degree: 0%
 
 請依照下列步驟，在雲端基礎結構專案上處理Adobe Commerce中的子網域：
 
-* [提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求將子網域新增到Fastly服務/Nginx設定(適用於雲端基礎結構上的Adobe Commerce Pro計畫架構)。
+* [提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求將子網域新增到Fastly服務/Nginx設定(適用於雲端基礎結構上的Adobe Commerce Pro計畫架構)。
 * 在您的一側設定對應的DNS設定。
 
 執行子網域設定的步驟後，您也必須採取這些步驟來驗證SSL憑證的生產網域：
 
 * 上傳DNS TXT記錄以進行生產網域的SSL驗證。
-* [提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求驗證SSL憑證的生產網域。
+* [提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求驗證SSL憑證的生產網域。
 
 使用子網域可讓您日後對商店執行「軟啟動」，因為此啟動只需要更新對應的DNS設定。
 
@@ -48,11 +48,11 @@ ht-degree: 0%
 
 在我們的支援知識庫中：
 
-* [在測試和生產環境中設定Fastly DNS設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
-* [在雲端上設定Fastly以開始計畫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html)
-* 在雲端基礎結構的Adobe Commerce上啟動[可能的封鎖程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
+* [在測試和生產環境中設定Fastly DNS設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=zh-Hant)
+* [在雲端上設定Fastly以開始計畫](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/set-up-fastly-for-starter-plan-on-cloud.html?lang=zh-Hant)
+* 在雲端基礎結構的Adobe Commerce上啟動[可能的封鎖程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=zh-Hant)
 
 在我們的開發人員檔案中：
 
-* [Fastly總覽](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
-* [上線檢查清單： Fastly的DNS設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)
+* [Fastly總覽](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant)
+* [上線檢查清單： Fastly的DNS設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hant)

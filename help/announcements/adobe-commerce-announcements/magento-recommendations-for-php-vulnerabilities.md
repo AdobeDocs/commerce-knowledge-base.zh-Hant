@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!WARNING]
 >
->在雲端基礎結構上的Adobe Commerce上，請注意，服務升級無法在未提前48個營業時間通知我們的基礎結構團隊的情況下推送至生產環境。 這是必要措施，因為我們需要確保我們有一位基礎建設支援工程師在所需時間範圍內更新您的設定，將生產環境的停機時間降到最低。 因此，在變更需要投入生產前48小時[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，詳細說明您需要的服務升級，並陳述您想要啟動升級程式的時間。
+>在雲端基礎結構上的Adobe Commerce上，請注意，服務升級無法在未提前48個營業時間通知我們的基礎結構團隊的情況下推送至生產環境。 這是必要措施，因為我們需要確保我們有一位基礎建設支援工程師在所需時間範圍內更新您的設定，將生產環境的停機時間降到最低。 因此，在變更需要投入生產前48小時[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，詳細說明您需要的服務升級，並陳述您想要啟動升級程式的時間。
 
 請閱讀下文，瞭解Adobe Commerce網站的影響和步驟：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 針對此更新重新部署雲端網站的其他附註：
 
 * 如果您的網站仍在使用PHP 7.0版，則必須在重新部署之前先升級到支援的PHP版本，以便利用這些安全性更新。
-* 若為2.1.x/2.2.x，有關升級PHP的更多資訊可在[這裡](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html)找到。
+* 若為2.1.x/2.2.x，有關升級PHP的更多資訊可在[這裡](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=zh-Hant)找到。
 
 \* *本文和訊息的先前版本顯示為9月19日，但我們的團隊已提前完成工作。*
 
