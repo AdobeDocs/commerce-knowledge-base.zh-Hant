@@ -4,9 +4,9 @@ description: 本文提供疑難排解步驟，以使用New Relic解決Adobe Comm
 exl-id: 0a22beb7-18b0-47eb-a6b8-63b7322b392c
 feature: Observability
 role: Developer
-source-git-commit: 27fed162416c619a08d757279a3405f1fa72e976
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 0%
 <li>向下捲動，按一下顯示所有交易表格。</li>
 <li>您可以依<a href="https://docs.newrelic.com/docs/apm/applications-menu/monitoring/transactions-page-find-specific-performance-problems#table_view">各種引數</a>來排序交易，並跳至引起懷疑的引數。</li>
 <li>複查那些具有低Apdex分數、異常高計數或高Avg時間或Dissat %的交易。</li>
-<li>按一下每個個別的交易。 如果無法解決問題，<a href="/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket">請提交支援票證。</a>
+<li>按一下每個個別的交易。 如果無法解決問題，<a href="https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket">請提交支援票證。</a>
 </li>
 <li>如果您需要進一步調查，請考慮檢查非Web交易。</li>
 </ol>
@@ -60,7 +60,7 @@ ht-degree: 0%
 </ol>
 </td>
 <td>
-<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
+<p>若要深入瞭解New Relic Apdex分數，請參閱<a href="https://docs.newrelic.com/docs/apm/new-relic-apm/apdex/apdex-measure-user-satisfaction">New Relic檔案&gt; APM Apdex &gt;測量使用者滿意度</a>。 您也可以在我們的支援知識庫中參考<a href="https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/support-tools/managed-alerts/managed-alerts-for-magento-commerce-apdex-warning-alert">Adobe Commerce的Managed警示： Apdex警告警示</a>。</p>
 </td>
 </tr>
 <tr>

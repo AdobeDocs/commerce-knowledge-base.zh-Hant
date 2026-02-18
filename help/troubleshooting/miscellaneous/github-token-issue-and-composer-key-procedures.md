@@ -4,7 +4,7 @@ description: 本文提供解決方案，解決因過時撰寫器金鑰而導致G
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 部署失敗，且部署記錄檔包含類似下列的資訊：
 
-*嚴重錯誤：未攔截到UnexpectedValueException：您的github.com的github oauth權杖包含無效字元： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php：129*&#x200B;中的「ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx」
+*嚴重錯誤：未攔截到UnexpectedValueException：您的github.com的github oauth權杖包含無效字元： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*&#x200B;中的「ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx」
 
 ## 原因
 
@@ -42,7 +42,7 @@ ht-degree: 0%
 1. 這為該撰寫器套件版本新增了需求。 檢查鎖定檔案 — `composer/composer`版本必須為1.0.22或更高版本。
 1. 認可`composer.json`和`composer.lock`並推播部署。
 
-如果此方法無法運作，請[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)。
+如果此方法無法運作，請[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 
 ## 相關閱讀
 

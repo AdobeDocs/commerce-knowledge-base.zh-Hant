@@ -1,23 +1,23 @@
 ---
-title: 針對PHP漏洞的Adobe Commerce Recommendations
+title: 針對PHP漏洞的Adobe Commerce建議
 description: 9月3日，多狀態資訊共用與分析中心(MS-ISAC)發佈了與多個漏洞相關的警示，這些漏洞可能允許執行任意程式碼，並建議所有使用PHP的網站儘快更新為最新的PHP版本([此處提供完整警示](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/))。
 exl-id: 0bc7caab-0b89-463a-a7f2-a7c92df9f84e
 feature: Compliance, Recommendations
 role: Admin
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
 
-# 針對PHP漏洞的Adobe Commerce Recommendations
+# 針對PHP漏洞的Adobe Commerce建議
 
 9月3日，多狀態資訊共用與分析中心(MS-ISAC)已發出與多個漏洞相關的警示，這些漏洞可能允許執行任意程式碼，並建議所有使用PHP的網站儘快更新為最新的PHP版本（[此處提供完整警示](https://www.cisecurity.org/advisory/multiple-vulnerabilities-in-php-could-allow-for-arbitrary-code-execution_2019-087/)）。
 
 >[!WARNING]
 >
->在雲端基礎結構上的Adobe Commerce上，請注意，服務升級無法在未提前48個營業時間通知我們的基礎結構團隊的情況下推送至生產環境。 這是必要措施，因為我們需要確保我們有一位基礎建設支援工程師在所需時間範圍內更新您的設定，將生產環境的停機時間降到最低。 因此，在變更需要投入生產前48小時[提交支援票證](/help/help-center-guide/help-center/magento-help-center-user-guide.md#submit-ticket)，詳細說明您需要的服務升級，並陳述您想要啟動升級程式的時間。
+>在雲端基礎結構上的Adobe Commerce上，請注意，服務升級無法在未提前48個營業時間通知我們的基礎結構團隊的情況下推送至生產環境。 這是必要措施，因為我們需要確保我們有一位基礎建設支援工程師在所需時間範圍內更新您的設定，將生產環境的停機時間降到最低。 因此，在變更需要投入生產前48小時[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，詳細說明您需要的服務升級，並陳述您想要啟動升級程式的時間。
 
 請閱讀下文，瞭解Adobe Commerce網站的影響和步驟：
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 針對此更新重新部署雲端網站的其他附註：
 
 * 如果您的網站仍在使用PHP 7.0版，則必須在重新部署之前先升級到支援的PHP版本，以便利用這些安全性更新。
-* 若為2.1.x/2.2.x，有關升級PHP的更多資訊可在[這裡](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html?lang=zh-Hant)找到。
+* 若為2.1.x/2.2.x，有關升級PHP的更多資訊可在[這裡](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/commerce-version.html)找到。
 
 \* *本文和訊息的先前版本顯示為9月19日，但我們的團隊已提前完成工作。*
 

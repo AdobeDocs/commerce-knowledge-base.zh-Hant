@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
+source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -207,8 +207,6 @@ ht-degree: 0%
    * Elasticsearch {#elasticsearch}
       * [搜尋引擎設為 [!DNL Elasticsearch7] 時，遞補為 [!DNL Opensearch]](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
       * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
-* 說明中心指南 {#help-center-guide}
-   * [適用於Adobe Commerce的Experience League支援使用指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * 操作說明 {#how-to}
    * [操作說明概述](/help/how-to/overview.md)
    * [設定新 [!DNL domain]的檢查清單](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
