@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9d80bfb801d55c25627e92e9777699c14056e2dd
+source-git-commit: 3e4d6106345c2a05108171fa6b8d9646f40efbc5
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -211,7 +211,6 @@ ht-degree: 0%
    * [適用於Adobe Commerce的Experience League支援使用指南](/help/help-center-guide/help-center/magento-help-center-user-guide.md)
 * 操作說明 {#how-to}
    * [操作說明概述](/help/how-to/overview.md)
-   * [如何取得及套用安全性修補程式](/help/how-to/general/how-to-obtain-and-apply-security-patches.md)
    * [設定新 [!DNL domain]的檢查清單](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [從中繼或生產還原資料庫快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
    * [Adobe Commerce Intelligence Essentials：更新付款方式或取消訂閱](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
@@ -220,7 +219,6 @@ ht-degree: 0%
    * [尋找大型MySQL表格](/help/how-to/general/find-large-mysql-tables.md)
    * [手動重設雲端基礎結構上的Adobe Commerce cron工作卡住](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [如果上線網站使用相同的網域，請在生產上進行Fastly測試](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
-   * [減少雲端部署停機時間的靜態內容部署選項](/help/how-to/general/static-content-deployment-options-to-reduce-deployment-downtime-on-cloud.md)
    * [識別並測量雲端基礎結構上Adobe Commerce的中斷](/help/how-to/general/how-to-identify-outages.md)
    * [變更雲端上New Relic的帳戶擁有者](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [變更雲端基礎結構上Adobe Commerce的管理員URL](/help/how-to/general/change-magento-admin-url-on-cloud.md)
