@@ -2,10 +2,10 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 688cdb1d0e76850aa953c602a78820fe6208ae41
+source-git-commit: 4d86db1115489e83e58d82464abed8fbd82fea25
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 0%
+source-wordcount: '2096'
+ht-degree: 1%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 0%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -220,9 +220,7 @@ ht-degree: 0%
    * [識別並測量雲端基礎結構上Adobe Commerce的中斷](/help/how-to/general/how-to-identify-outages.md)
    * [變更雲端上New Relic的帳戶擁有者](/help/how-to/general/change-account-owner-for-new-relic-on-cloud.md)
    * [變更雲端基礎結構上Adobe Commerce的管理員URL](/help/how-to/general/change-magento-admin-url-on-cloud.md)
-   * [設定NPM以便使用PWA Studio](/help/how-to/general/configure-npm-to-be-able-to-use-pwa-studio.md)
    * [在Adobe Commerce上重新排列雲端分支](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
-   * [如何尋找Adobe Commerce產品檔案](/help/how-to/general/how-to-find-magento-product-documentation.md)
    * [針對雲端基礎結構上Adobe Commerce的所有頁面，將HTTP重新導向至HTTPS （強制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [在雲端上的Adobe Commerce中為MySQL分配更多空間](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
