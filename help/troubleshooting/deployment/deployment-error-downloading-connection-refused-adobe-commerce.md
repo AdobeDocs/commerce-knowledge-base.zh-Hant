@@ -1,12 +1,12 @@
 ---
-title: 「部署錯誤： *下載時發生錯誤7 ...連線埠443：連線被拒*」
-description: '本文提供部署錯誤的解決方案： *"下載時發生錯誤7 ...連線埠443：連線被拒"*.'
+title: 部署錯誤： *下載時發生錯誤7 ...連線埠443：連線被拒*
+description: 本文提供部署錯誤的解決方案： *「下載時發生錯誤7 ...連線埠443：連線被拒」*。
 exl-id: 520cf50f-3682-441d-87a7-8e05301a2b0c
 feature: Cache, Deploy
 role: Developer
-source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
+source-git-commit: c005409900021a72d73c10a2df5f23be3f2bc2cf
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -59,6 +59,6 @@ magento-cloud project:clear-build-cache -p <project ID>
 
 ## 建議閱讀
 
-* [Adobe Commerce部署疑難排解員](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter.html)。
+* [Adobe Commerce部署疑難排解員](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640)。
 * 無法存取雲端存放庫上的[Adobe Commerce：部署](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)時發生403 Forbidden或404 Not Found錯誤。
 * [部署失敗並出現「建置專案時發生錯誤：建置掛接失敗，狀態碼為1」](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html)。
