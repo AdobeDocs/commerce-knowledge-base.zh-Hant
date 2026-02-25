@@ -59,6 +59,6 @@ magento-cloud project:clear-build-cache -p <project ID>
 
 ## 建議閱讀
 
-* [Adobe Commerce部署疑難排解員](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-29640)。
+* [Adobe Commerce部署疑難排解員](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-29640)。
 * 無法存取雲端存放庫上的[Adobe Commerce：部署](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-commerce-cloud-repo-could-not-be-accessed-403-forbidden-or-404-not-found-error-when-deploying.html)時發生403 Forbidden或404 Not Found錯誤。
 * [部署失敗並出現「建置專案時發生錯誤：建置掛接失敗，狀態碼為1」](/docs/commerce-knowledge-base/kb/troubleshooting/deployment/deployment-fails-with-error-building-project-the-build-hook-failed-with-status-code-1.html)。
