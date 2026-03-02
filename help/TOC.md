@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: caefdec695d553b2681e8677b200e687ea824d55
+source-git-commit: d1169e70188408f48207d9ca9b5a9ec3aaabeea0
 workflow-type: tm+mt
-source-wordcount: '2071'
+source-wordcount: '2043'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -180,7 +180,6 @@ ht-degree: 1%
       * [Adobe Commerce 2.4.4中缺少模組](/help/troubleshooting/miscellaneous/what-happened-modules-bundled-adobe-commerce.md)
       * [前團隊成員會收到Adobe Commerce雲端通知電子郵件](/help/troubleshooting/miscellaneous/former-teammembers-receive-cloud-notification-emails.md)
       * [新網域正在重新導向至預設網域](/help/troubleshooting/miscellaneous/new-domain-redirecting.md)
-      * [無法將使用者新增至Adobe Commerce雲端專案](/help/troubleshooting/miscellaneous/unable-add-user-adobe-commerce-cloud-project.md)
       * [Cron因設定錯誤或遺失而停止 [!DNL OpCache settings]](/help/troubleshooting/miscellaneous/crons-blocked-running-missing-opache-settings.md)
       * [[!DNL Admin]登入無法運作 — 超過允許的工作階段大小上限](/help/troubleshooting/miscellaneous/admin-login-not-working-allowed-session-max-size-exceed.md)
       * [[!DNL Google Tag Manager]已被「即時搜尋」Widget中斷](/help/troubleshooting/miscellaneous/google-tag-manager-broken-by-live-search-widget.md)
@@ -224,10 +223,8 @@ ht-degree: 1%
    * [變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [設定Fastly以用於雲端上的入門計畫](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
    * [Adobe Commerce Intelligence訓練影片： Report Builder同類群組](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
-   * [針對雲端上的Adobe Commerce將MariaDB 10.0升級至10.2](/help/how-to/general/upgrade-mariadb-10-0-to-10-2-for-magento-commerce-cloud.md)
    * [在雲端基礎結構上重設Adobe Commerce的環境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新驗證整合](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [在中繼和生產環境中設定Fastly DNS設定](/help/how-to/general/configure-fastly-dns-settings-on-staging-and-production-environments.md)
    * [記錄Pro計畫的位置（目錄）：整合、測試、生產](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [雲端上的Adobe Commerce：檢查是否需要為主機的執行個體設定大小](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [沙箱指令碼中的Bootstrap Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
