@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 37d987f5eab3d229f0f3230c7da5a7a79c910dc4
+source-git-commit: 3386035e973f1f839a9ff8792b4c2dbd55262139
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2028'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -221,7 +221,6 @@ ht-degree: 1%
    * [在雲端上的Adobe Commerce中為MySQL分配更多空間](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [設定Fastly以用於雲端上的入門計畫](/help/how-to/general/set-up-fastly-for-starter-plan-on-cloud.md)
-   * [Adobe Commerce Intelligence訓練影片： Report Builder同類群組](/help/how-to/general/mbi-training-video-cohort-report-builder.md)
    * [在雲端基礎結構上重設Adobe Commerce的環境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新驗證整合](/help/how-to/general/mbi-reauthenticating-integrations.md)
    * [記錄Pro計畫的位置（目錄）：整合、測試、生產](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
