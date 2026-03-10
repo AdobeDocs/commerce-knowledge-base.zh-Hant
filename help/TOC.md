@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9eb525793f5401cf23931b9cbff92ba92c1024c1
+source-git-commit: 90da89b659179c2789a9ac60b4834411300f332b
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1992'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -210,7 +210,6 @@ ht-degree: 1%
    * [Adobe Commerce Intelligence Essentials：更新付款方式或取消訂閱](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [復原沒有雲端快照的環境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [雲端基礎結構上的Adobe Commerce：CPU配置計算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
-   * [尋找大型MySQL表格](/help/how-to/general/find-large-mysql-tables.md)
    * [手動重設雲端基礎結構上的Adobe Commerce cron工作卡住](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [如果上線網站使用相同的網域，請在生產上進行Fastly測試](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [識別並測量雲端基礎結構上Adobe Commerce的中斷](/help/how-to/general/how-to-identify-outages.md)
