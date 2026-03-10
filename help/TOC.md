@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 8351ff2e2ac3db4488ad61dc38974e4ca79c6ce6
+source-git-commit: 9eb525793f5401cf23931b9cbff92ba92c1024c1
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -92,7 +92,6 @@ ht-degree: 1%
       * [Cron整備檢查問題](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
       * [SQL查詢：說明成本錯誤](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
       * [疑難排解雲端基礎結構上Adobe Commerce的New Relic](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
-      * [啟用快取以避免效能降低](/help/troubleshooting/miscellaneous/enable-magento-cache-to-avoid-performance-degradation.md)
       * [Adobe Commerce安全性掃描工具疑難排解指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
       * [檔案許可權整備檢查問題](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
       * [診斷Google電子商務收入差異](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
