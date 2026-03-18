@@ -1,10 +1,10 @@
 ---
-title: 「PWA Studio：瀏覽器顯示「無法代理至」錯誤」
+title: PWA Studio：瀏覽器顯示「無法代理至」錯誤
 description: 本主題討論當網頁瀏覽器顯示「*Cannot proxy to*」，而主控台顯示
 exl-id: de689633-34b8-4a25-bbd0-a58742c4d03c
 feature: Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 8be0c125bb0417e34e016656337506da88796630
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 0%
@@ -19,11 +19,11 @@ ht-degree: 0%
 ENOTFOUND
 ```
 
-使用Adobe Commerce專用的Progressive Web App (PWA) Studio時發生錯誤。
+使用適用於Adobe Commerce的Progressive Web App (PWA) Studio時發生錯誤。
 
 ## 受影響的產品和版本
 
-* Adobe Commerce的PWA Studio
+* 適用於Adobe Commerce的PWA Studio
 
 ## 問題
 
@@ -55,5 +55,5 @@ NodeJS無法解析Adobe Commerce存放區的主機名稱。
 
 ## 相關閱讀
 
-* Adobe Commerce檔案的[PWA Studio](https://magento.github.io/pwa-studio/)
-* [工具和程式庫](https://magento.github.io/pwa-studio/technologies/tools-libraries/)
+* 適用於Adobe Commerce的[PWA Studio檔案](https://developer.adobe.com/commerce/pwa-studio/)
+* [工具和程式庫](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/)

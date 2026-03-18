@@ -1,10 +1,10 @@
 ---
 title: PWA Studio：Webpack在開始編譯前擱置
-description: 本文討論當javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在開始在Progressive Web App Studio (PWA Studio)中編譯之前掛起很長時間時的建議解決方案。
+description: 本文討論當javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)在Progressive Web App Studio (PWA Studio)中開始編譯之前掛起很長時間時的建議解決方案。
 exl-id: 692eeafa-9289-4d66-9f2f-1e0fe36e681d
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+source-git-commit: 032fe4d32921c63570672b9c68e8c03e00bd1077
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # PWA Studio：Webpack在開始編譯前擱置
 
-本文討論當Javascript [Webpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)在開始在Progressive Web App Studio (PWA Studio)中編譯之前掛起很長一段時間時的建議解決方案。
+本文討論當Javascript [Webpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)在開始在Progressive Web App Studio (PWA Studio)中編譯之前掛起很長一段時間時的建議解決方案。
 
 ## 受影響的產品和版本
 
@@ -37,7 +37,7 @@ pwa-buildpack
 
 <u>要再現的步驟</u>：
 
-<u>必要條件</u>：使用本機Adobe Commerce執行個體設定PWA Studio店面（例如Venia）並執行
+<u>必要條件</u>：使用本機PWA Studio執行個體設定Adobe Commerce店面（例如Venia）並執行
 
 ```yaml
 build
@@ -93,7 +93,7 @@ openssl version
 ## 相關閱讀
 
 * [Javascript Webpack：概念](https://webpack.js.org/concepts/)
-* [Venia店面設定](https://magento.github.io/pwa-studio/venia-pwa-concept/setup/)
-* [PWA組建套件](https://magento.github.io/pwa-studio/pwa-buildpack/)
-* [buildpack命令列介面](https://magento.github.io/pwa-studio/pwa-buildpack/reference/buildpack-cli/)
-* [工具和程式庫： buildpack](https://magento.github.io/pwa-studio/technologies/tools-libraries/#webpack)
+* [Venia店面設定](https://developer.adobe.com/commerce/pwa-studio/guides/packages/venia/)
+* [PWA Buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/packages/buildpack/)
+* [buildpack命令列介面](https://developer.adobe.com/commerce/pwa-studio/api/buildpack/cli/)
+* [工具和程式庫： buildpack](https://developer.adobe.com/commerce/pwa-studio/guides/project/tools-libraries/#webpack)
