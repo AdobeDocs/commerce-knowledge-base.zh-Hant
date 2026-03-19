@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: 03cb143909535a2e615b87ac4bdff425fb667c97
 workflow-type: tm+mt
-source-wordcount: '1978'
+source-wordcount: '1945'
 ht-degree: 1%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -206,7 +206,6 @@ ht-degree: 1%
    * [操作說明概述](/help/how-to/overview.md)
    * [設定新 [!DNL domain]的檢查清單](/help/how-to/general/checklist-for-setting-up-a-new-domain.md)
    * [從中繼或生產還原資料庫快照](/help/how-to/general/restore-a-db-snapshot-from-staging-or-production.md)
-   * [Adobe Commerce Intelligence Essentials：更新付款方式或取消訂閱](/help/how-to/general/mbi-essentials-update-payment-method-or-cancel-subscription.md)
    * [復原沒有雲端快照的環境](/help/how-to/general/roll-back-environment-without-cloud-snapshot.md)
    * [雲端基礎結構上的Adobe Commerce：CPU配置計算](/help/how-to/general/magento-commerce-cloud-cpu-allocation-calculation.md)
    * [手動重設雲端基礎結構上的Adobe Commerce cron工作卡住](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
@@ -222,9 +221,7 @@ ht-degree: 1%
    * [雲端上的Adobe Commerce：檢查是否需要為主機的執行個體設定大小](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [沙箱指令碼中的Bootstrap Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
    * [Adobe Commerce Intelligence訓練影片：篩選器集](/help/how-to/general/mbi-training-video-filter-sets.md)
-   * [如何在Adobe Commerce中設定雲端基礎結構上的資料庫查詢](/help/how-to/general/how-to-profile-database-queries-on-cloud.md)
    * [在Fastly層級封鎖Adobe Commerce的惡意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
-   * [從GitHub認可建立Adobe Commerce Composer安裝的修補程式](/help/how-to/general/create-a-patch-for-a-magento-2-composer-installation-from-a-github-commit.md)
    * [變更雲端基礎結構上Adobe Commerce的管理員密碼](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [在Adobe Commerce上檢視叢集中的環境vCPU層](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)
    * [雲端基礎結構上的Adobe Commerce：檢查主機的CPU設定](/help/how-to/general/magento-commerce-cloud-check-hosts-cpu-configuration.md)
