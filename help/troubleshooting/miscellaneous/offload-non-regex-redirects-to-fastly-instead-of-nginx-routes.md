@@ -39,7 +39,7 @@ ht-degree: 0%
 
 1. 建立Edge字典。
 
-   首先，您可以使用Adobe Commerce[[!DNL VCL] 中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)代碼片段來定義邊緣字典。 這將包含重新導向。
+   首先，您可以使用Adobe Commerce[[!DNL VCL] 中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hant)代碼片段來定義邊緣字典。 這將包含重新導向。
 
    對此有一些警告：
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [[!DNL Fastly VCL] 參考](https://docs.fastly.com/vcl/)
-* 在開發人員檔案中[設定路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
-* 在開發人員檔案中[設定 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
+* 在開發人員檔案中[設定路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=zh-Hant)
+* 在開發人員檔案中[設定 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)
 * 開發人員檔案中的[[!DNL VCL] 規則運算式速查表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

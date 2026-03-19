@@ -25,7 +25,7 @@ cron已停止運作。
 
 ## 原因
 
-[!DNL OpCache]模組已更新至較新的版本，該版本引進了[!DNL GraphQL]外掛程式，在執行階段會重寫`env.php`，而且可能會覆寫cron設定，這可能造成問題。 需要更新[!DNL OpCache]設定以避免與`env.php file`有關的任何問題，並且已在[封裝的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=en#v2002.1.13)版本2002.1.13[!DNL ECE Tools]中解決。
+[!DNL OpCache]模組已更新至較新的版本，該版本引進了[!DNL GraphQL]外掛程式，在執行階段會重寫`env.php`，而且可能會覆寫cron設定，這可能造成問題。 需要更新[!DNL OpCache]設定以避免與`env.php file`有關的任何問題，並且已在[封裝的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=zh-Hant#v2002.1.13)版本2002.1.13[!DNL ECE Tools]中解決。
 
 ## 解決方案
 
@@ -56,6 +56,6 @@ bin/magento cron:run
 
 ## 相關閱讀
 
-* [Cron整備檢查問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html)
-* [Crons屬性](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)
-* [Cron工作卡在「執行中」狀態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)
+* [Cron整備檢查問題](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-readiness-check-issues.html?lang=zh-Hant)
+* [Crons屬性](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hant)
+* [Cron工作卡在「執行中」狀態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=zh-Hant)

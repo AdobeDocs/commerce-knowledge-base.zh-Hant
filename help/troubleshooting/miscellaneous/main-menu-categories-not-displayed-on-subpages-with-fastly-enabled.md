@@ -1,6 +1,6 @@
 ---
 title: 主選單（類別）未顯示在已啟用Fastly的子頁面上
-description: 本文修正啟用Fastly或Varnish時，主功能表(或我們使用手冊中的[類別頂端導覽功能表](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html))未顯示在子頁面的店面（例如，*blog/page*）的問題。
+description: 本文修正啟用Fastly或Varnish時，主功能表(或我們使用手冊中的[類別頂端導覽功能表](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hant))未顯示在子頁面的店面（例如，*blog/page*）的問題。
 exl-id: 7c54791d-8aa6-4f01-a28b-a7aecdb8ff74
 feature: Categories, Marketing Tools
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 主選單（類別）未顯示在已啟用Fastly的子頁面上
 
-本文修正啟用Fastly或Varnish時，主功能表（或使用者指南中的[類別頂端導覽功能表](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html)）未顯示在子頁面的店面（例如，*部落格/頁面*）的問題。
+本文修正啟用Fastly或Varnish時，主功能表（或使用者指南中的[類別頂端導覽功能表](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hant)）未顯示在子頁面的店面（例如，*部落格/頁面*）的問題。
 
 **原因：**&#x200B;頁面的`/`URL索引鍵&#x200B;*引數（搜尋引擎最佳化設定）中不允許的*&#x200B;字元（斜線）。 當錯誤地指定&#x200B;*URL路徑* （包含整個頁面位置）而非&#x200B;*URL索引鍵*&#x200B;時，通常會新增字元：例如&#x200B;*blog/page\_name*，而不僅僅是&#x200B;*page\_name*。
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## 問題
 
-啟用Fastly或其他清漆型服務時，子頁面的店面不會顯示主功能表（也稱為使用手冊中的[類別頂端導覽功能表](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html)）。
+啟用Fastly或其他清漆型服務時，子頁面的店面不會顯示主功能表（也稱為使用手冊中的[類別頂端導覽功能表](https://experienceleague.adobe.com/docs/commerce-admin/catalog/catalog/navigation/navigation-top.html?lang=zh-Hant)）。
 
 ## 原因
 
@@ -57,10 +57,10 @@ SEO設定的![URL金鑰引數](assets/seo_url_key.png)
 
 SEO的&#x200B;*URL索引鍵*&#x200B;引數：
 
-* [搜尋引擎最佳化](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html)
-* [正在新增頁面](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html)
+* [搜尋引擎最佳化](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/categories-search-engine-optimization.html?lang=zh-Hant)
+* [正在新增頁面](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-add.html?lang=zh-Hant)
 
 頁面階層：
 
-* [總覽](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html)
-* [正在新增節點](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html#add-a-hierarchy-node)
+* [總覽](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=zh-Hant)
+* [正在新增節點](https://experienceleague.adobe.com/docs/commerce-admin/content-design/elements/pages/page-hierarchy.html?lang=zh-Hant#add-a-hierarchy-node)

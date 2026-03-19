@@ -21,6 +21,6 @@ ht-degree: 0%
 * 如何將篩選器集套用至量度
 * 如何將篩選器集套用至計算的資料維度
 
-若要觀看影片，請前往Adobe Experience League中的[Commerce Intelligence — 篩選集](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html)。
+若要觀看影片，請前往Adobe Experience League中的[Commerce Intelligence — 篩選集](https://experienceleague.adobe.com/docs/commerce-learn/tutorials/business-intelligence/filter-sets.html?lang=zh-Hant)。
 
-**要關注嗎？**&#x200B;請檢視我們的[建立量度篩選集合教學課程](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html)以瞭解書面指示。
+**要關注嗎？**&#x200B;請檢視我們的[建立量度篩選集合教學課程](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/build/reports/ess-manage-data-filters.html?lang=zh-Hant)以瞭解書面指示。

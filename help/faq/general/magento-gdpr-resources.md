@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ## Adobe Commerce已準備好遵循GDPR
 
-所有Adobe Commerce GDPR資源的[官方首頁](https://business.adobe.com/privacy/general-data-protection-regulation.html)。
+所有Adobe Commerce GDPR資源的[官方首頁](https://business.adobe.com/tw/privacy/general-data-protection-regulation.html)。
 
 ## Adobe Commerce官方宣告
 
-* [一般資料保護規範GDPR](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html)
-* [GDPR法規遵循](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html)
+* [一般資料保護規範GDPR](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/privacy/gdpr.html?lang=zh-Hant)
+* [GDPR法規遵循](https://experienceleague.adobe.com/docs/commerce-admin/start/compliance/privacy/compliance-gdpr.html?lang=zh-Hant)
 
 ## 開發人員檔案中的GDPR合規性： Adobe Commerce 2.X和1.X
 
-* [客戶個人資訊參考（2.x版）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html)
-* [客戶個人資訊參考（1.x版）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html)
+* [客戶個人資訊參考（2.x版）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m2.html?lang=zh-Hant)
+* [客戶個人資訊參考（1.x版）](https://experienceleague.adobe.com/docs/commerce-operations/security-and-compliance/reference/data-m1.html?lang=zh-Hant)
 
 這些Adobe Commerce開發人員檔案主題提供資料流程圖和資料庫資訊，可協助商家和系統整合經銷商解決類似以下的使用案例：
 

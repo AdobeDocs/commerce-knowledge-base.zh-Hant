@@ -41,4 +41,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Commerce Intelligence使用手冊](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html)
+* [Commerce Intelligence使用手冊](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/guide-overview.html?lang=zh-Hant)

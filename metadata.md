@@ -7,7 +7,7 @@ type: Troubleshooting
 mini-toc-levels: 2
 git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.zh-Hant
 index: true
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
 source-git-commit: 563c7ab49adda6f126c8d7c0e9d12a20526f2bcd
 workflow-type: tm+mt
 source-wordcount: '70'

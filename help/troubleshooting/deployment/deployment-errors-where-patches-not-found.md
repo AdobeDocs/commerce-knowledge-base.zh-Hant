@@ -36,10 +36,10 @@ ht-degree: 0%
     - ACSD-XXXXX
    ```
 
-1. 在[品質修補程式發行說明](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html)中查詢修補程式ID，以檢查每個修補程式ID是否可套用至您要升級的新版Adobe Commerce。
+1. 在[品質修補程式發行說明](https://experienceleague.adobe.com/docs/commerce-operations/tools/quality-patches-tool/release-notes.html?lang=zh-Hant)中查詢修補程式ID，以檢查每個修補程式ID是否可套用至您要升級的新版Adobe Commerce。
 1. 如果修補程式不適用於您要升級的新版Adobe Commerce，請從`.magento.env.yaml`檔案中移除修補程式ID。
 1. 檢閱錯誤所指示的所有修補程式ID後，請推送變更並重新部署。
 
 ## 相關閱讀
 
-* 在雲端基礎結構指南的Commerce中[套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=en#apply-a-patch-in-a-local-environment)。
+* 在雲端基礎結構指南的Commerce中[套用修補程式](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/upgrade/apply-patches.html?lang=zh-Hant#apply-a-patch-in-a-local-environment)。
