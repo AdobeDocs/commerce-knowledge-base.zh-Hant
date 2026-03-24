@@ -1,10 +1,10 @@
 ---
 title: Adobe Commerce升級2.4.3、2.3.7-p1 PHP嚴重錯誤Hotfix
-description: 「本文修正了商家嘗試升級至Adobe Commerce （所有部署方法）或Magento Open Source2.4.3或2.3.7-p1時看到以下錯誤的問題：」
+description: 本文提供商戶嘗試升級至Adobe Commerce （所有部署方法）或Magento Open Source 2.4.3或2.3.7-p1時發現下列錯誤的修正：
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
@@ -13,16 +13,16 @@ ht-degree: 0%
 
 # Adobe Commerce升級2.4.3、2.3.7-p1 PHP嚴重錯誤Hotfix
 
-本文提供當商家嘗試升級至Adobe Commerce （所有部署方法）或Magento Open Source2.4.3或2.3.7-p1時，他們看到以下錯誤的修正：
+本文提供商戶嘗試升級至Adobe Commerce （所有部署方法）或Magento Open Source 2.4.3或2.3.7-p1時發現下列錯誤的修正：
 
-*PHP嚴重錯誤：未攔截錯誤：呼叫&lt;...>Magento\Framework\Filesystem\Directory\str_contains：74*&#x200B;中的未定義函式/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()
+*PHP嚴重錯誤：未攔截錯誤：呼叫&lt;...>Magento\Framework\Filesystem\Directory\str_contains:74*&#x200B;中的未定義函式/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()
 
 此問題將在2.4.4、2.4.3-p1和2.3.7-p2版本的範圍內修正。
 
 ## 受影響的版本和產品
 
 * 升級至2.3.7-p1或2.4.3時，使用Adobe Commerce （所有部署方法）。
-* 升級至2.3.7-p1或2.4.3時出現Magento Open Source。
+* 升級至2.3.7-p1或2.4.3時的Magento Open Source。
 
 ## 問題
 
@@ -42,7 +42,7 @@ php嚴重錯誤。
 
 ## 解決方案
 
-作為因應措施，您可以在CLI/終端機中執行下列命令：從Magento根資料夾執行`composer require symfony/polyfill-php80`或安裝撰寫器修補程式。
+暫行解決方法是在CLI/終端機中執行下列命令：從Magento根資料夾執行`composer require symfony/polyfill-php80`或安裝撰寫器修補程式。
 
 為了修正2.4.3的問題，Adobe Commerce （所有部署方法）和Magento Open Source商家應套用修補程式：
 
@@ -54,8 +54,8 @@ php嚴重錯誤。
 
 ## 如何套用修正程式
 
-如需指示，請參閱[如何套用Magento](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式。
+如需指示，請參閱[如何套用Magento](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
 
 ## 相關閱讀
 
-GitHub [Magento2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)中不支援的PHP 8命令
+GitHub [Magento 2.4.3 EE #33680](https://github.com/magento/magento2/issues/33680)中不支援的PHP 8命令

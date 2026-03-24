@@ -4,9 +4,9 @@ description: 本文提供嘗試更新company_structure表格時，由於遺失RE
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: 04e17dfdf143e233eb2767064c1328990c899eda
+source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >如需詳細資訊，請參閱Adobe Commerce知識庫中，B2B 1.5.2更新後Magento_Company模組升級中的[效能問題](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)。
 
-本文提供嘗試更新`company_structure`資料表時，由於遺失`REGEXP_LIKE`函式而發生SQL語法錯誤的Hotfix。
+本文提供嘗試更新`REGEXP_LIKE`資料表時，由於遺失`company_structure`函式而發生SQL語法錯誤的Hotfix。
 
 ## 受影響的產品和版本
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 問題
 
-嘗試更新`company_structure`資料表時，因為遺失`REGEXP_LIKE`函式，所以升級至B2B 1.5.2版會失敗，並出現SQL語法錯誤。
+嘗試更新`REGEXP_LIKE`資料表時，因為遺失`company_structure`函式，所以升級至B2B 1.5.2版會失敗，並出現SQL語法錯誤。
 
 <u>必要條件</u>：
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 將B2B升級至1.5.2版。
 
 <u>預期結果</u>：
@@ -64,7 +64,7 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
    composer update magento/module-b2b
    ```
 
-1. 套用附加的[ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip)修補程式。 請參考支援知識庫中的[如何套用Adobe](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)提供的撰寫器修補程式，以取得指示。
+1. 套用附加的[ACSD-65540_B2B_1.5.2.zip](assets/ACSD-65540_B2B_1.5.2.zip)修補程式。 請參考支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
 1. 執行`bin/magento setup:upgrade`。
 
 ### 使用雲端修補程式套用修補程式
@@ -78,4 +78,4 @@ Unable to apply data patch Magento\Company\Setup\Patch\Data\SetCompanyForStructu
    composer update magento/magento-cloud-patches
    ```
 
-1. 提交並推送變更以啟動重新部署。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。
+1. 提交並推送變更以啟動重新部署。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。

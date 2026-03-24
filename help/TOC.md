@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: e7dcfc91da247d881f4aae4725a5c130102799ee
+source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
 workflow-type: tm+mt
-source-wordcount: '1905'
+source-wordcount: '1896'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -229,7 +229,6 @@ ht-degree: 1%
    * [無法存取最新的Beta版本](/help/how-to/general/cannot-access-the-latest-beta-version.md)
    * [顯示Adobe Commerce錯誤報告編號而非Fastly 503錯誤](/help/how-to/general/display-magento-error-report-number-instead-of-fastly-503-error-on-cloud.md)
    * [將佈景主題重設為預設值](/help/how-to/general/reset-a-theme-to-defaults.md)
-   * [如何套用Adobe提供的撰寫器修補程式](/help/how-to/general/how-to-apply-a-composer-patch-provided-by-magento.md)
    * [檢查記錄以疑難排解Adobe Commerce上的500和503錯誤](/help/how-to/general/check-logs-to-troubleshoot-500-and-503-errors-on-magento.md)
    * [在雲端基礎結構上的Adobe Commerce上建立資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)
    * [雲端基礎結構上Adobe Commerce的第三方測試秘訣](/help/how-to/general/share-access-third-party.md)
