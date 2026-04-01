@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 651620add857a2cf33c59fd0cd7972cb7c1e0cc3
+source-git-commit: 1502ee72f4421f8fdec5c0e780f1f56423a2cce8
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1880'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
@@ -215,10 +215,8 @@ ht-degree: 1%
    * [變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
    * [在雲端基礎結構上重設Adobe Commerce的環境](/help/how-to/general/reset-environment-on-cloud.md)
    * [MBI：重新驗證整合](/help/how-to/general/mbi-reauthenticating-integrations.md)
-   * [記錄Pro計畫的位置（目錄）：整合、測試、生產](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
    * [雲端上的Adobe Commerce：檢查是否需要為主機的執行個體設定大小](/help/how-to/general/magento-commerce-cloud-check-if-upsize-for-hosts-instances-is-needed.md)
    * [沙箱指令碼中的Bootstrap Adobe Commerce 2](/help/how-to/general/bootstrap-magento-2-in-a-sandbox-script.md)
-   * [Adobe Commerce Intelligence訓練影片：篩選器集](/help/how-to/general/mbi-training-video-filter-sets.md)
    * [在Fastly層級封鎖Adobe Commerce的惡意流量](/help/how-to/general/block-malicious-traffic-for-magento-commerce-on-fastly-level.md)
    * [變更雲端基礎結構上Adobe Commerce的管理員密碼](/help/how-to/general/change-magento-admin-password-on-cloud.md)
    * [在Adobe Commerce上檢視叢集中的環境vCPU層](/help/how-to/general/check-vcpu-using-observation-for-adobe-commerce.md)

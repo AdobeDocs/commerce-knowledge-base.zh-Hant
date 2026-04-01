@@ -4,9 +4,9 @@ description: 本文提供當產品未顯示在店面時的解決方案。
 exl-id: 454eca5b-4722-46e0-8e5d-3daf8e3e675a
 feature: Cache, Categories, Console, Products, Storefront
 role: Admin
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,5 @@ ht-degree: 0%
 * 從主控台執行`bin/magento indexer:reindex`，並在&#x200B;**系統** > **工具** > **快取管理**&#x200B;底下清除Admin中的所有快取，或從主控台執行`bin/magento cache:clean`，以執行完整重新索引。
 * 如果上述方法沒有幫助，您可以檢查`var/log`目錄中的記錄以開始進一步調查。
 
-## 我們的支援知識庫中的相關閱讀
 
-[記錄Pro架構的位置（目錄）](/help/how-to/general/log-locations-directories-for-pro-plan-integration-staging-production.md)
 
