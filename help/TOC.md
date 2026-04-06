@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 1502ee72f4421f8fdec5c0e780f1f56423a2cce8
+source-git-commit: 308b24e3f88fd9e9aab1c3c2f572b627703bab4d
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,6 @@ ht-degree: 1%
    * [公告總覽](/help/announcements/overview.md)
    * Adobe Commerce公告 {#commerce-announcements}
       * [針對雲端基礎結構上的Adobe Commerce提出假期突增容量要求](/help/announcements/adobe-commerce-announcements/holiday-surge-capacity-requests-for-magento-commerce-cloud.md)
-      * [在Cloud 2.4.4上切換為Adobe Commerce的OpenSearch](/help/announcements/adobe-commerce-announcements/switching-to-opensearch-for-adobe-commerce-on-cloud-2-4-4.md)
       * [針對PHP漏洞的Adobe Commerce建議](/help/announcements/adobe-commerce-announcements/magento-recommendations-for-php-vulnerabilities.md)
       * [Adobe Commerce 2.4.0中將移除MySQL目錄搜尋引擎](/help/announcements/adobe-commerce-announcements/mysql-catalog-search-engine-will-be-removed-in-magento-2-4-0.md)
       * [Adobe Commerce支援擷取流程移轉至Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
@@ -80,7 +79,7 @@ ht-degree: 1%
       * [套用修補程式會中斷您的網站](/help/troubleshooting/site-down-or-unresponsive/applying-a-patch-takes-your-site-down.md)
       * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
    * 其他 {#miscellaneous}
-      * [&#x200B; [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
+      * [ [!DNL Commerce Data Exporter] 摘要中未更新的修正資料以及 [!DNL cron] 記錄檔中changelog資料表的錯誤不存在](/help/troubleshooting/miscellaneous/mdee-table-does-not-exist.md)
       * [錯誤 [!DNL opensearch] 搜尋引擎不存在。 遞補為 [!DNL livesearch]。](/help/troubleshooting/miscellaneous/error-opensearch-search-engine-doesnt-exist-falling-back-to-livesearch.md)
       * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
       * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
