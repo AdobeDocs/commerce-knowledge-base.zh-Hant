@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 8b9d7908c4c6b99424e40e24e4de08968b203d18
+source-git-commit: ef65f8cf94b86511661b9fe2605d14d3a3027e58
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1828'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,6 @@ ht-degree: 1%
    * [手動重設雲端基礎結構上的Adobe Commerce cron工作卡住](/help/how-to/general/reset-stuck-magento-cron-jobs-manually-on-cloud.md)
    * [如果上線網站使用相同的網域，請在生產上進行Fastly測試](/help/how-to/general/test-fastly-on-production-if-a-live-site-uses-the-same-domain.md)
    * [識別並測量雲端基礎結構上Adobe Commerce的中斷](/help/how-to/general/how-to-identify-outages.md)
-   * [在Adobe Commerce上重新排列雲端分支](/help/how-to/general/rearrange-cloud-branches-adobe-commerce.md)
    * [針對雲端基礎結構上Adobe Commerce的所有頁面，將HTTP重新導向至HTTPS （強制TLS）](/help/how-to/general/redirect-http-to-https-for-all-pages-on-cloud-force-tls.md)
    * [在雲端上的Adobe Commerce中為MySQL分配更多空間](/help/how-to/general/allocate-more-space-for-mysql-in-magento-commerce-cloud.md)
    * [變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)
