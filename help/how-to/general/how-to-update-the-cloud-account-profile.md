@@ -4,9 +4,9 @@ description: 本文提供在雲端帳戶上修改設定檔的步驟。
 feature: Cloud, Support
 role: Admin, Developer
 exl-id: b0c9dbcf-9745-494d-a662-80c5c6378068
-source-git-commit: dcb765b4fa78fd0883b5bafc310876801145c48f
+source-git-commit: bc8dbb1b43c3f2ad8f2ac214fd303f6a4d3e3412
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 0%
 1. [!UICONTROL Last name]
 1. [!UICONTROL Username]
 
+   >[!NOTE]
+   >
+   >更新雲端主控台使用者名稱會將專案URL從`https://console.adobecommerce.com <old-username>/<project-id>`變更為`https://console.adobecommerce.com/<new-username>/<project-id>`。
+   >
+   >更新後，使用舊版URL的連結不再運作。 團隊成員必須更新已儲存的書籤、內部檔案和任何自動化專案，才能使用新URL。
+   >
+   >此變更僅適用於新的Cloud Console URL。 舊版專案URL (`https://<region>.magento.cloud/projects/<project-id>`)未使用使用者名稱，且不會變更並繼續運作。
+
 若要修改這些欄位，請執行下列步驟：
 
 1. 在[Adobe帳戶登入](https://accounts.magento.cloud)存取您的帳戶。
@@ -30,7 +38,9 @@ ht-degree: 0%
 1. 選取&#x200B;*建立新密碼*&#x200B;核取方塊。
 1. 進行必要的變更，然後按一下&#x200B;*儲存*。
 
-**注意**： *您的密碼將不會變更。*
+>[!NOTE]
+>
+>您的密碼將不會變更。
 
 ## 哪些專案無法修改？
 
