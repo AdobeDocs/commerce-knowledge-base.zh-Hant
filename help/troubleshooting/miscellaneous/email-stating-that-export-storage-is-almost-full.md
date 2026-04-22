@@ -79,4 +79,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-[檢查我們的支援知識庫中的專用叢集](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。
+[檢查我們的支援知識庫中的專用叢集](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/manage-disk-space#check-dedicated-clusters)。
