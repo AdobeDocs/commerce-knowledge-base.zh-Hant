@@ -3,9 +3,9 @@ title: 雲端上的備份（快照）：常見問題集
 description: 本文介紹在雲端基礎結構上使用Adobe Commerce的快照來備份環境的要點。
 exl-id: 0077db74-3e7e-4c98-b215-7f6c089f49e8
 feature: Cloud, Iaas
-source-git-commit: 79e7cd40665b1857a9c68916679f07b1c046028a
+source-git-commit: 878a49fd1bbfa98dd506f0e81008ebe3bf7ecaca
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,14 @@ ht-degree: 0%
 * 架構計畫：入門、Pro Legacy、Pro
 
 ## 環境快照， Pro計畫
+
+### 準備升級
+
+如果您需要備份資料庫以準備升級，您有責任在繼續之前建立並驗證自己的備份。 災難回覆快照只適用於升級失敗時進行資料庫還原，而非取代升級準備備份。
+
+如果錯誤阻止您建立自己的備份，請[連絡支援人員](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)，並將備份錯誤詳細資料加入您的票證中。
+
+注意：災害復原快照是先前擷取的系統復原點，不是計畫升級時手動建立的備份，而且無法依需求產生。 如果要求快照，則會提供最新的可用復原點，因此在該點之後所做的任何變更都可能無法復原。
 
 ### 測試和生產環境
 
