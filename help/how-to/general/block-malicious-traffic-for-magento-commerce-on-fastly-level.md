@@ -3,9 +3,9 @@ title: 在Fastly層級封鎖Adobe Commerce的惡意流量
 description: 本文提供當您懷疑雲端基礎結構存放區上的Adobe Commerce遭到DDoS攻擊時，封鎖惡意流量可採取的步驟。
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 2555fbdb8a7a53d41c746df6414a7b0bad2de5d9
+source-git-commit: 8bde15deccc24c548c20cf5955cbebc45ac1d9a1
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
@@ -49,27 +49,27 @@ ht-degree: 0%
 
 1. 在Commerce管理員中，瀏覽至&#x200B;**商店** > **設定** > **進階** > **系統** > **全頁快取**。
 1. 然後&#x200B;**Fastly組態** > **自訂VCL程式碼片段**。
-1. 依照Fastly\_Cdn模組的[自訂VCL程式碼片段](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md)指南中的說明，建立新的自訂程式碼片段。 您可以使用以下程式碼範例作為範例。 此範例不允許`AhrefsBot`和`SemrushBot`使用者代理程式的流量。
+1. 依照Fastly\_Cdn模組的[自訂VCL程式碼片段](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md)指南中的說明，建立新的自訂程式碼片段。 您可以使用以下程式碼範例作為範例。 此範例不允許`AhrefsBot`使用者代理程式的流量。
 
 ```php
 name: block_bad_useragents
   type: recv
   priority: 5
   VCL:
-  if ( req.http.User-Agent ~ "(AhrefsBot|SemrushBot)" ) {
+  if ( req.http.User-Agent ~ "(AhrefsBot)" ) {
       error 405 "Not allowed";
   }
 ```
 
 ## 速率限制（實驗性Fastly功能）
 
-雲端基礎結構上的Adobe Commerce實驗性Fastly功能可讓您指定特定路徑和編目程式的速率限制。 如需詳細資訊，請參考[Fastly模組檔案](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md)。
+在雲端基礎結構上有Adobe Commerce的實驗Fastly功能，可讓您指定特定路徑和爬蟲的速率限制。 如需詳細資訊，請參考[Fastly模組檔案](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/RATE-LIMITING.md)。
 
 功能必須先在測試環境中經過全面測試，才能用於生產環境，因為這樣可能會封鎖合法的流量。
 
 ## 建議：請考慮更新robots.txt
 
-更新您的`robots.txt`檔案有助於防止某些搜尋引擎、編目程式和機器人編目特定頁面。 例如，搜尋結果頁面、結帳、客戶資訊等頁面不應進行編目。 避免機器人編目這些頁面，有助於減少這些機器人產生的請求數量。
+更新您的`robots.txt`檔案有助於防止某些搜尋引擎、爬蟲和機器人抓取某些頁面。 不應抓取的頁面範例為搜尋結果頁面、結帳、客戶資訊等。 避免自動機制抓取這些頁面，有助於減少這些自動機制產生的請求數量。
 
 使用`robots.txt`時，有兩個重要的考量事項：
 
