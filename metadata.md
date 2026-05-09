@@ -1,18 +1,19 @@
 ---
 cloud: Experience Cloud
 solution: Commerce
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
 feature-set: Commerce
 landing-page-name: commerce
 landing-page-breadcrumb-title: Commerce
 product: magento
 type: Troubleshooting
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.zh-Hant
+git-repo: https://github.com/AdobeDocs/commerce-knowledge-base.en
 index: true
-badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
-source-git-commit: 6eee53edaf3c4a69cd6bddd8a095302d8e457d96
+badgePaas: label="僅限PaaS" type="Informative" url="https://experienceleague.adobe.com/en/docs/commerce/user-guides/product-solutions" tooltip="僅適用於雲端專案（Adobe管理的PaaS基礎結構）和內部部署專案的Adobe Commerce 。"
+source-git-commit: 1fb532972ed3c732572f2f7f12d31f79bd86a4de
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: 97
 ht-degree: 0%
 
 ---
