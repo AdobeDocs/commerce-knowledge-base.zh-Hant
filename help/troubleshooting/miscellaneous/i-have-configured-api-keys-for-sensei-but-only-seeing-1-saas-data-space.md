@@ -57,4 +57,4 @@ ht-degree: 0%
 
 ## 重新關聯的閱讀
 
-[SaaS資料空間布建](https://experienceleague.adobe.com/en/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
+[SaaS資料空間布建](https://experienceleague.adobe.com/zh-hant/docs/commerce/user-guides/integration-services/saas?lang=en#saas-data-space-provisioning)
