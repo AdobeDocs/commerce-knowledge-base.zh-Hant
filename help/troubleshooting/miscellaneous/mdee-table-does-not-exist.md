@@ -4,9 +4,9 @@ description: 本文提供解決方案，解決在 [!DNL Commerce Data Exporter m
 feature: Data Import/Export, Saas, Logs
 role: Developer
 exl-id: 50f2223b-bfcf-4c3c-b0f1-dbcc4365edc2
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-在自訂延伸中，編輯[!DNL Mview]組態檔(```./etc/mview.xml```)以將`catalog_data_exporter_products`資料表名稱變更為&#x200B;*`cde_products_feed`*。
+在自訂延伸中，編輯[!DNL Mview]組態檔(`./etc/mview.xml`)以將`catalog_data_exporter_products`資料表名稱變更為&#x200B;*`cde_products_feed`*。
 
 下列範例顯示指定[!DNL Mview]訂閱所追蹤之表格的程式碼：
 

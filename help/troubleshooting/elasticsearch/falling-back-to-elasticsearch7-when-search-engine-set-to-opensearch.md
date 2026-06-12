@@ -4,9 +4,9 @@ description: 本文提供當Adobe Commerce中的*回落至 [!DNL Elasticsearch7]
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: d17af0f8f92726aa5a6914fc9e1ff13268256d04
+source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 您將&#x200B;**搜尋引擎**&#x200B;設為&#x200B;**[!DNL OpenSearch]**，但在`var/log/support_report.log`檔案中看到此型別的錯誤：
 
-```[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []```
+`[2024-04-04T00:27:41.212916+00:00] report.ERROR: opensearch search engine doesn't exist. Falling back to elasticsearch7 [] []`
 
 <u>要再現的步驟</u>：
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 即使您的版本不支援[!DNL OpenSearch]，應用程式也只會辨識/接受[!DNL Elasticsearch7]做為搜尋引擎。
 
 從Adobe Commerce 2.4.6版開始，應用程式已更新，可允許選取[!DNL OpenSearch]作為搜尋引擎。
-如果您在非雲端環境中移至「**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**」，將可以變更此選項，如下列&#x200B;**解決方案**&#x200B;所示。
+如果您在非雲端環境中移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**，您將可以變更此選項，如下列&#x200B;**解決方案**&#x200B;所示。
 （注意：在雲端環境中，此欄位無法變更，因為搜尋引擎已鎖定在`app/etc/env.php`檔案中。）
 
 ## 解決方案
