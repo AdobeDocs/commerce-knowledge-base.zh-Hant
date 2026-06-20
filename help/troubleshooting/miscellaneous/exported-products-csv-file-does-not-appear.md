@@ -91,7 +91,7 @@ Adobe Commerce應用程式元件2.3.2版中的匯出功能已知問題。
 
 >[!NOTE]
 >
->如果您找不到環境的`.magento.env.yaml`檔案，而且您認為該檔案已被刪除，則必須建立新的`.magento.env.yaml`。 一開始可能是空的，您可以視需要在其中新增資訊。 參考下列文章： [在開發人員檔案中設定部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)的環境變數[以及環境變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html)。
+>如果您找不到環境的`.magento.env.yaml`檔案，而且您認為該檔案已被刪除，則必須建立新的`.magento.env.yaml`。 一開始可能是空的，您可以視需要在其中新增資訊。 參考下列文章： [在開發人員檔案中設定部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)的環境變數[以及環境變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html?lang=zh-Hant)。
 
 >[!TIP]
 >
