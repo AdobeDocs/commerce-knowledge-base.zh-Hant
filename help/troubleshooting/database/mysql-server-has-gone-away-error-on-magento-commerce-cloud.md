@@ -4,9 +4,9 @@ description: 本文會討論您在'cron.log'檔案中收到「*SQL server has ga
 exl-id: 14cb9a6d-6d25-4044-8f52-d65648c03431
 feature: Cloud, Paas, Services, Variables
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+source-git-commit: 467d214d25b2154af0545054a026a588de883f58
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -41,12 +41,12 @@ ht-degree: 0%
 
 ## 解決方案
 
+1. 在CLI `php -i |grep default_socket_timeout`中執行，以檢查`default_socket_timeout`目前的逾時期間。
 1. 在CLI中執行以檢查`default_socket_timeout`目前的逾時期間： `php -i |grep default_socket_timeout`
 1. 根據逾時設定的增加，`default_socket_timeout`變數會變成`/etc/platform/<project_name>/php.ini`檔案中預期的最長執行時間。 建議您設定10至15分鐘之間。
 1. 將其提交到GIT並重新部署。
 
 ## 相關閱讀
 
-* [雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html?lang=zh-Hant)
-* [Adobe Commerce中雲端基礎結構最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html?lang=zh-Hant)
-
+* [雲端基礎結構上Adobe Commerce的資料庫最佳實務](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/planning/database-on-cloud.html)
+* [Adobe Commerce中雲端基礎結構最常見的資料庫問題](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/resolve-database-performance-issues.html)
