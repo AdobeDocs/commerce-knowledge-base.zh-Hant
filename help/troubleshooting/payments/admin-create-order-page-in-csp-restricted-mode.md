@@ -6,27 +6,27 @@ role: Developer
 exl-id: c1a0886a-df1f-418a-9e4d-562b28a0d8b3
 source-git-commit: 6d0c4ea9576440d66be3b8053a6e362b8ac0ebcb
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '1085'
 ht-degree: 0%
 
 ---
 
 # 疑難排解在[!UICONTROL CSP]限制模式下建立訂單頁面
 
-本文針對Adobe Commerce 2.4.7問題提供說明及修正，當&#x200B;**[!UICONTROL CSP restricted mode]**&#x200B;在Admin端建立訂單時，其狀態為&#x200B;*已啟用*，且「*拒絕執行內嵌指令碼，因為它違反了以下內容安全性原則指令：瀏覽器主控台記錄檔中的「script-src ...*」錯誤訊息。
+本文針對Adobe Commerce 2.4.7問題提供說明及修正，當&#x200B;**[!UICONTROL CSP restricted mode]**&#x200B;在Admin端建立訂單時，其狀態為&#x200B;*已啟用*，且「*拒絕執行內嵌指令碼，因為它違反了以下內容安全性原則指示： &quot;script-src ...*&quot; 瀏覽器主控台記錄檔中的錯誤訊息。
 
 ## 受影響的產品和版本
 
-雲端基礎結構、Adobe Commerce內部部署和Magento Open Source上的Adobe Commerce：
+雲端基礎結構上的Adobe Commerce、Adobe Commerce內部部署和Magento Open Source：
 
 * 2.4.7
-* 2.4.6畫素
-* 2.4.5畫素
-* 2.4.4畫素
+* 2.4.6-pX
+* 2.4.5-pX
+* 2.4.4-pX
 
 ## 問題 — 管理員&#x200B;**建立訂單**&#x200B;頁面損毀或無法載入
 
-管理員&#x200B;**建立訂單**&#x200B;頁面已損毀或無法載入，因為「*拒絕執行內嵌指令碼，因為它違反了下列內容安全性原則指令：瀏覽器主控台記錄檔中的「script-src ...*」錯誤訊息。
+管理員&#x200B;**建立訂單**&#x200B;頁面已損毀或無法載入，因為「*已拒絕執行內嵌指令碼，因為它違反了下列內容安全性原則指令： &quot;script-src ...*&quot; 瀏覽器主控台記錄檔中的錯誤訊息。
 
 <u>要再現的步驟</u>：
 
@@ -43,8 +43,7 @@ ht-degree: 0%
 
 ### 原因
 
-在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。
-對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
+在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
 
 ### 解決方案
 
@@ -55,8 +54,7 @@ ht-degree: 0%
 <u>若要修正此問題，您必須</u>：
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`類別的封鎖指令碼。
-1. 使用`CSPNonceProvider`類別允許執行指令碼。
-Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
+1. 使用`CSPNonceProvider`類別允許執行指令碼。Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函式以取得[!DNL nonce]字串。
 
@@ -95,7 +93,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[
 
 ## 問題 — 付款方式遺失或無法運作
 
-管理&#x200B;**訂單建立頁面**&#x200B;上的付款方法遺失或無法運作，且有&#39;&#39;*&#39;拒絕執行內嵌指令碼，因為它違反下列內容安全性原則指令：瀏覽器主控台記錄檔中的&quot;script-src ...*&quot;錯誤訊息。
+管理&#x200B;**訂單建立頁面**&#x200B;上的付款方法遺失或無法運作，且「*拒絕執行內嵌指令碼，因為它違反下列內容安全性原則指令： &quot;script-src ...*&quot; 瀏覽器主控台記錄檔中的錯誤訊息。
 
 <u>要再現的步驟</u>：
 
@@ -116,8 +114,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[
 
 ### 原因
 
-在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。
-對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
+在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
 
 ### 解決方案
 
@@ -128,8 +125,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[
 <u>若要修正此問題，您必須</u>：
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`類別的封鎖指令碼。
-1. 使用`CSPNonceProvider`類別允許執行指令碼。
-Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
+1. 使用`CSPNonceProvider`類別允許執行指令碼。Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函式以取得[!DNL nonce]字串。
 
@@ -168,7 +164,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[
 
 ## 問題 — 管理員無法下訂單
 
-管理員無法在管理員&#x200B;**建立訂單頁面**&#x200B;上提交訂單，因為「*已拒絕執行內嵌指令碼，因為它違反了以下內容安全性原則指令：瀏覽器主控台記錄檔中的「script-src ...*」錯誤訊息。
+管理員無法在管理員&#x200B;**建立訂單頁面**&#x200B;上提交訂單，因為「*已拒絕執行內嵌指令碼，因為它違反了下列內容安全性原則指令： &quot;script-src ...*&quot; 瀏覽器主控台記錄檔中的錯誤訊息。
 
 <u>要再現的步驟</u>：
 
@@ -190,8 +186,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[
 
 ### 原因
 
-在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。
-對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
+在Adobe Commerce和Magento Open Source版本2.4.7及更新版本中，**[!UICONTROL CSP]**&#x200B;預設會針對店面和管理區域中的付款頁面設定為`restrict-mode`，針對所有其他頁面則設定為`report-only`模式。對應&#x200B;**[!UICONTROL CSP]**&#x200B;標題在付款頁面的`script-src`指示詞內不包含`unsafe-inline`關鍵字。 此外，僅允許[!DNL whitelisted]個內嵌指令碼。
 
 ### 解決方案
 
@@ -202,8 +197,7 @@ Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[
 <u>若要修正此問題，您必須</u>：
 
 1. [[!DNL Whitelist]](https://developer.adobe.com/commerce/php/development/security/content-security-policies/#whitelist-an-inline-script-or-style)使用`SecureHtmlRenderer`類別的封鎖指令碼。
-1. 使用`CSPNonceProvider`類別允許執行指令碼。
-Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
+1. 使用`CSPNonceProvider`類別允許執行指令碼。Adobe Commerce和Magento Open Source 2.4.7及更新版本包含一個&#x200B;**[!UICONTROL Content Security Policy (CSP)]** [!DNL nonce]提供者，以便為每個請求產生唯一的[!DNL nonce]字串。 然後會將這[!DNL nonce]個字串附加至[!UICONTROL CSP]標頭。
 
    在`Magento\Csp\Helper\CspNonceProvider`中使用`generateNonce`函式以取得[!DNL nonce]字串。
 
