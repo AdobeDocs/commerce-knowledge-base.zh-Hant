@@ -65,7 +65,7 @@ Fastly通常尊重來自應用程式的回應標頭；但是，如果標頭都�
 
 若要檢查整體快取命中率：
 
-1. 在雲端基礎結構環境中[取得Adobe Commerce的Fastly認證](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration)。
+1. 在雲端基礎結構環境中[取得Adobe Commerce的Fastly認證](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration)。
 1. 執行下列Linux/macOS cURL命令，以檢查網站在過去30分鐘的點選率，取代並使用您的Fastly憑證的值：
 
    `curl -H "Fastly-Key: " https://api.fastly.com/stats/service//field/hit_ratio?by=minute | json_pp`
@@ -82,8 +82,8 @@ Fastly通常尊重來自應用程式的回應標頭；但是，如果標頭都�
 
 1. 使用每小時和每日點選率統計資料，識別點選率何時開始下降。 如果您在將變更部署至網站的同一時間左右，點選率突然下降，請考慮復原變更，直到網站載入下降。
 1. 在&#x200B;**商店** > **設定** >進階> **系統** > **整頁快取**&#x200B;底下，檢查Commerce管理員中的設定。 請確定公用內容&#x200B;**值的** TTL設定得不是太低。
-1. 請確定您已[上傳VCL程式碼片段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
-1. 如果您使用自訂VCL程式碼片段，請對其進行偵錯，以正確使用「通過」或「垂直號」動作：應小心使用，並且至少要與某種型別的條件搭配使用。 如需更多秘訣，請參閱我們的開發人員檔案中的[自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
+1. 請確定您已[上傳VCL程式碼片段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
+1. 如果您使用自訂VCL程式碼片段，請對其進行偵錯，以正確使用「通過」或「垂直號」動作：應小心使用，並且至少要與某種型別的條件搭配使用。 如需更多秘訣，請參閱我們的開發人員檔案中的[自訂Fastly VCL程式碼片段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
 
 ### 步驟3：找出造成伺服器負載過高的網站
 
