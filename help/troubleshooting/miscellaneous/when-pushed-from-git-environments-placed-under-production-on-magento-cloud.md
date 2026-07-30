@@ -6,7 +6,7 @@ feature: Cloud, Paas
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-只有當商家推送新建立的分支並啟動它後，才能設定父分支。 請參閱我們的開發人員檔案中的[雲端基礎結構上的Adobe Commerce > Bitbucket整合](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)。
+只有當商家推送新建立的分支並啟動它後，才能設定父分支。 請參閱我們的開發人員檔案中的[雲端基礎結構上的Adobe Commerce > Bitbucket整合](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/integrations/bitbucket#create-a-cloud-branch)。
 
 若要更新伺服器上現有分支的父系，請使用magento-cloud CLI中的`magento-cloud environment:info`命令。
 
@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 在開發人員檔案中，將[Adobe Commerce放在雲端基礎結構上> magento-cloud CLI](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。
+* 在開發人員檔案中，將[Adobe Commerce放在雲端基礎結構上> magento-cloud CLI](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-overview)。

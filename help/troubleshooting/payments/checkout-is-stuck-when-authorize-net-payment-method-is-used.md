@@ -6,7 +6,7 @@ feature: Cache, Checkout, Console, Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->核心Adobe Commerce Authorize.Net付款整合自2.3.4之後已淘汰，並在2.4.0中完全移除。請改用適合您需求的擴充功能，使用[Adobe Commerce [!DNL Marketplace]](https://commercemarketplace.adobe.com/)。
+>核心Adobe Commerce Authorize.Net付款整合自2.3.4之後已淘汰，並在2.4.0中完全移除。 請改用適合您需求的擴充功能，使用[Adobe Commerce [!DNL Marketplace]](https://commercemarketplace.adobe.com/)。
 
 ## 問題
 

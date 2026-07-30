@@ -6,7 +6,7 @@ feature: Checkout, Orders, Payments, Shipping/Delivery
 role: Developer
 source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。請改用marketplace的[正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html)。
+>核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。 請改用marketplace的[正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html)。
 
 ## 問題
 
@@ -45,4 +45,4 @@ ht-degree: 0%
 
 ## 原因
 
-目前，從2.2.4版開始，Cybersource是多重出貨結帳唯一支援的即時付款方法。可能會為每個付款方式逐一建立多重運送支援。 目前無法提供確切日期或發行編號。
+目前，從2.2.4版開始，Cybersource是多重出貨結帳唯一支援的即時付款方法。 可能會為每個付款方式逐一建立多重運送支援。 目前無法提供確切日期或發行編號。
