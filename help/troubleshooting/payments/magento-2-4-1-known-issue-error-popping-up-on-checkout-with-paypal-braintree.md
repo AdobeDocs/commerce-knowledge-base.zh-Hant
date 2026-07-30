@@ -1,19 +1,19 @@
 ---
-title: Adobe Commerce 2.4.1已知問題：使用PayPalBraintree結帳時突然出現錯誤
-description: 本文會說明已知的Adobe Commerce 2.4.1問題，如果使用PayPalBraintree付款並選取多個運送地址，則會在結帳的計費步驟上出現並消失錯誤訊息。
+title: Adobe Commerce 2.4.1已知問題：使用PayPal Braintree結帳時出現錯誤
+description: 本文會說明已知的Adobe Commerce 2.4.1問題，如果使用PayPal Braintree付款並選取多個地址出貨，則會在結帳的計費步驟上出現並消失錯誤訊息。
 exl-id: db3830b2-4885-4d89-85cd-bdcbd4b396e6
 feature: Checkout, Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.1已知問題：使用PayPalBraintree結帳時突然出現錯誤
+# Adobe Commerce 2.4.1已知問題：使用PayPal Braintree結帳時出現錯誤
 
-本文會說明已知的Adobe Commerce 2.4.1問題，如果使用PayPalBraintree付款並選取多個運送地址，則會在結帳的計費步驟上出現並消失錯誤訊息。
+本文會說明已知的Adobe Commerce 2.4.1問題，如果使用PayPal Braintree付款並選取多個地址出貨，則會在結帳的計費步驟上出現並消失錯誤訊息。
 
 ## 受影響的產品和版本
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 問題
 
-如果使用PayPalBraintree付款，並選取多個地址出貨，則在「結帳」的「帳單」步驟上會彈出並消失錯誤訊息。
+如果使用PayPal Braintree付款，並選取多個地址出貨，則在「結帳」的「帳單」步驟上會出現並消失錯誤訊息。
 
 <u>要再現的步驟：</u>
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 1. 在購物車頁面上，按一下&#x200B;**使用多個地址結帳**。
 1. 按一下&#x200B;**前往送貨資訊**&#x200B;並指定地址。
 1. 按一下&#x200B;**繼續記帳資訊**。
-1. 選取&#x200B;**PayPalBraintree**&#x200B;並按一下&#x200B;**PayPal**&#x200B;按鈕。
+1. 選取&#x200B;**PayPal Braintree**&#x200B;並按一下&#x200B;**PayPal**&#x200B;按鈕。
 1. 在快顯視窗中，按一下&#x200B;**同意並付款**。
 
 <u>預期結果：</u>

@@ -1,19 +1,19 @@
 ---
-title: 「Adobe Commerce 2.4.2：BraintreeVenmo付款無法運作」
-description: 本文會說明一個已知的Adobe Commerce 2.4.2問題，即結帳期間使用BraintreeVenmo時未產生訂單。 目前沒有可用的解決方案。
+title: Adobe Commerce 2.4.2： Braintree Venmo付款無法運作
+description: 本文會說明一個已知的Adobe Commerce 2.4.2問題，即結帳期間使用Braintree Venmo時未產生訂單。 目前沒有可用的解決方案。
 exl-id: 1832ab64-5024-444b-915e-473b34979a6e
 feature: Orders, Payments
 role: Developer
 source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce 2.4.2：Braintree Venmo付款無法運作
+# Adobe Commerce 2.4.2： Braintree Venmo付款無法運作
 
-本文會說明一個已知的Adobe Commerce 2.4.2問題，即結帳期間使用BraintreeVenmo時未產生訂單。 目前沒有可用的解決方案。
+本文會說明一個已知的Adobe Commerce 2.4.2問題，即結帳期間使用Braintree Venmo時未產生訂單。 目前沒有可用的解決方案。
 
 ## 受影響的產品和版本
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 <u>實際結果</u>：
 
-將客戶從Venmo應用程式重新導向回市集後，訂單不會在Adobe Commerce程式碼中建立，且不會出現錯誤訊息。 訂單會以Braintree建立。
+將客戶從Venmo應用程式重新導向回市集後，訂單不會在Adobe Commerce程式碼中建立，且不會出現錯誤訊息。 訂單會在Braintree中建立。
 
 <u>預期結果</u>：
 
