@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 694ab6fe606195c40b15d2752c09dd380d3dcedb
+source-git-commit: 804fdcd482abed2b61fb31e805ee9a24491ff58f
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1757'
 ht-degree: 1%
 
 ---
@@ -73,13 +73,11 @@ ht-degree: 1%
     * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
     * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [遺失或變更設定檔](/help/troubleshooting/miscellaneous/missing-or-altered-config-file.md)
     * [cURL錯誤60： SSL憑證已過期](/help/troubleshooting/miscellaneous/curl-error-60-ssl-certificate-expired.md)
     * [Adobe Commerce中的產品建議模組疑難排解](/help/troubleshooting/miscellaneous/troubleshoot-product-recommendations-module-in-magento-commerce.md)
     * [未知的模組Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Cron整備檢查問題](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [SQL查詢：說明成本錯誤](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
-    * [疑難排解雲端基礎結構上Adobe Commerce的New Relic](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
     * [Adobe Commerce安全性掃描工具疑難排解指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [檔案許可權整備檢查問題](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [診斷Google電子商務收入差異](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
