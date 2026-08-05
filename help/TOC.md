@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 694ab6fe606195c40b15d2752c09dd380d3dcedb
+source-git-commit: 29d98726945266e08a49af010690728c3b4c81c1
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1762'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,6 @@ ht-degree: 1%
     * [未知的模組Magento_BundleSampleData](/help/troubleshooting/miscellaneous/unknown-module-magento-bundlesampledata.md)
     * [Cron整備檢查問題](/help/troubleshooting/miscellaneous/cron-readiness-check-issues.md)
     * [SQL查詢：說明成本錯誤](/help/troubleshooting/miscellaneous/sql-queries-explain-cost-errors.md)
-    * [疑難排解雲端基礎結構上Adobe Commerce的New Relic](/help/troubleshooting/miscellaneous/troubleshooting-new-relic-on-magento-commerce-cloud.md)
     * [Adobe Commerce安全性掃描工具疑難排解指南](/help/troubleshooting/miscellaneous/security-scan-tool-troubleshooting-guide.md)
     * [檔案許可權整備檢查問題](/help/troubleshooting/miscellaneous/file-permissions-readiness-check-issues.md)
     * [診斷Google電子商務收入差異](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
@@ -187,7 +186,7 @@ ht-degree: 1%
   * 已知問題 {#known-issues-patches-attached}
     * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作說明 {#how-to}
   * [操作說明概述](/help/how-to/overview.md)
