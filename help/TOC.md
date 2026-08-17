@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9216789f967ee842ee41d669779d8037fd47897f
+source-git-commit: de7df03b7d60e417b0b419117dd1e658f02d1de5
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1716'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,6 @@ ht-degree: 1%
     * [一般自訂模組疑難排解說明](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [解決CSV檔案上傳的UTF-8錯誤](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
-    * [在Adobe Commerce上使用New Relic進行效能疑難排解](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)
     * [正在檢查來自CLI的DDoS攻擊](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [存取店面或Commerce管理員時出現空白頁面或重新導向回圈錯誤](/help/troubleshooting/miscellaneous/blank-page-or-redirect-loop-error-when-accessing-storefront-or-magento-admin.md)
     * [嘗試登入Commerce Admin時登入重新導向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
@@ -179,7 +178,7 @@ ht-degree: 1%
   * 已知問題 {#known-issues-patches-attached}
     * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作說明 {#how-to}
   * [操作說明概述](/help/how-to/overview.md)
