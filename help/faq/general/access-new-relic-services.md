@@ -1,10 +1,10 @@
 ---
 title: 存取New Relic服務
-description: 「本文說明具有足夠授權/訂閱授權的客戶如何存取特定New Relic服務：」
+description: 本文說明具有足夠授權/訂閱授權的客戶如何存取特定New Relic服務：
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 09777d70272bdb78a0bcf7566cc398a53c474f4c
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-若要瞭解New Relic服務，請參閱我們的開發人員檔案中的[調查效能](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您也可以在我們的支援知識庫中，檢閱[在雲端基礎結構上的Adobe Commerce上使用New Relic進行效能疑難排解](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)。
+若要瞭解New Relic服務，請參閱我們的開發人員檔案中的[調查效能](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您也可以在我們的支援知識庫中，檢閱[在雲端基礎結構上的Adobe Commerce上使用New Relic進行效能疑難排解](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-40830)。
