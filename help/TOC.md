@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 865bb40cf8e884289fc850c96d661b9aa0e621f7
+source-git-commit: 3873d836625af318fa62f66a8e5989805f59af2f
 workflow-type: tm+mt
-source-wordcount: '1719'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,6 @@ ht-degree: 1%
     * [診斷Google電子商務收入差異](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [我已為Adobe AI設定API金鑰，但只看到一個SaaS資料空間](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [檔案儲存量低，特定頁面載入緩慢](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
-    * [由於完全重新索引，效能緩慢](/help/troubleshooting/miscellaneous/slow-performance-due-to-full-reindexing.md)
     * [一般自訂模組疑難排解說明](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [解決CSV檔案上傳的UTF-8錯誤](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
@@ -178,7 +177,7 @@ ht-degree: 1%
   * 已知問題 {#known-issues-patches-attached}
     * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作說明 {#how-to}
   * [操作說明概述](/help/how-to/overview.md)

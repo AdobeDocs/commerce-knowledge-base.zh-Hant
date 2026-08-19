@@ -2,9 +2,9 @@
 title: 存取New Relic服務
 description: 本文說明具有足夠授權/訂閱授權的客戶如何存取特定New Relic服務：
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: eb7dfd0f3285fc210b942ce7c9c18ab92d8a7204
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 0%
 
 **雲端基礎結構上的Adobe Commerce入門計畫架構客戶，他們想要使用New Relic：**
 
-入門架構客戶在訂閱時不會獲得New Relic基礎架構服務。 但是，如果他們按照開發人員檔案中的步驟[連線到New Relic](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)新增授權，則可以使用New Relic應用程式效能監控(APM)。
+入門架構客戶在訂閱時不會獲得New Relic基礎架構服務。 但是，如果他們按照開發人員檔案中的步驟[連線到New Relic](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)新增授權，則可以使用New Relic應用程式效能監控(APM)。
 
 ## 相關閱讀
 
-若要瞭解New Relic服務，請參閱我們的開發人員檔案中的[調查效能](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。 您也可以在我們的支援知識庫中，檢閱[在雲端基礎結構上的Adobe Commerce上使用New Relic進行效能疑難排解](/help/troubleshooting/miscellaneous/troubleshoot-performance-using-new-relic-on-magento-commerce.md)。
+若要瞭解New Relic服務，請參閱我們的開發人員檔案中的[調查效能](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/monitor/new-relic/new-relic-service)。
