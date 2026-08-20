@@ -4,7 +4,7 @@ description: 本文討論ElasticSuite外掛程式產生的追蹤索引所導致�
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 如果已安裝ElasticSuite協力廠商外掛程式，您可能會遇到Elasticsearch記憶體問題，而Elasticsearch服務可能會因ElasticSuite追蹤索引而當機。 症狀包括：
 
-* Elasticsearch當機且沒有記憶體錯誤。
+* Elasticsearch當機，沒有記憶體錯誤。
 * 執行健康情況命令`curl -m1 localhost:9200/_cluster/health?pretty`或`curl -m1 elasticsearch.internal:9200/_cluster/health?pretty` （針對入門帳戶）時，有數百或數千個`unassigned_shards`
 * Elasticsearch或網站效能嚴重降低。
-* *「在Elasticsearch部署或記錄錯誤中，在您的叢集中找不到連線的節點」*。
-* *&quot;正在拒絕部署或記錄錯誤中[&lt;\*>_ tracking_log_event _&lt;\*>]&quot;*&#x200B;的對應更新。
+* *「在您的叢集中找不到連線的節點」*&#x200B;在Elasticsearch部署或記錄錯誤。
+* *&quot;正在拒絕部署或記錄錯誤中[&lt;\*>_tracking_ log_event_&lt;\*>]&quot;*的對應更新。
 
 ## 原因
 
@@ -68,5 +68,5 @@ ElasticSuite有建立追蹤索引的新功能。 這些追蹤索引會記錄哪�
 
 如果您想要在設定的時間頻率刪除索引，請參閱開發人員檔案中的下列文章以建立cron工作：
 
-* [設定自訂cron工作和cron群組（教學課程）](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [設定cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [設定自訂cron作業和cron群組（教學課程）](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

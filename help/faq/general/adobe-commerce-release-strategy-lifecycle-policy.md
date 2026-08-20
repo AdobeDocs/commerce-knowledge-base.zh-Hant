@@ -1,12 +1,12 @@
 ---
 title: 2024年和2023年Adobe Commerce發行策略與生命週期政策的常見問題集
-description: 為了滿足Adobe Commerce客戶的關鍵任務需求，我們將Adobe Commerce 2.4.4及更新版本的支援期限從&lbrace;0**date**版延長至&lbrace;3年。  [!DNL GA] 支援包括**安全性與品質修補程式**。 如需時間詳細資訊，請參閱我們新的[發行行事曆](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hant)。
+description: 為了滿足Adobe Commerce客戶的關鍵任務需求，我們將Adobe Commerce 2.4.4及更新版本的支援期限從{0**date**版延長至{3年。  [!DNL GA] 支援包括**安全性與品質修補程式**。 如需時間詳細資訊，請參閱我們新的[發行行事曆](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)。
 exl-id: f2bfd79c-9766-4a82-a65c-bf66b80bd34a
 feature: Compliance
 source-git-commit: 68587ca3e861ef326e006a7ab086d197f37ae9b3
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 0%
+source-wordcount: '1292'
+ht-degree: 1%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ### 根據這項新政策，2.4.4、2.4.5、2.4.6和2.4.7的客戶將於何時終止支援？
 
-Adobe Commerce 2.4.4+的客戶將收到自版本[!DNL GA]日期起3年的安全性與品質修正，如下表所示。 如需特定支援終止日期，請參閱[!DNL Experience League]的[發行版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html?lang=zh-Hant)頁面。
+Adobe Commerce 2.4.4+的客戶將收到自版本[!DNL GA]日期起3年的安全性與品質修正，如下表所示。 如需特定支援終止日期，請參閱[!DNL Experience League]的[發行版本](https://experienceleague.adobe.com/docs/commerce-operations/release/versions.html)頁面。
 
 ![圖表1](assets/MSKB-1978-1.jpg)
 
@@ -44,14 +44,14 @@ Adobe Commerce 2.4.4+的客戶將收到自版本[!DNL GA]日期起3年的安全�
 
 在2023年，客戶可以在正式發行前約兩週存取Adobe Commerce修補程式版本。
 
-從2024年開始，Adobe不再提供修補程式的「發行前」存取權。 相反地，對於2.4.7和更新版本，客戶可以使用[測試版本](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html?lang=zh-Hant)來存取用於測試和開發目的的一般發行前程式碼。 下列2023年版本仍會排程搶鮮版存取：
+從2024年開始，Adobe不再提供修補程式的「發行前」存取權。 相反地，對於2.4.7和更新版本，客戶可以使用[測試版本](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html)來存取用於測試和開發目的的一般發行前程式碼。 下列2023年版本仍會排程搶鮮版存取：
 
 * 2023年8月8日搶鮮版存取時間為2023年7月25日
 * 2023年10月10日搶鮮版存取時間為2023年9月26日
 
 ### Adobe Commerce發行排程發佈於何處？
 
-如需詳細資訊，請參閱[!DNL Experience League]上的[Adobe Commerce發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html?lang=zh-Hant)。
+如需詳細資訊，請參閱[!DNL Experience League]上的[Adobe Commerce發行排程](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html)。
 
 ### 排程中包含哪些不同型別的版本？
 
@@ -62,11 +62,11 @@ Adobe Commerce 2.4.4+的客戶將收到自版本[!DNL GA]日期起3年的安全�
 
 ### 客戶從哪裡取得高品質的修補程式？
 
-品質修補程式是分發個別品質問題修正程式的方法。 客戶可以聯絡Adobe支援或使用[[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)尋找高品質的修補程式。
+品質修補程式是分發個別品質問題修正程式的方法。 客戶可以聯絡Adobe支援或使用[[!DNL Quality Patch Tool]](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/quality-patches-tool-to-self-serve-quality-patches)尋找高品質的修補程式。
 
 ### 有哪些資源可協助進行一般規劃、預算編制和升級？
 
-可用的資源包括完整的2.4升級指南、技術升級工作室錄製及[!DNL Upgrade Compatibility Tool]。 您可以在[Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html?lang=zh-Hant)上找到完整的資源清單。
+可用的資源包括完整的2.4升級指南、技術升級工作室錄製及[!DNL Upgrade Compatibility Tool]。 您可以在[Experience League](https://experienceleague.adobe.com/docs/commerce-operations/upgrade-guide/resources/recommended-reading.html)上找到完整的資源清單。
 
 ### 身為Managed Services客戶，客戶工程如何協助我升級至2.4.4+?
 
@@ -191,7 +191,7 @@ Managed Services客戶可與我們的客戶工程團隊合作，以取得升級�
 
 在長期支援下，我們的客戶工程團隊將繼續提供相同品質和安全的修補程式，而不會降低任何範圍。 但是，如果基礎的協力廠商技術（例如[!DNL MariaDB]）終止支援，客戶將需要採取額外的措施來維持[!DNL PCI]的相容性。
 
-Adobe不支援已終止支援的協力廠商技術。 Adobe建議客戶與其[[!DNL PCI] 評量員](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/)合作，以確保法規遵循。 請參閱[Adobe Commerce系統需求](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/system-requirements)，以取得經過測試和支援的協力廠商技術的完整清單。
+Adobe不支援已終止支援的協力廠商技術。 Adobe建議客戶與其[[!DNL PCI] 評量員](https://www.pcisecuritystandards.org/assessors_and_solutions/qualified_security_assessors/)合作，以確保法規遵循。 請參閱[Adobe Commerce系統需求](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)，以取得經過測試和支援的協力廠商技術的完整清單。
 
 <table style="height: 444px; width: 632.2px;">
 <tbody>

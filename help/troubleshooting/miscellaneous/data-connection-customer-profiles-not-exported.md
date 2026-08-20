@@ -1,12 +1,12 @@
 ---
 title: 客戶設定檔未出現在Experience Platform中
-description: 本文提供使用 [!DNL Data Connection] 擴充功能時，如果您的客戶設定檔資料未出現在Experience Platform中的疑難排解步驟。
+description: 如果使用 [!DNL Data Connection] 擴充功能時，您的客戶設定檔資料未出現在Experience Platform中，本文提供疑難排解步驟。
 feature: Personalization, Integration, Configuration
 role: Admin, Developer
 exl-id: 4f12b032-0bee-47da-927a-8d4c2d8b8276
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 ## 問題
 
-您已安裝並設定[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/data-connection/overview)擴充功能，且已啟用將客戶設定檔資料傳送至Experience Platform，但該設定檔資料未出現在Experience Platform中。
+您已安裝並設定[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)擴充功能，且已啟用將客戶設定檔資料傳送至Experience Platform，但該設定檔資料未出現在Experience Platform中。
 
 ## 解決方案
 
@@ -31,11 +31,11 @@ ht-degree: 0%
 
 請確認您已安裝最新版的`experience-platform-connector`擴充功能。
 
-如需最新版本的相關資訊，請參閱[[!DNL Data Connection] 擴充功能發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/data-connection/release-notes)。
+如需最新版本的相關資訊，請參閱[[!DNL Data Connection] 擴充功能發行說明](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/release-notes)。
 
 >[!NOTE]
 >
->最新版本的[!DNL Data Connection]擴充功能包含`customers-connector`模組，負責傳送設定檔資料至Experience Platform。 `customers-connector`模組應為版本`1.2.0`或更新版本。
+>最新版的[!DNL Data Connection]擴充功能包含`customers-connector`模組，負責傳送設定檔資料至Experience Platform。 `customers-connector`模組應為版本`1.2.0`或更新版本。
 
 ### 確認已設定客戶聯結器模組
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
 #### 雲端基礎結構上的Adobe Commerce
 
-1. 啟用`.magento.env.yaml`中的`ENABLE_EVENTING`全域變數。 [深入瞭解](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global)。
+1. 啟用`.magento.env.yaml`中的`ENABLE_EVENTING`全域變數。 [了解更多](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-global)。
 
    ```bash
        stage:
@@ -116,14 +116,14 @@ select * from event_data_saas;
    "error_code": "403003" } } }
    ```
 
-1. 移至Admin中的&#x200B;*[!UICONTROL Commerce Services Connector]*&#x200B;頁面，並確認指定的[!UICONTROL sandbox/production]金鑰已正確設定。 此外，請確認Commerce帳戶[!UICONTROL sandbox/production]設定符合[!UICONTROL Commerce Services Connector]中顯示的設定。 瞭解[更多](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey)。
+1. 移至Admin中的&#x200B;*[!UICONTROL Commerce Services Connector]*&#x200B;頁面，並確認指定的[!UICONTROL sandbox/production]金鑰已正確設定。 此外，請確認Commerce帳戶[!UICONTROL sandbox/production]設定符合[!UICONTROL Commerce Services Connector]中顯示的設定。 瞭解[更多](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/user-guides/integration-services/saas#apikey)。
 
 ### 檢查服務ID是否在允許清單中，並向Adobe Commerce支援確認
 
 1. 確認[!UICONTROL Commerce Services Connector] `serviceId`出現在Adobe Commerce的允許清單中。
-1. 聯絡[Adobe Commerce支援](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)以確認允許清單狀態。
+1. 聯絡[Adobe Commerce支援](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide)以確認允許清單狀態。
 
 ## 相關閱讀
 
-* Commerce Services使用手冊中的[[!DNL Data Connection]](https://experienceleague.adobe.com/zh-hant/docs/commerce-merchant-services/data-connection/overview)擴充功能
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* Commerce Services使用手冊中的[[!DNL Data Connection]](https://experienceleague.adobe.com/en/docs/commerce-merchant-services/data-connection/overview)擴充功能
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

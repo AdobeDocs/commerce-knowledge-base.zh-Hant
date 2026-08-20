@@ -1,23 +1,23 @@
 ---
-title: Adobe Commerce的Magento Order Management系統(OMS)處理錯誤
-description: 當您在適用於Adobe Commerce的Magento Order Management系統(OMS)中執行「bin/magento oms:messages:process」的CLI中收到「getMode()」錯誤時，本文提供此問題的解決方案。
+title: 適用於Adobe Commerce的Magento Order Management系統(OMS)處理錯誤
+description: 當您在適用於Adobe Commerce的Magento訂單管理系統(OMS)中執行「bin/magento oms:messages:process」的CLI中收到「getMode()」錯誤時，本文提供此問題的解決方案。
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-# Adobe Commerce的Magento Order Management系統(OMS)處理錯誤
+# 適用於Adobe Commerce的Magento Order Management系統(OMS)處理錯誤
 
-本文提供當您在適用於Adobe Commerce的Magento Order Management系統(OMS)中執行`bin/magento oms:messages:process`的CLI中發生`getMode()`錯誤時，此問題的解決方案。
+本文提供當您在適用於Adobe Commerce的Magento訂單管理系統(OMS)中執行`bin/magento oms:messages:process`的CLI中收到`getMode()`錯誤時，此問題的解決方案。
 
 ## 受影響的產品和版本
 
-使用MCOM聯結器3.1.1和3.2.0版時，會發生此錯誤。這個問題會在MCOM Connector 3.3.0中解決。它不是MDC或MOM版本專屬的。
+使用MCOM聯結器3.1.1和3.2.0版時，會發生此錯誤。 這個問題會在MCOM Connector 3.3.0中解決。 它不是MDC或MOM版本專屬的。
 
 ## 問題
 
@@ -68,4 +68,4 @@ Stack trace:
 ## 相關閱讀
 
 * OMS檔案[OMS聯結器安裝教學課程](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
