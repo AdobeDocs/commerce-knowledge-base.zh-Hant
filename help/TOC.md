@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: a57fca068b8154dfa451b2ba76e297f57e7229eb
+source-git-commit: 82e5a4168fb4e79577bbccb1b2384943bf045708
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1679'
 ht-degree: 1%
 
 ---
@@ -82,9 +82,7 @@ ht-degree: 1%
     * [解決CSV檔案上傳的UTF-8錯誤](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [正在檢查來自CLI的DDoS攻擊](/help/troubleshooting/miscellaneous/checking-for-ddos-attack-from-cli.md)
     * [嘗試登入Commerce Admin時登入重新導向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
-    * [解決加密金鑰的問題](/help/troubleshooting/miscellaneous/resolve-issues-with-encryption-key.md)
     * [使用資料匯出功能來精確找出差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
-    * [資料移轉工具疑難排解](/help/troubleshooting/miscellaneous/data-migration-tool-troubleshooting.md)
     * [元件相依性整備檢查問題](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [無法在雲端基礎結構UI上存取Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
     * [類別變更未儲存](/help/troubleshooting/miscellaneous/changes-to-categories-are-not-being-saved.md)
