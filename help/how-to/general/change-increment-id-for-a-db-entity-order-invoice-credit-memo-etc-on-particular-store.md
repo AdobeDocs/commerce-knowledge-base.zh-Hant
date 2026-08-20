@@ -1,24 +1,24 @@
 ---
-title: 變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID
-description: 本文會討論如何使用'ALTER TABLE' SQL陳述式，變更特定Adobe Commerce存放區中Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID。
+title: 變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店
+description: 本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用'ALTER TABLE' SQL陳述式的特定Adobe Commerce存放區。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
 source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-# 變更特定商店中DB實體（訂單、發票、銷退折讓單等）的增量ID
+# 變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店
 
-本文討論如何使用`ALTER TABLE` SQL陳述式變更特定Adobe Commerce存放區中Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID。
+本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用`ALTER TABLE` SQL陳述式的特定Adobe Commerce存放區。
 
 >[!NOTE]
 >
 >本文僅說明如何變更訂單、發票、銷退折讓單等之遞增識別碼的起始數值。
 >
->但不涵蓋如何修改增量ID格式或新增自訂首碼/尾碼(例如，將10000001變更為ORDER-10000001、MYSTORE-10000001、2A10000001等)
+>但不涵蓋如何修改增量ID格式或新增自訂首碼/尾碼（例如，將10000001變更為ORDER-10000001、MYSTORE-10000001、2A10000001等）
 >
 >若要自訂格式，您需要自訂擴充功能或開發工作。
 

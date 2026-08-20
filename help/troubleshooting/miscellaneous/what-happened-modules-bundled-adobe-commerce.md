@@ -6,7 +6,7 @@ feature: Extensions
 role: Developer
 source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 ## 問題
 
-您無法安裝協力廠商模組，或是在升級至Adobe Commerce 2.4.4時發現部分核心隨附擴充功能不存在。這應該只有在安裝協力廠商模組時，需要從Adobe Commerce 2.4.4移除其中一個隨附的擴充功能，或是專案使用其中一個已移除模組的部分功能時，才會發生這種情況。
+您無法安裝協力廠商模組，或是在升級至Adobe Commerce 2.4.4時發現部分核心隨附擴充功能不存在。 這應該只有在安裝協力廠商模組時，需要從Adobe Commerce 2.4.4移除其中一個隨附的擴充功能，或是專案使用其中一個已移除模組的部分功能時，才會發生這種情況。
 
-* 案例1：專案已運用其中一項核心隨附模組的功能。 Adobe Commerce 2.4.4中未包含所使用的套件模組。成功升級至Adobe Commerce 2.4.4後，您發現缺少模組及其提供的功能。
+* 案例1：專案已運用其中一項核心隨附模組的功能。 Adobe Commerce 2.4.4中未包含所使用的套件模組。 成功升級至Adobe Commerce 2.4.4後，您發現缺少模組及其提供的功能。
 
 * 情節2：您目前專案中已安裝模組，其相依於其中一個已移除的套件模組。
 

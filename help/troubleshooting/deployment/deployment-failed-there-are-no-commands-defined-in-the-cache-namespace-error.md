@@ -1,12 +1,12 @@
 ---
-title: 「快取排清時部署失敗：『快取』名稱空間中未定義命令』錯誤」
+title: 快取排清時部署失敗：「快取名稱空間中未定義命令」錯誤
 description: 本文提供部署失敗並出現以下錯誤**快取名稱空間中未定義命令**時問題的解決方案。
 feature: Deploy
 role: Developer
 exl-id: ee2bddba-36f7-4aae-87a1-5dbeb80e654e
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 0%
 
    `bin/magento`
 
-   如果您收到類似以下的錯誤，指出找不到所要求的ID為X的網站，表示您還有設定        以及已刪除之商店的資料庫中。
+   如果您收到如下錯誤，指出找不到所請求的ID為X的網站，則資料庫中的設定會保留在網站以及已刪除的商店中。
 
    ```
    In WebsiteRepository.php line 110:
@@ -108,5 +108,5 @@ ht-degree: 0%
 ## 相關閱讀
 
 * [Adobe Commerce部署疑難排解員](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/deployment/magento-deployment-troubleshooter)
-* [如果雲端UI有「記錄片段」錯誤，則檢查部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
+* [如果Cloud UI有「記錄片段」錯誤，則檢查部署記錄](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/checking-deployment-log-if-the-cloud-ui-shows-log-snipped-error)
 * [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

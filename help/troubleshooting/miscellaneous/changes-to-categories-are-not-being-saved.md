@@ -6,7 +6,7 @@ feature: Categories
 role: Developer
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 ### 第二個資料庫專案（以及所有後續專案）如何出現在相同類別的DB中？
 
-受影響類別的第二個DB記錄（可能還有下一個記錄）表示已使用Magento\_Staging模組排程類別更新。 模組會為`catalog_category_entity`中的類別建立額外記錄，這是預期的應用程式行為；問題是這些記錄的`created_in`欄具有相同的值。
+受影響類別的第二個DB記錄（可能還有下一個記錄）表示有使用Magento\_Staging模組排程的類別更新。 模組會為`catalog_category_entity`中的類別建立額外記錄，這是預期的應用程式行為；問題是這些記錄的`created_in`欄具有相同的值。
 
 ### 相同的值如何顯示？
 

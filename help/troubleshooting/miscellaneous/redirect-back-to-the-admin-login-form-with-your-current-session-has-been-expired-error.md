@@ -1,12 +1,12 @@
 ---
-title: '重新導向回[!UICONTROL Commerce Admin]登入表單，並顯示[您目前的工作階段已過期]錯誤'
-description: '''本文提供[!UICONTROL Commerce Admin]登入問題的可能解決方案，其中您被重新導向回登入表單，並顯示下列錯誤訊息： *「您目前的工作階段已過期」*。 解決方案包括檢查伺服器時間設定問題，以及變更工作階段儲存設定。'
+title: 重新導向回[!UICONTROL Commerce Admin]登入表單，並顯示「您目前的工作階段已過期」錯誤
+description: 本文提供[!UICONTROL Commerce Admin]登入問題的可能解決方案，其中您會被重新導向回登入表單，並出現下列錯誤訊息： *「您目前的工作階段已過期」*。 解決方案包括檢查伺服器時間設定問題，以及變更工作階段儲存設定。
 exl-id: 29df2ed2-ff4a-4f1a-bdb7-1160416cda00
 feature: Admin Workspace
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---

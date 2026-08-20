@@ -1,19 +1,19 @@
 ---
 title: 診斷資料差異
-description: 本文提供疑難排解Magento Business Intelligence(MBI)報表與查詢或協力廠商報表之間差異的解決方案。
+description: 本文提供疑難排解Magento Business Intelligence (MBI)報表與查詢或協力廠商報表之間差異的解決方案。
 exl-id: 7d1156cb-9e9b-4426-a0ca-8890b815c245
 feature: Commerce Intelligence
 role: Developer
 source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
 
 # 診斷資料差異
 
-本文提供疑難排解Magento Business Intelligence(MBI)報表與查詢或協力廠商報表之間差異的解決方案。
+本文提供疑難排解Magento Business Intelligence (MBI)報表與查詢或協力廠商報表之間差異的解決方案。
 
 根據分析的複雜性，產生對應的MBI報告可能需要熟悉平台的許多不同面向。 此檢查清單和相關連結將幫助您瞭解報告背後的邏輯，讓您識別任何差異的來源。
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 1. 檢閱並確認報表中的其他資料操作：
    * 公式已計算
    * [群組](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/using-visual-report-builder.html?lang=zh-Hant#groupby)
-   * [觀點](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/using-visual-report-builder.html?lang=zh-Hant)
+   * [透視](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/using-visual-report-builder.html?lang=zh-Hant)
    * [時間選項](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/tutorials/using-visual-report-builder.html?lang=zh-Hant)
    * 針對[同類群組分析](https://support.magento.com/hc/en-us/articles/360016504632-Create-cohort-analysis)：同類群組日期
    * 對於[同類群組分析](https://support.magento.com/hc/en-us/articles/360016504632-Create-cohort-analysis)：同類群組觀點
@@ -37,7 +37,7 @@ ht-degree: 0%
 1. 如果分析中使用的量度是建置在資料庫中的資料表（資料表資料列會從中刪除），請與MBI支援小組確認資料表是否正在檢查刪除的資料列，以及資料表的重新檢查頻率和[復寫方法](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hant)。
 1. 同樣地，如果可在新增資料列之後修改分析中使用的資料行，請確認支援人員正在[檢查這些資料行的修改](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks.html?lang=zh-Hant)，以及重新檢查的頻率。
 
-**仍使用戳記？**&#x200B;別擔心 — 我們隨時為您提供協助。 使用[這些指示](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)傳送要求給我們。
+**仍為空白？** 別擔心，我們隨時為您提供幫助。 使用[這些指示](/help/troubleshooting/miscellaneous/mbi-data-discrepancies.md)傳送要求給我們。
 
 ## 相關閱讀
 

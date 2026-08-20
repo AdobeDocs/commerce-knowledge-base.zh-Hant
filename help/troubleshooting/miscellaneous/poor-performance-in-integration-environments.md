@@ -6,7 +6,7 @@ role: Developer
 exl-id: 46110dbc-2f54-4654-95e2-39e8ae1e6979
 source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 首先，判斷您的環境是否位於[增強整合組態](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)。
 
-* [專業架構](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Pro架構](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
 * [入門架構](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 使用下列其中一種方法檢查部署記錄。
@@ -62,7 +62,7 @@ rabbitmq (type: rabbitmq:3.12, size: L, disk: 1024)
 如果您不在增強整合組態中，您可以[要求增強功能/升級](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)。
 如果您已在使用增強型整合設定，或升級後仍遇到效能問題，請務必遵循最佳實務，以在整合環境中取得最佳效能：
 
-* [專業架構](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Pro架構](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
 * [入門架構](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#staging-environment)
 
 若您已完成上述建議，[請提交支援要求](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide#submit-ticket)以取得其他協助。
