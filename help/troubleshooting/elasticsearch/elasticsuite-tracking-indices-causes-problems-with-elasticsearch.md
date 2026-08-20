@@ -68,5 +68,5 @@ ElasticSuite有建立追蹤索引的新功能。 這些追蹤索引會記錄哪�
 
 如果您想要在設定的時間頻率刪除索引，請參閱開發人員檔案中的下列文章以建立cron工作：
 
-* [設定自訂cron作業和cron群組（教學課程）](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [設定自訂cron作業和cron群組（教學課程）](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [設定cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

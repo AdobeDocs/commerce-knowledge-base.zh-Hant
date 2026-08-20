@@ -35,4 +35,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-[Adobe Commerce檔案>發行資訊> Adobe Commerce 2.4.4發行說明中的廠商套件擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?#vendor-bundled-extensions)。
+[Adobe Commerce檔案>發行資訊> Adobe Commerce 2.4.4發行說明中的廠商套件擴充功能](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-4.html?lang=zh-Hant&#vendor-bundled-extensions)。
