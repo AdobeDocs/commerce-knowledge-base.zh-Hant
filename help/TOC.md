@@ -170,7 +170,7 @@ ht-degree: 1%
   * 已知問題 {#known-issues-patches-attached}
     * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作說明 {#how-to}
   * [操作說明概述](/help/how-to/overview.md)
