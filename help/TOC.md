@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: f0181656eb18a7d9e4b7a78639c9fadb130d74e6
+source-git-commit: 85213549e150c6f00e03201750694c0d51b8309d
 workflow-type: tm+mt
-source-wordcount: '1673'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -95,9 +95,7 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1：含錯誤值的發票備註](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [無法存取最新Adobe Commerce搶鮮版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [索引已由另一個處理序鎖定](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [診斷資料差異](/help/troubleshooting/miscellaneous/diagnosing-a-data-discrepancy.md)
     * [未收到Admin 2FA電子郵件通知](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
-    * [重新導向回Commerce管理員登入表單，顯示「您目前的工作階段已過期」錯誤](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)
     * [處於維護模式但可供客戶使用的網站](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [更新Adobe Commerce軟體時，Git Pull Origin開發失敗](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [在雲端基礎結構上的Adobe Commerce上啟動封鎖程式](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)

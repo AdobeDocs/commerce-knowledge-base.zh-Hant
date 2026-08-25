@@ -4,9 +4,9 @@ description: 本文提供Commerce管理員登入問題的可能解決方案，�
 exl-id: ff3114fd-8690-4983-8221-cf807f083b15
 feature: Admin Workspace, Cache
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: ec2111316458420c51a6b6f3b3881bd3f9d10c06
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -90,4 +90,4 @@ ht-degree: 0%
 ## 相關文章
 
 * [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您的帳戶已暫時停用」錯誤](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)。
-* [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您目前的工作階段已過期」錯誤](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-current-session-has-been-expired-error.md)。
+* [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您目前的工作階段已過期」錯誤](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686)。
