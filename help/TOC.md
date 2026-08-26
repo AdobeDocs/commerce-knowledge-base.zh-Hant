@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 85213549e150c6f00e03201750694c0d51b8309d
+source-git-commit: d88862877bdf410f27752386655038d8646f1b45
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1645'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,6 @@ ht-degree: 1%
     * [檔案儲存量低，特定頁面載入緩慢](/help/troubleshooting/miscellaneous/file-storage-low-specific-page-loads-are-slow.md)
     * [一般自訂模組疑難排解說明](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
-    * [解決CSV檔案上傳的UTF-8錯誤](/help/troubleshooting/miscellaneous/resolving-utf-8-errors-for-csv-file-uploads.md)
     * [嘗試登入Commerce Admin時登入重新導向](/help/troubleshooting/miscellaneous/login-redirect-when-trying-to-login-to-magento-admin.md)
     * [使用資料匯出功能來精確找出差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [元件相依性整備檢查問題](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
