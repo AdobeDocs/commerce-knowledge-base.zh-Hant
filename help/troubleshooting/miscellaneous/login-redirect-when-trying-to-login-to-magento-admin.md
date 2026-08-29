@@ -90,4 +90,4 @@ ht-degree: 0%
 ## 相關文章
 
 * [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您的帳戶已暫時停用」錯誤](/help/troubleshooting/miscellaneous/redirect-back-to-the-admin-login-form-with-your-account-is-temporarily-disabled-error.md)。
-* [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您目前的工作階段已過期」錯誤](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41686)。
+* [重新導向回系統管理員登入表單，在我們的支援知識庫中出現「您目前的工作階段已過期」錯誤](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41686)。

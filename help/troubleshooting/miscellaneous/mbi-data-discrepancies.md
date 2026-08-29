@@ -15,7 +15,7 @@ ht-degree: 0%
 
 特定報表上的數字是否不準確？ 您看到非預期的NULL值嗎？ 如果您發現某些似乎不太正確的專案，建議您使用這些資源來協助進行疑難排解：
 
-* [資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [使用匯出功能來精確找出資料差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
 
 我們也建議您確定已針對發生差異的資料表和資料行設定正確的[復寫方法](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-replication-methods)和[重新檢查](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/warehouse-manager/cfg-data-rechecks)。 請注意，您需要管理員許可權才能存取復寫方法並重新檢查資訊。

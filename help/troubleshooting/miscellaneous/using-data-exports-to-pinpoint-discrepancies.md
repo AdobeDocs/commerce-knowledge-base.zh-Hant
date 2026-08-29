@@ -1,6 +1,6 @@
 ---
 title: 使用資料匯出功能來精確找出差異
-description: 本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以便找出報表中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+description: 本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以便找出報表中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 使用資料匯出功能來精確找出差異
 
-本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 
 舉例來說，以下列分析為例：
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [資料差異診斷檢查清單](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-41479)
+* [資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)
 * [Adobe Commerce Intelligence服務原則](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/mbi-service-policies)
 * [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
 
