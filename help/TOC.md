@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: d8f408d530a9106a1b26c602085bd6ce0db3fef3
+source-git-commit: 16bf1de71bfc6ab2836cb2e98dd60fe191d942d1
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1618'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 1%
 * [Adobe Commerce支援知識庫](/help/overview.md)
 * 公告 {#announcements}
   * [公告總覽](/help/announcements/overview.md)
+  * [Adobe Commerce適用的安全性更新 — APSB26-146](/help/announcements/commerce-apsb26-146.md)
   * Adobe Commerce公告 {#commerce-announcements}
     * {hide-from-toc}[Adobe Commerce支援擷取程式移轉至Experience League](/help/announcements/adobe-commerce-announcements/adobe-commerce-support-intake-process-migration.md)
 * 疑難排解 {#troubleshooting}
@@ -164,7 +165,7 @@ ht-degree: 1%
   * 已知問題 {#known-issues-patches-attached}
     * [保護存放區及旋轉加密金鑰的指南：  [!DNL CVE-2024-34102]](/help/troubleshooting/known-issues-patches-attached/guidance-on-securing-your-store-and-rotating-encryptionkeys-cve-2024-34102.md)
   * Elasticsearch {#elasticsearch}
-    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] &#x200B;](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
+    * [搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] ](/help/troubleshooting/elasticsearch/falling-back-to-elasticsearch7-when-search-engine-set-to-opensearch.md)
     * [ElasticSuite追蹤索引導致Elasticsearch發生問題](/help/troubleshooting/elasticsearch/elasticsuite-tracking-indices-causes-problems-with-elasticsearch.md)
 * 操作說明 {#how-to}
   * [操作說明概述](/help/how-to/overview.md)
