@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 9f4777deac8e9d367643158cf6947f4cb61e8fdd
+source-git-commit: d8f408d530a9106a1b26c602085bd6ce0db3fef3
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1614'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,6 @@ ht-degree: 1%
     * [Adobe Commerce 2.4.2-p1：含錯誤值的發票備註](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)
     * [無法存取最新Adobe Commerce搶鮮版](/help/troubleshooting/miscellaneous/cannot-access-the-latest-magento-commerce-pre-release.md)
     * [索引已由另一個處理序鎖定](/help/troubleshooting/miscellaneous/index-is-locked-by-another-process.md)
-    * [未收到Admin 2FA電子郵件通知](/help/troubleshooting/miscellaneous/admin-2fa-email-notifications-not-being-received.md)
     * [處於維護模式但可供客戶使用的網站](/help/troubleshooting/miscellaneous/site-in-maintenance-mode-but-available-to-customers.md)
     * [更新Adobe Commerce軟體時，Git Pull Origin開發失敗](/help/troubleshooting/miscellaneous/git-pull-origin-develop-fails-when-updating-the-magento-software.md)
     * [在雲端基礎結構上的Adobe Commerce上啟動封鎖程式](/help/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.md)
