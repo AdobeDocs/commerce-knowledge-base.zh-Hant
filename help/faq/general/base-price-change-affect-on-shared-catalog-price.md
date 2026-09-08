@@ -5,7 +5,7 @@ exl-id: 916678c1-ada6-4f23-af16-b107cb83ff16
 feature: Catalog Management
 source-git-commit: ce81fc35cc5b7477fc5b3cd5f36a4ff65280e6a0
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## 自訂價格設為「固定」時，共用的目錄價格不會變更
 
-如果共用目錄中的產品自訂價格已設定為「固定」，則共用目錄中的價格永遠不會變更 — 無論我們更新基本價格的方式(透過排程更新、Adobe Commerce管理、API或匯入)。
+如果共用目錄中的產品自訂價格已設定為「固定」，則共用目錄中的價格永遠不會變更 — 無論我們更新基本價格的方式（透過排程更新、Adobe Commerce管理、API或匯入）。
 
 ## 店面一律會顯示最低的可用價格
 
@@ -30,4 +30,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-在我們的使用手冊中[設定共用型錄的定價和結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html?lang=zh-Hant)。
+在我們的使用手冊中[設定共用型錄的定價和結構](https://experienceleague.adobe.com/docs/commerce-admin/b2b/shared-catalogs/define/catalog-shared-pricing-structure.html)。

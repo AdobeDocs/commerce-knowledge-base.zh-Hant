@@ -1,7 +1,7 @@
 ---
 source-git-commit: 88a2b8fe11d718f33c26bbc6f407c55d9f1fd189
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '492'
 ht-degree: 0%
 
 ---
@@ -10,7 +10,7 @@ ht-degree: 0%
 本檔案提供在Adobe Commerce支援知識庫文章中新增標籤的指引。
 標籤（也稱為標籤）可改善[Adobe Commerce支援知識庫](https://support.magento.com/hc/en-us)中的搜尋體驗。
 標籤會新增到文章檔案之中繼資料區段的「標籤」欄位中，並以逗號分隔，逗號與下一個標籤之間沒有空格。
-如需詳細資訊，請參閱[../../.github/CONTRIBUTING.md#metadata]。
+如需詳細資訊，請參閱[../../.#metadata]。
 
 ## 一般規定
 
@@ -50,9 +50,9 @@ ht-degree: 0%
     <td>"Adobe Commerce，內部部署"</td>
   </tr>
   <tr>
-    <td>Magento Business Intelligence(MBI)</td>
+    <td>Magento Business Intelligence (MBI)</td>
     <td>
-        "Magento Business Intelligence，MBI"
+        「Magento Business Intelligence，MBI」
     </td>
   </tr>
    <tr>
@@ -66,7 +66,7 @@ ht-degree: 0%
     <td>"B2B"</td>
   </tr>
   <tr>
-    <td>Adobe Commerce的PWA</td>
+    <td>適用於Adobe Commerce的PWA</td>
     <td>"PWA"</td>
   </tr>
   <tr>
@@ -86,7 +86,7 @@ ht-degree: 0%
 * 請勿為間隔新增標籤。
 亦即，如果2.3.0-2.3.5受到影響，請新增：「2.3.0,2.3.1,2.3.2,2.3.2-p2,2.3.3,2.3.3-p1,2.3.4,2.3.4-p2,2.3.5-p1,2.3.5-p2」
 不是「2.3.0-2.3.5」
-* 請勿新增標籤為.x。範例： &quot;2.3.x&quot;
+* 請勿新增標籤為.x。 範例： &quot;2.3.x&quot;
 
 ## 內容型別的標籤（根據類別）
 
@@ -123,9 +123,9 @@ ht-degree: 0%
 
 * 根據元件的正式命名使用大寫。
 * 請勿使用同義字，一個元件使用一個標籤。
-* 最好使用一個單字標籤，但如果元件名稱包含多個單字，請使用多個單字。 請勿新增問題說明。 也就是說，請改用「Elasticsearch」而非「Elasticsearch問題」。
+* 最好使用一個單字標籤，但如果元件名稱包含多個單字，請使用多個單字。 請勿新增問題說明。 換言之，請改用「Elasticsearch」而非「Elasticsearch問題」。
 * 如果內容僅與特定版本的元件相關，請新增包含名稱+版本的標籤。\
-  範例：「Elasticsearch5」。 如果它與數個特定版本相關，請新增多個此型別的標籤。 範例：「Elasticsearch5」、「Elasticsearch6」。 相關時，請針對多個版本使用「x」。 範例：「Elasticsearch2.x」
+  範例：「Elasticsearch 5」。 如果它與數個特定版本相關，請新增多個此型別的標籤。 範例： 「Elasticsearch 5」、「Elasticsearch 6」。 相關時，請針對多個版本使用「x」。 範例：「Elasticsearch 2.x」
 
 範例：
 
