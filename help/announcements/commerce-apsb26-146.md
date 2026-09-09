@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: d0e075aabc24a1719098754b456b71a0025e47bf
+source-git-commit: e95fb4ca696be9f6d348ff66196565797575f74a
 workflow-type: tm+mt
-source-wordcount: 842
+source-wordcount: 954
 ht-degree: 0%
 
 ---
@@ -65,39 +65,24 @@ Magento Open Source版本：
 
 ### 適用於Adobe Commerce on Cloud、Adobe Commerce內部部署和Magento Open Source的解決方案
 
-為協助解決受影響產品和版本的弱點，您必須套用VULN-39341修補程式（視您的版本而定）並旋轉加密金鑰。
+>[!NOTE]
+>
+>CVE-2026-75650的Hotfix現在與2.4.4至2.4.7之間的所有Adobe Commerce和Magento Open Source版本相容。 請參閱下表並下載適用於您版本的修補程式。
 
-相容性注意事項：請注意，此Hotfix僅針對下列版本進行測試。 它可以在其他支援的版本上運作，但尚未經過正式驗證。
+為了協助解決受影響產品和版本的弱點，您必須套用下方的&#x200B;**修補程式** （視您的版本而定），並旋轉您的加密金鑰。
 
-Adobe Commerce版本：
+| 版本號碼 | 修補 |
+|---|---|
+| 2.4.9-2026-aug， 2.4.8-2026-aug， 2.4.7-2026-aug， 2.4.6-2026-aug， 2.4.5-2026-aug， 2.4.4-2026-aug， 2.4.9-2026-7月， 2.4.8-2026-7月， 2.4.7-2026-7月， 2.4.6-2026-7月，2.4.5-2026-7月，2.4.4-2026-7月，2.4.8-p5,2.4.8-p4,2.4.8-p3,2.4.7-p10,2.4.7-p9,2.4.6-p15,2.4.6-p14,2.4.5-p16,2.4.4-p18,2.4.4-p18 | [Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip) |
+| 2.4.8-p3， 2.4.8-p2 | [VULN-39341_248-p3.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p3-patch.zip) |
+| 2.4.8 - p1， 2.4.8 | [VULN-39341_248-p1.patch.zip](https://repo.magento.com/patch/VULN-39341-248-p1-patch.zip) |
+| 2.4.7-p8、2.4.7-p7 | [VULN-39341_247-p8.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p8-patch.zip) |
+| 2.4.7至2.4.7-p6 | [VULN-39341_247-p5.patch.zip](https://repo.magento.com/patch/VULN-39341-247-p5-patch.zip) |
+| 2.4.6-p13、2.4.6-p12、2.4.5-p15、2.4.5-p14、2.4.4-p16、2.4.4-p15 | [VULN-39341_246-p13.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p13-patch.zip) |
+| 2.4.6 - 2.4.6-p11， 2.4.5 - 2.4.5-p13， 2.4.4 - 2.4.4-p14 | [VULN-39341_246-p11.patch.zip](https://repo.magento.com/patch/VULN-39341-246-p11-patch.zip) |
 
-* 2.4.9-2026年8月
-* 2.4.8-2026年8月
-* 2.4.7-2026年8月
-* 2.4.6-2026年8月
-* 2.4.5-2026年8月
-* 2.4.4-2026年8月
 
-Adobe Commerce B2B版本：
-
-* 1.5.3-2026年8月
-* 1.5.2-2026年8月
-* 1.4.2-2026年8月
-* 1.3.4-2026年8月
-* 1.3.3-2026年8月
-
-Magento Open Source版本：
-
-* 2.4.9-2026年8月
-* 2.4.8-2026年8月
-* 2.4.7-2026年8月
-* 2.4.6-2026年8月
-
-### Hotfix連結
-
-將下列Hotfix套用至受影響的產品版本：
-
-* [下載Hotfix VULN-39341-composer-patches.zip](https://repo.magento.com/patch/VULN-39341-composer-patches.zip)
+{style="table-layout:auto"}
 
 ### 如何套用Hotfix
 
@@ -141,6 +126,7 @@ Magento Open Source版本：
 1. 排清快取。
 1. 啟用cron執行（雲端命令上的Commerce： `vendor/bin/ece-tools cron:enable`）。
 1. 停用維護模式。
+1. 僅限雲端上的Commerce：重新部署以套用新的資料庫認證。
 
 ### 安全性更新
 
