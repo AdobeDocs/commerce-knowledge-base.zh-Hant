@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 16bf1de71bfc6ab2836cb2e98dd60fe191d942d1
+source-git-commit: b4a9384a0d72eec790e08382dd2e45d53cbb9831
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1611'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,6 @@ ht-degree: 1%
     * [從2.2.X升級至2.3.X後不會載入快取影像](/help/troubleshooting/miscellaneous/cached-images-are-not-loaded-after-2-2-x-to-2-3-x-upgrade.md)
     * [將網站新增至安全性掃描時出現錯誤訊息](/help/troubleshooting/miscellaneous/error-message-adding-site-into-security-scan.md)
     * [共用存取疑難排解](/help/troubleshooting/miscellaneous/shared-access-troubleshooting.md)
-    * [效能緩慢、速度緩慢且長時間執行cron](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
     * [驗證Fastly認證時發生錯誤](/help/troubleshooting/miscellaneous/error-when-validating-fastly-credentials.md)
     * [安全性掃描工具報告為空白](/help/troubleshooting/miscellaneous/the-security-scan-tool-report-is-blank.md)
     * [Adobe Commerce 2.4.2-p1：含錯誤值的發票備註](/help/troubleshooting/miscellaneous/adobe-commerce-2-4-2-p1-invoice-note-with-incorrect-value.md)

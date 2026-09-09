@@ -2,9 +2,9 @@
 title: Adobe Commerce [!DNL crons] 已停用，無需另行干預
 description: 使用本文修正無干預停用 [!DNL crons] 的問題。
 exl-id: 5172d2ae-53ad-4db6-ae00-7b27c96911e9
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+source-git-commit: 6bff1d7a0578ceb8ea17dff347b1bcd4f0068e7a
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,6 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [我們的支援知識庫中的效能緩慢、緩慢且長時間執行 [!DNL crons]](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.html?lang=zh-Hant)。
+* [我們的支援知識庫中的效能緩慢、緩慢且長時間執行 [!DNL crons]](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-42802)。
 * [[!DNL Cron] 任務會鎖定我們支援知識庫中其他群組](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-tasks-lock-tasks-from-other-groups.html?lang=zh-Hant)的任務。
 * 我們的支援知識庫中的[[!DNL Cron] 工作卡在「執行中」狀態](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=zh-Hant)。
