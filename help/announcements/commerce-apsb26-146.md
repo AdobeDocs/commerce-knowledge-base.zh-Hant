@@ -3,17 +3,12 @@ title: Adobe Commerce提供緊急動作所需的重要安全性更新(APSB26-146
 description: Adobe已發佈安全性公告APSB26-146處理CVE-2026-75650，這是Adobe Commerce中的零日漏洞。 瞭解如何套用Hotfix和輪換認證。
 autotag-review: '2026-09-07T17:27:44.037Z'
 TQID: 'https://experienceleague.adobe.com/ADVRRn85--ZgWtPdi4qA49fsDPVW976N4MYWp26taho'
-product_v2:
-  - id: eadea719-cf89-469b-a6fd-a236a7138047
-feature_v2:
-  - id: ba9e5be9-7de1-4f71-a5d2-baead0e425ee
-  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
-  - id: c32adafa-ed01-4b31-997e-2413013911b0
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7526f999381e9f117ea2d52dc59330b0d34cba62
+product_v2: id: eadea719-cf89-469b-a6fd-a236a7138047
+feature_v2: id: ba9e5be9-7de1-4f71-a5d2-baead0e425eeid: bd989d82-1e15-4534-88db-f1f51dd77ffaid: c32adafa-ed01-4b31-997e-2413013911b0
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8a165b274bf508d849c60fd6768569af1885fdb7
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: 957
 ht-degree: 0%
 
 ---
@@ -86,7 +81,7 @@ Magento Open Source版本：
 
 ### 如何套用Hotfix
 
-解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
+解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
 
 ### 確認已套用Hotfix （僅限Cloud商家上的Adobe Commerce）
 
@@ -94,7 +89,7 @@ Magento Open Source版本：
 
 您可以依照下列步驟，以檔案`VULN-39341_Hotfix_COMPOSER.patch`為例，來執行此動作：
 
-1. [安裝品質修補工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/usage#install)。
+1. [安裝品質修補工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/quality-patches-tool/usage#install)。
 1. 執行命令： `vendor/bin/magento-patches -n status | grep "39341\|Status"`。
 1. 您應該會看到類似以下範例的輸出，其中範例VULN-39341會傳回「已套用」狀態：
 
@@ -115,12 +110,12 @@ Magento Open Source版本：
 1. 套用Hotfix。
 1. 啟用維護模式。
 1. 停用cron執行（雲端命令上的Commerce： `vendor/bin/ece-tools cron:disable`）。
-1. [輪換您的加密金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/security/encryption-key?lang=en)。
+1. [輪換您的加密金鑰](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/security/encryption-key?lang=en)。
 1. 旋轉所有Admin面板使用者密碼。
 1. 停用並重新產生所有REST/SOAP/GraphQL整合權杖(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**)。
 1. 為任何連線的協力廠商應用程式輪換OAuth使用者端密碼。
 1. 在提供者層級（Stripe、Braintree、Adyen、PayPal等）輪換付款閘道API認證。
-1. 輪換資料庫認證。
+1. 旋轉資料庫和Fastly認證（透過支援票證）。
 1. 輪換SSH/部署金鑰以及任何cron或系統授權的服務帳戶認證。
 1. 輪換API金鑰，用於送貨、稅捐和其他整合的協力廠商擴充功能。
 1. 排清快取。
@@ -137,4 +132,4 @@ Adobe Commerce可用的安全性更新：
 
 ### 相關閱讀
 
-在Adobe Commerce安裝指南中[啟用或停用維護模式](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
+在Adobe Commerce安裝指南中[啟用或停用維護模式](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/tutorials/maintenance-mode?lang=en)
