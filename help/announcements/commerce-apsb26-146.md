@@ -11,9 +11,9 @@ feature_v2:
   - id: c32adafa-ed01-4b31-997e-2413013911b0
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 7526f999381e9f117ea2d52dc59330b0d34cba62
+source-git-commit: 8a165b274bf508d849c60fd6768569af1885fdb7
 workflow-type: tm+mt
-source-wordcount: 952
+source-wordcount: 957
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 Adobe已發行安全性公告APSB26-146，解決此漏洞。 公告可從此處取得：
 
-[Adobe Commerce適用的安全性更新| APSB26-146](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
+[Adobe Commerce適用的安全性更新| APSB26-146](https://helpx.adobe.com/tw/security/products/magento/apsb26-146.html)
 
 本文說明如何將Hotfix套用至目前及舊版的Adobe Commerce和Magento Open Source。
 
@@ -120,7 +120,7 @@ Magento Open Source版本：
 1. 停用並重新產生所有REST/SOAP/GraphQL整合權杖(**[!UICONTROL System]** > **[!UICONTROL Extensions]** > **[!UICONTROL Integrations]**)。
 1. 為任何連線的協力廠商應用程式輪換OAuth使用者端密碼。
 1. 在提供者層級（Stripe、Braintree、Adyen、PayPal等）輪換付款閘道API認證。
-1. 輪換資料庫認證。
+1. 旋轉資料庫和Fastly認證（透過支援票證）。
 1. 輪換SSH/部署金鑰以及任何cron或系統授權的服務帳戶認證。
 1. 輪換API金鑰，用於送貨、稅捐和其他整合的協力廠商擴充功能。
 1. 排清快取。
@@ -132,8 +132,8 @@ Magento Open Source版本：
 
 Adobe Commerce可用的安全性更新：
 
-* [Adobe安全性公告(APSB26-146)](https://helpx.adobe.com/security/products/magento/apsb26-146.html)
-* [適用於Adobe Commerce的最新安全性更新](https://helpx.adobe.com/security/products/magento.html)
+* [Adobe安全性公告(APSB26-146)](https://helpx.adobe.com/tw/security/products/magento/apsb26-146.html)
+* [適用於Adobe Commerce的最新安全性更新](https://helpx.adobe.com/tw/security/products/magento.html)
 
 ### 相關閱讀
 
