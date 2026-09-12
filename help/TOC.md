@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 104c637c8f1c0a22b34d0b963a7cacf80b074999
+source-git-commit: f88551f595f1907957301f2ebdf9c0c9dc685939
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1597'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,6 @@ ht-degree: 1%
     * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
     * [電子郵件指出匯出儲存空間幾乎已滿](/help/troubleshooting/miscellaneous/email-stating-that-export-storage-is-almost-full.md)
-    * [診斷Google電子商務收入差異](/help/troubleshooting/miscellaneous/diagnosing-google-ecommerce-revenue-discrepancies.md)
     * [我已為Adobe AI設定API金鑰，但只看到一個SaaS資料空間](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
     * [一般自訂模組疑難排解說明](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
     * [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
