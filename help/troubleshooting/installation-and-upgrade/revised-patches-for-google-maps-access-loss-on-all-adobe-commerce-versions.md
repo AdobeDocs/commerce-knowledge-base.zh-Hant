@@ -71,4 +71,4 @@ Adobe Commerce與3.54+版本的任何最新[!DNL &#x200B; Google Maps]版本不�
 
 ## 相關閱讀
 
-[如何套用Adobe提供的撰寫器修補程式](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[如何套用Adobe提供的撰寫器修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
