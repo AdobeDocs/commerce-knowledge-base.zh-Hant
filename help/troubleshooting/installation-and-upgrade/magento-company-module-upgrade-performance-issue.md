@@ -1,15 +1,14 @@
 ---
 title: B2B 1.5.2更新後Magento_Company模組升級中的效能問題
-description: 本文針對B2B 1.5.2更新後Magento_Company模組升級中的效能問題提供Hotfix，解決company_structure表格中大型資料集的處理時間過長的問題。
+description: 本文針對B2B 1.5.2更新後Magento_Company模組升級中的效能問題提供Hotfix，解決company_structure表格中大型資料集處理時間過長的問題。
 feature: B2B, Upgrade
 role: Admin, Developer
-source-git-commit: d06f0045b4c4c1615bd3abec963eb17fdee93860
+exl-id: b091d761-2e8a-4535-b461-ee9a46b5c2bc
+source-git-commit: e0524b54ee0adae1caa809212e98dda3a33c1954
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '439'
 ht-degree: 0%
-
 ---
-
 # B2B 1.5.2更新後Magento_Company模組升級中的效能問題
 
 本文針對B2B 1.5.2更新後`Magento_Company`模組升級中的效能問題提供Hotfix，解決`company_structure`表格中大型資料集（~100,000筆以上的記錄）處理時間過長的問題。
@@ -32,7 +31,7 @@ ht-degree: 0%
 
 <u>要再現的步驟</u>：
 
-1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
+1. 將公司指派給母公司，以建立公司階層。 如需詳細資訊，請參閱Adobe Commerce B2B指南中的[管理公司階層](https://experienceleague.adobe.com/en/docs/commerce-admin/b2b/company-management/manage-company-hierarchy)。
 1. 將B2B升級至1.5.2版。
 
 <u>預期結果</u>：
@@ -61,7 +60,7 @@ ht-degree: 0%
 
 ### 如何套用修補程式
 
-解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
+解壓縮檔案，並在我們的支援知識庫中參閱[如何套用Adobe](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式，以取得指示。
 
 ### 使用雲端修補程式套用修補程式
 
@@ -80,8 +79,8 @@ ht-degree: 0%
    ```
 
 1. 將ACSD-65540_B2B_1.5.2_DEPENDENT_ACSD-65684_B2B_1.5.2.patch新增至`m2-hotfixes`目錄。
-1. 認可並推播變更以開始重新部署和`bin/magento setup:upgrade`。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。
+1. 認可並推播變更以開始重新部署和`bin/magento setup:upgrade`。 請參閱雲端上的Adobe Commerce指南中的[套用修補程式](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/upgrade/apply-patches)以取得指示。
 
 ## 相關閱讀
 
-* [由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2失敗，並出現SQL語法錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
+* [由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2會因SQL語法錯誤而失敗](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/sql-syntax-error-due-to-missing-regexp-like-function)
