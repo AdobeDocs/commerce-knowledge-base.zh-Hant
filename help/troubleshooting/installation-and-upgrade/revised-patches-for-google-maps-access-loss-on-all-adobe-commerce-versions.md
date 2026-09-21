@@ -1,15 +1,14 @@
 ---
 title: 修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式
-description: 「本文針對Adobe Commerce商家不相容於3.54+以上任何最新 [!DNL Google Maps] 版本的商戶提供修正。」
+description: 本文針對Adobe Commerce商家不相容於3.54+以上任何最新[!DNL Google Maps]版本的商戶提供修正。
 feature: Install, Upgrade
 role: Developer
-source-git-commit: cf235c2fdd7a36d7e3b126de35c51e6711cd3845
+exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
+source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '345'
 ht-degree: 0%
-
 ---
-
 # 修訂所有Adobe Commerce版本上[!DNL Google Maps]存取權遺失的修補程式
 
 本文針對Adobe Commerce商家不相容於3.54+以上任何最新[!DNL Google Maps]版本的商戶提供修正。 此修正旨在解決Adobe Commerce商家無法再存取任何版本Adobe Commerce中的[!DNL Google Maps]的問題。
@@ -53,16 +52,16 @@ Adobe Commerce與3.54+版本的任何最新[!DNL &#x200B; Google Maps]版本不�
 
 根據Adobe Commerce版本，使用以下附加修補程式：
 
-**版本2.4.4：**
+**對於2.4.4版：**
 [ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-**版本2.4.5：**
+**對於2.4.5版：**
 [ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-**版本2.4.6：**
+**對於2.4.6版：**
 [ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.4_2.4.5_2.4.6_composer.patch.zip)
 
-**版本2.4.7：**
+**對於2.4.7版：**
 [ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip](assets/ACSD-60245_Google_maps_API_2.4.7_composer.patch.zip)
 
 **請注意**

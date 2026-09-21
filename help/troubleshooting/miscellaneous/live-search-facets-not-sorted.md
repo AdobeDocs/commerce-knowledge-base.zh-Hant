@@ -1,15 +1,14 @@
 ---
-title: '[!DNL Live Search] Facet未依字母順序排序'
-description: 本文提供若 [!DNL Live Search] Facet未依字母順序排序的疑難排解資訊。
+title: '[!DNL Live Search] Facet未依字母排序'
+description: 本文提供疑難排解資訊，說明[!DNL Live Search]多面向是否未依字母排序。
 feature: Admin Workspace, Categories, Search
 role: Developer
-source-git-commit: b20a98e44cfad6667b9fe0ab232b0020ed834ca2
+exl-id: 59f86727-c2a6-4418-8753-40f7937e059c
+source-git-commit: 9bb839292a120a3dab5151d493f915619dbf5c06
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '146'
 ht-degree: 0%
-
 ---
-
 # [!DNL Live Search] Facet未依字母排序
 
 ## 受影響的產品和版本

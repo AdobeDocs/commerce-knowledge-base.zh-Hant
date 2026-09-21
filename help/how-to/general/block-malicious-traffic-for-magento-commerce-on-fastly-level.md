@@ -3,13 +3,11 @@ title: 在Fastly層級封鎖Adobe Commerce的惡意流量
 description: 本文提供當您懷疑雲端基礎結構存放區上的Adobe Commerce遭到DDoS攻擊時，封鎖惡意流量可採取的步驟。
 exl-id: 1a834a0a-753b-432e-9c3b-ef8dd034d294
 feature: Cache, Marketing Tools
-source-git-commit: 8bde15deccc24c548c20cf5955cbebc45ac1d9a1
+source-git-commit: 8e64b148938394e67265da543784b2769df56c58
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # 在Fastly層級封鎖Adobe Commerce的惡意流量
 
 本文說明如何封鎖前往商店的不想要的流量，不僅是為了回應惡意威脅，也是地理篩選的一種方法。
@@ -47,8 +45,8 @@ ht-degree: 0%
 
 若要根據使用者代理建立封鎖，您需要將自訂VCL程式碼片段新增到Fastly設定。 若要這麼做，請執行下列步驟：
 
-1. 在Commerce管理員中，瀏覽至&#x200B;**商店** > **設定** > **進階** > **系統** > **全頁快取**。
-1. 然後&#x200B;**Fastly組態** > **自訂VCL程式碼片段**。
+1. 在Commerce **[!UICONTROL Admin]**&#x200B;中，導覽至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]**。
+1. 然後&#x200B;**[!UICONTROL Fastly Configuration]** > **[!UICONTROL Custom VCL Snippets]**。
 1. 依照Fastly\_Cdn模組的[自訂VCL程式碼片段](https://github.com/fastly/fastly-magento2/blob/master/Documentation/Guides/CUSTOM-VCL-SNIPPETS.md)指南中的說明，建立新的自訂程式碼片段。 您可以使用以下程式碼範例作為範例。 此範例不允許`AhrefsBot`使用者代理程式的流量。
 
 ```php
@@ -60,6 +58,64 @@ name: block_bad_useragents
       error 405 "Not allowed";
   }
 ```
+
+## 依JA3/JA4/OH簽名封鎖流量（從Newrelic擷取JA3、JA4和OHFP值）
+
+1. 建立字典：瀏覽至&#x200B;**[!UICONTROL Admin]** > **[!UICONTROL Store]** > **[!UICONTROL Configuration]** > **[!UICONTROL System]** > **[!UICONTROL Full page cache]** > **[!UICONTROL Fastly configuration]** > **[!UICONTROL Edge Dictionary]**&#x200B;並建立此範例區塊：
+
+   ```
+   #table ja3_blocklist:
+   table ja3_blocklist {
+       "********************************": "********************************",
+   }
+   
+   #table ja4_blocklist:
+   table filter_bad_ja4 {
+       "************************************": "************************************",
+   }
+   ```
+
+1. 接著新增VCL以封鎖上述表格中列出的任何JA3、JA4：
+
+   ```
+   name: block_traffic_ja3_ja4
+   type: recv 
+   priority: 5 
+   
+   VCL:
+   if (req.restarts == 0 && fastly.ff.visits_this_service == 0) {
+     if(table.contains(ja3_blocklist, tls.client.ja3_md5)){
+       error 403;
+     }
+     if(table.contains(ja4_blocklist, tls.client.ja4)){
+       error 403;
+     }
+   }
+   ```
+
+1. 根據OHFP的區塊範例：
+
+   ```
+   #table ohfp_h2fp_blocklist
+   table ohfp_h2fp_blocklist {
+       "xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx":"xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx:xx",
+   }
+   ```
+
+
+1. 然後新增VCL以封鎖上述表格中所列的任何OHFP：
+
+   ```
+   # Snippet block_ohfp_h2fp
+   name: block_ohfp_h2fp
+   type: recv 
+   Priority: 5
+   
+   if (table.contains(ohfp_h2fp_blocklist, fastly_info.oh_fingerprint)) {
+     error 403 "Forbidden";
+   }
+   ```
+
 
 ## 速率限制（實驗性Fastly功能）
 

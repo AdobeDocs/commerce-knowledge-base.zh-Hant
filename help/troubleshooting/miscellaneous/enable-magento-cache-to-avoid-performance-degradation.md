@@ -4,13 +4,11 @@ description: 本文說明如何解決停用某些Adobe Commerce快取型別所�
 exl-id: e4e5a753-efa3-4552-aaf6-28e44efcfa5b
 feature: Cache, Observability
 role: Developer
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+source-git-commit: 42aa1d4ef3540d4eb9682627dc5bf1dd14091dc3
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # 啟用快取以避免效能降低
 
 本文說明如何解決停用某些Adobe Commerce快取型別所造成的網站速度緩慢問題。
@@ -47,11 +45,11 @@ ht-degree: 0%
 
 開發人員檔案中的Adobe Commerce快取檔案：
 
-* [Adobe Commerce快取總覽](https://developer.adobe.com/commerce/frontend-core/guide/caching)
+* [Adobe Commerce快取概觀](https://developer.adobe.com/commerce/frontend-core/guide/caching)
 * [管理快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/cli/manage-cache)
 
 造成效能問題的其他可能原因和解決方案：
 
 * [停用Adobe Commerce橫幅輸出以改善網站效能](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26909)
 * [MySQL資料表太大](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26945)
-* [效能緩慢、速度緩慢且長時間執行cron](/help/troubleshooting/miscellaneous/slow-performance-slow-and-long-running-crons.md)
+* [效能緩慢、速度緩慢且長時間執行cron](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-42802)
