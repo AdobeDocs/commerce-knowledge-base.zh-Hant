@@ -5,11 +5,9 @@ description: 本文說明如何使用Adobe Commerce觀測上的New Relic基礎�
 exl-id: a0332e7e-d38d-47d3-b3da-293902f45edc
 source-git-commit: ffb7b597d38eaed4b66e23ea533c275746e7181a
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 0%
-
 ---
-
 # 在Adobe Commerce上檢視叢集中的環境vCPU層
 
 本文說明如何使用Adobe Commerce觀測上的New Relic基礎架構索引標籤，檢查您的vCPU層級配置。 Adobe Commerce的觀察結果是一個New Relic Nerdlet，可顯示Adobe Commerce網站的狀態、目前和過去的時間檢視。
