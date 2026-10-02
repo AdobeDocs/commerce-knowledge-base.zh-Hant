@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 75d326acaa5926506fe3078da18abbbcdf2f3df4
+source-git-commit: 50b733947e4c62b9a318df1f86a51c456f9f15d1
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1583'
 ht-degree: 1%
 ---
 # Adobe Commerce 知識庫 {#kb}
@@ -196,7 +196,6 @@ ht-degree: 1%
   * [已略過Adobe Commerce後續部署，因為部署失敗error.md](/help/how-to/general/adobe-commerce-post-deploy-is-skipped-because-deploy-was-failed-error.md)
   * [當欄位呈現灰色時，如何變更magento.com帳戶上的電子郵件地址](/help/how-to/general/change-email-address-on-magento-account.md)
   * [如何移除Magento Order Management](/help/how-to/general/how-to-remove-mom.md)
-  * [Commerce假日整備的技術秘訣](/help/how-to/general/tech-tips-for-commerce-holiday-readiness.md)
   * [如何略過GraphQL請求的WAF](/help/how-to/general/how-to-bypass-waf-for-graphql-requests.md)
   * [針對雲端上的Adobe Commerce將MariaDB 10.4升級至10.5](/help/how-to/general/upgrade-mariadb-10-4-to-10-5-for-magento-commerce-cloud.md)
 * 常見問題集 {#faq}
