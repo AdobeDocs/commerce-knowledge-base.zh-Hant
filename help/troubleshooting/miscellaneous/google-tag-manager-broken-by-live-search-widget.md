@@ -1,16 +1,14 @@
 ---
-title: Google Tag Manager已被 [!DNL Live Search] 介面工具損壞
-description: 本文提供 [!DNL Live Search Product Listing Widget] 造成 [!DNL Google Tag Manager] 停止運作的解決方案。
+title: Google標籤管理員已被[!DNL Live Search] Widget中斷
+description: 本文提供[!DNL Live Search Product Listing Widget]的解決方案，導致[!DNL Google Tag Manager]停止運作。
 feature: Install, Search, Best Practices
 role: Admin, Developer
 exl-id: 485f8ccb-cba2-4785-a8e1-a1e98c88b21e
 source-git-commit: 7718a835e343ae7da9ff79f690503b4ee1d140fc
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '116'
 ht-degree: 0%
-
 ---
-
 # [!DNL Google Tag Manager]已被[!DNL Live Search] Widget中斷
 
 本文提供[!DNL Live Search Product Listing Widget]的解決方案，導致[!DNL Google Tag Manager]停止運作。
