@@ -6,11 +6,9 @@ feature: Cache, Categories, Deploy, Storefront
 role: Admin
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '162'
+source-wordcount: '184'
 ht-degree: 0%
-
 ---
-
 # 部署後未顯示存放區影像
 
 本文提供部署後影像無法正確顯示時的解決方案。
@@ -29,11 +27,11 @@ ht-degree: 0%
 
 ## 解決方案
 
-如果發生這種狀況，您可以使用「Magento」指令來重新產生影像快取並正確顯示影像。
+如果發生這種狀況，您可以使用Magento指令來重新產生影像快取並正確顯示影像。
 
-若要執行此動作，您需要透過[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hant)取得的SSH資訊和存放區URL。
+若要執行此動作，您需要透過[雲端主控台](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html)取得的SSH資訊和存放區URL。
 
-1. SSH至您的專案，此專案是[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)所述。
+1. SSH至您的專案，此專案是[資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)的來源，如開發人員檔案中的[SSH至環境](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)所述。
 1. 執行下列步驟，重新產生影像快取：
 
    ```bash
