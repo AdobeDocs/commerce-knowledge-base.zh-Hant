@@ -6,11 +6,9 @@ feature: Support
 role: Admin
 source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
 workflow-type: tm+mt
-source-wordcount: '26'
-ht-degree: 84%
-
+source-wordcount: '28'
+ht-degree: 85%
 ---
-
 # 疑難排解概觀
 
 Adobe Commerce 支援團隊提供的經驗證自助解決方案和修補程式。

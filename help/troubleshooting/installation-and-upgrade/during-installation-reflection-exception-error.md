@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '96'
+source-wordcount: '107'
 ht-degree: 0%
-
 ---
-
 # 安裝期間，發生反射例外錯誤
 
 本文提供安裝期間發生反射例外錯誤時的解決方案。

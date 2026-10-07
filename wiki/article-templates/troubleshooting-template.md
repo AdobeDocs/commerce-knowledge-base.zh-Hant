@@ -3,11 +3,9 @@ title: '...'
 labels: troubleshooting,...
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '365'
 ht-degree: 0%
-
 ---
-
 
 # 疑難排解文章範本
 
@@ -68,6 +66,6 @@ Adobe Commerce會那麼做。
 ## 相關閱讀
 
 * 使用手冊中的[文章主題](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)。
-* [開發人員檔案中的文章主題](https://developer.adobe.com/commerce/docs/)。 您也可以說要區分雲端與內部部署使用者之devdocs中的指示：「[文章主題](https://developer.adobe.com/commerce/docs/)(在雲端基礎結構上Adobe Commerce的開發人員檔案中)」。 vs &quot;[文章主題](https://developer.adobe.com/commerce/docs/) (在我們Adobe Commerce內部部署的開發人員檔案中)。&quot;
+* [開發人員檔案中的文章主題](https://developer.adobe.com/commerce/docs/)。 您也可以說要區分雲端與內部部署使用者之devdocs中的指示：「[文章主題](https://developer.adobe.com/commerce/docs/)（在雲端基礎結構上Adobe Commerce的開發人員檔案中）」。 vs &quot;[文章主題](https://developer.adobe.com/commerce/docs/) （在我們Adobe Commerce內部部署的開發人員檔案中）。&quot;
 * 我們的支援知識庫中的[文章主題](https://support.magento.com/hc/en-us)。
 * 任何相關的資源（部落格、論壇、StackOverflow等）

@@ -6,18 +6,16 @@ feature: Compliance, Security
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '306'
 ht-degree: 0%
-
 ---
-
 # 安全性掃描工具報告為空白
 
 本文修正安全掃描工具顯示空白頁面而非實際報告的問題。 若要解決此問題，您可能需要將工具使用的IP新增至防火牆AllowList。
 
 ## 受影響的產品和版本：
 
-* Adobe Commerce （所有部署方法）和Magento Open Source，所有版本
+* Adobe Commerce （所有部署方法）和Magento Open Source （所有版本）
 
 ## 問題
 

@@ -6,11 +6,9 @@ feature: CMS, Marketing Tools, Storefront
 role: Admin
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '350'
 ht-degree: 0%
-
 ---
-
 # 無法將&#x200B;*連絡人*&#x200B;儲存為URL索引鍵
 
 本文提供當您無法將&#x200B;*連絡人*&#x200B;儲存為產品或CMS頁面的URL索引鍵（例如&quot;/contact&quot;）時，此問題的因應措施。
