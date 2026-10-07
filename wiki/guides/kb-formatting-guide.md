@@ -1,15 +1,14 @@
 ---
 source-git-commit: c587986edc925c49bf95ab935888b59f265371af
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '611'
 ht-degree: 0%
-
 ---
 # KB格式指南
 
 ## Markdown中的作者
 
-一般而言，我們使用[Adobe Experience League Markdown語法樣式指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=zh-Hant)，但會有一些差異和例外。 此外，在某些情況下，還需要某些HTML標籤。
+我們一般會使用[Adobe Experience League Markdown語法風格指南](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/markdown/syntax-style-guide.html?lang=en)，但會有一些差異和例外。 此外，在某些情況下，也需要使用某些HTML標籤。
 
 以下範例是存放庫中最常使用的Markdown格式設定。
 
@@ -27,7 +26,7 @@ ht-degree: 0%
 
 `<ins>This text will be underlined</ins>`
 
-若要新增分行符號，請使用`<br>`HTML標籤。
+若要新增分行符號，請使用`<br>` HTML標籤。
 
 
 ## 標頭
@@ -55,7 +54,7 @@ ht-degree: 0%
 \`\`\` sql
 
 選取TABLE_NAME作為`Table`，
-ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024)做為`Size (MB)`
+ROUND((DATA_LENGTH + INDEX_LENGTH) / 1024 / 1024) AS `Size (MB)`
 從information_schema.TABLES
 其中TABLE_SCHEMA = &quot;%project_id%&quot;
 排序依據(DATA_LENGTH + INDEX_LENGTH) DESC；
@@ -76,7 +75,7 @@ ORDER BY (DATA_LENGTH + INDEX_LENGTH) DESC;
 
 如需支援的語言清單，請造訪https://github.com/github/linguist/blob/master/lib/linguist/languages.yml。
 
-如果醒目提示對Markdown中的特定語言沒有作用（即不支援語言），若要使其在發佈至https://support.magento.com/hc/en-us/時至少醒目提示，請使用下列HTML：
+如果醒目提示無法用於Markdown中的特定語言（即不支援語言），若要使其在發佈至https://support.magento.com/hc/en-us/時至少醒目提示，請使用下列HTML：
 
 ```html
 <pre><code class="language-%language-code%"
@@ -165,7 +164,7 @@ your code here
 [this is link to the anchor in the same article](#this-is-header)
 ```
 
-如果您需要參考標頭以外的元素，請使用HTML來定義要新增的元素，並使用[id屬性](https://www.w3schools.com/html/html_id.asp)。 然後您可以使用Markdown或HTML來參照此ID。
+如果您需要參考標頭以外的元素，請使用HTML定義要新增的元素，並使用[id屬性](https://www.w3schools.com/html/html_id.asp)。 接著，您可以使用Markdown或HTML來參照此ID。
 
 ### 其他文章的相對連結和連結
 
