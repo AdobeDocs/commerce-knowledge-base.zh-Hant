@@ -29,5 +29,5 @@ Galera資料庫叢集是資料庫叢集，每個節點有一個MariaDB MySQL資�
 
 請參閱我們的開發人員檔案：
 
-* [適用於Adobe Commerce的Cloud > Pro架構>備份與災難回覆](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
-* [適用於Adobe Commerce的雲端>安裝必要條件：資料庫](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/overview)
+* [適用於Adobe Commerce的Cloud > Pro架構>備份與災難回覆](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#backup-and-disaster-recovery)
+* [適用於Adobe Commerce的雲端>安裝必要條件：資料庫](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/overview)
