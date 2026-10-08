@@ -6,11 +6,9 @@ feature: Install, Upgrade
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '359'
 ht-degree: 0%
-
 ---
-
 # 安裝或升級期間發生記憶體不足錯誤
 
 本文會介紹安裝/升級Adobe Commerce內部部署和Magento Open Source內部部署產品期間記憶體不足錯誤的解決方案。
@@ -58,6 +56,6 @@ proc_open(): fork failed - Cannot allocate memory
 
 使用下列參考中所述的`mkswap`命令：
 
-* [如何在CentOS 6 (Digitalocean)上新增交換功能](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
-* [如何在CentOS 7 (Digitalocean)上新增交換功能](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
+* [如何在CentOS 6上新增交換(Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-6)
+* [如何在CentOS 7上新增交換(Digitalocean)](https://www.digitalocean.com/community/tutorials/how-to-add-swap-on-centos-7)
 * [交換空間（RedHat客戶入口網站）](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Storage_Administration_Guide/ch-swapspace.html)
