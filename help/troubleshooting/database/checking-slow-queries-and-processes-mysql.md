@@ -4,13 +4,20 @@ description: 本文會討論一些常見的MySQL問題（緩慢查詢、流程�
 exl-id: cae02e4f-d8cb-4074-abac-24ead22bdc07
 feature: Services
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 # 正在檢查緩慢的查詢和處理MySQL
 
 本文會討論一些常見的MySQL問題（緩慢查詢、流程耗時過長），這些問題可能會對商戶的網站及其所指示的解決方案造成負面影響。
@@ -21,9 +28,9 @@ ht-degree: 0%
 
 如果因資料庫超載而造成中斷，這些步驟將協助您檢查資料庫的緩慢查詢記錄。
 
-### 使用MySQL命令列(Adobe Commerce Cloud/內部部署/Magento Open Source)分析查詢
+### 使用MySQL命令列(Adobe Commerce Cloud/on-premise/Magento Open Source)分析查詢
 
-1. 從命令列(雲端基礎結構上的Adobe Commerce)登入您的MySQL命令列(Adobe Commerce內部部署/Magento Open Source)或登入您的雲端伺服器。
+1. 從命令列（雲端基礎結構上的Adobe Commerce）登入您的MySQL命令列(Adobe Commerce on-premises/Magento Open Source)或登入您的雲端伺服器。
 1. 檢查慢速查詢記錄檔中超過50秒的查詢：
 
    ```bash
@@ -39,12 +46,12 @@ ht-degree: 0%
 * 建立傾印
 
 
-### 使用[!DNL Percona Toolkit]分析查詢(僅限Adobe Commerce Pro：雲端架構)
+### 使用[!DNL Percona Toolkit]分析查詢（僅限Adobe Commerce Pro：雲端架構）
 
 如果您的Adobe Commerce專案部署在Pro架構上，則可以使用[!DNL Percona Toolkit]來分析查詢。
 
 1. 對MySQL慢速查詢記錄檔執行`pt-query-digest --type=slowlog`命令。
-   * 若要尋找緩慢查詢記錄檔的位置，請參閱我們的開發人員檔案中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hant)**。
+   * 若要尋找緩慢查詢記錄檔的位置，請參閱我們的開發人員檔案中的&#x200B;**[[!UICONTROL Log locations > Service Logs]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html)**。
    * 請參閱[[!DNL Percona Toolkit] > pt-query-digest](https://www.percona.com/doc/percona-toolkit/LATEST/pt-query-digest.html#pt-query-digest)檔案。
 1. 根據發現的問題，採取步驟修正查詢，讓查詢更快執行。
 
@@ -56,7 +63,7 @@ ht-degree: 0%
 
 ### 步驟
 
-1. 從命令列(雲端基礎結構上的Adobe Commerce)登入您的MySQL命令列(Adobe Commerce內部部署/Magento Open Source)或登入您的雲端伺服器。
+1. 從命令列（雲端基礎結構上的Adobe Commerce）登入您的MySQL命令列(Adobe Commerce on-premises/Magento Open Source)或登入您的雲端伺服器。
 1. 使用以下程式碼區塊登入MySQL。 這會自動執行登入程式。
 
    ```MySQL
@@ -81,4 +88,4 @@ ht-degree: 0%
 * 在dev.mysql.com中[MySQL Show Processlist語法](https://dev.mysql.com/doc/refman/8.0/en/show-processlist.html)。
 * dev.mysql.com中的[MySQL Kill語法](https://dev.mysql.com/doc/refman/8.0/en/kill.html)。
 * 在開發人員檔案中[安全性、效能和資料處理](https://developer.adobe.com/commerce/php/best-practices/extensions/security/)。
-* 在開發人員檔案中[MySQL說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。
+* 在開發人員檔案中[MySQL說明](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql)。
