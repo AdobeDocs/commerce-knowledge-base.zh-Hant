@@ -4,13 +4,29 @@ description: 本文提供Adobe Commerce Intelligence帳戶鎖定的解決方案�
 exl-id: 85968257-ba4b-4cfb-a4fa-497b4c5b5aea
 feature: Cache, Commerce Intelligence, Console
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '639'
 ht-degree: 0%
-
 ---
-
 # 疑難排解Adobe Commerce Intelligence帳戶鎖定
 
 <!--
@@ -27,7 +43,7 @@ BOB: Is this in TOC?
 
 ## 嘗試重設您的密碼
 
-如果您已確認您使用正確的電子郵件，請嘗試重設密碼。 您可以使用&#x200B;**忘記？**&#x200B;連結（位於上一節的登入頁面上）以觸發密碼重設電子郵件。
+如果您已確認您使用正確的電子郵件，請嘗試重設密碼。 您可以使用&#x200B;**忘記？** 上一節登入頁面上的連結，以觸發密碼重設電子郵件。
 
 如果您一開始沒有看到電子郵件，請務必檢視您的垃圾郵件資料夾。 有時甚至是善意的電子郵件也會被誤認為垃圾郵件。 **請注意，這些電子郵件中的暫時存取連結只有效一次！**
 
@@ -42,11 +58,11 @@ BOB: Is this in TOC?
 >
 >此步驟並不一定是必要的，但主動完成此步驟可減少因支援要求而往返的時間。
 
-如果您還是無法存取帳戶，建議您檢查錯誤，並將票證提交至我們的支援團隊。 您應如何操作？ 開啟瀏覽器的開發人員工具，並擷取主控台或網站記錄視窗中顯示的任何錯誤的熒幕擷圖。 在以下GIF中，我將開啟Google Chrome的開發人員工具：
+如果您還是無法存取帳戶，建議您檢查錯誤，並將票證提交至我們的支援團隊。 您應如何操作？ 開啟瀏覽器的開發人員工具，並擷取主控台或網站記錄視窗中顯示的任何錯誤的熒幕擷圖。 在下面的GIF中，我將開啟Google Chrome的開發人員工具：
 
 ![正在開啟Chrome的開發人員工具。](assets/Opening_Chrome_dev_tools.gif)
 
-在上述範例中，我們使用最常見的方法(**按一下右鍵** > **Inspect**)來開啟主控台。 如果您的瀏覽器沒有此方法，或您需要協助，請針對您使用的網頁瀏覽器，使用下列檔案連結：
+在上述範例中，我們使用最常見的方法（**按一下滑鼠右鍵** > **檢查**）來開啟主控台。 如果您的瀏覽器沒有此方法，或您需要協助，請針對您使用的網頁瀏覽器，使用下列檔案連結：
 
 <table>
 <tbody>
@@ -66,10 +82,10 @@ BOB: Is this in TOC?
 
 ## 沒有看到任何錯誤或您剛剛迷路？
 
-別擔心！ 請填寫新的支援票證(請務必加入您的Commerce Intelligence帳戶電子郵件地址)，我們將會儘快讓您返回帳戶。
+別擔心！ 請填寫新的支援票證（請務必加入您的Commerce Intelligence帳戶電子郵件地址），我們將會儘快讓您返回帳戶。
 
 ## 我們的支援知識庫中的相關主題：
 
-* [正在新增使用者並設定許可權](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html?lang=zh-Hant)
-* [如何更新我的電子郵件地址或密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html?lang=zh-Hant)
-* [如何重設密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html?lang=zh-Hant)
+* [新增使用者並設定許可權](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/user-management.html)
+* [如何更新我的電子郵件地址或密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/create-user.html)
+* [如何重設密碼？](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/administrator/user-mgmt/reset-password.html)
