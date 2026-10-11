@@ -4,13 +4,27 @@ description: 本文提供因安裝精靈在安裝期間未建立'install.log'而
 exl-id: ff614018-8e49-4170-a806-8ebdc91ae8a9
 feature: Install, Logs, Upgrade
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '283'
 ht-degree: 0%
-
 ---
-
 # 安裝失敗；無法建立install.log
 
 本文提供因安裝精靈在安裝期間未建立`install.log`而造成安裝失敗的修正。
@@ -34,7 +48,7 @@ Installation-fails-cannot-create-install.log
 
 1. 如果您尚未這樣做，請建立[phpinfo.php](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software)。
 1. 在瀏覽器的位址或位置欄位中輸入下列URL： `https://<your web server IP or hostname>/<path to docroot>/phpinfo.php`
-1. 尋找`php.ini`的位置。     在顯示的結果中，`php.ini`通常指定為&#x200B;**載入的組態檔**。
+1. 尋找`php.ini`的位置。在顯示的結果中，`php.ini`通常指定為&#x200B;**載入的組態檔**。
 1. 以具有根許可權的使用者身分，在文字編輯器中開啟`php.ini`。
 1. 找到`open_basedir`的值並加以變更。
 1. 將您的變更儲存至`php.ini`。
