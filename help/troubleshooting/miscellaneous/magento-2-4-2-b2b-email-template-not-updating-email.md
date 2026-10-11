@@ -1,19 +1,31 @@
 ---
 title: Adobe Commerce 2.4.2 B2B：電子郵件範本未更新電子郵件
-description: 本文說明一個已知的Adobe Commerce 2.4.2 B2B問題，該問題導致電子郵件範本中的部分資訊更新未更新。 此問題會影響電子郵件內容，例如客戶資訊、匯率、貨幣符號、電子郵件範本變更等。 目前沒有可用的解決方案，但本文底部有暫行解決方法。
+description: 本文說明一個已知的Adobe Commerce 2.4.2 B2B問題，該問題導致電子郵件範本中的部分資訊更新未更新。 此問題會影響電子郵件內容，例如客戶資訊、匯率、貨幣符號、電子郵件範本變更等。目前沒有可用的解決方案，但本文底部有暫行解決方法。
 exl-id: 31b7086f-a941-4682-aa07-301ac31d543b
 feature: B2B, Communications
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '286'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.2 B2B：電子郵件範本未更新電子郵件
 
-本文說明一個已知的Adobe Commerce 2.4.2 B2B問題，該問題導致電子郵件範本中的部分資訊更新未更新。 此問題會影響電子郵件內容，例如客戶資訊、匯率、貨幣符號、電子郵件範本變更等。 目前沒有可用的解決方案，但本文底部有暫行解決方法。
+本文說明一個已知的Adobe Commerce 2.4.2 B2B問題，該問題導致電子郵件範本中的部分資訊更新未更新。 此問題會影響電子郵件內容，例如客戶資訊、匯率、貨幣符號、電子郵件範本變更等。目前沒有可用的解決方案，但本文底部有暫行解決方法。
 
 ## 受影響的產品和版本
 

@@ -1,23 +1,30 @@
 ---
-title: 「PWA Studio：瀏覽器不信任產生的SSL憑證」
-description: 本文提供開發期間導覽至PWA Studio店面的本機執行個體時，瀏覽器中不受信任且產生的SSL憑證警告解決方案。
+title: PWA Studio：瀏覽器不信任產生的SSL憑證
+description: 本文提供解決方案，可在開發期間導覽至PWA Studio店面的本機執行個體時，解決瀏覽器中不受信任且產生的SSL憑證警告。
 exl-id: b7bfe1e6-5832-4472-9e51-f04b8583428a
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '303'
 ht-degree: 0%
-
 ---
-
 # PWA Studio：瀏覽器不信任產生的SSL憑證
 
-本文提供開發期間導覽至PWA Studio店面的本機執行個體時，瀏覽器中不受信任且產生的SSL憑證警告解決方案。
+本文提供解決方案，可在開發期間導覽至PWA Studio店面的本機執行個體時，解決瀏覽器中不受信任且產生的SSL憑證警告。
 
 ## 受影響的產品和版本
 
-Adobe Commerce的PWA Studio
+適用於Adobe Commerce的PWA Studio
 
 ## 問題
 

@@ -4,13 +4,25 @@ description: 更新日期： 2019年2月29日
 exl-id: aab77407-94e5-42de-92f4-2f0c19e24fa4
 feature: Deploy, Extensions
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '368'
 ht-degree: 0%
-
 ---
-
 # 部署失敗Fastly模組與Adobe Commerce版本不相容
 
 更新日期： 2019年2月29日
@@ -68,6 +80,6 @@ ht-degree: 0%
 
 1. 執行以下其中一個命令：
    * 如果Fastly模組包含在magento-cloud-metapackage中：    <pre>Composer更新magento/magento-cloud-metapackage</pre>
-   * 如果Fastly模組是單獨安裝(例如，如果您是使用Adobe Commerce內部部署，而不是雲端版本) <pre>Composer更新fastly/magento2</pre>
+   * 如果Fastly模組是單獨安裝（例如，如果您是使用Adobe Commerce內部部署，而不是雲端版本） <pre>Composer更新fastly/magento2</pre>
 1. 提交並推播變更，如果未自動完成，則觸發部署程式。
 1. 在Admin中，[將新VCL上傳到Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration#upload-vcl-snippets)。
