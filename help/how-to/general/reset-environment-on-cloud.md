@@ -3,13 +3,28 @@ title: 在雲端基礎結構上重設Adobe Commerce的環境
 description: 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
 exl-id: e6b27838-ca1e-415f-a098-2aa2576e3f20
 feature: Best Practices, Build, Cloud, Console
-source-git-commit: 984562f30789ee4cea1f6b43eb960545a71da35e
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1256'
 ht-degree: 0%
-
 ---
-
 # 在雲端基礎結構上重設Adobe Commerce的環境
 
 本文說明在雲端基礎結構上Adobe Commerce上復原環境的不同案例。
@@ -49,9 +64,9 @@ ht-degree: 0%
 
 1. 如果應用程式（例如[!DNL MariaDB]）已升級為此計畫活動的一部分，請先將該應用程式重新安裝至先前的版本。
 1. [!UICONTROL Rollback]使用本機[!UICONTROL Database Dump]的資料庫，並將它匯回[!DNL MariaDB]。
-1. 透過[!UICONTROL Rollback]將程式碼[!DNL Git]至先前的工作版本。
+1. 透過[!DNL Git]將程式碼[!UICONTROL Rollback]至先前的工作版本。
 
-對於升級/規劃的活動[!UICONTROL Snapshots]，不建議使用[!UICONTROL rollbacks/restores]，因為擷取資料所需的時間比本機[!UICONTROL Database Dump]長，如上方&#x200B;**步驟2所述，若需要[!UICONTROL Rollback]**&#x200B;區段。
+對於升級/規劃的活動[!UICONTROL rollbacks/restores]，不建議使用[!UICONTROL Snapshots]，因為擷取資料所需的時間比本機[!UICONTROL Database Dump]長，如上方&#x200B;**步驟2所述，若需要[!UICONTROL Rollback]**&#x200B;區段。
 
 [!UICONTROL Snapshots]不是儲存在節點/伺服器上，而是儲存在不同的儲存區塊上，而且由於資料必須透過網路從區塊儲存傳輸至新磁碟，所以這個過程需要時間。 然後，會將新磁碟掛載到節點，準備擷取/匯入到連線到節點/伺服器的原始磁碟。
 
@@ -122,7 +137,7 @@ ht-degree: 0%
 
 透過[!DNL git]重設，我們將程式碼還原成過去所需的狀態。
 
-1. 將環境複製到本機開發環境。 您可以在Cloud Console中複製命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. 將環境複製到本機開發環境。 您可以在雲端主控台中複製命令： ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 存取認可歷史記錄。 使用`--reverse`以相反順序顯示歷程記錄，以方便使用： `git log --reverse`
 1. 選取您擅長的認可雜湊。 若要將程式碼重設為真實狀態(Vanilla)，請尋找建立分支（環境）的第一個認可。
    ![替代文字](image.png)

@@ -4,13 +4,23 @@ description: Adobe已發行品質修補程式工具以供一般使用，此工�
 exl-id: e6a79d16-84be-4a71-a41d-ef2b43ec98d9
 feature: Tools and External Services
 role: Admin
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 618ab558-d6ad-5352-99d6-d5702c6fdf80
+    internal-label: Tools and External Services
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # 已發行品質修補程式工具：提供自助式品質修補程式的新工具
 
 Adobe已發行品質修補程式工具以供一般使用，此工具可讓您套用、還原及檢視已安裝的Adobe Commerce版本（內部部署和雲端基礎結構）或Magento Open Source可用的品質修補程式的一般資訊。
@@ -29,5 +39,5 @@ Adobe已發行品質修補程式工具以供一般使用，此工具可讓您套
 
 如需詳細資訊，請參閱我們的開發人員檔案：
 
-* [品質修補程式工具中可用的修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hant)
-* [品質修補工具發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/release-notes)
+* [Quality Patches Tool提供的修補程式](https://experienceleague.adobe.com/tools/commerce-quality-patches/index.html?lang=zh-Hant)
+* [品質修補程式工具發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/quality-patches-tool/release-notes)

@@ -4,16 +4,32 @@ description: 本文針對下列問題提供解決方案：嘗試在雲端專案U
 exl-id: 04d28741-72c1-4722-be46-425fe136b9a6
 feature: Cloud, Deploy, Logs, Paas
 role: Developer
-source-git-commit: 846df05668b357b9088bcaf605a75c45ab10f1ae
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: 3c398179-d35a-51ba-b317-6c5b95feef5e
+    internal-label: Logs
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '378'
 ht-degree: 0%
-
 ---
-
 # 正在檢查Cloud UI是否有&#x200B;*記錄檔片段*&#x200B;錯誤
 
-本文針對雲端基礎結構UI上的Adobe Commerce顯示&#x200B;*記錄檔片段的問題，提供解決方案，因為嘗試在雲端專案UI上檢視部署記錄檔時，記錄檔片段太長*&#x200B;錯誤訊息。 (不適用於[Adobe Commerce Cloud主控台](https://console.adobecommerce.com/)。)
+本文針對雲端基礎結構UI上的Adobe Commerce顯示&#x200B;*記錄檔片段的問題，提供解決方案，因為嘗試在雲端專案UI上檢視部署記錄檔時，記錄檔片段太長*&#x200B;錯誤訊息。 （不適用於[Adobe Commerce Cloud Console](https://console.adobecommerce.com/)。）
 
 ## 受影響的產品
 
@@ -34,7 +50,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 請確定您已在本機環境中安裝[Magento雲端CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hant)。
+1. 請確定您的本機環境中已安裝[Magento Cloud CLI](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli.html?lang=zh-Hant)。
 1. 您可以執行下列任一命令：
 
    ```bash
@@ -70,5 +86,5 @@ ht-degree: 0%
 
 ## 開發人員檔案中的相關閱讀：
 
-* 雲端基礎結構上的[Adobe Commerce >建置和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)
-* 雲端基礎結構上的[Adobe Commerce >檢視及管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hant)
+* [雲端基礎結構上的Adobe Commerce >建置和部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)
+* [雲端基礎結構上的Adobe Commerce >檢視和管理記錄檔](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/test/log-locations.html?lang=zh-Hant)

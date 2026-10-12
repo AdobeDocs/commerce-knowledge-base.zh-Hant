@@ -2,13 +2,14 @@
 title: 無法存取最新的Beta版本
 description: 本文提供解決方案，解決嘗試使用最新Beta版本Adobe Commerce程式碼時的問題。 Beta程式碼僅適用於已遵循[Adobe Beta方案](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述程式的官方Adobe Commerce合作夥伴。
 exl-id: a53c854e-38a8-4c8c-8586-9d99c576c835
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '660'
 ht-degree: 0%
-
 ---
-
 # 無法存取最新的Beta版本
 
 本文提供解決方案，解決嘗試使用最新Beta版本Adobe Commerce程式碼時的問題。 Beta程式碼僅適用於已遵循[Adobe Beta方案](https://github.com/magento/magento2/wiki/Magento-Beta-Program)中所述程式的官方Adobe Commerce合作夥伴。
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 本文介紹以下有關存取提早存取程式碼的問題：
 
-* Adobe Commerce Beta版本無法在&#x200B;**magento.com**&#x200B;的&#x200B;**我的帳戶** > [下載](https://account.magento.com/customer/account/login)下下載。
+* Adobe Commerce Beta版本無法在[magento.com](https://account.magento.com/customer/account/login)的&#x200B;**我的帳戶** > **下載**&#x200B;下下載。
 * 無法使用Composer從[magento.com](https://account.magento.com/customer/account/login)下載搶先存取的Adobe Commerce版本。
 
 ## 原因

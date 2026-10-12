@@ -1,16 +1,26 @@
 ---
-title: Cron由於設定錯誤或遺失 [!DNL OpCache] 設定而停止
-description: 本文提供因設定錯誤或遺失 [!DNL OpCache] 設定而導致cron停止運作時的解決方案。
+title: Cron由於設定錯誤或遺失[!DNL OpCache]設定而停止
+description: 本文提供因設定錯誤或遺失[!DNL OpCache]設定而導致cron停止運作時的解決方案。
 exl-id: 30643ea9-969f-41c8-8e62-b24e56d690cf
 feature: Cache
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '373'
 ht-degree: 0%
-
 ---
-
 # Cron已停止，因為設定錯誤或遺失[!DNL OpCache]設定
 
 本文提供因遺失或錯誤設定[!DNL OpCache]設定而導致cron停止運作時的解決方案。
@@ -25,7 +35,7 @@ cron已停止運作。
 
 ## 原因
 
-[!DNL OpCache]模組已更新至較新的版本，該版本引進了[!DNL GraphQL]外掛程式，在執行階段會重寫`env.php`，而且可能會覆寫cron設定，這可能造成問題。 需要更新[!DNL OpCache]設定以避免與`env.php file`有關的任何問題，並且已在[封裝的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=zh-Hant#v2002.1.13)版本2002.1.13[!DNL ECE Tools]中解決。
+[!DNL OpCache]模組已更新至較新的版本，該版本引進了[!DNL GraphQL]外掛程式，在執行階段會重寫`env.php`，而且可能會覆寫cron設定，這可能造成問題。 需要更新[!DNL OpCache]設定以避免與`env.php file`有關的任何問題，並且已在[!DNL ECE Tools]封裝的[版本2002.1.13](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/ece-tools-package.html?lang=zh-Hant#v2002.1.13)中解決。
 
 ## 解決方案
 
@@ -50,8 +60,8 @@ bin/magento cron:run
 1. 請確定您使用最新版本的[!DNL ECE Tools]。 如果您尚未升級，請升級（或跳至專案3）。 若要檢查現有版本，請執行此命令：
    `composer show magento/ece-tools`
 1. 如果您已經使用最新版的[!DNL ECE Tools]，請檢查`op-exclude.txt`檔案是否存在。 要執行此操作，請執行此命令：
-   `ls op-exclude.txt`。
-如果此檔案不存在，請將https://github.com/magento/magento-cloud/blob/master/op-exclude.txt新增至您的存放庫，然後確認變更並重新部署。
+   `ls op-exclude.txt`.
+   如果此檔案不存在，請將https://github.com/magento/magento-cloud/blob/master/op-exclude.txt新增至您的存放庫，然後確認變更並重新部署。
 1. 不必升級[!DNL ECE Tools]，您也可以在存放庫中新增/修改https://github.com/magento/magento-cloud/blob/master/op-exclude.txt，然後確認變更並重新部署。
 
 ## 相關閱讀

@@ -4,13 +4,22 @@ description: 本文說明使用Klarna付款方法的已知Adobe Commerce 2.4.0�
 exl-id: f0f9edfc-eaad-4947-9200-41e217bfbe84
 feature: Orders, Payments
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '204'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0已知問題： Klarna站上訊息空白頁面
 
 本文說明使用Klarna付款方法的已知Adobe Commerce 2.4.0問題，其中啟用Klarna站上傳訊而不指定設計主題，導致無法在店面正確顯示產品頁面（產品頁面顯示為空白）。

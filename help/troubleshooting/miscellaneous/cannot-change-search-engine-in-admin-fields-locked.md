@@ -2,13 +2,14 @@
 title: 無法變更'app/etc/env.php'中的搜尋引擎
 description: 本文提供當您嘗試在Commerce管理員中變更搜尋引擎，但欄位鎖定的問題的解決方案。
 exl-id: 61006ce7-34f9-4e4d-a197-f3d627dd277f
-source-git-commit: 129e24366aedb132adb84e1f0196d2536422180f
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 # 無法變更`app/etc/env.php`中的搜尋引擎
 
 本文提供您嘗試從`app/etc/env.php`檔案移除搜尋引擎組態，但在重新部署後，組態會回覆成先前的設定，或是依預設變更為[!DNL OpenSearch]的問題的解決方案。
@@ -42,4 +43,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 雲端基礎結構指南上的CommerceCommerce管理員中的[鎖定（灰色）欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26879)。
+* 雲端基礎結構指南上的Commerce管理員中的[鎖定（灰色）欄位](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26879)。

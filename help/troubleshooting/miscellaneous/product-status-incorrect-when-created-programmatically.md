@@ -4,13 +4,20 @@ description: 本文修正了當產品狀態為停用，以及產品未顯示在�
 exl-id: ac02f961-f9e2-4620-839f-b8dbd0befb15
 feature: Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '212'
+source-wordcount: '227'
 ht-degree: 0%
-
 ---
-
 # 以程式設計方式建立時產品狀態不正確
 
 本文修正了當產品狀態為停用，以及產品未顯示在商店正面時，或以程式設計方式建立/更新時，指派給錯誤商店檢視的問題。
@@ -34,4 +41,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Github：無法變更使用productRepository](https://github.com/magento/magento2/issues/5664)建立的產品狀態
+* [Github：無法變更使用productRepository所建立之產品的產品狀態](https://github.com/magento/magento2/issues/5664)

@@ -4,13 +4,22 @@ description: '*雲端基礎結構上的Adobe Commerce （所有版本）'
 exl-id: 36ed9c9f-8280-41db-9df3-fe842dade4b1
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 139c2836ba36686357c7a5458a36550c7b1273c1
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '235'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce雲端：重新索引已終止，並出現`Killed`訊息
 
 ## 受影響的產品和版本
@@ -37,5 +46,5 @@ ht-degree: 0%
 
 在我們的開發人員檔案中：
 
-* [專業架構>整合環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
+* [Pro架構>整合環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/pro-architecture#integration-environment)
 * [入門架構>測試環境](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/architecture/starter-architecture#cloud-arch-stage)

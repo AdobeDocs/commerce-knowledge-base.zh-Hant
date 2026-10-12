@@ -3,13 +3,26 @@ title: 復原沒有雲端快照的環境
 description: 本文說明兩種解決方案，可復原環境，而不會在雲端基礎結構上的Adobe Commerce上擁有環境的快照。
 exl-id: 834d13a7-3b1a-460c-9ed0-9d560105f436
 feature: Build, Cloud, Console
-source-git-commit: d7c714cf5b2f9db139440d814af26c12001bb4d9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: adedf3b3-e153-47a3-ae73-b5d65067b544
+    internal-label: Build system
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '949'
 ht-degree: 0%
-
 ---
-
 # 復原沒有雲端快照的環境
 
 本文說明兩種解決方案，可復原環境，而不會在雲端基礎結構上的Adobe Commerce上擁有環境的快照。
@@ -44,7 +57,7 @@ ht-degree: 0%
 
 我們需要停用「組態管理」，以免在部署期間自動套用先前的組態設定。
 
-若要停用「組態管理」，請確定您的`/app/etc/`目錄不包含`config.php` (適用於Adobe Commerce 2.4.x)或`config.local.php` (適用於Adobe Commerce 2.1.x)檔案。
+若要停用「組態管理」，請確定您的`/app/etc/`目錄不包含`config.php` （適用於Adobe Commerce 2.4.x）或`config.local.php` （適用於Adobe Commerce 2.1.x）檔案。
 
 若要移除組態檔，請遵循下列步驟：
 
@@ -94,7 +107,7 @@ ht-degree: 0%
 
 透過Git重設，我們會將程式碼恢復到過去所需的狀態。
 
-1. 將環境複製到本機開發環境。 您可以在Cloud Console中複製命令：    ![copy_git_clone.png](assets/copy_git_clone.png)
+1. 將環境複製到本機開發環境。 您可以在雲端主控台中複製命令： ![copy_git_clone.png](assets/copy_git_clone.png)
 1. 存取認可歷史記錄。 使用`--reverse`以相反順序顯示歷程記錄，以方便使用：
 
    ```git
@@ -122,13 +135,13 @@ ht-degree: 0%
 
 在這種情況下，您必須先使用Git重設還原Adobe Commerce應用程式的工作狀態，然後解除安裝Adobe Commerce軟體（若要卸除並還原資料庫、移除部署設定等）。 此情境涉及與情境1相同的步驟，但步驟順序不同，並且有另一個步驟 — 強制重新部署。 步驟如下：
 
-[1.重設Git分支。](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
+[&#x200B;1. 重設Git分支。](/help/how-to/general/reset-environment-on-cloud.md#reset-git-branch)
 
-[2。 停用組態管理。](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
+[2. 停用組態管理。](/help/how-to/general/reset-environment-on-cloud.md#disable_config_management)
 
-[3.解除安裝Adobe Commerce軟體。](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
+[&#x200B;3. 解除安裝Adobe Commerce軟體。](/help/how-to/general/reset-environment-on-cloud.md#setup-uninstall)
 
-4&amp;amp；句點；強制重新部署。
+4個期間；強制重新部署。
 
 執行這些步驟後，您將會獲得與案例1相同的結果。
 
@@ -171,9 +184,9 @@ git commit --allow-empty -m "<message>" && git push <origin> <branch>
 
 在我們的開發人員檔案中：
 
-* [還原雲端上的快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
+* [在雲端上還原快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#restore-a-manual-backup)
 * [建立快照](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots#create-a-manual-backup)
-* [快照和備份管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
+* [快照與備份管理](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/storage/snapshots)
 * [使用Cloud Console管理分支 — 檢視記錄](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/console-branches.html?lang=zh-Hant#view-logs)
 * [元件部署失敗](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/deploy/recover-failed-deployment.html?lang=zh-Hant)
 * [管理您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/overview.html?lang=zh-Hant#configure-the-project)

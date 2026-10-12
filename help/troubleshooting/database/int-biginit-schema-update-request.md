@@ -4,13 +4,20 @@ description: 當您無法儲存產品更新（例如價格變更）或刪除及�
 exl-id: e2a00371-9032-4e81-b60e-5456ba35be94
 feature: Services
 role: Developer
-source-git-commit: 2fa4ab1fcba962033a6dd6a448a6cec49b5e8bf2
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '658'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce資料庫數值超出範圍，`INT`到`BIGINT`
 
 >[!WARNING]
@@ -33,7 +40,7 @@ WHERE
 * Adobe Commerce （所有部署方法）所有[支援的版本](https://www.adobe.com/content/dam/cc/en/legal/terms/enterprise/pdfs/Adobe-Commerce-Software-Lifecycle-Policy.pdf)
 
 當您無法儲存產品更新（例如價格變更）或刪除及複製產品時，本文會提供解決方案。
-您可能會看到錯誤訊息*無法儲存庫存專案。 請重試。*&#x200B;在產品更新後，您可能無法部署。 當您執行[!DNL MySQL]時，您也可能看到下列`php bin/magento setup:upgrade`錯誤訊息（在雲端基礎結構上的Adobe Commerce上，此錯誤顯示在部署記錄中）：
+您可能會看到錯誤訊息*無法儲存庫存專案。 請再試一次。* 產品更新後，您可能無法部署。 當您執行`php bin/magento setup:upgrade`時，您也可能看到下列[!DNL MySQL]錯誤訊息（在雲端基礎結構上的Adobe Commerce上，此錯誤顯示在部署記錄中）：
 
 ```mysql
 SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column 'value_id' at row 1, query was: INSERT INTO `catalog_product_entity_decimal` (`attribute_id`,`store_id`,`row_id`,`value`) VALUES (?, ?, ?, ?) ON DUPLICATE KEY UPDATE `attribute_id` = VALUES(`attribute_id`), `store_id` = VALUES(`store_id`), `row_id` = VALUES(`row_id`), `value` = VALUES(`value`)
@@ -51,7 +58,7 @@ SQLSTATE[22003]: Numeric value out of range: 167 Out of range value for column '
 
 在終端機中執行下列命令，檢查主索引鍵的最大值： `SELECT MAX(value_id) FROM catalog_product_entity_int;`
 
-如果`max(value_id)`小於`max int(11) [ 4294967296 ]`，且`[ AUTO_INCREMENT ]`的值大於或等於`max int(11) [ 4294967296 ]`，則請考慮將[更新為資料表`[ AUTO_INCREMENT ]`中的下一個值。 &#x200B;](#update-the-auto-increment-to-the-next-value-from-the-table)否則，請考慮[`INT`到`BIGINT`的結構描述更新](#int_to_bigint_schema_update)。
+如果`max(value_id)`小於`max int(11) [ 4294967296 ]`，且`[ AUTO_INCREMENT ]`的值大於或等於`max int(11) [ 4294967296 ]`，則請考慮將[更新為資料表](#update-the-auto-increment-to-the-next-value-from-the-table)中的下一個值。 `[ AUTO_INCREMENT ]`否則，請考慮[`INT`到`BIGINT`的結構描述更新](#int_to_bigint_schema_update)。
 
 ## 將`AUTO_INCREMENT`更新為資料表中的下一個值 {#update-the-auto-increment-to-the-next-value-from-the-table}
 

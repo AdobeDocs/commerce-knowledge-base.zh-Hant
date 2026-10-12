@@ -4,13 +4,24 @@ description: 本文針對「var/log/exception.log」中的資料庫連線錯誤�
 exl-id: e8932b72-91a3-43ea-800e-a6c7a5a17656
 feature: Best Practices, Observability, Services
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 4239b8a6-e74f-567d-a7a5-b98b9ead0ea4
+    internal-label: Observability
+  - id: da76473c-f99b-5ad0-9b14-896aed473f8a
+    internal-label: Services
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '626'
 ht-degree: 0%
-
 ---
-
 # 與Adobe Commerce上max_allowed_packet相關的資料庫錯誤
 
 本文針對`var/log/exception.log`中的資料庫連線錯誤，提供解決方案，此錯誤可能在匯入大量產品或執行其他工作時發生，強制伺服器處理大於`max_allowed_packet`中設定的大於預設值16MB的封包。
@@ -21,7 +32,7 @@ ht-degree: 0%
 
 ## 問題
 
-當[!DNL MySQL]使用者端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)伺服器收到大於[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)位元組的封包時，它會發出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)錯誤（可在`exception.log`中看到）並關閉連線。 如果通訊封包太大，對於某些使用者端，您也可能在查詢&#x200B;*錯誤期間收到[!DNL MySQL]與*&#x200B;伺服器的遺失連線。
+當[!DNL MySQL]使用者端或[mysqld](https://dev.mysql.com/doc/refman/8.0/en/mysqld.html)伺服器收到大於[max\_allowed\_packet](https://dev.mysql.com/doc/refman/8.0/en/server-system-variables.html#sysvar_max_allowed_packet)位元組的封包時，它會發出[ER\_NET\_PACKET\_TOO\_LARGE](https://dev.mysql.com/doc/mysql-errors/8.0/en/server-error-reference.html#error_er_net_packet_too_large)錯誤（可在`exception.log`中看到）並關閉連線。 如果通訊封包太大，對於某些使用者端，您也可能在查詢&#x200B;*錯誤期間收到*&#x200B;與[!DNL MySQL]伺服器的遺失連線。
 
 <u>要再現的步驟</u>
 
@@ -34,7 +45,7 @@ ht-degree: 0%
 ## 解決方案
 
 1. 識別個別資料列超過目前`max_allowed_packet`限制的查詢。 這類查詢需要重寫以降低傳回的資料量。 若要這麼做，可在`SELECT`陳述式中減少資料行數目，或是為資料表設計中的各個資料行選擇較小的資料型別。 如果您有New Relic帳戶，請使用[New Relic APM錯誤頁面](https://docs.newrelic.com/docs/apm/apm-ui-pages/error-analytics/errors-page-explore-events-behind-errors)和[New Relic APM資料庫頁面](https://docs.newrelic.com/docs/apm/apm-ui-pages/monitoring/databases-page-view-operations-throughput-response-time)以及[New Relic記錄檔](https://docs.newrelic.com/docs/logs/log-management/get-started/get-started-log-management)來搜尋相關查詢。
-1. 為了快速修正，您可以在您`max_allowed_packet`提交票證[時暫時要求增加](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)大小，但這是由客戶工程團隊自行決定，因為值太大可能會導致網路阻塞，進而導致復寫失敗。
+1. 為了快速修正，您可以在您[提交票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)時暫時要求增加`max_allowed_packet`大小，但這是由客戶工程團隊自行決定，因為值太大可能會導致網路阻塞，進而導致復寫失敗。
 1. 最佳實務是，您應該在CLI中針對某些大型資料庫表格執行下列命令：
 
    ```

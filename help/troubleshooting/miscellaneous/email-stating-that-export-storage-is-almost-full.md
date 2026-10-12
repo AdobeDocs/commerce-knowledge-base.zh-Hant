@@ -4,13 +4,24 @@ description: 本文針對您收到指出匯出儲存空間幾乎已滿的電子�
 feature: Cloud, Storage, Media
 role: Developer
 exl-id: 7dae295c-919c-46c5-bf63-7d3467c2e07f
-source-git-commit: 11cf981c7ebe813219a0cd311632eafce086bbf6
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: aa037b12-c774-5642-a947-459024feb1a2
+    internal-label: Storage
+  - id: 4ca54350-01cb-5b22-8966-5f2873dc6d90
+    internal-label: Media
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '451'
 ht-degree: 0%
-
 ---
-
 # 電子郵件指出匯出儲存空間幾乎已滿
 
 本文針對您收到指出匯出儲存空間幾乎已滿的電子郵件問題，提供解決方案。
@@ -42,9 +53,9 @@ ht-degree: 0%
 
 * 在此範例中，`/data/exports`是主要匯出檔案系統：
 
-   * 總計50 GB
-   * 已使用38 GB
-   * 12 GB可用（77%使用率）
+  * 總計50 GB
+  * 已使用38 GB
+  * 12 GB可用（77%使用率）
 
 * `/data/exports/shared`是用於共用資料的`tmpfs` （記憶體內）掛載，對磁碟壓力沒有顯著作用。
 
@@ -56,7 +67,7 @@ ht-degree: 0%
 
 請依照下列步驟，檢閱、清理及驗證匯出儲存裝置的使用情形。
 
-1. 執行命令`df -h | grep exports`以檢查匯出儲存檔案系統的目前使用狀況。 檢閱&#x200B;**的**&#x200B;使用%`/data/exports`資料行：
+1. 執行命令`df -h | grep exports`以檢查匯出儲存檔案系統的目前使用狀況。 檢閱`/data/exports`的&#x200B;**使用%**&#x200B;資料行：
 
    * 如果使用率為70-85%，請開始規劃清理。
    * 如果使用率大於90%，請立即採取動作以避免寫入失敗或服務影響。
@@ -75,7 +86,7 @@ ht-degree: 0%
    * 在非生產環境中，您通常可以更積極地移除測試媒體或舊成品。
    * 在生產環境中，刪除任何媒體或業務關鍵檔案之前，請與您的團隊協調。
 
-1. 清除之後，請執行以下命令`df -h | grep exports`，確認&#x200B;**的** Use%`/data/exports`值已降至安全作業等級。
+1. 清除之後，請執行以下命令`df -h | grep exports`，確認`/data/exports`的&#x200B;**Use%**&#x200B;值已降至安全作業等級。
 
 ## 相關閱讀
 

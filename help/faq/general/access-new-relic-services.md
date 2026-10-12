@@ -2,13 +2,14 @@
 title: 存取New Relic服務
 description: 本文說明具有足夠授權/訂閱授權的客戶如何存取特定New Relic服務：
 exl-id: c01af85e-0590-49e8-a1a0-b901f23c4431
-source-git-commit: 09777d70272bdb78a0bcf7566cc398a53c474f4c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 0%
-
 ---
-
 # 存取New Relic服務
 
 本文說明具有足夠授權/訂閱授權的客戶如何存取特定New Relic服務：

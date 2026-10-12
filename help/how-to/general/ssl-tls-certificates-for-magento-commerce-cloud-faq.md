@@ -3,13 +3,22 @@ title: 雲端基礎結構上Adobe Commerce的SSL (TLS)憑證
 description: 本文提供在我們的雲端基礎結構上取得您Adobe Commerce網站的SSL (TLS)憑證相關問題的快速解答。
 exl-id: 5a682d07-e4d7-4e81-a2ad-3232f2d8d9c1
 feature: Cloud, Console
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: c4af0798-d497-5e6b-8380-19812c26d00a
+    internal-label: Console
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1211'
 ht-degree: 0%
-
 ---
-
 # 雲端基礎結構上Adobe Commerce的SSL (TLS)憑證
 
 本文提供在我們的雲端基礎結構上取得您Adobe Commerce網站的SSL (TLS)憑證相關問題的快速解答。
@@ -55,7 +64,7 @@ Adobe提供網域驗證的[讓我們加密SSL/TLS憑證](https://letsencrypt.org
 >[!WARNING]
 >
 >請勿將憑證檔案直接上傳到票證，這點很重要。 否則，這些憑證將被視為已洩漏，Adobe將需要請求新的憑證。
->檔案應透過SFTP上傳至伺服器至您選擇的資料夾，例如`var/ssl`、`/tmp/ssl`等。  — 請勿使用任何其他方法，例如將檔案提交至您的存放庫（只應針對不含敏感資料的不可變檔案進行）。
+>檔案應透過SFTP上傳至伺服器至您選擇的資料夾，例如`var/ssl`、`/tmp/ssl`等。請勿使用任何其他方法，例如將檔案認可至您的存放庫（這應該只針對不包含敏感資料的不可變檔案完成）。
 
 ## 憑證的名稱
 
@@ -67,7 +76,7 @@ SSL憑證的名稱僅對主要URL重要，它是由第一個URL命名的主要�
 
 ## 我可以使用萬用字元TLS憑證嗎？
 
-萬用字元TLS憑證只能與您的自訂憑證搭配使用，而不能與Adobe Commerce Let&#39;s Encrypt憑證搭配使用。 作為TLS最佳化的一部分，Adobe將終止支援萬用字元TLS憑證。 我們正在識別並連絡使用萬用字元憑證搭配Adobe的Let&#39;s Encrypt憑證，並在Adobe Commerce的[!DNL Fastly]主控台中設定的商家。 我們要求將這些萬用字元憑證取代為確切的網域，以確保TLS涵蓋範圍。 若要取代萬用字元TLS憑證，請造訪[外掛程式的](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)網域區段[!DNL Fastly]。 從這裡，可以新增確切的網域，並移除萬用字元。 請注意，DNS必須指向[!DNL Fastly]，這些新網域才能透過CDN路由。 新增網域並更新DNS之後，將會布建相符的[Let&#39;s Encrypt](https://letsencrypt.org/)憑證。 如果您未使用萬用字元移除指向[!DNL Fastly]的網域，Adobe將會刪除共用憑證。 如果您未設定URL FQDN並在DNS中設定相同的URL FQDN，這可能會導致網站中斷。 因此，您應該確認設定的URL在其DNS中也有指向[!DNL Fastly]的一對一相符專案。
+萬用字元TLS憑證只能與您的自訂憑證搭配使用，而不能與Adobe Commerce Let&#39;s Encrypt憑證搭配使用。 作為TLS最佳化的一部分，Adobe將終止支援萬用字元TLS憑證。 我們正在識別並連絡使用萬用字元憑證搭配Adobe的Let&#39;s Encrypt憑證，並在Adobe Commerce的[!DNL Fastly]主控台中設定的商家。 我們要求將這些萬用字元憑證取代為確切的網域，以確保TLS涵蓋範圍。 若要取代萬用字元TLS憑證，請造訪[!DNL Fastly]外掛程式的[網域區段](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration#manage-domains)。 從這裡，可以新增確切的網域，並移除萬用字元。 請注意，DNS必須指向[!DNL Fastly]，這些新網域才能透過CDN路由。 新增網域並更新DNS之後，將會布建相符的[Let&#39;s Encrypt](https://letsencrypt.org/)憑證。 如果您未使用萬用字元移除指向[!DNL Fastly]的網域，Adobe將會刪除共用憑證。 如果您未設定URL FQDN並在DNS中設定相同的URL FQDN，這可能會導致網站中斷。 因此，您應該確認設定的URL在其DNS中也有指向[!DNL Fastly]的一對一相符專案。
 
 ## 如果我的網域不再指向Adobe Commerce，怎麼辦？
 

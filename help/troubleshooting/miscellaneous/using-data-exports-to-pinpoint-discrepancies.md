@@ -1,19 +1,28 @@
 ---
 title: 使用資料匯出功能來精確找出差異
-description: 本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以便找出報表中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+description: 本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 exl-id: b42d585c-ad8c-4685-9ad4-a13686566f18
 feature: Commerce Intelligence, Data Import/Export
 role: Developer
-source-git-commit: 3d73611b812833820eda5b906eb700c89f50cbbe
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '1389'
 ht-degree: 0%
-
 ---
-
 # 使用資料匯出功能來精確找出差異
 
-本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
+本文提供疑難排解Magento BI資料中差異的解決方案。 資料匯出是將您的Magento BI資料與您的來源資料進行比較的實用工具，以找出報告中的資料差異，尤其是當[資料差異診斷檢查清單](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-41479)無法協助您找出問題時。 本文將逐步解說如何使用「資料匯出」來精確指出資料差異的實際範例。
 
 舉例來說，以下列分析為例：
 
@@ -41,7 +50,7 @@ ht-degree: 0%
 
 ![](assets/Export_Discrepancies_6.png)
 
-此時，我們需要將所有資料放進一個工作表來找出問題。 我們會將CSV檔案（從Magento BI匯出）匯入包含來源資料的另一張Excel檔案表中。
+此時，我們需要將所有資料放進一個工作表來找出問題。 我們會將CSV檔案（從Magento BI匯出）匯入到包含來源資料的Excel檔案的其他工作表。
 
 ## 找出問題 {#pinpoint}
 
@@ -57,19 +66,19 @@ ht-degree: 0%
 
 如果重新檢查頻率已正確設定，則表示有其他錯誤。 如需後續步驟，請參閱本文結尾的[連絡支援區段](#support)。
 
-## 來源資料庫的資料列數超過Magento BI {#morerows}
+## 來源資料庫比Magento BI有更多的資料列 {#morerows}
 
-如果來源資料庫的列數超過Magento BI，且間隔大於在更新週期期間您預期會傳入的訂單數，則可能存在連線問題。 這表示Magento BI無法從來源資料庫提取新資料，原因有很多。
+如果來源資料庫的列數超過Magento BI，且間隔大於在更新週期期間可預期傳入的訂單數，則可能存在連線問題。 這表示Magento BI無法從來源資料庫提取新資料，原因有很多。
 
 導覽至「連線」頁面，並檢視包含`order`資料表的資料來源狀態：
 
 1. **如果狀態為「重新驗證**」，表示連線未使用正確的認證。 按一下連線，輸入正確的認證，然後再試一次。
-1. **如果狀態為「失敗**」，表示伺服器端的連線可能未正確設定。 連線失敗通常是因為不正確的主機名稱或目標伺服器不接受指定連線埠上的連線。按一下連線，並仔細檢查主機名稱的拼字，以及是否輸入了正確的連線埠。 在伺服器端，請確定連線埠可以接受連線，而且您的防火牆已允許使用Magento BI IP位址(54.88.76.97/32)。 **如果連線持續失敗**，請參閱本文結尾的[連絡支援區段](#support)以瞭解後續步驟。
+1. **如果狀態為「失敗**」，表示伺服器端的連線可能未正確設定。 連線失敗通常是因為不正確的主機名稱或目標伺服器不接受指定連線埠上的連線。按一下連線，並仔細檢查主機名稱的拼字，以及是否輸入了正確的連線埠。 在伺服器端，請確定連線埠可以接受連線，且您的防火牆已允許使用Magento BI IP位址(54.88.76.97/32)。 **如果連線持續失敗**，請參閱本文結尾的[連絡支援區段](#support)以瞭解後續步驟。
 1. **如果狀態為「成功**」，則連線不是問題，需要參與RJ支援。 如需後續步驟，請參閱本文結尾的[連絡支援區段](#support)。
 
 ## 來源資料庫的列數少於Magento BI {#lessrows}
 
-如果來源資料庫的列數少於Magento BI，則這些列可能會從來源資料庫刪除，而Magento BI不會擷取這些刪除專案。 **&#x200B; [刪除資料](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hant)可能會導致不一致、更新時間延長，以及後勤方面的一系列問題**，因此我們強烈建議您不要刪除資料，除非資料確實有必要。
+如果來源資料庫的資料列少於Magento BI，則這些資料列可能會從來源資料庫刪除，而Magento BI不會擷取這些刪除。 **&#x200B; [刪除資料](https://experienceleague.adobe.com/docs/commerce-business-intelligence/mbi/best-practices/data/opt-db-analysis.html?lang=zh-Hant)可能會導致不一致、更新時間延長，以及後勤方面的一系列問題**，因此我們強烈建議您不要刪除資料，除非資料確實有必要。
 
 但是，如果從表格中刪除列，請檢視主索引鍵上的重新檢查頻率。 重新核取主索引鍵表示將檢查表格中是否有已刪除的列。
 
@@ -83,9 +92,9 @@ ht-degree: 0%
 
 如果您無法查明問題的來源，則需要在RJ支援中執行回圈。 送出票證前，請遵循下列步驟：
 
-* **如果來源資料庫與Magento BI擁有相同的列數**，且重新檢查頻率設定正確，請在試算表&#x200B;**中執行VLOOKUP，以找出哪些order\_id值在Magento BI與來源資料庫之間有不同的order\_total值。** 在提交票證時包含這些值。
-* **如果您的來源資料庫有超過Magento BI的資料列**，而且連線顯示為[成功]或繼續失敗，我們需要知道連線的名稱和您看到的錯誤訊息（如果有）。
-* **如果您的來源資料庫比Magento BI的資料列少，則不會從資料表中刪除**&#x200B;個資料列，且重新檢查頻率設定正確，請在試算表&#x200B;**中執行VLOOKUP，以找出哪些order\_id值在Magento BI**&#x200B;中，而不是在來源資料庫中。 在提交票證時包含這些值。
+* **如果來源資料庫與Magento BI的資料列數相同**，且重新檢查頻率設定正確，請在試算表&#x200B;**中執行VLOOKUP，以找出哪些order\_id值在Magento BI與來源資料庫之間有不同的order\_total值。** 在提交票證時包含這些值。
+* **如果您的來源資料庫有超過Magento BI**&#x200B;的資料列，而且連線顯示為[成功]或繼續失敗，我們需要知道連線的名稱和您看到的錯誤訊息（如果有）。
+* **如果來源資料庫中的資料列少於Magento BI，**&#x200B;資料列不會從資料表中刪除，且重新檢查頻率設定正確，請在試算表&#x200B;**中執行VLOOKUP，以找出哪些order\_id值在Magento BI**&#x200B;中，而不是在來源資料庫中。 在提交票證時包含這些值。
 
 ## 相關閱讀
 

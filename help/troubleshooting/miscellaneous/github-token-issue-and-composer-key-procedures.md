@@ -4,13 +4,23 @@ description: 本文提供解決方案，解決因過時撰寫器金鑰而導致G
 exl-id: 202cb936-f9ba-49ea-bf0a-6e6994d2337a
 feature: Identity Management
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: 23bc8570-95c6-5ef5-a563-2e4a4e6b4853
+    internal-label: Identity Management
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # Github代號問題和撰寫器金鑰程式
 
 本文提供解決方案，解決因過時撰寫器金鑰而導致Github權杖失敗的相關部署失敗問題。
@@ -28,7 +38,7 @@ ht-degree: 0%
 
 部署失敗，且部署記錄檔包含類似下列的資訊：
 
-*嚴重錯誤：未攔截到UnexpectedValueException：您的github.com的github oauth權杖包含無效字元： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php:129*&#x200B;中的「ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx」
+*嚴重錯誤：未攔截到UnexpectedValueException：您的github.com的github oauth權杖包含無效字元： /app/vendor/composer/composer/src/Composer/IO/BaseIO.php：129*&#x200B;中的「ghp_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx」
 
 ## 原因
 
@@ -46,5 +56,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Github部落格： GitHub的新驗證權杖格式背後](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
-* [InfoQ.com新聞文章： GitHub變更Token格式以改善識別能力、秘密掃描和平均資訊量](https://www.infoq.com/news/2021/04/github-new-token-format/)
+* [Github部落格：GitHub的全新驗證權杖格式背後](https://github.blog/2021-04-05-behind-githubs-new-authentication-token-formats/)
+* [InfoQ.com新聞文章： GitHub變更Token格式以改善可識別性、秘密掃描和平均資訊量](https://www.infoq.com/news/2021/04/github-new-token-format/)

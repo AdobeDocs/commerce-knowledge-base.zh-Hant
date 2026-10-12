@@ -4,13 +4,23 @@ description: 本文章說明協助疑難排解Adobe Commerce中自訂模組的�
 exl-id: c6603a2b-dc98-4022-ab29-c081c2b07415
 feature: Extensions
 role: Developer
-source-git-commit: ae2a4508daeaf2d29a5f615918fcc46626b2e196
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: f08fa0de-a550-4acd-b570-f81cf1d03aaf
+    internal-label: Commerce ecosystem
+subfeature_v2:
+  - id: dad884f1-e840-49a1-970e-2f965bdbc410
+    internal-label: Extensions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '453'
 ht-degree: 0%
-
 ---
-
 # 一般自訂模組疑難排解說明
 
 本文章說明協助疑難排解Adobe Commerce中自訂模組的一般工具。
@@ -41,7 +51,7 @@ ht-degree: 0%
 
 在我們的開發人員檔案中：
 
-* [模組總覽](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
+* [模組概覽](https://developer.adobe.com/commerce/php/architecture/modules/overview/)
 * [安裝選擇性範例資料時發生錯誤](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/errors-installing-optional-sample-data)
 * [例外狀況處理](https://developer.adobe.com/commerce/webapi/graphql/develop/exceptions/)
 * [安裝期間發生例外狀況](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/troubleshooting/installation-and-upgrade/exceptions-during-installation)

@@ -2,13 +2,14 @@
 title: 如何在支援代理程式要求時建立「已清除」傾印
 description: 本文提供當Adobe Commerce支援代理程式要求您提供資料庫時，如何從Adobe Commerce管理員建立「已清除」傾印（備份）和程式碼的相關資訊。 此傾印會排除您的媒體檔案，以加速處理過程，並產生更小的檔案。 進行資料庫備份時，所有敏感資料都會經過雜湊處理。
 exl-id: ad088bd2-3f92-416e-89f0-d037d53cd6a9
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
-
 ---
-
 # 如何在支援代理程式要求時建立「已清除」傾印
 
 

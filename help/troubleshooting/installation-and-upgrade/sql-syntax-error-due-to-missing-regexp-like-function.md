@@ -4,13 +4,27 @@ description: 本文提供嘗試更新company_structure表格時，由於遺失RE
 feature: B2B, Upgrade
 role: Admin, Developer
 exl-id: c5fe316c-99e3-482e-80b5-25aaae371230
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '366'
 ht-degree: 0%
-
 ---
-
 # 由於遺失REGEXP_LIKE函式，升級至B2B 1.5.2會因SQL語法錯誤而失敗
 
 >[!INFO]
@@ -19,7 +33,7 @@ ht-degree: 0%
 >
 >如需詳細資訊，請參閱Adobe Commerce知識庫中，B2B 1.5.2更新後Magento_Company模組升級中的[效能問題](/help/troubleshooting/installation-and-upgrade/magento-company-module-upgrade-performance-issue.md)。
 
-本文提供嘗試更新`REGEXP_LIKE`資料表時，由於遺失`company_structure`函式而發生SQL語法錯誤的Hotfix。
+本文提供嘗試更新`company_structure`資料表時，由於遺失`REGEXP_LIKE`函式而發生SQL語法錯誤的Hotfix。
 
 ## 受影響的產品和版本
 
@@ -28,7 +42,7 @@ ht-degree: 0%
 
 ## 問題
 
-嘗試更新`REGEXP_LIKE`資料表時，因為遺失`company_structure`函式，所以升級至B2B 1.5.2版會失敗，並出現SQL語法錯誤。
+嘗試更新`company_structure`資料表時，因為遺失`REGEXP_LIKE`函式，所以升級至B2B 1.5.2版會失敗，並出現SQL語法錯誤。
 
 <u>必要條件</u>：
 

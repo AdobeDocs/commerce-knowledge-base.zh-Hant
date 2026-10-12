@@ -1,16 +1,26 @@
 ---
-title: '搜尋引擎設為 [!DNL Opensearch]時，遞補為 [!DNL Elasticsearch7] '
-description: 本文提供當Adobe Commerce中的*回落至 [!DNL Elasticsearch7]* error occurs when the search engine is set to [!DNL OpenSearch] 時問題的解決方案。
+title: 搜尋引擎設為[!DNL Opensearch]時遞補為[!DNL Elasticsearch7]
+description: 本文提供當Adobe Commerce中的搜尋引擎設定為[!DNL OpenSearch]時發生*回溯至[!DNL Elasticsearch7]*錯誤的問題解決方案。
 feature: Search
 role: Developer
 exl-id: 965d2929-5cf0-4e0a-9eed-6a656daaa120
-source-git-commit: 40766238a7ea748bff86decf75cddec28fe63bb9
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+subfeature_v2:
+  - id: a1d22079-48b9-5e69-9ee6-eb236068ef34
+    internal-label: Search
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '269'
 ht-degree: 0%
-
 ---
-
 # 搜尋引擎設為[!DNL Opensearch]時遞補為[!DNL Elasticsearch7]
 
 本文提供當Adobe Commerce中的搜尋引擎設定為[!DNL OpenSearch]時發生&#x200B;*回復到[!DNL Elasticsearch7]*&#x200B;錯誤的問題解決方案。
@@ -43,7 +53,7 @@ ht-degree: 0%
 即使您的版本不支援[!DNL OpenSearch]，應用程式也只會辨識/接受[!DNL Elasticsearch7]做為搜尋引擎。
 
 從Adobe Commerce 2.4.6版開始，應用程式已更新，可允許選取[!DNL OpenSearch]作為搜尋引擎。
-如果您在非雲端環境中移至&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**，您將可以變更此選項，如下列&#x200B;**解決方案**&#x200B;所示。
+如果您在非雲端環境中移至「**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Catalog]** > **[!UICONTROL Catalog Search]**」，將可以變更此選項，如下列&#x200B;**解決方案**&#x200B;所示。
 （注意：在雲端環境中，此欄位無法變更，因為搜尋引擎已鎖定在`app/etc/env.php`檔案中。）
 
 ## 解決方案

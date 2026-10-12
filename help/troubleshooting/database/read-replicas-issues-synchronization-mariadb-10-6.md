@@ -4,13 +4,22 @@ description: 本文說明如何疑難排解Adobe Commerce Cloud 2.4.6與MariaDB 
 feature: Configuration
 role: Developer,Admin
 exl-id: b7af1cc3-93ff-40c5-8959-076cedddb56d
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '251'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce Cloud 2.4.6與MariaDB 10.6的讀取復本問題
 
 本文提供在Adobe Commerce Cloud 2.4.6上搭配MariaDB 10.6+使用讀取復本時，發生非預期行為的解決方案。
@@ -26,11 +35,11 @@ ht-degree: 0%
 
 ## 原因
 
-當值應為`slave_parallel_mode`保守值&#x200B;*時，資料庫上的*&#x200B;設定預設變更為&#x200B;*最佳化*，而Ece-Tools中的`synchronous_replication`值預設為&#x200B;*true*，而值應為&#x200B;*false*。
+當值應為&#x200B;*保守值*&#x200B;時，資料庫上的`slave_parallel_mode`設定預設變更為&#x200B;*最佳化*，而Ece-Tools中的`synchronous_replication`值預設為&#x200B;*true*，而值應為&#x200B;*false*。
 
 ## 解決方案
 
-1. 檢查`slave_parallel_mode`引數是否設為&#x200B;*conservative* （如果值未顯示為[conservative](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hant#submit-ticket)，您需要&#x200B;*提高支援票證*）。 若要檢查，請執行以下命令：
+1. 檢查`slave_parallel_mode`引數是否設為&#x200B;*conservative* （如果值未顯示為&#x200B;*conservative*，您需要[提高支援票證](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/help-center-guide/magento-help-center-user-guide.html?lang=zh-Hant#submit-ticket)）。 若要檢查，請執行以下命令：
 
    ```
     MariaDB [main]> show variables like 'slave_parallel_mode';
