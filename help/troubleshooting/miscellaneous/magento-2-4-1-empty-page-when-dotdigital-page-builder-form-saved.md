@@ -1,16 +1,14 @@
 ---
-title: 「Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面」
+title: Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面
 description: 針對Adobe Commerce 2.4.1中的已知問題，本文提供因應措施，說明使用Safari瀏覽器時，在「管理面板」中儲存dotdigital Page Builder表單後，顯示空白網頁。
 exl-id: 682eac73-1ad2-4093-acfb-6a8da4c05cf5
 feature: Page Builder
 role: Developer
 source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '273'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.1：儲存dotdigital Page Builder表單時顯示空白頁面
 
 針對Adobe Commerce 2.4.1中的已知問題，本文提供因應措施，說明使用Safari瀏覽器時，在「管理面板」中儲存dotdigital Page Builder表單後，顯示空白網頁。
@@ -44,7 +42,7 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [什麼是頁面產生器？](https://developer.adobe.com/commerce/frontend-core/page-builder/)於我們的開發人員檔案。
-* 在開發人員檔案中[頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html?lang=zh-Hant)。
-* 使用手冊中的[頁面產生器](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/page-builder/introduction)。
-* [頁面產生器 — 使用手冊中的元素](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/page-builder/workspace#elements)。
+* [什麼是頁面產生器？](https://developer.adobe.com/commerce/frontend-core/page-builder/) （位於我們的開發人員檔案中）。
+* 在開發人員檔案中[頁面產生器設定](https://experienceleague.adobe.com/docs/commerce-admin/page-builder/setup.html)。
+* 使用手冊中的[頁面產生器](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/introduction)。
+* [頁面產生器 — 使用手冊中的元素](https://experienceleague.adobe.com/en/docs/commerce-admin/page-builder/workspace#elements)。
