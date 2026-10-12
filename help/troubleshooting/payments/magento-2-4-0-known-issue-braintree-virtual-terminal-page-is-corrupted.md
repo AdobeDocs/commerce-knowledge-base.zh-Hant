@@ -35,7 +35,7 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** 。 ** **
+在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** 。 **&#x200B; **
 
 <u>預期結果：</u>
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** 。 ** **
+在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** 。 **&#x200B; **
 
 <u>預期結果：</u>
 

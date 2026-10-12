@@ -66,5 +66,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-在Creative Cloud使用手冊中重設忘記的密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)。[
+在Creative Cloud使用手冊中重設忘記的密碼[&#128279;](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)。
 在Creative Cloud使用手冊中[更新您的帳戶設定檔](https://helpx.adobe.com/manage-account/using/edit-adobe-account-personal-profile.html)。
