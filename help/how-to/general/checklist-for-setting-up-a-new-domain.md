@@ -32,21 +32,21 @@ ht-degree: 0%
 >繼續網域設定之前，請確定：
 >
 >所有基底URL都設定為使用&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Settings]** > **[!UICONTROL Configuration]** > **[!UICONTROL General]** > **[!UICONTROL Web]**&#x200B;下的HTTPS，其範圍設定為正確的網站或商店檢視。
-> [強制TLS](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)已啟用，以便在雲端基礎結構上的Adobe Commerce網站上將所有HTTP流量重新導向至HTTPS。
+> [強制TLS](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/redirect-http-to-https-for-all-pages-on-cloud-force-tls#token_type=bearer&expires_in=10799996)已啟用，以便在雲端基礎結構上的Adobe Commerce網站上將所有HTTP流量重新導向至HTTPS。
 
 ### 步驟1 — 這是否適用於[!DNL Integration, Staging]或[!DNL Production environment]？
 
-* **[!DNL Integration]**：不支援[!DNL Custom domains]。 您必須改用這個方法： [設定多個網站或商店：設定本機安裝](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)在我們的使用手冊中。
+* **[!DNL Integration]**：不支援[!DNL Custom domains]。 您必須改用這個方法： [設定多個網站或商店：設定本機安裝](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#add-new-domains)在我們的使用手冊中。
 * **[!DNL Staging]**：移至&#x200B;**步驟2**。
 * **[!DNL Production]**：移至&#x200B;**步驟3**。
 
 ### 步驟2 - [!DNL Staging environment]：您是在[!DNL Pro]還是[!DNL Starter]？
 
-* **[!DNL Pro]**： **送出要求**&#x200B;以將網域新增到[!DNL Fastly, Nginx]，並設定[!DNL SSL certificate] （以及視需要設定[!DNL Sendgrid domain]）。 完成設定後，[使用 [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)更新 [!DNL DNS] 設定。
+* **[!DNL Pro]**： **送出要求**&#x200B;以將網域新增到[!DNL Fastly, Nginx]，並設定[!DNL SSL certificate] （以及視需要設定[!DNL Sendgrid domain]）。 完成設定後，[使用 [!DNL development settings]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant#update-dns-configuration-with-development-settings)更新 [!DNL DNS] 設定。
 
 >[!NOTE]
 >
->對於PRO架構，新增網域需要提交支援請求給Adobe Commerce。 雖然某些客戶或許可以透過Admin Console手動設定Fastly，但這僅適用於有限的情況，例如網域未繫結到其他Fastly服務或專案。 不過，一律需要Nginx設定，此步驟必須由Adobe處理。 因此，建議且最可靠的方法是提交[支援票證](https://experienceleague.adobe.com/home?support-tab=home#support)，並讓Adobe管理整個網域設定程式。
+>對於PRO架構，新增網域需要提交支援請求給Adobe Commerce。 雖然某些客戶或許可以透過Admin Console手動設定Fastly，但這僅適用於有限的情況，例如網域未繫結到其他Fastly服務或專案。 不過，一律需要Nginx設定，此步驟必須由Adobe處理。 因此，建議且最可靠的方法是提交[支援票證](https://experienceleague.adobe.com/home?lang=zh-Hant&support-tab=home#support)，並讓Adobe管理整個網域設定程式。
 
 
 * **[!DNL Starter]**：中繼環境不支援[!DNL Custom domains]。
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您自己可以在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html#manage-domains)的[!DNL Admin]中更新設定，以將新的[!DNL domain]新增至[!DNL Fastly]。
+>您自己可以在&#x200B;**[!UICONTROL Stores]** > **[!UICONTROL Configuration]** > **[!UICONTROL Advanced]** > **[!UICONTROL System]** > **[!UICONTROL Full Page Cache]** > **[!DNL Fastly Configuration]** > **[!UICONTROL Domains]** [[!DNL Manage domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-custom-cache-configuration.html?lang=zh-Hant#manage-domains)的[!DNL Admin]中更新設定，以將新的[!DNL domain]新增至[!DNL Fastly]。
 >
 >
 >如果您無法新增網域，可能是由於下列其中一個原因：
@@ -69,12 +69,12 @@ ht-degree: 0%
 
 ### 步驟4 - [!DNL domain]是否上線？
 
-* **是**： [使用[!UICONTROL production]設定更新 [!DNL DNS] 設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html#update-dns-configuration-with-production-settings)。
-* **否**： [使用[!UICONTROL development]設定更新 [!DNL DNS] 設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html#update-dns-configuration-with-development-settings)。
+* **是**： [使用[!UICONTROL production]設定更新 [!DNL DNS] 設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hant#update-dns-configuration-with-production-settings)。
+* **否**： [使用[!UICONTROL development]設定更新 [!DNL DNS] 設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant#update-dns-configuration-with-development-settings)。
 
 ### 步驟5 — 網域重新導向是否已在`magento-vars.php`中設定？
 
-設定網域後，您需要[修改`magento-vars.php`檔案中的變數](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)，以將網域導向適當的網站/商店URL。
+設定網域後，您需要[修改`magento-vars.php`檔案中的變數](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/configure-store/multiple-sites#modify-variables)，以將網域導向適當的網站/商店URL。
 
 ### 步驟6 - [!DNL domain]設定是否已驗證？
 
@@ -166,11 +166,11 @@ ht-degree: 0%
 ]
 ```
 
-這表示您過去曾透過執行`ece-tools`封裝中的`config:dump`命令，在Build[&#128279;](https://experienceleague.adobe.com/en/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上設定SCD。
+這表示您過去曾透過執行`ece-tools`封裝中的`config:dump`命令，在Build[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/commerce-on-cloud/user-guide/develop/deploy/static-content#setting-the-scd-on-build)上設定SCD。
 
 如果您發現您建立的新商店/網站未顯示在`app/etc/config.php`檔案中，請確定再次執行命令以將`config.php`檔案與您的資料庫變更同步，然後認可`config.php`檔案並重新部署。 這是為了促進新商店/網站的靜態內容部署到適當的檔案路徑。
 
 ## 相關閱讀
 
-* [設定多個網站或商店：新增使用手冊中的 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#add-new-domains)。
-* [由於來源遮罩，無法存取網站](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26856)
+* [設定多個網站或商店：新增使用手冊中的 [!DNL Domains]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#add-new-domains)。
+* [由於來源遮罩，無法存取網站](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26856)

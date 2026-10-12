@@ -1,6 +1,6 @@
 ---
 title: 如何訂閱Adobe Commerce狀態更新
-description: 本文說明如何在[Adobe Commerce status](https://status.adobe.com)訂閱Adobe狀態，以取得狀態警示、更新以及有關任何重大中斷或維護的資訊。
+description: 本文說明如何在[Adobe Commerce status](https://status.adobe.com/zh-tw)訂閱Adobe狀態，以取得狀態警示、更新以及有關任何重大中斷或維護的資訊。
 exl-id: 17b39925-4726-45da-b55d-c04c9b782df1
 product_v2:
   - id: eadea719-cf89-469b-a6fd-a236a7138047
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 如何訂閱Adobe Magento狀態更新
 
-1. 移至[Adobe狀態](https://status.adobe.com)。
+1. 移至[Adobe狀態](https://status.adobe.com/zh-tw)。
 1. 按一下&#x200B;**登入**。
 1. 使用您的Adobe憑證登入。
 1. 如果出現此選項，請選取&#x200B;**公司或學校帳戶**。
