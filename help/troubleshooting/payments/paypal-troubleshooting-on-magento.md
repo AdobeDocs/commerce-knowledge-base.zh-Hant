@@ -4,13 +4,22 @@ description: 本文提供透過PayPal處理付款相關問題的解決方案，�
 exl-id: f0772515-8456-4f08-84b4-aeef44516f2a
 feature: Orders, Payments
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '540'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce上的PayPal疑難排解
 
 本文提供透過PayPal處理付款相關問題的解決方案，尤其是PayFlow Pro解決方案。 本文中的某些建議似乎顯而易見。 我們要求您嘗試此知識庫中列出的疑難排解選項，並在您輸入的任何票證中包含所有資訊。 Adobe Commerce或PayPal支援工程師會要求您在診斷問題時執行這些步驟。
@@ -31,7 +40,7 @@ PayPal付款的大多數問題都有類似的症狀：在指定付款卡詳細�
 
 套用PayPal Express Checkout解決方案時，必須在&#x200B;**PayPal管理員** （服務設定>設定>安全性選項）和&#x200B;**Commerce管理員** （**商店** >設定> **銷售** > **付款方式** ...）中拒絕以AVS/CSC回應為依據的交易。
 ![magento_paypal_settings_2.4.1.png](assets/magento_paypal_settings_2.4.1.png)
-如需詳細資訊，請參閱使用手冊中的檔案： [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm)和[Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html?lang=zh-Hant)。
+如需詳細資訊，請參閱使用手冊中的檔案： [PayPal](https://www.paypalobjects.com/en_US/vhelp/paypalmanager_help/setup.htm)和[Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/payments/paypal/paypal-express-checkout.html)。
 
 ## 允許參考交易
 
@@ -41,14 +50,14 @@ PayPal付款的大多數問題都有類似的症狀：在指定付款卡詳細�
 
 請參閱下列文章：
 
-* [PayPal閘道已拒絕要求 — 我們的支援知識庫中有重複的發票問題](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26838)。
+* [PayPal閘道已拒絕要求 — 我們的支援知識庫中有重複的發票問題](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 * [變更支援知識庫中新商店實體](/help/how-to/general/change-increment-id-for-a-db-entity-order-invoice-credit-memo-etc-on-particular-store.md)的遞增識別碼。
 
 ## 聯絡支援以收集進階付款記錄
 
 為了疑難排解複雜的付款問題，Adobe Commerce支援團隊可能會要求您套用專用的修補程式，以啟用進階付款記錄。 在此情況下，您的步驟應該如下：
 
-[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，其詳細資料如下：
+[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，其詳細資料如下：
 
 * 儘可能多地指定您的問題。
 * 列出您嘗試從本文、知識庫和其他資源執行的步驟。 包含所有結果。
@@ -57,5 +66,5 @@ PayPal付款的大多數問題都有類似的症狀：在指定付款卡詳細�
 如果您收到「進階付款記錄」修正程式：
 
 * 套用修補程式。
-* 收集記錄檔並將它們附加至您的[支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+* 收集記錄檔並將它們附加至您的[支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
 * 等待Adobe Commerce支援團隊提出進一步建議。

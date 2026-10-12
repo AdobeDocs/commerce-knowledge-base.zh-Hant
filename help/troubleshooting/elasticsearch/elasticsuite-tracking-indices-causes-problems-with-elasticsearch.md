@@ -2,13 +2,14 @@
 title: ElasticSuite追蹤索引導致Elasticsearch發生問題
 description: 本文討論ElasticSuite外掛程式產生的追蹤索引所導致的Elasticsearch記憶體問題。
 exl-id: 67bfd06a-c801-4306-8510-a84a6fe5351a
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 # ElasticSuite追蹤索引導致Elasticsearch發生問題
 
 >[!NOTE]
@@ -68,5 +69,5 @@ ElasticSuite有建立追蹤索引的新功能。 這些追蹤索引會記錄哪�
 
 如果您想要在設定的時間頻率刪除索引，請參閱開發人員檔案中的下列文章以建立cron工作：
 
-* [設定自訂cron作業和cron群組（教學課程）](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
-* [設定cron工作](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)
+* [設定自訂cron作業和cron群組（教學課程）](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/crons/custom-cron-tutorial)
+* [設定cron工作](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property)

@@ -4,13 +4,23 @@ description: 本文會討論您剛才套用的修補程式導致網站中斷的�
 exl-id: dc765bcd-0761-4efd-a345-46a908d61272
 feature: Cache
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '289'
 ht-degree: 0%
-
 ---
-
 # 套用修補程式會中斷您的網站
 
 本文會討論您剛才套用的修補程式導致網站中斷的問題。 若要解決此問題，您可以移除修補程式。
@@ -56,7 +66,7 @@ ht-degree: 0%
 
 針對雲端基礎結構上的Adobe Commerce，所有版本
 
-1. 從`%patch_name%.composer.patch`目錄中移除`m2-hotfixes`檔案。
+1. 從`m2-hotfixes`目錄中移除`%patch_name%.composer.patch`檔案。
 1. 認可並推送您的程式碼變更：
 
    ```
@@ -65,4 +75,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [如何在我們的支援知識庫中套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
+* [如何在我們的支援知識庫中套用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。

@@ -3,19 +3,23 @@ title: 在雲端上的Adobe Commerce中為MySQL分配更多空間
 description: 本文提供如何在雲端基礎結構的Adode Commerce中為MySQL分配更多空間的指示。
 exl-id: 98501aa0-5ec7-4ea1-8856-13d171ad0be9
 feature: Cloud
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '322'
 ht-degree: 0%
-
 ---
-
 # 在雲端上的Adobe Commerce中為MySQL分配更多空間
 
 
 ## 在入門計畫與專業計畫整合上分配空間
 
-對於所有Starter計畫環境和Pro計畫[整合環境](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以增加`.magento/services.yaml`引數，在`mysql: disk:`檔案中為MySQL配置更多空間。 例如：
+對於所有Starter計畫環境和Pro計畫[整合環境](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-27242)，您可以增加`mysql: disk:`引數，在`.magento/services.yaml`檔案中為MySQL配置更多空間。 例如：
 
 ```yaml
 mysql:
@@ -23,7 +27,7 @@ mysql:
     disk: 2048
 ```
 
-請參閱[設定MySQL服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供參考。
+請參閱[設定MySQL服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/mysql)文章以供參考。
 
 變更`.magento/services.yaml`檔案後，您必須確認並推送變更，才能套用變更。 推送將會觸發部署程式。
 
@@ -33,7 +37,7 @@ mysql:
 
 ## 在Pro計畫測試或生產上分配空間
 
-若要對Pro計畫的測試或生產環境進行這些變更，您必須建立[支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。 提交支援票證以增加儲存時，支援將需要知道儲存應該套用至多少分割區以及應該套用至哪個分割區（`/mysql`或`/exports`）。 儲存空間增加請求需要您的Adobe客戶團隊核准，該團隊將在核准前稽核您授權的儲存空間量（根據訂購單）。
+若要對Pro計畫的測試或生產環境進行這些變更，您必須建立[支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。 提交支援票證以增加儲存時，支援將需要知道儲存應該套用至多少分割區以及應該套用至哪個分割區（`/mysql`或`/exports`）。 儲存空間增加請求需要您的Adobe客戶團隊核准，該團隊將在核准前稽核您授權的儲存空間量（根據訂購單）。
 
 ## 減少無法使用的配置空間（Pro和Starter計畫）
 

@@ -1,16 +1,23 @@
 ---
-title: 將非[!DNL regex]重新導向解除安裝到 [!DNL Fastly] 而非 [!DNL Nginx] （路由）
-description: 此主題針對您在雲端基礎結構上的Adobe Commerce中將非[!DNL regex]重新導向解除安裝到 [!DNL Fastly] 而非 [!DNL Nginx] 時可能會遇到的典型重新導向效能問題，提供解決方案。
+title: 將非[!DNL regex]重新導向解除安裝到[!DNL Fastly]而非[!DNL Nginx] （路由）
+description: 此主題針對您在雲端基礎結構上的Adobe Commerce中將非[!DNL regex]重新導向解除安裝到[!DNL Fastly]而非[!DNL Nginx]時可能遇到的典型重新導向效能問題，提供解決方案。
 exl-id: 8b22d25d-0865-4d21-b275-d344ba8748f2
 feature: Routes
 role: Developer
-source-git-commit: 724a30310c3841f8280628436925f9a3e5933b14
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 1783ae9f-7157-5aeb-a915-91e260301e46
+    internal-label: Routes
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '796'
 ht-degree: 0%
-
 ---
-
 # 將非[!DNL regex]重新導向解除安裝到[!DNL Fastly]而非[!DNL Nginx] （路由）
 
 此主題針對您在雲端基礎結構上的Adobe Commerce中將非[!DNL regex]重新導向解除安裝到[!DNL Fastly]而非[!DNL Nginx]時可能遇到的典型重新導向效能問題，提供解決方案。
@@ -21,11 +28,11 @@ ht-degree: 0%
 
 ## 問題
 
-在雲端基礎結構上的Adobe Commerce中，[!DNL regex]層無法執行大量非[!DNL Nginx]重新導向/重新寫入，因此可能會導致效能問題。
+在雲端基礎結構上的Adobe Commerce中，[!DNL Nginx]層無法執行大量非[!DNL regex]重新導向/重新寫入，因此可能會導致效能問題。
 
 ## 原因
 
-`routes.yaml`目錄中的`.magento/routes.yaml`檔案定義雲端基礎結構上Adobe Commerce的路由。
+`.magento/routes.yaml`目錄中的`routes.yaml`檔案定義雲端基礎結構上Adobe Commerce的路由。
 
 如果`routes.yaml`檔案的大小為32KB或更大，您應該將非[!DNL regex]重新導向/重寫解除安裝至[!DNL Fastly]。
 
@@ -39,7 +46,7 @@ ht-degree: 0%
 
 1. 建立Edge字典。
 
-   首先，您可以使用Adobe Commerce[[!DNL VCL] 中的](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html?lang=zh-Hant)代碼片段來定義邊緣字典。 這將包含重新導向。
+   首先，您可以使用Adobe Commerce](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets.html)中的[[!DNL VCL] 代碼片段來定義邊緣字典。 這將包含重新導向。
 
    對此有一些警告：
 
@@ -99,8 +106,8 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [[!DNL Fastly VCL] 參考](https://docs.fastly.com/vcl/)
-* 在開發人員檔案中[設定路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html?lang=zh-Hant)
-* 在開發人員檔案中[設定 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)
+* [[!DNL Fastly VCL]參考](https://docs.fastly.com/vcl/)
+* 在開發人員檔案中[設定路由](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/routes/routes-yaml.html)
+* 在開發人員檔案中[設定 [!DNL Fastly]](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)
 * 開發人員檔案中的[[!DNL VCL] 規則運算式速查表](https://docs.fastly.com/en/guides/vcl-regular-expression-cheat-sheet)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

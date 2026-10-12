@@ -4,18 +4,27 @@ description: 本文提供商戶嘗試升級至Adobe Commerce （所有部署方�
 exl-id: 1c472214-8387-403e-b2d2-d3f3c9e1da6a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '333'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce升級2.4.3、2.3.7-p1 PHP嚴重錯誤Hotfix
 
 本文提供商戶嘗試升級至Adobe Commerce （所有部署方法）或Magento Open Source 2.4.3或2.3.7-p1時發現下列錯誤的修正：
 
-*PHP嚴重錯誤：未攔截錯誤：呼叫&lt;...>Magento\Framework\Filesystem\Directory\str_contains:74*&#x200B;中的未定義函式/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()
+*PHP嚴重錯誤：未攔截錯誤：呼叫&lt;...>Magento\Framework\Filesystem\Directory\str_contains：74*&#x200B;中的未定義函式/magento/vendor/magento/framework/Filesystem/Directory/DenyListPathValidator.php()
 
 此問題將在2.4.4、2.4.3-p1和2.3.7-p2版本的範圍內修正。
 
@@ -42,7 +51,7 @@ php嚴重錯誤。
 
 ## 解決方案
 
-暫行解決方法是在CLI/終端機中執行下列命令：從Magento根資料夾執行`composer require symfony/polyfill-php80`或安裝撰寫器修補程式。
+暫行解決方法是在CLI/終端機中執行下列命令：從Magento根資料夾執行`composer require symfony/polyfill-php80`或安裝Composer修補程式。
 
 為了修正2.4.3的問題，Adobe Commerce （所有部署方法）和Magento Open Source商家應套用修補程式：
 
@@ -54,7 +63,7 @@ php嚴重錯誤。
 
 ## 如何套用修正程式
 
-如需指示，請參閱[如何套用Magento](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
+如需指示，請參閱[如何套用Magento](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
 
 ## 相關閱讀
 

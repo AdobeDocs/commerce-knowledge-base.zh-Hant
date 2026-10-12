@@ -4,13 +4,23 @@ description: 本文提供使用由Adobe提供的SSL憑證更新自訂SSL憑證�
 exl-id: cc968bae-f742-449b-b291-bc121ec45935
 feature: Support
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 125c1f49-aefd-5f34-a252-288937f95f6b
+    internal-label: Marketing Tools
+subfeature_v2:
+  - id: a59f76dc-e003-5617-951e-dffa5bd3de81
+    internal-label: Support
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '424'
 ht-degree: 0%
-
 ---
-
 # 自訂SSL憑證到期資訊
 
 本文提供使用由Adobe提供的SSL憑證更新自訂SSL憑證時的解決方案。
@@ -41,11 +51,11 @@ Adobe Commerce會在憑證到期後30天更新任何憑證。
 
 當商家選擇使用自己的自訂SSL憑證時，必須在憑證到期前30天以上更新，以確保其不會被內部Adobe Commerce SSL憑證取代。
 
-若您的自訂SSL已由我們的內部SSL取代，而您想要以更新的自訂SSL憑證取代自訂SSL，請[提交支援要求](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，並提供您上傳新憑證檔案的位置。 請包括新SSL的開始日期。 取得此資訊後，我們就可以繼續安裝新的SSL憑證了。
+若您的自訂SSL已由我們的內部SSL取代，而您想要以更新的自訂SSL憑證取代自訂SSL，請[提交支援要求](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，並提供您上傳新憑證檔案的位置。 請包括新SSL的開始日期。 取得此資訊後，我們就可以繼續安裝新的SSL憑證了。
 
 ## 相關閱讀
 
 * Magento Commerce Cloud的[SSL (TLS)憑證：我們的支援知識庫中的常見問題集](/help/how-to/general/ssl-tls-certificates-for-magento-commerce-cloud-faq.md)。
-* [命令列工具參考：開發人員檔案中的magento-cloud憑證:add](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
-* 在開發人員檔案中[啟動檢查清單](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/launch/checklist)。
-* 使用手冊中的[存取全網站分析工具](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。
+* [命令列工具參考：開發人員檔案中的magento-cloud憑證:add](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/dev-tools/cloud-cli/cloud-cli-reference#certificateadd)。
+* 在開發人員檔案中[啟動檢查清單](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/launch/checklist)。
+* 使用手冊中的[存取全網站分析工具](https://experienceleague.adobe.com/en/docs/commerce-operations/tools/site-wide-analysis-tool/access#step-2-access-site-wide-analysis-tool)。

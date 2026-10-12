@@ -1,16 +1,23 @@
 ---
 title: 適用於Adobe Commerce的Magento Order Management系統(OMS)處理錯誤
-description: 當您在適用於Adobe Commerce的Magento訂單管理系統(OMS)中執行「bin/magento oms:messages:process」的CLI中收到「getMode()」錯誤時，本文提供此問題的解決方案。
+description: 當您在適用於Adobe Commerce的Magento訂單管理系統(OMS)中執行「bin/magento oms：messages：process」的CLI中收到「getMode()」錯誤時，本文提供此問題的解決方案。
 exl-id: 83089465-f810-4a3b-bdb6-4720b44f0b49
 feature: System
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
-
 ---
-
 # 適用於Adobe Commerce的Magento Order Management系統(OMS)處理錯誤
 
 本文提供當您在適用於Adobe Commerce的Magento訂單管理系統(OMS)中執行`bin/magento oms:messages:process`的CLI中收到`getMode()`錯誤時，此問題的解決方案。
@@ -68,4 +75,4 @@ Stack trace:
 ## 相關閱讀
 
 * OMS檔案[OMS聯結器安裝教學課程](https://commerce-docs.github.io/oms-documentation-archive/integration/connector/setup-tutorial/)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

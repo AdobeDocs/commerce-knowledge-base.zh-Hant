@@ -4,7 +4,18 @@ description: 本文會介紹安裝/升級Adobe Commerce內部部署和Magento Op
 exl-id: c0ed8228-9357-4a3b-a102-1119386ea52a
 feature: Install, Upgrade
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 0%
@@ -38,7 +49,7 @@ proc_open(): fork failed - Cannot allocate memory
 
 ## 解決方案 {#solution}
 
-我們建議您[在開發人員檔案中](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/php-settings)配置2GB的記憶體給PHP，以確保您的安裝或升級成功。
+我們建議您[在開發人員檔案中](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/php-settings)配置2GB的記憶體給PHP，以確保您的安裝或升級成功。
 
 如果您已經這樣做，請在您的電腦上建立交換檔案。 如果Linux電腦需要更多記憶體資源且RAM已滿，它就會使用&#x200B;*交換空間*。 交換空間用於記憶體中的非使用中頁面。
 

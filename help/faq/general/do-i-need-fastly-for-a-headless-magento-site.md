@@ -3,7 +3,22 @@ title: 我是否需要Fastly才能使用Headless Adobe Commerce網站？
 description: 我是否需要Fastly才能使用Headless Adobe Commerce網站？
 exl-id: d7e07160-6a61-4c03-8f8c-4f879d86ea44
 feature: Cache, GraphQL, Compliance
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: b5f00040-57a0-4a6d-a39e-383b1936c2c9
+    internal-label: Compliance
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
@@ -23,7 +38,7 @@ ht-degree: 0%
 不，你不需要。 在此情況下，您可以略過使用Fastly — 至少是在開發初期。
 
 唯一您可能不想啟用的情況是Headless部署。
-請參閱我們的開發人員檔案中的[Adobe Commerce雲端> Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly)。
+請參閱我們的開發人員檔案中的[Adobe Commerce雲端> Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)。
 
 不過，很有可能您需要Fastly才能使用其SSL憑證。
 
@@ -32,4 +47,4 @@ ht-degree: 0%
 ## 更多資訊
 
 * [Headless網站：分離式架構有什麼大不了的？](https://pantheon.io/blog/headless-websites-whats-big-deal-decoupled-architecture) 作者： [Josh Koenig](https://pantheon.io/team/josh-koenig)。
-* 在開發人員檔案中[Fastly](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly)。
+* 在開發人員檔案中[Fastly](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly)。

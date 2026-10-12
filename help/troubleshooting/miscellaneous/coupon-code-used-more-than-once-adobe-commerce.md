@@ -4,13 +4,20 @@ description: 本文針對購物車價格規則優惠券無法正常運作的問�
 exl-id: 9c81de40-65a3-422d-9053-3c894b863a0a
 feature: Orders
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
-
 ---
-
 # 單次使用優惠券多次，Adobe Commerce
 
 本文針對購物車價格規則優惠券無法正常運作的問題，提供解決方案。 商家可設定單次使用的抵用券，而客戶可多次使用。
@@ -62,8 +69,8 @@ Adobe Commerce （所有部署方法） 2.4.3和更高版本
 ...
 ```
 
-如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
+如需詳細步驟，請參閱開發人員檔案中的[管理訊息佇列>設定](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues#configuration)。
 
 ## 相關閱讀
 
-在開發人員檔案中[訊息佇列總覽](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。
+在開發人員檔案中[訊息佇列總覽](https://experienceleague.adobe.com/en/docs/commerce-operations/configuration-guide/message-queues/message-queue-framework)。

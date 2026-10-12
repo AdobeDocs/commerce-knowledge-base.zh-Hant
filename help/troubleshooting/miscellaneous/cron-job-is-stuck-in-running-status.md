@@ -1,16 +1,23 @@
 ---
 title: '[!DNL Cron]工作卡在**執行中**狀態'
-description: 本文提供當Adobe Commerce [!DNL cron] 工作未完成執行且持續處於「執行中」狀態時，以防止其他 [!DNL cron] 工作執行的解決方案。 發生此狀況的原因有很多，例如網路問題、應用程式當機、重新部署問題。
+description: 本文提供當Adobe Commerce [!DNL cron]工作未完成執行並持續處於「執行中」狀態時，以防止其他[!DNL cron]工作執行的解決方案。 發生此狀況的原因有很多，例如網路問題、應用程式當機、重新部署問題。
 exl-id: 11e01a2b-2fcf-48c2-871c-08f29cd76250
 feature: Configuration
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '429'
 ht-degree: 0%
-
 ---
-
 # [!DNL Cron]工作卡在「執行中」狀態
 
 本文提供當Adobe Commerce [!DNL cron]工作未完成執行並持續處於「執行中」狀態時，以防止其他[!DNL cron]工作執行的解決方案。 發生此狀況的原因有很多，例如網路問題、應用程式當機、重新部署問題。
@@ -37,7 +44,7 @@ ht-degree: 0%
 
 若要解決此問題，您必須使用`cron:unlock`命令重設[!DNL cron]工作。 這個命令會變更資料庫中[!DNL cron]工作的狀態，強制結束工作以允許其他排定的工作繼續。
 
-1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
+1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
 1. 取得MySQL資料庫認證： `echo $MAGENTO_CLOUD_RELATIONSHIPS | base64 -d | json_pp`
 1. 使用`mysql`連線到資料庫： `mysql -hdatabase.internal -uuser -ppassword main`
 1. 選取`main`資料庫： `use main`
@@ -47,7 +54,7 @@ ht-degree: 0%
 
 ### 停止單一[!DNL cron]的解決方案 {#solution-stop-a-single-cron}
 
-1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
+1. 開啟終端機，並使用您的[SSH金鑰](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/secure-connections)連線到受影響的環境。
 1. 使用下列命令檢查長時間執行的工作：
 
    `date; ps aux | grep '[%]CPU\|cron\|magento\|queue' | grep -v 'grep\|cron -f'`
@@ -72,7 +79,7 @@ ht-degree: 0%
    bxc2qly+ 25896 29.0  0.6 475320 109876 ?       R    20:51   0:00 /usr/bin/php7.1-zts /app/bxc2qlykqhbqe/bin/magento cron:run --group=ddg_automation --bootstrap=standaloneProcessStarted=1
    ```
 
-1. 如果您發現長時間執行的[!DNL cron]工作可能會造成區塊部署程式，您可以使用`kill`命令終止該程式。您可以識別&#x200B;**處理序識別碼** （找到`PID`欄），然後將該`PID`放入命令以終止處理序。
+1. 如果您發現長時間執行的[!DNL cron]工作可能會造成區塊部署程式，您可以使用`kill`命令終止該程式。 您可以識別&#x200B;**處理序識別碼** （找到`PID`欄），然後將該`PID`放入命令以終止處理序。
 **終止處理序**&#x200B;命令為：
 
    `kill -9 <PID>`

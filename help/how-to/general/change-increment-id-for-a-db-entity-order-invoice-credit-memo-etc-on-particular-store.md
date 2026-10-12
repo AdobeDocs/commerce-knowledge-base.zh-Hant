@@ -3,13 +3,17 @@ title: 變更資料庫實體（訂單、發票、銷退折讓單等）的增量I
 description: 本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用'ALTER TABLE' SQL陳述式的特定Adobe Commerce存放區。
 exl-id: 3704dd97-3639-44dc-9b8b-cf09f0c04e6c
 feature: Invoices
-source-git-commit: e33d0bf6c857d0d54ec1373db79910d78296b054
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 591c578b-908e-5b79-a9d3-931dfe60c24c
+    internal-label: Invoices
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
-
 ---
-
 # 變更資料庫實體（訂單、發票、銷退折讓單等）的增量ID 於特定商店
 
 本文討論如何變更Adobe Commerce資料庫(DB)實體（訂單、發票、銷退折讓單等）的增量ID 使用`ALTER TABLE` SQL陳述式的特定Adobe Commerce存放區。
@@ -26,7 +30,7 @@ ht-degree: 0%
 
 * Adobe Commerce內部部署：2.x.x
 * 雲端基礎結構上的Adobe Commerce： 2.x.x
-* MySQL：任何[支援的版本](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/system-requirements)
+* MySQL：任何[支援的版本](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/system-requirements)
 
 ## 您何時需要變更增量ID （案例）
 
@@ -37,12 +41,12 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您也可以在PayPal的「付款接收偏好設定」中，允許每個商業發票識別碼進行多項付款，以修正PayPal的付款閘道問題。 請參閱我們的支援知識庫中的[PayPal閘道拒絕要求 — 重複發票問題](https://experienceleague.adobe.com/zh-hant/docs/experience-cloud-kcs/kbarticles/ka-26838)。
+>您也可以在PayPal的「付款接收偏好設定」中，允許每個商業發票識別碼進行多項付款，以修正PayPal的付款閘道問題。 請參閱我們的支援知識庫中的[PayPal閘道拒絕要求 — 重複發票問題](https://experienceleague.adobe.com/en/docs/experience-cloud-kcs/kbarticles/ka-26838)。
 
 ## 必備條件步驟
 
 1. 尋找應變更新增量ID的存放區和實體。
-1. [連線](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [連線](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)至您的MySQL資料庫。 針對雲端基礎結構上的Adobe Commerce，您首先需要[SSH連線至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 使用下列查詢來檢查實體序清單目前的auto\_increment值：
 
 ```sql
@@ -61,7 +65,7 @@ SHOW TABLE STATUS FROM `{database_name}` WHERE `name` LIKE 'sequence_{entity_typ
 
 ### 相關檔案
 
-* [在開發人員檔案中設定遠端MySQL資料庫連線](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)。
+* [在開發人員檔案中設定遠端MySQL資料庫連線](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/database-server/mysql-remote)。
 
 ## 更新實體以變更增量ID
 
@@ -95,5 +99,5 @@ ALTER TABLE sequence_order_1 AUTO_INCREMENT = 2000;
 ## 相關檔案
 
 * 在我們的支援知識庫中[在雲端上建立資料庫傾印](/help/how-to/general/create-database-dump-on-cloud.md)
-* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)
-* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+* 在開發人員檔案中[SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)
+* [在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)

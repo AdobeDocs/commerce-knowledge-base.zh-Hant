@@ -3,13 +3,20 @@ title: 如何略過GraphQL請求的WAF
 description: 本文說明如何針對GraphQL請求略過WAF。
 feature: GraphQL
 exl-id: 3a0f2c22-f976-4596-b6a9-4634be1ea4c3
-source-git-commit: 2bec86818336a9ef4d8316e257a0ca4256cdd93c
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c32adafa-ed01-4b31-997e-2413013911b0
+    internal-label: Integrations
+subfeature_v2:
+  - id: e396cff5-f586-484c-89f0-7f1da3308f92
+    internal-label: GraphQL
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
-
 ---
-
 # 如何略過GraphQL請求的WAF
 
 本文說明當[!DNL Fastly] WAF封鎖您的GraphQL要求時，如何略過WAF的GraphQL要求。
@@ -24,7 +31,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 透過[!DNL Fastly] Magento模組新增自訂程式碼片段，略過這些要求的WAF：
+1. 透過[!DNL Fastly] Magento模組新增自訂程式碼片段，略過這些請求的WAF：
 
    型別： recv
    優先順序： 15
@@ -40,5 +47,5 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* 雲端基礎結構指南上的Commerce中的[Web應用程式防火牆(WAF)](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service)。
-* [開始使用雲端基礎結構指南上的Commerce中的自訂VCL](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。
+* 雲端基礎結構指南上的Commerce中的[Web應用程式防火牆(WAF)](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-waf-service)。
+* [開始使用雲端基礎結構指南上的Commerce中的自訂VCL](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/custom-vcl-snippets/fastly-vcl-custom-snippets)。

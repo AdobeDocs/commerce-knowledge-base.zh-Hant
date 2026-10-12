@@ -4,13 +4,22 @@ description: 當您在包含已匯出產品的CSV檔案中找不到狀態列時�
 exl-id: 3cbe1e6c-fc73-4331-add7-1ebcb28a4580
 feature: Data Import/Export, Products
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '282'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce狀態列缺少匯出的產品CSV檔案
 
 當您在包含已匯出產品的CSV檔案中找不到狀態列（即表示產品已啟用或已停用）時，本文提供此問題的解決方案。 [!UICONTROL product_online]欄表示產品的狀態。
@@ -50,5 +59,5 @@ CSV檔案中的產品狀態屬性已重新命名。 現在是[!UICONTROL product
 
 ## 相關閱讀
 
-* [使用我們的使用手冊中的CSV檔案](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-csv)。
-* 使用手冊中的[產品匯出屬性參考](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/data-transfer/data-attributes-product)。
+* [使用我們的使用手冊中的CSV檔案](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-csv)。
+* 使用手冊中的[產品匯出屬性參考](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/data-transfer/data-attributes-product)。

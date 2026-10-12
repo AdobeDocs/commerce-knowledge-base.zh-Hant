@@ -1,23 +1,39 @@
 ---
 title: 已排程的內容分段更新未與過時的Fastly快取一起顯示
-description: 本文提供在使用內容暫存和Fastly時，Adobe Commerce存放區不顯示已排程更新的修正。 此問題是因為預設啟用了Fastly軟清除。 此功能可減少應用程式資源負載，且只會在第二次請求時重新產生新的快取。 若要解決問題，您可以透過Commerce管理員啟用「清除CMS」頁面，一律重新產生並提供最新內容。
+description: 本文提供在使用內容暫存和Fastly時，Adobe Commerce存放區不顯示已排程更新的修正。 此問題是因為預設啟用了Fastly軟清除。 此功能可減少應用程式資源負載，且只會在第二次請求時重新產生新的快取。 若要解決問題，您可以透過CMS管理員啟用清除Commerce頁面，以一律重新產生並提供最新內容。
 exl-id: becbffaa-b6dd-4e9b-894e-17901c40223a
 feature: CMS, Cache, Page Content, Staging
 role: Developer
-source-git-commit: 958179e0f3efe08e65ea8b0c4c4e1015e3c5bb76
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: ddbd0f6e-b569-5a04-8a70-55058777c373
+    internal-label: CMS
+  - id: 17d326fa-534a-55a5-b46f-8ae1de1e2f75
+    internal-label: Page Content
+  - id: 0054e3a7-7067-583b-bfd2-ab39dada9ab5
+    internal-label: Staging
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '491'
 ht-degree: 0%
-
 ---
-
 # 已排程的內容分段更新未與過時的Fastly快取一起顯示
 
-本文提供在使用內容暫存和Fastly時，Adobe Commerce存放區不顯示已排程更新的修正。 此問題是因為預設啟用了Fastly軟清除。 此功能可減少應用程式資源負載，且只會在第二次請求時重新產生新的快取。 若要解決問題，您可以透過Commerce管理員啟用「清除CMS」頁面，一律重新產生並提供最新內容。
+本文提供在使用內容暫存和Fastly時，Adobe Commerce存放區不顯示已排程更新的修正。 此問題是因為預設啟用了Fastly軟清除。 此功能可減少應用程式資源負載，且只會在第二次請求時重新產生新的快取。 若要解決問題，您可以透過CMS管理員啟用清除Commerce頁面，以一律重新產生並提供最新內容。
 
 ## 問題
 
-已排程的商店內容資產（頁面、產品、區塊等）更新 在更新開始時間後不會立即顯示在店面上。 當已使用[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hant)功能排程更新時，就會發生這種情況。
+已排程的商店內容資產（頁面、產品、區塊等）更新 在更新開始時間後不會立即顯示在店面上。 當已使用[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)功能排程更新時，就會發生這種情況。
 
 ## 原因
 
@@ -31,7 +47,7 @@ ht-degree: 0%
 
 ## 解決方案
 
-如果無法提供舊內容（即使是第一次要求），您可以停用「軟清除」並啟用「清除CMS」頁面：
+如果無法提供過時內容（即使第一次請求也不接受），您可以停用「軟清除」並啟用「清除CMS」頁面：
 
 1. 以管理員身分登入您的本機Commerce管理員。
 1. 移至&#x200B;**商店** > **設定** > **進階** > **系統** > **完整頁面快取**。
@@ -45,6 +61,6 @@ ht-degree: 0%
 
 ## 相關檔案
 
-* 在Commerce on Cloud Infrastructure指南中[設定清除選項](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)。
-* 內容與設計檔案中的[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html?lang=zh-Hant)。
+* 在Commerce on Cloud Infrastructure指南中[設定清除選項](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
+* 內容與設計檔案中的[內容暫存](https://experienceleague.adobe.com/docs/commerce-admin/content-design/staging/content-staging.html)。
 * [在Fastly檔案中提供過時內容](https://docs.fastly.com/guides/performance-tuning/serving-stale-content)。

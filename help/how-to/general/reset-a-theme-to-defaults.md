@@ -3,13 +3,20 @@ title: 將佈景主題重設為預設值
 description: 根據自訂主題和開發商店時可能會遇到的問題，您可能無法透過Commerce管理員存取。 您可以清除並重設為佈景主題預設值，而無需存取管理員。 清除主題後，將套用預設的Luma主題。
 exl-id: 86304dd5-f448-4dcc-ad07-04ecc6c85b6d
 feature: Cache
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '295'
 ht-degree: 0%
-
 ---
-
 # 將佈景主題重設為預設值
 
 根據自訂主題和開發商店時可能會遇到的問題，您可能無法透過Commerce管理員存取。 您可以清除並重設為佈景主題預設值，而無需存取管理員。 清除主題後，將套用預設的Luma主題。
@@ -30,7 +37,7 @@ ht-degree: 0%
 
 如果您需要重設存放區主題，但無法存取「管理員」面板，可以執行下列動作在資料庫中重設主題：
 
-1. 使用資料庫工具（例如[phpMyAdmin](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)）或從命令列手動存取資料庫，以執行下列SQL查詢： `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
+1. 使用資料庫工具（例如[phpMyAdmin](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/optional-software#phpmyadmin)）或從命令列手動存取資料庫，以執行下列SQL查詢： `UPDATE core_config_data SET value=NULL WHERE path='design/theme/theme_id'`
 1. 清除下列目錄：
    * `pub/static/frontend`
    * `var/view_preprocessing`

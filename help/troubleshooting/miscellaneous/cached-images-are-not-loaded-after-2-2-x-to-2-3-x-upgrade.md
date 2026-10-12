@@ -4,13 +4,25 @@ description: 本文針對在雲端基礎結構2.2.X上從Adobe Commerce升級為
 exl-id: 3e6bd5aa-bd5d-4880-8b78-64f280647abe
 feature: Cache, Upgrade
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '287'
 ht-degree: 0%
-
 ---
-
 # 從2.2.X升級至2.3.X後不會載入快取影像
 
 本文針對在雲端基礎結構2.2.X上從Adobe Commerce升級為2.3.X後無法顯示快取影像的問題提供解決方案。
@@ -27,7 +39,7 @@ Adobe Commerce從2.2.X升級至2.3.X後，將無法使用快取的產品影像�
 
 ## 解決方案
 
-1. 在`.magento.app.yaml`位置檢查您的`"/media"`設定檔。 正確的設定如下所示：
+1. 在`"/media"`位置檢查您的`.magento.app.yaml`設定檔。 正確的設定如下所示：
 
    ```yaml
    "/media":
@@ -43,8 +55,8 @@ Adobe Commerce從2.2.X升級至2.3.X後，將無法使用快取的產品影像�
    * 入門計畫：自行修正檔案並推送變更。
    * 專業計畫：
    * 整合：自行修正檔案並推送變更。
-   * 測試和生產：自行修正檔案、推送變更，然後建立[Adobe Commerce支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)以套用它。
+   * 測試和生產：自行修正檔案、推送變更，然後建立[Adobe Commerce支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)以套用它。
 
-1. 在Commerce管理員中啟用Fastly影像最佳化（必須先設定Fastly），如<https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>中所述。
+1. 在Commerce管理員中啟用Fastly影像最佳化（必須先設定Fastly），如<https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/cdn/fastly-image-optimization>中所述。
 
-如果設定正確，但您仍然遇到問題，請繼續調查或聯絡[Adobe Commerce支援](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
+如果設定正確，但您仍然遇到問題，請繼續調查或聯絡[Adobe Commerce支援](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。

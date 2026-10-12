@@ -3,20 +3,26 @@ title: MBI：重新驗證整合
 description: 本文提供重新授權整合的解決方案，以授予Magento Business Intelligence (MBI)從第三方服務提取資料所需的許可權。 撤銷這些許可權時需要重新授權。
 exl-id: c608d6f9-64a5-44f8-9d7b-9a85a2668775
 feature: Commerce Intelligence, Integration
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 3cd14413-6539-5c64-b063-fdcabf03abff
+    internal-label: Commerce Intelligence
+  - id: cc04bd17-78d5-5120-8c3d-1b8a57e49280
+    internal-label: Integration
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '271'
 ht-degree: 0%
-
 ---
-
 # MBI：重新驗證整合
 
 本文提供重新授權整合的解決方案，以授予Magento Business Intelligence (MBI)從第三方服務提取資料所需的許可權。 撤銷這些許可權時需要重新授權。
 
 ## 資料庫與SaaS整合
 
-如需資料庫與SaaS整合的清單，請參閱我們的開發人員檔案中的[使用整合連線外部資料](https://experienceleague.adobe.com/zh-hant/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （開啟頁面時，請使用左側的目錄進行導覽）。
+如需資料庫與SaaS整合的清單，請參閱我們的開發人員檔案中的[使用整合連線外部資料](https://experienceleague.adobe.com/en/docs/commerce-business-intelligence/mbi/analyze/saas/integrations)。 （開啟頁面時，請使用左側的目錄進行導覽）。
 
 ## 發生連線問題？
 
@@ -35,4 +41,4 @@ ht-degree: 0%
 
 若要重新驗證，您可能需要重新輸入帳戶認證。 在某些情況下，您可能需要為問題整合產生新的API金鑰。 按一下問題整合的名稱，開始重新授權程式。
 
-如果問題仍然存在，請[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。
+如果問題仍然存在，請[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)。

@@ -1,18 +1,24 @@
 ---
 title: 雲端上的Adobe Commerce：變更驗證金鑰並重新部署
-description: 本文提供如何使用不同的驗證金鑰在雲端基礎結構上重新部署Adobe Commerce的說明。 例如，您可能已將金鑰用於其他帳戶，或者您可能已使用Magento Open Source金鑰而非Adobe Commerce金鑰。
+description: 本文提供如何使用不同的驗證金鑰在雲端基礎結構上重新部署Adobe Commerce的說明。 例如，您可能使用另一個帳戶的金鑰，或使用Magento Open Source金鑰而非Adobe Commerce金鑰。
 exl-id: 47407c81-5c52-406f-812f-6c6b3ca5cafa
 feature: Cloud, Deploy
-source-git-commit: f11c8944b83e294b61d9547aefc9203af344041d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '247'
 ht-degree: 0%
-
 ---
-
 # 雲端上的Adobe Commerce：變更驗證金鑰並重新部署
 
-本文提供如何使用不同的驗證金鑰在雲端基礎結構上重新部署Adobe Commerce的說明。 例如，您可能已將金鑰用於其他帳戶，或者您可能已使用Magento Open Source金鑰而非Adobe Commerce金鑰。
+本文提供如何使用不同的驗證金鑰在雲端基礎結構上重新部署Adobe Commerce的說明。 例如，您可能使用另一個帳戶的金鑰，或使用Magento Open Source金鑰而非Adobe Commerce金鑰。
 
 如果您使用不正確的金鑰，部署會失敗。 若要復原，您必須複製專案、將正確的金鑰新增到`auth.json`，然後將變更推送到主分支。
 

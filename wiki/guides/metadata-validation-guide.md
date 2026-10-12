@@ -1,10 +1,13 @@
 ---
-source-git-commit: 0cfb7dc0dce68bcb0933a5ae49b0cd5a8b5b5a39
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 0%
-
 ---
+
 # 中繼資料驗證指南
 
 為了確保MD檔案中的中繼資料格式正確，我們已實施中繼資料驗證測試。 本檔案提供的指引，可協助貢獻者避免一些最常見的中繼資料驗證錯誤。

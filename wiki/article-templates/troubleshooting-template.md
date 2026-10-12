@@ -1,7 +1,10 @@
 ---
 title: '...'
 labels: troubleshooting,...
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -65,7 +68,7 @@ Adobe Commerce會那麼做。
 
 ## 相關閱讀
 
-* 使用手冊中的[文章主題](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/user-guides/home)。
+* 使用手冊中的[文章主題](https://experienceleague.adobe.com/en/docs/commerce-admin/user-guides/home)。
 * [開發人員檔案中的文章主題](https://developer.adobe.com/commerce/docs/)。 您也可以說要區分雲端與內部部署使用者之devdocs中的指示：「[文章主題](https://developer.adobe.com/commerce/docs/)（在雲端基礎結構上Adobe Commerce的開發人員檔案中）」。 vs &quot;[文章主題](https://developer.adobe.com/commerce/docs/) （在我們Adobe Commerce內部部署的開發人員檔案中）。&quot;
 * 我們的支援知識庫中的[文章主題](https://support.magento.com/hc/en-us)。
 * 任何相關的資源（部落格、論壇、StackOverflow等）

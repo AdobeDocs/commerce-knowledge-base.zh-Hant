@@ -3,13 +3,19 @@ title: 雲端基礎結構上Adobe Commerce的第三方測試秘訣
 description: 本文提供選項，讓您在雲端基礎結構上的Adobe Commerce擴充功能發生問題時，可與協力廠商共用存取權以進行測試/驗證。
 exl-id: e2d80aa9-8b68-48ed-bec5-68e128611a1e
 feature: Best Practices, Cloud
-source-git-commit: 8be0c125bb0417e34e016656337506da88796630
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: cdfd3bc1-dc23-5cf0-b965-d3c0c55cde67
+    internal-label: Best Practices
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '530'
 ht-degree: 0%
-
 ---
-
 # 雲端基礎結構上Adobe Commerce的第三方測試秘訣
 
 本文提供選項，讓您在雲端基礎結構上的Adobe Commerce擴充功能發生問題時，可與協力廠商共用存取權以進行測試/驗證。
@@ -27,11 +33,11 @@ ht-degree: 0%
 
 * 提供您的協力廠商雲端環境的存取權。 相關文章：
 
-   * [Adobe Commerce說明中心使用手冊>共用存取權：授予其他使用者存取您帳戶的許可權](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access) （在我們的支援知識庫中）。
-   * 在我們的使用手冊中[共用您的Commerce帳戶](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/start/commerce-account/commerce-account-share)。
+  * [Adobe Commerce說明中心使用手冊>共用存取權：授予其他使用者存取您帳戶的許可權](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#shared-access) （在我們的支援知識庫中）。
+  * 在我們的使用手冊中[共用您的Commerce帳戶](https://experienceleague.adobe.com/en/docs/commerce-admin/start/commerce-account/commerce-account-share)。
 
 * 建立資料庫傾印（或給予第三方廠商執行此作業的存取權）。 這可以使用CLI或在Commerce Admin中完成。 此DB傾印會模糊化客戶資料，因此他們只得到程式碼和產品SKU等，沒有專有/客戶資料。 若需參考資訊，請在我們的支援知識庫中使用[共用您的Commerce帳戶] (/help/how-to/general/create-database-dump-on-cloud.md)。
-* 測試完成後，請務必撤銷雲端環境的共用存取權，如支援知識庫中的[Adobe Commerce說明中心使用手冊>撤銷（刪除共用存取權）](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access)所述。
+* 測試完成後，請務必撤銷雲端環境的共用存取權，如支援知識庫中的[Adobe Commerce說明中心使用手冊>撤銷（刪除共用存取權）](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#revoke-shared-access)所述。
 
 ## 測試最佳實務
 

@@ -4,13 +4,27 @@ description: 本文針對Klarna VBE （廠商套件擴充功能）中遺失**退
 exl-id: f08039b2-7f8b-481e-8ec8-1659e227744f
 feature: B2B, Orders, Payments
 role: Developer
-source-git-commit: 7705b6030d2f0877c228dae1707916ad38c9d587
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: bd989d82-1e15-4534-88db-f1f51dd77ffa
+    internal-label: Accounts
+subfeature_v2:
+  - id: f56d26ed-050b-4fb7-b29b-8e6e994e80a2
+    internal-label: B2B
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0已知問題：遺失Klarna的「退款」標籤
 
 本文針對Klarna VBE （廠商套件擴充功能）中遺失&#x200B;**退款**&#x200B;標籤的Admin中的已知問題提供因應措施。 在Klarna入口網站進行退款時，**退款**&#x200B;標籤不會顯示在已退款的Bundled產品旁邊。
@@ -31,7 +45,7 @@ ht-degree: 0%
 
 1. 移至Adobe Commerce前端，並將套件產品新增至&#x200B;**購物車**。
 1. 瀏覽至簽出。
-1. 輸入消費者資訊到結帳，然後按一下[下一步] **&#x200B;**。
+1. 輸入消費者資訊到結帳，然後按一下[下一步] ****。
 1. 選取&#x200B;**KP選項**&#x200B;並按一下&#x200B;**下訂單**。
 1. 移至&#x200B;**管理員** > **銷售** > **訂單**。
 1. 開啟訂單。

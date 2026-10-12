@@ -4,13 +4,20 @@ description: 本文修正了新網域重新導向至現有或不同環境中的�
 exl-id: 88e9eb3f-9b82-4ca3-aa80-e49f360b3eb9
 feature: Configuration
 role: Developer
-source-git-commit: 1d2e0c1b4a8e3d79a362500ee3ec7bde84a6ce0d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '254'
 ht-degree: 0%
-
 ---
-
 # 新網域正在重新導向至預設網域
 
 本文修正了新網域重新導向至現有或不同環境中的預設網域的問題。
@@ -29,15 +36,15 @@ ht-degree: 0%
 
 ## 解決方案
 
-1. 如果網域在相同環境中重新導向，請確定您已設定[變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html?lang=zh-Hant#modify-variables)。
+1. 如果網域在相同環境中重新導向，請確定您已設定[變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure-store/multiple-sites.html#modify-variables)。
 1. 如果網域正在重新導向到另一個環境，請執行以下命令，檢查您是否已設定正確的[!DNL Fastly]服務： `bin/magento fastly:conf:get -s`
 
 >[!NOTE]
 >
->您可以登入每個環境（測試/生產）並檢查`/mnt/shared/fastly_tokens.txt`檔案，以找到[!DNL Fastly] API認證。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[設定 [!DNL Fastly] 服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html?lang=zh-Hant)。
+>您可以登入每個環境（測試/生產）並檢查`/mnt/shared/fastly_tokens.txt`檔案，以找到[!DNL Fastly] API認證。 如需詳細資訊，請參閱Commerce on Cloud Infrastructure指南中的[設定 [!DNL Fastly] 服務](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/setup-fastly/fastly-configuration.html)。
 
 如果上述兩個設定都正確，請提交支援票證。
 
 ## 相關閱讀
 
-* [在我們支援知識庫中設定新網域](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html?lang=zh-Hant)的檢查清單。
+* [在我們支援知識庫中設定新網域](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/checklist-for-setting-up-a-new-domain.html)的檢查清單。

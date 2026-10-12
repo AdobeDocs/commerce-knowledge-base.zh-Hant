@@ -3,13 +3,17 @@ title: 變更目前的Adobe帳戶電子郵件地址
 description: 瞭解如何將目前在Adobe帳戶中註冊的電子郵件地址變更為目前未在Adobe帳戶或Magento帳戶中註冊的新地址。
 exl-id: ca549d38-0d62-4206-9727-0ed85b733dc3
 feature: Communications
-source-git-commit: 95d4507be9ac06a4cb3b1150000d7f9df30d35f8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bb03f6c4-cab9-560e-9d02-5816e1808d17
+    internal-label: Communications
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '487'
 ht-degree: 0%
-
 ---
-
 # 變更目前的Adobe帳戶電子郵件地址
 
 本文說明如何將目前在[Adobe帳戶](https://account.adobe.com/)中註冊的電子郵件地址變更為目前未在[Adobe帳戶](https://account.adobe.com/)或[Magento帳戶](https://account.magento.com/)中註冊的新地址。
@@ -28,7 +32,7 @@ ht-degree: 0%
 
 請依照下列步驟變更電子郵件地址：
 
-1. 重設與舊電子郵件地址搭配使用的密碼。 遵循Adobe helpx中[重設忘記的密碼](https://helpx.adobe.com/tw/manage-account/using/change-or-reset-password.html)中的指示。
+1. 重設與舊電子郵件地址搭配使用的密碼。 遵循Adobe helpx中[重設忘記的密碼](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html)中的指示。
 1. 密碼重設連結會傳送至目前擁有者的信箱，並附上指示。
 1. 瀏覽至[Adobe帳戶頁面](https://account.adobe.com)，使用新電子郵件登入並設定密碼。
 
@@ -50,9 +54,9 @@ ht-degree: 0%
 ### 驗證Commerce Marketplace電子郵件
 
 1. 登入您的[Commerce Marketplace帳戶](https://commercemarketplace.adobe.com/)，並確認您的帳戶電子郵件已更新為新地址。
-1. 如果電子郵件尚未更新，請提交[支援票證](https://experienceleague.adobe.com/zh-hant/support#home)，要求更正Commerce Marketplace帳戶電子郵件。
+1. 如果電子郵件尚未更新，請提交[支援票證](https://experienceleague.adobe.com/en/support#home)，要求更正Commerce Marketplace帳戶電子郵件。
 
 ### 要求支援人員完成內部帳戶更新
 
-1. 提交[支援票證](https://experienceleague.adobe.com/zh-hant/support#home)，要求我們完成任何必要的內部更新（例如，更新您的舊有和新Adobe ID與您的MAGE ID之間的連結）。
+1. 提交[支援票證](https://experienceleague.adobe.com/en/support#home)，要求我們完成任何必要的內部更新（例如，更新您的舊有和新Adobe ID與您的MAGE ID之間的連結）。
 1. 如果您因為Commerce Marketplace電子郵件在上一節中未更新而開啟了支援票證，則可以使用相同的票證來請求這些額外的內部更新。

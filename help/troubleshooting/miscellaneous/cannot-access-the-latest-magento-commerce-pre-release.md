@@ -4,13 +4,20 @@ description: 本文提供解決方案，解決嘗試使用最新搶鮮版Adobe C
 exl-id: cbf54a15-b307-4bfc-90b7-cff98aeb4fce
 feature: Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '719'
 ht-degree: 0%
-
 ---
-
 # 無法存取最新Adobe Commerce搶鮮版
 
 本文提供解決方案，解決嘗試使用最新搶鮮版Adobe Commerce程式碼時所發生的問題。
@@ -40,8 +47,8 @@ ht-degree: 0%
 
 在發行前版本中，發行套件有兩個位置可用：
 
-1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)。
-1. 在&#x200B;**account.magento.com**&#x200B;上，**我的帳戶** > [下載](https://account.magento.com/customer/account/login)。
+1. 透過[magento.com](https://repo.magento.com/)上的Composer，使用帳戶的主要MageID。 有關如何使用Composer的詳細資訊，請參閱我們的開發人員檔案中的[使用Composer安裝Adobe Commerce](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)。
+1. 在[account.magento.com](https://account.magento.com/customer/account/login)上，**我的帳戶** > **下載**。
 
 >[!NOTE]
 >
@@ -61,9 +68,9 @@ ht-degree: 0%
    * 如果您看到Adobe Commerce授權資訊，則您的MageID是主要的。
    * 如果您沒有看到Adobe Commerce授權資訊，則您的MageID僅具有共用存取權。 若要瞭解主要識別碼持有者，請前往&#x200B;**與我共用**&#x200B;注意此處指定的SHARENAME。 按一下&#x200B;**切換帳戶**，並選取您在SHARENAME中記下的值。 在歡迎頁面上，您將會看到主要ID持有者的電子郵件。
 1. 如果您因任何原因無法在[magento.com](https://account.magento.com/customer/account/login)找到此資訊，請連絡您的Adobe帳戶團隊。
-1. 如果以上都不管用，請[連絡支援人員](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
+1. 如果以上都不管用，請[連絡支援人員](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
 
-夥伴的&#x200B;**&#x200B;**
+夥伴的&#x200B;****
 
 若要瞭解您的MageID是否為主要映像，請嘗試下列步驟：
 
@@ -71,8 +78,8 @@ ht-degree: 0%
    * 如果您看到使用中的合作夥伴授權資訊，則表示您的MageID是主要的。 如果END DATE值是未來的日期，則合作夥伴授權有效。
    * 如果您沒有看到使用中的合作夥伴授權資訊，則表示您的MageID僅具有共用存取權。 若要瞭解主要識別碼持有者，請前往&#x200B;**與我共用**&#x200B;注意此處指定的SHARENAME。 按一下&#x200B;**切換帳戶**，並選取您在SHARENAME中記下的值。 在歡迎頁面上，您將會看到主要ID持有者的電子郵件。
 1. 如果您因任何原因無法在[magento.com](https://account.magento.com/customer/account/login)找到此資訊，請連絡您的合作夥伴經理。
-1. 如果以上都不管用，請[с連絡支援](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
+1. 如果以上都不管用，請[с連絡支援](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)。
 
 ### 不是發行前程式的一部分
 
-若要納入搶鮮版存取計畫，貴組織必須有良好聲譽的有效Adobe Commerce或合作夥伴帳戶。 如果您認為您符合此條件且無法存取發行前程式碼，請[連絡支援人員](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)並提供您的MageID。
+若要納入搶鮮版存取計畫，貴組織必須有良好聲譽的有效Adobe Commerce或合作夥伴帳戶。 如果您認為您符合此條件且無法存取發行前程式碼，請[連絡支援人員](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide)並提供您的MageID。

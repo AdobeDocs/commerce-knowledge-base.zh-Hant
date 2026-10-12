@@ -4,13 +4,22 @@ description: 本文提供登入Adobe Commerce支援或雲端專案有困難時�
 exl-id: 676b32d2-8197-4c60-a1b1-3c51b01dd3a3
 feature: Cloud, Paas
 role: Developer
-source-git-commit: 0ad52eceb776b71604c4f467a70c13191bb9a1eb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+  - id: 00451af3-7b97-5414-9992-3a6c269e413f
+    internal-label: Paas
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 # 無法登入Adobe Commerce支援或雲端帳戶
 
 本文提供登入Adobe Commerce支援或雲端專案有困難時的解決方案。
@@ -42,16 +51,16 @@ Adobe Commerce （所有部署方法）所有[支援的版本](https://www.adobe
 
 ## 原因
 
-在整合Adobe Commerce與其他Adobe解決方案的程式中，所有使用者都必須使用連線至其MageID的相同電子郵件地址，建立Adobe登入（如果尚未建立）。
+在我們整合Adobe Commerce與其他Adobe解決方案的程式中，所有使用者都必須使用連線至其MageID的相同電子郵件地址，建立Adobe登入頁面（如果尚未建立）。
 
 ## 解決方案
 
 您可以透過以下方式登入帳戶：
 
 - 現有的Adobe公司/個人帳戶。
-- 如果您沒有Adobe帳戶，請以相同的電子郵件地址建立一個帳戶。
+- 如果您沒有Adobe帳戶，請使用相同的電子郵件地址建立一個帳戶。
 
-如需相關步驟，請參閱Adobe Experience League中的[Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html?lang=zh-Hant)。
+如需相關步驟，請參閱Adobe Experience League中的[Commerce Identity Manager](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-identity-manager.html)。
 
 ## 相關閱讀
 

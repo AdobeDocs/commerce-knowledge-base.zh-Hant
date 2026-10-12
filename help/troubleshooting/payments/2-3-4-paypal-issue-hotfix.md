@@ -4,13 +4,22 @@ description: 本文提供在PayPal Express結帳中選取地區時，針對下�
 exl-id: 9f5ec100-49b0-4ac5-8951-32b5c4fe6bed
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '442'
 ht-degree: 0%
-
 ---
-
 # 2.3.4 PayPal問題Hotfix
 
 本文提供在PayPal Express結帳中選取地區時，針對下訂單期間收到的錯誤進行修正。 此問題是由於Adobe Commerce v2.3.4版本中的變更所造成，且與PayPal Express結帳位址列位的剖析方式有關。
@@ -49,11 +58,11 @@ Error 500: NOTICE: PHP message: PHP Fatal error: Uncaught Error: Call to a membe
 
 針對Adobe Commerce內部部署商家：套用[Hotfix，](https://magento.com/tech-resources/download#download2353)，可在「我的帳戶」中[magento.com](https://magento.com)入口網站的「下載」區段取得。
 
-適用於Adobe Commerce on cloud infrastructure商家： Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche)，以尋找套用最新套件的說明。
+適用於Adobe Commerce on cloud infrastructure商家： Adobe已在Commerce v1.0.2的雲端修補程式中納入修正。 請參閱開發人員檔案中的[Commerce雲端修補程式發行說明](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/release-notes/cloud-patches?itm_source=devdocs&itm_medium=quick_search&itm_campaign=federated_search&itm_term=cloud%20patche)，以尋找套用最新套件的說明。
 
 ## 如何套用修正程式
 
-如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
 
 ## 相關閱讀
 

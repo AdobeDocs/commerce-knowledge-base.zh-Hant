@@ -4,13 +4,22 @@ description: 本文提供因存取金鑰所有權衝突而在雲端基礎結構�
 exl-id: e8d72ebe-453f-4d18-a25e-c76e685aa667
 feature: Deploy, Roles/Permissions
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+  - id: e439352c-5b67-587d-b34e-d2a0aa5a0242
+    internal-label: Roles/Permissions
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '396'
 ht-degree: 0%
-
 ---
-
 # 與帳戶許可權和存取金鑰相關的部署問題
 
 本文提供因存取金鑰所有權衝突而在雲端基礎結構上部署Adobe Commerce所發生問題的解決方案。
@@ -23,12 +32,12 @@ ht-degree: 0%
 
 <u>必要條件</u>：
 
-雲端授權與連絡人A相關聯(電子郵件地址： *<u>first@e.mail</u>*)
+雲端授權與連絡人A相關聯（電子郵件地址： *<u>first@e.mail</u>*）
 
 <u>要再現的步驟</u>：
 
 1. 聯絡A在其帳戶中建立的Adobe Commerce存取金鑰（金鑰X）並將其安裝在雲端。
-1. 連絡人B (電子郵件地址： *<u>second@e.mail</u>*)使用其帳戶購買擴充功能，並建立安裝擴充功能的存取金鑰（金鑰Y）。
+1. 連絡人B （電子郵件地址： *<u>second@e.mail</u>*）使用其帳戶購買擴充功能，並建立安裝擴充功能的存取金鑰（金鑰Y）。
 1. 連絡人A離開了公司，授權（所有權）也轉移到了連絡人B。
 1. 系統整合商嘗試使用索引鍵X在雲端環境中安裝擴充功能。
 
@@ -50,7 +59,7 @@ ht-degree: 0%
 
 ### 如何停用存取金鑰
 
-如果您沒有與舊金鑰相關聯的[Commerce Marketplace](https://marketplace.magento.com/)帳戶的存取權，[請聯絡Adobe Commerce支援](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以停用該金鑰。
+如果您沒有與舊金鑰相關聯的[Commerce Marketplace](https://marketplace.magento.com/)帳戶的存取權，[請聯絡Adobe Commerce支援](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)以停用該金鑰。
 
 如果您擁有與舊金鑰相關聯的Marketplace帳戶的存取權，請採取以下步驟來停用金鑰：
 
@@ -64,4 +73,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [在開發人員檔案中取得您的驗證金鑰](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。
+* [在開發人員檔案中取得您的驗證金鑰](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys)。

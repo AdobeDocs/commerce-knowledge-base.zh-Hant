@@ -4,13 +4,31 @@ description: 針對您嘗試在Commerce管理員中將所需的實體型別匯�
 exl-id: 8e3bb65c-ea75-4af4-ad4b-4d94ab219bbb
 feature: Cache, Data Import/Export, Products, Variables
 role: Developer
-source-git-commit: be0c72a1759ba172666c7c9409c65a1a388e3f11
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 601e4abe-d9bf-58de-a779-32ed6794dcbe
+    internal-label: Data Import/Export
+  - id: 4067ab89-2e97-5de1-8d98-de8318461a8d
+    internal-label: Products
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+  - id: 8d0b446f-5b16-5a10-b272-01143504a11c
+    internal-label: System
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+  - id: 2191e157-828a-5358-ad69-ebcaa8402915
+    internal-label: Variables
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 0%
-
 ---
-
 # 匯出的產品.csv檔案不會出現
 
 本文解決在Commerce管理員中將所需的實體型別匯出至.csv檔案時導致檔案未顯示的問題。
@@ -73,7 +91,7 @@ Adobe Commerce應用程式元件2.3.2版中的匯出功能已知問題。
 
 #### 將程式新增為cron工作（選用）
 
-1. 確認您的cron已設定完畢。 如需詳細資訊，請參閱[設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hant)。
+1. 確認您的cron已設定完畢。 如需詳細資訊，請參閱[設定cron工作](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html)。
 1. 執行以下命令以傳回訊息佇列使用者清單： `./bin/magento queue:consumers:list`
 1. 將下列專案新增至根應用程式目錄中的`.magento.env.yaml`檔案，並包含您要新增的使用者。 例如，以下是匯出處理所需的消費者：
 
@@ -87,17 +105,17 @@ Adobe Commerce應用程式元件2.3.2版中的匯出功能已知問題。
                    - exportProcessor
    ```
 
-   然後推送此更新檔案並重新部署您的環境。 在開發人員檔案中，也請參考[將自訂cron工作新增至您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hant#add-custom-cron-jobs-to-your-project)。
+   然後推送此更新檔案並重新部署您的環境。 在開發人員檔案中，也請參考[將自訂cron工作新增至您的專案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html#add-custom-cron-jobs-to-your-project)。
 
 >[!NOTE]
 >
->如果您找不到環境的`.magento.env.yaml`檔案，而且您認為該檔案已被刪除，則必須建立新的`.magento.env.yaml`。 一開始可能是空的，您可以視需要在其中新增資訊。 參考下列文章： [在開發人員檔案中設定部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)的環境變數[以及環境變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html?lang=zh-Hant)。
+>如果您找不到環境的`.magento.env.yaml`檔案，而且您認為該檔案已被刪除，則必須建立新的`.magento.env.yaml`。 一開始可能是空的，您可以視需要在其中新增資訊。 參考下列文章： [在開發人員檔案中設定部署](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)的環境變數[以及環境變數](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/stage/variables-intro.html)。
 
 >[!TIP]
 >
->[YAML檔案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html?lang=zh-Hant)區分大小寫，不允許使用索引標籤。 請留意在.magento.env.yaml檔案中使用一致的縮排，否則您的設定可能無法如預期運作。 檔案和範例檔案中的範例使用雙空格縮排。 使用ece-tools validate指令檢查您的設定。
+>[YAML檔案](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/env/configure-env-yaml.html)區分大小寫，不允許使用索引標籤。 請留意在.magento.env.yaml檔案中使用一致的縮排，否則您的設定可能無法如預期運作。 檔案和範例檔案中的範例使用雙空格縮排。 使用ece-tools validate指令檢查您的設定。
 
 >[!NOTE]
 >
->在雲端基礎結構上的Adobe Commerce Pro專案上，必須在雲端基礎結構上的Adobe Commerce上啟用[自動cron功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=zh-Hant#crontab)，然後才能使用`.magento.app.yaml`將自訂cron工作新增到中繼和生產環境。 如果未啟用此功能，請[建立支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，為您新增工作。
+>在雲端基礎結構上的Adobe Commerce Pro專案上，必須在雲端基礎結構上的Adobe Commerce上啟用[自動cron功能](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html?lang=en#crontab)，然後才能使用`.magento.app.yaml`將自訂cron工作新增到中繼和生產環境。 如果未啟用此功能，請[建立支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，為您新增工作。
 

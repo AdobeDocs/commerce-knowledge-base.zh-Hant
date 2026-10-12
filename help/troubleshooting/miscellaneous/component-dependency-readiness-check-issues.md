@@ -4,13 +4,20 @@ description: 本文提供元件相依性衝突的解決方案。
 exl-id: e0865226-2aaf-4bdd-8c28-28f32f38ce0c
 feature: Configuration
 role: Developer
-source-git-commit: 05297c82b292b8ccc88018c58e991bd3a32d6ffa
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '229'
 ht-degree: 0%
-
 ---
-
 # 元件相依性整備檢查問題
 
 本文提供元件相依性衝突的解決方案。
@@ -49,7 +56,7 @@ file_put_contents(/var/www/html/magento2/var/composer_home/cache/repo/https---
 packagist.org/provider-doctrine$instantiator.json): failed to open stream: Permission denied
 ```
 
-請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文所述。
+請確定您已設定檔案系統許可權，如開發人員檔案中的[擁有權和許可權概觀](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/file-system/overview)一文所述。
 
 ## 「元件相依性檢查」狀態永遠不變 {#trouble-depend-state}
 

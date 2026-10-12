@@ -3,13 +3,20 @@ title: 如果上線網站使用相同的網域，請在生產上進行Fastly測�
 description: 如果您的生產網域(「example.com」)上有一個上線網站在運作，並且您需要在雲端基礎結構啟用Fastly CDN的生產環境上測試Adobe Commerce的新存放區，我們建議使用子網域（例如「prod.example.com」），而之前已將它新增到Fastly，以用於任何啟動前測試活動。 本文會討論詳細資訊，並提供相關Adobe Commerce檔案資源的實用連結。
 exl-id: bc9d11c8-ce47-461d-b5b8-c03494bc4ceb
 feature: Cache
-source-git-commit: 6651963ea5843283dee40a8ce58280baac79053a
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: b673188e-f9fa-492a-b470-c8f949bf7827
+    internal-label: Cache
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '640'
 ht-degree: 0%
-
 ---
-
 # 如果上線網站使用相同的網域，請在生產上進行Fastly測試
 
 如果您的生產網域(`example.com`)上有一個上線網站在執行，而且您需要在雲端基礎結構啟用Fastly CDN的生產環境中測試Adobe Commerce上的新存放區，我們建議使用子網域（例如`prod.example.com`），而之前已將其新增到Fastly中，以用於任何啟動前測試活動。 本文會討論詳細資訊，並提供相關Adobe Commerce檔案資源的實用連結。
@@ -34,13 +41,13 @@ ht-degree: 0%
 
 請依照下列步驟，在雲端基礎結構專案上處理Adobe Commerce中的子網域：
 
-* [提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求將子網域新增到Fastly服務/Nginx設定（適用於雲端基礎結構上的Adobe Commerce Pro計畫架構）。
+* [提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求將子網域新增到Fastly服務/Nginx設定（適用於雲端基礎結構上的Adobe Commerce Pro計畫架構）。
 * 在您的一側設定對應的DNS設定。
 
 執行子網域設定的步驟後，您也必須採取這些步驟來驗證SSL憑證的生產網域：
 
 * 上傳DNS TXT記錄以進行生產網域的SSL驗證。
-* [提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求驗證SSL憑證的生產網域。
+* [提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，要求驗證SSL憑證的生產網域。
 
 使用子網域可讓您日後對商店執行「軟啟動」，因為此啟動只需要更新對應的DNS設定。
 
@@ -48,10 +55,10 @@ ht-degree: 0%
 
 在我們的支援知識庫中：
 
-* [在測試和生產環境中設定Fastly DNS設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html?lang=zh-Hant)
-* 在雲端基礎結構的Adobe Commerce上啟動[可能的封鎖程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html?lang=zh-Hant)
+* [在中繼和生產環境中設定Fastly DNS設定](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/how-to/configure-fastly-dns-settings-on-staging-and-production-environments.html)
+* [在雲端基礎結構上的Adobe Commerce上啟動的潛在封鎖程式](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/blockers-launching-on-magento-commerce-cloud.html)
 
 在我們的開發人員檔案中：
 
-* [Fastly總覽](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html?lang=zh-Hant)
-* [上線檢查清單： Fastly的DNS設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html?lang=zh-Hant)
+* [Fastly概述](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/cdn/fastly.html)
+* [上線檢查清單： Fastly的DNS設定](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/launch/checklist.html)

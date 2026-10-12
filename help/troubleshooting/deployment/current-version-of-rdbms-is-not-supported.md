@@ -4,13 +4,20 @@ description: 本文提供部署失敗且部署記錄中有下列錯誤時的解�
 exl-id: e7300f64-5749-4de8-b4d2-bc4789437282
 feature: Deploy
 role: Developer
-source-git-commit: da2df5fc4ab6cc10d86af806045ee884b01f291d
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: bcd8874c-7b93-5596-bdaa-22660e84df14
+    internal-label: Deploy
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '331'
 ht-degree: 0%
-
 ---
-
 # 部署時出現「不支援目前版本的RDBMS」錯誤
 
 本文提供部署失敗且部署記錄中有下列錯誤時的解決方案： *不支援RDBMS的目前版本*。
@@ -45,12 +52,12 @@ ht-degree: 0%
 您必須先將MariaDB服務升級為相容的版本，才能升級應用程式。
 
 
-如需雲端基礎結構Pro計畫架構上Adobe Commerce的整合分支（以及入門架構中的所有分支），請遵循開發人員檔案中的[設定服務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/configure/service/services-yaml)。
+如需雲端基礎結構Pro計畫架構上Adobe Commerce的整合分支（以及入門架構中的所有分支），請遵循開發人員檔案中的[設定服務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/configure/service/services-yaml)。
 
-針對雲端基礎結構Pro計畫架構上Adobe Commerce的測試和生產，請[提交支援票證](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，以便在您部署Adobe Commerce版本升級之前請求升級服務。
+針對雲端基礎結構Pro計畫架構上Adobe Commerce的測試和生產，請[提交支援票證](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/adobe-commerce-help-center-user-guide#submit-ticket)，以便在您部署Adobe Commerce版本升級之前請求升級服務。
 
 
 ## 相關閱讀
 
-* 在開發人員檔案中[組建和部署的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices)。
-* [Adobe Commerce 2.3.5升級：在我們的支援知識庫中壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html?lang=zh-Hant)。
+* 在開發人員檔案中[組建和部署的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/user-guide/develop/deploy/best-practices#best-practices)。
+* [Adobe Commerce 2.3.5升級：在我們的支援知識庫中壓縮為動態表格](https://experienceleague.adobe.com/docs/commerce-operations/implementation-playbook/best-practices/maintenance/commerce-235-upgrade-prerequisites-mariadb.html)。

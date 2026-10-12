@@ -4,13 +4,22 @@ description: 本文針對已知的Adobe Commerce 2.4.0問題提供修補程式�
 exl-id: 1d4d762d-2ab3-4752-ad6d-1eb6a179917d
 feature: Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '304'
 ht-degree: 0%
-
 ---
-
 # Adobe Commerce 2.4.0 Braintree虛擬終端機頁面已損毀
 
 本文針對已知的Adobe Commerce 2.4.0問題提供修補程式，該問題導致Braintree虛擬終端機頁面未載入正確的UI元素，或未設定Braintree時的錯誤訊息。
@@ -26,7 +35,7 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** **&#x200B; **
+在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** 。 ** **
 
 <u>預期結果：</u>
 
@@ -40,7 +49,7 @@ ht-degree: 0%
 
 <u>要再現的步驟：</u>
 
-在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** **&#x200B; **
+在Commerce Admin中，前往&#x200B;**銷售** > **Braintree虛擬終端機** 。 ** **
 
 <u>預期結果：</u>
 
@@ -69,6 +78,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱[如何套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
+如需指示，請參閱[如何套用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
 
 ## 附加的檔案

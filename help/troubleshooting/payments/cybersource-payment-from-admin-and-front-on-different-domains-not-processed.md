@@ -4,24 +4,38 @@ description: 針對已知的Adobe Commerce 2.3.0限制，提供修補程式，�
 exl-id: 948d5907-70bd-4890-bc8a-23e04b116018
 feature: Admin Workspace, Orders, Payments
 role: Developer
-source-git-commit: 1dcd003bd9b08741c0fba464f5520797cfaeccbb
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 4820f335-ec9f-5611-8fe3-f5b7e3e56967
+    internal-label: Orders
+  - id: 3dcbfa9e-51f8-569c-a0e4-7f59098f730f
+    internal-label: Payments
+  - id: e7dae43f-215c-4cdf-90d3-c5a461a6e669
+    internal-label: Admin tools and workspace
+subfeature_v2:
+  - id: bb2df8be-afdd-4818-b6b5-95ca1dd3bc3a
+    internal-label: Admin workspace
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # 系統不會處理來自不同網域之管理員和前端的數位來源付款
 
 針對已知的Adobe Commerce 2.3.0限制，提供修補程式，限制無法從店面和Commerce管理員（若位於不同網域）處理網路來源付款。
 
 >[!NOTE]
 >
->核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。請改用marketplace的[正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html)。
+>核心的Adobe Commerce網路來源支付整合自2.3.3之後已淘汰，並將在2.4.0中完全移除。 請改用marketplace的[正式副檔名](https://marketplace.magento.com/cybersource-global-payment-management.html)。
 
 ## 問題
 
-先前實施的Cybersource整合僅允許處理來自一個網域的付款。 因此，如果您的Adobe Commerce店面與Commerce管理員位於不同的網域，當您嘗試在管理員中使用網路來源下訂單時，會出現下列錯誤： &quot; *Load denied by X-Frame-Options： https://%your\_domain%/cybersource/SilentOrder/TokenResponse/不允許跨來源框架。* ...&quot;
+先前實施的Cybersource整合僅允許處理來自一個網域的付款。 因此，如果您的Adobe Commerce店面與Commerce管理員位於不同的網域，當您嘗試在管理員中使用網路來源下訂單時，會出現下列錯誤： &quot; *Load denied by X-Frame-Options： https://%your\_domain%/cybersource/SilentOrder/TokenResponse/不允許跨來源框架。* ..&quot;
 
 <u>要再現的步驟</u>：
 
@@ -69,6 +83,6 @@ ht-degree: 0%
 
 ## 如何套用修補程式
 
-如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
+如需指示，請參閱我們的支援知識庫中的[如何套用Adobe](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-commerce-support/how-to-apply-a-composer-patch-provided-by-magento)提供的撰寫器修補程式。
 
 ## 附加的檔案

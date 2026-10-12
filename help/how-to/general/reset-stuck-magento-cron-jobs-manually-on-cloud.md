@@ -3,26 +3,30 @@ title: 手動重設雲端基礎結構上的Adobe Commerce cron工作卡住
 description: 雲端基礎結構上的Adobe Commerce cron工作沒有完成執行、卡住且無法執行其他cron工作。 本文說明如何手動重設停滯的cron工作。
 exl-id: aec6de8e-c3a9-4a6d-8ecd-a213e77c97a1
 feature: Cloud
-source-git-commit: 83b21845cd306336e1cb193a9541478c8a38eea8
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 5a951749-fac9-5bc7-9a98-ebe4ff066437
+    internal-label: Cloud
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '219'
 ht-degree: 0%
-
 ---
-
 # 手動重設雲端基礎結構上的Adobe Commerce cron工作卡住
 
 雲端基礎結構上的Adobe Commerce cron工作沒有完成執行、卡住且無法執行其他cron工作。 本文說明如何手動重設停滯的cron工作。
 
-請謹慎使用此命令！ 建議您閱讀支援知識庫中的[重設cron工作](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=zh-Hant)文章，以取得詳細資訊。
+請謹慎使用此命令！ 建議您閱讀支援知識庫中的[重設cron工作](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)文章，以取得詳細資訊。
 
 ## 步驟
 
 >[!INFO]
 >
->從[ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html?lang=zh-Hant#v2002.0.4)，您可以使用CLI命令，透過SSH存取手動重設卡住的cron工作。
+>從[ECE-Tools v2002.0.4](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/release-notes/cloud-release-archive.html#v2002.0.4)，您可以使用CLI命令，透過SSH存取手動重設卡住的cron工作。
 
-1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html?lang=zh-Hant)。
+1. [SSH至您的環境](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/develop/secure-connections.html)。
 1. 執行此命令： `./vendor/bin/ece-tools cron:unlock`
 
 ## 警告
@@ -32,4 +36,4 @@ ht-degree: 0%
 
 ## 請閱讀我們的支援知識庫：
 
-[重設cron工作](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html?lang=zh-Hant)
+[重設cron工作](https://experienceleague.adobe.com/docs/commerce-knowledge-base/kb/troubleshooting/miscellaneous/cron-job-is-stuck-in-running-status.html)

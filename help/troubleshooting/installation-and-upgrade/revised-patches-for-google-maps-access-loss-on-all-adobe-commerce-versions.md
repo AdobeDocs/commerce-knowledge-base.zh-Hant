@@ -4,7 +4,18 @@ description: 本文針對Adobe Commerce商家不相容於3.54+以上任何最新
 feature: Install, Upgrade
 role: Developer
 exl-id: 6151e89a-3190-40cb-b599-94ae5530488b
-source-git-commit: d7e58d6a9ed8e9b369ea41165cbdd6b362e40824
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: 6388cf7b-8a81-5248-a1e4-7bb57bbe250f
+    internal-label: Install
+  - id: a8ae7a5a-6cdc-5922-bd0d-6feb44b04984
+    internal-label: Upgrade
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 0%
@@ -24,9 +35,9 @@ ht-degree: 0%
 
 如需詳細資訊，請參閱[[!DNL Google Maps Platform: Maps JavaScript API]](https://developers.google.com/maps/documentation/javascript/versions#documentation-for-the-api-versions)。
 
-Adobe Commerce與3.54+版本的任何最新[!DNL &#x200B; Google Maps]版本不相容。
+Adobe Commerce與3.54+版本的任何最新[!DNL  Google Maps]版本不相容。
 
-不相容性是由舊版`prototype.js script`所造成，透過`lib/web/legacy-build.min.js`載入會覆寫原生Array.from函式，導致與[!DNL &#x200B; Google Maps] API直接衝突。
+不相容性是由舊版`prototype.js script`所造成，透過`lib/web/legacy-build.min.js`載入會覆寫原生Array.from函式，導致與[!DNL  Google Maps] API直接衝突。
 
 請參閱[[!DNL Google Maps: JS Best Practices]](https://developers.google.com/maps/documentation/javascript/best-practices)。
 
@@ -71,4 +82,4 @@ Adobe Commerce與3.54+版本的任何最新[!DNL &#x200B; Google Maps]版本不�
 
 ## 相關閱讀
 
-[如何套用Adobe提供的撰寫器修補程式](https://experienceleague.adobe.com/zh-hant/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)
+[如何套用Adobe提供的撰寫器修補程式](https://experienceleague.adobe.com/en/docs/commerce-knowledge-base/kb/how-to/how-to-apply-a-composer-patch-provided-by-magento)

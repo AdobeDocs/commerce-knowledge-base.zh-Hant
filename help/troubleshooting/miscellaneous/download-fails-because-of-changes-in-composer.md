@@ -4,13 +4,20 @@ description: 本文修正失敗的Adobe Commerce下載和例外狀況錯誤。
 exl-id: 5abdab97-4b0c-466b-a68f-a2637d2826e5
 feature: Configuration
 role: Developer
-source-git-commit: 2aeb2355b74d1cdfc62b5e7c5aa04fcd0a654733
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: dac87252-6066-4d6e-a9d2-f6d84c323de7
+    internal-label: Configuration
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '190'
 ht-degree: 0%
-
 ---
-
 # 由於撰寫器發生變更，下載失敗
 
 本文修正失敗的Adobe Commerce下載和例外狀況錯誤。
@@ -52,5 +59,5 @@ Composer version 1.0-dev (2b14f0a047dd4f3545ec82381f65c36ea93a4c81) 2015-11-25 1
    * 將Composer升級為2015年11月26日之後的版本： `composer self-update`。
 
 1. 刪除您的Adobe Commerce目錄和子目錄。
-1. 請使用`[composer create-project](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/installation-guide/composer)`或`[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`再次嘗試下載。
+1. 請使用`[composer create-project](https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/composer)`或`[git clone](https://developer.adobe.com/commerce/contributor/guides/install/clone-repository/)`再次嘗試下載。
 1. 成功下載Adobe Commerce軟體後，更新撰寫器： `composer self-update`。

@@ -4,13 +4,23 @@ description: 本文修正透過「Commerce管理員」更新產品類別時，�
 exl-id: d951205c-add9-478c-9c7d-2ba975d53b14
 feature: Categories
 role: Developer
-source-git-commit: 1fa5ba91a788351c7a7ce8bc0e826f05c5d98de5
+product_v2:
+  - id: eadea719-cf89-469b-a6fd-a236a7138047
+    internal-label: Commerce
+feature_v2:
+  - id: c18ed297-2187-4aec-affb-9d9654eca6fc
+    internal-label: Catalog management
+subfeature_v2:
+  - id: e91a50b1-0b31-436e-9033-00e4776e94cb
+    internal-label: Categories
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+source-git-commit: 6c96745ec333f45361f77f8116cd9a5684da0aa0
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 0%
-
 ---
-
 # 類別變更未儲存
 
 本文修正透過「Commerce管理員」更新產品類別時，管理員和店面不會顯示變更的問題。 問題是由於`catalog_category_entity`資料表中的資料損毀所造成。 若要解決此問題，請修正或移除表格中有問題的類別更新記錄。 之後，您應該能夠使用管理員更新產品類別。
@@ -23,7 +33,7 @@ ht-degree: 0%
 
 1. 移至&#x200B;**目錄** > **類別**。
 1. 選取類別。
-1. 進行變更，然後按一下[儲存]。**&#x200B;**
+1. 進行變更，然後按一下[儲存]。****
 1. 顯示訊息： *您已儲存類別*。
 1. 請注意，您所做的變更尚未儲存。
 
@@ -40,7 +50,7 @@ ht-degree: 0%
 
 ### 第二個資料庫專案（以及所有後續專案）如何出現在相同類別的DB中？
 
-受影響類別的第二個DB記錄（可能還有下一個記錄）表示有使用Magento\_Staging模組排程的類別更新。 模組會為`catalog_category_entity`中的類別建立額外記錄，這是預期的應用程式行為；問題是這些記錄的`created_in`欄具有相同的值。
+受影響類別的第二個DB記錄（可能還有後續記錄）表示已使用Magento\_Staging模組排程類別更新。 模組會為`catalog_category_entity`中的類別建立額外記錄，這是預期的應用程式行為；問題是這些記錄的`created_in`欄具有相同的值。
 
 ### 相同的值如何顯示？
 
@@ -92,4 +102,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/zh-hant/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
+[在Commerce實作行動手冊中修改資料庫表格的最佳實務](https://experienceleague.adobe.com/en/docs/commerce-operations/implementation-playbook/best-practices/development/modifying-core-and-third-party-tables#why-adobe-recommends-avoiding-modifications)
