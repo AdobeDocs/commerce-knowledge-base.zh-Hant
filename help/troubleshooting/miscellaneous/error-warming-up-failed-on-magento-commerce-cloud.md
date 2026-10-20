@@ -61,4 +61,4 @@ ht-degree: 0%
 
 ## 相關閱讀
 
-* [Adobe Commerce使用手冊>完整頁面快取](https://experienceleague.adobe.com/en/docs/commerce-admin/systems/tools/cache-management#full-page-caching) （在我們的使用手冊中）。
+* [Adobe Commerce使用手冊>完整頁面快取](https://experienceleague.adobe.com/zh-hant/docs/commerce-admin/systems/tools/cache-management#full-page-caching) （在我們的使用手冊中）。
