@@ -2,9 +2,9 @@
 user-guide-title: Adobe Commerce 知識庫
 user-guide-description: 為 Commerce 商店進行疑難排解和維護所需的一切。
 breadcrumb-title: Commerce KB
-source-git-commit: 152df0a44bb16aae19cd84c6d79b891da7365565
+source-git-commit: f95d594316ff1df6f10be04bc4662e9907bee469
 workflow-type: tm+mt
-source-wordcount: '1573'
+source-wordcount: '1559'
 ht-degree: 1%
 ---
 # Adobe Commerce 知識庫 {#kb}
@@ -72,8 +72,6 @@ ht-degree: 1%
     * [修訂所有Adobe Commerce版本上Google地圖存取遺失的修補程式](/help/troubleshooting/installation-and-upgrade/revised-patches-for-google-maps-access-loss-on-all-adobe-commerce-versions.md)
   * 其他 {#miscellaneous}
     * [我已為Adobe AI設定API金鑰，但只看到一個SaaS資料空間](/help/troubleshooting/miscellaneous/i-have-configured-api-keys-for-sensei-but-only-seeing-1-saas-data-space.md)
-    * [一般自訂模組疑難排解說明](/help/troubleshooting/miscellaneous/general-custom-module-troubleshooting-help.md)
-    * [快取預熱且網站無法在Adobe Commerce上使用](/help/troubleshooting/miscellaneous/cache-warming-up-and-site-unavailable-on-magento.md)
     * [使用資料匯出功能來精確找出差異](/help/troubleshooting/miscellaneous/using-data-exports-to-pinpoint-discrepancies.md)
     * [元件相依性整備檢查問題](/help/troubleshooting/miscellaneous/component-dependency-readiness-check-issues.md)
     * [無法在雲端基礎結構UI上存取Adobe Commerce](/help/troubleshooting/miscellaneous/cannot-access-magento-commerce-cloud-ui.md)
